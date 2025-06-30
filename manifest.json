@@ -1,0 +1,7 @@
+{
+    "namespace": "expandedAreas",
+    "setup": "setup.mjs",
+    "load": [
+        "data/expandedAreas.json"
+    ]
+}
