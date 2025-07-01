@@ -2432,20 +2432,14 @@
         "golbinRaidExclusive": false,
         "sellsFor": 300,
         "tier": "none",
-        "customDescription": "Reduces the Air and Earth Rune costs of Magic Spells by 2 when equipped as a Weapon (Cost cannot go below 1).",
+        "customDescription": "Reduces the Air and Earth Rune costs of Magic Spells by 1 when equipped as a Weapon.",
         "validSlots": [
           "melvorD:Weapon"
         ],
         "occupiesSlots": [
           "melvorD:Shield"
         ],
-        "equipRequirements": [
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Magic",
-            "level": 20
-          }
-        ],
+        "equipRequirements": [],
         "equipmentStats": [
           {
             "key": "attackSpeed",
@@ -2471,11 +2465,11 @@
         "providedRunes": [
           {
             "id": "melvorD:Air_Rune",
-            "quantity": 2
+            "quantity": 1
           },
           {
             "id": "melvorD:Earth_Rune",
-            "quantity": 2
+            "quantity": 1
           }
         ]
       },
@@ -2907,7 +2901,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 135000,
-        "customDescription": "Reduces the Air and Earth Rune cost of Magic Spells by 3 when equipped as a Weapon.",
+        "customDescription": "Reduces the Air and Earth Rune costs of Magic Spells by 3 when equipped as a Weapon.",
         "tier": "wand",
         "validSlots": [
           "Weapon"
@@ -2964,7 +2958,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 7500,
-        "customDescription": "Reduces the Air and Earth Rune cost of Magic Spells by 3 when equipped as a Weapon.",
+        "customDescription": "Reduces the Air and Earth Rune costs of Magic Spells by 3 when equipped as a Weapon.",
         "tier": "staff",
         "validSlots": [
           "Weapon"
@@ -3016,15 +3010,15 @@
       },
       {
         "id": "Dust_Battlestaff",
-        "name": "Earth Battlestaff",
+        "name": "Dust Battlestaff",
         "category": "Combat",
         "type": "Magic Staff",
-        "media": "assets/media/bank/earth_battlestaff.png",
+        "media": "assets/items/Dust_Battlestaff.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 690,
-        "customDescription": "Reduces the Air and Earth Rune cost of Magic Spells by 2 when equipped as a Weapon.",
+        "customDescription": "Reduces the Air and Earth Rune costs of Magic Spells by 2 when equipped as a Weapon.",
         "tier": "staff",
         "validSlots": [
           "Weapon"
@@ -3146,7 +3140,7 @@
               "productID": "expandedAreas:Dust_Battlestaff",
               "baseQuantity": 1,
               "baseExperience": 48,
-              "categoryID": "expandedAreas:Co",
+              "categoryID": "expandedAreas:Combination_Staves_and_Wands",
               "itemCosts": [
                 {
                   "id": "melvorD:Earth_Battlestaff",
@@ -3176,7 +3170,7 @@
               "categoryID": "expandedAreas:Combination_Staves_and_Wands",
               "itemCosts": [
                 {
-                  "id": "melvorF:Mystic_Air_Staff",
+                  "id": "melvorD:Mystic_Air_Staff",
                   "quantity": 10
                 },
                 {
