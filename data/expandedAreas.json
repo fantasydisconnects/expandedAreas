@@ -1953,7 +1953,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 68,
-        "tier": "none",
+        "tier": "rune",
         "validSlots": [
           "melvorD:Weapon"
         ],
@@ -2528,6 +2528,348 @@
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "customDescription": "Disgustingly useless."
+      },
+      {
+        "id": "Bronze_Thrownaxe",
+        "name": "Bronze Thrownaxe",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "assets/items/Bronze_Thrownaxe.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 4,
+        "tier": "bronze",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [
+          "Weapon"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2100
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 35
+          }
+        ],
+        "modifiers": {
+          "melvorD:rangedCritChance": [
+            {
+              "value": 1
+            }
+          ]
+        },
+        "ammoType": "ThrowingKnives",
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "ThrowingKnives"
+      },
+      {
+        "id": "Iron_Thrownaxe",
+        "name": "Iron Thrownaxe",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "assets/items/Iron_Thrownaxe.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 9,
+        "tier": "iron",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [
+          "Weapon"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2100
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 37
+          }
+        ],
+        "modifiers": {
+          "melvorD:rangedCritChance": [
+            {
+              "value": 2
+            }
+          ]
+        },
+        "ammoType": "ThrowingKnives",
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "ThrowingKnives"
+      },
+      {
+        "id": "Steel_Thrownaxe",
+        "name": "Steel Thrownaxe",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "assets/items/Steel_Thrownaxe.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 21,
+        "tier": "steel",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [
+          "Weapon"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 5
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2100
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 4
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 41
+          }
+        ],
+        "modifiers": {
+          "melvorD:rangedCritChance": [
+            {
+              "value": 3
+            }
+          ]
+        },
+        "ammoType": "ThrowingKnives",
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "ThrowingKnives"
+      },
+      {
+        "id": "Mithril_Thrownaxe",
+        "name": "Mithril Thrownaxe",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "assets/items/Mithril_Thrownaxe.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 81,
+        "tier": "mithril",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [
+          "Weapon"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 20
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2100
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 45
+          }
+        ],
+        "modifiers": {
+          "melvorD:rangedCritChance": [
+            {
+              "value": 4
+            }
+          ]
+        },
+        "ammoType": "ThrowingKnives",
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "ThrowingKnives"
+      },
+      {
+        "id": "Adamant_Thrownaxe",
+        "name": "Adamant Thrownaxe",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "assets/items/Adamant_Thrownaxe.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 117,
+        "tier": "adamant",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [
+          "Weapon"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 30
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2100
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 7
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 51
+          }
+        ],
+        "modifiers": {
+          "melvorD:rangedCritChance": [
+            {
+              "value": 6
+            }
+          ]
+        },
+        "ammoType": "ThrowingKnives",
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "ThrowingKnives"
+      },
+      {
+        "id": "Rune_Thrownaxe",
+        "name": "Rune Thrownaxe",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "assets/items/Rune_Thrownaxe.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 21,
+        "tier": "rune",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [
+          "Weapon"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2100
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 58
+          }
+        ],
+        "modifiers": {
+          "melvorD:rangedCritChance": [
+            {
+              "value": 7
+            }
+          ]
+        },
+        "ammoType": "ThrowingKnives",
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "ThrowingKnives"
+      },
+      {
+        "id": "Dragon_Thrownaxe",
+        "name": "Dragon Thrownaxe",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "assets/items/Dragon_Thrownaxe.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 338,
+        "tier": "dragon",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [
+          "Weapon"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2100
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 10
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 71
+          }
+        ],
+        "modifiers": {
+          "melvorD:rangedCritChance": [
+            {
+              "value": 8
+            }
+          ]
+        },
+        "ammoType": "ThrowingKnives",
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "ThrowingKnives"
       }
     ],
     "itemSynergies": [
@@ -2621,6 +2963,244 @@
                 {
                   "id": "expandedAreas:Sand",
                   "quantity": 10
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Smithing",
+        "data": {
+          "categories": [
+            {
+              "id": "Barbarian_Smithing",
+              "name": "Barbarian Smithing",
+              "media": "assets/combatAreas/Barbarian_Village_Icon.png"
+            }
+          ],
+          "recipes": [
+            {
+              "id": "Bronze_Spear_Recipe",
+              "productID": "expandedAreas:Bronze_Spear",
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "baseExperience": 20,
+              "baseQuantity": 1,
+              "level": 9,
+              "itemCosts": [
+                {
+                  "id": "melvorD:Normal_Logs",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Bronze_Bar",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Iron_Spear_Recipe",
+              "productID": "expandedAreas:Iron_Spear",
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "baseExperience": 40,
+              "baseQuantity": 1,
+              "level": 24,
+              "itemCosts": [
+                {
+                  "id": "melvorD:Oak_Logs",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Iron_Bar",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Steel_Spear_Recipe",
+              "productID": "expandedAreas:Steel_Spear",
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "baseExperience": 60,
+              "baseQuantity": 1,
+              "level": 39,
+              "itemCosts": [
+                {
+                  "id": "melvorD:Willow_Logs",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Steel_Bar",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Mithril_Spear_Recipe",
+              "productID": "expandedAreas:Mithril_Spear",
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "baseExperience": 100,
+              "baseQuantity": 1,
+              "level": 54,
+              "itemCosts": [
+                {
+                  "id": "melvorD:Maple_Logs",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Mithril_Bar",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Adamant_Spear_Recipe",
+              "productID": "expandedAreas:Adamant_Spear",
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "baseExperience": 120,
+              "baseQuantity": 1,
+              "level": 69,
+              "itemCosts": [
+                {
+                  "id": "melvorD:Yew_Logs",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Adamantite_Bar",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Rune_Spear_Recipe",
+              "productID": "expandedAreas:Rune_Spear",
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "baseExperience": 150,
+              "baseQuantity": 1,
+              "level": 84,
+              "itemCosts": [
+                {
+                  "id": "melvorD:Magic_Logs",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Runite_Bar",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Dragon_Spear_Recipe",
+              "productID": "expandedAreas:Dragon_Spear",
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "baseExperience": 200,
+              "baseQuantity": 1,
+              "level": 98,
+              "itemCosts": [
+                {
+                  "id": "melvorD:Redwood_Logs",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Dragonite_Bar",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Bronze_Thrownaxe",
+              "productID": "expandedAreas:Bronze_Thrownaxe",
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "baseExperience": 10,
+              "baseQuantity": 3,
+              "level": 4,
+              "itemCosts": [
+                {
+                  "id": "melvorD:Bronze_Bar",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Iron_Thrownaxe",
+              "productID": "expandedAreas:Iron_Thrownaxe",
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "baseExperience": 20,
+              "baseQuantity": 3,
+              "level": 13,
+              "itemCosts": [
+                {
+                  "id": "melvorD:Iron_Bar",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Steel_Thrownaxe",
+              "productID": "expandedAreas:Steel_Thrownaxe",
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "baseExperience": 30,
+              "baseQuantity": 3,
+              "level": 28,
+              "itemCosts": [
+                {
+                  "id": "melvorD:Steel_Bar",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Mithril_Thrownaxe",
+              "productID": "expandedAreas:Mithril_Thrownaxe",
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "baseExperience": 50,
+              "baseQuantity": 3,
+              "level": 43,
+              "itemCosts": [
+                {
+                  "id": "melvorD:Mithril_Bar",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Adamant_Thrownaxe",
+              "productID": "expandedAreas:Adamant_Thrownaxe",
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "baseExperience": 60,
+              "baseQuantity": 3,
+              "level": 58,
+              "itemCosts": [
+                {
+                  "id": "melvorD:Adamantite_Bar",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Rune_Thrownaxe",
+              "productID": "expandedAreas:Rune_Thrownaxe",
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "baseExperience": 75,
+              "baseQuantity": 3,
+              "level": 73,
+              "itemCosts": [
+                {
+                  "id": "melvorD:Runite_Bar",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Dragon_Thrownaxe",
+              "productID": "expandedAreas:Dragon_Thrownaxe",
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "baseExperience": 100,
+              "baseQuantity": 3,
+              "level": 88,
+              "itemCosts": [
+                {
+                  "id": "melvorD:Dragonite_Bar",
+                  "quantity": 1
                 }
               ]
             }
