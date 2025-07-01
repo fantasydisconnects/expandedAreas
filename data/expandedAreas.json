@@ -3143,12 +3143,12 @@
               "categoryID": "expandedAreas:Combination_Staves_and_Wands",
               "itemCosts": [
                 {
-                  "id": "melvorD:Earth_Battlestaff",
-                  "quantity": 10
+                  "id": "melvorD:Air_Battlestaff",
+                  "quantity": 1
                 },
                 {
-                  "id": "melvorD:Air_Battlestaff",
-                  "quantity": 10
+                  "id": "melvorD:Earth_Battlestaff",
+                  "quantity": 1
                 },
                 {
                   "id": "melvorD:Dust_Rune",
@@ -3171,11 +3171,11 @@
               "itemCosts": [
                 {
                   "id": "melvorD:Mystic_Air_Staff",
-                  "quantity": 10
+                  "quantity": 1
                 },
                 {
                   "id": "melvorF:Mystic_Earth_Staff",
-                  "quantity": 10
+                  "quantity": 1
                 },
                 {
                   "id": "melvorD:Dust_Rune",
@@ -3240,7 +3240,7 @@
                 },
                 {
                   "id": "expandedAreas:Sand",
-                  "quantity": 10
+                  "quantity": 25
                 }
               ]
             }
