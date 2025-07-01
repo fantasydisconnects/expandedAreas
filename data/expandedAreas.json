@@ -1326,7 +1326,7 @@
         "lootChance": 100,
         "lootTable": [
           {
-            "itemID": "expandedAreas:Grub",
+            "itemID": "expandedAreas:Raw_Grub",
             "minQuantity": 1,
             "maxQuantity": 1,
             "weight": 100
@@ -2369,17 +2369,43 @@
         }
       },
       {
-        "id": "Grub",
-        "name": "Grub",
+        "id": "Raw_Grub",
+        "name": "Raw Grub",
         "category": "Cooking",
         "itemType": "Food",
         "type": "Food",
-        "media": "assets/items/Grub.png",
+        "media": "assets/items/Raw_Grub.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "healsFor": 4
+      },
+      {
+        "id": "Cooked_Grub",
+        "name": "Cooked Grub",
+        "category": "Cooking",
+        "itemType": "Food",
+        "type": "Food",
+        "media": "assets/items/Cooked_Grub.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 5,
+        "healsFor": 8
+      },
+      {
+        "id": "Cooked_Grub_Perfect",
+        "name": "Cooked Grub (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Cooked_Grub_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 10,
+        "itemType": "Food",
+        "healsFor": 8.8
       },
       {
         "id": "Sand",
@@ -3203,6 +3229,30 @@
                   "quantity": 1
                 }
               ]
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Cooking",
+        "data": {
+          "recipes": [
+            {
+              "id": "Cooked_Grub",
+              "productID": "expandedAreas:Cooked_Grub",
+              "perfectCookID": "expandedAreas:Cooked_Grub_Perfect",
+              "baseExperience": 31,
+              "level": 18,
+              "baseInterval": 3000,
+              "baseQuantity": 1,
+              "categoryID": "melvorD:Fire",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Raw_Grub",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
             }
           ]
         }
