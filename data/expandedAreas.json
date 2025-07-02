@@ -19,6 +19,32 @@
           "expandedAreas:Mysterious_Monk"
         ],
         "entryRequirements": []
+      },
+      {
+        "id": "Secluded_Monastery",
+        "name": "Secluded Monastery",
+        "media": "assets/combatAreas/Secluded_Monastery.png",
+        "monsterIDs": [
+          "expandedAreas:Monk1",
+          "expandedAreas:Monk2",
+          "expandedAreas:Monk3",
+          "expandedAreas:Monk4",
+          "expandedAreas:Elemental1",
+          "expandedAreas:Elemental2",
+          "expandedAreas:Elemental3",
+          "expandedAreas:Elemental4"
+        ],
+        "difficulty": [
+          0,
+          2
+        ],
+        "entryRequirements": [
+          {
+            "skillID": "melvorD:Prayer",
+            "level": 60,
+            "type": "SkillLevel"
+          }
+        ]
       }
     ],
     "dungeons": [
@@ -3226,7 +3252,7 @@
     "lore": [
       {
         "id": "Mysterious_Holy_Text",
-        "media": "assets/items/Mysterious_Holy_text.png",
+        "media": "assets/items/Mysterious_Holy_Text.png",
         "title": "Mysterious Holy Text",
         "unlockRequirements": [
           {
@@ -3741,6 +3767,20 @@
               "afterID": "melvorD:Farmlands",
               "ids": [
                 "expandedAreas:Low_Town"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:CombatAreas",
+        "areas": {
+          "add": [
+            {
+              "insertAt": "After",
+              "afterID": "melvorD:Wizard_Tower",
+              "ids": [
+                "expandedAreas:Secluded_Monastery"
               ]
             }
           ]
