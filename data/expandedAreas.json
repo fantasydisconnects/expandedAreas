@@ -15,7 +15,8 @@
           "expandedAreas:Peasant_Woman",
           "expandedAreas:Pickpocket",
           "expandedAreas:Guard",
-          "expandedAreas:Executioner"
+          "expandedAreas:Executioner",
+          "expandedAreas:Mysterious_Monk"
         ],
         "entryRequirements": []
       }
@@ -997,12 +998,12 @@
         "name": "Executioner",
         "media": "assets/monsters/Executioner.png",
         "levels": {
-          "Attack": 45,
-          "Defence": 30,
-          "Hitpoints": 50,
+          "Attack": 28,
+          "Defence": 26,
+          "Hitpoints": 36,
           "Magic": 1,
           "Ranged": 1,
-          "Strength": 45
+          "Strength": 44
         },
         "equipmentStats": [
           {
@@ -1109,6 +1110,94 @@
             "max": 82
           }
         ],
+        "bones": {
+          "itemID": "melvorD:Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "Mysterious_Monk",
+        "name": "Mysterious Monk",
+        "media": "assets/monsters/Mysterious_Monk.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 45,
+          "Hitpoints": 43,
+          "Magic": 50,
+          "Ranged": 1,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 10
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 20
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 10
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "magic",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 50,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Air_Rune",
+            "weight": 100,
+            "maxQuantity": 16,
+            "minQuantity": 3
+          },
+          {
+            "itemID": "melvorD:Light_Rune",
+            "weight": 50,
+            "maxQuantity": 4,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "melvorD:Big_Bones",
+            "weight": 25,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "melvorF:Holy_Dust",
+            "weight": 20,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "melvorD:Oxilyme_Herb",
+            "weight": 15,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "expandedAreas:Monk_Robe_Top",
+            "weight": 3,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "expandedAreas:Monk_Robe_Bottom",
+            "weight": 3,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          }
+        ],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindBlast",
+        "currencyDrops": [],
         "bones": {
           "itemID": "melvorD:Bones",
           "quantity": 1
@@ -3067,6 +3156,85 @@
         ],
         "itemType": "Weapon",
         "attackType": "magic"
+      },
+      {
+        "id": "Mysterious_Holy_Text",
+        "name": "Mysterious Holy Text",
+        "category": "Misc",
+        "type": "Special",
+        "media": "assets/items/Mysterious_Holy_text.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 0,
+        "customDescription": "A battered and worn holy text of indecipherable age.",
+        "itemType": "Readable",
+        "swalData": {
+          "title": "MISC_STRING_MYSTERIOUS_HOLY_TEXT_TITLE",
+          "htmlTemplateID": "Mysterious_Holy_Text_Swal_Content"
+        }
+      },
+      {
+        "id": "Monk_Robe_Top",
+        "name": "Monk Robe Top",
+        "category": "Misc",
+        "type": "Armour",
+        "media": "assets/items/Monk_Robe_Top.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 100,
+        "tier": "robe",
+        "validSlots": [
+          "Platebody",
+          "Passive"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [],
+        "itemType": "Equipment",
+        "modifiers": {
+          "flatPrayerPointCost": -1,
+          "prayerPointPreservationChance": 10
+        }
+      },
+      {
+        "id": "Monk_Robe_Bottom",
+        "name": "Monk Robe Bottom",
+        "category": "Misc",
+        "type": "Armour",
+        "media": "assets/items/Monk_Robe_Bottom.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 80,
+        "tier": "robe",
+        "validSlots": [
+          "Platelegs",
+          "Passive"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [],
+        "itemType": "Equipment",
+        "modifiers": {
+          "flatPrayerPointCost": -1,
+          "prayerPointPreservationChance": 10
+        }
+      }
+    ],
+    "lore": [
+      {
+        "id": "Mysterious_Holy_Text",
+        "media": "assets/items/Mysterious_Holy_text.png",
+        "title": "Mysterious Holy Text",
+        "unlockRequirements": [
+          {
+            "monsterID": "expandedAreas:Mysterious_Monk",
+            "type": "MonsterKilled",
+            "count": 100
+          }
+        ]
       }
     ],
     "itemSynergies": [
