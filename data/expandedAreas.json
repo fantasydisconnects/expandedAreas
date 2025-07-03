@@ -25,23 +25,20 @@
         "name": "Secluded Monastery",
         "media": "assets/combatAreas/Secluded_Monastery.png",
         "monsterIDs": [
-          "expandedAreas:Monk1",
-          "expandedAreas:Monk2",
-          "expandedAreas:Monk3",
-          "expandedAreas:Monk4",
-          "expandedAreas:Elemental1",
-          "expandedAreas:Elemental2",
-          "expandedAreas:Elemental3",
-          "expandedAreas:Elemental4"
+          "expandedAreas:Monk_of_the_Wind",
+          "expandedAreas:Monk_of_the_River",
+          "expandedAreas:Monk_of_the_Moss",
+          "expandedAreas:Monk_of_the_Flame",
+          "expandedAreas:Guardian_of_the_Elements"
         ],
         "difficulty": [
-          0,
+          1,
           2
         ],
         "entryRequirements": [
           {
             "skillID": "melvorD:Prayer",
-            "level": 60,
+            "level": 50,
             "type": "SkillLevel"
           }
         ]
@@ -69,6 +66,37 @@
         "pauseOnBosses": false,
         "rewardItemIDs": [
           "expandedAreas:Damaged_Supply_Crate"
+        ]
+      },
+      {
+        "difficulty": [
+          3
+        ],
+        "dropBones": false,
+        "entryRequirements": [
+          {
+            "type": "ItemFound",
+            "itemID": "expandedAreas:Elemental_Orb"
+          }
+        ],
+        "fixedPetClears": false,
+        "id": "Elemental_Sanctuary",
+        "media": "assets/dungeons/Elemental_Sanctuary.png",
+        "monsterIDs": [
+          "expandedAreas:Monk_of_the_Wind",
+          "expandedAreas:Monk_of_the_River",
+          "expandedAreas:Monk_of_the_Moss",
+          "expandedAreas:Monk_of_the_Flame",
+          "expandedAreas:Spirit_of_the_Wind",
+          "expandedAreas:Spirit_of_the_River",
+          "expandedAreas:Spirit_of_the_Moss",
+          "expandedAreas:Spirit_of_the_Flame",
+          "expandedAreas:Avatar_of_the_Elements"
+        ],
+        "name": "Elemental Sanctuary",
+        "pauseOnBosses": false,
+        "rewardItemIDs": [
+          "expandedAreas:Elemental_Chest"
         ]
       }
     ],
@@ -1184,6 +1212,24 @@
             "minQuantity": 3
           },
           {
+            "itemID": "melvorD:Water_Rune",
+            "weight": 100,
+            "maxQuantity": 16,
+            "minQuantity": 3
+          },
+          {
+            "itemID": "melvorD:Earth_Rune",
+            "weight": 100,
+            "maxQuantity": 16,
+            "minQuantity": 3
+          },
+          {
+            "itemID": "melvorD:Fire_Rune",
+            "weight": 100,
+            "maxQuantity": 16,
+            "minQuantity": 3
+          },
+          {
             "itemID": "melvorD:Light_Rune",
             "weight": 50,
             "maxQuantity": 4,
@@ -1619,6 +1665,174 @@
         "description": "If only I had a banana...",
         "bones": {
           "itemID": "expandedAreas:Monkey_Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "Monk_of_the_Wind",
+        "name": "Monk of the Wind",
+        "media": "assets/monsters/Monk_of_the_Wind.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 70,
+          "Hitpoints": 65,
+          "Magic": 70,
+          "Ranged": 1,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 40
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 50
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "magic",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 50,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Air_Rune",
+            "weight": 100,
+            "maxQuantity": 50,
+            "minQuantity": 10
+          },
+          {
+            "itemID": "expandedAreas:Eye_of_Air",
+            "weight": 90,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "melvorD:Mystic_Air_Staff",
+            "weight": 80,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "melvorF:Air_Adept_Wizard_Boots",
+            "weight": 70,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "melvorF:Air_Adept_Wizard_Hat",
+            "weight": 60,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "melvorF:Air_Adept_Wizard_Bottoms",
+            "weight": 50,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "melvorF:Air_Adept_Wizard_Robes",
+            "weight": 40,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          }
+        ],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorF:SlicingWinds",
+        "currencyDrops": [],
+        "bones": {
+          "itemID": "melvorD:Magic_Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "Monk_of_the_River",
+        "name": "Monk of the River",
+        "media": "assets/monsters/Monk_of_the_River.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 90,
+          "Hitpoints": 85,
+          "Magic": 90,
+          "Ranged": 1,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 60
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 70
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "magic",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 50,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Water_Rune",
+            "weight": 100,
+            "maxQuantity": 50,
+            "minQuantity": 10
+          },
+          {
+            "itemID": "expandedAreas:Eye_of_Water",
+            "weight": 90,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "melvorF:Mystic_Water_Staff",
+            "weight": 80,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "melvorF:Water_Adept_Wizard_Boots",
+            "weight": 70,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "melvorF:Water_Adept_Wizard_Hat",
+            "weight": 60,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "melvorF:Water_Adept_Wizard_Bottoms",
+            "weight": 50,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "melvorF:Water_Adept_Wizard_Robes",
+            "weight": 40,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          }
+        ],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorF:IcicleVolley",
+        "currencyDrops": [],
+        "bones": {
+          "itemID": "melvorD:Magic_Bones",
           "quantity": 1
         }
       }
@@ -3184,23 +3398,6 @@
         "attackType": "magic"
       },
       {
-        "id": "Mysterious_Holy_Text",
-        "name": "Mysterious Holy Text",
-        "category": "Misc",
-        "type": "Special",
-        "media": "assets/items/Mysterious_Holy_text.png",
-        "ignoreCompletion": false,
-        "obtainFromItemLog": false,
-        "golbinRaidExclusive": false,
-        "sellsFor": 0,
-        "customDescription": "A battered and worn holy text of indecipherable age.",
-        "itemType": "Readable",
-        "swalData": {
-          "title": "MISC_STRING_MYSTERIOUS_HOLY_TEXT_TITLE",
-          "htmlTemplateID": "Mysterious_Holy_Text_Swal_Content"
-        }
-      },
-      {
         "id": "Monk_Robe_Top",
         "name": "Monk Robe Top",
         "category": "Misc",
@@ -3247,20 +3444,6 @@
           "flatPrayerPointCost": -1,
           "prayerPointPreservationChance": 10
         }
-      }
-    ],
-    "lore": [
-      {
-        "id": "Mysterious_Holy_Text",
-        "media": "assets/items/Mysterious_Holy_Text.png",
-        "title": "Mysterious Holy Text",
-        "unlockRequirements": [
-          {
-            "monsterID": "expandedAreas:Mysterious_Monk",
-            "type": "MonsterKilled",
-            "count": 100
-          }
-        ]
       }
     ],
     "itemSynergies": [
