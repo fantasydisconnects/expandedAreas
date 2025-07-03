@@ -4588,6 +4588,66 @@
         ],
         "isDowngrade": false,
         "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Topaz_Dust",
+        "itemCosts": [
+          {
+            "id": "melvorD:Topaz",
+            "quantity": 1
+          }
+        ],
+        "rootItemIDs": [
+          "melvorD:Topaz"
+        ],
+        "isDowngrade": true,
+        "currencyCosts": [],
+        "quantity": 10
+      },
+      {
+        "upgradedItemID": "expandedAreas:Sapphire_Dust",
+        "itemCosts": [
+          {
+            "id": "melvorD:Sapphire",
+            "quantity": 1
+          }
+        ],
+        "rootItemIDs": [
+          "melvorD:Sapphire"
+        ],
+        "isDowngrade": true,
+        "currencyCosts": [],
+        "quantity": 10
+      },
+      {
+        "upgradedItemID": "expandedAreas:Emerald_Dust",
+        "itemCosts": [
+          {
+            "id": "melvorD:Emerald",
+            "quantity": 1
+          }
+        ],
+        "rootItemIDs": [
+          "melvorD:Emerald"
+        ],
+        "isDowngrade": true,
+        "currencyCosts": [],
+        "quantity": 10
+      },
+      {
+        "upgradedItemID": "expandedAreas:Ruby_Dust",
+        "itemCosts": [
+          {
+            "id": "melvorD:Ruby",
+            "quantity": 1
+          }
+        ],
+        "rootItemIDs": [
+          "melvorD:Ruby"
+        ],
+        "isDowngrade": true,
+        "currencyCosts": [],
+        "quantity": 10
       }
     ],
     "skillData": [
