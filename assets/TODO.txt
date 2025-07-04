@@ -1,31 +1,37 @@
 Assets needed:
-Mysterious Tome
-Secluded Monastery
-Zephyr Strike
-Cone of Cold
-Seismic Sundering
-Fierce Flames
-Air Elementalist Set
-Water Elementalist Set
-Earth Elementalist Set
-Fire Elementalist Set
-Air Elementalist Staff
-Water Elementalist Staff
-Earth Elementalist Staff
-Fire Elementalist Staff
-Topaz Dust
-Sapphire Dust
-Emerald Dust
-Ruby Dust
-Guardian of the Elements
-Elemental Orb Shard
-Elemental Orb
+Aeris Colors:
+#BFDFE4
+#9ab6ba
+#80989b
+#708487
+Topaz Colors:
+#f19f48
+Glacia Colors:
+#00ffff
+#40c0f6
+#28abe2
+#1990c2
+Sapphire Colors:
+#6daae7
+Terran Colors:
+#8cc63f
+#c69c6d
+#9e7d5d
+#736357
+Emerald Colors:
+#57dd60
+Ragnar Colors:
+#fcee21
+#fbb03b
+#f15a24
+#be471c
+Ruby Colors:
+#ec6781
 Elemental Sanctuary
 Elemental Avatar
 Elemental Chest
 
 Data To Do:
-Add Mysterious Tome
 Add Secluded Monastery to combatAreaCategories
 Add stats to Elementalist gear and staves
 Add four types of Gem Dust
@@ -34,3 +40,41 @@ Add Elemental Orb Shard
 Add Elemental Orb
 Add Elemental Avatar monster
 Add Elemental Chest loot
+
+      {
+        "name": "Elemental Sanctuary",
+        "id": "Elemental_Sanctuary",
+        "media": "assets/dungeons/Elemental_Sanctuary.png",
+        "difficulty": [
+          2
+        ],
+        "dropBones": false,
+        "entryRequirements": [
+          {
+            "type": "ItemFound",
+            "itemID": "expandedAreas:Elemental_Orb"
+          },
+          {
+            "type": "DungeonCompletion",
+            "dungeonID": "melvorF:Dragons_Den",
+            "count": 1
+          }
+        ],
+        "fixedPetClears": false,
+        "monsterIDs": [
+          "expandedAreas:Monk_of_the_Wind",
+          "expandedAreas:Monk_of_the_River",
+          "expandedAreas:Monk_of_the_Moss",
+          "expandedAreas:Monk_of_the_Flame",
+          "expandedAreas:Spirit_of_the_Wind",
+          "expandedAreas:Spirit_of_the_River",
+          "expandedAreas:Spirit_of_the_Moss",
+          "expandedAreas:Spirit_of_the_Flame",
+          "expandedAreas:Guardian_of_the_Elements",
+          "expandedAreas:Elemental_Avatar"
+        ],
+        "pauseOnBosses": false,
+        "rewardItemIDs": [
+          "expandedAreas:Elemental_Chest"
+        ]
+      }

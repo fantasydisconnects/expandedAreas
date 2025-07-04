@@ -32,7 +32,7 @@
           "expandedAreas:Guardian_of_the_Elements"
         ],
         "difficulty": [
-          1,
+          2,
           3
         ],
         "entryRequirements": [
@@ -77,43 +77,7 @@
           "expandedAreas:Damaged_Supply_Crate"
         ]
       },
-      {
-        "name": "Elemental Sanctuary",
-        "id": "Elemental_Sanctuary",
-        "media": "assets/dungeons/Elemental_Sanctuary.png",
-        "difficulty": [
-          2
-        ],
-        "dropBones": false,
-        "entryRequirements": [
-          {
-            "type": "ItemFound",
-            "itemID": "expandedAreas:Elemental_Orb"
-          },
-          {
-            "type": "DungeonCompletion",
-            "dungeonID": "melvorF:Dragons_Den",
-            "count": 1
-          }
-        ],
-        "fixedPetClears": false,
-        "monsterIDs": [
-          "expandedAreas:Monk_of_the_Wind",
-          "expandedAreas:Monk_of_the_River",
-          "expandedAreas:Monk_of_the_Moss",
-          "expandedAreas:Monk_of_the_Flame",
-          "expandedAreas:Spirit_of_the_Wind",
-          "expandedAreas:Spirit_of_the_River",
-          "expandedAreas:Spirit_of_the_Moss",
-          "expandedAreas:Spirit_of_the_Flame",
-          "expandedAreas:Guardian_of_the_Elements",
-          "expandedAreas:Elemental_Avatar"
-        ],
-        "pauseOnBosses": false,
-        "rewardItemIDs": [
-          "expandedAreas:Elemental_Chest"
-        ]
-      }
+
     ],
     "attacks": [
       {
@@ -306,7 +270,7 @@
         "minAccuracy": 20000
       },
       {
-        "id": "Cone_of_Cold",
+        "id": "Cold_Snap",
         "defaultChance": 100,
         "damage": [
           {
@@ -337,13 +301,13 @@
         "attackCount": 5,
         "attackInterval": 200,
         "lifesteal": 0,
-        "name": "Cone of Cold",
+        "name": "Cold Snap",
         "description": "Attack ${hitCount} times for ${attackDamageMaxValue0} damage each (Can miss). On a hit, gives the enemy +${onHitEffect0modValue0}% Attack Interval for ${onHitEffect0turns} of the enemy's turns.",
         "descriptionGenerator": "Attack <count> times for <damage> damage each (<CanMiss>). On a hit, <hitEffect>.",
         "usesRunesPerProc": false
       },
       {
-        "id": "Seismic_Sundering",
+        "id": "Avalanche",
         "defaultChance": 100,
         "damage": [
           {
@@ -371,7 +335,7 @@
         "attackCount": 2,
         "attackInterval": 400,
         "lifesteal": 0,
-        "name": "Seismic Sundering",
+        "name": "Avalanche",
         "description": "Attack ${hitCount} times dealing ${attackDamageMaxValue0} damage each (Can miss). On a hit, puts the enemy to sleep for ${onHitEffect0turns} of the enemy's turns.",
         "descriptionGenerator": "Attack <count> times dealing <damage> damage each (<CanMiss>). On a hit, <hitEffect>.",
         "usesRunesPerProc": false
@@ -433,9 +397,9 @@
         "spellbook": "melvorF:Ancient"
       },
       {
-        "id": "Cone_of_Cold",
-        "name": "Cone of Cold",
-        "media": "assets/spells/Cone_of_Cold.png",
+        "id": "Cold_Snap",
+        "name": "Cold Snap",
+        "media": "assets/spells/Cold_Snap.png",
         "level": 58,
         "maxHit": 10.5,
         "runesRequired": [
@@ -448,7 +412,7 @@
             "quantity": 3
           }
         ],
-        "specialAttackID": "expandedAreas:Cone_of_Cold",
+        "specialAttackID": "expandedAreas:Cold_Snap",
         "requirements": [
           {
             "type": "DungeonCompletion",
@@ -459,9 +423,9 @@
         "spellbook": "melvorF:Ancient"
       },
       {
-        "id": "Seismic_Sundering",
-        "name": "Seismic Sundering",
-        "media": "assets/spells/Seismic_Sundering.png",
+        "id": "Avalanche",
+        "name": "Avalanche",
+        "media": "assets/spells/Avalanche.png",
         "level": 62,
         "maxHit": 34,
         "runesRequired": [
@@ -474,7 +438,7 @@
             "quantity": 2
           }
         ],
-        "specialAttackID": "expandedAreas:Seismic_Sundering",
+        "specialAttackID": "expandedAreas:Avalanche",
         "requirements": [
           {
             "type": "DungeonCompletion",
@@ -1508,6 +1472,12 @@
             "weight": 3,
             "maxQuantity": 1,
             "minQuantity": 1
+          },
+          {
+            "itemID": "expandedAreas:Mysterious_Tome",
+            "weight": 1,
+            "maxQuantity": 1,
+            "minQuantity": 1
           }
         ],
         "canSlayer": true,
@@ -2077,7 +2047,7 @@
         ],
         "canSlayer": true,
         "isBoss": false,
-        "selectedSpell": "expandedAreas:Cone_of_Cold",
+        "selectedSpell": "expandedAreas:Cold_Snap",
         "currencyDrops": [],
         "bones": {
           "itemID": "melvorD:Magic_Bones",
@@ -2163,7 +2133,7 @@
         ],
         "canSlayer": true,
         "isBoss": false,
-        "selectedSpell": "expandedAreas:Seismic_Sundering",
+        "selectedSpell": "expandedAreas:Avalanche",
         "currencyDrops": [],
         "bones": {
           "itemID": "melvorD:Magic_Bones",
@@ -4044,7 +4014,20 @@
             ]
           }
         ]
-      }
+      },
+      {
+        "id": "Mysterious_Holy_Text",
+        "name": "Mysterious Holy Text",
+        "category": "Item",
+        "type": "Misc",
+        "itemType": "Item",
+        "media": "assets/items/Mysterious_Holy_Text.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 100,
+        "customDescription": "The cover of this battered tome is inscribed with runes of the four elements. Its pages are filled largely indecipherable glyphs and schemes, but for one, written in Melvorian, which reads: 'Seek the Sanctuary of our people.'"
+      },
     ],
     "itemSynergies": [
       {
@@ -4107,28 +4090,6 @@
             "id": "melvorF:Air_Expert_Wizard_Robes",
             "quantity": 1
           },
-          {
-            "id": "melvorD:Mystic_Air_Staff",
-            "quantity": 10
-          },
-          {
-            "id": "expandedAreas:Topaz_Dust",
-            "quantity": 100
-          },
-          {
-            "id": "expandedAreas:Eye_of_Air",
-            "quantity": 25
-          }
-        ],
-        "rootItemIDs": [
-          "melvorF:Air_Expert_Wizard_Robes"
-        ],
-        "isDowngrade": false,
-        "currencyCosts": []
-      },
-      {
-        "upgradedItemID": "expandedAreas:Air_Elementalist_Bottoms",
-        "itemCosts": [
           {
             "id": "melvorF:Air_Expert_Wizard_Bottoms",
             "quantity": 1
@@ -4238,28 +4199,6 @@
             "quantity": 1
           },
           {
-            "id": "melvorD:Mystic_Water_Staff",
-            "quantity": 10
-          },
-          {
-            "id": "expandedAreas:Sapphire_Dust",
-            "quantity": 100
-          },
-          {
-            "id": "expandedAreas:Eye_of_Water",
-            "quantity": 25
-          }
-        ],
-        "rootItemIDs": [
-          "melvorF:Water_Expert_Wizard_Robes"
-        ],
-        "isDowngrade": false,
-        "currencyCosts": []
-      },
-      {
-        "upgradedItemID": "expandedAreas:Water_Elementalist_Bottoms",
-        "itemCosts": [
-          {
             "id": "melvorF:Water_Expert_Wizard_Bottoms",
             "quantity": 1
           },
@@ -4368,28 +4307,6 @@
             "quantity": 1
           },
           {
-            "id": "melvorF:Mystic_Earth_Staff",
-            "quantity": 10
-          },
-          {
-            "id": "expandedAreas:Emerald_Dust",
-            "quantity": 100
-          },
-          {
-            "id": "expandedAreas:Eye_of_Earth",
-            "quantity": 25
-          }
-        ],
-        "rootItemIDs": [
-          "melvorF:Earth_Expert_Wizard_Robes"
-        ],
-        "isDowngrade": false,
-        "currencyCosts": []
-      },
-      {
-        "upgradedItemID": "expandedAreas:Earth_Elementalist_Bottoms",
-        "itemCosts": [
-          {
             "id": "melvorF:Earth_Expert_Wizard_Bottoms",
             "quantity": 1
           },
@@ -4497,28 +4414,6 @@
             "id": "melvorF:Fire_Expert_Wizard_Robes",
             "quantity": 1
           },
-          {
-            "id": "melvorF:Mystic_Fire_Staff",
-            "quantity": 10
-          },
-          {
-            "id": "expandedAreas:Ruby_Dust",
-            "quantity": 100
-          },
-          {
-            "id": "expandedAreas:Eye_of_Fire",
-            "quantity": 25
-          }
-        ],
-        "rootItemIDs": [
-          "melvorF:Fire_Expert_Wizard_Robes"
-        ],
-        "isDowngrade": false,
-        "currencyCosts": []
-      },
-      {
-        "upgradedItemID": "expandedAreas:Fire_Elementalist_Bottoms",
-        "itemCosts": [
           {
             "id": "melvorF:Fire_Expert_Wizard_Bottoms",
             "quantity": 1
