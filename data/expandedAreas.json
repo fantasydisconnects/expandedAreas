@@ -389,8 +389,8 @@
         "requirements": [
           {
             "type": "DungeonCompletion",
-            "dungeonID": "expandedAreas:Elemental_Sanctuary",
-            "count": 100
+            "dungeonID": "melvorD:Hall_of_Wizards",
+            "count": 10000
           }
         ],
         "spellbook": "melvorF:Ancient"
@@ -415,8 +415,8 @@
         "requirements": [
           {
             "type": "DungeonCompletion",
-            "dungeonID": "expandedAreas:Elemental_Sanctuary",
-            "count": 100
+            "dungeonID": "melvorD:Hall_of_Wizards",
+            "count": 10000
           }
         ],
         "spellbook": "melvorF:Ancient"
@@ -441,8 +441,8 @@
         "requirements": [
           {
             "type": "DungeonCompletion",
-            "dungeonID": "expandedAreas:Elemental_Sanctuary",
-            "count": 100
+            "dungeonID": "melvorD:Hall_of_Wizards",
+            "count": 10000
           }
         ],
         "spellbook": "melvorF:Ancient"
@@ -467,8 +467,8 @@
         "requirements": [
           {
             "type": "DungeonCompletion",
-            "dungeonID": "expandedAreas:Elemental_Sanctuary",
-            "count": 100
+            "dungeonID": "melvorD:Hall_of_Wizards",
+            "count": 10000
           }
         ],
         "spellbook": "melvorF:Ancient"
@@ -4200,12 +4200,12 @@
         ]
       },
       {
-        "id": "Mysterious_Holy_Text",
-        "name": "Mysterious Holy Text",
+        "id": "Mysterious_Tome",
+        "name": "Mysterious Tome",
         "category": "Item",
         "type": "Misc",
         "itemType": "Item",
-        "media": "assets/items/Mysterious_Holy_Text.png",
+        "media": "assets/items/Mysterious_Tome.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -5430,6 +5430,58 @@
             }
           ]
         }
+      },
+      {
+        "itemType": "Item",
+        "id": "Air_Rune_Shard",
+        "name": "Air Rune Shard",
+        "media": "assets/items/Air_Rune_Shard.png",
+        "category": "Misc",
+        "type": "Misc",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "customDescription": "Used to create the Orb of the Elements ring."
+      },
+      {
+        "itemType": "Item",
+        "id": "Water_Rune_Shard",
+        "name": "Water Rune Shard",
+        "media": "assets/items/Water_Rune_Shard.png",
+        "category": "Misc",
+        "type": "Misc",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "customDescription": "Used to create the Orb of the Elements ring."
+      },
+      {
+        "itemType": "Item",
+        "id": "Earth_Rune_Shard",
+        "name": "Earth Rune Shard",
+        "media": "assets/items/Earth_Rune_Shard.png",
+        "category": "Misc",
+        "type": "Misc",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "customDescription": "Used to create the Orb of the Elements ring."
+      },
+      {
+        "itemType": "Item",
+        "id": "Fire_Rune_Shard",
+        "name": "Fire Rune Shard",
+        "media": "assets/items/Fire_Rune_Shard.png",
+        "category": "Misc",
+        "type": "Misc",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "customDescription": "Used to create the Orb of the Elements ring."
       }
     ],
     "itemSynergies": [
@@ -5576,7 +5628,7 @@
             "quantity": 1
           },
           {
-            "id": "melvorD:Mystic_Water_Staff",
+            "id": "melvorF:Mystic_Water_Staff",
             "quantity": 10
           },
           {
@@ -5606,7 +5658,7 @@
             "quantity": 1
           },
           {
-            "id": "melvorD:Mystic_Water_Staff",
+            "id": "melvorF:Mystic_Water_Staff",
             "quantity": 10
           },
           {
@@ -5632,7 +5684,7 @@
             "quantity": 1
           },
           {
-            "id": "melvorD:Mystic_Water_Staff",
+            "id": "melvorF:Mystic_Water_Staff",
             "quantity": 10
           },
           {
