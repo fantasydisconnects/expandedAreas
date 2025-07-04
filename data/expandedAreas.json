@@ -1905,7 +1905,12 @@
         ],
         "ignoreCompletion": false,
         "attackType": "magic",
-        "specialAttacks": [],
+        "specialAttacks": [
+          "expandedAreas:Zephyr_Strike"
+        ],
+        "overrideSpecialChances": [
+          25
+        ],
         "passives": [],
         "lootChance": 80,
         "lootTable": [
@@ -1924,6 +1929,12 @@
           {
             "itemID": "melvorD:Mystic_Air_Staff",
             "weight": 80,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "expandedAreas:Eye_of_Air",
+            "weight": 50,
             "maxQuantity": 1,
             "minQuantity": 1
           },
@@ -1950,17 +1961,11 @@
             "weight": 10,
             "maxQuantity": 1,
             "minQuantity": 1
-          },
-          {
-            "itemID": "expandedAreas:Eye_of_Air",
-            "weight": 5,
-            "maxQuantity": 1,
-            "minQuantity": 1
           }
         ],
         "canSlayer": true,
         "isBoss": false,
-        "selectedSpell": "expandedAreas:Zephyr_Strike",
+        "selectedSpell": "melvorD:WindSurge",
         "currencyDrops": [],
         "bones": {
           "itemID": "melvorD:Magic_Bones",
@@ -1991,7 +1996,12 @@
         ],
         "ignoreCompletion": false,
         "attackType": "magic",
-        "specialAttacks": [],
+        "specialAttacks": [
+          "expandedAreas:Cold_Snap"
+        ],
+        "overrideSpecialChances": [
+          25
+        ],
         "passives": [],
         "lootChance": 80,
         "lootTable": [
@@ -2010,6 +2020,12 @@
           {
             "itemID": "melvorF:Mystic_Water_Staff",
             "weight": 80,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "expandedAreas:Eye_of_Water",
+            "weight": 50,
             "maxQuantity": 1,
             "minQuantity": 1
           },
@@ -2036,17 +2052,11 @@
             "weight": 10,
             "maxQuantity": 1,
             "minQuantity": 1
-          },
-          {
-            "itemID": "expandedAreas:Eye_of_Water",
-            "weight": 5,
-            "maxQuantity": 1,
-            "minQuantity": 1
           }
         ],
         "canSlayer": true,
         "isBoss": false,
-        "selectedSpell": "expandedAreas:Cold_Snap",
+        "selectedSpell": "melvorD:WaterSurge",
         "currencyDrops": [],
         "bones": {
           "itemID": "melvorD:Magic_Bones",
@@ -2077,7 +2087,12 @@
         ],
         "ignoreCompletion": false,
         "attackType": "magic",
-        "specialAttacks": [],
+        "specialAttacks": [
+          "expandedAreas:Avalanche"
+        ],
+        "overrideSpecialChances": [
+          25
+        ],
         "passives": [],
         "lootChance": 80,
         "lootTable": [
@@ -2096,6 +2111,12 @@
           {
             "itemID": "melvorF:Mystic_Earth_Staff",
             "weight": 80,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "expandedAreas:Eye_of_Earth",
+            "weight": 50,
             "maxQuantity": 1,
             "minQuantity": 1
           },
@@ -2122,17 +2143,11 @@
             "weight": 10,
             "maxQuantity": 1,
             "minQuantity": 1
-          },
-          {
-            "itemID": "expandedAreas:Eye_of_Earth",
-            "weight": 5,
-            "maxQuantity": 1,
-            "minQuantity": 1
           }
         ],
         "canSlayer": true,
         "isBoss": false,
-        "selectedSpell": "expandedAreas:Avalanche",
+        "selectedSpell": "melvorD:EarthSurge",
         "currencyDrops": [],
         "bones": {
           "itemID": "melvorD:Magic_Bones",
@@ -2163,7 +2178,12 @@
         ],
         "ignoreCompletion": false,
         "attackType": "magic",
-        "specialAttacks": [],
+        "specialAttacks": [
+          "expandedAreas:Fierce_Flames"
+        ],
+        "overrideSpecialChances": [
+          25
+        ],
         "passives": [],
         "lootChance": 80,
         "lootTable": [
@@ -2182,6 +2202,12 @@
           {
             "itemID": "melvorF:Mystic_Fire_Staff",
             "weight": 80,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "expandedAreas:Eye_of_Fire",
+            "weight": 50,
             "maxQuantity": 1,
             "minQuantity": 1
           },
@@ -2208,10 +2234,169 @@
             "weight": 10,
             "maxQuantity": 1,
             "minQuantity": 1
+          }
+        ],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:FireSurge",
+        "currencyDrops": [],
+        "bones": {
+          "itemID": "melvorD:Magic_Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "Guardian_of_the_Elements",
+        "name": "Guardian of the Elements",
+        "media": "assets/monsters/Guardian_of_the_Elements.png",
+        "levels": {
+          "Attack": 110,
+          "Defence": 150,
+          "Hitpoints": 210,
+          "Magic": 250,
+          "Ranged": 1,
+          "Strength": 120
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
           },
           {
-            "itemID": "expandedAreas:Eye_of_Fire",
+            "key": "magicDefenceBonus",
+            "value": 500
+          },
+          {
+            "key": "damageReduction",
+            "value": 10
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "magic",
+        "specialAttacks": [
+          "expandedAreas:Avalanche",
+          "expandedAreas:Cold_Snap",
+          "expandedAreas:Fierce_Flames",
+          "expandedAreas:Zephyr_Strike",
+          "melvorD:Normal"
+        ],
+        "overrideSpecialChances": [
+          10,
+          10,
+          10,
+          10,
+          60
+        ],
+        "passives": [
+          "melvorF:ElementalistI"
+        ],
+        "lootChance": 100,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Air_Rune",
+            "weight": 100,
+            "minQuantity": 100,
+            "maxQuantity": 500
+          },
+          {
+            "itemID": "melvorD:Water_Rune",
+            "weight": 100,
+            "minQuantity": 100,
+            "maxQuantity": 500
+          },
+          {
+            "itemID": "melvorD:Earth_Rune",
+            "weight": 100,
+            "minQuantity": 100,
+            "maxQuantity": 500
+          },
+          {
+            "itemID": "melvorD:Fire_Rune",
+            "weight": 100,
+            "minQuantity": 100,
+            "maxQuantity": 500
+          },
+          {
+            "itemID": "melvorD:Ancient_Rune",
+            "weight": 100,
+            "maxQuantity": 20,
+            "minQuantity": 5
+          },
+          {
+            "itemID": "melvorD:Light_Rune",
+            "weight": 100,
+            "maxQuantity": 20,
+            "minQuantity": 5
+          },
+          {
+            "itemID": "expandedAreas:Air_Rune_Shard",
+            "weight": 80,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "expandedAreas:Water_Rune_Shard",
+            "weight": 80,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "expandedAreas:Earth_Rune_Shard",
+            "weight": 80,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "expandedAreas:Fire_Rune_Shard",
+            "weight": 80,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "melvorF:Elemental_Potion_III",
+            "weight": 60,
+            "minQuantity": 1,
+            "maxQuantity": 4
+          },
+          {
+            "itemID": "melvorD:Magic_Wand_Basic",
+            "weight": 40,
+            "minQuantity": 1,
+            "maxQuantity": 1
+          },
+          {
+            "itemID": "melvorD:Magic_Wand_Elite",
+            "weight": 15,
+            "minQuantity": 1,
+            "maxQuantity": 1
+          },
+          {
+            "itemID": "melvorD:Magic_Wand_Powerful",
             "weight": 5,
+            "minQuantity": 1,
+            "maxQuantity": 1
+          },
+          {
+            "itemID": "melvorF:Air_Imbued_Wand",
+            "weight": 3,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "melvorF:Water_Imbued_Wand",
+            "weight": 3,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "melvorF:Earth_Imbued_Wand",
+            "weight": 3,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "melvorF:Fire_Imbued_Wand",
+            "weight": 3,
             "maxQuantity": 1,
             "minQuantity": 1
           }
@@ -2221,8 +2406,8 @@
         "selectedSpell": "expandedAreas:Fierce_Flames",
         "currencyDrops": [],
         "bones": {
-          "itemID": "melvorD:Magic_Bones",
-          "quantity": 1
+          "itemID": "melvorD:Rune_Essence",
+          "quantity": 4
         }
       }
     ],
@@ -5102,6 +5287,149 @@
         ],
         "itemType": "Weapon",
         "attackType": "magic"
+      },
+      {
+        "itemType": "Item",
+        "id": "Topaz_Dust",
+        "name": "Topaz Dust",
+        "media": "assets/items/Topaz_Dust.png",
+        "category": "Gemstone",
+        "type": "Gem",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 20,
+        "customDescription": "Used to upgrade Expert Wizard gear to Elemental gear."
+      },
+      {
+        "itemType": "Item",
+        "id": "Sapphire_Dust",
+        "name": "Sapphire Dust",
+        "media": "assets/items/Sapphire_Dust.png",
+        "category": "Gemstone",
+        "type": "Gem",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 30,
+        "customDescription": "Used to upgrade Expert Wizard gear to Elemental gear."
+      },
+      {
+        "itemType": "Item",
+        "id": "Emerald_Dust",
+        "name": "Emerald Dust",
+        "media": "assets/items/Emerald_Dust.png",
+        "category": "Gemstone",
+        "type": "Gem",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50,
+        "customDescription": "Used to upgrade Expert Wizard gear to Elemental gear."
+      },
+      {
+        "itemType": "Item",
+        "id": "Ruby_Dust",
+        "name": "Ruby Dust",
+        "media": "assets/items/Ruby_Dust.png",
+        "category": "Gemstone",
+        "type": "Gem",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50,
+        "customDescription": "Used to upgrade Expert Wizard gear to Elemental gear."
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Orb_of_the_Elements",
+        "name": "Orb of the Elements",
+        "category": "Combat",
+        "type": "Ring",
+        "media": "assets/items/Orb_of_the_Elements.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 300000,
+        "tier": "ancient",
+        "customDescription": "+20 Minimum and Maximum Elemental Spell Dmg. Reduces Elemental Rune cost of Magic Spells by 1.",
+        "validSlots": [
+          "Ring"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "skillID": "melvorD:Magic",
+            "level": 75,
+            "type": "SkillLevel"
+          }
+        ],
+        "providedRunes": [
+          {
+            "id": "melvorD:Air_Rune",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Water_Rune",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Earth_Rune",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Fire_Rune",
+            "quantity": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "magicDamageBonus",
+            "value": 2
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 8
+          }
+        ],
+        "modifiers": {
+          "flatMagicMaxHit": [
+            {
+              "subcategoryID": "melvorD:Air",
+              "value": 2
+            },
+            {
+              "subcategoryID": "melvorD:Earth",
+              "value": 2
+            },
+            {
+              "subcategoryID": "melvorD:Fire",
+              "value": 2
+            },
+            {
+              "subcategoryID": "melvorD:Water",
+              "value": 2
+            }
+          ],
+          "flatMagicMinHit": [
+            {
+              "subcategoryID": "melvorD:Air",
+              "value": 2
+            },
+            {
+              "subcategoryID": "melvorD:Earth",
+              "value": 2
+            },
+            {
+              "subcategoryID": "melvorD:Fire",
+              "value": 2
+            },
+            {
+              "subcategoryID": "melvorD:Water",
+              "value": 2
+            }
+          ]
+        }
       }
     ],
     "itemSynergies": [
@@ -5623,6 +5951,52 @@
         "isDowngrade": true,
         "currencyCosts": [],
         "quantity": 10
+      },
+      {
+        "upgradedItemID": "expandedAreas:Orb_of_the_Elements",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Topaz_Dust",
+            "quantity": 100
+          },
+          {
+            "id": "expandedAreas:Sapphire_Dust",
+            "quantity": 100
+          },
+          {
+            "id": "expandedAreas:Emerald_Dust",
+            "quantity": 100
+          },
+          {
+            "id": "expandedAreas:Ruby_Dust",
+            "quantity": 100
+          },
+          {
+            "id": "expandedAreas:Air_Rune_Shard",
+            "quantity": 100
+          },
+          {
+            "id": "expandedAreas:Water_Rune_Shard",
+            "quantity": 100
+          },
+          {
+            "id": "expandedAreas:Earth_Rune_Shard",
+            "quantity": 100
+          },
+          {
+            "id": "expandedAreas:Fire_Rune_Shard",
+            "quantity": 100
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Air_Rune_Shard",
+          "expandedAreas:Water_Rune_Shard",
+          "expandedAreas:Earth_Rune_Shard",
+          "expandedAreas:Fire_Rune_Shard"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": [],
+        "quantity": 1
       }
     ],
     "skillData": [
@@ -6103,17 +6477,10 @@
               "ids": [
                 "expandedAreas:Low_Town"
               ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "melvorD:CombatAreas",
-        "areas": {
-          "add": [
+            },
             {
               "insertAt": "After",
-              "afterID": "melvorD:Wizard_Tower",
+              "afterID": "melvorD:ElerineBattlegrounds",
               "ids": [
                 "expandedAreas:Secluded_Monastery"
               ]

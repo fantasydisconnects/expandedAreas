@@ -32,12 +32,6 @@ Elemental Avatar
 Elemental Chest
 
 Data To Do:
-Add Secluded Monastery to combatAreaCategories
-Add stats to Elementalist gear and staves
-Add four types of Gem Dust
-Add Guardian of the Elements monster
-Add Elemental Orb Shard
-Add Elemental Orb
 Add Elemental Avatar monster
 Add Elemental Chest loot
 
