@@ -1,0 +1,36 @@
+Assets needed:
+Mysterious Tome
+Secluded Monastery
+Zephyr Strike
+Cone of Cold
+Seismic Sundering
+Fierce Flames
+Air Elementalist Set
+Water Elementalist Set
+Earth Elementalist Set
+Fire Elementalist Set
+Air Elementalist Staff
+Water Elementalist Staff
+Earth Elementalist Staff
+Fire Elementalist Staff
+Topaz Dust
+Sapphire Dust
+Emerald Dust
+Ruby Dust
+Guardian of the Elements
+Elemental Orb Shard
+Elemental Orb
+Elemental Sanctuary
+Elemental Avatar
+Elemental Chest
+
+Data To Do:
+Add Mysterious Tome
+Add Secluded Monastery to combatAreaCategories
+Add stats to Elementalist gear and staves
+Add four types of Gem Dust
+Add Guardian of the Elements monster
+Add Elemental Orb Shard
+Add Elemental Orb
+Add Elemental Avatar monster
+Add Elemental Chest loot

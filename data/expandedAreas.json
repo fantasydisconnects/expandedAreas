@@ -42,6 +42,11 @@
             "type": "SkillLevel"
           },
           {
+            "skillID": "melvorD:Magic",
+            "level": 50,
+            "type": "SkillLevel"
+          },
+          {
             "type": "ItemFound",
             "itemID": "expandedAreas:Mysterious_Tome"
           }
