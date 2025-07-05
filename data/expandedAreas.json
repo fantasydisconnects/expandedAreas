@@ -362,7 +362,7 @@
         "attackCount": 1,
         "attackInterval": 50,
         "lifesteal": 0,
-        "name": "Ignite",
+        "name": "Fierce Flames",
         "description": "Attack once dealing ${attackDamageMaxValue0} damage (Can miss). On a hit, has a ${onHitEffect0chance}% chance to inflict Burn that deals ${onHitEffect0DamageMaxValue0}% of the enemy's current hitpoints as damage over ${onHitEffect0duration}s.",
         "descriptionGenerator": "Attack once dealing <damage> damage (<CanMiss>). On a hit, <hitEffect>.",
         "usesRunesPerProc": false
@@ -696,12 +696,6 @@
             "minQuantity": 1,
             "maxQuantity": 2,
             "weight": 2
-          },
-          {
-            "itemID": "expandedAreas:Damaged_Crate_of_Supplies",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 1
           }
         ],
         "canSlayer": true,
@@ -797,6 +791,24 @@
             "weight": 8
           },
           {
+            "itemID": "melvorF:Barrentoe_Herb",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 4
+          },
+          {
+            "itemID": "melvorF:Gold_Ruby_Necklace",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 8
+          },
+          {
+            "itemID": "melvorF:Pile_Of_Logs",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 2
+          },
+          {
             "itemID": "melvorD:Sourweed_Seed",
             "minQuantity": 1,
             "maxQuantity": 1,
@@ -815,6 +827,12 @@
             "weight": 8
           },
           {
+            "itemID": "melvorD:Mantalyme_Herb",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 6
+          },
+          {
             "itemID": "melvorD:Adamant_2H_Sword",
             "minQuantity": 1,
             "maxQuantity": 1,
@@ -824,19 +842,13 @@
             "itemID": "melvorD:Beef_Pie",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 4
+            "weight": 8
           },
           {
             "itemID": "melvorD:Mithril_Bar",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 2
-          },
-          {
-            "itemID": "melvorF:Golbin_Mask",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 1
+            "weight": 4
           }
         ],
         "canSlayer": true,
@@ -880,7 +892,7 @@
         "lootChance": 100,
         "lootTable": [
           {
-            "itemID": "melvorD:Bronze_Ore",
+            "itemID": "melvorD:Copper_Ore",
             "minQuantity": 2,
             "maxQuantity": 4,
             "weight": 16
@@ -1340,43 +1352,43 @@
             "itemID": "melvorD:Black_Battleaxe",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 8
+            "weight": 2
           },
           {
             "itemID": "melvorD:Steel_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 8
+            "weight": 4
           },
           {
             "itemID": "melvorD:Teak_Logs",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 16
+            "weight": 32
           },
           {
             "itemID": "melvorF:Apple",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 16
+            "weight": 32
           },
           {
             "itemID": "melvorF:Ash",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 16
+            "weight": 32
           },
           {
             "itemID": "melvorF:Whetstone",
             "minQuantity": 1,
             "maxQuantity": 5,
-            "weight": 1
+            "weight": 2
           },
           {
             "itemID": "melvorF:Perfect_Swing_Potion_I",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 4
+            "weight": 8
           },
           {
             "itemID": "expandedAreas:Executioners_Hood",
@@ -1438,49 +1450,49 @@
         "lootTable": [
           {
             "itemID": "melvorD:Air_Rune",
-            "weight": 16,
+            "weight": 32,
             "maxQuantity": 16,
             "minQuantity": 3
           },
           {
             "itemID": "melvorD:Water_Rune",
-            "weight": 16,
+            "weight": 32,
             "maxQuantity": 16,
             "minQuantity": 3
           },
           {
             "itemID": "melvorD:Earth_Rune",
-            "weight": 16,
+            "weight": 32,
             "maxQuantity": 16,
             "minQuantity": 3
           },
           {
             "itemID": "melvorD:Fire_Rune",
-            "weight": 16,
+            "weight": 32,
             "maxQuantity": 16,
             "minQuantity": 3
           },
           {
             "itemID": "melvorD:Light_Rune",
-            "weight": 8,
+            "weight": 16,
             "maxQuantity": 4,
             "minQuantity": 1
           },
           {
             "itemID": "melvorD:Big_Bones",
-            "weight": 8,
+            "weight": 16,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Holy_Dust",
-            "weight": 4,
+            "weight": 8,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorD:Oxilyme_Herb",
-            "weight": 4,
+            "weight": 8,
             "maxQuantity": 1,
             "minQuantity": 1
           },
@@ -1492,7 +1504,7 @@
           },
           {
             "itemID": "expandedAreas:Monk_Robe_Bottom",
-            "weight": 2,
+            "weight": 4,
             "maxQuantity": 1,
             "minQuantity": 1
           },
@@ -1567,7 +1579,7 @@
         "lootChance": 1,
         "lootTable": [
           {
-            "itemID": "melvorF:Chest_Of_Gems",
+            "itemID": "melvorF:Golbin_Mask",
             "minQuantity": 1,
             "maxQuantity": 1,
             "weight": 1
@@ -1910,12 +1922,12 @@
         "name": "Monk of the Wind",
         "media": "assets/monsters/Monk_of_the_Wind.png",
         "levels": {
-          "Attack": 1,
-          "Defence": 130,
-          "Hitpoints": 129,
-          "Magic": 192,
+          "Attack": 65,
+          "Defence": 90,
+          "Hitpoints": 128,
+          "Magic": 160,
           "Ranged": 1,
-          "Strength": 1
+          "Strength": 74
         },
         "equipmentStats": [
           {
@@ -2003,12 +2015,12 @@
         "name": "Monk of the River",
         "media": "assets/monsters/Monk_of_the_River.png",
         "levels": {
-          "Attack": 1,
-          "Defence": 146,
-          "Hitpoints": 220,
-          "Magic": 180,
+          "Attack": 77,
+          "Defence": 168,
+          "Hitpoints": 170,
+          "Magic": 135,
           "Ranged": 1,
-          "Strength": 1
+          "Strength": 89
         },
         "equipmentStats": [
           {
@@ -2096,12 +2108,12 @@
         "name": "Monk of the Moss",
         "media": "assets/monsters/Monk_of_the_Moss.png",
         "levels": {
-          "Attack": 1,
-          "Defence": 286,
-          "Hitpoints": 220,
-          "Magic": 165,
+          "Attack": 91,
+          "Defence": 300,
+          "Hitpoints": 150,
+          "Magic": 140,
           "Ranged": 1,
-          "Strength": 1
+          "Strength": 104
         },
         "equipmentStats": [
           {
@@ -2193,12 +2205,12 @@
         "name": "Monk of the Flame",
         "media": "assets/monsters/Monk_of_the_Flame.png",
         "levels": {
-          "Attack": 1,
+          "Attack": 90,
           "Defence": 110,
-          "Hitpoints": 250,
-          "Magic": 275,
+          "Hitpoints": 191,
+          "Magic": 206,
           "Ranged": 1,
-          "Strength": 1
+          "Strength": 105
         },
         "equipmentStats": [
           {
@@ -2286,12 +2298,12 @@
         "name": "Guardian of the Elements",
         "media": "assets/monsters/Guardian_of_the_Elements.png",
         "levels": {
-          "Attack": 1,
-          "Defence": 177,
+          "Attack": 120,
+          "Defence": 287,
           "Hitpoints": 319,
-          "Magic": 342,
+          "Magic": 240,
           "Ranged": 1,
-          "Strength": 1
+          "Strength": 168
         },
         "equipmentStats": [
           {
