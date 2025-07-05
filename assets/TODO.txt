@@ -1,3 +1,49 @@
+RARITY:
+Very Common: 1/4
+Common: 1/8
+Uncommon: 1/16
+Very Uncommon: 1/32
+Kinda Rare: 1/64
+Rare: 1/128
+Very Rare: 1/256
+Legendary: 1/512
+Mythical: 1/1024
+
+Easy Monsters:
+Very Common: 1/4
+Common: 1/8
+Uncommon: 1/16
+Very Uncommon: 1/32
+Kinda Rare: 1/64
+
+Normal Monsters:
+Very Common: 1/4
+Common: 1/8
+Uncommon: 1/16
+Very Uncommon: 1/32
+Kinda Rare: 1/64
+Rare: 1/128
+
+Hard and Elite Monsters:
+Very Common: 1/4
+Common: 1/8
+Uncommon: 1/16
+Very Uncommon: 1/32
+Kinda Rare: 1/64
+Rare: 1/128
+Very Rare: 1/256
+
+Master and above:
+Very Common: 1/4
+Common: 1/8
+Uncommon: 1/16
+Very Uncommon: 1/32
+Kinda Rare: 1/64
+Rare: 1/128
+Very Rare: 1/256
+Legendary: 1/512
+Mythical: 1/1024 
+
 Assets needed:
 Aeris Colors:
 #BFDFE4
