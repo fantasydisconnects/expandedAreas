@@ -3656,6 +3656,56 @@
         "ammoTypeRequired": "ThrowingKnives"
       },
       {
+        "id": "Black_Thrownaxe",
+        "name": "Black Thrownaxe",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "assets/items/Black_Thrownaxe.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 51,
+        "tier": "black",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [
+          "Weapon"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 10
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2100
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 45
+          }
+        ],
+        "modifiers": {
+          "melvorD:rangedCritChance": [
+            {
+              "value": 4
+            }
+          ]
+        },
+        "ammoType": "ThrowingKnives",
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "ThrowingKnives"
+      },
+      {
         "id": "Mithril_Thrownaxe",
         "name": "Mithril Thrownaxe",
         "category": "Combat",
@@ -3686,17 +3736,17 @@
           },
           {
             "key": "rangedAttackBonus",
-            "value": 5
+            "value": 7
           },
           {
             "key": "rangedStrengthBonus",
-            "value": 45
+            "value": 51
           }
         ],
         "modifiers": {
           "melvorD:rangedCritChance": [
             {
-              "value": 4
+              "value": 5
             }
           ]
         },
@@ -3736,11 +3786,11 @@
           },
           {
             "key": "rangedAttackBonus",
-            "value": 7
+            "value": 8
           },
           {
             "key": "rangedStrengthBonus",
-            "value": 51
+            "value": 58
           }
         ],
         "modifiers": {
@@ -3764,7 +3814,7 @@
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 21,
+        "sellsFor": 242,
         "tier": "rune",
         "validSlots": [
           "Quiver"
@@ -3786,11 +3836,11 @@
           },
           {
             "key": "rangedAttackBonus",
-            "value": 8
+            "value": 10
           },
           {
             "key": "rangedStrengthBonus",
-            "value": 58
+            "value": 69
           }
         ],
         "modifiers": {
@@ -3836,11 +3886,11 @@
           },
           {
             "key": "rangedAttackBonus",
-            "value": 10
+            "value": 12
           },
           {
             "key": "rangedStrengthBonus",
-            "value": 71
+            "value": 80
           }
         ],
         "modifiers": {
@@ -6643,6 +6693,77 @@
           ],
           "recipes": [
             {
+              "id": "Black_Dagger",
+              "level": 33,
+              "productID": "melvorD:Black_Dagger",
+              "baseQuantity": 1,
+              "baseExperience": 40,
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Black_Throwing_Knife",
+              "level": 34,
+              "productID": "expandedAreas:Black_Throwing_Knife",
+              "baseQuantity": 4,
+              "baseExperience": 40,
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Black_Sword",
+              "level": 35,
+              "productID": "melvorD:Black_Sword",
+              "baseQuantity": 1,
+              "baseExperience": 40,
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Black_Arrowtips",
+              "level": 36,
+              "productID": "expandedAreas:Black_Arrowtips",
+              "baseQuantity": 15,
+              "baseExperience": 40,
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Black_Gloves",
+              "level": 37,
+              "productID": "expandedAreas:Black_Gloves",
+              
+              "baseQuantity": 1,
+              "baseExperience": 40,
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
               "id": "Bronze_Spear",
               "productID": "expandedAreas:Bronze_Spear",
               "categoryID": "expandedAreas:Barbarian_Smithing",
@@ -6656,6 +6777,10 @@
                 },
                 {
                   "id": "melvorD:Bronze_Bar",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -6675,6 +6800,10 @@
                 {
                   "id": "melvorD:Iron_Bar",
                   "quantity": 1
+                },
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 1
                 }
               ]
             },
@@ -6692,6 +6821,10 @@
                 },
                 {
                   "id": "melvorD:Steel_Bar",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -6711,6 +6844,10 @@
                 {
                   "id": "melvorD:Mithril_Bar",
                   "quantity": 1
+                },
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 1
                 }
               ]
             },
@@ -6728,6 +6865,10 @@
                 },
                 {
                   "id": "melvorD:Adamantite_Bar",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -6747,6 +6888,10 @@
                 {
                   "id": "melvorD:Runite_Bar",
                   "quantity": 1
+                },
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 1
                 }
               ]
             },
@@ -6765,6 +6910,10 @@
                 {
                   "id": "melvorD:Dragonite_Bar",
                   "quantity": 1
+                },
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 1
                 }
               ]
             },
@@ -6778,6 +6927,10 @@
               "itemCosts": [
                 {
                   "id": "melvorD:Bronze_Bar",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -6793,6 +6946,10 @@
                 {
                   "id": "melvorD:Iron_Bar",
                   "quantity": 1
+                },
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 1
                 }
               ]
             },
@@ -6807,6 +6964,20 @@
                 {
                   "id": "melvorD:Steel_Bar",
                   "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Black_Thrownaxe",
+              "productID": "expandedAreas:Black_Thrownaxe",
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "baseExperience": 40,
+              "baseQuantity": 3,
+              "level": 36,
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 2
                 }
               ]
             },

@@ -78,6 +78,12 @@ Elemental Avatar
 Elemental Chest
 
 Data To Do:
+Add Sterkite Ore and Bar
+Add smithable Black equipment (using Sterkite)
+Add Black throwing knife
+Add Black arrowtips
+Add Black arrows
+Add Black gloves
 Add Elemental Avatar monster
 Add Elemental Chest loot
 
