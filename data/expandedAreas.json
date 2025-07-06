@@ -2568,8 +2568,9 @@
         "id": "Bronze_Spear",
         "name": "Bronze Spear",
         "category": "Combat",
-        "itemType": "Equipment",
+        "itemType": "Weapon",
         "type": "Weapon",
+        "attackType": "melee",
         "media": "assets/items/Bronze_Spear.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
@@ -2623,8 +2624,9 @@
         "id": "Iron_Spear",
         "name": "Iron Spear",
         "category": "Combat",
-        "itemType": "Equipment",
+        "itemType": "Weapon",
         "type": "Weapon",
+        "attackType": "melee",
         "media": "assets/items/Iron_Spear.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
@@ -2678,8 +2680,9 @@
         "id": "Steel_Spear",
         "name": "Steel Spear",
         "category": "Combat",
-        "itemType": "Equipment",
+        "itemType": "Weapon",
         "type": "Weapon",
+        "attackType": "melee",
         "media": "assets/items/Steel_Spear.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
@@ -2733,7 +2736,8 @@
         "id": "Black_Spear",
         "name": "Black Spear",
         "category": "Combat",
-        "itemType": "Equipment",
+        "itemType": "Weapon",
+        "attackType": "melee",
         "type": "Weapon",
         "media": "assets/items/Black_Spear.png",
         "ignoreCompletion": false,
@@ -2788,7 +2792,8 @@
         "id": "Mithril_Spear",
         "name": "Mithril Spear",
         "category": "Combat",
-        "itemType": "Equipment",
+        "itemType": "Weapon",
+        "attackType": "melee",
         "type": "Weapon",
         "media": "assets/items/Mithril_Spear.png",
         "ignoreCompletion": false,
@@ -2843,7 +2848,8 @@
         "id": "Adamant_Spear",
         "name": "Adamant Spear",
         "category": "Combat",
-        "itemType": "Equipment",
+        "itemType": "Weapon",
+        "attackType": "melee",
         "type": "Weapon",
         "media": "assets/items/Adamant_Spear.png",
         "ignoreCompletion": false,
@@ -2902,7 +2908,8 @@
         "id": "Rune_Spear",
         "name": "Rune Spear",
         "category": "Combat",
-        "itemType": "Equipment",
+        "itemType": "Weapon",
+        "attackType": "melee",
         "type": "Weapon",
         "media": "assets/items/Rune_Spear.png",
         "ignoreCompletion": false,
@@ -2961,7 +2968,8 @@
         "id": "Dragon_Spear",
         "name": "Dragon Spear",
         "category": "Combat",
-        "itemType": "Equipment",
+        "itemType": "Weapon",
+        "attackType": "melee",
         "type": "Weapon",
         "media": "assets/items/Dragon_Spear.png",
         "ignoreCompletion": false,
@@ -6980,6 +6988,81 @@
             }
           ]
         }
+      },
+      {
+        "skillID": "melvorD:Runecrafting",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "expandedAreas:Wispy_Page",
+              "requirements": [
+                {
+                  "type": "ItemFound",
+                  "itemID": "expandedAreas:Mysterious_Tome"
+                }
+              ],
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.000325
+              },
+              "realms": [
+                "melvorD:Melvor"
+              ]
+            },
+            {
+              "itemID": "expandedAreas:Waterlogged_Page",
+              "requirements": [
+                {
+                  "type": "ItemFound",
+                  "itemID": "expandedAreas:Mysterious_Tome"
+                }
+              ],
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.000325
+              },
+              "realms": [
+                "melvorD:Melvor"
+              ]
+            },
+            {
+              "itemID": "expandedAreas:Muddy_Page",
+              "requirements": [
+                {
+                  "type": "ItemFound",
+                  "itemID": "expandedAreas:Mysterious_Tome"
+                }
+              ],
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.000325
+              },
+              "realms": [
+                "melvorD:Melvor"
+              ]
+            },
+            {
+              "itemID": "expandedAreas:Burnt_Page",
+              "requirements": [
+                {
+                  "type": "ItemFound",
+                  "itemID": "expandedAreas:Mysterious_Tome"
+                }
+              ],
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.000325
+              },
+              "realms": [
+                "melvorD:Melvor"
+              ]
+            }
+          ]
+        }
       }
     ]
   },
@@ -7129,7 +7212,7 @@
         "lootTable": {
           "add": [
             {
-              "itemID": "expandedAreas:Fire_Page",
+              "itemID": "expandedAreas:Burnt_Page",
               "minQuantity": 1,
               "maxQuantity": 1,
               "weight": 3
