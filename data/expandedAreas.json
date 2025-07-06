@@ -6884,6 +6884,102 @@
             }
           ]
         }
+      },
+      {
+        "skillID": "melvorD:Firemaking",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "expandedAreas:Burnt_Page",
+              "requirements": [
+                {
+                  "type": "ItemFound",
+                  "itemID": "expandedAreas:Mysterious_Tome"
+                }
+              ],
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.0000325
+              },
+              "realms": [
+                "melvorD:Melvor"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Fishing",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "expandedAreas:Waterlogged_Page",
+              "requirements": [
+                {
+                  "type": "ItemFound",
+                  "itemID": "expandedAreas:Mysterious_Tome"
+                }
+              ],
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.0000325
+              },
+              "realms": [
+                "melvorD:Melvor"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Farming",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "expandedAreas:Muddy_Page",
+              "requirements": [
+                {
+                  "type": "ItemFound",
+                  "itemID": "expandedAreas:Mysterious_Tome"
+                }
+              ],
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.0000325
+              },
+              "realms": [
+                "melvorD:Melvor"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Astrology",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "expandedAreas:Wispy_Page",
+              "requirements": [
+                {
+                  "type": "ItemFound",
+                  "itemID": "expandedAreas:Mysterious_Tome"
+                }
+              ],
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.0000325
+              },
+              "realms": [
+                "melvorD:Melvor"
+              ]
+            }
+          ]
+        }
       }
     ]
   },
