@@ -37,7 +37,7 @@
         ],
         "entryRequirements": [
           {
-            "skillID": "melvorD:Prayer",
+            "skillID": "melvorD:Runecrafting",
             "level": 50,
             "type": "SkillLevel"
           },
@@ -49,6 +49,11 @@
           {
             "type": "ItemFound",
             "itemID": "expandedAreas:Mysterious_Tome"
+          },
+          {
+            "type": "DungeonCompletion",
+            "dungeonID": "melvorD:Hall_of_Wizards",
+            "count": 1
           }
         ]
       }
@@ -2110,8 +2115,8 @@
         "levels": {
           "Attack": 91,
           "Defence": 300,
-          "Hitpoints": 150,
-          "Magic": 140,
+          "Hitpoints": 130,
+          "Magic": 110,
           "Ranged": 1,
           "Strength": 104
         },
@@ -2205,12 +2210,12 @@
         "name": "Monk of the Flame",
         "media": "assets/monsters/Monk_of_the_Flame.png",
         "levels": {
-          "Attack": 90,
-          "Defence": 110,
-          "Hitpoints": 191,
-          "Magic": 206,
+          "Attack": 120,
+          "Defence": 117,
+          "Hitpoints": 193,
+          "Magic": 238,
           "Ranged": 1,
-          "Strength": 105
+          "Strength": 135
         },
         "equipmentStats": [
           {
@@ -4271,7 +4276,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +30 Minimum Air Spell Dmg and +1% chance to stun a Melee enemy when attacking with Magic",
+        "customDescription": "Passive: +10 Minimum Air Spell Dmg and +1% chance to stun a Melee enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Helmet",
@@ -4307,7 +4312,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Air",
-              "value": 3
+              "value": 1
             }
           ]
         },
@@ -4336,7 +4341,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 200000,
-        "customDescription": "Passive: +60 Minimum Air Spell Dmg and +2% chance to stun a Melee enemy when attacking with Magic",
+        "customDescription": "Passive: +20 Minimum Air Spell Dmg and +2% chance to stun a Melee enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Platebody",
@@ -4374,7 +4379,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Air",
-              "value": 6
+              "value": 2
             }
           ]
         },
@@ -4403,7 +4408,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +30 Minimum Air Spell Dmg and +1% chance to stun a Melee enemy when attacking with Magic",
+        "customDescription": "Passive: +10 Minimum Air Spell Dmg and +1% chance to stun a Melee enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Boots",
@@ -4439,7 +4444,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Air",
-              "value": 3
+              "value": 1
             }
           ]
         },
@@ -4540,7 +4545,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +30 Minimum Water Spell Dmg and +1% chance to freeze a Melee enemy when attacking with Magic",
+        "customDescription": "Passive: +10 Minimum Water Spell Dmg and +1% chance to freeze a Melee enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Helmet",
@@ -4576,7 +4581,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Water",
-              "value": 3
+              "value": 1
             }
           ]
         },
@@ -4605,7 +4610,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 200000,
-        "customDescription": "Passive: +60 Minimum Water Spell Dmg and +2% chance to freeze a Melee enemy when attacking with Magic",
+        "customDescription": "Passive: +20 Minimum Water Spell Dmg and +2% chance to freeze a Melee enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Platebody",
@@ -4643,7 +4648,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Water",
-              "value": 6
+              "value": 2
             }
           ]
         },
@@ -4672,7 +4677,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +30 Minimum Water Spell Dmg and +1% chance to freeze a Melee enemy when attacking with Magic",
+        "customDescription": "Passive: +10 Minimum Water Spell Dmg and +1% chance to freeze a Melee enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Boots",
@@ -4708,7 +4713,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Water",
-              "value": 3
+              "value": 1
             }
           ]
         },
@@ -4809,7 +4814,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +30 Minimum Earth Spell Dmg and +1% chance to put a Melee enemy to sleep when attacking with Magic",
+        "customDescription": "Passive: +10 Minimum Earth Spell Dmg and +1% chance to put a Melee enemy to sleep when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Helmet",
@@ -4845,7 +4850,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Earth",
-              "value": 3
+              "value": 1
             }
           ]
         },
@@ -4874,7 +4879,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 200000,
-        "customDescription": "Passive: +60 Minimum Earth Spell Dmg and +2% chance to put a Melee enemy to sleep when attacking with Magic",
+        "customDescription": "Passive: +20 Minimum Earth Spell Dmg and +2% chance to put a Melee enemy to sleep when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Platebody",
@@ -4912,7 +4917,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Earth",
-              "value": 6
+              "value": 2
             }
           ]
         },
@@ -4941,7 +4946,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +30 Minimum Earth Spell Dmg and +1% chance to put a Melee enemy to sleep when attacking with Magic",
+        "customDescription": "Passive: +10 Minimum Earth Spell Dmg and +1% chance to put a Melee enemy to sleep when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Boots",
@@ -4977,7 +4982,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Earth",
-              "value": 3
+              "value": 1
             }
           ]
         },
@@ -5078,7 +5083,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +30 Minimum Fire Spell Dmg and +1% chance to Burn a Melee enemy when attacking with Magic",
+        "customDescription": "Passive: +10 Minimum Fire Spell Dmg and +1% chance to Burn a Melee enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Helmet",
@@ -5114,7 +5119,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Fire",
-              "value": 3
+              "value": 1
             }
           ]
         },
@@ -5143,7 +5148,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 200000,
-        "customDescription": "Passive: +60 Minimum Fire Spell Dmg and +2% chance to Burn a Melee enemy when attacking with Magic",
+        "customDescription": "Passive: +20 Minimum Fire Spell Dmg and +2% chance to Burn a Melee enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Platebody",
@@ -5181,7 +5186,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Fire",
-              "value": 6
+              "value": 2
             }
           ]
         },
@@ -5210,7 +5215,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +30 Minimum Fire Spell Dmg and +1% chance to Burn a Melee enemy when attacking with Magic",
+        "customDescription": "Passive: +10 Minimum Fire Spell Dmg and +1% chance to Burn a Melee enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Boots",
@@ -5246,7 +5251,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Fire",
-              "value": 3
+              "value": 1
             }
           ]
         },
@@ -5530,6 +5535,294 @@
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "customDescription": "Used to create the Orb of the Elements ring."
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Tome_of_Air",
+        "name": "Tome of Air",
+        "media": "assets/items/Tome_of_Air.png",
+        "category": "Combat",
+        "type": "Offhand",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 100000,
+        "customDescription": "Reduces the Air Rune cost of Magic Spells by 1 when equipped as an Off-hand (Cost cannot go below 1).<br>Increases Maximum Hit and Accuracy of Air Spells by 20% when equipped.",
+        "tier": "book",
+        "validSlots": [
+          "Shield"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 70
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 12
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 7
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 15
+          }
+        ],
+        "providedRunes": [
+          {
+            "id": "melvorD:Air_Rune",
+            "quantity": 1
+          }
+        ],
+        "modifiers": {
+          "magicMaxHit": [
+            {
+              "subcategoryID": "melvorD:Air",
+              "value": 20
+            }
+          ],
+          "magicAccuracyRating": [
+            {
+              "subcategoryID": "melvorD:Air",
+              "value": 20
+            }
+          ]
+        }
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Tome_of_Water",
+        "name": "Tome of Water",
+        "media": "assets/items/Tome_of_Water.png",
+        "category": "Combat",
+        "type": "Offhand",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 100000,
+        "customDescription": "Reduces the Water Rune cost of Magic Spells by 1 when equipped as an Off-hand (Cost cannot go below 1).<br>Increases Maximum Hit and Accuracy of Water Spells by 20% when equipped.",
+        "tier": "book",
+        "validSlots": [
+          "Shield"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 70
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 12
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 7
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 15
+          }
+        ],
+        "providedRunes": [
+          {
+            "id": "melvorD:Water_Rune",
+            "quantity": 1
+          }
+        ],
+        "modifiers": {
+          "magicMaxHit": [
+            {
+              "subcategoryID": "melvorD:Water",
+              "value": 20
+            }
+          ],
+          "magicAccuracyRating": [
+            {
+              "subcategoryID": "melvorD:Water",
+              "value": 20
+            }
+          ]
+        }
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Tome_of_Earth",
+        "name": "Tome of Earth",
+        "media": "assets/items/Tome_of_Earth.png",
+        "category": "Combat",
+        "type": "Offhand",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 100000,
+        "customDescription": "Reduces the Earth Rune cost of Magic Spells by 1 when equipped as an Off-hand (Cost cannot go below 1).<br>Increases Maximum Hit and Accuracy of Earth Spells by 20% when equipped.",
+        "tier": "book",
+        "validSlots": [
+          "Shield"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 70
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 12
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 7
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 15
+          }
+        ],
+        "providedRunes": [
+          {
+            "id": "melvorD:Earth_Rune",
+            "quantity": 1
+          }
+        ],
+        "modifiers": {
+          "magicMaxHit": [
+            {
+              "subcategoryID": "melvorD:Earth",
+              "value": 20
+            }
+          ],
+          "magicAccuracyRating": [
+            {
+              "subcategoryID": "melvorD:Earth",
+              "value": 20
+            }
+          ]
+        }
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Tome_of_Fire",
+        "name": "Tome of Fire",
+        "media": "assets/items/Tome_of_Fire.png",
+        "category": "Combat",
+        "type": "Offhand",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 100000,
+        "customDescription": "Reduces the Fire Rune cost of Magic Spells by 1 when equipped as an Off-hand (Cost cannot go below 1).<br>Increases Maximum Hit and Accuracy of Fire Spells by 20% when equipped.",
+        "tier": "book",
+        "validSlots": [
+          "Shield"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 70
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 12
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 7
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 15
+          }
+        ],
+        "providedRunes": [
+          {
+            "id": "melvorD:Fire_Rune",
+            "quantity": 1
+          }
+        ],
+        "modifiers": {
+          "magicMaxHit": [
+            {
+              "subcategoryID": "melvorD:Fire",
+              "value": 20
+            }
+          ],
+          "magicAccuracyRating": [
+            {
+              "subcategoryID": "melvorD:Fire",
+              "value": 20
+            }
+          ]
+        }
+      },
+      {
+        "itemType": "Item",
+        "id": "Wispy_Page",
+        "name": "Wispy Page",
+        "media": "assets/items/Wispy_Page.png",
+        "category": "Item",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50,
+        "customDescription": "Used to create the Tome of Air."
+      },
+      {
+        "itemType": "Item",
+        "id": "Waterlogged_Page",
+        "name": "Water-logged Page",
+        "media": "assets/items/Waterlogged_Page.png",
+        "category": "Item",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50,
+        "customDescription": "Used to create the Tome of Water."
+      },
+      {
+        "itemType": "Item",
+        "id": "Muddy_Page",
+        "name": "Muddy Page",
+        "media": "assets/items/Muddy_Page.png",
+        "category": "Item",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50,
+        "customDescription": "Used to create the Tome of Earth."
+      },
+      {
+        "itemType": "Item",
+        "id": "Burnt_Page",
+        "name": "Burnt Page",
+        "media": "assets/items/Burnt_Page.png",
+        "category": "Item",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50,
+        "customDescription": "Used to create the Tome of Fire."
       }
     ],
     "itemSynergies": [
@@ -6057,19 +6350,19 @@
         "itemCosts": [
           {
             "id": "expandedAreas:Topaz_Dust",
-            "quantity": 100
+            "quantity": 10000
           },
           {
             "id": "expandedAreas:Sapphire_Dust",
-            "quantity": 100
+            "quantity": 10000
           },
           {
             "id": "expandedAreas:Emerald_Dust",
-            "quantity": 100
+            "quantity": 10000
           },
           {
             "id": "expandedAreas:Ruby_Dust",
-            "quantity": 100
+            "quantity": 10000
           },
           {
             "id": "expandedAreas:Air_Rune_Shard",
@@ -6093,6 +6386,86 @@
           "expandedAreas:Water_Rune_Shard",
           "expandedAreas:Earth_Rune_Shard",
           "expandedAreas:Fire_Rune_Shard"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": [],
+        "quantity": 1
+      },
+      {
+        "upgradedItemID": "expandedAreas:Tome_of_Air",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Mysterious_Tome",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Wispy_Page",
+            "quantity": 500
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Mysterious_Tome",
+          "expandedAreas:Wispy_Page"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": [],
+        "quantity": 1
+      },
+      {
+        "upgradedItemID": "expandedAreas:Tome_of_Water",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Mysterious_Tome",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Waterlogged_Page",
+            "quantity": 500
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Mysterious_Tome",
+          "expandedAreas:Waterlogged_Page"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": [],
+        "quantity": 1
+      },
+      {
+        "upgradedItemID": "expandedAreas:Tome_of_Earth",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Mysterious_Tome",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Muddy_Page",
+            "quantity": 500
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Mysterious_Tome",
+          "expandedAreas:Muddy_Page"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": [],
+        "quantity": 1
+      },
+      {
+        "upgradedItemID": "expandedAreas:Tome_of_Fire",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Mysterious_Tome",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Burnt_Page",
+            "quantity": 500
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Mysterious_Tome",
+          "expandedAreas:Burnt_Page"
         ],
         "isDowngrade": false,
         "currencyCosts": [],
@@ -6628,6 +7001,61 @@
         }
       }
     ],
+    "monsters": [
+      {
+        "id": "melvorF:Druid",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "expandedAreas:Muddy_Page",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:ElerineMage",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "expandedAreas:Wispy_Page",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Elementalist",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "expandedAreas:Fire_Page",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:IceTroll",
+        "lootChance": 10,
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "expandedAreas:Waterlogged_Page",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 1
+            }
+          ]
+        }
+      }
+    ],
     "items": [
       {
         "id": "melvorD:Treasure_Chest",
@@ -6638,6 +7066,12 @@
               "minQuantity": 1,
               "maxQuantity": 10,
               "weight": 90
+            },
+            {
+              "itemID": "expandedAreas:Waterlogged_Page",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 1
             }
           ]
         }
