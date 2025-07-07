@@ -5881,6 +5881,30 @@
         "golbinRaidExclusive": false,
         "sellsFor": 50,
         "customDescription": "Used to create the Tome of Fire."
+      },
+      {
+        "itemType": "Item",
+        "id": "Sterkite_Ore",
+        "name": "Sterkite Ore",
+        "category": "Mining",
+        "type": "Ore",
+        "media": "assets/items/Sterkite_Ore.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 45
+      },
+      {
+        "itemType": "Item",
+        "id": "Sterkite_Bar",
+        "name": "Sterkite Bar",
+        "category": "Smithing",
+        "type": "Bar",
+        "media": "assets/items/Sterkite_Bar.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 55
       }
     ],
     "itemSynergies": [
@@ -6532,6 +6556,16 @@
     ],
     "skillData": [
       {
+        "skillID": "melvorD:Fishing",
+        "data": {
+          "specialItems": [
+            {
+              "drops": []
+            }
+          ]
+        }
+      }
+      {
         "skillID": "melvorD:Runecrafting",
         "data": {
           "categories": [
@@ -6682,16 +6716,127 @@
         }
       },
       {
+        "skillID": "melvorD:Fletching",
+        "data": {
+          "categories": [
+            {
+              "id": "Barbarian_Fletching",
+              "media": "assets/icons/Barbarian.png",
+              "name": "Barbarian Fletching",
+              "realm": "melvorD:Melvor"
+            }
+          ],
+          "recipes": [
+            {
+              "id": "Black_Arrows",
+              "level": 38,
+              "productID": "expandedAreas:Black_Arrows",
+              "baseQuantity": 15,
+              "baseExperience": 90,
+              "categoryID": "melvorF:Arrows",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Black_Arrowtips",
+                  "quantity": 15
+                },
+                {
+                  "id": "melvorD:Headless_Arrows",
+                  "quantity": 15
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Black_Javelin",
+              "level": 40,
+              "productID": "expandedAreas:Black_Javelin",
+              "baseQuantity": 5,
+              "baseExperience": 96,
+              "categoryID": "expandedAreas:Barbarian_Fletching",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Teak_Logs",
+                  "quantity": 3
+                },
+                {
+                  "id": "expandedAreas:Black_Javelin_Heads",
+                  "quantity": 5
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Black_Crossbow",
+              "level": 43,
+              "productID": "expandedAreas:Black_Crossbow",
+              "baseQuantity": 1,
+              "baseExperience": 105,
+              "categoryID": "expandedAreas:Barbarian_Fletching",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Teak_Logs",
+                  "quantity": 3
+                },
+                {
+                  "id": "expandedAreas:Black_Crossbow_Head",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Bowstring",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Mining",
+        "data": {
+          "rockData": [
+            {
+              "id": "Sterkite_Ore",
+              "name": "Sterkite",
+              "media": "assets/skills/mining/Sterkite_Ore.svg",
+              "level": 40,
+              "baseExperience": 28,
+              "productId": "expandedAreas:Sterkite_Ore",
+              "baseRespawnInterval": 15000,
+              "baseQuantity": 1,
+              "hasPassiveRegen": true,
+              "category": "melvorD:Ore",
+              "giveGems": true,
+              "shopItemPurchased": "expandedAreas:Seal_of_Approval"
+            }
+          ]
+        }
+      },
+      {
         "skillID": "melvorD:Smithing",
         "data": {
           "categories": [
             {
               "id": "Barbarian_Smithing",
               "name": "Barbarian Smithing",
-              "media": "assets/combatAreas/Barbarian_Village_Icon.png"
+              "media": "assets/icons/Barbarian.png"
             }
           ],
           "recipes": [
+            {
+              "id": "Sterkite_Bar",
+              "level": 30,
+              "productID": "expandedAreas:Sterkite_Bar",
+              "baseQuantity": 1,
+              "baseExperience": 17,
+              "categoryID": "melvorD:Bars",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Sterkite_Ore",
+                  "quantity": 2
+                }
+              ]
+            },
             {
               "id": "Black_Dagger",
               "level": 33,
@@ -6752,14 +6897,153 @@
               "id": "Black_Gloves",
               "level": 37,
               "productID": "expandedAreas:Black_Gloves",
-              
               "baseQuantity": 1,
-              "baseExperience": 40,
+              "baseExperience": 80,
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "itemCosts": [
                 {
                   "id": "melvorD:Sterkite_Bar",
-                  "quantity": 1
+                  "quantity": 2
+                }
+              ]
+            },
+            {
+              "id": "Black_Scimitar",
+              "level": 38,
+              "productID": "melvorD:Black_Scimitar",
+              "baseQuantity": 1,
+              "baseExperience": 80,
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 2
+                }
+              ]
+            },
+            {
+              "id": "Black_Helmet",
+              "level": 39,
+              "productID": "melvorD:Black_Helmet",
+              "baseQuantity": 1,
+              "baseExperience": 80,
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 2
+                }
+              ]
+            },
+            {
+              "id": "Black_Battleaxe",
+              "level": 40,
+              "productID": "melvorD:Black_Battleaxe",
+              "baseQuantity": 1,
+              "baseExperience": 120,
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 3
+                }
+              ]
+            },
+            {
+              "id": "Black_Javelin_Heads",
+              "level": 41,
+              "productID": "expandedAreas:Black_Javelin_Heads",
+              "baseQuantity": 5,
+              "baseExperience": 80,
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 2
+                }
+              ]
+            },
+            {
+              "id": "Black_Boots",
+              "level": 42,
+              "productID": "melvorD:Black_Boots",
+              "baseQuantity": 1,
+              "baseExperience": 80,
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 2
+                }
+              ]
+            },
+            {
+              "id": "Black_Shield",
+              "level": 43,
+              "productID": "melvorD:Black_Shield",
+              "baseQuantity": 1,
+              "baseExperience": 120,
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 3
+                }
+              ]
+            },
+            {
+              "id": "Black_2H_Sword",
+              "level": 44,
+              "productID": "melvorD:Black_2H_Sword",
+              "baseQuantity": 1,
+              "baseExperience": 120,
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 3
+                }
+              ]
+            },
+            {
+              "id": "Black_Crossbow_Head",
+              "level": 45,
+              "productID": "expandedAreas:Black_Crossbow_Head",
+              "baseQuantity": 1,
+              "baseExperience": 120,
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 3
+                }
+              ]
+            },
+            {
+              "id": "Black_Platelegs",
+              "level": 46,
+              "productID": "melvorD:Black_Platelegs",
+              "baseQuantity": 1,
+              "baseExperience": 120,
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 3
+                }
+              ]
+            },
+            {
+              "id": "Black_Platebody",
+              "level": 47,
+              "productID": "melvorD:Black_Platebody",
+              "baseQuantity": 1,
+              "baseExperience": 200,
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sterkite_Bar",
+                  "quantity": 5
                 }
               ]
             },
@@ -7235,6 +7519,61 @@
           ]
         }
       }
+    ],
+    "shopCategories": [
+      {
+        "id": "Barbarian_Skilling",
+        "name": "Barbarian Skilling",
+        "media": "assets/icons/Barbarian.png"
+      }
+    ],
+    "shopPurchases": [
+      {
+        "id": "Seal_of_Approval",
+        "media": "assets/shop/Seal_of_Approval.png",
+        "category": "expandedAreas:Barbarian_Skilling",
+        "contains": {
+          "items": []
+        },
+        "cost": {
+          "items": [],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 1000000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Strength",
+            "level": 60
+          },
+          {
+            "type": "DungeonCompletion",
+            "dungeonID": "expandedAreas:Barbarian_Village",
+            "count": 1
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Barbarian Seal of Approval",
+        "customDescription": "Granted by the Jarl of the Barbarian Village after besting him in combat, this seal allows you to Mine Sterkite Ore to make Barbarian equipment, and enables Barbarian Skilling purchases."
+      }
+    ],
+    "shopCategoryOrder": [
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:SkillUpgrades",
+        "ids": [
+          "expandedAreas:Barbarian_Skilling"
+        ]
+      }
     ]
   },
   "modifications": {
@@ -7424,6 +7763,18 @@
               "weight": 1
             }
           ]
+        }
+      }
+    ],
+    "skillData": [
+      {
+        "skillID": "melvorD:Fishing",
+        "data": {
+          "specialItems": {
+            "remove": [
+              "melvorD:Barbarian_Gloves"
+            ]
+          }
         }
       }
     ]

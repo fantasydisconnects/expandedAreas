@@ -84,6 +84,10 @@ Add Black throwing knife
 Add Black arrowtips
 Add Black arrows
 Add Black gloves
+Add Black javelin heads
+Add Black javelins
+Add Black crossbow head
+Add Black crossbow
 Add Elemental Avatar monster
 Add Elemental Chest loot
 
