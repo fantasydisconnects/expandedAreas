@@ -6556,16 +6556,6 @@
     ],
     "skillData": [
       {
-        "skillID": "melvorD:Fishing",
-        "data": {
-          "specialItems": [
-            {
-              "drops": []
-            }
-          ]
-        }
-      }
-      {
         "skillID": "melvorD:Runecrafting",
         "data": {
           "categories": [
@@ -7564,7 +7554,91 @@
         "showBuyLimit": false,
         "customName": "Barbarian Seal of Approval",
         "customDescription": "Granted by the Jarl of the Barbarian Village after besting him in combat, this seal allows you to Mine Sterkite Ore to make Barbarian equipment, and enables Barbarian Skilling purchases."
-      }
+      },
+      {
+        "id": "Barbarian_Gloves",
+        "media": "assets/shop/Barbarian_Gloves.png",
+        "category": "expandedAreas:Barbarian_Skilling",
+        "contains": {
+          "items": [
+            {
+              "id": "melvorD:Barbarian_Gloves",
+              "quantity": 1
+            }
+          ]
+        },
+        "cost": {
+          "items": [],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 1500000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [],
+        "purchaseRequirements": [
+          {
+            "purchaseID": "expandedAreas:Seal_of_Approval",
+            "count": 1,
+            "type": "ShopPurchase"
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Fishing",
+            "level": 60
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Barbarian Gloves",
+        "customDescription": "Access to Barbarian Fishing Area when equipped."
+      },
+      {
+        "id": "Barbarian_Axe",
+        "media": "assets/shop/Barbarian_Axe.png",
+        "category": "expandedAreas:Barbarian_Skilling",
+        "contains": {
+          "items": [
+            {
+              "id": "expandedAreas:Barbarian_Axe",
+              "quantity": 1
+            }
+          ]
+        },
+        "cost": {
+          "items": [],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 2000000
+            }
+          ]
+        },
+        "allowQuantityPurchase": true,
+        "unlockRequirements": [],
+        "purchaseRequirements": [
+          {
+            "purchaseID": "expandedAreas:Seal_of_Approval",
+            "count": 1,
+            "type": "ShopPurchase"
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Woodcutting",
+            "level": 60
+          }
+        ],
+        "defaultBuyLimit": 0,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Barbarian Axe",
+        "customDescription": "."
+      },
     ],
     "shopCategoryOrder": [
       {
