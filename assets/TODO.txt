@@ -78,5 +78,6 @@ Elemental Avatar
 Elemental Chest
 
 Data To Do:
+Adjust stats to all gloves (inconsistent stat spread starting at Mithril)
 Add Elemental Avatar monster
 Add Elemental Chest loot

@@ -8261,27 +8261,132 @@
         }
       },
       {
-        "id": "melvorD:Mithril_Gloves",
+        "id": "melvorF:Hard_Leather_Gloves",
         "equipmentStats": {
-          "remove": [
-            "stabAttackBonus",
-            "slashAttackBonus",
-            "blockAttackBonus",
-            "meleeStrengthBonus",
-            "meleeDefenceBonus"
-          ],
           "add": [
             {
               "key": "stabAttackBonus",
-              "value": 6
+              "value": 1
             },
             {
               "key": "slashAttackBonus",
-              "value": 6
+              "value": 1
             },
             {
               "key": "blockAttackBonus",
-              "value": 6
+              "value": 1
+            },
+            {
+              "key": "rangedAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "magicAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "meleeStrengthBonus",
+              "value": 1
+            },
+            {
+              "key": "meleeDefenceBonus",
+              "value": 1
+            },
+            {
+              "key": "rangedDefenceBonus",
+              "value": 1
+            },
+            {
+              "key": "magicDefenceBonus",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Bronze_Gloves",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "rangedAttackBonus",
+              "value": 2
+            },
+            {
+              "key": "magicAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "rangedDefenceBonus",
+              "value": 2
+            },
+            {
+              "key": "magicDefenceBonus",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Iron_Gloves",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "rangedAttackBonus",
+              "value": 3
+            },
+            {
+              "key": "magicAttackBonus",
+              "value": 2
+            },
+            {
+              "key": "rangedDefenceBonus",
+              "value": 3
+            },
+            {
+              "key": "magicDefenceBonus",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Steel_Gloves",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "rangedAttackBonus",
+              "value": 4
+            },
+            {
+              "key": "magicAttackBonus",
+              "value": 2
+            },
+            {
+              "key": "rangedDefenceBonus",
+              "value": 4
+            },
+            {
+              "key": "magicDefenceBonus",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Mithril_Gloves",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "stabAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "slashAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "blockAttackBonus",
+              "value": 1
             },
             {
               "key": "rangedAttackBonus",
@@ -8293,11 +8398,11 @@
             },
             {
               "key": "meleeStrengthBonus",
-              "value": 6
+              "value": 1
             },
             {
               "key": "meleeDefenceBonus",
-              "value": 6
+              "value": 1
             },
             {
               "key": "rangedDefenceBonus",
@@ -8309,7 +8414,291 @@
             }
           ]
         }
-      }
+      },
+      {
+        "id": "melvorD:Adamant_Gloves",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "stabAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "slashAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "blockAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "rangedAttackBonus",
+              "value": 7
+            },
+            {
+              "key": "magicAttackBonus",
+              "value": 4
+            },
+            {
+              "key": "meleeStrengthBonus",
+              "value": 1
+            },
+            {
+              "key": "meleeDefenceBonus",
+              "value": 1
+            },
+            {
+              "key": "rangedDefenceBonus",
+              "value": 7
+            },
+            {
+              "key": "magicDefenceBonus",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Rune_Gloves",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "stabAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "slashAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "blockAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "rangedAttackBonus",
+              "value": 8
+            },
+            {
+              "key": "magicAttackBonus",
+              "value": 4
+            },
+            {
+              "key": "meleeStrengthBonus",
+              "value": 1
+            },
+            {
+              "key": "meleeDefenceBonus",
+              "value": 1
+            },
+            {
+              "key": "rangedDefenceBonus",
+              "value": 8
+            },
+            {
+              "key": "magicDefenceBonus",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Dragon_Gloves",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "stabAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "slashAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "blockAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "rangedAttackBonus",
+              "value": 9
+            },
+            {
+              "key": "magicAttackBonus",
+              "value": 5
+            },
+            {
+              "key": "meleeStrengthBonus",
+              "value": 1
+            },
+            {
+              "key": "meleeDefenceBonus",
+              "value": 1
+            },
+            {
+              "key": "rangedDefenceBonus",
+              "value": 9
+            },
+            {
+              "key": "magicDefenceBonus",
+              "value": 5
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Desert_Wrappings",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "stabAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "slashAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "blockAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "rangedAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "magicAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "meleeStrengthBonus",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Ragnar_God_Gloves",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "stabAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "slashAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "blockAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "rangedAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "magicAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "meleeStrengthBonus",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Relentless_Fury_Gloves",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "stabAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "slashAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "blockAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "rangedAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "magicAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "meleeStrengthBonus",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Spiked_Shell_Gloves",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "stabAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "slashAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "blockAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "rangedAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "magicAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "meleeStrengthBonus",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Terran_God_Gloves",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "stabAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "slashAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "blockAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "rangedAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "magicAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "meleeStrengthBonus",
+              "value": 1
+            }
+          ]
+        }
+      },
     ],
     "skillData": [
       {
