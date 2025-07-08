@@ -5932,11 +5932,11 @@
       },
       {
         "itemType": "Item",
-        "id": "White_Spruce_Logs",
-        "name": "White Spruce Logs",
+        "id": "White_Pine_Logs",
+        "name": "White Pine Logs",
         "category": "Woodcutting",
         "type": "Logs",
-        "media": "assets/items/White_Spruce_Logs",
+        "media": "assets/items/White_Pine_Logs",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -6202,6 +6202,659 @@
         "itemType": "Weapon",
         "attackType": "ranged",
         "ammoTypeRequired": "Bolts"
+      },
+      {
+        "id": "Pine_Cone",
+        "name": "Pine Cone",
+        "category": "Openable",
+        "type": "Chest",
+        "media": "assets/items/Pine_Cone.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 200,
+        "customDescription": "Open to receive Pine Seeds, Pine Needles, and, rarely, Pine Nuts.",
+        "itemType": "Openable",
+        "dropTable": [
+          {
+            "itemID": "expandedAreas:Pine_Needles",
+            "minQuantity": 1,
+            "maxQuantity": 10,
+            "weight": 35
+          },
+          {
+            "itemID": "expandedAreas:Evergreen_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 27
+          },
+          {
+            "itemID": "expandedAreas:Frostpine_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 17
+          },
+          {
+            "itemID": "expandedAreas:White_Pine_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 13
+          },
+          {
+            "itemID": "expandedAreas:Longleaf_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 10
+          },
+          {
+            "itemID": "expandedAreas:Loblolly_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 8
+          },
+          {
+            "itemID": "expandedAreas:Pine_Nuts",
+            "minQuantity": 1,
+            "maxQuantity": 6,
+            "weight": 5
+          }
+        ]
+      },
+      {
+        "itemType": "Item",
+        "id": "Pine_Resin",
+        "name": "Pine Resin",
+        "category": "Herblore",
+        "type": "Ingredient",
+        "media": "assets/items/Pine_Resin.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 100,
+        "customDescription": "Used to cool burns."
+      },
+      {
+        "itemType": "Item",
+        "id": "Turpentine",
+        "name": "Turpentine",
+        "category": "Herblore",
+        "type": "Ingredient",
+        "media": "assets/items/Turpentine.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1000,
+        "customDescription": "Used to <em>create</em> burns."
+      },
+      {
+        "itemType": "Food",
+        "id": "Pine_Nuts",
+        "name": "Pine Nuts",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Pine_Nuts.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 20,
+        "healsFor": 1.0,
+        "customDescription": "Nutty."
+      },
+      {
+        "itemType": "Item",
+        "id": "Pine_Needles",
+        "name": "Pine Needles",
+        "category": "Crafting",
+        "type": "Pine Needles",
+        "media": "assets/items/Pine_Needles.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "customDescription": "Used to create Baskets in Crafting."
+      },
+      {
+        "itemType": "Item",
+        "id": "Evergreen_Pine_Seed",
+        "name": "Evergreen Pine Seeds",
+        "category": "Farming",
+        "type": "Seeds",
+        "media": "assets/items/Evergreen_Pine_Seed.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 575
+      },
+      {
+        "itemType": "Item",
+        "id": "Longleaf_Pine_Seed",
+        "name": "Longleaf Pine Seeds",
+        "category": "Farming",
+        "type": "Seeds",
+        "media": "assets/items/Longleaf_Pine_Seed.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1875
+      },
+      {
+        "itemType": "Item",
+        "id": "Frostpine_Seed",
+        "name": "Frostpine Seeds",
+        "category": "Farming",
+        "type": "Seeds",
+        "media": "assets/items/Frostpine_Seed.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 3250
+      },
+      {
+        "itemType": "Item",
+        "id": "Loblolly_Seed",
+        "name": "Loblolly Seeds",
+        "category": "Farming",
+        "type": "Seeds",
+        "media": "assets/items/Loblolly_Seed.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 12500
+      },
+      {
+        "itemType": "Item",
+        "id": "White_Pine_Seed",
+        "name": "White Pine Seeds",
+        "category": "Farming",
+        "type": "Seeds",
+        "media": "assets/items/White_Pine_Seed.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1875
+      },
+      {
+        "itemType": "Item",
+        "id": "Loblolly_Logs",
+        "name": "Loblolly Logs",
+        "category": "Woodcutting",
+        "type": "Logs",
+        "media": "assets/items/Loblolly_Logs.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 185
+      },
+      {
+        "itemType": "Item",
+        "id": "Longleaf_Logs",
+        "name": "Longleaf Logs",
+        "category": "Woodcutting",
+        "type": "Logs",
+        "media": "assets/items/Longleaf_Logs.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 43
+      },
+      {
+        "id": "Chicken_Pesto_Pasta",
+        "name": "Chicken Pesto Pasta",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Chicken_Pesto_Pasta.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 36,
+        "itemType": "Food",
+        "healsFor": 15.4
+      },
+      {
+        "id": "Chicken_Pesto_Pasta_Perfect",
+        "name": "Chicken Pesto Pasta (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Chicken_Pesto_Pasta_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 40,
+        "itemType": "Food",
+        "healsFor": 16.9
+      },
+      {
+        "itemType": "Item",
+        "id": "Basket",
+        "name": "Basket",
+        "category": "Crafting",
+        "type": "Crafting Material",
+        "media": "assets/items/Basket.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2500
+      },
+      {
+        "id": "Basket_of_Tomatoes",
+        "name": "Basket of Tomatoes",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Basket_of_Tomatoes.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 20,
+        "itemType": "Food",
+        "healsFor": 6.5
+      },
+      {
+        "id": "Basket_of_Sweetcorn",
+        "name": "Basket of Sweetcorn",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Basket_of_Sweetcorn.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50,
+        "itemType": "Food",
+        "healsFor": 8.0
+      },
+      {
+        "id": "Basket_of_Strawberries",
+        "name": "Basket of Strawberries",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Basket_of_Strawberries.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 60,
+        "itemType": "Food",
+        "healsFor": 10.0
+      },
+      {
+        "id": "Basket_of_Cherries",
+        "name": "Basket of Cherries",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Basket_of_Cherries.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 70,
+        "itemType": "Food",
+        "healsFor": 12.0
+      },
+      {
+        "id": "Basket_of_Apples",
+        "name": "Basket of Apples",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Basket_of_Apples.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 15,
+        "itemType": "Food",
+        "healsFor": 16.0
+      },
+      {
+        "id": "Burn_Relief_Potion_I",
+        "name": "Burn Relief Potion I",
+        "category": "Herblore",
+        "type": "Potion",
+        "media": "assets/items/Burn_Relief_Potion_I.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 22,
+        "itemType": "Potion",
+        "modifiers": {
+          "burnDOTDamageTaken": 10,
+          "effectIgnoreChance": [
+            {
+              "effectGroupID": "melvorD:BurnDOT",
+              "value": 10
+            },
+            {
+              "effectGroupID": "melvorD:Frostburn",
+              "value": 10
+            }
+          ]
+        },
+        "charges": 10,
+        "tier": 0,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "EnemyAttack"
+          }
+        ]
+      },
+      {
+        "id": "Burn_Relief_Potion_II",
+        "name": "Burn Relief Potion II",
+        "category": "Herblore",
+        "type": "Potion",
+        "media": "assets/items/Burn_Relief_Potion_II.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 32,
+        "itemType": "Potion",
+        "modifiers": {
+          "burnDOTDamageTaken": 15,
+          "effectIgnoreChance": [
+            {
+              "effectGroupID": "melvorD:BurnDOT",
+              "value": 15
+            },
+            {
+              "effectGroupID": "melvorD:Frostburn",
+              "value": 15
+            }
+          ]
+        },
+        "charges": 15,
+        "tier": 1,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "EnemyAttack"
+          }
+        ]
+      },
+      {
+        "id": "Burn_Relief_Potion_III",
+        "name": "Burn Relief Potion III",
+        "category": "Herblore",
+        "type": "Potion",
+        "media": "assets/items/Burn_Relief_Potion_III.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 42,
+        "itemType": "Potion",
+        "modifiers": {
+          "burnDOTDamageTaken": 20,
+          "effectIgnoreChance": [
+            {
+              "effectGroupID": "melvorD:BurnDOT",
+              "value": 20
+            },
+            {
+              "effectGroupID": "melvorD:Frostburn",
+              "value": 20
+            }
+          ]
+        },
+        "charges": 20,
+        "tier": 2,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "EnemyAttack"
+          }
+        ]
+      },
+      {
+        "id": "Burn_Relief_Potion_IV",
+        "name": "Burn Relief Potion IV",
+        "category": "Herblore",
+        "type": "Potion",
+        "media": "assets/items/Burn_Relief_Potion_IV.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 52,
+        "itemType": "Potion",
+        "modifiers": {
+          "burnDOTDamageTaken": 25,
+          "effectIgnoreChance": [
+            {
+              "effectGroupID": "melvorD:BurnDOT",
+              "value": 25
+            },
+            {
+              "effectGroupID": "melvorD:Frostburn",
+              "value": 25
+            }
+          ]
+        },
+        "charges": 25,
+        "tier": 3,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "EnemyAttack"
+          }
+        ]
+      },
+      {
+        "id": "Volatile_Potion_I",
+        "name": "Volatile Potion I",
+        "category": "Herblore",
+        "type": "Potion",
+        "media": "assets/items/Volatile_Potion_I.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1900,
+        "itemType": "Potion",
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "condition": {
+              "thisAttackType": "magic",
+              "character": "Player",
+              "type": "CombatType",
+              "targetAttackType": "any"
+            },
+            "effectID": "melvorD:Burn",
+            "chance": 6
+          }
+        ],
+        "charges": 10,
+        "tier": 0,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "PlayerAttack"
+          }
+        ]
+      },
+      {
+        "id": "Volatile_Potion_II",
+        "name": "Volatile Potion II",
+        "category": "Herblore",
+        "type": "Potion",
+        "media": "assets/items/Volatile_Potion_II.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2100,
+        "itemType": "Potion",
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "condition": {
+              "thisAttackType": "magic",
+              "character": "Player",
+              "type": "CombatType",
+              "targetAttackType": "any"
+            },
+            "effectID": "melvorD:Burn",
+            "chance": 9
+          }
+        ],
+        "charges": 15,
+        "tier": 1,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "PlayerAttack"
+          }
+        ]
+      },
+      {
+        "id": "Volatile_Potion_III",
+        "name": "Volatile Potion III",
+        "category": "Herblore",
+        "type": "Potion",
+        "media": "assets/items/Volatile_Potion_III.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2300,
+        "itemType": "Potion",
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "condition": {
+              "thisAttackType": "magic",
+              "character": "Player",
+              "type": "CombatType",
+              "targetAttackType": "any"
+            },
+            "effectID": "melvorD:Burn",
+            "chance": 12
+          }
+        ],
+        "charges": 20,
+        "tier": 2,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "PlayerAttack"
+          }
+        ]
+      },
+      {
+        "id": "Volatile_Potion_IV",
+        "name": "Volatile Potion IV",
+        "category": "Herblore",
+        "type": "Potion",
+        "media": "assets/items/Volatile_Potion_IV.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2500,
+        "itemType": "Potion",
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "condition": {
+              "thisAttackType": "magic",
+              "character": "Player",
+              "type": "CombatType",
+              "targetAttackType": "any"
+            },
+            "effectID": "melvorD:Burn",
+            "chance": 15
+          }
+        ],
+        "charges": 25,
+        "tier": 3,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "PlayerAttack"
+          }
+        ]
+      },
+      {
+        "id": "Antidragon_Potion_I",
+        "name": "Anti-Dragon Potion I",
+        "category": "Herblore",
+        "type": "Potion",
+        "media": "assets/items/Antidragon_Potion_I.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 900,
+        "itemType": "Potion",
+        "modifiers": {
+          "dragonBreathDamage": -60
+        },
+        "charges": 10,
+        "tier": 0,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "EnemyAttack"
+          }
+        ]
+      },
+      {
+        "id": "Antidragon_Potion_II",
+        "name": "Anti-Dragon Potion II",
+        "category": "Herblore",
+        "type": "Potion",
+        "media": "assets/items/Antidragon_Potion_II.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1300,
+        "itemType": "Potion",
+        "modifiers": {
+          "dragonBreathDamage": -70
+        },
+        "charges": 15,
+        "tier": 1,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "EnemyAttack"
+          }
+        ]
+      },
+      {
+        "id": "Antidragon_Potion_III",
+        "name": "Anti-Dragon Potion III",
+        "category": "Herblore",
+        "type": "Potion",
+        "media": "assets/items/Antidragon_Potion_III.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1700,
+        "itemType": "Potion",
+        "modifiers": {
+          "dragonBreathDamage": -80
+        },
+        "charges": 20,
+        "tier": 2,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "EnemyAttack"
+          }
+        ]
+      },
+      {
+        "id": "Antidragon_Potion_IV",
+        "name": "Anti-Dragon Potion IV",
+        "category": "Herblore",
+        "type": "Potion",
+        "media": "assets/items/Antidragon_Potion_IV.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2100,
+        "itemType": "Potion",
+        "modifiers": {
+          "dragonBreathDamage": -90
+        },
+        "charges": 25,
+        "tier": 3,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "EnemyAttack"
+          }
+        ]
       }
     ],
     "itemSynergies": [
@@ -6232,6 +6885,101 @@
       }
     ],
     "itemUpgrades": [
+      {
+        "upgradedItemID": "expandedAreas:Basket_of_Tomatoes",
+        "itemCosts": [
+          {
+            "id": "melvorD:Tomatoes",
+            "quantity": 5
+          },
+          {
+            "id": "expandedAreas:Basket",
+            "quantity": 1
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Basket",
+          "melvorD:Tomatoes"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Basket_of_Sweetcorn",
+        "itemCosts": [
+          {
+            "id": "melvorD:Sweetcorn",
+            "quantity": 5
+          },
+          {
+            "id": "expandedAreas:Basket",
+            "quantity": 1
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Basket",
+          "melvorD:Sweetcorn"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Basket_of_Strawberries",
+        "itemCosts": [
+          {
+            "id": "melvorD:Strawberries",
+            "quantity": 5
+          },
+          {
+            "id": "expandedAreas:Basket",
+            "quantity": 1
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Basket",
+          "melvorD:Strawberries"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Basket_of_Apples",
+        "itemCosts": [
+          {
+            "id": "melvorF:Apple",
+            "quantity": 5
+          },
+          {
+            "id": "expandedAreas:Basket",
+            "quantity": 1
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Basket",
+          "melvorF:Apple"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Basket_of_Cherries",
+        "itemCosts": [
+          {
+            "id": "melvorD:Cherry",
+            "quantity": 5
+          },
+          {
+            "id": "expandedAreas:Basket",
+            "quantity": 1
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Basket",
+          "melvorD:Cherry"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
       {
         "upgradedItemID": "expandedAreas:Air_Elementalist_Hat",
         "itemCosts": [
@@ -6858,14 +7606,36 @@
           "trees": [
             {
               "id": "Evergreen",
-              "name": "Evergreen Tree",
+              "name": "Evergreen Pine",
               "media": "assets/skills/woodcutting/Evergreen.svg",
               "baseInterval": 5500,
               "baseExperience": 26,
               "productId": "expandedAreas:Evergreen_Logs",
               "level": 30,
               "randomProducts": [
-                "expandedAreas:Sap",
+                "expandedAreas:Pine_Needles",
+                "expandedAreas:Pine_Resin",
+                "expandedAreas:Pine_Cone"
+              ],
+              "requirements": [
+                {
+                  "type": "ShopPurchase",
+                  "purchaseID": "expandedAreas:Ancient_Barbarian_Axe",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "id": "Longleaf",
+              "name": "Longleaf Pine",
+              "media": "assets/skills/woodcutting/Longleaf.svg",
+              "baseInterval": 9000,
+              "baseExperience": 50,
+              "productId": "expandedAreas:Longleaf_Logs",
+              "level": 50,
+              "randomProducts": [
+                "expandedAreas:Pine_Needles",
+                "expandedAreas:Pine_Resin",
                 "expandedAreas:Pine_Cone"
               ],
               "requirements": [
@@ -6878,14 +7648,15 @@
             },
             {
               "id": "Frostpine",
-              "name": "Frostpine Tree",
+              "name": "Frostpine",
               "media": "assets/skills/woodcutting/Frostpine.svg",
               "baseInterval": 15000,
               "baseExperience": 87,
               "productId": "expandedAreas:Frostpine_Logs",
               "level": 65,
               "randomProducts": [
-                "expandedAreas:Sap",
+                "expandedAreas:Pine_Needles",
+                "expandedAreas:Pine_Resin",
                 "expandedAreas:Pine_Cone"
               ],
               "requirements": [
@@ -6897,16 +7668,39 @@
               ]
             },
             {
-              "id": "White_Spruce",
-              "name": "White Spruce Tree",
-              "media": "assets/skills/woodcutting/White_Spruce.svg",
-              "baseInterval": 15000,
+              "id": "White_Pine",
+              "name": "White Pine",
+              "media": "assets/skills/woodcutting/White_Pine.svg",
+              "baseInterval": 17500,
               "baseExperience": 120,
-              "productId": "expandedAreas:White_Spruce_Logs",
+              "productId": "expandedAreas:White_Pine_Logs",
               "level": 80,
               "randomProducts": [
-                "expandedAreas:Sap",
+                "expandedAreas:Pine_Needles",
+                "expandedAreas:Pine_Resin",
                 "expandedAreas:Pine_Cone"
+              ],
+              "requirements": [
+                {
+                  "type": "ShopPurchase",
+                  "purchaseID": "expandedAreas:Ancient_Barbarian_Axe",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "id": "Loblolly",
+              "name": "Loblolly Pine",
+              "media": "assets/skills/woodcutting/Loblolly.svg",
+              "baseInterval": 16000,
+              "baseExperience": 150,
+              "productId": "expandedAreas:White_Pine_Logs",
+              "level": 85,
+              "randomProducts": [
+                "expandedAreas:Pine_Needles",
+                "expandedAreas:Pine_Resin",
+                "expandedAreas:Pine_Cone",
+                "expandedAreas:Turpentine"
               ],
               "requirements": [
                 {
@@ -6919,16 +7713,28 @@
           ],
           "randomProducts": [
             {
-              "itemID": "expandedAreas:Sap",
-              "chance": 5,
+              "itemID": "expandedAreas:Turpentine",
+              "chance": 2,
               "quantity": 1,
               "minChance": 1
+            },
+            {
+              "itemID": "expandedAreas:Pine_Resin",
+              "chance": 5,
+              "quantity": 1,
+              "minChance": 2
             },
             {
               "itemID": "expandedAreas:Pine_Cone",
               "chance": 25,
               "quantity": 1,
-              "minChance": 1
+              "minChance": 5
+            },
+            {
+              "itemID": "expandedAreas:Pine_Needles",
+              "chance": 50,
+              "quantity": 1,
+              "minChance": 25
             }
           ]
         }
@@ -6936,6 +7742,25 @@
       {
         "skillID": "melvorD:Firemaking",
         "data": {
+          "rareDrops": [
+            {
+              "itemID": "expandedAreas:Burnt_Page",
+              "requirements": [
+                {
+                  "type": "ItemFound",
+                  "itemID": "expandedAreas:Mysterious_Tome"
+                }
+              ],
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.0000325
+              },
+              "realms": [
+                "melvorD:Melvor"
+              ]
+            }
+          ],
           "logs": [
             {
               "id": "Evergreen_Logs",
@@ -6944,7 +7769,22 @@
               "logID": "expandedAreas:Evergreen_Logs",
               "baseInterval": 3500,
               "baseBonfireInterval": 45000,
-              "bonfireXPBonus": 18
+              "bonfireXPBonus": 18,
+              "secondaryProducts": [
+                "expandedAreas:Pine_Resin"
+              ]
+            },
+            {
+              "id": "Longleaf_logs",
+              "level": 50,
+              "baseExperience": 117,
+              "logID": "expandedAreas:Evergreen_Logs",
+              "baseInterval": 5500,
+              "baseBonfireInterval": 65000,
+              "bonfireXPBonus": 28,
+              "secondaryProducts": [
+                "expandedAreas:Pine_Resin"
+              ]
             },
             {
               "id": "Frostpine_Logs",
@@ -6953,16 +7793,137 @@
               "logID": "expandedAreas:Frostpine_Logs",
               "baseInterval": 7500,
               "baseBonfireInterval": 83333,
-              "bonfireXPBonus": 37
+              "bonfireXPBonus": 37,
+              "secondaryProducts": [
+                "expandedAreas:Pine_Resin"
+              ]
             },
             {
-              "id": "White_Spruce_Logs",
+              "id": "White_Pine_Logs",
               "level": 80,
+              "baseExperience": 316,
+              "logID": "expandedAreas:White_Pine_Logs",
+              "baseInterval": 11667,
+              "baseBonfireInterval": 93333,
+              "bonfireXPBonus": 41,
+              "secondaryProducts": [
+                "expandedAreas:Turpentine"
+              ]
+            },
+            {
+              "id": "Loblolly_Logs",
+              "level": 85,
               "baseExperience": 328,
-              "logID": "expandedAreas:White_Spruce_Logs",
-              "baseInterval": 12500,
-              "baseBonfireInterval": 55000,
-              "bonfireXPBonus": 43
+              "logID": "expandedAreas:Loblolly_Logs",
+              "baseInterval": 13332,
+              "baseBonfireInterval": 96667,
+              "bonfireXPBonus": 43,
+              "secondaryProducts": [
+                "expandedAreas:Turpentine"
+              ]
+            }
+          ],
+          "secondaryProducts": [
+            {
+              "itemID": "expandedAreas:Pine_Resin",
+              "chance": 0.1,
+              "quantity": 1
+            },
+            {
+              "itemID": "expandedAreas:Turpentine",
+              "chance": 0.1,
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Herblore",
+        "data": {
+          "recipes": [
+            {
+              "id": "Burn_Relief_Potion",
+              "name": "Burn Relief Potion",
+              "level": 22,
+              "potionIDs": [
+                "expandedAreas:Burn_Relief_Potion_I",
+                "expandedAreas:Burn_Relief_Potion_II",
+                "expandedAreas:Burn_Relief_Potion_III",
+                "expandedAreas:Burn_Relief_Potion_IV"
+              ],
+              "baseExperience": 19,
+              "categoryID": "melvorF:CombatPotions",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sourweed_Herb",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Pine_Resin",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Antidragon_Potion",
+              "name": "Anti-Dragon Potion",
+              "level": 92,
+              "potionIDs": [
+                "expandedAreas:Antidragon_Potion_I",
+                "expandedAreas:Antidragon_Potion_II",
+                "expandedAreas:Antidragon_Potion_III",
+                "expandedAreas:Antidragon_Potion_IV"
+              ],
+              "baseExperience": 200,
+              "categoryID": "melvorF:CombatPotions",
+              "itemCosts": [
+                {
+                  "id": "melvorF:Barrentoe_Herb",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Pine_Resin",
+                  "quantity": 10
+                },
+                {
+                  "id": "melvorD:Elder_Dragonhide",
+                  "quantity": 5
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Volatile_Potion",
+              "name": "Volatile Potion",
+              "level": 80,
+              "potionIDs": [
+                "expandedAreas:Volatile_Potion_I",
+                "expandedAreas:Volatile_Potion_II",
+                "expandedAreas:Volatile_Potion_III",
+                "expandedAreas:Volatile_Potion_IV"
+              ],
+              "baseExperience": 145,
+              "categoryID": "melvorF:CombatPotions",
+              "itemCosts": [
+                {
+                  "id": "melvorF:Barrentoe_Herb",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Pine_Resin",
+                  "quantity": 8
+                },
+                {
+                  "id": "expandedAreas:Turpentine",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Dragon_Bones",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
             }
           ]
         }
@@ -7111,6 +8072,20 @@
                 {
                   "id": "expandedAreas:Sand",
                   "quantity": 25
+                }
+              ]
+            },
+            {
+              "id": "Basket",
+              "categoryID": "melvorF:Bags",
+              "productID": "expandedAreas:Basket",
+              "baseExperience": 25,
+              "baseQuantity": 1,
+              "level": 28,
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Pine_Needles",
+                  "quantity": 50
                 }
               ]
             }
@@ -7746,30 +8721,39 @@
                 }
               ],
               "currencyCosts": []
-            }
-          ]
-        }
-      },
-      {
-        "skillID": "melvorD:Firemaking",
-        "data": {
-          "rareDrops": [
+            },
             {
-              "itemID": "expandedAreas:Burnt_Page",
-              "requirements": [
+              "id": "Chicken_Pesto_Pasta",
+              "productID": "expandedAreas:Chicken_Pesto_Pasta",
+              "perfectCookID": "expandedAreas:Chicken_Pesto_Pasta_Perfect",
+              "baseExperience": 701,
+              "level": 85,
+              "baseInterval": 8000,
+              "baseQuantity": 4,
+              "categoryID": "melvorD:Pot",
+              "itemCosts": [
                 {
-                  "type": "ItemFound",
-                  "itemID": "expandedAreas:Mysterious_Tome"
+                  "id": "melvorD:Raw_Chicken",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Bag_of_Flour",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Pine_Nuts",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Cream",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Cheese",
+                  "quantity": 2
                 }
               ],
-              "quantity": 1,
-              "chance": {
-                "type": "Fixed",
-                "chance": 0.0000325
-              },
-              "realms": [
-                "melvorD:Melvor"
-              ]
+              "currencyCosts": []
             }
           ]
         }
@@ -7801,6 +8785,73 @@
       {
         "skillID": "melvorD:Farming",
         "data": {
+          "recipes": [
+            {
+              "id": "Evergreen_Logs",
+              "baseExperience": 26300,
+              "level": 35,
+              "productId": "expandedAreas:Evergreen_Logs",
+              "baseInterval": 35200000,
+              "categoryID": "melvorD:Tree",
+              "seedCost": {
+                "id": "expandedAreas:Evergreen_Pine_Seed",
+                "quantity": 1
+              },
+              "grownMedia": "assets/skills/woodcutting/Evergreen.svg"
+            },
+            {
+              "id": "Longleaf_Logs",
+              "baseExperience": 57810,
+              "level": 50,
+              "productId": "expandedAreas:Longleaf_Logs",
+              "baseInterval": 41600000,
+              "categoryID": "melvorD:Tree",
+              "seedCost": {
+                "id": "expandedAreas:Longleaf_Pine_Seed",
+                "quantity": 1
+              },
+              "grownMedia": "assets/skills/woodcutting/Longleaf.svg"
+            },
+            {
+              "id": "Frostpine_Logs",
+              "baseExperience": 116325,
+              "level": 65,
+              "productId": "expandedAreas:Frostpine_Logs",
+              "baseInterval": 51200000,
+              "categoryID": "melvorD:Tree",
+              "seedCost": {
+                "id": "expandedAreas:Frostpine_Seed",
+                "quantity": 1
+              },
+              "grownMedia": "assets/skills/woodcutting/Frostpine.svg"
+            },
+            {
+              "id": "White_Pine_Logs",
+              "baseExperience": 183015,
+              "level": 80,
+              "productId": "expandedAreas:White_Pine_Logs",
+              "baseInterval": 54400000,
+              "categoryID": "melvorD:Tree",
+              "seedCost": {
+                "id": "expandedAreas:White_Pine_Seed",
+                "quantity": 1
+              },
+              "grownMedia": "assets/skills/woodcutting/White_Pine.svg"
+            },
+            {
+              "id": "Loblolly_Logs",
+              "baseExperience": 194455,
+              "level": 85,
+              "productId": "expandedAreas:Loblolly_Logs",
+              "baseInterval": 57800000,
+              "categoryID": "melvorD:Tree",
+              "seedCost": {
+                "id": "expandedAreas:Loblolly_Pine_Seed",
+                "quantity": 1
+              },
+              "grownMedia": "assets/skills/woodcutting/Loblolly.svg"
+            }
+          ],
           "rareDrops": [
             {
               "itemID": "expandedAreas:Muddy_Page",
@@ -8019,13 +9070,13 @@
             "additionalPrimaryProductChance": [
               {
                 "skillID": "melvorD:Woodcutting",
-                "value": 5
+                "value": 1
               }
             ],
             "skillInterval": [
               {
                 "skillID": "melvorD:Woodcutting",
-                "value": -2.5
+                "value": -1
               }
             ]
           }
@@ -8051,14 +9102,14 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Woodcutting",
-            "level": 70
+            "level": 30
           }
         ],
         "defaultBuyLimit": 0,
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Ancient Barbarian Axe",
-        "customDescription": "Grants access to Evergreen, Frost Pine, and White Spruce trees."
+        "customDescription": "+1% chance to receive an additional resource from Woodcutting (cannot be doubled).<br>-1% Woodcutting Interval.<br>Grants access to Pine trees."
       }
     ],
     "shopCategoryOrder": [
@@ -8698,7 +9749,7 @@
             }
           ]
         }
-      },
+      }
     ],
     "skillData": [
       {

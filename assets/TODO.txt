@@ -77,7 +77,45 @@ Elemental Sanctuary
 Elemental Avatar
 Elemental Chest
 
-Data To Do:
-Adjust stats to all gloves (inconsistent stat spread starting at Mithril)
+MEDIA:
+Add Longleaf.svg
+Add Loblolly.svg
+Add Pine_Needles.png
+Add Pine_Resin.png
+Add Pine_Nuts.png
+Add Turpentine.png
+Add Evergreen_Seed.png
+Add Frostpine_Seed.png
+Add White_Pine_Seed.png
+Add Longleaf_Seed.png
+Add Loblolly_Seed.png
+Add Longleaf_Log.png
+Add Loblolly_Log.png
+Add Evergreen_Log.png
+Add Frostpine_Log.png
+Add White_Pine_Log.png
+Add Pesto_Chicken.png
+Add Basket.png
+Add Burn_Relief_Potion_I.png
+Add Burn_Relief_Potion_II.png
+Add Burn_Relief_Potion_III.png
+Add Burn_Relief_Potion_IV.png
+Add Antidragon_Potion_I.png
+Add Antidragon_Potion_II.png
+Add Antidragon_Potion_III.png
+Add Antidragon_Potion_IV.png
+Add Volatile_Potion_I.png
+Add Volatile_Potion_II.png
+Add Volatile_Potion_III.png
+Add Volatile_Potion_IV.png
+
+DATA:
+
+
+
+
+
+
+
 Add Elemental Avatar monster
 Add Elemental Chest loot
