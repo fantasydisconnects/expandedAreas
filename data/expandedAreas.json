@@ -5905,6 +5905,42 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 55
+      },
+      {
+        "itemType": "Item",
+        "id": "Evergreen_Logs",
+        "name": "Evergreen Logs",
+        "category": "Woodcutting",
+        "type": "Logs",
+        "media": "assets/items/Evergreen_Logs",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 20
+      },
+      {
+        "itemType": "Item",
+        "id": "Frostpine_Logs",
+        "name": "Frostpine Logs",
+        "category": "Woodcutting",
+        "type": "Logs",
+        "media": "assets/items/Frostpine_Logs",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 85
+      },
+      {
+        "itemType": "Item",
+        "id": "White_Spruce_Logs",
+        "name": "White Spruce Logs",
+        "category": "Woodcutting",
+        "type": "Logs",
+        "media": "assets/items/White_Spruce_Logs",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 110
       }
     ],
     "itemSynergies": [
@@ -6555,6 +6591,121 @@
       }
     ],
     "skillData": [
+      {
+        "skillID": "melvorD:Woodcutting",
+        "data": {
+          "trees": [
+            {
+              "id": "Evergreen",
+              "name": "Evergreen Tree",
+              "media": "assets/skills/woodcutting/Evergreen.svg",
+              "baseInterval": 5500,
+              "baseExperience": 26,
+              "productId": "expandedAreas:Evergreen_Logs",
+              "level": 30,
+              "randomProducts": [
+                "expandedAreas:Sap",
+                "expandedAreas:Pine_Cone"
+              ],
+              "requirements": [
+                {
+                  "type": "ShopPurchase",
+                  "purchaseID": "expandedAreas:Ancient_Barbarian_Axe",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "id": "Frostpine",
+              "name": "Frostpine Tree",
+              "media": "assets/skills/woodcutting/Frostpine.svg",
+              "baseInterval": 15000,
+              "baseExperience": 87,
+              "productId": "expandedAreas:Frostpine_Logs",
+              "level": 65,
+              "randomProducts": [
+                "expandedAreas:Sap",
+                "expandedAreas:Pine_Cone"
+              ],
+              "requirements": [
+                {
+                  "type": "ShopPurchase",
+                  "purchaseID": "expandedAreas:Ancient_Barbarian_Axe",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "id": "White_Spruce",
+              "name": "White Spruce Tree",
+              "media": "assets/skills/woodcutting/White_Spruce.svg",
+              "baseInterval": 15000,
+              "baseExperience": 120,
+              "productId": "expandedAreas:White_Spruce_Logs",
+              "level": 80,
+              "randomProducts": [
+                "expandedAreas:Sap",
+                "expandedAreas:Pine_Cone"
+              ],
+              "requirements": [
+                {
+                  "type": "ShopPurchase",
+                  "purchaseID": "expandedAreas:Ancient_Barbarian_Axe",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "randomProducts": [
+            {
+              "itemID": "expandedAreas:Sap",
+              "chance": 5,
+              "quantity": 1,
+              "minChance": 1
+            },
+            {
+              "itemID": "expandedAreas:Pine_Cone",
+              "chance": 25,
+              "quantity": 1,
+              "minChance": 1
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Firemaking",
+        "data": {
+          "logs": [
+            {
+              "id": "Evergreen_Logs",
+              "level": 30,
+              "baseExperience": 68,
+              "logID": "expandedAreas:Evergreen_Logs",
+              "baseInterval": 3500,
+              "baseBonfireInterval": 45000,
+              "bonfireXPBonus": 18
+            },
+            {
+              "id": "Frostpine_Logs",
+              "level": 65,
+              "baseExperience": 227,
+              "logID": "expandedAreas:Frostpine_Logs",
+              "baseInterval": 7500,
+              "baseBonfireInterval": 83333,
+              "bonfireXPBonus": 37
+            },
+            {
+              "id": "White_Spruce_Logs",
+              "level": 80,
+              "baseExperience": 328,
+              "logID": "expandedAreas:White_Spruce_Logs",
+              "baseInterval": 12500,
+              "baseBonfireInterval": 55000,
+              "bonfireXPBonus": 43
+            }
+          ]
+        }
+      },
       {
         "skillID": "melvorD:Runecrafting",
         "data": {
@@ -7557,7 +7708,7 @@
       },
       {
         "id": "Barbarian_Gloves",
-        "media": "assets/shop/Barbarian_Gloves.png",
+        "media": "assets/shop/Barbarian_Gloves.svg",
         "category": "expandedAreas:Barbarian_Skilling",
         "contains": {
           "items": [
@@ -7598,16 +7749,25 @@
         "customDescription": "Access to Barbarian Fishing Area when equipped."
       },
       {
-        "id": "Barbarian_Axe",
-        "media": "assets/shop/Barbarian_Axe.png",
+        "id": "Ancient_Barbarian_Axe",
+        "media": "assets/shop/Ancient_Barbarian_Axe.png",
         "category": "expandedAreas:Barbarian_Skilling",
         "contains": {
-          "items": [
-            {
-              "id": "expandedAreas:Barbarian_Axe",
-              "quantity": 1
-            }
-          ]
+          "items": [],
+          "modifiers": {
+            "additionalPrimaryProductChance": [
+              {
+                "skillID": "melvorD:Woodcutting",
+                "value": 5
+              }
+            ],
+            "skillInterval": [
+              {
+                "skillID": "melvorD:Woodcutting",
+                "value": -2.5
+              }
+            ]
+          }
         },
         "cost": {
           "items": [],
@@ -7615,7 +7775,7 @@
             {
               "currency": "melvorD:GP",
               "type": "Fixed",
-              "cost": 2000000
+              "cost": 1000000
             }
           ]
         },
@@ -7630,15 +7790,15 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Woodcutting",
-            "level": 60
+            "level": 70
           }
         ],
         "defaultBuyLimit": 0,
         "buyLimitOverrides": [],
         "showBuyLimit": false,
-        "customName": "Barbarian Axe",
-        "customDescription": "."
-      },
+        "customName": "Ancient Barbarian Axe",
+        "customDescription": "Grants access to Evergreen, Frost Pine, and White Spruce trees."
+      }
     ],
     "shopCategoryOrder": [
       {
