@@ -5941,6 +5941,267 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 110
+      },
+      {
+        "id": "Black_Throwing_Knife",
+        "name": "Black Throwing Knife",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "assets/items/Black_Throwing_Knife.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 4,
+        "tier": "black",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [
+          "Weapon"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 10
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 21
+          }
+        ],
+        "modifiers": {
+          "ammoPreservationChance": 15
+        },
+        "ammoType": "ThrowingKnives",
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "ThrowingKnives"
+      },
+      {
+        "itemType": "Item",
+        "id": "Black_Arrowtips",
+        "name": "Black Arrowtips",
+        "category": "Smithing",
+        "type": "Arrowtips",
+        "media": "assets/items/Black_Arrowtips.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Black_Arrows",
+        "name": "Black Arrows",
+        "category": "Combat",
+        "type": "Ammo",
+        "media": "assets/items/Black_Arrows.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 6,
+        "tier": "none",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 10
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedStrengthBonus",
+            "value": 19
+          }
+        ],
+        "ammoType": "Arrows"
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Black_Gloves",
+        "name": "Black Gloves",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/Black_Gloves.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 69,
+        "tier": "black",
+        "validSlots": [
+          "Gloves"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Defence",
+            "level": 10
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 3
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 5
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 5
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 5
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "itemType": "Item",
+        "id": "Black_Javelin_Heads",
+        "name": "Black Javelin Heads",
+        "category": "Smithing",
+        "type": "Javelin",
+        "media": "assets/items/Black_Javelin_Heads.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 31
+      },
+      {
+        "id": "Black_Javelin",
+        "name": "Black Javelin",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "assets/items/Black_Javelin.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 97,
+        "tier": "black",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [
+          "Weapon"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 10
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2200
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 6
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 64
+          }
+        ],
+        "modifiers": {
+          "ammoPreservationChance": 15
+        },
+        "ammoType": "Javelins",
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Javelins"
+      },
+      {
+        "itemType": "Item",
+        "id": "Black_Crossbow_Head",
+        "name": "Black Crossbow Head",
+        "category": "Smithing",
+        "type": "Crossbow",
+        "media": "assets/items/Black_Crossbow_head.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 242
+      },
+      {
+        "id": "Black_Crossbow",
+        "name": "Black Crossbow",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "assets/items/Steel_Crossbow.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 325,
+        "tier": "black",
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 10
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3200
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 31
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 40
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Bolts"
       }
     ],
     "itemSynergies": [
@@ -7995,6 +8256,56 @@
               "minQuantity": 1,
               "maxQuantity": 1,
               "weight": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Mithril_Gloves",
+        "equipmentStats": {
+          "remove": [
+            "stabAttackBonus",
+            "slashAttackBonus",
+            "blockAttackBonus",
+            "meleeStrengthBonus",
+            "meleeDefenceBonus"
+          ],
+          "add": [
+            {
+              "key": "stabAttackBonus",
+              "value": 6
+            },
+            {
+              "key": "slashAttackBonus",
+              "value": 6
+            },
+            {
+              "key": "blockAttackBonus",
+              "value": 6
+            },
+            {
+              "key": "rangedAttackBonus",
+              "value": 6
+            },
+            {
+              "key": "magicAttackBonus",
+              "value": 3
+            },
+            {
+              "key": "meleeStrengthBonus",
+              "value": 6
+            },
+            {
+              "key": "meleeDefenceBonus",
+              "value": 6
+            },
+            {
+              "key": "rangedDefenceBonus",
+              "value": 6
+            },
+            {
+              "key": "magicDefenceBonus",
+              "value": 3
             }
           ]
         }

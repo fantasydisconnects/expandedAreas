@@ -78,53 +78,5 @@ Elemental Avatar
 Elemental Chest
 
 Data To Do:
-Add Sterkite Ore and Bar
-Add smithable Black equipment (using Sterkite)
-Add Black throwing knife
-Add Black arrowtips
-Add Black arrows
-Add Black gloves
-Add Black javelin heads
-Add Black javelins
-Add Black crossbow head
-Add Black crossbow
 Add Elemental Avatar monster
 Add Elemental Chest loot
-
-      {
-        "name": "Elemental Sanctuary",
-        "id": "Elemental_Sanctuary",
-        "media": "assets/dungeons/Elemental_Sanctuary.png",
-        "difficulty": [
-          2
-        ],
-        "dropBones": false,
-        "entryRequirements": [
-          {
-            "type": "ItemFound",
-            "itemID": "expandedAreas:Elemental_Orb"
-          },
-          {
-            "type": "DungeonCompletion",
-            "dungeonID": "melvorF:Dragons_Den",
-            "count": 1
-          }
-        ],
-        "fixedPetClears": false,
-        "monsterIDs": [
-          "expandedAreas:Monk_of_the_Wind",
-          "expandedAreas:Monk_of_the_River",
-          "expandedAreas:Monk_of_the_Moss",
-          "expandedAreas:Monk_of_the_Flame",
-          "expandedAreas:Spirit_of_the_Wind",
-          "expandedAreas:Spirit_of_the_River",
-          "expandedAreas:Spirit_of_the_Moss",
-          "expandedAreas:Spirit_of_the_Flame",
-          "expandedAreas:Guardian_of_the_Elements",
-          "expandedAreas:Elemental_Avatar"
-        ],
-        "pauseOnBosses": false,
-        "rewardItemIDs": [
-          "expandedAreas:Elemental_Chest"
-        ]
-      }
