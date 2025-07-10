@@ -81,9 +81,136 @@
         "rewardItemIDs": [
           "expandedAreas:Damaged_Supply_Crate"
         ]
+      },
+      {
+        "id": "The_Barbarian_Trials",
+        "name": "The Barbarian Trials",
+        "media": "assets/dungeons/The_Barbarian_Trials.svg",
+        "monsterIDs": [
+          "expandedAreas:Barbarian",
+          "expandedAreas:Barbarian",
+          "expandedAreas:Barbarian",
+          "expandedAreas:Barbarian_Berserker",
+          "expandedAreas:Barbarian_Berserker",
+          "expandedAreas:Barbarian_Brawler",
+          "expandedAreas:Walking_Keg",
+          "expandedAreas:Jarl_Eriksson",
+          "expandedAreas:Draugr",
+          "expandedAreas:Draugr",
+          "expandedAreas:Draugr",
+          "expandedAreas:Draugr",
+          "expandedAreas:Draugr",
+          "expandedAreas:Drowned_Maiden",
+          "expandedAreas:Koschei_the_Deathless_Form1",
+          "expandedAreas:Koschei_the_Deathless_Form2",
+          "expandedAreas:Koschei_the_Deathless_Form3",
+          "expandedAreas:Koschei_the_Deathless_Form4"
+        ],
+        "difficulty": [
+          1
+        ],
+        "entryRequirements": [
+          {
+            "type": "SkillLevel",
+            "level": 60,
+            "skillID": "melvorD:Strength"
+          },
+          {
+            "type": "ItemFound",
+            "itemID": "expandedAreas:Chieftain_Eriks_Head"
+          }
+        ],
+        "rewardItemIDs": [
+          "expandedAreas:Raid_Spoils"
+        ],
+        "dropBones": true,
+        "pet": {
+          "petID": "expandedAreas:Fenri",
+          "weight": 150
+        },
+        "fixedPetClears": false,
+        "pauseOnBosses": false,
+        "floors": [
+          8,
+          6,
+          4
+        ],
+        "unlockRequirement": [
+          {
+            "type": "SkillLevel",
+            "level": 60,
+            "skillID": "melvorD:Strength"
+          },
+          {
+            "type": "ItemFound",
+            "itemID": "expandedAreas:Chieftain_Eriks_Head"
+          }
+        ],
+        "allowedDamageTypeIDs": [
+          "melvorD:Normal"
+        ]
       }
     ],
     "attacks": [
+      {
+        "id": "Anguished_Cry",
+        "name": "Anguished Cry",
+        "defaultChance": 50,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Attacker",
+            "roll": true,
+            "minRoll": "MinHit",
+            "minPercent": 100,
+            "maxRoll": "MaxHit",
+            "maxPercent": 100
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectID": "melvorF:AnguishI",
+            "chance": 75
+          },
+          {
+            "effectID": "melvorD:Stun",
+            "chance": 10
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "",
+        "attackTypes": [
+          "magic"
+        ]
+      },
+      {
+        "id": "Drown",
+        "name": "Drown",
+        "defaultChance": 30,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Attacker",
+            "roll": false,
+            "maxRoll": "CursedFixed100",
+            "maxPercent": 12.5
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "",
+        "attackTypes": [
+          "magic"
+        ]
+      },
       {
         "id": "Zombie_Summon",
         "name": "Zombie Summon",
@@ -480,6 +607,554 @@
       }
     ],
     "monsters": [
+      {
+        "id": "Barbarian",
+        "name": "Barbarian",
+        "media": "assets/monsters/Barbarian.png",
+        "levels": {
+          "Attack": 25,
+          "Defence": 15,
+          "Hitpoints": 30,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 25
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 13
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 12
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [
+          "melvorTotH:Rage"
+        ],
+        "lootChance": 0,
+        "lootTable": [],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "",
+        "currencyDrops": [],
+        "bones": {
+          "itemID": "melvorD:Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "Barbarian_Berserker",
+        "name": "Barbarian Berserker",
+        "media": "assets/monsters/Barbarian_Berserker.png",
+        "levels": {
+          "Attack": 40,
+          "Defence": 10,
+          "Hitpoints": 42,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 40
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 17
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 21
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": -20
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [
+          "melvorD:BruteForce"
+        ],
+        "passives": [
+          "melvorTotH:Rage"
+        ],
+        "combatEffects": [
+          {
+            "effectID": "melvorD:DecreasedEvasionStacking",
+            "appliesWhen": "HitWithAttack",
+            "chance": 100,
+            "targetOverride": "Self",
+            "customDescription": "The Berserker swings wildly whilst opening up his defences."
+          }
+        ],
+        "overrideSpecialChances": [
+          10
+        ],
+        "lootChance": 0,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Chicken",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 48
+          },
+          {
+            "itemID": "melvorD:Beef_Pie",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 32
+          },
+          {
+            "itemID": "melvorD:Adamant_Battleaxe",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 16
+          },
+          {
+            "itemID": "melvorD:Amulet_of_Strength",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 8
+          },
+          {
+            "itemID": "melvorF:Adamant_Javelin",
+            "minQuantity": 2,
+            "maxQuantity": 4,
+            "weight": 4
+          },
+          {
+            "itemID": "expandedAreas:Rune_Spear",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "",
+        "currencyDrops": [],
+        "bones": {
+          "itemID": "melvorD:Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "Barbarian_Brawler",
+        "name": "Barbarian Brawler",
+        "media": "assets/monsters/Barbarian_Brawler.png",
+        "levels": {
+          "Attack": 50,
+          "Defence": 60,
+          "Hitpoints": 57,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 40
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2500
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 50
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 25
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 50
+          },
+          {
+            "key": "damageReduction",
+            "value": 5
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [
+          "melvorTotH:Rage"
+        ],
+        "lootChance": 0,
+        "lootTable": [],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "",
+        "currencyDrops": [],
+        "bones": {
+          "itemID": "melvorD:Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "Walking_Keg",
+        "name": "Walking Keg",
+        "media": "assets/monsters/Walking_Keg.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 1,
+          "Hitpoints": 100,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 100
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -20
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -20
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": -20
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": -20
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 0,
+        "lootTable": [],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "",
+        "currencyDrops": [],
+        "bones": {
+          "itemID": "expandedAreas:Beer",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "Draugr",
+        "name": "Draugr",
+        "media": "assets/monsters/Draugr.png",
+        "levels": {
+          "Attack": 42,
+          "Defence": 10,
+          "Hitpoints": 21,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 44
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3300
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 0,
+        "lootTable": [],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "",
+        "currencyDrops": [],
+        "bones": {
+          "itemID": "expandedAreas:Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "Drowned_Maiden",
+        "name": "Drowned Maiden",
+        "media": "assets/monsters/Drowned_Maiden.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 70,
+          "Hitpoints": 70,
+          "Magic": 70,
+          "Ranged": 1,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2800
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "magic",
+        "specialAttacks": [
+          "expandedAreas:Anguished_Cry",
+          "expandedAreas:Drown"
+        ],
+        "passives": [],
+        "lootChance": 0,
+        "lootTable": [],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WaterBlast",
+        "description": "",
+        "currencyDrops": [],
+        "bones": {
+          "itemID": "expandedAreas:Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "Jarl_Eriksson",
+        "name": "Jarl Eriksson",
+        "media": "assets/monsters/Jarl_Eriksson.png",
+        "levels": {
+          "Attack": 60,
+          "Defence": 60,
+          "Hitpoints": 75,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 70
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 10
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 25
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 10
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [
+          "melvorTotH:Rage"
+        ],
+        "lootChance": 0,
+        "lootTable": [],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "",
+        "currencyDrops": [],
+        "bones": {
+          "itemID": "melvorD:Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "Koschei_the_Deathless_Form1",
+        "name": "Koschei the Deathless",
+        "media": "assets/monsters/Koschei_the_Deathless.png",
+        "levels": {
+          "Attack": 20,
+          "Defence": 20,
+          "Hitpoints": 30,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 20
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 20
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 20
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 20
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [
+          "melvorTotH:Rage"
+        ],
+        "lootChance": 0,
+        "lootTable": [],
+        "canSlayer": true,
+        "isBoss": true,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "",
+        "currencyDrops": [],
+        "bones": {
+          "itemID": "melvorD:Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "Koschei_the_Deathless_Form2",
+        "name": "Koschei the Deathless",
+        "media": "assets/monsters/Koschei_the_Deathless.png",
+        "levels": {
+          "Attack": 40,
+          "Defence": 40,
+          "Hitpoints": 50,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 40
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 40
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 40
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 40
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [
+          "melvorTotH:Rage"
+        ],
+        "lootChance": 0,
+        "lootTable": [],
+        "canSlayer": true,
+        "isBoss": true,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "",
+        "currencyDrops": [],
+        "bones": {
+          "itemID": "melvorD:Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "Koschei_the_Deathless_Form3",
+        "name": "Koschei the Deathless",
+        "media": "assets/monsters/Koschei_the_Deathless.png",
+        "levels": {
+          "Attack": 60,
+          "Defence": 60,
+          "Hitpoints": 70,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 60
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 60
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 60
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 60
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [
+          "melvorTotH:Rage"
+        ],
+        "lootChance": 0,
+        "lootTable": [],
+        "canSlayer": true,
+        "isBoss": true,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "",
+        "currencyDrops": [],
+        "bones": {
+          "itemID": "melvorD:Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "Koschei_the_Deathless_Form4",
+        "name": "Koschei the Deathless",
+        "media": "assets/monsters/Koschei_the_Deathless.png",
+        "levels": {
+          "Attack": 150,
+          "Defence": 150,
+          "Hitpoints": 150,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 5
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 600
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [
+          "melvorTotH:Rage"
+        ],
+        "lootChance": 0,
+        "lootTable": [],
+        "canSlayer": true,
+        "isBoss": true,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "",
+        "currencyDrops": [],
+        "bones": {
+          "itemID": "melvorD:Bones",
+          "quantity": 1
+        }
+      },
       {
         "id": "Magic_Golbin",
         "name": "Magic Golbin",
@@ -2466,10 +3141,285 @@
     ],
     "items": [
       {
+        "id": "Raid_Spoils",
+        "name": "Raid Spoils",
+        "category": "Openable",
+        "type": "Chest",
+        "media": "assets/items/Raid_Spoils.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 250,
+        "itemType": "Openable",
+        "dropTable": [
+          {
+            "itemID": "melvorD:Raw_Beef",
+            "minQuantity": 1,
+            "maxQuantity": 50,
+            "weight": 70
+          },
+          {
+            "itemID": "melvorD:Bread",
+            "minQuantity": 1,
+            "maxQuantity": 50,
+            "weight": 70
+          },
+          {
+            "itemID": "melvorD:Oak_Logs",
+            "minQuantity": 1,
+            "maxQuantity": 50,
+            "weight": 50
+          },
+          {
+            "itemID": "melvorD:Willow_Logs",
+            "minQuantity": 1,
+            "maxQuantity": 35,
+            "weight": 40
+          },
+          {
+            "itemID": "melvorD:Adamantite_Bar",
+            "minQuantity": 1,
+            "maxQuantity": 20,
+            "weight": 30
+          },
+          {
+            "itemID": "melvorD:Runite_Bar",
+            "minQuantity": 1,
+            "maxQuantity": 10,
+            "weight": 20
+          },
+          {
+            "itemID": "melvorD:Raw_Swordfish",
+            "minQuantity": 1,
+            "maxQuantity": 25,
+            "weight": 50
+          },
+          {
+            "itemID": "melvorD:Rune_Javelin_Heads",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 30
+          },
+          {
+            "itemID": "melvorD:Yew_Logs",
+            "minQuantity": 1,
+            "maxQuantity": 25,
+            "weight": 30
+          },
+          {
+            "itemID": "melvorD:Sapphire",
+            "minQuantity": 1,
+            "maxQuantity": 20,
+            "weight": 50
+          },
+          {
+            "itemID": "melvorD:Gold_Bar",
+            "minQuantity": 1,
+            "maxQuantity": 20,
+            "weight": 30
+          },
+          {
+            "itemID": "melvorD:Topaz",
+            "minQuantity": 1,
+            "maxQuantity": 100,
+            "weight": 15
+          },
+          {
+            "itemID": "melvorD:Emerald",
+            "minQuantity": 1,
+            "maxQuantity": 25,
+            "weight": 10
+          },
+          {
+            "itemID": "melvorD:Ruby",
+            "minQuantity": 1,
+            "maxQuantity": 15,
+            "weight": 5
+          },
+          {
+            "itemID": "melvorD:Diamond",
+            "minQuantity": 1,
+            "maxQuantity": 10,
+            "weight": 4
+          },
+          {
+            "itemID": "expandedAreas:Koscheis_Helm",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 3
+          },
+          {
+            "itemID": "expandedAreas:Koscheis_Blade",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 2
+          },
+          {
+            "itemID": "expandedAreas:Koscheis_Underpants",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "id": "Keg_of_Beer",
+        "name": "Keg_of_Beer",
+        "category": "Herblore",
+        "type": "Potion",
+        "media": "assets/items/Keg_of_Beer.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 420,
+        "itemType": "Potion",
+        "tier": 0,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "PlayerAttack"
+          }
+        ],
+        "charges": 10,
+        "modifiers": {
+          "flatHiddenSkillLevelBasedOnLevels": [
+            {
+              "skillID": "melvorD:Attack",
+              "value": -50
+            },
+            {
+              "skillID": "melvorD:Strength",
+              "value": 15
+            }
+          ]
+        }
+      },
+      {
+        "id": "Koscheis_Underpants",
+        "name": "Koschei's Underpants",
+        "category": "Combat",
+        "itemType": "Equipment",
+        "type": "Armour",
+        "media": "assets/items/Koscheis_Underpants.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "customDescription": "Why...did you pick these up?",
+        "sellsFor": 69420,
+        "tier": "bronze",
+        "validSlots": [
+          "Platelegs"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": []
+      },
+      {
+        "id": "Koscheis_Helm",
+        "name": "Koschei's Helm",
+        "category": "Combat",
+        "itemType": "Equipment",
+        "type": "Armour",
+        "media": "assets/items/Koscheis_Helm.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 60000,
+        "tier": "rune",
+        "validSlots": [
+          "Helmet"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Defence",
+            "level": 45
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "meleeStrengthBonus",
+            "value": 3
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 31
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 29
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": -5
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -5
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 33
+          }
+        ],
+        "combatEffects": [
+          {
+            "effectID": "melvorTotH:Rage",
+            "appliesWhen": "StartOfFight",
+            "chance": 10
+          }
+        ]
+      },
+      {
+        "id": "Koscheis_Blade",
+        "name": "Koschei's Blade",
+        "category": "Combat",
+        "itemType": "Weapon",
+        "type": "Weapon",
+        "media": "assets/items/Koscheis_Blade.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 24500,
+        "tier": "dragon",
+        "validSlots": [
+          "melvorD:Weapon"
+        ],
+        "attackType": "melee",
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 600
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 6
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": -50
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 29
+          }
+        ],
+        "combatEffects": [
+          {
+            "effectID": "melvorTotH:Rage",
+            "appliesWhen": "StartOfFight",
+            "chance": 25
+          }
+        ]
+      },
+      {
         "id": "Golbin_Staff",
         "name": "Golbin Staff",
         "category": "Combat",
-        "itemType": "Equipment",
+        "itemType": "Weapon",
         "type": "Weapon",
         "media": "assets/items/Golbin_Staff.png",
         "ignoreCompletion": false,
@@ -2477,6 +3427,7 @@
         "golbinRaidExclusive": false,
         "sellsFor": 100,
         "tier": "none",
+        "attackType": "magic",
         "validSlots": [
           "melvorD:Weapon"
         ],
@@ -2510,7 +3461,7 @@
         "id": "Oak_Blackjack",
         "name": "Oak Blackjack",
         "category": "Combat",
-        "itemType": "Equipment",
+        "itemType": "Weapon",
         "type": "Weapon",
         "media": "assets/items/Oak_Blackjack.png",
         "ignoreCompletion": false,
@@ -2562,7 +3513,8 @@
               "value": 5
             }
           ]
-        }
+        },
+        "attackType": "melee"
       },
       {
         "id": "Bronze_Spear",
@@ -3111,7 +4063,7 @@
         "category": "Combat",
         "itemType": "Equipment",
         "type": "Armour",
-        "media": "assets/Golbin_Pauldron.png",
+        "media": "assets/items/Golbin_Pauldron.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -6157,7 +7109,7 @@
         "name": "Black Crossbow Head",
         "category": "Smithing",
         "type": "Crossbow",
-        "media": "assets/items/Black_Crossbow_head.png",
+        "media": "assets/items/Black_Crossbow_Head.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -6168,7 +7120,7 @@
         "name": "Black Crossbow",
         "category": "Combat",
         "type": "Ranged Weapon",
-        "media": "assets/items/Steel_Crossbow.png",
+        "media": "assets/items/Black_Crossbow.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -6202,63 +7154,6 @@
         "itemType": "Weapon",
         "attackType": "ranged",
         "ammoTypeRequired": "Bolts"
-      },
-      {
-        "id": "Pine_Cone",
-        "name": "Pine Cone",
-        "category": "Openable",
-        "type": "Chest",
-        "media": "assets/items/Pine_Cone.png",
-        "ignoreCompletion": false,
-        "obtainFromItemLog": false,
-        "golbinRaidExclusive": false,
-        "sellsFor": 200,
-        "customDescription": "Open to receive Pine Seeds, Pine Needles, and, rarely, Pine Nuts.",
-        "itemType": "Openable",
-        "dropTable": [
-          {
-            "itemID": "expandedAreas:Pine_Needles",
-            "minQuantity": 1,
-            "maxQuantity": 10,
-            "weight": 35
-          },
-          {
-            "itemID": "expandedAreas:Evergreen_Seed",
-            "minQuantity": 1,
-            "maxQuantity": 3,
-            "weight": 27
-          },
-          {
-            "itemID": "expandedAreas:Frostpine_Seed",
-            "minQuantity": 1,
-            "maxQuantity": 3,
-            "weight": 17
-          },
-          {
-            "itemID": "expandedAreas:White_Pine_Seed",
-            "minQuantity": 1,
-            "maxQuantity": 3,
-            "weight": 13
-          },
-          {
-            "itemID": "expandedAreas:Longleaf_Seed",
-            "minQuantity": 1,
-            "maxQuantity": 3,
-            "weight": 10
-          },
-          {
-            "itemID": "expandedAreas:Loblolly_Seed",
-            "minQuantity": 1,
-            "maxQuantity": 3,
-            "weight": 8
-          },
-          {
-            "itemID": "expandedAreas:Pine_Nuts",
-            "minQuantity": 1,
-            "maxQuantity": 6,
-            "weight": 5
-          }
-        ]
       },
       {
         "itemType": "Item",
@@ -6305,7 +7200,7 @@
         "id": "Pine_Needles",
         "name": "Pine Needles",
         "category": "Crafting",
-        "type": "Pine Needles",
+        "type": "Material",
         "media": "assets/items/Pine_Needles.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
@@ -6351,11 +7246,11 @@
       },
       {
         "itemType": "Item",
-        "id": "Loblolly_Seed",
-        "name": "Loblolly Seeds",
+        "id": "Loblolly_Pine_Seed",
+        "name": "Loblolly Pine Seeds",
         "category": "Farming",
         "type": "Seeds",
-        "media": "assets/items/Loblolly_Seed.png",
+        "media": "assets/items/Loblolly_Pine_Seed.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -6396,6 +7291,63 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 43
+      },
+      {
+        "id": "Pine_Cone",
+        "name": "Pine Cone",
+        "category": "Openable",
+        "type": "Chest",
+        "media": "assets/items/Pine_Cone.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 200,
+        "customDescription": "Open to receive Pine Seeds, Pine Needles, and, rarely, Pine Nuts.",
+        "itemType": "Openable",
+        "dropTable": [
+          {
+            "itemID": "expandedAreas:Pine_Needles",
+            "minQuantity": 1,
+            "maxQuantity": 10,
+            "weight": 35
+          },
+          {
+            "itemID": "expandedAreas:Evergreen_Pine_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 27
+          },
+          {
+            "itemID": "expandedAreas:Frostpine_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 17
+          },
+          {
+            "itemID": "expandedAreas:White_Pine_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 13
+          },
+          {
+            "itemID": "expandedAreas:Longleaf_Pine_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 10
+          },
+          {
+            "itemID": "expandedAreas:Loblolly_Pine_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 8
+          },
+          {
+            "itemID": "expandedAreas:Pine_Nuts",
+            "minQuantity": 1,
+            "maxQuantity": 6,
+            "weight": 5
+          }
+        ]
       },
       {
         "id": "Chicken_Pesto_Pasta",
@@ -6512,7 +7464,7 @@
         "sellsFor": 22,
         "itemType": "Potion",
         "modifiers": {
-          "burnDOTDamageTaken": 10,
+          "burnDOTDamageTaken": -10,
           "effectIgnoreChance": [
             {
               "effectGroupID": "melvorD:BurnDOT",
@@ -6545,7 +7497,7 @@
         "sellsFor": 32,
         "itemType": "Potion",
         "modifiers": {
-          "burnDOTDamageTaken": 15,
+          "burnDOTDamageTaken": -15,
           "effectIgnoreChance": [
             {
               "effectGroupID": "melvorD:BurnDOT",
@@ -6578,7 +7530,7 @@
         "sellsFor": 42,
         "itemType": "Potion",
         "modifiers": {
-          "burnDOTDamageTaken": 20,
+          "burnDOTDamageTaken": -20,
           "effectIgnoreChance": [
             {
               "effectGroupID": "melvorD:BurnDOT",
@@ -6611,7 +7563,7 @@
         "sellsFor": 52,
         "itemType": "Potion",
         "modifiers": {
-          "burnDOTDamageTaken": 25,
+          "burnDOTDamageTaken": -25,
           "effectIgnoreChance": [
             {
               "effectGroupID": "melvorD:BurnDOT",
@@ -6643,6 +7595,7 @@
         "golbinRaidExclusive": false,
         "sellsFor": 1900,
         "itemType": "Potion",
+        "customDescription": "+6% chance to apply Burn when hitting with a Magic attack",
         "combatEffects": [
           {
             "appliesWhen": "HitWithAttack",
@@ -6676,6 +7629,7 @@
         "golbinRaidExclusive": false,
         "sellsFor": 2100,
         "itemType": "Potion",
+        "customDescription": "+9% chance to apply Burn when hitting with a Magic attack",
         "combatEffects": [
           {
             "appliesWhen": "HitWithAttack",
@@ -6709,6 +7663,7 @@
         "golbinRaidExclusive": false,
         "sellsFor": 2300,
         "itemType": "Potion",
+        "customDescription": "+12% chance to apply Burn when hitting with a Magic attack",
         "combatEffects": [
           {
             "appliesWhen": "HitWithAttack",
@@ -6742,6 +7697,7 @@
         "golbinRaidExclusive": false,
         "sellsFor": 2500,
         "itemType": "Potion",
+        "customDescription": "+15% chance to apply Burn when hitting with a Magic attack",
         "combatEffects": [
           {
             "appliesWhen": "HitWithAttack",
@@ -6855,6 +7811,18 @@
             "type": "EnemyAttack"
           }
         ]
+      },
+      {
+        "id": "Barbarian_Seal_of_Approval",
+        "media": "assets/shop/Barbarian_Seal_of_Approval.svg",
+        "name": "Barbarian Seal of Approval",
+        "itemType": "Item",
+        "category": "Misc",
+        "type": "Misc",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1
       }
     ],
     "itemSynergies": [
@@ -7694,7 +8662,7 @@
               "media": "assets/skills/woodcutting/Loblolly.svg",
               "baseInterval": 16000,
               "baseExperience": 150,
-              "productId": "expandedAreas:White_Pine_Logs",
+              "productId": "expandedAreas:Loblolly_Logs",
               "level": 85,
               "randomProducts": [
                 "expandedAreas:Pine_Needles",
@@ -7714,7 +8682,7 @@
           "randomProducts": [
             {
               "itemID": "expandedAreas:Turpentine",
-              "chance": 2,
+              "chance": 10,
               "quantity": 1,
               "minChance": 1
             },
@@ -7778,7 +8746,7 @@
               "id": "Longleaf_logs",
               "level": 50,
               "baseExperience": 117,
-              "logID": "expandedAreas:Evergreen_Logs",
+              "logID": "expandedAreas:Longleaf_Logs",
               "baseInterval": 5500,
               "baseBonfireInterval": 65000,
               "bonfireXPBonus": 28,
@@ -7826,12 +8794,12 @@
           "secondaryProducts": [
             {
               "itemID": "expandedAreas:Pine_Resin",
-              "chance": 0.1,
+              "chance": 10,
               "quantity": 1
             },
             {
               "itemID": "expandedAreas:Turpentine",
-              "chance": 0.1,
+              "chance": 5,
               "quantity": 1
             }
           ]
@@ -7887,7 +8855,7 @@
                   "quantity": 10
                 },
                 {
-                  "id": "melvorD:Elder_Dragonhide",
+                  "id": "melvorF:Elder_Dragonhide",
                   "quantity": 5
                 }
               ],
@@ -8175,7 +9143,7 @@
             {
               "id": "Sterkite_Ore",
               "name": "Sterkite",
-              "media": "assets/skills/mining/Sterkite_Ore.svg",
+              "media": "assets/skills/mining/Rock_Sterkite.svg",
               "level": 40,
               "baseExperience": 28,
               "productId": "expandedAreas:Sterkite_Ore",
@@ -8184,7 +9152,7 @@
               "hasPassiveRegen": true,
               "category": "melvorD:Ore",
               "giveGems": true,
-              "shopItemPurchased": "expandedAreas:Seal_of_Approval"
+              "shopItemPurchased": "expandedAreas:Barbarian_Seal_of_Approval"
             }
           ]
         }
@@ -8223,7 +9191,7 @@
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "itemCosts": [
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -8237,7 +9205,7 @@
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "itemCosts": [
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -8251,7 +9219,7 @@
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "itemCosts": [
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -8265,7 +9233,7 @@
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "itemCosts": [
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -8279,7 +9247,7 @@
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "itemCosts": [
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 2
                 }
               ]
@@ -8293,7 +9261,7 @@
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "itemCosts": [
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 2
                 }
               ]
@@ -8307,7 +9275,7 @@
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "itemCosts": [
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 2
                 }
               ]
@@ -8321,7 +9289,7 @@
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "itemCosts": [
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 3
                 }
               ]
@@ -8335,7 +9303,7 @@
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "itemCosts": [
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 2
                 }
               ]
@@ -8349,7 +9317,7 @@
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "itemCosts": [
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 2
                 }
               ]
@@ -8363,7 +9331,7 @@
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "itemCosts": [
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 3
                 }
               ]
@@ -8377,7 +9345,7 @@
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "itemCosts": [
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 3
                 }
               ]
@@ -8391,7 +9359,7 @@
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "itemCosts": [
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 3
                 }
               ]
@@ -8405,7 +9373,7 @@
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "itemCosts": [
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 3
                 }
               ]
@@ -8419,7 +9387,7 @@
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "itemCosts": [
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 5
                 }
               ]
@@ -8441,7 +9409,7 @@
                   "quantity": 1
                 },
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -8463,7 +9431,7 @@
                   "quantity": 1
                 },
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -8485,7 +9453,7 @@
                   "quantity": 1
                 },
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -8507,7 +9475,7 @@
                   "quantity": 1
                 },
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -8529,7 +9497,7 @@
                   "quantity": 1
                 },
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -8551,7 +9519,7 @@
                   "quantity": 1
                 },
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -8573,7 +9541,7 @@
                   "quantity": 1
                 },
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -8591,7 +9559,7 @@
                   "quantity": 1
                 },
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -8609,7 +9577,7 @@
                   "quantity": 1
                 },
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -8625,6 +9593,10 @@
                 {
                   "id": "melvorD:Steel_Bar",
                   "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Sterkite_Bar",
+                  "quantity": 1
                 }
               ]
             },
@@ -8637,7 +9609,7 @@
               "level": 36,
               "itemCosts": [
                 {
-                  "id": "melvorD:Sterkite_Bar",
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 2
                 }
               ]
@@ -8653,6 +9625,10 @@
                 {
                   "id": "melvorD:Mithril_Bar",
                   "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Sterkite_Bar",
+                  "quantity": 1
                 }
               ]
             },
@@ -8666,6 +9642,10 @@
               "itemCosts": [
                 {
                   "id": "melvorD:Adamantite_Bar",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -8681,6 +9661,10 @@
                 {
                   "id": "melvorD:Runite_Bar",
                   "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Sterkite_Bar",
+                  "quantity": 1
                 }
               ]
             },
@@ -8694,6 +9678,10 @@
               "itemCosts": [
                 {
                   "id": "melvorD:Dragonite_Bar",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -8973,6 +9961,17 @@
         }
       }
     ],
+    "shopDisplayOrder": [
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Art_of_Control",
+        "ids": [
+          "expandedAreas:Barbarian_Seal_of_Approval",
+          "expandedAreas:Barbarian_Gloves",
+          "expandedAreas:Ancient_Barbarian_Axe"
+        ]
+      }
+    ],
     "shopCategories": [
       {
         "id": "Barbarian_Skilling",
@@ -8982,8 +9981,8 @@
     ],
     "shopPurchases": [
       {
-        "id": "Seal_of_Approval",
-        "media": "assets/shop/Seal_of_Approval.png",
+        "id": "Barbarian_Seal_of_Approval",
+        "media": "assets/shop/Barbarian_Seal_of_Approval.svg",
         "category": "expandedAreas:Barbarian_Skilling",
         "contains": {
           "items": []
@@ -9002,13 +10001,8 @@
         "unlockRequirements": [],
         "purchaseRequirements": [
           {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Strength",
-            "level": 60
-          },
-          {
             "type": "DungeonCompletion",
-            "dungeonID": "expandedAreas:Barbarian_Village",
+            "dungeonID": "expandedAreas:The_Barbarian_Trials",
             "count": 1
           }
         ],
@@ -9016,7 +10010,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Barbarian Seal of Approval",
-        "customDescription": "Granted by the Jarl of the Barbarian Village after besting him in combat, this seal allows you to Mine Sterkite Ore to make Barbarian equipment, and enables Barbarian Skilling purchases."
+        "customDescription": "Granted by the Jarl after completing The Barbarian Trials. Allows you to Mine Sterkite Ore to make Barbarian equipment, and enables Barbarian Skilling purchases."
       },
       {
         "id": "Barbarian_Gloves",
@@ -9044,9 +10038,8 @@
         "unlockRequirements": [],
         "purchaseRequirements": [
           {
-            "purchaseID": "expandedAreas:Seal_of_Approval",
-            "count": 1,
-            "type": "ShopPurchase"
+            "type": "ItemFound",
+            "itemID": "expandedAreas:Barbarian_Seal_of_Approval"
           },
           {
             "type": "SkillLevel",
@@ -9062,7 +10055,7 @@
       },
       {
         "id": "Ancient_Barbarian_Axe",
-        "media": "assets/shop/Ancient_Barbarian_Axe.png",
+        "media": "assets/shop/Ancient_Barbarian_Axe.svg",
         "category": "expandedAreas:Barbarian_Skilling",
         "contains": {
           "items": [],
@@ -9070,13 +10063,13 @@
             "additionalPrimaryProductChance": [
               {
                 "skillID": "melvorD:Woodcutting",
-                "value": 1
+                "value": 2.5
               }
             ],
             "skillInterval": [
               {
                 "skillID": "melvorD:Woodcutting",
-                "value": -1
+                "value": -2.5
               }
             ]
           }
@@ -9087,17 +10080,16 @@
             {
               "currency": "melvorD:GP",
               "type": "Fixed",
-              "cost": 1000000
+              "cost": 3000000
             }
           ]
         },
-        "allowQuantityPurchase": true,
+        "allowQuantityPurchase": false,
         "unlockRequirements": [],
         "purchaseRequirements": [
           {
-            "purchaseID": "expandedAreas:Seal_of_Approval",
-            "count": 1,
-            "type": "ShopPurchase"
+            "type": "ItemFound",
+            "itemID": "expandedAreas:Barbarian_Seal_of_Approval"
           },
           {
             "type": "SkillLevel",
@@ -9105,11 +10097,61 @@
             "level": 30
           }
         ],
-        "defaultBuyLimit": 0,
+        "defaultBuyLimit": 1,
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Ancient Barbarian Axe",
-        "customDescription": "+1% chance to receive an additional resource from Woodcutting (cannot be doubled).<br>-1% Woodcutting Interval.<br>Grants access to Pine trees."
+        "customDescription": "+2.5% chance to receive an additional resource from Woodcutting (cannot be doubled) and -2.5% Woodcutting Interval.<br>Grants access to Pine trees."
+      },
+      {
+        "id": "Ancient_Barbarian_Hammer",
+        "media": "assets/shop/Ancient_Barbarian_Hammer.svg",
+        "category": "expandedAreas:Barbarian_Skilling",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "skillItemDoublingChance": [
+              {
+                "skillID": "melvorD:Smithing",
+                "value": 2.5
+              }
+            ],
+            "skillInterval": [
+              {
+                "skillID": "melvorD:Smithing",
+                "value": -2.5
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 2000000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [],
+        "purchaseRequirements": [
+          {
+            "type": "ItemFound",
+            "itemID": "expandedAreas:Barbarian_Seal_of_Approval"
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 50
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Ancient Barbarian Axe",
+        "customDescription": "+2.5% chance to double items in Smithing and -2.5% Smithing Interval.<br>Allows you to Mine for Sterkite Ore."
       }
     ],
     "shopCategoryOrder": [
@@ -9206,6 +10248,13 @@
               "ids": [
                 "expandedAreas:Golbin_Hideout"
               ]
+            },
+            {
+              "insertAt": "After",
+              "afterID": "melvorD:Undead_Graveyard",
+              "ids": [
+                "expandedAreas:The_Barbarian_Trials"
+              ]
             }
           ]
         }
@@ -9217,9 +10266,11 @@
         "monsters": {
           "remove": [
             {
+              "removeAt": 0,
               "monsterID": "melvorD:ZombieHand"
             },
             {
+              "removeAt": 5,
               "monsterID": "melvorD:Zombie"
             }
           ],
@@ -9229,7 +10280,7 @@
               "monsterID": "expandedAreas:Giant_Grub"
             },
             {
-              "insertAt": 6,
+              "insertAt": 7,
               "monsterID": "expandedAreas:Novice_Necromancer"
             }
           ]
