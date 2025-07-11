@@ -21,6 +21,22 @@
         "entryRequirements": []
       },
       {
+        "id": "Barbarian_Village",
+        "name": "Barbarian Village",
+        "media": "assets/combatAreas/Barbarian_Village.png",
+        "difficulty": [
+          0,
+          1
+        ],
+        "monsterIDs": [
+          "expandedAreas:Barbarian",
+          "expandedAreas:Barbarian_Berserker",
+          "expandedAreas:Barbarian_Brawler",
+          "expandedAreas:Chieftain_Erik"
+        ],
+        "entryRequirements": []
+      },
+      {
         "id": "Secluded_Monastery",
         "name": "Secluded Monastery",
         "media": "assets/combatAreas/Secluded_Monastery.png",
@@ -89,15 +105,10 @@
         "monsterIDs": [
           "expandedAreas:Barbarian",
           "expandedAreas:Barbarian",
-          "expandedAreas:Barbarian",
-          "expandedAreas:Barbarian_Berserker",
           "expandedAreas:Barbarian_Berserker",
           "expandedAreas:Barbarian_Brawler",
           "expandedAreas:Walking_Keg",
           "expandedAreas:Jarl_Eriksson",
-          "expandedAreas:Draugr",
-          "expandedAreas:Draugr",
-          "expandedAreas:Draugr",
           "expandedAreas:Draugr",
           "expandedAreas:Draugr",
           "expandedAreas:Drowned_Maiden",
@@ -131,8 +142,8 @@
         "fixedPetClears": false,
         "pauseOnBosses": false,
         "floors": [
-          8,
           6,
+          3,
           4
         ],
         "unlockRequirement": [
@@ -823,10 +834,10 @@
             "weight": 4
           },
           {
-            "itemID": "expandedAreas:Rune_Spear",
+            "itemID": "expandedAreas:Mithril_Spear",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 2
           }
         ],
         "canSlayer": true,
@@ -897,31 +908,31 @@
             "itemID": "melvorF:Hard_Leather_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 88
+            "weight": 96
           },
           {
             "itemID": "melvorD:Iron_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 80
+            "weight": 64
           },
           {
             "itemID": "melvorD:Steel_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 72
+            "weight": 32
           },
           {
             "itemID": "expandedAreas:Black_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 64
+            "weight": 16
           },
           {
             "itemID": "expandedAreas:Beer",
             "minQuantity": 4,
             "maxQuantity": 13,
-            "weight": 56
+            "weight": 96
           },
           {
             "itemID": "melvorD:Barbarian_Gloves",
@@ -1033,7 +1044,7 @@
         "description": "",
         "currencyDrops": [],
         "bones": {
-          "itemID": "expandedAreas:Bones",
+          "itemID": "melvorD:Bones",
           "quantity": 1
         }
       },
@@ -1070,13 +1081,13 @@
         "description": "",
         "currencyDrops": [],
         "bones": {
-          "itemID": "expandedAreas:Bones",
+          "itemID": "melvorD:Magic_Bones",
           "quantity": 1
         }
       },
       {
         "id": "Chieftain_Erik",
-        "name": "Chieftain_Erik",
+        "name": "Chieftain Erik",
         "media": "assets/monsters/Chieftain_Erik.png",
         "levels": {
           "Attack": 60,
@@ -1207,8 +1218,27 @@
         "passives": [
           "melvorTotH:Rage"
         ],
-        "lootChance": 0,
-        "lootTable": [],
+        "lootChance": 20,
+        "lootTable": [
+          {
+            "itemID": "expandedAreas:Raid_Spoils",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 10
+          },
+          {
+            "itemID": "expandedAreas:Warrior_Helm",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "expandedAreas:Barbarian_Blade",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
         "canSlayer": true,
         "isBoss": false,
         "selectedSpell": "melvorD:WindStrike",
@@ -1255,8 +1285,33 @@
         "passives": [
           "melvorTotH:Rage"
         ],
-        "lootChance": 0,
-        "lootTable": [],
+        "lootChance": 100,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Bones",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 950000
+          },
+          {
+            "itemID": "expandedAreas:Koscheis_Blade",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 30000
+          },
+          {
+            "itemID": "expandedAreas:Koscheis_Helm",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 19999
+          },
+          {
+            "itemID": "expandedAreas:Koscheis_Underpants",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
         "canSlayer": true,
         "isBoss": true,
         "selectedSpell": "melvorD:WindStrike",
@@ -1303,8 +1358,33 @@
         "passives": [
           "melvorTotH:Rage"
         ],
-        "lootChance": 0,
-        "lootTable": [],
+        "lootChance": 100,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Bones",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 950000
+          },
+          {
+            "itemID": "expandedAreas:Koscheis_Blade",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 30000
+          },
+          {
+            "itemID": "expandedAreas:Koscheis_Helm",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 19999
+          },
+          {
+            "itemID": "expandedAreas:Koscheis_Underpants",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
         "canSlayer": true,
         "isBoss": true,
         "selectedSpell": "melvorD:WindStrike",
@@ -1351,8 +1431,33 @@
         "passives": [
           "melvorTotH:Rage"
         ],
-        "lootChance": 0,
-        "lootTable": [],
+        "lootChance": 100,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Bones",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 950000
+          },
+          {
+            "itemID": "expandedAreas:Koscheis_Blade",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 30000
+          },
+          {
+            "itemID": "expandedAreas:Koscheis_Helm",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 19999
+          },
+          {
+            "itemID": "expandedAreas:Koscheis_Underpants",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
         "canSlayer": true,
         "isBoss": true,
         "selectedSpell": "melvorD:WindStrike",
@@ -3413,7 +3518,7 @@
         "id": "Fenri",
         "name": "Fenri",
         "media": "assets/pets/Fenri.svg",
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "modifiers": {
           "flatHiddenSkillLevel": [
             {
@@ -3764,7 +3869,7 @@
       },
       {
         "id": "Keg_of_Beer",
-        "name": "Keg_of_Beer",
+        "name": "Keg of Beer",
         "category": "Herblore",
         "type": "Potion",
         "media": "assets/items/Keg_of_Beer.png",
@@ -3775,6 +3880,7 @@
         "itemType": "Potion",
         "tier": 0,
         "action": "melvorD:Combat",
+        "customDescription": "+15% of your Strength Level added as Hidden Strength levels<br>-50% of your Attack Level subtracted as Hidden Attack Levels",
         "consumesOn": [
           {
             "type": "PlayerAttack"
@@ -10861,6 +10967,13 @@
               "afterID": "melvorD:ElerineBattlegrounds",
               "ids": [
                 "expandedAreas:Secluded_Monastery"
+              ]
+            },
+            {
+              "insertAt": "After",
+              "afterID": "melvorD:Icy_Hills",
+              "ids": [
+                "expandedAreas:Barbarian_Village"
               ]
             }
           ]
