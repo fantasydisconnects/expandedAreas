@@ -1227,13 +1227,13 @@
             "weight": 10
           },
           {
-            "itemID": "expandedAreas:Warrior_Helm",
+            "itemID": "expandedAreas:Barbarian_Warrior_Helm",
             "minQuantity": 1,
             "maxQuantity": 1,
             "weight": 1
           },
           {
-            "itemID": "expandedAreas:Barbarian_Blade",
+            "itemID": "expandedAreas:Barbarian_Longblade",
             "minQuantity": 1,
             "maxQuantity": 1,
             "weight": 1
@@ -1475,10 +1475,10 @@
         "levels": {
           "Attack": 150,
           "Defence": 150,
-          "Hitpoints": 150,
+          "Hitpoints": 100,
           "Magic": 1,
           "Ranged": 1,
-          "Strength": 5
+          "Strength": 10
         },
         "equipmentStats": [
           {
@@ -8420,7 +8420,7 @@
       },
       {
         "id": "Barbarian_Seal_of_Approval",
-        "media": "assets/shop/Barbarian_Seal_of_Approval.svg",
+        "media": "assets/items/Barbarian_Seal_of_Approval.svg",
         "name": "Barbarian Seal of Approval",
         "itemType": "Item",
         "category": "Misc",
