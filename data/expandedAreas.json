@@ -646,7 +646,7 @@
         "lootChance": 100,
         "lootTable": [
           {
-            "itemID": "melvorD:Steel_Javelin_Heads",
+            "itemID": "expandedAreas:Beer",
             "minQuantity": 1,
             "maxQuantity": 3,
             "weight": 48
@@ -787,10 +787,10 @@
             "weight": 48
           },
           {
-            "itemID": "melvorF:Melee_Strength_Potion_I",
+            "itemID": "expandedAreas:Beer",
             "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 40
+            "maxQuantity": 8,
+            "weight": 48
           },
           {
             "itemID": "melvorD:Beef_Pie",
@@ -918,6 +918,12 @@
             "weight": 64
           },
           {
+            "itemID": "expandedAreas:Beer",
+            "minQuantity": 4,
+            "maxQuantity": 13,
+            "weight": 56
+          },
+          {
             "itemID": "melvorD:Barbarian_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
@@ -978,15 +984,22 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 0,
-        "lootTable": [],
+        "lootChance": 25,
+        "lootTable": [
+          {
+            "itemID": "expandedAreas:Keg_of_Beer",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
         "canSlayer": true,
         "isBoss": false,
         "selectedSpell": "melvorD:WindStrike",
         "description": "",
         "currencyDrops": [],
         "bones": {
-          "itemID": "expandedAreas:Beer",
+          "itemID": "melvorD:Big_Bones",
           "quantity": 1
         }
       },
@@ -3718,126 +3731,36 @@
         ]
       },
       {
-        "id": "Raid_Spoils",
-        "name": "Raid Spoils",
-        "category": "Openable",
-        "type": "Chest",
-        "media": "assets/items/Raid_Spoils.png",
+        "id": "Beer",
+        "name": "Beer",
+        "category": "Herblore",
+        "type": "Potion",
+        "media": "assets/items/Beer.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 250,
-        "itemType": "Openable",
-        "dropTable": [
+        "sellsFor": 69,
+        "itemType": "Potion",
+        "tier": 0,
+        "action": "melvorD:Combat",
+        "consumesOn": [
           {
-            "itemID": "melvorD:Raw_Beef",
-            "minQuantity": 1,
-            "maxQuantity": 50,
-            "weight": 70
-          },
-          {
-            "itemID": "melvorD:Bread",
-            "minQuantity": 1,
-            "maxQuantity": 50,
-            "weight": 70
-          },
-          {
-            "itemID": "melvorD:Oak_Logs",
-            "minQuantity": 1,
-            "maxQuantity": 50,
-            "weight": 50
-          },
-          {
-            "itemID": "melvorD:Willow_Logs",
-            "minQuantity": 1,
-            "maxQuantity": 35,
-            "weight": 40
-          },
-          {
-            "itemID": "melvorD:Adamantite_Bar",
-            "minQuantity": 1,
-            "maxQuantity": 20,
-            "weight": 30
-          },
-          {
-            "itemID": "melvorD:Runite_Bar",
-            "minQuantity": 1,
-            "maxQuantity": 10,
-            "weight": 20
-          },
-          {
-            "itemID": "melvorD:Raw_Swordfish",
-            "minQuantity": 1,
-            "maxQuantity": 25,
-            "weight": 50
-          },
-          {
-            "itemID": "melvorD:Rune_Javelin_Heads",
-            "minQuantity": 1,
-            "maxQuantity": 5,
-            "weight": 30
-          },
-          {
-            "itemID": "melvorD:Yew_Logs",
-            "minQuantity": 1,
-            "maxQuantity": 25,
-            "weight": 30
-          },
-          {
-            "itemID": "melvorD:Sapphire",
-            "minQuantity": 1,
-            "maxQuantity": 20,
-            "weight": 50
-          },
-          {
-            "itemID": "melvorD:Gold_Bar",
-            "minQuantity": 1,
-            "maxQuantity": 20,
-            "weight": 30
-          },
-          {
-            "itemID": "melvorD:Topaz",
-            "minQuantity": 1,
-            "maxQuantity": 100,
-            "weight": 15
-          },
-          {
-            "itemID": "melvorD:Emerald",
-            "minQuantity": 1,
-            "maxQuantity": 25,
-            "weight": 10
-          },
-          {
-            "itemID": "melvorD:Ruby",
-            "minQuantity": 1,
-            "maxQuantity": 15,
-            "weight": 5
-          },
-          {
-            "itemID": "melvorD:Diamond",
-            "minQuantity": 1,
-            "maxQuantity": 10,
-            "weight": 4
-          },
-          {
-            "itemID": "expandedAreas:Koscheis_Helm",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 3
-          },
-          {
-            "itemID": "expandedAreas:Koscheis_Blade",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 2
-          },
-          {
-            "itemID": "expandedAreas:Koscheis_Underpants",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 1
+            "type": "PlayerAttack"
           }
-        ]
+        ],
+        "charges": 1,
+        "modifiers": {
+          "flatHiddenSkillLevelBasedOnLevels": [
+            {
+              "skillID": "melvorD:Attack",
+              "value": -50
+            },
+            {
+              "skillID": "melvorD:Strength",
+              "value": 15
+            }
+          ]
+        }
       },
       {
         "id": "Keg_of_Beer",
@@ -3857,7 +3780,7 @@
             "type": "PlayerAttack"
           }
         ],
-        "charges": 10,
+        "charges": 25,
         "modifiers": {
           "flatHiddenSkillLevelBasedOnLevels": [
             {
@@ -8400,6 +8323,134 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1
+      },
+      {
+        "id": "Raid_Spoils",
+        "name": "Raid Spoils",
+        "category": "Openable",
+        "type": "Chest",
+        "media": "assets/items/Raid_Spoils.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 250,
+        "itemType": "Openable",
+        "dropTable": [
+          {
+            "itemID": "melvorD:Raw_Beef",
+            "minQuantity": 1,
+            "maxQuantity": 50,
+            "weight": 70
+          },
+          {
+            "itemID": "expandedAreas:Keg_of_Beer",
+            "minQuantity": 1,
+            "maxQuantity": 10,
+            "weight": 65
+          },
+          {
+            "itemID": "melvorD:Maple_Logs",
+            "minQuantity": 1,
+            "maxQuantity": 50,
+            "weight": 60
+          },
+          {
+            "itemID": "expandedAreas:Black_Arrows",
+            "minQuantity": 25,
+            "maxQuantity": 100,
+            "weight": 50
+          },
+          {
+            "itemID": "melvorD:Adamantite_Bar",
+            "minQuantity": 1,
+            "maxQuantity": 10,
+            "weight": 45
+          },
+          {
+            "itemID": "melvorD:Raw_Swordfish",
+            "minQuantity": 1,
+            "maxQuantity": 25,
+            "weight": 40
+          },
+          {
+            "itemID": "expandedAreas:Adamant_Thrownaxe",
+            "minQuantity": 5,
+            "maxQuantity": 25,
+            "weight": 35
+          },
+          {
+            "itemID": "melvorD:Yew_Logs",
+            "minQuantity": 1,
+            "maxQuantity": 25,
+            "weight": 30
+          },
+          {
+            "itemID": "melvorD:Sapphire",
+            "minQuantity": 1,
+            "maxQuantity": 20,
+            "weight": 25
+          },
+          {
+            "itemID": "melvorD:Gold_Bar",
+            "minQuantity": 1,
+            "maxQuantity": 20,
+            "weight": 20
+          },
+          {
+            "itemID": "melvorD:Topaz",
+            "minQuantity": 1,
+            "maxQuantity": 100,
+            "weight": 15
+          },
+          {
+            "itemID": "melvorD:Emerald",
+            "minQuantity": 1,
+            "maxQuantity": 25,
+            "weight": 10
+          },
+          {
+            "itemID": "melvorD:Ruby",
+            "minQuantity": 1,
+            "maxQuantity": 15,
+            "weight": 8
+          },
+          {
+            "itemID": "melvorD:Diamond",
+            "minQuantity": 1,
+            "maxQuantity": 10,
+            "weight": 6
+          },
+          {
+            "itemID": "expandedAreas:Barbarian_Archer_Helm",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 5
+          },
+          {
+            "itemID": "expandedAreas:Barbarian_Berserker_Helm",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 5
+          },
+          {
+            "itemID": "expandedAreas:Barbarian_Warrior_Helm",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 5
+          },
+          {
+            "itemID": "expandedAreas:Barbarian_Longbow",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 3
+          },
+          {
+            "itemID": "expandedAreas:Barbarian_Longblade",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 3
+          }
+        ]
       }
     ],
     "itemSynergies": [
