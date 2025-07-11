@@ -134,6 +134,7 @@
         "rewardItemIDs": [
           "expandedAreas:Raid_Spoils"
         ],
+        "oneTimeRewardID": "expandedAreas:Barbarian_Seal_of_Approval",
         "dropBones": true,
         "pet": {
           "petID": "expandedAreas:Fenri",
@@ -7470,7 +7471,7 @@
         "name": "Evergreen Logs",
         "category": "Woodcutting",
         "type": "Logs",
-        "media": "assets/items/Evergreen_Logs",
+        "media": "assets/items/Evergreen_Logs.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -7482,7 +7483,7 @@
         "name": "Frostpine Logs",
         "category": "Woodcutting",
         "type": "Logs",
-        "media": "assets/items/Frostpine_Logs",
+        "media": "assets/items/Frostpine_Logs.png ",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -7494,7 +7495,7 @@
         "name": "White Pine Logs",
         "category": "Woodcutting",
         "type": "Logs",
-        "media": "assets/items/White_Pine_Logs",
+        "media": "assets/items/White_Pine_Logs.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -10715,38 +10716,6 @@
     ],
     "shopPurchases": [
       {
-        "id": "Barbarian_Seal_of_Approval",
-        "media": "assets/shop/Barbarian_Seal_of_Approval.svg",
-        "category": "expandedAreas:Barbarian_Skilling",
-        "contains": {
-          "items": []
-        },
-        "cost": {
-          "items": [],
-          "currencies": [
-            {
-              "currency": "melvorD:GP",
-              "type": "Fixed",
-              "cost": 1000000
-            }
-          ]
-        },
-        "allowQuantityPurchase": false,
-        "unlockRequirements": [],
-        "purchaseRequirements": [
-          {
-            "type": "DungeonCompletion",
-            "dungeonID": "expandedAreas:The_Barbarian_Trials",
-            "count": 1
-          }
-        ],
-        "defaultBuyLimit": 1,
-        "buyLimitOverrides": [],
-        "showBuyLimit": false,
-        "customName": "Barbarian Seal of Approval",
-        "customDescription": "Granted by the Jarl after completing The Barbarian Trials. Allows you to Mine Sterkite Ore to make Barbarian equipment, and enables Barbarian Skilling purchases."
-      },
-      {
         "id": "Barbarian_Gloves",
         "media": "assets/shop/Barbarian_Gloves.svg",
         "category": "expandedAreas:Barbarian_Skilling",
@@ -10884,7 +10853,7 @@
         "defaultBuyLimit": 1,
         "buyLimitOverrides": [],
         "showBuyLimit": false,
-        "customName": "Ancient Barbarian Axe",
+        "customName": "Ancient Barbarian Hammer",
         "customDescription": "+2.5% chance to double items in Smithing and -2.5% Smithing Interval.<br>Allows you to Mine for Sterkite Ore."
       }
     ],
