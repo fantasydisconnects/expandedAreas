@@ -147,17 +147,6 @@
           3,
           4
         ],
-        "unlockRequirement": [
-          {
-            "type": "SkillLevel",
-            "level": 60,
-            "skillID": "melvorD:Strength"
-          },
-          {
-            "type": "ItemFound",
-            "itemID": "expandedAreas:Chieftain_Eriks_Head"
-          }
-        ],
         "allowedDamageTypeIDs": [
           "melvorD:Normal"
         ]
@@ -1293,24 +1282,6 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "weight": 950000
-          },
-          {
-            "itemID": "expandedAreas:Koscheis_Blade",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 30000
-          },
-          {
-            "itemID": "expandedAreas:Koscheis_Helm",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 19999
-          },
-          {
-            "itemID": "expandedAreas:Koscheis_Underpants",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 1
           }
         ],
         "canSlayer": true,
@@ -1366,24 +1337,6 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "weight": 950000
-          },
-          {
-            "itemID": "expandedAreas:Koscheis_Blade",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 30000
-          },
-          {
-            "itemID": "expandedAreas:Koscheis_Helm",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 19999
-          },
-          {
-            "itemID": "expandedAreas:Koscheis_Underpants",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 1
           }
         ],
         "canSlayer": true,
@@ -1439,24 +1392,6 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "weight": 950000
-          },
-          {
-            "itemID": "expandedAreas:Koscheis_Blade",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 30000
-          },
-          {
-            "itemID": "expandedAreas:Koscheis_Helm",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 19999
-          },
-          {
-            "itemID": "expandedAreas:Koscheis_Underpants",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 1
           }
         ],
         "canSlayer": true,
@@ -1500,24 +1435,6 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "weight": 950000
-          },
-          {
-            "itemID": "expandedAreas:Koscheis_Blade",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 30000
-          },
-          {
-            "itemID": "expandedAreas:Koscheis_Helm",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 19999
-          },
-          {
-            "itemID": "expandedAreas:Koscheis_Underpants",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 1
           }
         ],
         "canSlayer": true,
@@ -3557,7 +3474,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 500,
-        "tier": "addy",
+        "tier": "rune",
         "validSlots": [
           "Helmet"
         ],
@@ -3579,19 +3496,23 @@
         "equipmentStats": [
           {
             "key": "rangedAttackBonus",
-            "value": 6
+            "value": 10
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 5
           },
           {
             "key": "magicAttackBonus",
-            "value": -5
+            "value": -10
           },
           {
             "key": "meleeDefenceBonus",
-            "value": -4
+            "value": 4
           },
           {
             "key": "rangedDefenceBonus",
-            "value": 6
+            "value": 8
           },
           {
             "key": "magicDefenceBonus",
@@ -3610,7 +3531,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 500,
-        "tier": "addy",
+        "tier": "rune",
         "validSlots": [
           "Helmet"
         ],
@@ -3631,40 +3552,28 @@
         ],
         "equipmentStats": [
           {
-            "key": "slashAttackBonus",
-            "value": 2
-          },
-          {
-            "key": "stabAttackBonus",
-            "value": 2
-          },
-          {
-            "key": "blockAttackBonus",
-            "value": 2
-          },
-          {
             "key": "meleeStrengthBonus",
-            "value": 3
+            "value": 8
           },
           {
             "key": "magicAttackBonus",
-            "value": -5
+            "value": -16
           },
           {
             "key": "rangedAttackBonus",
-            "value": -5
+            "value": -8
           },
           {
             "key": "meleeDefenceBonus",
-            "value": 4
+            "value": 12
           },
           {
             "key": "rangedDefenceBonus",
-            "value": 3
+            "value": 12
           },
           {
             "key": "magicDefenceBonus",
-            "value": -6
+            "value": -12
           }
         ]
       },
@@ -3679,7 +3588,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 500,
-        "tier": "addy",
+        "tier": "rune",
         "validSlots": [
           "Helmet"
         ],
@@ -3701,35 +3610,35 @@
         "equipmentStats": [
           {
             "key": "slashAttackBonus",
-            "value": 6
+            "value": 8
           },
           {
             "key": "stabAttackBonus",
-            "value": 6
+            "value": 8
           },
           {
             "key": "blockAttackBonus",
-            "value": 6
+            "value": 8
           },
           {
             "key": "magicAttackBonus",
-            "value": -5
+            "value": -16
           },
           {
             "key": "rangedAttackBonus",
-            "value": -5
+            "value": -8
           },
           {
             "key": "meleeDefenceBonus",
-            "value": 10
+            "value": 23
           },
           {
             "key": "rangedDefenceBonus",
-            "value": 15
+            "value": 19
           },
           {
             "key": "magicDefenceBonus",
-            "value": -3
+            "value": -8
           }
         ]
       },
@@ -3788,60 +3697,12 @@
         ]
       },
       {
-        "itemType": "Weapon",
-        "id": "Barbarian_Longbow",
-        "name": "Barbarian Longbow",
-        "category": "Combat",
-        "type": "Ranged Weapon",
-        "media": "assets/items/Barbarian_Longbow.png",
-        "ignoreCompletion": false,
-        "obtainFromItemLog": false,
-        "golbinRaidExclusive": false,
-        "sellsFor": 750,
-        "tier": "rune",
-        "validSlots": [
-          "Weapon"
-        ],
-        "occupiesSlots": [
-          "Shield"
-        ],
-        "combatEffects": [
-          {
-            "appliesWhen": "StartOfFight",
-            "chance": 25,
-            "effectID": "melvorTotH:Rage"
-          }
-        ],
-        "equipRequirements": [
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Ranged",
-            "level": 45
-          }
-        ],
-        "attackType": "ranged",
-        "ammoTypeRequired": "Arrows",
-        "equipmentStats": [
-          {
-            "key": "attackSpeed",
-            "value": 3200
-          },
-          {
-            "key": "rangedStrengthBonus",
-            "value": 85
-          },
-          {
-            "key": "rangedAttackBonus",
-            "value": 90
-          }
-        ]
-      },
-      {
         "id": "Beer",
         "name": "Beer",
         "category": "Herblore",
         "type": "Potion",
         "media": "assets/items/Beer.png",
+        "customDescription": "15% of your Strength Level added as Hidden Strength levels<br>50% of your Attack Level subtracted as Hidden Attack Levels",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -3881,7 +3742,7 @@
         "itemType": "Potion",
         "tier": 0,
         "action": "melvorD:Combat",
-        "customDescription": "+15% of your Strength Level added as Hidden Strength levels<br>-50% of your Attack Level subtracted as Hidden Attack Levels",
+        "customDescription": "15% of your Strength Level added as Hidden Strength levels<br>50% of your Attack Level subtracted as Hidden Attack Levels",
         "consumesOn": [
           {
             "type": "PlayerAttack"
@@ -3900,127 +3761,6 @@
             }
           ]
         }
-      },
-      {
-        "id": "Koscheis_Underpants",
-        "name": "Koschei's Underpants",
-        "category": "Combat",
-        "itemType": "Equipment",
-        "type": "Armour",
-        "media": "assets/items/Koscheis_Underpants.png",
-        "ignoreCompletion": true,
-        "obtainFromItemLog": false,
-        "golbinRaidExclusive": false,
-        "customDescription": "Why...did you pick these up?",
-        "sellsFor": 69420,
-        "tier": "bronze",
-        "validSlots": [
-          "Platelegs"
-        ],
-        "occupiesSlots": [],
-        "equipRequirements": [],
-        "equipmentStats": []
-      },
-      {
-        "id": "Koscheis_Helm",
-        "name": "Koschei's Helm",
-        "category": "Combat",
-        "itemType": "Equipment",
-        "type": "Armour",
-        "media": "assets/items/Koscheis_Helm.png",
-        "ignoreCompletion": false,
-        "obtainFromItemLog": false,
-        "golbinRaidExclusive": false,
-        "sellsFor": 60000,
-        "tier": "rune",
-        "validSlots": [
-          "Helmet"
-        ],
-        "occupiesSlots": [],
-        "equipRequirements": [
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Defence",
-            "level": 45
-          }
-        ],
-        "equipmentStats": [
-          {
-            "key": "meleeStrengthBonus",
-            "value": 3
-          },
-          {
-            "key": "stabAttackBonus",
-            "value": 31
-          },
-          {
-            "key": "slashAttackBonus",
-            "value": 29
-          },
-          {
-            "key": "rangedAttackBonus",
-            "value": -5
-          },
-          {
-            "key": "magicAttackBonus",
-            "value": -5
-          },
-          {
-            "key": "blockAttackBonus",
-            "value": 33
-          }
-        ],
-        "combatEffects": [
-          {
-            "effectID": "melvorTotH:Rage",
-            "appliesWhen": "StartOfFight",
-            "chance": 50
-          }
-        ]
-      },
-      {
-        "id": "Koscheis_Blade",
-        "name": "Koschei's Blade",
-        "category": "Combat",
-        "itemType": "Weapon",
-        "type": "Weapon",
-        "media": "assets/items/Koscheis_Blade.png",
-        "ignoreCompletion": false,
-        "obtainFromItemLog": false,
-        "golbinRaidExclusive": false,
-        "sellsFor": 24500,
-        "tier": "dragon",
-        "validSlots": [
-          "melvorD:Weapon"
-        ],
-        "attackType": "melee",
-        "occupiesSlots": [],
-        "equipRequirements": [],
-        "equipmentStats": [
-          {
-            "key": "attackSpeed",
-            "value": 600
-          },
-          {
-            "key": "stabAttackBonus",
-            "value": 6
-          },
-          {
-            "key": "meleeStrengthBonus",
-            "value": -50
-          },
-          {
-            "key": "slashAttackBonus",
-            "value": 29
-          }
-        ],
-        "combatEffects": [
-          {
-            "effectID": "melvorTotH:Rage",
-            "appliesWhen": "StartOfFight",
-            "chance": 50
-          }
-        ]
       },
       {
         "id": "Golbin_Staff",
@@ -7483,7 +7223,7 @@
         "name": "Frostpine Logs",
         "category": "Woodcutting",
         "type": "Logs",
-        "media": "assets/items/Frostpine_Logs.png ",
+        "media": "assets/items/Frostpine_Logs.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -8544,12 +8284,6 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "weight": 5
-          },
-          {
-            "itemID": "expandedAreas:Barbarian_Longbow",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 3
           },
           {
             "itemID": "expandedAreas:Barbarian_Longblade",
@@ -9887,7 +9621,7 @@
               "hasPassiveRegen": true,
               "category": "melvorD:Ore",
               "giveGems": true,
-              "shopItemPurchased": "expandedAreas:Barbarian_Seal_of_Approval"
+              "shopItemPurchased": "expandedAreas:Ancient_Barbarian_Hammer"
             }
           ]
         }
@@ -10701,9 +10435,9 @@
         "insertAt": "After",
         "afterID": "melvorF:Art_of_Control",
         "ids": [
-          "expandedAreas:Barbarian_Seal_of_Approval",
           "expandedAreas:Barbarian_Gloves",
-          "expandedAreas:Ancient_Barbarian_Axe"
+          "expandedAreas:Ancient_Barbarian_Axe",
+          "expandedAreas:Ancient_Barbarian_Hammer"
         ]
       }
     ],
@@ -10847,14 +10581,14 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Smithing",
-            "level": 50
+            "level": 60
           }
         ],
         "defaultBuyLimit": 1,
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Ancient Barbarian Hammer",
-        "customDescription": "+2.5% chance to double items in Smithing and -2.5% Smithing Interval.<br>Allows you to Mine for Sterkite Ore."
+        "customDescription": "+2.5% chance to double items in Smithing and -2.5% Smithing Interval.<br>Allows you to Mine Sterkite rocks."
       }
     ],
     "shopCategoryOrder": [
