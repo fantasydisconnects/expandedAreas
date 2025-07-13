@@ -96,7 +96,7 @@
         "name": "Golbin Hideout",
         "pauseOnBosses": false,
         "rewardItemIDs": [
-          "expandedAreas:Damaged_Supply_Crate",
+          "expandedAreas:Damaged_Supply_Crate"
         ]
       },
       {
@@ -1216,7 +1216,8 @@
         "id": "Draugr",
         "name": "Draugr",
         "media": "assets/monsters/Draugr.png",
-        "description": "Not your typical zombie, I s'pose.""levels": {
+        "description": "Not your typical zombie, I s'pose.",
+        "levels": {
           "Attack": 42,
           "Defence": 10,
           "Hitpoints": 21,
@@ -3614,6 +3615,742 @@
       }
     ],
     "items": [
+      {
+        "itemType": "Equipment",
+        "id": "Green_Dhide_Boots_U",
+        "name": "(U) Green D-hide Boots",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Green_Dhide_Boots_U.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 200,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Boots"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 10
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 5
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 28
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Green_Dhide_Boots",
+        "name": "Green D-hide Boots",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Green_Dhide_Boots.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 200,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Boots"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 4
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 22
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 8
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Green_Dhide_Cowl",
+        "name": "Green D-hide Cowl",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Green_Dhide_Cowl.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 400,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Helmet"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 4
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 4
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 26
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 8
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Green_Dhide_Cowl_U",
+        "name": "(U) Green D-hide Cowl",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Green_Dhide_Cowl_U.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 400,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Helmet"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 5
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 33
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Blue_Dhide_Boots",
+        "name": "Blue D-hide Boots",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Blue_Dhide_Boots.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 300,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Boots"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 50
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 11
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 5
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 25
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 14
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Blue_Dhide_Boots",
+        "name": "Blue D-hide Boots",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Blue_Dhide_Boots.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 300,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Boots"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 50
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 14
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 6
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 31
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 18
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Blue_Dhide_Cowl",
+        "name": "Blue D-hide Cowl",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Blue_Dhide_Cowl.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 600,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Helmet"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 50
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 5
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 30
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 14
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Blue_Dhide_Cowl_U",
+        "name": "(U) Blue D-hide Cowl",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Blue_Dhide_Cowl_U.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 600,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Helmet"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 50
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 6
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 6
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 38
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 18
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Red_Dhide_Boots",
+        "name": "Red D-hide Boots",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Red_Dhide_Boots.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 400,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Boots"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 14
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 6
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 28
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 20
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Red_Dhide_Boots_U",
+        "name": "(U) Red D-hide Boots",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Red_Dhide_Boots_U.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 400,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Boots"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 21
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 8
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 35
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 25
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Red_Dhide_Cowl",
+        "name": "Red D-hide Cowl",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Red_Dhide_Cowl.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 800,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Helmet"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 6
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 34
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 20
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Red_Dhide_Cowl_U",
+        "name": "(U) Red D-hide Cowl",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Red_Dhide_Cowl_U.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 800,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Helmet"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 10
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 8
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 43
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 25
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Black_Dhide_Boots",
+        "name": "Black D-hide Boots",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Black_Dhide_Boots.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 500,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Boots"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 70
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 17
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 6
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 31
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 28
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Black_Dhide_Boots_U",
+        "name": "(U) Black D-hide Boots",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Black_Dhide_Boots_U.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 500,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Boots"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 70
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 21
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 8
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 39
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 35
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Black_Dhide_Cowl",
+        "name": "Black D-hide Cowl",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Black_Dhide_Cowl.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1000,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Helmet"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 70
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 10
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 6
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 37
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 28
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Black_Dhide_Cowl_U",
+        "name": "(U) Black D-hide Cowl",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Black_Dhide_Cowl_U.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1000,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Helmet"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 70
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 12
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 8
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 44
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 35
+          }
+        ]
+      },
       {
         "itemType": "Item",
         "id": "Chieftain_Eriks_Head",
@@ -8958,6 +9695,190 @@
     ],
     "itemUpgrades": [
       {
+        "upgradedItemID": "expandedAreas:Red_Dhide_Boots_U",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Red_Dhide_Boots",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Red_Dragonhide",
+            "quantity": 200
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Red_Dhide_Boots"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": [
+          {
+            "id": "melvorD:GP",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "upgradedItemID": "expandedAreas:Red_Dhide_Cowl_U",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Red_Dhide_Cowl",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Red_Dragonhide",
+            "quantity": 200
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Red_Dhide_Cowl"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": [
+          {
+            "id": "melvorD:GP",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "upgradedItemID": "expandedAreas:Black_Dhide_Boots_U",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Black_Dhide_Boots",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Black_Dragonhide",
+            "quantity": 250
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Black_Dhide_Boots"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": [
+          {
+            "id": "melvorD:GP",
+            "quantity": 200000
+          }
+        ]
+      },
+      {
+        "upgradedItemID": "expandedAreas:Black_Dhide_Cowl_U",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Black_Dhide_Cowl",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Black_Dragonhide",
+            "quantity": 250
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Black_Dhide_Cowl"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": [
+          {
+            "id": "melvorD:GP",
+            "quantity": 200000
+          }
+        ]
+      },
+      {
+        "upgradedItemID": "expandedAreas:Blue_Dhide_Boots_U",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Blue_Dhide_Boots",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Blue_Dragonhide",
+            "quantity": 100
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Blue_Dhide_Boots"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": [
+          {
+            "id": "melvorD:GP",
+            "quantity": 40000
+          }
+        ]
+      },
+      {
+        "upgradedItemID": "expandedAreas:Blue_Dhide_Cowl_U",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Blue_Dhide_Cowl",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Blue_Dragonhide",
+            "quantity": 100
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Blue_Dhide_Cowl"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": [
+          {
+            "id": "melvorD:GP",
+            "quantity": 40000
+          }
+        ]
+      },
+      {
+        "upgradedItemID": "expandedAreas:Green_Dhide_Boots_U",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Green_Dhide_Boots",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Green_Dragonhide",
+            "quantity": 50
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Green_Dhide_Boots"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": [
+          {
+            "id": "melvorD:GP",
+            "quantity": 10000
+          }
+        ]
+      },
+      {
+        "upgradedItemID": "expandedAreas:Green_Dhide_Cowl_U",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Green_Dhide_Cowl",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Green_Dragonhide",
+            "quantity": 50
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Green_Dhide_Cowl"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": [
+          {
+            "id": "melvorD:GP",
+            "quantity": 10000
+          }
+        ]
+      },
+      {
         "upgradedItemID": "expandedAreas:Basket_of_Tomatoes",
         "itemCosts": [
           {
@@ -10129,6 +11050,126 @@
         "skillID": "melvorD:Crafting",
         "data": {
           "recipes": [
+            {
+              "id": "Green_Dhide_Boots",
+              "level": 53,
+              "productID": "expandedAreas:Green_Dhide_Boots",
+              "baseQuantity": 1,
+              "baseExperience": 50,
+              "categoryID": "melvorF:Dragonhide",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Green_Dragonhide",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Green_Dhide_Cowl",
+              "level": 55,
+              "productID": "expandedAreas:Green_Dhide_Cowl",
+              "baseQuantity": 1,
+              "baseExperience": 100,
+              "categoryID": "melvorF:Dragonhide",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Green_Dragonhide",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Blue_Dhide_Boots",
+              "level": 64,
+              "productID": "expandedAreas:Blue_Dhide_Boots",
+              "baseQuantity": 1,
+              "baseExperience": 56,
+              "categoryID": "melvorF:Dragonhide",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Blue_Dragonhide",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Blue_Dhide_Cowl",
+              "level": 65,
+              "productID": "expandedAreas:Blue_Dhide_Cowl",
+              "baseQuantity": 1,
+              "baseExperience": 112,
+              "categoryID": "melvorF:Dragonhide",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Blue_Dragonhide",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Red_Dhide_Boots",
+              "level": 72,
+              "productID": "expandedAreas:Red_Dhide_Boots",
+              "baseQuantity": 1,
+              "baseExperience": 62,
+              "categoryID": "melvorF:Dragonhide",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Red_Dragonhide",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Red_Dhide_Cowl",
+              "level": 73,
+              "productID": "expandedAreas:Red_Dhide_Cowl",
+              "baseQuantity": 1,
+              "baseExperience": 129,
+              "categoryID": "melvorF:Dragonhide",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Red_Dragonhide",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Black_Dhide_Boots",
+              "level": 77,
+              "productID": "expandedAreas:Black_Dhide_Boots",
+              "baseQuantity": 1,
+              "baseExperience": 86,
+              "categoryID": "melvorF:Dragonhide",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Black_Dragonhide",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Black_Dhide_Cowl",
+              "level": 78,
+              "productID": "expandedAreas:Black_Dhide_Cowl",
+              "baseQuantity": 1,
+              "baseExperience": 172,
+              "categoryID": "melvorF:Dragonhide",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Black_Dragonhide",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
             {
               "id": "Pocket_Sand",
               "categoryID": "melvorF:Bags",
@@ -11376,7 +12417,7 @@
             },
             {
               "insertAt": "After",
-              "afterID": "melvorD:Spider_Forest",
+              "afterID": "melvorD:Hall_of_Wizards",
               "ids": [
                 "expandedAreas:The_Barbarian_Trials"
               ]
@@ -11410,6 +12451,12 @@
             }
           ]
         }
+      },
+      {
+        "id": "melvorD:Bandit_Base",
+        "difficulty": [
+          2
+        ]
       }
     ],
     "monsters": [
@@ -11469,6 +12516,104 @@
     ],
     "items": [
       {
+        "id": "melvorD:Spider_Chest",
+        "dropTable": {
+          "remove": [
+            "melvorD:Leather_Cowl",
+            "melvorD:Leather_Chaps",
+            "melvorD:Leather_Boots",
+            "melvorD:Leather_Vambraces",
+            "melvorD:Ranger_Boots",
+            "melvorD:Rangers_Hat",
+            "melvorD:Amulet_of_Ranged"
+          ],
+          "add": [
+            {
+              "itemID": "expandedAreas:Green_Dhide_Boots",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 30
+            },
+            {
+              "itemID": "expandedAreas:Green_Dhide_Cowl",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 30
+            },
+            {
+              "itemID": "expandedAreas:Blue_Dhide_Boots",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 20
+            },
+            {
+              "itemID": "expandedAreas:Blue_Dhide_Cowl",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 20
+            },
+            {
+              "itemID": "expandedAreas:Red_Dhide_Boots",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 15
+            },
+            {
+              "itemID": "expandedAreas:Red_Dhide_Cowl",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 15
+            },
+            {
+              "itemID": "expandedAreas:Black_Dhide_Boots",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 10
+            },
+            {
+              "itemID": "expandedAreas:Black_Dhide_Cowl",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 10
+            },
+            {
+              "itemID": "melvorD:Elite_Amulet_of_Ranged",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 5
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Bandit_Chest",
+        "dropTable": {
+          "remove": [
+            "melvorD:Steel_Arrows"
+          ],
+          "add": [
+            {
+              "itemID": "expandedAreas:Black_Arrows",
+              "minQuantity": 1,
+              "maxQuantity": 100,
+              "weight": 250
+            },
+            {
+              "itemID": "melvorD:Rangers_Hat",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 3
+            },
+            {
+              "itemID": "melvorD:Ranger_Boots",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 3
+            }
+          ]
+        }
+      },
+      {
         "id": "melvorD:Treasure_Chest",
         "dropTable": {
           "add": [
@@ -11481,8 +12626,8 @@
             {
               "itemID": "expandedAreas:Waterlogged_Page",
               "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 1
+              "maxQuantity": 10,
+              "weight": 30
             }
           ]
         }
@@ -11924,18 +13069,6 @@
               "value": 1
             }
           ]
-        }
-      }
-    ],
-    "skillData": [
-      {
-        "skillID": "melvorD:Fishing",
-        "data": {
-          "specialItems": {
-            "remove": [
-              "melvorD:Barbarian_Gloves"
-            ]
-          }
         }
       }
     ]
