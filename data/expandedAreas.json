@@ -96,7 +96,7 @@
         "name": "Golbin Hideout",
         "pauseOnBosses": false,
         "rewardItemIDs": [
-          "expandedAreas:Damaged_Supply_Crate"
+          "expandedAreas:Damaged_Supply_Crate",
         ]
       },
       {
@@ -715,6 +715,7 @@
         "id": "Barbarian_Warrior",
         "name": "Barbarian Warrior",
         "media": "assets/monsters/Barbarian_Warrior.png",
+        "description": "A fierce warrior from a bygone era.",
         "levels": {
           "Attack": 40,
           "Defence": 40,
@@ -821,7 +822,6 @@
         "canSlayer": true,
         "isBoss": false,
         "selectedSpell": "melvorD:WindStrike",
-        "description": "",
         "currencyDrops": [
           {
             "currencyID": "melvorD:GP",
@@ -838,6 +838,7 @@
         "id": "Barbarian_Bowyer",
         "name": "Barbarian Bowyer",
         "media": "assets/monsters/Barbarian_Bowyer.png",
+        "description": "A bear's head for a hat? Scary.",
         "levels": {
           "Attack": 1,
           "Defence": 36,
@@ -936,7 +937,6 @@
         "canSlayer": true,
         "isBoss": false,
         "selectedSpell": "melvorD:WindStrike",
-        "description": "",
         "currencyDrops": [
           {
             "currencyID": "melvorD:GP",
@@ -953,6 +953,7 @@
         "id": "Barbarian_Berserker",
         "name": "Barbarian Berserker",
         "media": "assets/monsters/Barbarian_Berserker.png",
+        "description": "I can smell the beer from here...",
         "levels": {
           "Attack": 65,
           "Defence": 25,
@@ -1041,7 +1042,6 @@
         "canSlayer": true,
         "isBoss": false,
         "selectedSpell": "melvorD:WindStrike",
-        "description": "",
         "currencyDrops": [
           {
             "currencyID": "melvorD:GP",
@@ -1058,6 +1058,7 @@
         "id": "Barbarian_Brawler",
         "name": "Barbarian Brawler",
         "media": "assets/monsters/Barbarian_Brawler.png",
+        "description": "She's clearly been on the winning end of a <em>ton</em> of fights.",
         "levels": {
           "Attack": 79,
           "Defence": 48,
@@ -1142,7 +1143,6 @@
         "canSlayer": true,
         "isBoss": false,
         "selectedSpell": "melvorD:WindStrike",
-        "description": "",
         "currencyDrops": [
           {
             "currencyID": "melvorD:GP",
@@ -1159,6 +1159,7 @@
         "id": "Walking_Keg",
         "name": "Walking Keg",
         "media": "assets/monsters/Walking_Keg.png",
+        "description": "Are those feet? Nevermind.",
         "levels": {
           "Attack": 1,
           "Defence": 1,
@@ -1205,7 +1206,6 @@
         "canSlayer": true,
         "isBoss": false,
         "selectedSpell": "melvorD:WindStrike",
-        "description": "",
         "currencyDrops": [],
         "bones": {
           "itemID": "melvorD:Big_Bones",
@@ -1216,7 +1216,7 @@
         "id": "Draugr",
         "name": "Draugr",
         "media": "assets/monsters/Draugr.png",
-        "levels": {
+        "description": "Not your typical zombie, I s'pose.""levels": {
           "Attack": 42,
           "Defence": 10,
           "Hitpoints": 21,
@@ -1239,7 +1239,6 @@
         "canSlayer": true,
         "isBoss": false,
         "selectedSpell": "melvorD:WindStrike",
-        "description": "",
         "currencyDrops": [],
         "bones": {
           "itemID": "melvorD:Bones",
@@ -1250,6 +1249,7 @@
         "id": "Drowned_Maiden",
         "name": "Drowned Maiden",
         "media": "assets/monsters/Drowned_Maiden.png",
+        "description": "“Youuu will drowwwn as I diiid...”",
         "levels": {
           "Attack": 1,
           "Defence": 70,
@@ -1276,7 +1276,6 @@
         "canSlayer": false,
         "isBoss": true,
         "selectedSpell": "melvorD:WaterBlast",
-        "description": "Yoouuu will drownnn as I diiid...",
         "currencyDrops": [],
         "bones": {
           "itemID": "melvorD:Magic_Bones",
@@ -1331,7 +1330,7 @@
         "canSlayer": true,
         "isBoss": false,
         "selectedSpell": "melvorD:WindStrike",
-        "description": "Who sent you? It was my ugly bastard, wasn't it?",
+        "description": "“Who sent you? It was my ugly bastard, wasn't it?”",
         "currencyDrops": [
           {
             "currencyID": "melvorD:GP",
@@ -1387,7 +1386,7 @@
         "canSlayer": false,
         "isBoss": true,
         "selectedSpell": "melvorD:WindStrike",
-        "description": "Thank you for killing my father, outsider. Now test your strength against me!",
+        "description": "“Thanks for bringing me my father's head.”",
         "currencyDrops": [],
         "bones": {
           "itemID": "melvorD:Bones",
@@ -1442,7 +1441,7 @@
         "canSlayer": true,
         "isBoss": true,
         "selectedSpell": "melvorD:WindStrike",
-        "description": "Face me if you dare, outsider.",
+        "description": "“So you are here to prove yourself, then? Hah!”",
         "currencyDrops": [],
         "bones": {
           "itemID": "melvorD:Bones",
@@ -1497,7 +1496,7 @@
         "canSlayer": true,
         "isBoss": true,
         "selectedSpell": "melvorD:WindStrike",
-        "description": "Hah! You fight well. I won't go easy this time.",
+        "description": "“Hah! You fight well. I won't go easy this time.”",
         "currencyDrops": [],
         "bones": {
           "itemID": "melvorD:Bones",
@@ -1552,7 +1551,7 @@
         "canSlayer": true,
         "isBoss": true,
         "selectedSpell": "melvorD:WindStrike",
-        "description": "Hngh. Now you fight the Wind of the North!",
+        "description": "“Hngh. A lucky hit!”",
         "currencyDrops": [],
         "bones": {
           "itemID": "melvorD:Bones",
@@ -1590,7 +1589,7 @@
         "canSlayer": false,
         "isBoss": true,
         "selectedSpell": "melvorD:WindStrike",
-        "description": "Prepare to face TRUE strength, little one!",
+        "description": "“RAAAGGGHHH! Now witness TRUE strength!”",
         "currencyDrops": [],
         "bones": {
           "itemID": "melvorD:Bones",
@@ -1993,6 +1992,7 @@
         "id": "Peasant_Man",
         "name": "Peasant Man",
         "media": "assets/monsters/Peasant_Man.png",
+        "description": "Just a regular ol' bloke.",
         "levels": {
           "Attack": 1,
           "Defence": 1,
@@ -2069,8 +2069,8 @@
           },
           {
             "itemID": "melvorF:Fishing_Hook",
-            "minQuantity": 1,
-            "maxQuantity": 5,
+            "minQuantity": 5,
+            "maxQuantity": 25,
             "weight": 1
           },
           {
@@ -2099,6 +2099,7 @@
         "id": "Peasant_Woman",
         "name": "Peasant Woman",
         "media": "assets/monsters/Peasant_Woman.png",
+        "description": "Just a regular ol' gal.",
         "levels": {
           "Attack": 1,
           "Defence": 1,
@@ -2169,8 +2170,8 @@
           },
           {
             "itemID": "melvorF:Fine_Coinpurse",
-            "minQuantity": 1,
-            "maxQuantity": 5,
+            "minQuantity": 5,
+            "maxQuantity": 25,
             "weight": 1
           },
           {
@@ -2199,6 +2200,7 @@
         "id": "Pickpocket",
         "name": "Pickpocket",
         "media": "assets/monsters/Pickpocket.png",
+        "description": "Cor blimey, mate! What is he doin' in me pockets?!",
         "levels": {
           "Attack": 14,
           "Defence": 12,
@@ -2272,6 +2274,7 @@
         "id": "Guard",
         "name": "Guard",
         "media": "assets/monsters/Guard.png",
+        "description": "I'm sure their job is pretty important.",
         "levels": {
           "Attack": 24,
           "Defence": 23,
@@ -2422,6 +2425,7 @@
         "id": "Executioner",
         "name": "Executioner",
         "media": "assets/monsters/Executioner.png",
+        "description": "Sure wouldn't want to commit any crimes 'round him!",
         "levels": {
           "Attack": 28,
           "Defence": 26,
@@ -2538,6 +2542,7 @@
         "id": "Mysterious_Monk",
         "name": "Mysterious Monk",
         "media": "assets/monsters/Mysterious_Monk.png",
+        "description": "Mysterious.",
         "levels": {
           "Attack": 1,
           "Defence": 45,
@@ -2650,6 +2655,7 @@
         "id": "Golbin_Chief",
         "name": "Golbin Chief",
         "media": "assets/monsters/Golbin_Chief.png",
+        "description": "“Reek-reek! Shmig blig. Dorgoo!”",
         "levels": {
           "Attack": 50,
           "Defence": 1,
@@ -2726,6 +2732,7 @@
         "id": "Novice_Necromancer",
         "name": "Novice Necromancer",
         "media": "assets/monsters/Novice_Necromancer.png",
+        "description": "Probably still lives in his mum's basement.",
         "levels": {
           "Attack": 30,
           "Defence": 45,
@@ -2837,6 +2844,7 @@
         "id": "Giant_Grub",
         "name": "Giant Grub",
         "media": "assets/monsters/Giant_Grub.png",
+        "description": "YUCK!",
         "levels": {
           "Attack": 20,
           "Defence": 1,
@@ -3043,6 +3051,7 @@
         "id": "Monk_of_the_Wind",
         "name": "Monk of the Wind",
         "media": "assets/monsters/Monk_of_the_Wind.png",
+        "description": "“O! Long may the Winds carry the name of gentle Aeris.”",
         "levels": {
           "Attack": 65,
           "Defence": 90,
@@ -3136,6 +3145,7 @@
         "id": "Monk_of_the_River",
         "name": "Monk of the River",
         "media": "assets/monsters/Monk_of_the_River.png",
+        "description": "“The Tide ebbs and flows, and thus brings Glacia's floes.”",
         "levels": {
           "Attack": 77,
           "Defence": 168,
@@ -3229,6 +3239,7 @@
         "id": "Monk_of_the_Moss",
         "name": "Monk of the Moss",
         "media": "assets/monsters/Monk_of_the_Moss.png",
+        "description": "“Canst not thou feel th'embrace of Terran 'neath thy feet?”",
         "levels": {
           "Attack": 91,
           "Defence": 300,
@@ -3326,6 +3337,7 @@
         "id": "Monk_of_the_Flame",
         "name": "Monk of the Flame",
         "media": "assets/monsters/Monk_of_the_Flame.png",
+        "description": "“Th' Flame o' Ragnar burneth within us all.”",
         "levels": {
           "Attack": 120,
           "Defence": 117,
@@ -3419,6 +3431,7 @@
         "id": "Guardian_of_the_Elements",
         "name": "Guardian of the Elements",
         "media": "assets/monsters/Guardian_of_the_Elements.png",
+        "description": "“<strong>THERE IS NAUGHT THEE CAN DO TO CONTAIN THAT WHICH BINDS MELVOR.</strong>”",
         "levels": {
           "Attack": 120,
           "Defence": 287,
@@ -3586,6 +3599,7 @@
         "id": "Fenri",
         "name": "Fenri",
         "media": "assets/pets/Fenri.svg",
+        "hint": "Obtained from <strong>The Barbarian Trials</strong>",
         "ignoreCompletion": true,
         "modifiers": {
           "flatHiddenSkillLevel": [
@@ -3611,7 +3625,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
-        "customDescription": "The head of the chieftain of Barbarian Village."
+        "customDescription": "The head of the chieftain of Barbarian Village. What use could this have...?"
       },
       {
         "itemType": "Equipment",
@@ -6166,7 +6180,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100,
-        "customDescription": "The cover of this battered tome is inscribed with runes of the four elements. Its pages are filled largely indecipherable glyphs and schemes, but for one, written in Melvorian, which reads: 'Seek the Sanctuary of our people.'"
+        "customDescription": "The cover of this battered tome is inscribed with runes of the four elements. Its pages are filled largely indecipherable glyphs and schemes, but for one, written in ancient Melvorian, which reads: 'Seek the Sanctuary of our people.'"
       },
       {
         "itemType": "Equipment",
@@ -7255,7 +7269,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 20,
-        "customDescription": "Used to upgrade Expert Wizard gear to Elemental gear."
+        "customDescription": "Used to upgrade Expert Wizard gear into Elemental gear."
       },
       {
         "itemType": "Item",
@@ -7268,7 +7282,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 30,
-        "customDescription": "Used to upgrade Expert Wizard gear to Elemental gear."
+        "customDescription": "Used to upgrade Expert Wizard gear into Elemental gear."
       },
       {
         "itemType": "Item",
@@ -7281,7 +7295,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 50,
-        "customDescription": "Used to upgrade Expert Wizard gear to Elemental gear."
+        "customDescription": "Used to upgrade Expert Wizard gear into Elemental gear."
       },
       {
         "itemType": "Item",
@@ -7294,7 +7308,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 50,
-        "customDescription": "Used to upgrade Expert Wizard gear to Elemental gear."
+        "customDescription": "Used to upgrade Expert Wizard gear into Elemental gear."
       },
       {
         "itemType": "Equipment",
@@ -7398,7 +7412,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
-        "customDescription": "Used to create the Orb of the Elements ring."
+        "customDescription": "Used to create the <strong>Orb of the Elements</strong> ring."
       },
       {
         "itemType": "Item",
@@ -7411,7 +7425,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
-        "customDescription": "Used to create the Orb of the Elements ring."
+        "customDescription": "Used to create the <strong>Orb of the Elements</strong> ring."
       },
       {
         "itemType": "Item",
@@ -7424,7 +7438,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
-        "customDescription": "Used to create the Orb of the Elements ring."
+        "customDescription": "Used to create the <strong>Orb of the Elements</strong> ring."
       },
       {
         "itemType": "Item",
@@ -7437,7 +7451,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
-        "customDescription": "Used to create the Orb of the Elements ring."
+        "customDescription": "Used to create the <strong>Orb of the Elements</strong> ring."
       },
       {
         "itemType": "Equipment",
@@ -7686,7 +7700,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 50,
-        "customDescription": "Used to create the Tome of Air."
+        "customDescription": "Used to create the <strong>Tome of Air</strong>."
       },
       {
         "itemType": "Item",
@@ -7699,7 +7713,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 50,
-        "customDescription": "Used to create the Tome of Water."
+        "customDescription": "Used to create the <strong>Tome of Water</strong>."
       },
       {
         "itemType": "Item",
@@ -7712,7 +7726,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 50,
-        "customDescription": "Used to create the Tome of Earth."
+        "customDescription": "Used to create the <strong>Tome of Earth</strong>."
       },
       {
         "itemType": "Item",
@@ -7725,7 +7739,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 50,
-        "customDescription": "Used to create the Tome of Fire."
+        "customDescription": "Used to create the <strong>Tome of Fire</strong>."
       },
       {
         "itemType": "Item",
