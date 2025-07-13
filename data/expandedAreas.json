@@ -3664,6 +3664,7 @@
         "category": "Combat",
         "type": "Armour",
         "media": "assets/items/Barbarian_Archer_Helm.png",
+        "customDescription": "<span class=\"text-warning\">When equipped with Barbarian Armour, Barbarian Skirt and Barbarian Boots: +10% Ranged Accuracy Rating</span>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -3714,6 +3715,7 @@
         "category": "Combat",
         "type": "Armour",
         "media": "assets/items/Barbarian_Berserker_Helm.png",
+        "customDescription": "Passive: While at or below 50% of your Maximum Hit Points, gain: +10% Melee Maximum Hit, +10% Attack Interval, +10% Melee Crit Chance, and -30% Global Evasion.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -3723,11 +3725,20 @@
           "Helmet"
         ],
         "occupiesSlots": [],
-        "combatEffects": [
+        "conditionalModifiers": [
           {
-            "appliesWhen": "StartOfFight",
-            "chance": 100,
-            "effectID": "melvorTotH:Rage"
+            "modifiers": {
+              "evasion": -30,
+              "meleeMaxHit": 10,
+              "meleeCritChance": 10,
+              "attackInterval": 10
+            },
+            "condition": {
+              "type": "Hitpoints",
+              "character": "Player",
+              "operator": "<=",
+              "value": 50
+            }
           }
         ],
         "equipRequirements": [
@@ -3752,15 +3763,15 @@
           },
           {
             "key": "meleeDefenceBonus",
-            "value": 12
+            "value": -12
           },
           {
             "key": "rangedDefenceBonus",
-            "value": 12
+            "value": -12
           },
           {
             "key": "magicDefenceBonus",
-            "value": -12
+            "value": -24
           }
         ]
       },
@@ -3771,6 +3782,7 @@
         "category": "Combat",
         "type": "Armour",
         "media": "assets/items/Barbarian_Warrior_Helm.png",
+        "customDescription": "<span class=\"text-warning\">When equipped with Barbarian Armour, Barbarian Skirt and Barbarian Boots: +10% Melee Accuracy Rating</span>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -3929,6 +3941,7 @@
         "category": "Combat",
         "type": "Armour",
         "media": "assets/items/Barbarian_Armour.png",
+        "customDescription": "<span class=\"text-warning\">When equipped with Barbarian Skirt and Barbarian Boots: +10% crit chance</span>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -8831,12 +8844,6 @@
             "weight": 4
           },
           {
-            "itemID": "expandedAreas:Barbarian_Roundshield",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 3
-          },
-          {
             "itemID": "expandedAreas:Barbarian_Skirt",
             "minQuantity": 1,
             "maxQuantity": 1,
@@ -8846,7 +8853,7 @@
             "itemID": "expandedAreas:Barbarian_Armour",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 2
           }
         ]
       }
@@ -8899,7 +8906,7 @@
           "expandedAreas:Barbarian_Archer_Helm"
         ],
         "playerModifiers": {
-          "rangedCritChance": [
+          "rangedAccuracyRating": [
             {
               "value": 10
             }
@@ -8908,15 +8915,13 @@
       },
       {
         "itemIDs": [
-          "expandedAreas:Barbarian_Armour",
-          "expandedAreas:Barbarian_Boots",
-          "expandedAreas:Barbarian_Barbarian_Skirt",
+          "expandedAreas:Barbarian_Berserker_Axe",
           "expandedAreas:Barbarian_Berserker_Helm"
         ],
         "playerModifiers": {
-          "meleeCritChance": [
+          "meleeLifesteal": [
             {
-              "value": 10
+              "value": 2
             }
           ]
         }
@@ -8931,7 +8936,7 @@
         "playerModifiers": {
           "meleeAccuracyRating": [
             {
-              "value": 15
+              "value": 10
             }
           ]
         }
