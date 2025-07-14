@@ -3847,11 +3847,11 @@
       },
       {
         "itemType": "Equipment",
-        "id": "Blue_Dhide_Boots",
-        "name": "Blue D-hide Boots",
+        "id": "Blue_Dhide_Boots_U",
+        "name": "(U) Blue D-hide Boots",
         "category": "Combat",
         "type": "Ranged Armour",
-        "media": "assets/items/Blue_Dhide_Boots.png",
+        "media": "assets/items/Blue_Dhide_Boots_U.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -12597,6 +12597,12 @@
               "minQuantity": 1,
               "maxQuantity": 100,
               "weight": 250
+            },
+            {
+              "itemID": "melvorD:Amulet_of_Ranged",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 5
             },
             {
               "itemID": "melvorD:Rangers_Hat",
