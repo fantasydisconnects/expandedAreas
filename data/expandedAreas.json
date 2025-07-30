@@ -29,6 +29,7 @@
           1
         ],
         "monsterIDs": [
+          "expandedAreas:Barbarian",
           "expandedAreas:Barbarian_Warrior",
           "expandedAreas:Barbarian_Bowyer",
           "expandedAreas:Barbarian_Berserker",
@@ -712,6 +713,139 @@
     ],
     "monsters": [
       {
+        "id": "Barbarian",
+        "name": "Barbarian",
+        "media": "assets/monsters/Barbarian.png",
+        "description": "His name is probably Dave.",
+        "levels": {
+          "Attack": 8,
+          "Defence": 4,
+          "Hitpoints": 14,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 10
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3600
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 10
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 60,
+        "lootTable": [
+          {
+            "itemID": "expandedAreas:Beer",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 2500
+          },
+          {
+            "itemID": "melvorD:Potatoes",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1250
+          },
+          {
+            "itemID": "expandedAreas:Bronze_Spear",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 625
+          },
+          {
+            "itemID": "melvorD:Chaos_Rune",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 313
+          },
+          {
+            "itemID": "melvorD:Bronze_Arrows",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 313
+          },
+          {
+            "itemID": "melvorD:Earth_Rune",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 313
+          },
+          {
+            "itemID": "melvorD:Fire_Rune",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 157
+          },
+          {
+            "itemID": "melvorD:Mind_Rune",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 157
+          },
+          {
+            "itemID": "expandedAreas:Iron_Thrownaxe",
+            "minQuantity": 1,
+            "maxQuantity": 6,
+            "weight": 79
+          },
+          {
+            "itemID": "melvorD:Garum_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "weight": 79
+          },
+          {
+            "itemID": "melvorD:Tin_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "weight": 79
+          },
+          {
+            "itemID": "melvorD:Leather",
+            "minQuantity": 1,
+            "maxQuantity": 4,
+            "weight": 79
+          },
+          {
+            "itemID": "melvorF:Gold_Sapphire_Ring",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 79
+          },
+          {
+            "itemID": "expandedAreas:Barbarian_Helm",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 79
+          }
+        ],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "currencyDrops": [
+          {
+            "currencyID": "melvorD:GP",
+            "min": 1,
+            "max": 16
+          }
+        ],
+        "bones": {
+          "itemID": "melvorD:Bones",
+          "quantity": 1
+        }
+      },
+      {
         "id": "Barbarian_Warrior",
         "name": "Barbarian Warrior",
         "media": "assets/monsters/Barbarian_Warrior.png",
@@ -750,73 +884,73 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 100,
+        "lootChance": 64,
         "lootTable": [
           {
             "itemID": "expandedAreas:Beer",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 48
+            "weight": 2500
           },
           {
             "itemID": "melvorD:Bronze_Bar",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 48
+            "weight": 1250
           },
           {
             "itemID": "melvorF:Hard_Leather_Body",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 40
+            "weight": 625
           },
           {
             "itemID": "melvorD:Black_2H_Sword",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 40
+            "weight": 625
           },
           {
             "itemID": "melvorF:Hard_Leather_Boots",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 32
+            "weight": 625
           },
           {
             "itemID": "melvorD:Cheese",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 32
+            "weight": 312
           },
           {
             "itemID": "melvorD:Chaos_Rune",
             "minQuantity": 4,
             "maxQuantity": 12,
-            "weight": 24
+            "weight": 156
           },
           {
             "itemID": "melvorD:Leather",
             "minQuantity": 3,
             "maxQuantity": 6,
-            "weight": 24
+            "weight": 156
           },
           {
             "itemID": "melvorF:Silver_Ruby_Necklace",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 16
+            "weight": 78
           },
           {
             "itemID": "melvorD:Oak_Tree_Seed",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 8
+            "weight": 78
           },
           {
-            "itemID": "expandedAreas:Barbarian_Helm",
+            "itemID": "expandedAreas:Barbarian_Warrior_Helm",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 19
           }
         ],
         "canSlayer": true,
@@ -877,61 +1011,67 @@
         "attackType": "ranged",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 100,
+        "lootChance": 72,
         "lootTable": [
           {
             "itemID": "melvorD:Bowstring",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 56
+            "weight": 2500
+          },
+          {
+            "itemID": "expandedAreas:Black_Thrownaxe",
+            "minQuantity": 3,
+            "maxQuantity": 6,
+            "weight": 1250
           },
           {
             "itemID": "melvorF:Oak_Longbow_U",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 48
+            "weight": 1250
           },
           {
             "itemID": "melvorF:Willow_Longbow_U",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 40
+            "weight": 625
+          },
+          {
+            "itemID": "melvorF:Arrow_Shafts",
+            "minQuantity": 17,
+            "maxQuantity": 28,
+            "weight": 625
           },
           {
             "itemID": "melvorF:Maple_Longbow_U",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 32
-          },
-          {
-            "itemID": "melvorF:Arrow_Shafts",
-            "minQuantity": 17,
-            "maxQuantity": 94,
-            "weight": 24
+            "weight": 312
           },
           {
             "itemID": "melvorD:Mithril_Arrowtips",
             "minQuantity": 6,
             "maxQuantity": 9,
-            "weight": 16
+            "weight": 312
           },
           {
             "itemID": "melvorD:Adamant_Arrowtips",
             "minQuantity": 2,
-            "maxQuantity": 5,
-            "weight": 8
+            "maxQuantity": 9,
+            "weight": 156
           },
           {
             "itemID": "melvorD:Mithril_Javelin_Heads",
-            "minQuantity": 4,
-            "maxQuantity": 10,
-            "weight": 2
+            "minQuantity": 2,
+            "maxQuantity": 6,
+            "weight": 78
           },
           {
-            "itemID": "expandedAreas:Barbarian_Fletching_Knife",
+            "itemID": "expandedAreas:Barbarian_Archer_Helm",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 19
           }
         ],
         "canSlayer": true,
@@ -955,12 +1095,12 @@
         "media": "assets/monsters/Barbarian_Berserker.png",
         "description": "I can smell the beer from here...",
         "levels": {
-          "Attack": 65,
-          "Defence": 25,
-          "Hitpoints": 78,
+          "Attack": 60,
+          "Defence": 10,
+          "Hitpoints": 88,
           "Magic": 1,
           "Ranged": 1,
-          "Strength": 81
+          "Strength": 99
         },
         "equipmentStats": [
           {
@@ -988,55 +1128,61 @@
         "passives": [
           "melvorTotH:Rage"
         ],
-        "lootChance": 100,
+        "lootChance": 83,
         "lootTable": [
           {
             "itemID": "expandedAreas:Beer",
             "minQuantity": 1,
             "maxQuantity": 8,
-            "weight": 48
+            "weight": 2500
           },
           {
-            "itemID": "melvorD:Beef_Pie",
+            "itemID": "melvorD:Beef",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 32
+            "weight": 2500
           },
           {
             "itemID": "melvorD:Onions",
             "minQuantity": 1,
             "maxQuantity": 10,
-            "weight": 24
+            "weight": 1250
           },
           {
             "itemID": "melvorD:Black_Battleaxe",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 16
+            "weight": 625
           },
           {
             "itemID": "melvorD:Black_Platelegs",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 8
+            "weight": 625
           },
           {
             "itemID": "melvorD:Amulet_of_Strength",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 2
+            "weight": 312
           },
           {
             "itemID": "melvorF:Melee_Strength_Potion_I",
             "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 4
+            "maxQuantity": 2,
+            "weight": 312
           },
           {
             "itemID": "expandedAreas:Barbarian_Berserker_Axe",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 39
+          },
+          {
+            "itemID": "expandedAreas:Barbarian_Berserker_Helm",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 19
           }
         ],
         "canSlayer": true,
@@ -1060,12 +1206,12 @@
         "media": "assets/monsters/Barbarian_Brawler.png",
         "description": "She's clearly been on the winning end of a <em>ton</em> of fights.",
         "levels": {
-          "Attack": 79,
-          "Defence": 48,
-          "Hitpoints": 102,
+          "Attack": 75,
+          "Defence": 45,
+          "Hitpoints": 81,
           "Magic": 1,
           "Ranged": 1,
-          "Strength": 95
+          "Strength": 90
         },
         "equipmentStats": [
           {
@@ -1095,49 +1241,49 @@
           "expandedAreas:Sucker_Punch"
         ],
         "passives": [],
-        "lootChance": 100,
+        "lootChance": 74,
         "lootTable": [
           {
             "itemID": "melvorD:Bronze_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 96
+            "weight": 2500
           },
           {
             "itemID": "expandedAreas:Beer",
             "minQuantity": 4,
             "maxQuantity": 13,
-            "weight": 96
+            "weight": 2500
           },
           {
             "itemID": "melvorF:Hard_Leather_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 80
+            "weight": 1250
           },
           {
             "itemID": "melvorD:Iron_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 64
+            "weight": 625
           },
           {
             "itemID": "melvorD:Steel_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 32
+            "weight": 312
           },
           {
             "itemID": "expandedAreas:Black_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 16
+            "weight": 156
           },
           {
             "itemID": "expandedAreas:Barbarian_Brawling_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 39
           }
         ],
         "canSlayer": true,
@@ -1288,12 +1434,12 @@
         "name": "Chieftain Erik",
         "media": "assets/monsters/Chieftain_Erik.png",
         "levels": {
-          "Attack": 85,
-          "Defence": 85,
-          "Hitpoints": 90,
+          "Attack": 99,
+          "Defence": 45,
+          "Hitpoints": 99,
           "Magic": 1,
           "Ranged": 1,
-          "Strength": 85
+          "Strength": 99
         },
         "equipmentStats": [
           {
@@ -4413,7 +4559,7 @@
         "category": "Combat",
         "type": "Armour",
         "media": "assets/items/Barbarian_Archer_Helm.png",
-        "customDescription": "<span class=\"text-warning\">When equipped with <strong>Barbarian Armour</strong>, <strong>Barbarian Skirt</strong> and <strong>Barbarian Boots</strong>: +10% Ranged Accuracy Rating</span>",
+        "customDescription": "<span class=\"text-warning\">When equipped with any Throwing Weapon: +5% Ranged Crit Chance and +10% Ranged Accuracy Rating</span>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -4464,7 +4610,7 @@
         "category": "Combat",
         "type": "Armour",
         "media": "assets/items/Barbarian_Berserker_Helm.png",
-        "customDescription": "Passive: While at or below 50% of your Maximum Hit Points, gain: +10% Melee Maximum Hit, -10% Attack Interval, +10% Melee Crit Chance, and -30% Global Evasion.<br>When equipped with <strong>Barbarian Armour</strong>, <strong>Barbarian Skirt</strong>, and <strong>Barbarian Boots</strong>, gain +2% Melee Lifesteal.",
+        "customDescription": "Passive: While at or below 50% of your Maximum Hit Points, gain: +10% Melee Maximum Hit, -10% Attack Interval, +10% Melee Crit Chance, and -30% Global Evasion.<br>When equipped with <strong>Barbarian Berserker Axe</strong>, gain +2% Melee Lifesteal.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -4531,7 +4677,7 @@
         "category": "Combat",
         "type": "Armour",
         "media": "assets/items/Barbarian_Warrior_Helm.png",
-        "customDescription": "<span class=\"text-warning\">When equipped with <strong>Barbarian Armour</strong>, <strong>Barbarian Skirt</strong> and <strong>Barbarian Boots</strong>: +10% Melee Accuracy Rating</span>",
+        "customDescription": "<span class=\"text-warning\">When equipped with <strong>Barbarian Longblade</strong>, gain +10% Melee Accuracy Rating.</span>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -4594,7 +4740,7 @@
         "category": "Combat",
         "type": "Armour",
         "media": "assets/items/Barbarian_Boots.png",
-        "customDescription": "<span class=\"text-warning\">When equipped with <strong>Barbarian Armour</strong> and <strong>Barbarian Skirt</strong>: +10% crit chance</span>",
+        "customDescription": "Passive: +1% melee crit chance<br><span class=\"text-warning\">When equipped with <strong>Barbarian Armour</strong> and <strong>Barbarian Skirt</strong>: +10% crit chance</span>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -4641,7 +4787,7 @@
         "category": "Combat",
         "type": "Armour",
         "media": "assets/items/Barbarian_Skirt.png",
-        "customDescription": "<span class=\"text-warning\">When equipped with <strong>Barbarian Armour</strong> and <strong>Barbarian Boots</strong>: +10% crit chance</span>",
+        "customDescription": "Passive: +2% melee crit chance<br><span class=\"text-warning\">When equipped with <strong>Barbarian Armour</strong> and <strong>Barbarian Boots</strong>: +10% crit chance</span>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -4661,11 +4807,7 @@
         "equipmentStats": [
           {
             "key": "meleeStrengthBonus",
-            "value": 5
-          },
-          {
-            "key": "rangedStrengthBonus",
-            "value": 5
+            "value": 8
           },
           {
             "key": "meleeDefenceBonus",
@@ -4678,12 +4820,11 @@
           {
             "key": "magicDefenceBonus",
             "value": -4
-          },
-          {
-            "key": "damageReduction",
-            "value": 2
           }
-        ]
+        ],
+        "modifiers": {
+          "meleeCritChance": 2
+        }
       },
       {
         "itemType": "Equipment",
@@ -4692,7 +4833,7 @@
         "category": "Combat",
         "type": "Armour",
         "media": "assets/items/Barbarian_Armour.png",
-        "customDescription": "<span class=\"text-warning\">When equipped with <strong>Barbarian Skirt</strong> and <strong>Barbarian Boots</strong>: +10% crit chance</span>",
+        "customDescription": "Passive: +3% melee crit chance<br><span class=\"text-warning\">When equipped with <strong>Barbarian Skirt</strong> and <strong>Barbarian Boots</strong>: +10% crit chance</span>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -4712,11 +4853,7 @@
         "equipmentStats": [
           {
             "key": "meleeStrengthBonus",
-            "value": 5
-          },
-          {
-            "key": "rangedStrengthBonus",
-            "value": 5
+            "value": 8
           },
           {
             "key": "meleeDefenceBonus",
@@ -4729,12 +4866,11 @@
           {
             "key": "magicDefenceBonus",
             "value": -6
-          },
-          {
-            "key": "damageReduction",
-            "value": 2
           }
-        ]
+        ],
+        "modifiers": {
+          "meleeCritChance": 3
+        }
       },
       {
         "itemType": "Weapon",
@@ -4743,6 +4879,7 @@
         "category": "Combat",
         "type": "Weapon",
         "media": "assets/items/Barbarian_Longblade.png",
+        "customDescription": "<span class=\"text-warning\">When equipped with <strong>Barbarian Warrior Helm</strong>, gain +10% Melee Accuracy Rating.</span>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -4879,7 +5016,7 @@
         "equipmentStats": [
           {
             "key": "attackSpeed",
-            "value": 2450
+            "value": 2650
           },
           {
             "key": "meleeStrengthBonus",
@@ -5636,7 +5773,6 @@
           "melvorD:Helmet"
         ],
         "occupiesSlots": [],
-        "deathPenaltyPriority": 1,
         "equipRequirements": [
           {
             "skillID": "melvorD:Attack",
@@ -5686,13 +5822,13 @@
                   "character": "Enemy",
                   "type": "Hitpoints",
                   "operator": "<=",
-                  "value": 400
+                  "value": 10
                 }
               ],
               "type": "Every"
             },
             "modifiers": {
-              "slashAttackBonus": [
+              "meleeMaxHit": [
                 {
                   "value": 10
                 }
@@ -8987,8 +9123,8 @@
           },
           {
             "itemID": "expandedAreas:Pine_Nuts",
-            "minQuantity": 1,
-            "maxQuantity": 6,
+            "minQuantity": 20,
+            "maxQuantity": 60,
             "weight": 5
           }
         ]
@@ -9612,6 +9748,16 @@
     "itemSynergies": [
       {
         "itemIDs": [
+          "expandedAreas:Barbarian_Archer_Helm",
+          "ThrowingWeapon"
+        ],
+        "playerModifiers": {
+          "critChance": 5,
+          "rangedAccuracyRating": 10
+        }
+      },
+      {
+        "itemIDs": [
           "expandedAreas:Amulet_of_Occults",
           "melvorF:Book_of_Occults"
         ],
@@ -9651,21 +9797,6 @@
       },
       {
         "itemIDs": [
-          "expandedAreas:Barbarian_Armour",
-          "expandedAreas:Barbarian_Boots",
-          "expandedAreas:Barbarian_Skirt",
-          "expandedAreas:Barbarian_Archer_Helm"
-        ],
-        "playerModifiers": {
-          "rangedAccuracyRating": [
-            {
-              "value": 10
-            }
-          ]
-        }
-      },
-      {
-        "itemIDs": [
           "expandedAreas:Barbarian_Berserker_Axe",
           "expandedAreas:Barbarian_Berserker_Helm"
         ],
@@ -9679,9 +9810,7 @@
       },
       {
         "itemIDs": [
-          "expandedAreas:Barbarian_Armour",
-          "expandedAreas:Barbarian_Boots",
-          "expandedAreas:Barbarian_Skirt",
+          "expandedAreas:Barbarian_Longblade",
           "expandedAreas:Barbarian_Warrior_Helm"
         ],
         "playerModifiers": {
@@ -11297,7 +11426,7 @@
               "hasPassiveRegen": true,
               "category": "melvorD:Ore",
               "giveGems": true,
-              "shopItemPurchased": "expandedAreas:Sterkite_Access"
+              "shopItemPurchased": "expandedAreas:Rock_Smashing"
             }
           ]
         }
@@ -12113,7 +12242,7 @@
         "ids": [
           "expandedAreas:Spear_Fishing",
           "expandedAreas:Tree_Punching",
-          "expandedAreas:Sterkite_Access",
+          "expandedAreas:Rock_Smashing",
           "expandedAreas:Ancestral_Smithing_Technique"
         ]
       }
@@ -12227,11 +12356,15 @@
         "customDescription": "+2.5% chance to receive an additional resource from Woodcutting (cannot be doubled) and -2.5% Woodcutting Interval.<br>Grants access to Pine trees."
       },
       {
-        "id": "Sterkite_Access",
-        "media": "assets/shop/Sterkite_Access.svg",
+        "id": "Rock_Smashing",
+        "media": "assets/shop/Rock_Smashing.svg",
         "category": "expandedAreas:Barbarian_Skilling",
         "contains": {
-          "items": []
+          "items": [],
+          "modifiers": {
+            "miningNodeRespawnInterval": -2.5,
+            "noMiningNodeDamageChance": 2.5
+          }
         },
         "cost": {
           "items": [],
@@ -12259,8 +12392,8 @@
         "defaultBuyLimit": 1,
         "buyLimitOverrides": [],
         "showBuyLimit": false,
-        "customName": "Sterkite Access",
-        "customDescription": "Grants access to Sterkite Ore...for a generous donation, of course."
+        "customName": "Rock Smashing",
+        "customDescription": "-2.5% Mining Node Respawn Interval and +2.5% chance to deal no damage to nodes when mining.<br>Grants access to Sterkite Ore."
       },
       {
         "id": "Ancestral_Smithing_Technique",

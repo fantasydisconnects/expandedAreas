@@ -1,50 +1,17 @@
 RARITY:
-Very Common: 1/4
-Common: 1/8
-Uncommon: 1/16
-Very Uncommon: 1/32
-Kinda Rare: 1/64
-Rare: 1/128
-Very Rare: 1/256
-Legendary: 1/512
-Mythical: 1/1024
+Very Common: 2500
+Common: 1250
+Uncommon: 625
+Very Uncommon: 312
+Kinda Rare: 156
+Rare: 78
+Very Rare: 39
+Legendary: 19
+Mythical: 9
+Godly: 4
+Ungodly: 2
+Impossible: 1
 
-Easy Monsters:
-Very Common: 1/4
-Common: 1/8
-Uncommon: 1/16
-Very Uncommon: 1/32
-Kinda Rare: 1/64
-
-Normal Monsters:
-Very Common: 1/4
-Common: 1/8
-Uncommon: 1/16
-Very Uncommon: 1/32
-Kinda Rare: 1/64
-Rare: 1/128
-
-Hard and Elite Monsters:
-Very Common: 1/4
-Common: 1/8
-Uncommon: 1/16
-Very Uncommon: 1/32
-Kinda Rare: 1/64
-Rare: 1/128
-Very Rare: 1/256
-
-Master and above:
-Very Common: 1/4
-Common: 1/8
-Uncommon: 1/16
-Very Uncommon: 1/32
-Kinda Rare: 1/64
-Rare: 1/128
-Very Rare: 1/256
-Legendary: 1/512
-Mythical: 1/1024 
-
-Assets needed:
 Aeris Colors:
 #BFDFE4
 #9ab6ba
@@ -76,46 +43,3 @@ Ruby Colors:
 Elemental Sanctuary
 Elemental Avatar
 Elemental Chest
-
-MEDIA:
-Add Longleaf.svg
-Add Loblolly.svg
-Add Pine_Needles.png
-Add Pine_Resin.png
-Add Pine_Nuts.png
-Add Turpentine.png
-Add Evergreen_Seed.png
-Add Frostpine_Seed.png
-Add White_Pine_Seed.png
-Add Longleaf_Seed.png
-Add Loblolly_Seed.png
-Add Longleaf_Log.png
-Add Loblolly_Log.png
-Add Evergreen_Log.png
-Add Frostpine_Log.png
-Add White_Pine_Log.png
-Add Pesto_Chicken.png
-Add Basket.png
-Add Burn_Relief_Potion_I.png
-Add Burn_Relief_Potion_II.png
-Add Burn_Relief_Potion_III.png
-Add Burn_Relief_Potion_IV.png
-Add Antidragon_Potion_I.png
-Add Antidragon_Potion_II.png
-Add Antidragon_Potion_III.png
-Add Antidragon_Potion_IV.png
-Add Volatile_Potion_I.png
-Add Volatile_Potion_II.png
-Add Volatile_Potion_III.png
-Add Volatile_Potion_IV.png
-
-DATA:
-
-
-
-
-
-
-
-Add Elemental Avatar monster
-Add Elemental Chest loot
