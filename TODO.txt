@@ -5,3 +5,5 @@ FEEDBACK:
 (Tbh this might just be a Melvor issue in general where certain items are way better than others.)
 • Barbarian armor is in a weird place where the player needs either full rune (g) or adamant (g) to take on the dungeon, which has higher DR than barbarian armor and makes it better for bossing in the future. The strength bonuses to damage are around the same compared to rune (g), which makes it neither a good mobbing set or bossing set. Perhaps the damage bonuses could be increased to give it a small niche as it is already practically unusable for bosses.
 - Elemental pages are too difficult to obtain
+- Mini Necromancer hits like a truck so fix that
+- 

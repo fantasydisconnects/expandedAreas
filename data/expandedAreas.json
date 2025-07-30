@@ -367,7 +367,7 @@
       {
         "id": "Novice_Necromancer_Zombie_Summon",
         "name": "Zombie Summon",
-        "defaultChance": 40,
+        "defaultChance": 100,
         "damage": [
           {
             "damageType": "Custom",
@@ -376,7 +376,7 @@
             "minRoll": "MinHit",
             "minPercent": 100,
             "maxRoll": "MaxHit",
-            "maxPercent": 100
+            "maxPercent": 50
           },
           {
             "damageType": "Custom",
@@ -749,85 +749,85 @@
             "itemID": "expandedAreas:Beer",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 2500
+            "weight": 25000
           },
           {
             "itemID": "melvorD:Potatoes",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1250
+            "weight": 12500
           },
           {
             "itemID": "expandedAreas:Bronze_Spear",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 625
+            "weight": 6250
           },
           {
             "itemID": "melvorD:Chaos_Rune",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 313
+            "weight": 3130
           },
           {
             "itemID": "melvorD:Bronze_Arrows",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 313
+            "weight": 3130
           },
           {
             "itemID": "melvorD:Earth_Rune",
             "minQuantity": 1,
             "maxQuantity": 5,
-            "weight": 313
+            "weight": 3130
           },
           {
             "itemID": "melvorD:Fire_Rune",
             "minQuantity": 1,
             "maxQuantity": 5,
-            "weight": 157
+            "weight": 1570
           },
           {
             "itemID": "melvorD:Mind_Rune",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 157
+            "weight": 1570
           },
           {
             "itemID": "expandedAreas:Iron_Thrownaxe",
             "minQuantity": 1,
             "maxQuantity": 6,
-            "weight": 79
+            "weight": 790
           },
           {
             "itemID": "melvorD:Garum_Seed",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 79
+            "weight": 790
           },
           {
             "itemID": "melvorD:Tin_Ore",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 79
+            "weight": 790
           },
           {
             "itemID": "melvorD:Leather",
             "minQuantity": 1,
             "maxQuantity": 4,
-            "weight": 79
+            "weight": 790
           },
           {
             "itemID": "melvorF:Gold_Sapphire_Ring",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 79
+            "weight": 790
           },
           {
             "itemID": "expandedAreas:Barbarian_Helm",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 79
+            "weight": 790
           }
         ],
         "canSlayer": true,
@@ -1349,7 +1349,7 @@
             "weight": 1
           }
         ],
-        "canSlayer": true,
+        "canSlayer": false,
         "isBoss": false,
         "selectedSpell": "melvorD:WindStrike",
         "currencyDrops": [],
@@ -1474,7 +1474,7 @@
             "weight": 1
           }
         ],
-        "canSlayer": true,
+        "canSlayer": false,
         "isBoss": false,
         "selectedSpell": "melvorD:WindStrike",
         "description": "“Who sent you? It was my ugly bastard, wasn't it?”",
@@ -1585,7 +1585,7 @@
             "weight": 950000
           }
         ],
-        "canSlayer": true,
+        "canSlayer": false,
         "isBoss": true,
         "selectedSpell": "melvorD:WindStrike",
         "description": "“So you are here to prove yourself, then? Hah!”",
@@ -1640,7 +1640,7 @@
             "weight": 950000
           }
         ],
-        "canSlayer": true,
+        "canSlayer": false,
         "isBoss": true,
         "selectedSpell": "melvorD:WindStrike",
         "description": "“Hah! You fight well. I won't go easy this time.”",
@@ -1695,7 +1695,7 @@
             "weight": 950000
           }
         ],
-        "canSlayer": true,
+        "canSlayer": false,
         "isBoss": true,
         "selectedSpell": "melvorD:WindStrike",
         "description": "“Hngh. A lucky hit!”",
@@ -2317,8 +2317,8 @@
           },
           {
             "itemID": "melvorF:Fine_Coinpurse",
-            "minQuantity": 5,
-            "maxQuantity": 25,
+            "minQuantity": 1,
+            "maxQuantity": 1,
             "weight": 1
           },
           {
@@ -2397,7 +2397,7 @@
           },
           {
             "itemID": "melvorF:Thiefs_Moneysack",
-            "maxQuantity": 1,
+            "maxQuantity": 25,
             "minQuantity": 5,
             "weight": 1
           }
@@ -2658,12 +2658,6 @@
             "weight": 2
           },
           {
-            "itemID": "melvorF:Perfect_Swing_Potion_I",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 8
-          },
-          {
             "itemID": "expandedAreas:Executioners_Hood",
             "minQuantity": 1,
             "maxQuantity": 1,
@@ -2881,25 +2875,21 @@
         "media": "assets/monsters/Novice_Necromancer.png",
         "description": "Probably still lives in his mum's basement.",
         "levels": {
-          "Attack": 30,
-          "Defence": 45,
+          "Attack": 35,
+          "Defence": 52,
           "Hitpoints": 48,
-          "Magic": 55,
+          "Magic": 50,
           "Ranged": 1,
-          "Strength": 20
+          "Strength": 35
         },
         "equipmentStats": [
           {
             "key": "attackSpeed",
-            "value": 3000
+            "value": 3200
           },
           {
             "key": "magicAttackBonus",
             "value": 15
-          },
-          {
-            "key": "magicDamageBonus",
-            "value": 10
           },
           {
             "key": "magicDefenceBonus",
@@ -4677,7 +4667,7 @@
         "category": "Combat",
         "type": "Armour",
         "media": "assets/items/Barbarian_Warrior_Helm.png",
-        "customDescription": "<span class=\"text-warning\">When equipped with <strong>Barbarian Longblade</strong>, gain +10% Melee Accuracy Rating.</span>",
+        "customDescription": "<span class=\"text-warning\">When equipped with <strong>Barbarian Longblade</strong>, gain +25% Melee Accuracy Rating.</span>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -4717,11 +4707,11 @@
           },
           {
             "key": "meleeDefenceBonus",
-            "value": 23
+            "value": 28
           },
           {
             "key": "rangedDefenceBonus",
-            "value": 19
+            "value": 24
           },
           {
             "key": "magicDefenceBonus",
@@ -4729,7 +4719,7 @@
           },
           {
             "key": "damageReduction",
-            "value": 2
+            "value": 5
           }
         ]
       },
@@ -4760,25 +4750,24 @@
         "equipmentStats": [
           {
             "key": "meleeStrengthBonus",
-            "value": 4
-          },
-          {
-            "key": "rangedStrengthBonus",
-            "value": 4
+            "value": 8
           },
           {
             "key": "meleeDefenceBonus",
-            "value": 9
+            "value": 16
           },
           {
             "key": "rangedDefenceBonus",
-            "value": 9
+            "value": 16
           },
           {
             "key": "damageReduction",
-            "value": 2
+            "value": 5
           }
-        ]
+        ],
+        "modifiers": {
+          "meleeCritChance": 1
+        }
       },
       {
         "itemType": "Equipment",
@@ -4820,6 +4809,10 @@
           {
             "key": "magicDefenceBonus",
             "value": -4
+          },
+          {
+            "key": "damageReduction",
+            "value": 5
           }
         ],
         "modifiers": {
@@ -4866,6 +4859,10 @@
           {
             "key": "magicDefenceBonus",
             "value": -6
+          },
+          {
+            "key": "damageReduction",
+            "value": 5
           }
         ],
         "modifiers": {
@@ -4879,7 +4876,7 @@
         "category": "Combat",
         "type": "Weapon",
         "media": "assets/items/Barbarian_Longblade.png",
-        "customDescription": "<span class=\"text-warning\">When equipped with <strong>Barbarian Warrior Helm</strong>, gain +10% Melee Accuracy Rating.</span>",
+        "customDescription": "<span class=\"text-warning\">When equipped with <strong>Barbarian Warrior Helm</strong>, gain +25% Melee Accuracy Rating.</span>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -4935,7 +4932,9 @@
         "validSlots": [
           "Weapon"
         ],
-        "occupiesSlots": [],
+        "occupiesSlots": [
+          "Shield"
+        ],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -5136,7 +5135,7 @@
         "category": "Herblore",
         "type": "Potion",
         "media": "assets/items/Beer.png",
-        "customDescription": "15% of your Strength Level added as Hidden Strength levels<br>50% of your Attack Level subtracted as Hidden Attack Levels",
+        "customDescription": "10% of your Strength Level added as Hidden Strength levels<br>50% of your Attack Level subtracted as Hidden Attack Levels",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -5158,7 +5157,7 @@
             },
             {
               "skillID": "melvorD:Strength",
-              "value": 15
+              "value": 10
             }
           ]
         }
@@ -5176,7 +5175,7 @@
         "itemType": "Potion",
         "tier": 0,
         "action": "melvorD:Combat",
-        "customDescription": "15% of your Strength Level added as Hidden Strength levels<br>50% of your Attack Level subtracted as Hidden Attack Levels",
+        "customDescription": "10% of your Strength Level added as Hidden Strength levels<br>50% of your Attack Level subtracted as Hidden Attack Levels",
         "consumesOn": [
           {
             "type": "PlayerAttack"
@@ -5191,7 +5190,7 @@
             },
             {
               "skillID": "melvorD:Strength",
-              "value": 15
+              "value": 10
             }
           ]
         }
@@ -5333,23 +5332,23 @@
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 4
+            "value": 8
           },
           {
             "key": "stabAttackBonus",
-            "value": 4
+            "value": 8
           },
           {
             "key": "slashAttackBonus",
-            "value": 4
+            "value": 8
           },
           {
             "key": "blockAttackBonus",
-            "value": 4
+            "value": 8
           },
           {
             "key": "meleeDefenceBonus",
-            "value": 2
+            "value": 4
           }
         ]
       },
@@ -5389,23 +5388,23 @@
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 6
+            "value": 12
           },
           {
             "key": "stabAttackBonus",
-            "value": 6
+            "value": 12
           },
           {
             "key": "slashAttackBonus",
-            "value": 6
+            "value": 12
           },
           {
             "key": "blockAttackBonus",
-            "value": 6
+            "value": 12
           },
           {
             "key": "meleeDefenceBonus",
-            "value": 3
+            "value": 6
           }
         ]
       },
@@ -5445,23 +5444,23 @@
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 10
+            "value": 20
           },
           {
             "key": "stabAttackBonus",
-            "value": 10
+            "value": 20
           },
           {
             "key": "slashAttackBonus",
-            "value": 10
+            "value": 20
           },
           {
             "key": "blockAttackBonus",
-            "value": 10
+            "value": 20
           },
           {
             "key": "meleeDefenceBonus",
-            "value": 5
+            "value": 10
           }
         ]
       },
@@ -5501,23 +5500,23 @@
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 11
+            "value": 22
           },
           {
             "key": "stabAttackBonus",
-            "value": 11
+            "value": 22
           },
           {
             "key": "slashAttackBonus",
-            "value": 11
+            "value": 22
           },
           {
             "key": "blockAttackBonus",
-            "value": 11
+            "value": 22
           },
           {
             "key": "meleeDefenceBonus",
-            "value": 5
+            "value": 11
           }
         ]
       },
@@ -5557,23 +5556,23 @@
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 13
+            "value": 26
           },
           {
             "key": "stabAttackBonus",
-            "value": 13
+            "value": 26
           },
           {
             "key": "slashAttackBonus",
-            "value": 13
+            "value": 26
           },
           {
             "key": "blockAttackBonus",
-            "value": 13
+            "value": 26
           },
           {
             "key": "meleeDefenceBonus",
-            "value": 6
+            "value": 12
           }
         ]
       },
@@ -5613,27 +5612,27 @@
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 18
+            "value": 36
           },
           {
             "key": "stabAttackBonus",
-            "value": 18
+            "value": 36
           },
           {
             "key": "slashAttackBonus",
-            "value": 18
+            "value": 36
           },
           {
             "key": "blockAttackBonus",
-            "value": 18
+            "value": 36
           },
           {
             "key": "meleeDefenceBonus",
-            "value": 9
+            "value": 18
           },
           {
             "key": "damageReduction",
-            "value": 1
+            "value": 2
           }
         ]
       },
@@ -5673,27 +5672,27 @@
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 28
+            "value": 56
           },
           {
             "key": "stabAttackBonus",
-            "value": 28
+            "value": 56
           },
           {
             "key": "slashAttackBonus",
-            "value": 28
+            "value": 56
           },
           {
             "key": "blockAttackBonus",
-            "value": 28
+            "value": 56
           },
           {
             "key": "meleeDefenceBonus",
-            "value": 14
+            "value": 28
           },
           {
             "key": "damageReduction",
-            "value": 2
+            "value": 3
           }
         ]
       },
@@ -5733,27 +5732,27 @@
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 49
+            "value": 98
           },
           {
             "key": "stabAttackBonus",
-            "value": 49
+            "value": 98
           },
           {
             "key": "slashAttackBonus",
-            "value": 49
+            "value": 98
           },
           {
             "key": "blockAttackBonus",
-            "value": 49
+            "value": 98
           },
           {
             "key": "meleeDefenceBonus",
-            "value": 25
+            "value": 49
           },
           {
             "key": "damageReduction",
-            "value": 3
+            "value": 4
           }
         ]
       },
@@ -9816,7 +9815,7 @@
         "playerModifiers": {
           "meleeAccuracyRating": [
             {
-              "value": 10
+              "value": 25
             }
           ]
         }

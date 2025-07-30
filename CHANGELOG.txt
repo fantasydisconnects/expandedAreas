@@ -1,0 +1,13 @@
+Bug Fix: Sterkite Ore is now able to be accessed after purchasing Rock Smashing from the shop.
+Bug Fix: The Barbarian Berserker Helm now correctly synergizes with the Barbarian Berserker Axe (previously incorrectly synergized with Barbarian Armour set).
+Bug Fix: Dungeon-only monsters are now unable to be assigned as a Slayer task.
+Bug Fix: Barbarian Berserker Axe is now a 2H weapon as intended.
+Bug Fix: Peasant Woman now correctly drops 1 Coinpurse instead of 25.
+Bug Fix: Pickpocket now correctly drops up to 25 Thief's Moneysack instead of 1.
+Balance Change: Novice Necromancer's insane damage has been decreased.
+Balance Change: Pine Nut yield has been increased by a magnitude of 20.
+Balance Change: Beer and Kegs of Beer's Strength Level increase has been decreased from 15% > 10%.
+Balance Change: Spears have changed to become 2H weapons, and thus have had their stats increased to compensate.
+Balance Change: Executioner no longer drops Perfect Swing Potions.
+
+TODO: Balance Change: Monster drop rates are now consistent across the board.

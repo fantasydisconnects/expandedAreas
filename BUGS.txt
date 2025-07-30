@@ -1,3 +1,2 @@
-The Barbarian mining upgrade does not work properly as purchases in the shop do not register (might be due to the account previously buying the upgrade before the update.)
-• The lifesteal bonus from the Berserker Helm does not apply with the set bonus. 
 • Koschei the Deathless can be encountered as a Slayer task, probably not intended.
+- No art for fruit baskets and don't heal very much more than normal fruit
