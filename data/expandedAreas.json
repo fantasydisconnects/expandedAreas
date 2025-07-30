@@ -12362,8 +12362,8 @@
         "contains": {
           "items": [],
           "modifiers": {
-            "miningNodeRespawnInterval": -2.5,
-            "noMiningNodeDamageChance": 2.5
+            "miningNodeRespawnInterval": -5,
+            "noMiningNodeDamageChance": 5
           }
         },
         "cost": {
@@ -12393,7 +12393,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Rock Smashing",
-        "customDescription": "-2.5% Mining Node Respawn Interval and +2.5% chance to deal no damage to nodes when mining.<br>Grants access to Sterkite Ore."
+        "customDescription": "-5% Mining Node Respawn Interval and +5% chance to deal no damage to Mining Nodes when Mining."
       },
       {
         "id": "Ancestral_Smithing_Technique",
