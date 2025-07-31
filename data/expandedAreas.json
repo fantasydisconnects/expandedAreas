@@ -2,6 +2,20 @@
   "$schema": "https://melvoridle.com/assets/schema/gameData.json",
   "namespace": "expandedAreas",
   "data": {
+    "lore": [
+      {
+        "id": "Chieftain_Eriks_Head",
+        "title": "The head of the slain Chieftain Erik, a token of strength to the Barbarians.",
+        "media": "assets/items/Chieftain_Eriks_Head.png",
+        "unlockRequirements": [
+          {
+            "type": "MonsterKilled",
+            "monsterID": "expandedAreas:Chieftain_Erik",
+            "count": 1
+          }
+        ]
+      }
+    ],
     "combatAreas": [
       {
         "id": "Low_Town",
@@ -1462,10 +1476,58 @@
         "lootChance": 100,
         "lootTable": [
           {
-            "itemID": "expandedAreas:Chieftain_Eriks_Head",
+            "itemID": "expandedAreas:Beer",
+            "minQuantity": 1,
+            "maxQuantity": 10,
+            "weight": 2048
+          },
+          {
+            "itemID": "expandedAreas:Pine_Nuts",
+            "minQuantity": 6,
+            "maxQuantity": 14,
+            "weight": 1024
+          },
+          {
+            "itemID": "melvorD:Black_Helmet_T_G",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 512
+          },
+          {
+            "itemID": "melvorD:Black_Boots_T_G",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 256
+          },
+          {
+            "itemID": "melvorF:Summoning_Familiar_Yak",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 128
+          },
+          {
+            "itemID": "melvorF:Looter_Pouch",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 64
+          },
+          {
+            "itemID": "melvorF:Ring_Of_Wealth",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 32
+          },
+          {
+            "itemID": "expandedAreas:Prosperous_Necklace",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 16
+          },
+          {
+            "itemID": "expandedAreas:Barbarian_Longblade",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 8
           }
         ],
         "canSlayer": false,
@@ -1981,12 +2043,12 @@
         "name": "Big Golbin",
         "media": "assets/monsters/Big_Golbin.png",
         "levels": {
-          "Attack": 40,
-          "Defence": 40,
-          "Hitpoints": 50,
+          "Attack": 36,
+          "Defence": 22,
+          "Hitpoints": 38,
           "Magic": 1,
           "Ranged": 1,
-          "Strength": 40
+          "Strength": 35
         },
         "equipmentStats": [
           {
@@ -2128,7 +2190,7 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 65,
+        "lootChance": 66,
         "lootTable": [
           {
             "itemID": "melvorD:Copper_Ore",
@@ -2769,11 +2831,11 @@
         "description": "“Reek-reek! Shmig blig. Dorgoo!”",
         "levels": {
           "Attack": 50,
-          "Defence": 1,
-          "Hitpoints": 55,
+          "Defence": 35,
+          "Hitpoints": 44,
           "Magic": 1,
           "Ranged": 1,
-          "Strength": 60
+          "Strength": 42
         },
         "equipmentStats": [
           {
@@ -3781,6 +3843,79 @@
       }
     ],
     "items": [
+      {
+        "itemType": "Equipment",
+        "id": "Prosperous_Necklace",
+        "name": "Prosperous Necklace",
+        "category": "Combat",
+        "type": "Amulet",
+        "media": "assets/items/Prosperous_Necklace.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 8400,
+        "tier": "none",
+        "validSlots": [
+          "Amulet",
+          "Passive"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "blockAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "damageReduction",
+            "value": 1
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 1
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 1
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 1
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 1
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 1
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 1
+          }
+        ],
+        "modifiers": {
+          "globalItemDoublingChance": 6,
+          "skillPreservationChance": -3
+        }
+      },
       {
         "itemType": "Equipment",
         "id": "Green_Dhide_Boots_U",
@@ -12502,6 +12637,10 @@
             {
               "insertAt": 4,
               "monsterID": "expandedAreas:Big_Golbin"
+            },
+            {
+              "insertAt": 5,
+              "monsterID": "expandedAreas:Golbin_Chief"
             }
           ]
         }
