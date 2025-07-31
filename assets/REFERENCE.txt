@@ -1,13 +1,14 @@
 RARITY:
-Very Common: 2500
-Common: 1250
-Uncommon: 625
-Very Uncommon: 312
-Kinda Rare: 156
-Rare: 78
-Very Rare: 39
-Legendary: 19
-Mythical: 9
+TOTAL: 8192
+Very Common: 2048
+Common: 1024
+Uncommon: 512
+Very Uncommon: 256
+Kinda Rare: 128
+Rare: 64
+Very Rare: 32
+Legendary: 16
+Mythical: 8
 Godly: 4
 Ungodly: 2
 Impossible: 1

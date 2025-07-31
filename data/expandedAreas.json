@@ -743,91 +743,91 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 60,
+        "lootChance": 68,
         "lootTable": [
           {
             "itemID": "expandedAreas:Beer",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 25000
+            "weight": 2048
           },
           {
             "itemID": "melvorD:Potatoes",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 12500
+            "weight": 1024
           },
           {
             "itemID": "expandedAreas:Bronze_Spear",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 6250
+            "weight": 512
           },
           {
             "itemID": "melvorD:Chaos_Rune",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 3130
+            "weight": 256
           },
           {
             "itemID": "melvorD:Bronze_Arrows",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 3130
+            "weight": 256
           },
           {
             "itemID": "melvorD:Earth_Rune",
             "minQuantity": 1,
             "maxQuantity": 5,
-            "weight": 3130
+            "weight": 256
           },
           {
             "itemID": "melvorD:Fire_Rune",
             "minQuantity": 1,
             "maxQuantity": 5,
-            "weight": 1570
+            "weight": 256
           },
           {
             "itemID": "melvorD:Mind_Rune",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 1570
+            "weight": 256
           },
           {
             "itemID": "expandedAreas:Iron_Thrownaxe",
             "minQuantity": 1,
             "maxQuantity": 6,
-            "weight": 790
+            "weight": 128
           },
           {
             "itemID": "melvorD:Garum_Seed",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 790
+            "weight": 128
           },
           {
             "itemID": "melvorD:Tin_Ore",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 790
+            "weight": 128
           },
           {
             "itemID": "melvorD:Leather",
             "minQuantity": 1,
             "maxQuantity": 4,
-            "weight": 790
+            "weight": 128
           },
           {
             "itemID": "melvorF:Gold_Sapphire_Ring",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 790
+            "weight": 128
           },
           {
             "itemID": "expandedAreas:Barbarian_Helm",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 790
+            "weight": 64
           }
         ],
         "canSlayer": true,
@@ -884,73 +884,73 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 64,
+        "lootChance": 72,
         "lootTable": [
           {
             "itemID": "expandedAreas:Beer",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 2500
+            "weight": 2048
           },
           {
             "itemID": "melvorD:Bronze_Bar",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1250
+            "weight": 1024
           },
           {
             "itemID": "melvorF:Hard_Leather_Body",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 625
+            "weight": 512
           },
           {
             "itemID": "melvorD:Black_2H_Sword",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 625
+            "weight": 512
           },
           {
             "itemID": "melvorF:Hard_Leather_Boots",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 625
+            "weight": 512
           },
           {
             "itemID": "melvorD:Cheese",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 312
+            "weight": 512
           },
           {
             "itemID": "melvorD:Chaos_Rune",
             "minQuantity": 4,
             "maxQuantity": 12,
-            "weight": 156
+            "weight": 256
           },
           {
             "itemID": "melvorD:Leather",
             "minQuantity": 3,
             "maxQuantity": 6,
-            "weight": 156
+            "weight": 256
           },
           {
             "itemID": "melvorF:Silver_Ruby_Necklace",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 78
+            "weight": 128
           },
           {
             "itemID": "melvorD:Oak_Tree_Seed",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 78
+            "weight": 128
           },
           {
             "itemID": "expandedAreas:Barbarian_Warrior_Helm",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 19
+            "weight": 32
           }
         ],
         "canSlayer": true,
@@ -1011,67 +1011,67 @@
         "attackType": "ranged",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 72,
+        "lootChance": 74,
         "lootTable": [
           {
             "itemID": "melvorD:Bowstring",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 2500
+            "weight": 2048
           },
           {
             "itemID": "expandedAreas:Black_Thrownaxe",
             "minQuantity": 3,
             "maxQuantity": 6,
-            "weight": 1250
+            "weight": 1024
           },
           {
             "itemID": "melvorF:Oak_Longbow_U",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1250
+            "weight": 1024
           },
           {
             "itemID": "melvorF:Willow_Longbow_U",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 625
+            "weight": 512
           },
           {
             "itemID": "melvorF:Arrow_Shafts",
             "minQuantity": 17,
             "maxQuantity": 28,
-            "weight": 625
+            "weight": 512
           },
           {
             "itemID": "melvorF:Maple_Longbow_U",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 312
+            "weight": 256
           },
           {
             "itemID": "melvorD:Mithril_Arrowtips",
             "minQuantity": 6,
             "maxQuantity": 9,
-            "weight": 312
+            "weight": 256
           },
           {
             "itemID": "melvorD:Adamant_Arrowtips",
             "minQuantity": 2,
             "maxQuantity": 9,
-            "weight": 156
+            "weight": 256
           },
           {
             "itemID": "melvorD:Mithril_Javelin_Heads",
             "minQuantity": 2,
             "maxQuantity": 6,
-            "weight": 78
+            "weight": 128
           },
           {
             "itemID": "expandedAreas:Barbarian_Archer_Helm",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 19
+            "weight": 32
           }
         ],
         "canSlayer": true,
@@ -1128,61 +1128,55 @@
         "passives": [
           "melvorTotH:Rage"
         ],
-        "lootChance": 83,
+        "lootChance": 82,
         "lootTable": [
           {
             "itemID": "expandedAreas:Beer",
             "minQuantity": 1,
             "maxQuantity": 8,
-            "weight": 2500
+            "weight": 2048
           },
           {
             "itemID": "melvorD:Beef",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 2500
+            "weight": 2048
           },
           {
             "itemID": "melvorD:Onions",
             "minQuantity": 1,
             "maxQuantity": 10,
-            "weight": 1250
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Black_Battleaxe",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 625
+            "weight": 512
           },
           {
             "itemID": "melvorD:Black_Platelegs",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 625
+            "weight": 512
           },
           {
             "itemID": "melvorD:Amulet_of_Strength",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 312
+            "weight": 256
           },
           {
             "itemID": "melvorF:Melee_Strength_Potion_I",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 312
+            "weight": 256
           },
           {
             "itemID": "expandedAreas:Barbarian_Berserker_Axe",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 39
-          },
-          {
-            "itemID": "expandedAreas:Barbarian_Berserker_Helm",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 19
+            "weight": 32
           }
         ],
         "canSlayer": true,
@@ -1247,43 +1241,43 @@
             "itemID": "melvorD:Bronze_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 2500
+            "weight": 2048
           },
           {
             "itemID": "expandedAreas:Beer",
             "minQuantity": 4,
             "maxQuantity": 13,
-            "weight": 2500
+            "weight": 2048
           },
           {
             "itemID": "melvorF:Hard_Leather_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1250
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Iron_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 625
+            "weight": 512
           },
           {
             "itemID": "melvorD:Steel_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 312
+            "weight": 256
           },
           {
             "itemID": "expandedAreas:Black_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 156
+            "weight": 128
           },
           {
             "itemID": "expandedAreas:Barbarian_Brawling_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 39
+            "weight": 32
           }
         ],
         "canSlayer": true,
@@ -1770,73 +1764,73 @@
         "attackType": "magic",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 100,
+        "lootChance": 60,
         "lootTable": [
           {
             "itemID": "melvorF:Nature_Rune",
             "minQuantity": 1,
             "maxQuantity": 4,
-            "weight": 16
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Chaos_Rune",
             "minQuantity": 1,
             "maxQuantity": 4,
-            "weight": 16
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Earth_Rune",
             "minQuantity": 1,
             "maxQuantity": 36,
-            "weight": 8
+            "weight": 512
           },
           {
             "itemID": "melvorD:Air_Rune",
             "minQuantity": 1,
             "maxQuantity": 18,
-            "weight": 8
+            "weight": 512
           },
           {
             "itemID": "melvorD:Water_Rune",
             "minQuantity": 1,
             "maxQuantity": 18,
-            "weight": 8
+            "weight": 512
           },
           {
             "itemID": "melvorD:Fire_Rune",
             "minQuantity": 1,
             "maxQuantity": 18,
-            "weight": 8
+            "weight": 512
           },
           {
             "itemID": "melvorD:Mind_Rune",
             "minQuantity": 1,
             "maxQuantity": 10,
-            "weight": 4
+            "weight": 256
           },
           {
             "itemID": "melvorD:Body_Rune",
             "minQuantity": 1,
             "maxQuantity": 10,
-            "weight": 4
+            "weight": 256
           },
           {
             "itemID": "melvorD:Death_Rune",
             "minQuantity": 2,
             "maxQuantity": 2,
-            "weight": 2
+            "weight": 128
           },
           {
             "itemID": "melvorD:Blood_Rune",
             "minQuantity": 2,
             "maxQuantity": 2,
-            "weight": 2
+            "weight": 128
           },
           {
             "itemID": "expandedAreas:Golbin_Staff",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 64
           }
         ],
         "canSlayer": true,
@@ -1876,7 +1870,7 @@
         "equipmentStats": [
           {
             "key": "attackSpeed",
-            "value": 2400
+            "value": 2500
           },
           {
             "key": "stabAttackBonus",
@@ -1903,67 +1897,67 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 100,
+        "lootChance": 73,
         "lootTable": [
           {
             "itemID": "melvorD:Salmon",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 16
+            "weight": 2048
           },
           {
             "itemID": "expandedAreas:Iron_Spear",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 16
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Sapphire",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 8
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Snape_Grass_Seed",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 8
+            "weight": 512
           },
           {
             "itemID": "melvorF:Hard_Leather_Chaps",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 16
+            "weight": 512
           },
           {
             "itemID": "melvorD:Bird_Nest",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 8
+            "weight": 256
           },
           {
             "itemID": "melvorD:Bones",
             "minQuantity": 1,
             "maxQuantity": 6,
-            "weight": 8
+            "weight": 256
           },
           {
             "itemID": "melvorF:Steel_Javelin",
-            "minQuantity": 5,
-            "maxQuantity": 5,
-            "weight": 4
+            "minQuantity": 2,
+            "maxQuantity": 7,
+            "weight": 128
           },
           {
             "itemID": "melvorD:Old_Boot",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 4
+            "weight": 128
           },
           {
             "itemID": "melvorF:Eyeball",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 2
+            "weight": 64
           }
         ],
         "canSlayer": true,
@@ -2020,103 +2014,79 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 100,
+        "lootChance": 96,
         "lootTable": [
           {
             "itemID": "melvorD:Chicken",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 32
+            "weight": 2048
           },
           {
             "itemID": "melvorD:Oak_Logs",
             "minQuantity": 1,
             "maxQuantity": 6,
-            "weight": 32
+            "weight": 2048
           },
           {
             "itemID": "melvorD:Bronze_Bar",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 16
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Feathers",
             "minQuantity": 1,
             "maxQuantity": 21,
-            "weight": 16
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Onion_Seed",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 8
+            "weight": 512
           },
           {
             "itemID": "melvorD:Potato_Seed",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 8
+            "weight": 512
           },
           {
             "itemID": "melvorF:Barrentoe_Herb",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 4
+            "weight": 128
           },
           {
             "itemID": "melvorF:Gold_Ruby_Necklace",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 8
+            "weight": 128
           },
           {
             "itemID": "melvorF:Pile_Of_Logs",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 2
+            "weight": 32
           },
           {
             "itemID": "melvorD:Sourweed_Seed",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 8
+            "weight": 256
           },
           {
             "itemID": "melvorD:Ruby",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 4
-          },
-          {
-            "itemID": "melvorD:Garum_Herb",
-            "minQuantity": 1,
-            "maxQuantity": 5,
-            "weight": 8
-          },
-          {
-            "itemID": "melvorD:Mantalyme_Herb",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 6
-          },
-          {
-            "itemID": "melvorD:Adamant_2H_Sword",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 2
-          },
-          {
-            "itemID": "melvorD:Beef_Pie",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 8
+            "weight": 128
           },
           {
             "itemID": "melvorD:Mithril_Bar",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 4
+            "weight": 32
           }
         ],
         "canSlayer": true,
@@ -2158,73 +2128,73 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 100,
+        "lootChance": 65,
         "lootTable": [
           {
             "itemID": "melvorD:Copper_Ore",
             "minQuantity": 2,
             "maxQuantity": 4,
-            "weight": 16
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Bronze_Arrows",
             "minQuantity": 1,
             "maxQuantity": 7,
-            "weight": 16
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Cabbage",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 16
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Bronze_Helmet",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 16
+            "weight": 512
           },
           {
             "itemID": "melvorD:Earth_Rune",
             "minQuantity": 1,
             "maxQuantity": 4,
-            "weight": 8
+            "weight": 512
           },
           {
             "itemID": "melvorD:Fire_Rune",
             "minQuantity": 1,
             "maxQuantity": 6,
-            "weight": 8
+            "weight": 512
           },
           {
             "itemID": "melvorD:Mind_Rune",
             "minQuantity": 1,
             "maxQuantity": 9,
-            "weight": 4
+            "weight": 256
           },
           {
             "itemID": "melvorD:Iron_Dagger",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 4
+            "weight": 256
           },
           {
             "itemID": "melvorD:Chaos_Rune",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 2
+            "weight": 128
           },
           {
             "itemID": "melvorF:Fishing_Hook",
             "minQuantity": 5,
             "maxQuantity": 25,
-            "weight": 1
+            "weight": 64
           },
           {
             "itemID": "melvorD:Leather_Boots",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 4
+            "weight": 128
           }
         ],
         "canSlayer": true,
@@ -2265,67 +2235,67 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 100,
+        "lootChance": 49,
         "lootTable": [
           {
             "itemID": "melvorD:Basic_Soup",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 16
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Bag_of_Flour",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 8
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Iron_Sword",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 8
+            "weight": 512
           },
           {
             "itemID": "melvorF:Normal_Longbow",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 8
+            "weight": 512
           },
           {
             "itemID": "melvorD:Earth_Rune",
             "minQuantity": 1,
             "maxQuantity": 4,
-            "weight": 4
+            "weight": 256
           },
           {
             "itemID": "melvorD:Fire_Rune",
             "minQuantity": 2,
             "maxQuantity": 6,
-            "weight": 4
+            "weight": 256
           },
           {
             "itemID": "melvorD:Mind_Rune",
             "minQuantity": 3,
             "maxQuantity": 9,
-            "weight": 4
+            "weight": 128
           },
           {
             "itemID": "melvorD:Chaos_Rune",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 2
+            "weight": 128
           },
           {
             "itemID": "melvorF:Fine_Coinpurse",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 64
           },
           {
             "itemID": "melvorD:Leather_Vambraces",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 4
+            "weight": 128
           }
         ],
         "canSlayer": true,
@@ -2381,25 +2351,31 @@
         ],
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 100,
+        "lootChance": 30,
         "lootTable": [
           {
             "itemID": "melvorD:Leather_Cowl",
             "maxQuantity": 1,
             "minQuantity": 1,
-            "weight": 90
+            "weight": 2048
           },
           {
             "itemID": "expandedAreas:Oak_Blackjack",
             "maxQuantity": 1,
             "minQuantity": 1,
-            "weight": 9
+            "weight": 256
+          },
+          {
+            "itemID": "melvorF:Bobbys_Pocket",
+            "maxQuantity": 1,
+            "minQuantity": 1,
+            "weight": 64
           },
           {
             "itemID": "melvorF:Thiefs_Moneysack",
             "maxQuantity": 25,
             "minQuantity": 5,
-            "weight": 1
+            "weight": 64
           }
         ],
         "canSlayer": true,
@@ -2409,7 +2385,7 @@
           {
             "currencyID": "melvorD:GP",
             "min": 1,
-            "max": 200
+            "max": 100
           }
         ],
         "bones": {
@@ -2421,7 +2397,7 @@
         "id": "Guard",
         "name": "Guard",
         "media": "assets/monsters/Guard.png",
-        "description": "I'm sure their job is pretty important.",
+        "description": "Why do they always have ugly helmets?",
         "levels": {
           "Attack": 24,
           "Defence": 23,
@@ -2460,97 +2436,97 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 100,
+        "lootChance": 95,
         "lootTable": [
           {
             "itemID": "melvorF:Apple",
             "maxQuantity": 1,
             "minQuantity": 1,
-            "weight": 16
+            "weight": 2048
           },
           {
             "itemID": "melvorD:Bread",
             "maxQuantity": 1,
             "minQuantity": 1,
-            "weight": 16
+            "weight": 2048
           },
           {
             "itemID": "melvorD:Iron_Helmet",
             "maxQuantity": 1,
             "minQuantity": 1,
-            "weight": 8
+            "weight": 1024
           },
           {
             "itemID": "melvorF:Topaz_Bolts",
             "maxQuantity": 1,
             "minQuantity": 3,
-            "weight": 4
+            "weight": 512
           },
           {
             "itemID": "melvorD:Steel_Arrows",
             "maxQuantity": 1,
             "minQuantity": 6,
-            "weight": 8
+            "weight": 256
           },
           {
             "itemID": "melvorD:Bronze_Arrows",
             "maxQuantity": 1,
             "minQuantity": 12,
-            "weight": 16
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Air_Rune",
             "maxQuantity": 6,
             "minQuantity": 6,
-            "weight": 8
+            "weight": 128
           },
           {
             "itemID": "melvorD:Water_Rune",
             "maxQuantity": 6,
             "minQuantity": 6,
-            "weight": 8
+            "weight": 128
           },
           {
             "itemID": "melvorD:Earth_Rune",
             "maxQuantity": 6,
             "minQuantity": 6,
-            "weight": 8
+            "weight": 128
           },
           {
             "itemID": "melvorD:Fire_Rune",
             "maxQuantity": 6,
             "minQuantity": 6,
-            "weight": 8
+            "weight": 128
           },
           {
             "itemID": "melvorD:Blood_Rune",
             "maxQuantity": 1,
             "minQuantity": 1,
-            "weight": 4
+            "weight": 64
           },
           {
             "itemID": "melvorD:Chaos_Rune",
             "maxQuantity": 1,
             "minQuantity": 2,
-            "weight": 4
+            "weight": 64
           },
           {
             "itemID": "melvorF:Nature_Rune",
             "maxQuantity": 1,
             "minQuantity": 1,
-            "weight": 4
+            "weight": 64
           },
           {
             "itemID": "melvorF:Apple_Pie",
             "maxQuantity": 1,
             "minQuantity": 2,
-            "weight": 2
+            "weight": 64
           },
           {
             "itemID": "melvorF:Steel_Crossbow",
             "maxQuantity": 1,
             "minQuantity": 1,
-            "weight": 1
+            "weight": 128
           }
         ],
         "canSlayer": true,
@@ -2619,49 +2595,43 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 100,
+        "lootChance": 30,
         "lootTable": [
           {
             "itemID": "melvorD:Black_Battleaxe",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 2
+            "weight": 256
           },
           {
             "itemID": "melvorD:Steel_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 4
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Teak_Logs",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 32
-          },
-          {
-            "itemID": "melvorF:Apple",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 32
+            "weight": 512
           },
           {
             "itemID": "melvorF:Ash",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 32
+            "weight": 512
           },
           {
             "itemID": "melvorF:Whetstone",
-            "minQuantity": 1,
-            "maxQuantity": 5,
-            "weight": 2
+            "minQuantity": 5,
+            "maxQuantity": 25,
+            "weight": 64
           },
           {
             "itemID": "expandedAreas:Executioners_Hood",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 64
           }
         ],
         "canSlayer": true,
@@ -2714,71 +2684,71 @@
         "attackType": "magic",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 100,
+        "lootChance": 73,
         "lootTable": [
           {
             "itemID": "melvorD:Air_Rune",
-            "weight": 32,
+            "weight": 1024,
             "maxQuantity": 16,
             "minQuantity": 3
           },
           {
             "itemID": "melvorD:Water_Rune",
-            "weight": 32,
+            "weight": 1024,
             "maxQuantity": 16,
             "minQuantity": 3
           },
           {
             "itemID": "melvorD:Earth_Rune",
-            "weight": 32,
+            "weight": 1024,
             "maxQuantity": 16,
             "minQuantity": 3
           },
           {
             "itemID": "melvorD:Fire_Rune",
-            "weight": 32,
+            "weight": 1024,
             "maxQuantity": 16,
             "minQuantity": 3
           },
           {
             "itemID": "melvorD:Light_Rune",
-            "weight": 16,
+            "weight": 512,
             "maxQuantity": 4,
             "minQuantity": 1
           },
           {
             "itemID": "melvorD:Big_Bones",
-            "weight": 16,
+            "weight": 512,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Holy_Dust",
-            "weight": 8,
+            "weight": 256,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorD:Oxilyme_Herb",
-            "weight": 8,
+            "weight": 256,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "expandedAreas:Monk_Robe_Top",
-            "weight": 2,
+            "weight": 128,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "expandedAreas:Monk_Robe_Bottom",
-            "weight": 4,
+            "weight": 128,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "expandedAreas:Mysterious_Tome",
-            "weight": 1,
+            "weight": 64,
             "maxQuantity": 1,
             "minQuantity": 1
           }
@@ -2845,13 +2815,49 @@
         "passives": [
           "melvorD:CantTouchThis"
         ],
-        "lootChance": 1,
+        "lootChance": 14,
         "lootTable": [
+          {
+            "itemID": "melvorD:Topaz",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 512
+          },
+          {
+            "itemID": "melvorD:Sapphire",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 256
+          },
+          {
+            "itemID": "melvorD:Ruby",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 128
+          },
+          {
+            "itemID": "melvorD:Emerald",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 64
+          },
+          {
+            "itemID": "melvorD:Diamond",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 32
+          },
+          {
+            "itemID": "expandedAreas:Golbin_Pauldron",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 128
+          },
           {
             "itemID": "melvorF:Golbin_Mask",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 16
           }
         ],
         "canSlayer": true,
@@ -2906,67 +2912,67 @@
           "expandedAreas:Novice_Necromancer_Zombie_Summon"
         ],
         "passives": [],
-        "lootChance": 100,
+        "lootChance": 73,
         "lootTable": [
           {
             "itemID": "melvorD:Earth_Rune",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 32
+            "weight": 2048
           },
           {
             "itemID": "melvorD:Body_Rune",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 16
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Mind_Rune",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 16
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Feathers",
             "minQuantity": 1,
             "maxQuantity": 20,
-            "weight": 32
+            "weight": 512
           },
           {
             "itemID": "melvorD:Death_Rune",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 8
+            "weight": 256
           },
           {
             "itemID": "melvorD:Big_Bones",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 16
+            "weight": 512
           },
           {
             "itemID": "melvorF:Summoning_Shard_Red",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 8
+            "weight": 256
           },
           {
             "itemID": "melvorD:Oxilyme_Herb",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 4
+            "weight": 128
           },
           {
             "itemID": "melvorD:Earth_Battlestaff",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 2
+            "weight": 128
           },
           {
             "itemID": "expandedAreas:Amulet_of_Occults",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 64
           }
         ],
         "canSlayer": true,
@@ -3000,19 +3006,19 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 100,
+        "lootChance": 50,
         "lootTable": [
           {
             "itemID": "expandedAreas:Raw_Grub",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 100
+            "weight": 4096
           },
           {
-            "itemID": "melvorF:Gold_Diamond_Ring",
+            "itemID": "melvorD:Standard_Chest",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 16
           }
         ],
         "canSlayer": true,
@@ -3047,7 +3053,7 @@
           "expandedAreas:Sandy_Twister"
         ],
         "passives": [],
-        "lootChance": 100,
+        "lootChance": 94,
         "lootTable": [
           {
             "itemID": "melvorD:Treasure_Chest",
@@ -3059,61 +3065,61 @@
             "itemID": "melvorD:Copper_Ore",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 32
+            "weight": 2048
           },
           {
             "itemID": "melvorD:Tin_Ore",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 32
+            "weight": 2048
           },
           {
             "itemID": "melvorD:Iron_Ore",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 16
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Silver_Ore",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 8
+            "weight": 512
           },
           {
             "itemID": "melvorD:Gold_Ore",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 8
+            "weight": 256
           },
           {
             "itemID": "melvorD:Mithril_Ore",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 4
+            "weight": 128
           },
           {
             "itemID": "melvorD:Earth_Rune",
             "minQuantity": 1,
             "maxQuantity": 42,
-            "weight": 32
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Water_Rune",
             "minQuantity": 1,
             "maxQuantity": 25,
-            "weight": 16
+            "weight": 512
           },
           {
             "itemID": "melvorD:Air_Rune",
             "minQuantity": 1,
             "maxQuantity": 17,
-            "weight": 32
+            "weight": 512
           },
           {
             "itemID": "melvorD:Seaweed",
             "minQuantity": 1,
-            "maxQuantity": 2,
-            "weight": 8
+            "maxQuantity": 6,
+            "weight": 128
           }
         ],
         "canSlayer": true,
@@ -3154,25 +3160,25 @@
           "expandedAreas:Coconut_Throw"
         ],
         "passives": [],
-        "lootChance": 100,
+        "lootChance": 38,
         "lootTable": [
           {
             "itemID": "expandedAreas:Monkey_Dung",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 256
+            "weight": 2048
           },
           {
             "itemID": "expandedAreas:Coconut",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 128
+            "weight": 1024
           },
           {
             "itemID": "melvorD:Pirates_Lost_Ring",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 8
           }
         ],
         "canSlayer": true,
@@ -3218,53 +3224,59 @@
         "passives": [
           "melvorF:ElementalistI"
         ],
-        "lootChance": 100,
+        "lootChance": 68,
         "lootTable": [
           {
             "itemID": "melvorD:Air_Rune",
-            "weight": 128,
+            "weight": 2048,
             "maxQuantity": 50,
             "minQuantity": 10
           },
           {
             "itemID": "melvorD:Ancient_Rune",
-            "weight": 112,
+            "weight": 1024,
             "maxQuantity": 5,
             "minQuantity": 1
           },
           {
             "itemID": "melvorD:Mystic_Air_Staff",
-            "weight": 96,
+            "weight": 1024,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "expandedAreas:Eye_of_Air",
-            "weight": 80,
+            "weight": 512,
             "maxQuantity": 3,
-            "minQuantity": 1
+            "minQuantity": 3
+          },
+          {
+            "itemID": "expandedAreas:Wispy_Page",
+            "weight": 512,
+            "maxQuantity": 16,
+            "minQuantity": 4
           },
           {
             "itemID": "melvorF:Air_Expert_Wizard_Boots",
-            "weight": 4,
+            "weight": 256,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Air_Expert_Wizard_Hat",
-            "weight": 3,
+            "weight": 128,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Air_Expert_Wizard_Bottoms",
-            "weight": 2,
+            "weight": 64,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Air_Expert_Wizard_Robes",
-            "weight": 1,
+            "weight": 32,
             "maxQuantity": 1,
             "minQuantity": 1
           }
@@ -3312,53 +3324,59 @@
         "passives": [
           "melvorF:ElementalistI"
         ],
-        "lootChance": 100,
+        "lootChance": 68,
         "lootTable": [
           {
             "itemID": "melvorD:Water_Rune",
-            "weight": 128,
+            "weight": 2048,
             "maxQuantity": 50,
             "minQuantity": 10
           },
           {
             "itemID": "melvorD:Ancient_Rune",
-            "weight": 112,
+            "weight": 1024,
             "maxQuantity": 5,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Mystic_Water_Staff",
-            "weight": 96,
+            "weight": 1024,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "expandedAreas:Eye_of_Water",
-            "weight": 80,
+            "weight": 512,
             "maxQuantity": 3,
-            "minQuantity": 1
+            "minQuantity": 3
+          },
+          {
+            "itemID": "expandedAreas:Waterlogged_Page",
+            "weight": 512,
+            "maxQuantity": 16,
+            "minQuantity": 4
           },
           {
             "itemID": "melvorF:Water_Expert_Wizard_Boots",
-            "weight": 4,
+            "weight": 256,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Water_Expert_Wizard_Hat",
-            "weight": 3,
+            "weight": 128,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Water_Expert_Wizard_Bottoms",
-            "weight": 2,
+            "weight": 64,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Water_Expert_Wizard_Robes",
-            "weight": 1,
+            "weight": 32,
             "maxQuantity": 1,
             "minQuantity": 1
           }
@@ -3410,53 +3428,59 @@
         "passives": [
           "melvorF:ElementalistI"
         ],
-        "lootChance": 100,
+        "lootChance": 68,
         "lootTable": [
           {
             "itemID": "melvorD:Earth_Rune",
-            "weight": 128,
+            "weight": 2048,
             "maxQuantity": 50,
             "minQuantity": 10
           },
           {
             "itemID": "melvorD:Ancient_Rune",
-            "weight": 112,
+            "weight": 1024,
             "maxQuantity": 5,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Mystic_Earth_Staff",
-            "weight": 96,
+            "weight": 1024,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
+            "itemID": "expandedAreas:Muddy_Page",
+            "weight": 512,
+            "maxQuantity": 16,
+            "minQuantity": 4
+          },
+          {
             "itemID": "expandedAreas:Eye_of_Earth",
-            "weight": 80,
+            "weight": 512,
             "maxQuantity": 3,
-            "minQuantity": 1
+            "minQuantity": 3
           },
           {
             "itemID": "melvorF:Earth_Expert_Wizard_Boots",
-            "weight": 4,
+            "weight": 256,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Earth_Expert_Wizard_Hat",
-            "weight": 3,
+            "weight": 128,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Earth_Expert_Wizard_Bottoms",
-            "weight": 2,
+            "weight": 64,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Earth_Expert_Wizard_Robes",
-            "weight": 1,
+            "weight": 32,
             "maxQuantity": 1,
             "minQuantity": 1
           }
@@ -3504,53 +3528,59 @@
         "passives": [
           "melvorF:ElementalistI"
         ],
-        "lootChance": 100,
+        "lootChance": 68,
         "lootTable": [
           {
             "itemID": "melvorD:Fire_Rune",
-            "weight": 128,
+            "weight": 2048,
             "maxQuantity": 50,
             "minQuantity": 10
           },
           {
             "itemID": "melvorD:Ancient_Rune",
-            "weight": 112,
+            "weight": 1024,
             "maxQuantity": 5,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Mystic_Fire_Staff",
-            "weight": 96,
+            "weight": 1024,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
+            "itemID": "expandedAreas:Burnt_Page",
+            "weight": 512,
+            "maxQuantity": 16,
+            "minQuantity": 4
+          },
+          {
             "itemID": "expandedAreas:Eye_of_Fire",
-            "weight": 80,
+            "weight": 512,
             "maxQuantity": 3,
-            "minQuantity": 1
+            "minQuantity": 3
           },
           {
             "itemID": "melvorF:Fire_Expert_Wizard_Boots",
-            "weight": 4,
+            "weight": 256,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Fire_Expert_Wizard_Hat",
-            "weight": 3,
+            "weight": 128,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Fire_Expert_Wizard_Bottoms",
-            "weight": 2,
+            "weight": 64,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Fire_Expert_Wizard_Robes",
-            "weight": 1,
+            "weight": 32,
             "maxQuantity": 1,
             "minQuantity": 1
           }
@@ -3568,7 +3598,7 @@
         "id": "Guardian_of_the_Elements",
         "name": "Guardian of the Elements",
         "media": "assets/monsters/Guardian_of_the_Elements.png",
-        "description": "“<strong>THERE IS NAUGHT THEE CAN DO TO CONTAIN THAT WHICH BINDS MELVOR.</strong>”",
+        "description": "“<strong>I CONTAIN THAT WHICH BINDS MELVOR.</strong>”",
         "levels": {
           "Attack": 120,
           "Defence": 287,
@@ -3610,113 +3640,113 @@
         "passives": [
           "melvorF:ElementalistII"
         ],
-        "lootChance": 100,
+        "lootChance": 99,
         "lootTable": [
           {
             "itemID": "melvorD:Air_Rune",
-            "weight": 64,
+            "weight": 2048,
             "minQuantity": 100,
             "maxQuantity": 500
           },
           {
             "itemID": "melvorD:Water_Rune",
-            "weight": 64,
+            "weight": 2048,
             "minQuantity": 100,
             "maxQuantity": 500
           },
           {
             "itemID": "melvorD:Earth_Rune",
-            "weight": 64,
+            "weight": 1024,
             "minQuantity": 100,
             "maxQuantity": 500
           },
           {
             "itemID": "melvorD:Fire_Rune",
-            "weight": 64,
+            "weight": 512,
             "minQuantity": 100,
             "maxQuantity": 500
           },
           {
             "itemID": "melvorD:Ancient_Rune",
-            "weight": 32,
+            "weight": 512,
             "maxQuantity": 20,
             "minQuantity": 5
           },
           {
             "itemID": "melvorD:Light_Rune",
-            "weight": 32,
+            "weight": 512,
             "maxQuantity": 20,
             "minQuantity": 5
           },
           {
             "itemID": "expandedAreas:Air_Rune_Shard",
-            "weight": 24,
-            "maxQuantity": 1,
+            "weight": 256,
+            "maxQuantity": 3,
             "minQuantity": 1
           },
           {
             "itemID": "expandedAreas:Water_Rune_Shard",
-            "weight": 24,
-            "maxQuantity": 1,
+            "weight": 256,
+            "maxQuantity": 3,
             "minQuantity": 1
           },
           {
             "itemID": "expandedAreas:Earth_Rune_Shard",
-            "weight": 24,
-            "maxQuantity": 1,
+            "weight": 256,
+            "maxQuantity": 3,
             "minQuantity": 1
           },
           {
             "itemID": "expandedAreas:Fire_Rune_Shard",
-            "weight": 24,
-            "maxQuantity": 1,
+            "weight": 256,
+            "maxQuantity": 3,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Elemental_Potion_III",
-            "weight": 16,
+            "weight": 128,
             "minQuantity": 1,
             "maxQuantity": 4
           },
           {
             "itemID": "melvorD:Magic_Wand_Basic",
-            "weight": 8,
+            "weight": 128,
             "minQuantity": 1,
             "maxQuantity": 1
           },
           {
             "itemID": "melvorD:Magic_Wand_Elite",
-            "weight": 4,
+            "weight": 64,
             "minQuantity": 1,
             "maxQuantity": 1
           },
           {
             "itemID": "melvorD:Magic_Wand_Powerful",
-            "weight": 2,
+            "weight": 32,
             "minQuantity": 1,
             "maxQuantity": 1
           },
           {
             "itemID": "melvorF:Air_Imbued_Wand",
-            "weight": 1,
+            "weight": 16,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Water_Imbued_Wand",
-            "weight": 1,
+            "weight": 16,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Earth_Imbued_Wand",
-            "weight": 1,
+            "weight": 16,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Fire_Imbued_Wand",
-            "weight": 1,
+            "weight": 16,
             "maxQuantity": 1,
             "minQuantity": 1
           }
