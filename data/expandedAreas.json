@@ -5104,15 +5104,15 @@
         "equipmentStats": [
           {
             "key": "attackSpeed",
-            "value": 3100
+            "value": 3350
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 124
+            "value": 116
           },
           {
             "key": "slashAttackBonus",
-            "value": 28
+            "value": 79
           },
           {
             "key": "stabAttackBonus",
@@ -5120,7 +5120,7 @@
           },
           {
             "key": "blockAttackBonus",
-            "value": 28
+            "value": 79
           }
         ],
         "specialAttacks": [
@@ -6227,7 +6227,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
-        "healsFor": 4
+        "healsFor": 5
       },
       {
         "id": "Cooked_Grub",
@@ -6240,7 +6240,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 5,
-        "healsFor": 8
+        "healsFor": 10
       },
       {
         "id": "Cooked_Grub_Perfect",
@@ -6253,7 +6253,7 @@
         "golbinRaidExclusive": false,
         "sellsFor": 10,
         "itemType": "Food",
-        "healsFor": 8.8
+        "healsFor": 11
       },
       {
         "id": "Sand",
@@ -9124,7 +9124,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 20,
-        "healsFor": 1.0,
+        "healsFor": 3.0,
         "customDescription": "Nutty."
       },
       {

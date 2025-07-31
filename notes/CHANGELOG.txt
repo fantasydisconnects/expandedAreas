@@ -1,13 +1,21 @@
 Bug Fix: Sterkite Ore is now able to be accessed after purchasing Rock Smashing from the shop.
 Bug Fix: The Barbarian Berserker Helm now correctly synergizes with the Barbarian Berserker Axe (previously incorrectly synergized with Barbarian Armour set).
 Bug Fix: Dungeon-only monsters are now unable to be assigned as a Slayer task.
-Bug Fix: Barbarian Berserker Axe is now a 2H weapon as intended.
+Bug Fix: Barbarian Berserker Axe is now a 2H weapon as intended. Its stats have been updated to reflect this.
 Bug Fix: Peasant Woman now correctly drops 1 Coinpurse instead of 25.
 Bug Fix: Pickpocket now correctly drops up to 25 Thief's Moneysack instead of 1.
 Balance Change: Novice Necromancer's insane damage has been decreased.
 Balance Change: Pine Nut yield has been increased by a magnitude of 20.
 Balance Change: Beer and Kegs of Beer's Strength Level increase has been decreased from 15% > 10%.
+Balance Change: Barbarian Longblade & Barbarian Warrior Helm synergy has been added: +25% Melee Accuracy Rating.
+Balance Change: The Barbarian Armour set (Boots, Armour, Skirt) has had its melee strength bonus increased and a flat melee critical hit bonus has been added.
 Balance Change: Spears have changed to become 2H weapons, and thus have had their stats increased to compensate.
 Balance Change: Executioner no longer drops Perfect Swing Potions.
-
-TODO: Balance Change: Monster drop rates are now consistent across the board.
+Balance Change: Barbarian Seal of Approval has been removed and Barbarian Skilling shop purchase requirements have been replaced with [x] completions of The Barbarian Trials.
+Balance Change: Monks of the Elements now drop Elemental pages for the Elemental Tomes.
+Balance Change: Monster drop rates are now consistent across the board.
+Balance Change: Chieftain Erik is now a boss and has had his drop table updated.
+Balance Change: Golbin Chief has been added as a boss monster to the Golbin Village and has had its drop table updated.
+Balance Change: Pine Nuts now heal for 30 (increased from 10).
+Balance Change: Raw Grub, Cooked Grub, and Cooked Grub (Perfect) now heal for 50, 100, and 110, respectively.
+New Content: Prosperous Necklace has been added.
