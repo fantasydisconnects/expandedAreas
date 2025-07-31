@@ -143,8 +143,9 @@
             "skillID": "melvorD:Strength"
           },
           {
-            "type": "ItemFound",
-            "itemID": "expandedAreas:Chieftain_Eriks_Head"
+            "type": "MonsterKilled",
+            "monsterID": "expandedAreas:Chieftain_Erik",
+            "count": 1
           }
         ],
         "rewardItemIDs": [
