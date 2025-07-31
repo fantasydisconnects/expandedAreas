@@ -2,20 +2,6 @@
   "$schema": "https://melvoridle.com/assets/schema/gameData.json",
   "namespace": "expandedAreas",
   "data": {
-    "lore": [
-      {
-        "id": "Chieftain_Eriks_Head",
-        "title": "The head of the slain Chieftain Erik, a token of strength to the Barbarians.",
-        "media": "assets/items/Chieftain_Eriks_Head.png",
-        "unlockRequirements": [
-          {
-            "type": "MonsterKilled",
-            "monsterID": "expandedAreas:Chieftain_Erik",
-            "count": 1
-          }
-        ]
-      }
-    ],
     "combatAreas": [
       {
         "id": "Low_Town",
@@ -151,7 +137,6 @@
         "rewardItemIDs": [
           "expandedAreas:Raid_Spoils"
         ],
-        "oneTimeRewardID": "expandedAreas:Barbarian_Seal_of_Approval",
         "dropBones": true,
         "pet": {
           "petID": "expandedAreas:Fenri",
@@ -1470,7 +1455,9 @@
         ],
         "ignoreCompletion": false,
         "attackType": "melee",
-        "specialAttacks": [],
+        "specialAttacks": [
+          "expandedAreas:Wild_Strikes"
+        ],
         "passives": [
           "melvorTotH:Rage"
         ],
@@ -1532,9 +1519,9 @@
           }
         ],
         "canSlayer": false,
-        "isBoss": false,
+        "isBoss": true,
         "selectedSpell": "melvorD:WindStrike",
-        "description": "“Who sent you? It was my ugly bastard, wasn't it?”",
+        "description": "“You seek to challenge me?! Pathetic!”",
         "currencyDrops": [
           {
             "currencyID": "melvorD:GP",
@@ -1590,7 +1577,7 @@
         "canSlayer": false,
         "isBoss": true,
         "selectedSpell": "melvorD:WindStrike",
-        "description": "“Thanks for bringing me my father's head.”",
+        "description": "“Thanks for killing my bastard father.”",
         "currencyDrops": [],
         "bones": {
           "itemID": "melvorD:Bones",
@@ -4664,7 +4651,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
-        "customDescription": "The head of the chieftain of Barbarian Village. What use could this have...?"
+        "customDescription": "The head of the tyrannical chieftain of Barbarian Village, a sign of true strength to the Barbarians."
       },
       {
         "itemType": "Equipment",
@@ -9758,18 +9745,6 @@
         ]
       },
       {
-        "id": "Barbarian_Seal_of_Approval",
-        "media": "assets/items/Barbarian_Seal_of_Approval.svg",
-        "name": "Barbarian Seal of Approval",
-        "itemType": "Item",
-        "category": "Misc",
-        "type": "Misc",
-        "ignoreCompletion": false,
-        "obtainFromItemLog": false,
-        "golbinRaidExclusive": false,
-        "sellsFor": 1
-      },
-      {
         "id": "Raid_Spoils",
         "name": "Raid Spoils",
         "category": "Openable",
@@ -12455,8 +12430,9 @@
         "unlockRequirements": [],
         "purchaseRequirements": [
           {
-            "type": "ItemFound",
-            "itemID": "expandedAreas:Barbarian_Seal_of_Approval"
+            "type": "DungeonCompletion",
+            "dungeonID": "expandedAreas:The_Barbarian_Trials",
+            "count": 1
           },
           {
             "type": "SkillLevel",
@@ -12505,8 +12481,9 @@
         "unlockRequirements": [],
         "purchaseRequirements": [
           {
-            "type": "ItemFound",
-            "itemID": "expandedAreas:Barbarian_Seal_of_Approval"
+            "type": "DungeonCompletion",
+            "dungeonID": "expandedAreas:The_Barbarian_Trials",
+            "count": 1
           },
           {
             "type": "SkillLevel",
@@ -12545,8 +12522,9 @@
         "unlockRequirements": [],
         "purchaseRequirements": [
           {
-            "type": "ItemFound",
-            "itemID": "expandedAreas:Barbarian_Seal_of_Approval"
+            "type": "DungeonCompletion",
+            "dungeonID": "expandedAreas:The_Barbarian_Trials",
+            "count": 1
           },
           {
             "type": "SkillLevel",
@@ -12595,8 +12573,9 @@
         "unlockRequirements": [],
         "purchaseRequirements": [
           {
-            "type": "ItemFound",
-            "itemID": "expandedAreas:Barbarian_Seal_of_Approval"
+            "type": "DungeonCompletion",
+            "dungeonID": "expandedAreas:The_Barbarian_Trials",
+            "count": 1
           },
           {
             "type": "SkillLevel",
