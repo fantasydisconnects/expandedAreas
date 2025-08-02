@@ -14,3 +14,4 @@ Equip requirements for Elemental Tomes have been decreased from 70 -> 50
 Upgrade requirements for Elementalist Gear has been changed to require Ancient Wizard Gear, and x10 the Gem Dust cost.
 Orb of the Elements now requires 500 Fragmented Elemental Runes (increased from 100).
 Added Ancient Staff to Magic Chest drop table.
+Dungeon Monsters in Elemental Sanctuary have been heavily nerfed.

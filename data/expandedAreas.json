@@ -100,7 +100,7 @@
           "expandedAreas:Kappa",
           "expandedAreas:Rock_Giant",
           "expandedAreas:Fire_Maiden",
-          "expandedAreas:Ozmarathrax"
+          "expandedAreas:OzmarathraxInscriptorOfRunes"
         ],
         "name": "Elemental Sanctuary",
         "pauseOnBosses": false,
@@ -189,7 +189,7 @@
     "attacks": [
       {
         "id": "Elemental_Breath",
-        "defaultChance": 30,
+        "defaultChance": 25,
         "damage": [
           {
             "damageType": "Custom",
@@ -203,23 +203,23 @@
         "onhitEffects": [
           {
             "effectID": "melvorD:Burn",
-            "chance": 10
+            "chance": 5
           },
           {
             "effectID": "melvorD:Freeze",
-            "chance": 10
+            "chance": 5
           },
           {
             "effectID": "melvorD:Sleep",
-            "chance": 10
+            "chance": 5
           },
           {
             "effectID": "melvorD:Stun",
-            "chance": 10
+            "chance": 5
           }
         ],
         "cantMiss": true,
-        "attackCount": 20,
+        "attackCount": 10,
         "attackInterval": 200,
         "lifesteal": 0,
         "name": "Elemental Breath",
@@ -238,7 +238,7 @@
             "condition": {
               "type": "Hitpoints",
               "character": "Player",
-              "value": 75,
+              "value": 50,
               "operator": "<="
             }
           },
@@ -247,13 +247,9 @@
             "condition": {
               "type": "Hitpoints",
               "character": "Player",
-              "value": 50,
+              "value": 30,
               "operator": "<="
             }
-          },
-          {
-            "effectID": "melvorD:Sleep",
-            "targetOverride": "Self"
           }
         ],
         "onhitEffects": [],
@@ -295,38 +291,33 @@
         "minAccuracy": 20000
       },
       {
-        "id": "Fire_Form",
-        "name": "Fire Form",
-        "defaultChance": 100,
+        "id": "Flame_Lash",
+        "name": "Flame_Lash",
+        "defaultChance": 30,
         "damage": [
           {
             "damageType": "Custom",
             "character": "Attacker",
             "roll": false,
             "maxRoll": "MagicScaling",
-            "maxPercent": 100
+            "maxPercent": 30
           }
         ],
         "prehitEffects": [],
         "onhitEffects": [
           {
             "effectID": "melvorD:Burn",
-            "chance": 50,
-            "condition": {
-              "type": "DamageTaken",
-              "operator": ">",
-              "rhValue": 0
-            }
+            "chance": 50
           }
         ],
         "cantMiss": false,
-        "attackCount": 1,
-        "attackInterval": 50,
+        "attackCount": 3,
+        "attackInterval": 100,
         "lifesteal": 0,
-        "description": "When hit, there is a 50% chance to apply Burn to the attacker for ${onHitEffect0turns} turn, dealing ${attackDamageMaxValue0}% normal damage to them.",
-        "descriptionGenerator": "When <attacker> is hit, there is a 50% chance to <hitEffect>, dealing <damage> in retaliation to <target>.",
+        "description": "The enemy lashes out with a fiery whip ${hitCount} times, dealing ${attackDamageMaxValue0}% of its Magic level + 1, with a 50% chance to has a ${onHitEffect0chance}% chance to inflict Burn that deals ${onHitEffect0DamageMaxValue0}% of the your current hitpoints as damage over ${onHitEffect0duration}s on hit.",
+        "descriptionGenerator": "<Attacker> lashes out with a fiery whip <count> times, dealing <damage>, with a 50% chance to <hitEffect> on hit.",
         "attackTypes": [
-          "magic"
+          "melee"
         ]
       },
       {
@@ -925,16 +916,16 @@
     ],
     "monsters": [
       {
-        "id": "Ozmarathrax",
+        "id": "OzmarathraxInscriptorOfRunes",
         "name": "Ozmarathrax, Inscriptor of Runes",
         "media": "assets/monsters/Ozmarathrax.png",
         "levels": {
-          "Hitpoints": 290,
-          "Attack": 450,
-          "Strength": 540,
-          "Defence": 315,
-          "Ranged": 600,
-          "Magic": 800
+          "Hitpoints": 300,
+          "Attack": 380,
+          "Strength": 480,
+          "Defence": 290,
+          "Ranged": 520,
+          "Magic": 740
         },
         "equipmentStats": [
           {
@@ -947,9 +938,8 @@
           }
         ],
         "ignoreCompletion": false,
-        "attackType": "melee",
+        "attackType": "magic",
         "specialAttacks": [
-          "melvorF:TailWhip",
           "melvorD:RazorSharpClaws",
           "expandedAreas:Elemental_Breath",
           "expandedAreas:Cold_Snap",
@@ -959,26 +949,20 @@
         ],
         "overrideSpecialChances": [
           20,
-          20,
           40,
           5,
           5,
           5,
           5
         ],
-        "passives": [],
-        "lootChance": 100,
-        "lootTable": [
-          {
-            "itemID": "expandedAreas:Pureform_Rune",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 1
-          }
+        "passives": [
+          "melvorF:ElementalistII"
         ],
+        "lootChance": 0,
+        "lootTable": [],
         "canSlayer": false,
         "isBoss": true,
-        "selectedSpell": "melvorD:WindStrike",
+        "selectedSpell": "melvorF:NaturesWrath",
         "bones": {
           "itemID": "melvorD:Magic_Bones",
           "quantity": 1
@@ -996,12 +980,12 @@
         "name": "Kappa",
         "media": "assets/monsters/Kappa.png",
         "levels": {
-          "Hitpoints": 250,
-          "Attack": 180,
-          "Strength": 180,
-          "Defence": 400,
-          "Ranged": 180,
-          "Magic": 180
+          "Hitpoints": 100,
+          "Attack": 100,
+          "Strength": 100,
+          "Defence": 100,
+          "Ranged": 100,
+          "Magic": 100
         },
         "equipmentStats": [
           {
@@ -1010,7 +994,7 @@
           },
           {
             "key": "damageReduction",
-            "value": 30
+            "value": 50
           }
         ],
         "ignoreCompletion": false,
@@ -1023,7 +1007,9 @@
           40,
           40
         ],
-        "passives": [],
+        "passives": [
+          "melvorF:SpikedArmour"
+        ],
         "lootChance": 0,
         "lootTable": [],
         "canSlayer": false,
@@ -1040,12 +1026,12 @@
         "name": "Harpiar",
         "media": "assets/monsters/Harpiar.png",
         "levels": {
-          "Hitpoints": 215,
-          "Attack": 200,
-          "Strength": 190,
-          "Defence": 225,
-          "Ranged": 240,
-          "Magic": 80
+          "Hitpoints": 190,
+          "Attack": 175,
+          "Strength": 165,
+          "Defence": 190,
+          "Ranged": 210,
+          "Magic": 90
         },
         "equipmentStats": [
           {
@@ -1054,11 +1040,11 @@
           },
           {
             "key": "magicDefenceBonus",
-            "value": 1000
+            "value": 100
           }
         ],
         "ignoreCompletion": false,
-        "attackType": "magic",
+        "attackType": "ranged",
         "specialAttacks": [
           "expandedAreas:Harpiars_Song",
           "expandedAreas:Zephyr_Strike"
@@ -1072,7 +1058,7 @@
         "lootTable": [],
         "canSlayer": false,
         "isBoss": false,
-        "selectedSpell": "melvorD:WindStrike",
+        "selectedSpell": "melvorD:WindSurge",
         "bones": {
           "itemID": "expandedAreas:Air_Rune_Shard",
           "quantity": 1
@@ -1084,12 +1070,12 @@
         "name": "Fire Maiden",
         "media": "assets/monsters/Fire_Maiden.png",
         "levels": {
-          "Hitpoints": 200,
-          "Attack": 220,
-          "Strength": 210,
-          "Defence": 220,
-          "Ranged": 1,
-          "Magic": 235
+          "Hitpoints": 175,
+          "Attack": 160,
+          "Strength": 170,
+          "Defence": 200,
+          "Ranged": 90,
+          "Magic": 205
         },
         "equipmentStats": [
           {
@@ -1098,17 +1084,17 @@
           },
           {
             "key": "meleeDefenceBonus",
-            "value": 1000
+            "value": 100
           }
         ],
         "ignoreCompletion": false,
         "attackType": "magic",
         "specialAttacks": [
-          "expandedAreas:Fire_Form",
+          "expandedAreas:Flame_Lash",
           "expandedAreas:Fierce_Flames"
         ],
         "overrideSpecialChances": [
-          50,
+          30,
           20
         ],
         "passives": [],
@@ -1116,7 +1102,7 @@
         "lootTable": [],
         "canSlayer": false,
         "isBoss": false,
-        "selectedSpell": "melvorD:WindStrike",
+        "selectedSpell": "melvorD:FireSurge",
         "bones": {
           "itemID": "expandedAreas:Fire_Rune_Shard",
           "quantity": 1
@@ -1127,13 +1113,14 @@
         "id": "Rock_Giant",
         "name": "Rock Giant",
         "media": "assets/monsters/Rock_Giant.png",
+        "description": "In a past life, he wished to become rocks.",
         "levels": {
-          "Hitpoints": 290,
-          "Attack": 300,
-          "Strength": 350,
-          "Defence": 330,
-          "Ranged": 1,
-          "Magic": 1
+          "Hitpoints": 250,
+          "Attack": 220,
+          "Strength": 210,
+          "Defence": 250,
+          "Ranged": 135,
+          "Magic": 150
         },
         "equipmentStats": [
           {
@@ -1142,11 +1129,11 @@
           },
           {
             "key": "rangedDefenceBonus",
-            "value": 1000
+            "value": 100
           },
           {
             "key": "damageReduction",
-            "value": 15
+            "value": 10
           }
         ],
         "ignoreCompletion": false,
@@ -11017,6 +11004,10 @@
             "quantity": 1
           },
           {
+            "id": "expandedAreas:Ancient_Staff",
+            "quantity": 1
+          },
+          {
             "id": "melvorD:Air_Rune",
             "quantity": 10000
           },
@@ -11236,8 +11227,8 @@
         "rootItemIDs": [
           "melvorF:Earth_Expert_Wizard_Robes",
           "melvorF:Earth_Expert_Wizard_Bottoms",
-          "melvorD:Ancient_Wizard_Bottoms",
-          "melvorD:Ancient_Wizard_Boots"
+          "melvorD:Ancient_Wizard_Robes",
+          "melvorD:Ancient_Wizard_Bottoms"
         ],
         "isDowngrade": false,
         "currencyCosts": []
@@ -11948,11 +11939,6 @@
         "data": {
           "categories": [
             {
-              "id": "Combination_Staves_and_Wands",
-              "name": "Combination Staves & Wands",
-              "media": "assets/items/Lava_Imbued_Wand.png"
-            },
-            {
               "id": "Unique",
               "name": "Unique",
               "media": "assets/items/Pureform_Rune.png"
@@ -11989,7 +11975,7 @@
             {
               "id": "Staff_of_Dust",
               "productID": "expandedAreas:Staff_of_Dust",
-              "categoryID": "expandedAreas:Combination_Staves_and_Wands",
+              "categoryID": "melvorF:Staves",
               "baseExperience": 22,
               "baseQuantity": 1,
               "level": 10,
