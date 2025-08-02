@@ -1,9 +1,240 @@
-FEEDBACK:
-• Perhaps the chieftain could have some more diverse drops aside from the head. Kind of a shame that a unique enemy only has one drop. 
-• Increase pine nut yield to incentivize making the cooking recipe as the amount given is quite low. 
-• The Longblade may need a slight adjustment in power, as it takes around the same amount of effort as the Sunset Rapier. 
-(Tbh this might just be a Melvor issue in general where certain items are way better than others.)
-• Barbarian armor is in a weird place where the player needs either full rune (g) or adamant (g) to take on the dungeon, which has higher DR than barbarian armor and makes it better for bossing in the future. The strength bonuses to damage are around the same compared to rune (g), which makes it neither a good mobbing set or bossing set. Perhaps the damage bonuses could be increased to give it a small niche as it is already practically unusable for bosses.
-- Elemental pages are too difficult to obtain
-- Mini Necromancer hits like a truck so fix that
-- 
+      {
+        "id": "Baby_Green_Dragon",
+        "name": "Baby Green Dragon",
+        "media": "assets/monsters/Baby_Green_Dragon.png",
+        "levels": {
+          "Hitpoints": 5455,
+          "Attack": 38,
+          "Strength": 38,
+          "Defence": 38,
+          "Ranged": 30,
+          "Magic": 30
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 75,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Green_Dragonhide",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 5096
+          },
+          {
+            "itemID": "expandedAreas:Green_Dragon_Scale",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 1024
+          }
+        ],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "bones": {
+          "itemID": "expandedAreas:Baby_Dragon_Bones",
+          "quantity": 1
+        },
+        "currencyDrops": [
+          {
+            "currencyID": "melvorD:GP",
+            "min": 1,
+            "max": 40
+          }
+        ]
+      },
+      {
+        "id": "Baby_Blue_Dragon",
+        "name": "Baby Blue Dragon",
+        "media": "assets/monsters/Baby_Blue_Dragon.png",
+        "levels": {
+          "Hitpoints": 55,
+          "Attack": 48,
+          "Strength": 48,
+          "Defence": 48,
+          "Ranged": 40,
+          "Magic": 40
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 10
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 10
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 75,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Blue_Dragonhide",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 5096
+          },
+          {
+            "itemID": "expandedAreas:Blue_Dragon_Scale",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 1024
+          }
+        ],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "bones": {
+          "itemID": "expandedAreas:Baby_Dragon_Bones",
+          "quantity": 1
+        },
+        "currencyDrops": [
+          {
+            "currencyID": "melvorD:GP",
+            "min": 1,
+            "max": 60
+          }
+        ]
+      },
+      {
+        "id": "Baby_Red_Dragon",
+        "name": "Baby Red Dragon",
+        "media": "assets/monsters/Baby_Red_Dragon.png",
+        "levels": {
+          "Hitpoints": 65,
+          "Attack": 58,
+          "Strength": 58,
+          "Defence": 58,
+          "Ranged": 50,
+          "Magic": 50
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 10
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 30
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 30
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 75,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Red_Dragonhide",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 5096
+          },
+          {
+            "itemID": "expandedAreas:Red_Dragon_Scale",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 1024
+          }
+        ],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "bones": {
+          "itemID": "expandedAreas:Baby_Dragon_Bones",
+          "quantity": 1
+        },
+        "currencyDrops": [
+          {
+            "currencyID": "melvorD:GP",
+            "min": 1,
+            "max": 80
+          }
+        ]
+      },
+      {
+        "id": "Baby_Black_Dragon",
+        "name": "Baby Black Dragon",
+        "media": "assets/monsters/Baby_Black_Dragon.png",
+        "levels": {
+          "Hitpoints": 75,
+          "Attack": 68,
+          "Strength": 68,
+          "Defence": 68,
+          "Ranged": 60,
+          "Magic": 60
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 20
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 40
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 40
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 75,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Black_Dragonhide",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 5096
+          },
+          {
+            "itemID": "expandedAreas:Black_Dragon_Scale",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 1024
+          }
+        ],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "bones": {
+          "itemID": "expandedAreas:Baby_Dragon_Bones",
+          "quantity": 1
+        },
+        "currencyDrops": [
+          {
+            "currencyID": "melvorD:GP",
+            "min": 1,
+            "max": 100
+          }
+        ]
+      },
