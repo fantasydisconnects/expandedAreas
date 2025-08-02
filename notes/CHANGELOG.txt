@@ -1,15 +1,16 @@
 New Content:
-The Elemental Sanctuary dungeon has been added.
-Diamond Dust has been added.
-Elemental Runes have been added as a Runecrafting recipe.
-Pureform Runes have been added. They currently do nothing, but in the final v6.0.5 patch, they may be used in a recipe to upgrade something, or will be used as a subrune for Mind, Chaos, Death, Wrath, and Ancient runes.
-Elemental Cape has been added.
+Added "Unique" category to Runecrafting
+Added Ancient Staff.
+
+Bug Fixes:
+Elemental Runes are apparently unable to count as a substitute for runes without some freaky code finagling, and so have been changed to do something different (see Balance Changes).
+Eyes of the Elements accidentally gave +40 Maximum Hit to their respective elements. This has been changed to +20.
 
 Balance Changes:
-Elemental Pages can now also be obtained from the skills of Astrology (Air), Farming (Earth), Firemaking (Fire), and Fishing (Water), and Runecrafting (All).
-Orb of the Elements now takes 100 Elemental Runes and 10000 Diamond Dust to create.
-Zephyr Strike, Cold Snap, Avalanche, and Fierce Flames now require 100 completions of the Elemental Sanctuary to cast.
-Bandit Base difficulty has been changed to Hard to correctly reflect the Bandit Leader's combat level.
-
-Misc. Changes:
-Gem Dust art has been changed.
+Changed Elemental Rune into a Consumable item and renamed into Fragmented Elemental Rune.
+Equip requirements for Elementalist Gear have been increased from 75 -> 80
+Equip requirements for Orb of the Elements have been decreased from 75 -> 60
+Equip requirements for Elemental Tomes have been decreased from 70 -> 50
+Upgrade requirements for Elementalist Gear has been changed to require Ancient Wizard Gear, and x10 the Gem Dust cost.
+Orb of the Elements now requires 500 Fragmented Elemental Runes (increased from 100).
+Added Ancient Staff to Magic Chest drop table.

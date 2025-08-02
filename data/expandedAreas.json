@@ -85,7 +85,7 @@
         "entryRequirements": [
           {
             "type": "ItemFound",
-            "itemID": "expandedAreas:Elemental_Rune"
+            "itemID": "expandedAreas:Fragmented_Elemental_Rune"
           }
         ],
         "fixedPetClears": false,
@@ -1657,7 +1657,7 @@
         "id": "Barbarian_Brawler",
         "name": "Barbarian Brawler",
         "media": "assets/monsters/Barbarian_Brawler.png",
-        "description": "She's clearly been on the winning end of a <em>ton</em> of fights.",
+        "description": "She's clearly been in a few fights.",
         "levels": {
           "Attack": 75,
           "Defence": 45,
@@ -4107,7 +4107,7 @@
         "id": "Guardian_of_the_Elements",
         "name": "Guardian of the Elements",
         "media": "assets/monsters/Guardian_of_the_Elements.png",
-        "description": "<strong>“I CONTAIN THAT WHICH BINDS MELVOR.”</strong>",
+        "description": "“I CONTAIN THAT WHICH BINDS MELVOR.”",
         "levels": {
           "Attack": 120,
           "Defence": 287,
@@ -4291,22 +4291,148 @@
     ],
     "items": [
       {
-        "itemType": "Rune",
-        "id": "Elemental_Rune",
-        "name": "Elemental Rune",
-        "category": "Runecrafting",
-        "type": "Rune",
-        "media": "assets/items/Elemental_Rune.png",
+        "id": "Ancient_Staff",
+        "name": "Ancient Staff",
+        "category": "Combat",
+        "type": "Magic Staff",
+        "media": "assets/items/Ancient_Staff.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 20,
-        "customDescription": "Combination Rune: Air, Earth, Fire, & Water",
-        "subRunes": [
-          "melvorD:Air_Rune",
-          "melvorD:Earth_Rune",
-          "melvorD:Fire_Rune",
-          "melvorD:Water_Rune"
+        "sellsFor": 24000,
+        "customDescription": "Passive: +5 Minimum Damage when using Elemental Spells.<br>+6% Accuracy Rating and Maximum Hit when using Surge Spells. <br>Reduces the Elemental Rune cost of Magic Spells by 1 when equipped as a Weapon.",
+        "tier": "staff",
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Shield"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 70
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 35
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 25
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 4
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 25
+          }
+        ],
+        "modifiers": {
+          "flatMagicMinHit": [
+            {
+              "subcategoryID": "melvorD:Elemental",
+              "value": 0.5
+            }
+          ],
+          "magicAccuracyRating": [
+            {
+              "subcategoryID": "melvorD:Surge",
+              "value": 6
+            }
+          ],
+          "magicMaxHit": [
+            {
+              "subcategoryID": "melvorD:Surge",
+              "value": 6
+            }
+          ]
+        },
+        "providedRunes": [
+          {
+            "id": "melvorD:Air_Rune",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Earth_Rune",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Fire_Rune",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Water_Rune",
+            "quantity": 1
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "magic"
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Fragmented_Elemental_Rune",
+        "name": "Fragmented Elemental Rune",
+        "category": "Runecrafting",
+        "type": "Equipment",
+        "media": "assets/items/Fragmented_Elemental_Rune.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 40,
+        "customDescription": "Provides 1 Rune of each element. +10 Minimum and Maximum Elemental Spell Dmg. One item is consumed whenever Runes are used.",
+        "tier": "none",
+        "validSlots": [
+          "Consumable"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [],
+        "providedRunes": [
+          {
+            "id": "melvorD:Air_Rune",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Earth_Rune",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Water_Rune",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Fire_Rune",
+            "quantity": 1
+          }
+        ],
+        "modifiers": {
+          "flatMagicMinHit": [
+            {
+              "subcategoryID": "melvorD:Elemental",
+              "value": 1
+            }
+          ],
+          "flatMagicMaxHit": [
+            {
+              "subcategoryID": "melvorD:Elemental",
+              "value": 1
+            }
+          ]
+        },
+        "consumesOn": [
+          {
+            "type": "RuneConsumption"
+          }
         ]
       },
       {
@@ -4316,6 +4442,7 @@
         "category": "Combat",
         "type": "Armour",
         "media": "assets/items/Elemental_Cape.png",
+        "customDescription": "Passive: +50 Minimum Elemental Spell Dmg",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -4373,7 +4500,15 @@
             "key": "damageReduction",
             "value": 2
           }
-        ]
+        ],
+        "modifiers": {
+          "flatMagicMinHit": [
+            {
+              "subcategoryID": "melvorD:Elemental",
+              "value": 5
+            }
+          ]
+        }
       },
       {
         "itemType": "Item",
@@ -7599,10 +7734,6 @@
             {
               "subcategoryID": "melvorD:Air",
               "value": 2
-            },
-            {
-              "subcategoryID": "melvorD:Air",
-              "value": 2
             }
           ]
         },
@@ -7641,10 +7772,6 @@
         "equipmentStats": [],
         "modifiers": {
           "flatMagicMaxHit": [
-            {
-              "subcategoryID": "melvorD:Water",
-              "value": 2
-            },
             {
               "subcategoryID": "melvorD:Water",
               "value": 2
@@ -7689,10 +7816,6 @@
             {
               "subcategoryID": "melvorD:Earth",
               "value": 2
-            },
-            {
-              "subcategoryID": "melvorD:Earth",
-              "value": 2
             }
           ]
         },
@@ -7731,10 +7854,6 @@
         "equipmentStats": [],
         "modifiers": {
           "flatMagicMaxHit": [
-            {
-              "subcategoryID": "melvorD:Fire",
-              "value": 2
-            },
             {
               "subcategoryID": "melvorD:Fire",
               "value": 2
@@ -7785,7 +7904,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 75
+            "level": 80
           }
         ],
         "equipmentStats": [
@@ -7852,7 +7971,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 75
+            "level": 80
           }
         ],
         "equipmentStats": [
@@ -7917,7 +8036,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 75
+            "level": 80
           }
         ],
         "equipmentStats": [
@@ -7982,7 +8101,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 75
+            "level": 80
           }
         ],
         "equipmentStats": [
@@ -8054,7 +8173,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 75
+            "level": 80
           }
         ],
         "equipmentStats": [
@@ -8121,7 +8240,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 75
+            "level": 80
           }
         ],
         "equipmentStats": [
@@ -8186,7 +8305,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 75
+            "level": 80
           }
         ],
         "equipmentStats": [
@@ -8251,7 +8370,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 75
+            "level": 80
           }
         ],
         "equipmentStats": [
@@ -8323,7 +8442,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 75
+            "level": 80
           }
         ],
         "equipmentStats": [
@@ -8390,7 +8509,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 75
+            "level": 80
           }
         ],
         "equipmentStats": [
@@ -8455,7 +8574,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 75
+            "level": 80
           }
         ],
         "equipmentStats": [
@@ -8520,7 +8639,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 75
+            "level": 80
           }
         ],
         "equipmentStats": [
@@ -8592,7 +8711,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 75
+            "level": 80
           }
         ],
         "equipmentStats": [
@@ -8659,7 +8778,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 75
+            "level": 80
           }
         ],
         "equipmentStats": [
@@ -8724,7 +8843,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 75
+            "level": 80
           }
         ],
         "equipmentStats": [
@@ -8789,7 +8908,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 75
+            "level": 80
           }
         ],
         "equipmentStats": [
@@ -8916,7 +9035,7 @@
         "golbinRaidExclusive": false,
         "sellsFor": 300000,
         "tier": "ancient",
-        "customDescription": "+20 Minimum and Maximum Elemental Spell Dmg. Reduces Elemental Rune cost of Magic Spells by 1.",
+        "customDescription": "+30 Minimum and Maximum Elemental Spell Dmg. Reduces Elemental Rune cost of Magic Spells by 1.",
         "validSlots": [
           "Ring"
         ],
@@ -8924,7 +9043,7 @@
         "equipRequirements": [
           {
             "skillID": "melvorD:Magic",
-            "level": 75,
+            "level": 50,
             "type": "SkillLevel"
           }
         ],
@@ -8959,38 +9078,14 @@
         "modifiers": {
           "flatMagicMaxHit": [
             {
-              "subcategoryID": "melvorD:Air",
-              "value": 2
-            },
-            {
-              "subcategoryID": "melvorD:Earth",
-              "value": 2
-            },
-            {
-              "subcategoryID": "melvorD:Fire",
-              "value": 2
-            },
-            {
-              "subcategoryID": "melvorD:Water",
-              "value": 2
+              "subcategoryID": "melvorD:Elemental",
+              "value": 3
             }
           ],
           "flatMagicMinHit": [
             {
-              "subcategoryID": "melvorD:Air",
-              "value": 2
-            },
-            {
-              "subcategoryID": "melvorD:Earth",
-              "value": 2
-            },
-            {
-              "subcategoryID": "melvorD:Fire",
-              "value": 2
-            },
-            {
-              "subcategoryID": "melvorD:Water",
-              "value": 2
+              "subcategoryID": "melvorD:Elemental",
+              "value": 3
             }
           ]
         }
@@ -9006,7 +9101,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
-        "customDescription": "Used to create Elemental Runes."
+        "customDescription": "Used to create Fragmented Elemental Runes."
       },
       {
         "itemType": "Item",
@@ -9019,7 +9114,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
-        "customDescription": "Used to create Elemental Runes."
+        "customDescription": "Used to create Fragmented Elemental Runes."
       },
       {
         "itemType": "Item",
@@ -9032,7 +9127,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
-        "customDescription": "Used to create Elemental Runes."
+        "customDescription": "Used to create Fragmented Elemental Runes."
       },
       {
         "itemType": "Item",
@@ -9045,7 +9140,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
-        "customDescription": "Used to create Elemental Runes."
+        "customDescription": "Used to create Fragmented Elemental Runes."
       },
       {
         "itemType": "Equipment",
@@ -9068,7 +9163,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 70
+            "level": 50
           }
         ],
         "equipmentStats": [
@@ -9127,7 +9222,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 70
+            "level": 50
           }
         ],
         "equipmentStats": [
@@ -9186,7 +9281,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 70
+            "level": 50
           }
         ],
         "equipmentStats": [
@@ -9245,7 +9340,7 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Magic",
-            "level": 70
+            "level": 50
           }
         ],
         "equipmentStats": [
@@ -9680,7 +9775,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1000,
-        "customDescription": "Used to <em>create</em> burns."
+        "customDescription": "Used to create burns."
       },
       {
         "itemType": "Food",
@@ -10819,12 +10914,16 @@
             "quantity": 1
           },
           {
+            "id": "melvorD:Ancient_Wizard_Hat",
+            "quantity": 1
+          },
+          {
             "id": "melvorD:Mystic_Air_Staff",
-            "quantity": 10
+            "quantity": 1
           },
           {
             "id": "expandedAreas:Topaz_Dust",
-            "quantity": 100
+            "quantity": 1000
           },
           {
             "id": "expandedAreas:Eye_of_Air",
@@ -10832,7 +10931,8 @@
           }
         ],
         "rootItemIDs": [
-          "melvorF:Air_Expert_Wizard_Hat"
+          "melvorF:Air_Expert_Wizard_Hat",
+          "melvorD:Ancient_Wizard_Hat"
         ],
         "isDowngrade": false,
         "currencyCosts": []
@@ -10845,24 +10945,35 @@
             "quantity": 1
           },
           {
+            "id": "melvorD:Ancient_Wizard_Robes",
+            "quantity": 1
+          },
+          {
             "id": "melvorF:Air_Expert_Wizard_Bottoms",
             "quantity": 1
           },
           {
+            "id": "melvorD:Ancient_Wizard_Bottoms",
+            "quantity": 1
+          },
+          {
             "id": "melvorD:Mystic_Air_Staff",
-            "quantity": 10
+            "quantity": 2
           },
           {
             "id": "expandedAreas:Topaz_Dust",
-            "quantity": 100
+            "quantity": 2000
           },
           {
             "id": "expandedAreas:Eye_of_Air",
-            "quantity": 25
+            "quantity": 50
           }
         ],
         "rootItemIDs": [
-          "melvorF:Air_Expert_Wizard_Robes"
+          "melvorF:Air_Expert_Wizard_Robes",
+          "melvorF:Air_Expert_Wizard_Bottoms",
+          "melvorD:Ancient_Wizard_Robes",
+          "melvorD:Ancient_Wizard_Bottoms"
         ],
         "isDowngrade": false,
         "currencyCosts": []
@@ -10875,12 +10986,16 @@
             "quantity": 1
           },
           {
+            "id": "melvorD:Ancient_Wizard_Boots",
+            "quantity": 1
+          },
+          {
             "id": "melvorD:Mystic_Air_Staff",
-            "quantity": 10
+            "quantity": 1
           },
           {
             "id": "expandedAreas:Topaz_Dust",
-            "quantity": 100
+            "quantity": 1000
           },
           {
             "id": "expandedAreas:Eye_of_Air",
@@ -10888,7 +11003,8 @@
           }
         ],
         "rootItemIDs": [
-          "melvorF:Air_Expert_Wizard_Boots"
+          "melvorF:Air_Expert_Wizard_Boots",
+          "melvorD:Ancient_Wizard_Boots"
         ],
         "isDowngrade": false,
         "currencyCosts": []
@@ -10906,7 +11022,7 @@
           },
           {
             "id": "expandedAreas:Topaz_Dust",
-            "quantity": 100
+            "quantity": 1000
           },
           {
             "id": "expandedAreas:Eye_of_Air",
@@ -10914,7 +11030,8 @@
           }
         ],
         "rootItemIDs": [
-          "melvorD:Mystic_Air_Staff"
+          "melvorD:Mystic_Air_Staff",
+          "expandedAreas:Ancient_Staff"
         ],
         "isDowngrade": false,
         "currencyCosts": []
@@ -10927,12 +11044,16 @@
             "quantity": 1
           },
           {
+            "id": "melvorD:Ancient_Wizard_Hat",
+            "quantity": 1
+          },
+          {
             "id": "melvorF:Mystic_Water_Staff",
-            "quantity": 10
+            "quantity": 1
           },
           {
             "id": "expandedAreas:Sapphire_Dust",
-            "quantity": 100
+            "quantity": 1000
           },
           {
             "id": "expandedAreas:Eye_of_Water",
@@ -10940,7 +11061,8 @@
           }
         ],
         "rootItemIDs": [
-          "melvorF:Water_Expert_Wizard_Hat"
+          "melvorF:Water_Expert_Wizard_Hat",
+          "melvorD:Ancient_Wizard_Hat"
         ],
         "isDowngrade": false,
         "currencyCosts": []
@@ -10953,24 +11075,35 @@
             "quantity": 1
           },
           {
+            "id": "melvorD:Ancient_Wizard_Robes",
+            "quantity": 1
+          },
+          {
             "id": "melvorF:Water_Expert_Wizard_Bottoms",
             "quantity": 1
           },
           {
+            "id": "melvorD:Ancient_Wizard_Bottoms",
+            "quantity": 1
+          },
+          {
             "id": "melvorF:Mystic_Water_Staff",
-            "quantity": 10
+            "quantity": 2
           },
           {
             "id": "expandedAreas:Sapphire_Dust",
-            "quantity": 100
+            "quantity": 2000
           },
           {
             "id": "expandedAreas:Eye_of_Water",
-            "quantity": 25
+            "quantity": 50
           }
         ],
         "rootItemIDs": [
-          "melvorF:Water_Expert_Wizard_Robes"
+          "melvorF:Water_Expert_Wizard_Robes",
+          "melvorF:Water_Expert_Wizard_Bottoms",
+          "melvorD:Ancient_Wizard_Robes",
+          "melvorD:Ancient_Wizard_Bottoms"
         ],
         "isDowngrade": false,
         "currencyCosts": []
@@ -10983,12 +11116,16 @@
             "quantity": 1
           },
           {
+            "id": "melvorD:Ancient_Wizard_Boots",
+            "quantity": 1
+          },
+          {
             "id": "melvorF:Mystic_Water_Staff",
-            "quantity": 10
+            "quantity": 1
           },
           {
             "id": "expandedAreas:Sapphire_Dust",
-            "quantity": 100
+            "quantity": 1000
           },
           {
             "id": "expandedAreas:Eye_of_Water",
@@ -10996,7 +11133,8 @@
           }
         ],
         "rootItemIDs": [
-          "melvorF:Water_Expert_Wizard_Boots"
+          "melvorF:Water_Expert_Wizard_Boots",
+          "melvorD:Ancient_Wizard_Boots"
         ],
         "isDowngrade": false,
         "currencyCosts": []
@@ -11009,12 +11147,16 @@
             "quantity": 1
           },
           {
+            "id": "expandedAreas:Ancient_Staff",
+            "quantity": 1
+          },
+          {
             "id": "melvorD:Water_Rune",
             "quantity": 10000
           },
           {
             "id": "expandedAreas:Sapphire_Dust",
-            "quantity": 100
+            "quantity": 1000
           },
           {
             "id": "expandedAreas:Eye_of_Water",
@@ -11022,7 +11164,8 @@
           }
         ],
         "rootItemIDs": [
-          "melvorF:Mystic_Water_Staff"
+          "melvorF:Mystic_Water_Staff",
+          "expandedAreas:Ancient_Staff"
         ],
         "isDowngrade": false,
         "currencyCosts": []
@@ -11035,12 +11178,16 @@
             "quantity": 1
           },
           {
+            "id": "melvorD:Ancient_Wizard_Hat",
+            "quantity": 1
+          },
+          {
             "id": "melvorF:Mystic_Earth_Staff",
-            "quantity": 10
+            "quantity": 1
           },
           {
             "id": "expandedAreas:Emerald_Dust",
-            "quantity": 100
+            "quantity": 1000
           },
           {
             "id": "expandedAreas:Eye_of_Earth",
@@ -11048,7 +11195,8 @@
           }
         ],
         "rootItemIDs": [
-          "melvorF:Earth_Expert_Wizard_Hat"
+          "melvorF:Earth_Expert_Wizard_Hat",
+          "melvorD:Ancient_Wizard_Hat"
         ],
         "isDowngrade": false,
         "currencyCosts": []
@@ -11061,24 +11209,35 @@
             "quantity": 1
           },
           {
+            "id": "melvorD:Ancient_Wizard_Robes",
+            "quantity": 1
+          },
+          {
             "id": "melvorF:Earth_Expert_Wizard_Bottoms",
             "quantity": 1
           },
           {
+            "id": "melvorD:Ancient_Wizard_Bottoms",
+            "quantity": 1
+          },
+          {
             "id": "melvorF:Mystic_Earth_Staff",
-            "quantity": 10
+            "quantity": 2
           },
           {
             "id": "expandedAreas:Emerald_Dust",
-            "quantity": 100
+            "quantity": 2000
           },
           {
             "id": "expandedAreas:Eye_of_Earth",
-            "quantity": 25
+            "quantity": 50
           }
         ],
         "rootItemIDs": [
-          "melvorF:Earth_Expert_Wizard_Robes"
+          "melvorF:Earth_Expert_Wizard_Robes",
+          "melvorF:Earth_Expert_Wizard_Bottoms",
+          "melvorD:Ancient_Wizard_Bottoms",
+          "melvorD:Ancient_Wizard_Boots"
         ],
         "isDowngrade": false,
         "currencyCosts": []
@@ -11091,12 +11250,16 @@
             "quantity": 1
           },
           {
+            "id": "melvorD:Ancient_Wizard_Boots",
+            "quantity": 1
+          },
+          {
             "id": "melvorF:Mystic_Earth_Staff",
-            "quantity": 10
+            "quantity": 1
           },
           {
             "id": "expandedAreas:Emerald_Dust",
-            "quantity": 100
+            "quantity": 1000
           },
           {
             "id": "expandedAreas:Eye_of_Earth",
@@ -11104,7 +11267,8 @@
           }
         ],
         "rootItemIDs": [
-          "melvorF:Earth_Expert_Wizard_Boots"
+          "melvorF:Earth_Expert_Wizard_Boots",
+          "melvorD:Ancient_Wizard_Boots"
         ],
         "isDowngrade": false,
         "currencyCosts": []
@@ -11117,12 +11281,16 @@
             "quantity": 1
           },
           {
+            "id": "expandedAreas:Ancient_Staff",
+            "quantity": 1
+          },
+          {
             "id": "melvorD:Earth_Rune",
             "quantity": 10000
           },
           {
             "id": "expandedAreas:Emerald_Dust",
-            "quantity": 100
+            "quantity": 1000
           },
           {
             "id": "expandedAreas:Eye_of_Earth",
@@ -11130,7 +11298,8 @@
           }
         ],
         "rootItemIDs": [
-          "melvorF:Mystic_Earth_Staff"
+          "melvorF:Mystic_Earth_Staff",
+          "expandedAreas:Ancient_Staff"
         ],
         "isDowngrade": false,
         "currencyCosts": []
@@ -11143,12 +11312,16 @@
             "quantity": 1
           },
           {
+            "id": "melvorD:Ancient_Wizard_Hat",
+            "quantity": 1
+          },
+          {
             "id": "melvorF:Mystic_Fire_Staff",
-            "quantity": 10
+            "quantity": 1
           },
           {
             "id": "expandedAreas:Ruby_Dust",
-            "quantity": 100
+            "quantity": 1000
           },
           {
             "id": "expandedAreas:Eye_of_Fire",
@@ -11156,7 +11329,8 @@
           }
         ],
         "rootItemIDs": [
-          "melvorF:Fire_Expert_Wizard_Hat"
+          "melvorF:Fire_Expert_Wizard_Hat",
+          "melvorD:Ancient_Wizard_Hat"
         ],
         "isDowngrade": false,
         "currencyCosts": []
@@ -11169,24 +11343,35 @@
             "quantity": 1
           },
           {
+            "id": "melvorD:Ancient_Wizard_Robes",
+            "quantity": 1
+          },
+          {
             "id": "melvorF:Fire_Expert_Wizard_Bottoms",
             "quantity": 1
           },
           {
+            "id": "melvorD:Ancient_Wizard_Bottoms",
+            "quantity": 1
+          },
+          {
             "id": "melvorF:Mystic_Fire_Staff",
-            "quantity": 10
+            "quantity": 2
           },
           {
             "id": "expandedAreas:Ruby_Dust",
-            "quantity": 100
+            "quantity": 2000
           },
           {
             "id": "expandedAreas:Eye_of_Fire",
-            "quantity": 25
+            "quantity": 50
           }
         ],
         "rootItemIDs": [
-          "melvorF:Fire_Expert_Wizard_Robes"
+          "melvorF:Fire_Expert_Wizard_Robes",
+          "melvorF:Fire_Expert_Wizard_Bottoms",
+          "melvorD:Ancient_Wizard_Robes",
+          "melvorD:Ancient_Wizard_Bottoms"
         ],
         "isDowngrade": false,
         "currencyCosts": []
@@ -11199,12 +11384,16 @@
             "quantity": 1
           },
           {
+            "id": "melvorD:Ancient_Wizard_Boots",
+            "quantity": 1
+          },
+          {
             "id": "melvorF:Mystic_Fire_Staff",
-            "quantity": 10
+            "quantity": 1
           },
           {
             "id": "expandedAreas:Ruby_Dust",
-            "quantity": 100
+            "quantity": 1000
           },
           {
             "id": "expandedAreas:Eye_of_Fire",
@@ -11212,7 +11401,8 @@
           }
         ],
         "rootItemIDs": [
-          "melvorF:Fire_Expert_Wizard_Boots"
+          "melvorF:Fire_Expert_Wizard_Boots",
+          "melvorD:Ancient_Wizard_Boots"
         ],
         "isDowngrade": false,
         "currencyCosts": []
@@ -11225,12 +11415,16 @@
             "quantity": 1
           },
           {
+            "id": "expandedAreas:Ancient_Staff",
+            "quantity": 1
+          },
+          {
             "id": "melvorD:Fire_Rune",
             "quantity": 10000
           },
           {
             "id": "expandedAreas:Ruby_Dust",
-            "quantity": 100
+            "quantity": 1000
           },
           {
             "id": "expandedAreas:Eye_of_Fire",
@@ -11238,7 +11432,8 @@
           }
         ],
         "rootItemIDs": [
-          "melvorF:Mystic_Fire_Staff"
+          "melvorF:Mystic_Fire_Staff",
+          "expandedAreas:Ancient_Staff"
         ],
         "isDowngrade": false,
         "currencyCosts": []
@@ -11326,12 +11521,12 @@
             "quantity": 10000
           },
           {
-            "id": "expandedAreas:Elemental_Rune",
-            "quantity": 100
+            "id": "expandedAreas:Fragmented_Elemental_Rune",
+            "quantity": 500
           }
         ],
         "rootItemIDs": [
-          "expandedAreas:Elemental_Rune",
+          "expandedAreas:Fragmented_Elemental_Rune",
           "expandedAreas:Diamond_Dust"
         ],
         "isDowngrade": false,
@@ -11756,40 +11951,37 @@
               "id": "Combination_Staves_and_Wands",
               "name": "Combination Staves & Wands",
               "media": "assets/items/Lava_Imbued_Wand.png"
+            },
+            {
+              "id": "Unique",
+              "name": "Unique",
+              "media": "assets/items/Pureform_Rune.png"
             }
           ],
           "recipes": [
             {
-              "id": "Elemental_Rune",
+              "id": "Fragmented_Elemental_Rune",
               "level": 70,
-              "productID": "expandedAreas:Elemental_Rune",
+              "productID": "expandedAreas:Fragmented_Elemental_Rune",
               "baseQuantity": 1,
-              "baseExperience": 24,
-              "categoryID": "melvorF:CombinationRunes",
-              "subcategories": [
-                "melvorF:Runes",
-                "melvorF:WaterComboRunes"
-              ],
+              "baseExperience": 90,
+              "categoryID": "expandedAreas:Unique",
               "itemCosts": [
                 {
-                  "id": "melvorD:Rune_Essence",
+                  "id": "expandedAreas:Air_Rune_Shard",
                   "quantity": 1
                 },
                 {
-                  "id": "expandedAreas:Air_Rune_Shard",
-                  "quantity": 2
-                },
-                {
                   "id": "expandedAreas:Earth_Rune_Shard",
-                  "quantity": 2
+                  "quantity": 1
                 },
                 {
                   "id": "expandedAreas:Fire_Rune_Shard",
-                  "quantity": 2
+                  "quantity": 1
                 },
                 {
                   "id": "expandedAreas:Water_Rune_Shard",
-                  "quantity": 2
+                  "quantity": 1
                 }
               ],
               "currencyCosts": []
@@ -13374,6 +13566,19 @@
       }
     ],
     "items": [
+      {
+        "id": "melvorD:Magic_Chest",
+        "dropTable": {
+          "add": [
+            {
+              "itemID": "expandedAreas:Ancient_Staff",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 1
+            }
+          ]
+        }
+      },
       {
         "id": "melvorD:Spider_Chest",
         "dropTable": {
