@@ -214,7 +214,7 @@
             "chance": 5
           },
           {
-            "effectID": "melvorD:Stun",
+            "effectID": "melvorD:Frostburn",
             "chance": 5
           }
         ],
@@ -919,6 +919,7 @@
         "id": "OzmarathraxInscriptorOfRunes",
         "name": "Ozmarathrax, Inscriptor of Runes",
         "media": "assets/monsters/Ozmarathrax.png",
+        "description": "“You will pay the price for defiling our sanctuary.”",
         "levels": {
           "Hitpoints": 300,
           "Attack": 380,
@@ -977,8 +978,9 @@
       },
       {
         "id": "Kappa",
-        "name": "Kappa",
+        "name": "Hiro the Kappa",
         "media": "assets/monsters/Kappa.png",
+        "description": "Part turtle, part reptile, all cowabunga.",
         "levels": {
           "Hitpoints": 100,
           "Attack": 100,
@@ -1023,8 +1025,9 @@
       },
       {
         "id": "Harpiar",
-        "name": "Harpiar",
+        "name": "Phylla the Harpiar",
         "media": "assets/monsters/Harpiar.png",
+        "description": "I've never heard such a sweet song before...",
         "levels": {
           "Hitpoints": 190,
           "Attack": 175,
@@ -1067,8 +1070,9 @@
       },
       {
         "id": "Fire_Maiden",
-        "name": "Fire Maiden",
+        "name": "Olma, Fire Maiden",
         "media": "assets/monsters/Fire_Maiden.png",
+        "description": "She carries the wrath of at least two suns.",
         "levels": {
           "Hitpoints": 175,
           "Attack": 160,
@@ -1111,7 +1115,7 @@
       },
       {
         "id": "Rock_Giant",
-        "name": "Rock Giant",
+        "name": "Zeke the Rock Giant",
         "media": "assets/monsters/Rock_Giant.png",
         "description": "In a past life, he wished to become rocks.",
         "levels": {
@@ -4277,6 +4281,453 @@
       }
     ],
     "items": [
+      {
+        "id": "Pure_Elementalist_Sceptre",
+        "name": "Pure Elementalist Sceptre",
+        "category": "Combat",
+        "type": "Magic Wand",
+        "media": "assets/items/Pure_Elementalist_Sceptre.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1000000,
+        "customDescription": "Passive: +50 Minimum and Maximum Elemental Spell Dmg. Reduces the Elemental Rune cost of Magic Spells by 2 when equipped as a Weapon.",
+        "tier": "wand",
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 82
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2600
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 35
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 20
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 35
+          }
+        ],
+        "specialAttacks": [
+          "melvorF:NaturesWrath"
+        ],
+        "overrideSpecialChances": [
+          20
+        ],
+        "modifiers": {
+          "flatMagicMaxHit": [
+            {
+              "subcategoryID": "melvorD:Elemental",
+              "value": 5
+            }
+          ],
+          "flatMagicMinHit": [
+            {
+              "subcategoryID": "melvorD:Elemental",
+              "value": 5
+            }
+          ]
+        },
+        "providedRunes": [
+          {
+            "id": "melvorD:Air_Rune",
+            "quantity": 2
+          },
+          {
+            "id": "melvorD:Earth_Rune",
+            "quantity": 2
+          },
+          {
+            "id": "melvorD:Fire_Rune",
+            "quantity": 2
+          },
+          {
+            "id": "melvorD:Water_Rune",
+            "quantity": 2
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "magic"
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Glacia_God_Helmet_P",
+        "name": "Glacia God Helmet (P)",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/Glacia_God_Helmet_P",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 450000,
+        "customDescription": "Passive: +50 Minimum Damage when using Water Spells. +2% chance to Freeze target on hit.",
+        "tier": "ancient",
+        "validSlots": [
+          "Helmet",
+          "Passive"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 85
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 11
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 24
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 6
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 3
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 11
+          },
+          {
+            "key": "damageReduction",
+            "value": 8
+          }
+        ],
+        "modifiers": {
+          "flatMagicMinHit": [
+            {
+              "subcategoryID": "melvorD:Water",
+              "value": 5
+            }
+          ]
+        },
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 2,
+            "effectID": "melvorD:Freeze",
+            "condition": {
+              "character": "Player",
+              "thisAttackType": "magic",
+              "targetAttackType": "any",
+              "type": "CombatType"
+            }
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Glacia_God_Platelegs_P",
+        "name": "Glacia God Platelegs (P)",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/Glacia_God_Platelegs_P",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 950000,
+        "customDescription": "Passive: +50 Minimum Damage when using Water Spells.+2% chance to Freeze target on hit.",
+        "tier": "ancient",
+        "validSlots": [
+          "Platelegs",
+          "Passive"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 85
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 24
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 10
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 10
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 5
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 24
+          },
+          {
+            "key": "damageReduction",
+            "value": 8
+          }
+        ],
+        "modifiers": {
+          "flatMagicMinHit": [
+            {
+              "subcategoryID": "melvorD:Water",
+              "value": 5
+            }
+          ]
+        },
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 2,
+            "effectID": "melvorD:Freeze",
+            "condition": {
+              "character": "Player",
+              "thisAttackType": "magic",
+              "targetAttackType": "any",
+              "type": "CombatType"
+            }
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Glacia_God_Platebody_P",
+        "name": "Glacia God Platebody (P)",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/Glacia_God_Platebody_P",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1050000,
+        "customDescription": "Passive: +50 Minimum Damage when using Water Spells. +2% chance to Freeze target on hit.",
+        "tier": "ancient",
+        "validSlots": [
+          "Platebody",
+          "Passive"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 85
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 34
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 24
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 14
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 7
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 34
+          },
+          {
+            "key": "damageReduction",
+            "value": 8
+          }
+        ],
+        "modifiers": {
+          "flatMagicMinHit": [
+            {
+              "subcategoryID": "melvorD:Water",
+              "value": 5
+            }
+          ]
+        },
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 2,
+            "effectID": "melvorD:Freeze",
+            "condition": {
+              "character": "Player",
+              "thisAttackType": "magic",
+              "targetAttackType": "any",
+              "type": "CombatType"
+            }
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Glacia_God_Boots_P",
+        "name": "Glacia God Boots (P)",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/Glacia_God_Boots_P",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 200000,
+        "customDescription": "Passive: +50 Minimum Damage when using Water Spells.+2% chance to Freeze target on hit.",
+        "tier": "ancient",
+        "validSlots": [
+          "Boots",
+          "Passive"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 85
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 9
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 6
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 8
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 4
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 9
+          },
+          {
+            "key": "damageReduction",
+            "value": 8
+          }
+        ],
+        "modifiers": {
+          "flatMagicMinHit": [
+            {
+              "subcategoryID": "melvorD:Water",
+              "value": 5
+            }
+          ]
+        },
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 2,
+            "effectID": "melvorD:Freeze",
+            "condition": {
+              "character": "Player",
+              "thisAttackType": "magic",
+              "targetAttackType": "any",
+              "type": "CombatType"
+            }
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Glacia_God_Gloves_P",
+        "name": "Glacia God Gloves (P)",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/Glacia_God_Gloves_P",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 100000,
+        "customDescription": "Passive: +50 Minimum Damage when using Water Spells. +2% chance to Freeze target on hit.",
+        "tier": "ancient",
+        "validSlots": [
+          "Gloves",
+          "Passive"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 85
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 6
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 4
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 6
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 3
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 6
+          },
+          {
+            "key": "damageReduction",
+            "value": 8
+          }
+        ],
+        "modifiers": {
+          "flatMagicMinHit": [
+            {
+              "subcategoryID": "melvorD:Water",
+              "value": 5
+            }
+          ]
+        },
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 2,
+            "effectID": "melvorD:Freeze",
+            "condition": {
+              "character": "Player",
+              "thisAttackType": "magic",
+              "targetAttackType": "any",
+              "type": "CombatType"
+            }
+          }
+        ]
+      },
       {
         "id": "Ancient_Staff",
         "name": "Ancient Staff",
@@ -7867,7 +8318,66 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100,
-        "customDescription": "The cover of this battered tome is inscribed with runes of the four elements. Its pages are filled largely indecipherable glyphs and schemes, but for one, written in ancient Melvorian, which reads: 'Seek the Sanctuary of our people.'"
+        "customDescription": "The cover of this battered tome is inscribed with runes of the four elements. Its pages are filled largely indecipherable glyphs and schemes, except for one, written in ancient Melvorian: 'Seek the Sanctuary of our People.'"
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Pure_Elementalist_Hat",
+        "name": "Pure Elementalist Hat",
+        "category": "Combat",
+        "type": "Magic Armour",
+        "media": "assets/items/Pure_Elementalist_Hat.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 300000,
+        "customDescription": "Passive: +11 Minimum Elemental Spell Dmg and +1.1% chance to apply Frostburn, Freeze, Burn, or Sleep to the enemy when attacking with Magic.",
+        "tier": "ancient",
+        "validSlots": [
+          "Helmet",
+          "Passive"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 82
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 9
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 17
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 11
+          },
+          {
+            "key": "damageReduction",
+            "value": 7
+          }
+        ],
+        "modifiers": {
+          "flatMagicMinHit": [
+            {
+              "subcategoryID": "melvorD:Elemental",
+              "value": 11
+            }
+          ]
+        },
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "tableID": "melvorF:NaturesWrath0",
+            "chance": 1.1
+          }
+        ]
       },
       {
         "itemType": "Equipment",
@@ -7880,7 +8390,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +10 Minimum Air Spell Dmg and +1% chance to stun a Melee enemy when attacking with Magic",
+        "customDescription": "Passive: +10 Minimum Air Spell Dmg and +1% chance to frostburn the enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Helmet",
@@ -7924,11 +8434,11 @@
           {
             "appliesWhen": "HitWithAttack",
             "chance": 1,
-            "effectID": "melvorD:Stun",
+            "effectID": "melvorD:Frostburn",
             "condition": {
               "character": "Player",
               "thisAttackType": "magic",
-              "targetAttackType": "melee",
+              "targetAttackType": "any",
               "type": "CombatType"
             }
           }
@@ -7945,7 +8455,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 200000,
-        "customDescription": "Passive: +20 Minimum Air Spell Dmg and +2% chance to stun a Melee enemy when attacking with Magic",
+        "customDescription": "Passive: +20 Minimum Air Spell Dmg and +2% chance to frostburn the enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Platebody",
@@ -7991,13 +8501,72 @@
           {
             "appliesWhen": "HitWithAttack",
             "chance": 2,
-            "effectID": "melvorD:Stun",
+            "effectID": "melvorD:Frostburn",
             "condition": {
               "character": "Player",
               "thisAttackType": "magic",
               "targetAttackType": "melee",
               "type": "CombatType"
             }
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Pure_Elementalist_Robes",
+        "name": "Pure Elementalist Robes",
+        "category": "Combat",
+        "type": "Magic Armour",
+        "media": "assets/items/Pure_Elementalist_Robes.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 750000,
+        "customDescription": "Passive: +11 Minimum Elemental Spell Dmg and +1.1% chance to apply Frostburn, Freeze, Burn, or Sleep to the enemy when attacking with Magic.",
+        "tier": "ancient",
+        "validSlots": [
+          "Helmet",
+          "Passive"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 82
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 38
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 28
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 38
+          },
+          {
+            "key": "damageReduction",
+            "value": 13
+          }
+        ],
+        "modifiers": {
+          "flatMagicMinHit": [
+            {
+              "subcategoryID": "melvorD:Elemental",
+              "value": 11
+            }
+          ]
+        },
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "tableID": "melvorF:NaturesWrath0",
+            "chance": 1.1
           }
         ]
       },
@@ -8012,7 +8581,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +10 Minimum Air Spell Dmg and +1% chance to stun a Melee enemy when attacking with Magic",
+        "customDescription": "Passive: +10 Minimum Air Spell Dmg and +1% chance to frostburn the enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Boots",
@@ -8056,13 +8625,72 @@
           {
             "appliesWhen": "HitWithAttack",
             "chance": 1,
-            "effectID": "melvorD:Stun",
+            "effectID": "melvorD:Frostburn",
             "condition": {
               "character": "Player",
               "thisAttackType": "magic",
-              "targetAttackType": "melee",
+              "targetAttackType": "any",
               "type": "CombatType"
             }
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Pure_Elementalist_Boots",
+        "name": "Pure Elementalist Boots",
+        "category": "Combat",
+        "type": "Magic Armour",
+        "media": "assets/items/Pure_Elementalist_Boots.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 330000,
+        "customDescription": "Passive: +11 Minimum Elemental Spell Dmg and +1.1% chance to apply Frostburn, Freeze, Burn, or Sleep to the enemy when attacking with Magic.",
+        "tier": "ancient",
+        "validSlots": [
+          "Helmet",
+          "Passive"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 82
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 6
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 3
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 7
+          },
+          {
+            "key": "damageReduction",
+            "value": 7
+          }
+        ],
+        "modifiers": {
+          "flatMagicMinHit": [
+            {
+              "subcategoryID": "melvorD:Elemental",
+              "value": 11
+            }
+          ]
+        },
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "tableID": "melvorF:NaturesWrath0",
+            "chance": 1.1
           }
         ]
       },
@@ -8106,7 +8734,7 @@
           },
           {
             "key": "magicDamageBonus",
-            "value": 15
+            "value": 25
           }
         ],
         "modifiers": {
@@ -8127,7 +8755,7 @@
           "expandedAreas:Zephyr_Strike"
         ],
         "overrideSpecialChances": [
-          20
+          10
         ],
         "providedRunes": [
           {
@@ -8149,7 +8777,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +10 Minimum Water Spell Dmg and +1% chance to freeze a Melee enemy when attacking with Magic",
+        "customDescription": "Passive: +10 Minimum Water Spell Dmg and +1% chance to freeze the enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Helmet",
@@ -8197,7 +8825,7 @@
             "condition": {
               "character": "Player",
               "thisAttackType": "magic",
-              "targetAttackType": "melee",
+              "targetAttackType": "any",
               "type": "CombatType"
             }
           }
@@ -8214,7 +8842,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 200000,
-        "customDescription": "Passive: +20 Minimum Water Spell Dmg and +2% chance to freeze a Melee enemy when attacking with Magic",
+        "customDescription": "Passive: +20 Minimum Water Spell Dmg and +2% chance to freeze the enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Platebody",
@@ -8264,7 +8892,7 @@
             "condition": {
               "character": "Player",
               "thisAttackType": "magic",
-              "targetAttackType": "melee",
+              "targetAttackType": "any",
               "type": "CombatType"
             }
           }
@@ -8281,7 +8909,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +10 Minimum Water Spell Dmg and +1% chance to freeze a Melee enemy when attacking with Magic",
+        "customDescription": "Passive: +10 Minimum Water Spell Dmg and +1% chance to freeze the enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Boots",
@@ -8329,7 +8957,7 @@
             "condition": {
               "character": "Player",
               "thisAttackType": "magic",
-              "targetAttackType": "melee",
+              "targetAttackType": "any",
               "type": "CombatType"
             }
           }
@@ -8375,7 +9003,7 @@
           },
           {
             "key": "magicDamageBonus",
-            "value": 15
+            "value": 25
           }
         ],
         "modifiers": {
@@ -8396,7 +9024,7 @@
           "expandedAreas:Cold_Snap"
         ],
         "overrideSpecialChances": [
-          20
+          10
         ],
         "providedRunes": [
           {
@@ -8418,7 +9046,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +10 Minimum Earth Spell Dmg and +1% chance to put a Melee enemy to sleep when attacking with Magic",
+        "customDescription": "Passive: +10 Minimum Earth Spell Dmg and +1% chance to put the enemy to sleep when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Helmet",
@@ -8466,7 +9094,7 @@
             "condition": {
               "character": "Player",
               "thisAttackType": "magic",
-              "targetAttackType": "melee",
+              "targetAttackType": "any",
               "type": "CombatType"
             }
           }
@@ -8483,7 +9111,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 200000,
-        "customDescription": "Passive: +20 Minimum Earth Spell Dmg and +2% chance to put a Melee enemy to sleep when attacking with Magic",
+        "customDescription": "Passive: +20 Minimum Earth Spell Dmg and +2% chance to put the enemy to sleep when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Platebody",
@@ -8533,7 +9161,7 @@
             "condition": {
               "character": "Player",
               "thisAttackType": "magic",
-              "targetAttackType": "melee",
+              "targetAttackType": "any",
               "type": "CombatType"
             }
           }
@@ -8550,7 +9178,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +10 Minimum Earth Spell Dmg and +1% chance to put a Melee enemy to sleep when attacking with Magic",
+        "customDescription": "Passive: +10 Minimum Earth Spell Dmg and +1% chance to put the enemy to sleep when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Boots",
@@ -8598,7 +9226,7 @@
             "condition": {
               "character": "Player",
               "thisAttackType": "magic",
-              "targetAttackType": "melee",
+              "targetAttackType": "any",
               "type": "CombatType"
             }
           }
@@ -8644,7 +9272,7 @@
           },
           {
             "key": "magicDamageBonus",
-            "value": 15
+            "value": 25
           }
         ],
         "modifiers": {
@@ -8665,7 +9293,7 @@
           "expandedAreas:Avalanche"
         ],
         "overrideSpecialChances": [
-          20
+          10
         ],
         "providedRunes": [
           {
@@ -8687,7 +9315,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +10 Minimum Fire Spell Dmg and +1% chance to Burn a Melee enemy when attacking with Magic",
+        "customDescription": "Passive: +10 Minimum Fire Spell Dmg and +1% chance to Burn the enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Helmet",
@@ -8735,7 +9363,7 @@
             "condition": {
               "character": "Player",
               "thisAttackType": "magic",
-              "targetAttackType": "melee",
+              "targetAttackType": "any",
               "type": "CombatType"
             }
           }
@@ -8752,7 +9380,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 200000,
-        "customDescription": "Passive: +20 Minimum Fire Spell Dmg and +2% chance to Burn a Melee enemy when attacking with Magic",
+        "customDescription": "Passive: +20 Minimum Fire Spell Dmg and +2% chance to Burn the enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Platebody",
@@ -8802,7 +9430,7 @@
             "condition": {
               "character": "Player",
               "thisAttackType": "magic",
-              "targetAttackType": "melee",
+              "targetAttackType": "any",
               "type": "CombatType"
             }
           }
@@ -8819,7 +9447,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +10 Minimum Fire Spell Dmg and +1% chance to Burn a Melee enemy when attacking with Magic",
+        "customDescription": "Passive: +10 Minimum Fire Spell Dmg and +1% chance to Burn the enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Boots",
@@ -8867,7 +9495,7 @@
             "condition": {
               "character": "Player",
               "thisAttackType": "magic",
-              "targetAttackType": "melee",
+              "targetAttackType": "any",
               "type": "CombatType"
             }
           }
@@ -8913,7 +9541,7 @@
           },
           {
             "key": "magicDamageBonus",
-            "value": 15
+            "value": 25
           }
         ],
         "modifiers": {
@@ -8934,7 +9562,7 @@
           "expandedAreas:Fierce_Flames"
         ],
         "overrideSpecialChances": [
-          20
+          10
         ],
         "providedRunes": [
           {
@@ -10615,6 +11243,249 @@
     ],
     "itemUpgrades": [
       {
+        "upgradedItemID": "expandedAreas:Pure_Elementalist_Sceptre",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Air_Elementalist_Staff",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Earth_Elementalist_Staff",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Fire_Elementalist_Staff",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Water_Elementalist_Staff",
+            "quantity": 1
+          },
+          {
+            "id": "melvorF:Natures_Wrath_Staff",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Diamond_Dust",
+            "quantity": 5000
+          },
+          {
+            "id": "expandedAreas:Pureform_Rune",
+            "quantity": 5
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Air_Elementalist_Staff",
+          "expandedAreas:Earth_Elementalist_Staff",
+          "expandedAreas:Fire_Elementalist_Staff",
+          "expandedAreas:Water_Elementalist_Staff",
+          "melvorF:Natures_Wrath_Staff"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Pure_Elementalist_Hat",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Air_Elementalist_Hat",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Earth_Elementalist_Hat",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Fire_Elementalist_Hat",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Water_Elementalist_Hat",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Diamond_Dust",
+            "quantity": 5000
+          },
+          {
+            "id": "expandedAreas:Pureform_Rune",
+            "quantity": 5
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Air_Elementalist_Hat",
+          "expandedAreas:Earth_Elementalist_Hat",
+          "expandedAreas:Fire_Elementalist_Hat",
+          "expandedAreas:Water_Elementalist_Hat"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Pure_Elementalist_Robes",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Air_Elementalist_Robes",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Earth_Elementalist_Robes",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Fire_Elementalist_Robes",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Water_Elementalist_Robes",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Diamond_Dust",
+            "quantity": 10000
+          },
+          {
+            "id": "expandedAreas:Pureform_Rune",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Air_Elementalist_Robes",
+          "expandedAreas:Earth_Elementalist_Robes",
+          "expandedAreas:Fire_Elementalist_Robes",
+          "expandedAreas:Water_Elementalist_Robes"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Pure_Elementalist_Boots",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Air_Elementalist_Boots",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Earth_Elementalist_Boots",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Fire_Elementalist_Boots",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Water_Elementalist_Boots",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Diamond_Dust",
+            "quantity": 5000
+          },
+          {
+            "id": "expandedAreas:Pureform_Rune",
+            "quantity": 5
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Air_Elementalist_Boots",
+          "expandedAreas:Earth_Elementalist_Boots",
+          "expandedAreas:Fire_Elementalist_Boots",
+          "expandedAreas:Water_Elementalist_Boots"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Glacia_God_Helm_P",
+        "itemCosts": [
+          {
+            "id": "melvorF:Glacia_God_Helm",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Pureform_Rune",
+            "quantity": 50
+          }
+        ],
+        "rootItemIDs": [
+          "melvorF:Glacia_God_Helm"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Glacia_God_Platebody_P",
+        "itemCosts": [
+          {
+            "id": "melvorF:Glacia_God_Platebody",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Pureform_Rune",
+            "quantity": 50
+          }
+        ],
+        "rootItemIDs": [
+          "melvorF:Glacia_God_Platebody"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Glacia_God_Platelegs_P",
+        "itemCosts": [
+          {
+            "id": "melvorF:Glacia_God_Platelegs",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Pureform_Rune",
+            "quantity": 50
+          }
+        ],
+        "rootItemIDs": [
+          "melvorF:Glacia_God_Platelegs"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Glacia_God_Boots_P",
+        "itemCosts": [
+          {
+            "id": "melvorF:Glacia_God_Boots",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Pureform_Rune",
+            "quantity": 50
+          }
+        ],
+        "rootItemIDs": [
+          "melvorF:Glacia_God_Boots"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Glacia_God_Gloves_P",
+        "itemCosts": [
+          {
+            "id": "melvorF:Glacia_God_Gloves",
+            "quantity": 1
+          },
+          {
+            "id": "expandedAreas:Pureform_Rune",
+            "quantity": 50
+          }
+        ],
+        "rootItemIDs": [
+          "melvorF:Glacia_God_Gloves"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
         "upgradedItemID": "expandedAreas:Red_Dhide_Boots_U",
         "itemCosts": [
           {
@@ -11975,7 +12846,7 @@
             {
               "id": "Staff_of_Dust",
               "productID": "expandedAreas:Staff_of_Dust",
-              "categoryID": "melvorF:Staves",
+              "categoryID": "melvorF:StavesWands",
               "baseExperience": 22,
               "baseQuantity": 1,
               "level": 10,
@@ -12004,7 +12875,7 @@
               "productID": "expandedAreas:Dust_Battlestaff",
               "baseQuantity": 1,
               "baseExperience": 48,
-              "categoryID": "expandedAreas:Combination_Staves_and_Wands",
+              "categoryID": "melvorF:StavesWands",
               "itemCosts": [
                 {
                   "id": "melvorD:Air_Battlestaff",
@@ -12031,7 +12902,7 @@
               "productID": "expandedAreas:Mystic_Dust_Staff",
               "baseQuantity": 1,
               "baseExperience": 88,
-              "categoryID": "expandedAreas:Combination_Staves_and_Wands",
+              "categoryID": "melvorF:StavesWands",
               "itemCosts": [
                 {
                   "id": "melvorD:Mystic_Air_Staff",
@@ -12058,7 +12929,7 @@
               "productID": "expandedAreas:Dust_Imbued_Wand",
               "baseQuantity": 1,
               "baseExperience": 425,
-              "categoryID": "expandedAreas:Combination_Staves_and_Wands",
+              "categoryID": "melvorF:StavesWands",
               "itemCosts": [
                 {
                   "id": "melvorF:Air_Imbued_Wand",

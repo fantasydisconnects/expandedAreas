@@ -1,6 +1,8 @@
 New Content:
 Added "Unique" category to Runecrafting
 Added Ancient Staff.
+Added Glacia God Gear upgrades using Pureform Runes.
+Added Elementalist Gear upgrades using Pureform Runes.
 
 Bug Fixes:
 Elemental Runes are apparently unable to count as a substitute for runes without some freaky code finagling, and so have been changed to do something different (see Balance Changes).
@@ -15,3 +17,4 @@ Upgrade requirements for Elementalist Gear has been changed to require Ancient W
 Orb of the Elements now requires 500 Fragmented Elemental Runes (increased from 100).
 Added Ancient Staff to Magic Chest drop table.
 Dungeon Monsters in Elemental Sanctuary have been heavily nerfed.
+Nerfed Elementalist Gear to be more in line with its requirements and obtainability.
