@@ -1,5 +1,7 @@
 New Content:
 Added Tome of the Elements as a Runecrafting recipe
+Added 4 new Standard Spells
+Added 1 new Rune
 
 Bug Fixes:
 Added missing images for Glacia God Set (P)

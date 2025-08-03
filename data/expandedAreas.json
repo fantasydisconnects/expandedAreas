@@ -810,6 +810,188 @@
     ],
     "attackSpells": [
       {
+        "id": "Wind_Storm",
+        "name": "Wind Storm",
+        "media": "assets/spells/Wind_Storm.png",
+        "level": 72,
+        "runesRequired": [
+          {
+            "id": "melvorD:Air_Rune",
+            "quantity": 20
+          },
+          {
+            "id": "expandedAreas:Wrath_Rune",
+            "quantity": 1
+          }
+        ],
+        "maxHit": 25,
+        "categories": [
+          "melvorD:Air",
+          "melvorD:Elemental"
+        ],
+        "spellbook": "melvorD:Standard",
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 5,
+            "effectID": "melvorD:Frostburn",
+            "condition": {
+              "character": "Player",
+              "thisAttackType": "magic",
+              "targetAttackType": "any",
+              "type": "CombatType"
+            }
+          }
+        ]
+      },
+      {
+        "id": "Water_Storm",
+        "name": "Water Storm",
+        "media": "assets/spells/Water_Storm.png",
+        "level": 75,
+        "runesRequired": [
+          {
+            "id": "melvorD:Air_Rune",
+            "quantity": 12
+          },
+          {
+            "id": "expandedAreas:Wrath_Rune",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Water_Rune",
+            "quantity": 12
+          }
+        ],
+        "runesRequiredAlt": [
+          {
+            "id": "melvorD:Mist_Rune",
+            "quantity": 12
+          },
+          {
+            "id": "expandedAreas:Wrath_Rune",
+            "quantity": 1
+          }
+        ],
+        "maxHit": 26.5,
+        "categories": [
+          "melvorD:Water",
+          "melvorD:Elemental"
+        ],
+        "spellbook": "melvorD:Standard",
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 5,
+            "effectID": "melvorD:Frozen",
+            "condition": {
+              "character": "Player",
+              "thisAttackType": "magic",
+              "targetAttackType": "any",
+              "type": "CombatType"
+            }
+          }
+        ]
+      },
+      {
+        "id": "Earth_Storm",
+        "name": "Earth Storm",
+        "media": "assets/spells/Earth_Storm.png",
+        "level": 79,
+        "runesRequired": [
+          {
+            "id": "melvorD:Air_Rune",
+            "quantity": 12
+          },
+          {
+            "id": "expandedAreas:Wrath_Rune",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Earth_Rune",
+            "quantity": 12
+          }
+        ],
+        "runesRequiredAlt": [
+          {
+            "id": "melvorD:Dust_Rune",
+            "quantity": 12
+          },
+          {
+            "id": "expandedAreas:Wrath_Rune",
+            "quantity": 1
+          }
+        ],
+        "maxHit": 28,
+        "categories": [
+          "melvorD:Earth",
+          "melvorD:Elemental"
+        ],
+        "spellbook": "melvorD:Standard",
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 5,
+            "effectID": "melvorD:Sleep",
+            "condition": {
+              "character": "Player",
+              "thisAttackType": "magic",
+              "targetAttackType": "any",
+              "type": "CombatType"
+            }
+          }
+        ]
+      },
+      {
+        "id": "Fire_Storm",
+        "name": "Fire Storm",
+        "media": "assets/spells/Fire_Storm.png",
+        "level": 68,
+        "runesRequired": [
+          {
+            "id": "melvorD:Air_Rune",
+            "quantity": 12
+          },
+          {
+            "id": "expandedAreas:Wrath_Rune",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Fire_Rune",
+            "quantity": 12
+          }
+        ],
+        "runesRequiredAlt": [
+          {
+            "id": "melvorD:Smoke_Rune",
+            "quantity": 12
+          },
+          {
+            "id": "expandedAreas:Wrath_Rune",
+            "quantity": 1
+          }
+        ],
+        "maxHit": 29.5,
+        "categories": [
+          "melvorD:Fire",
+          "melvorD:Elemental"
+        ],
+        "spellbook": "melvorD:Standard",
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 5,
+            "effectID": "melvorD:Burn",
+            "condition": {
+              "character": "Player",
+              "thisAttackType": "magic",
+              "targetAttackType": "any",
+              "type": "CombatType"
+            }
+          }
+        ]
+      },
+      {
         "id": "Zephyr_Strike",
         "name": "Zephyr Strike",
         "media": "assets/spells/Zephyr_Strike.png",
@@ -4281,6 +4463,18 @@
       }
     ],
     "items": [
+      {
+        "itemType": "Rune",
+        "id": "Wrath_Rune",
+        "name": "Wrath Rune",
+        "category": "Runecrafting",
+        "type": "Rune",
+        "media": "assets/items/Wrath_Rune.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 6
+      },
       {
         "id": "Pure_Elementalist_Sceptre",
         "name": "Pure Elementalist Sceptre",
@@ -8651,7 +8845,7 @@
         "customDescription": "Passive: +30 Minimum Elemental Spell Dmg and +1.5% chance to apply Frostburn, Freeze, Burn, or Sleep to the enemy when attacking with Magic.",
         "tier": "ancient",
         "validSlots": [
-          "Helmet",
+          "Boots",
           "Passive"
         ],
         "occupiesSlots": [],
@@ -12784,6 +12978,24 @@
           ],
           "recipes": [
             {
+              "id": "Wrath_Rune",
+              "level": 90,
+              "productID": "expandedAreas:Wrath_Rune",
+              "baseQuantity": 1,
+              "baseExperience": 26,
+              "categoryID": "melvorF:StandardRunes",
+              "subcategories": [
+                "melvorF:Runes"
+              ],
+              "itemCosts": [
+                {
+                  "id": "melvorD:Rune_Essence",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
               "id": "Tome_of_the_Elements",
               "level": 85,
               "productID": "expandedAreas:Tome_of_the_Elements",
@@ -12806,6 +13018,10 @@
                 {
                   "id": "expandedAreas:Tome_of_Fire",
                   "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Pureform_Rune",
+                  "quantity": 10
                 }
               ]
             },
