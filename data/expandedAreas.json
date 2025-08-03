@@ -4369,7 +4369,7 @@
         "name": "Glacia God Helmet (P)",
         "category": "Combat",
         "type": "Armour",
-        "media": "assets/items/Glacia_God_Helmet_P",
+        "media": "assets/items/Glacia_God_Helmet_P.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -4399,7 +4399,7 @@
           },
           {
             "key": "meleeDefenceBonus",
-            "value": 6
+            "value": 30
           },
           {
             "key": "rangedDefenceBonus",
@@ -4442,7 +4442,7 @@
         "name": "Glacia God Platelegs (P)",
         "category": "Combat",
         "type": "Armour",
-        "media": "assets/items/Glacia_God_Platelegs_P",
+        "media": "assets/items/Glacia_God_Platelegs_P.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -4472,7 +4472,7 @@
           },
           {
             "key": "meleeDefenceBonus",
-            "value": 10
+            "value": 51
           },
           {
             "key": "rangedDefenceBonus",
@@ -4515,7 +4515,7 @@
         "name": "Glacia God Platebody (P)",
         "category": "Combat",
         "type": "Armour",
-        "media": "assets/items/Glacia_God_Platebody_P",
+        "media": "assets/items/Glacia_God_Platebody_P.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -4545,7 +4545,7 @@
           },
           {
             "key": "meleeDefenceBonus",
-            "value": 14
+            "value": 82
           },
           {
             "key": "rangedDefenceBonus",
@@ -4588,7 +4588,7 @@
         "name": "Glacia God Boots (P)",
         "category": "Combat",
         "type": "Armour",
-        "media": "assets/items/Glacia_God_Boots_P",
+        "media": "assets/items/Glacia_God_Boots_P.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -4618,7 +4618,7 @@
           },
           {
             "key": "meleeDefenceBonus",
-            "value": 8
+            "value": 12
           },
           {
             "key": "rangedDefenceBonus",
@@ -4661,7 +4661,7 @@
         "name": "Glacia God Gloves (P)",
         "category": "Combat",
         "type": "Armour",
-        "media": "assets/items/Glacia_God_Gloves_P",
+        "media": "assets/items/Glacia_God_Gloves_P.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -4691,7 +4691,7 @@
           },
           {
             "key": "meleeDefenceBonus",
-            "value": 6
+            "value": 8
           },
           {
             "key": "rangedDefenceBonus",
@@ -8331,7 +8331,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 300000,
-        "customDescription": "Passive: +11 Minimum Elemental Spell Dmg and +1.1% chance to apply Frostburn, Freeze, Burn, or Sleep to the enemy when attacking with Magic.",
+        "customDescription": "Passive: +30 Minimum Elemental Spell Dmg and +1.5% chance to apply Frostburn, Freeze, Burn, or Sleep to the enemy when attacking with Magic.",
         "tier": "ancient",
         "validSlots": [
           "Helmet",
@@ -8367,7 +8367,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Elemental",
-              "value": 11
+              "value": 3
             }
           ]
         },
@@ -8375,7 +8375,7 @@
           {
             "appliesWhen": "HitWithAttack",
             "tableID": "melvorF:NaturesWrath0",
-            "chance": 1.1
+            "chance": 1.5
           }
         ]
       },
@@ -8390,7 +8390,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +10 Minimum Air Spell Dmg and +1% chance to frostburn the enemy when attacking with Magic",
+        "customDescription": "Passive: +25 Minimum Air Spell Dmg and +1% chance to frostburn the enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Helmet",
@@ -8426,7 +8426,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Air",
-              "value": 1
+              "value": 2.5
             }
           ]
         },
@@ -8455,7 +8455,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 200000,
-        "customDescription": "Passive: +20 Minimum Air Spell Dmg and +2% chance to frostburn the enemy when attacking with Magic",
+        "customDescription": "Passive: +50 Minimum Air Spell Dmg and +2% chance to frostburn the enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Platebody",
@@ -8493,7 +8493,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Air",
-              "value": 2
+              "value": 5
             }
           ]
         },
@@ -8522,13 +8522,15 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 750000,
-        "customDescription": "Passive: +11 Minimum Elemental Spell Dmg and +1.1% chance to apply Frostburn, Freeze, Burn, or Sleep to the enemy when attacking with Magic.",
+        "customDescription": "Passive: +60 Minimum Elemental Spell Dmg and +1.5% chance to apply Frostburn, Freeze, Burn, or Sleep to the enemy when attacking with Magic.",
         "tier": "ancient",
         "validSlots": [
-          "Helmet",
+          "Platebody",
           "Passive"
         ],
-        "occupiesSlots": [],
+        "occupiesSlots": [
+          "Platelegs"
+        ],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -8551,14 +8553,14 @@
           },
           {
             "key": "damageReduction",
-            "value": 13
+            "value": 14
           }
         ],
         "modifiers": {
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Elemental",
-              "value": 11
+              "value": 6
             }
           ]
         },
@@ -8566,7 +8568,7 @@
           {
             "appliesWhen": "HitWithAttack",
             "tableID": "melvorF:NaturesWrath0",
-            "chance": 1.1
+            "chance": 3
           }
         ]
       },
@@ -8581,7 +8583,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +10 Minimum Air Spell Dmg and +1% chance to frostburn the enemy when attacking with Magic",
+        "customDescription": "Passive: +25 Minimum Air Spell Dmg and +1% chance to frostburn the enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Boots",
@@ -8617,7 +8619,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Air",
-              "value": 1
+              "value": 2.5
             }
           ]
         },
@@ -8646,7 +8648,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 330000,
-        "customDescription": "Passive: +11 Minimum Elemental Spell Dmg and +1.1% chance to apply Frostburn, Freeze, Burn, or Sleep to the enemy when attacking with Magic.",
+        "customDescription": "Passive: +30 Minimum Elemental Spell Dmg and +1.5% chance to apply Frostburn, Freeze, Burn, or Sleep to the enemy when attacking with Magic.",
         "tier": "ancient",
         "validSlots": [
           "Helmet",
@@ -8682,7 +8684,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Elemental",
-              "value": 11
+              "value": 3
             }
           ]
         },
@@ -8690,7 +8692,7 @@
           {
             "appliesWhen": "HitWithAttack",
             "tableID": "melvorF:NaturesWrath0",
-            "chance": 1.1
+            "chance": 1.5
           }
         ]
       },
@@ -8755,7 +8757,7 @@
           "expandedAreas:Zephyr_Strike"
         ],
         "overrideSpecialChances": [
-          10
+          20
         ],
         "providedRunes": [
           {
@@ -8777,7 +8779,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +10 Minimum Water Spell Dmg and +1% chance to freeze the enemy when attacking with Magic",
+        "customDescription": "Passive: +25 Minimum Water Spell Dmg and +1% chance to freeze the enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Helmet",
@@ -8813,7 +8815,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Water",
-              "value": 1
+              "value": 2.5
             }
           ]
         },
@@ -8842,7 +8844,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 200000,
-        "customDescription": "Passive: +20 Minimum Water Spell Dmg and +2% chance to freeze the enemy when attacking with Magic",
+        "customDescription": "Passive: +50 Minimum Water Spell Dmg and +2% chance to freeze the enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Platebody",
@@ -8880,7 +8882,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Water",
-              "value": 2
+              "value": 5
             }
           ]
         },
@@ -8909,7 +8911,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +10 Minimum Water Spell Dmg and +1% chance to freeze the enemy when attacking with Magic",
+        "customDescription": "Passive: +25 Minimum Water Spell Dmg and +1% chance to freeze the enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Boots",
@@ -8945,7 +8947,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Water",
-              "value": 1
+              "value": 2.5
             }
           ]
         },
@@ -9024,7 +9026,7 @@
           "expandedAreas:Cold_Snap"
         ],
         "overrideSpecialChances": [
-          10
+          20
         ],
         "providedRunes": [
           {
@@ -9046,7 +9048,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +10 Minimum Earth Spell Dmg and +1% chance to put the enemy to sleep when attacking with Magic",
+        "customDescription": "Passive: +25 Minimum Earth Spell Dmg and +1% chance to put the enemy to sleep when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Helmet",
@@ -9082,7 +9084,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Earth",
-              "value": 1
+              "value": 2.5
             }
           ]
         },
@@ -9111,7 +9113,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 200000,
-        "customDescription": "Passive: +20 Minimum Earth Spell Dmg and +2% chance to put the enemy to sleep when attacking with Magic",
+        "customDescription": "Passive: +50 Minimum Earth Spell Dmg and +2% chance to put the enemy to sleep when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Platebody",
@@ -9149,7 +9151,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Earth",
-              "value": 2
+              "value": 5
             }
           ]
         },
@@ -9178,7 +9180,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +10 Minimum Earth Spell Dmg and +1% chance to put the enemy to sleep when attacking with Magic",
+        "customDescription": "Passive: +25 Minimum Earth Spell Dmg and +1% chance to put the enemy to sleep when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Boots",
@@ -9214,7 +9216,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Earth",
-              "value": 1
+              "value": 2.5
             }
           ]
         },
@@ -9293,7 +9295,7 @@
           "expandedAreas:Avalanche"
         ],
         "overrideSpecialChances": [
-          10
+          20
         ],
         "providedRunes": [
           {
@@ -9315,7 +9317,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +10 Minimum Fire Spell Dmg and +1% chance to Burn the enemy when attacking with Magic",
+        "customDescription": "Passive: +25 Minimum Fire Spell Dmg and +1% chance to Burn the enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Helmet",
@@ -9351,7 +9353,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Fire",
-              "value": 1
+              "value": 2.5
             }
           ]
         },
@@ -9380,7 +9382,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 200000,
-        "customDescription": "Passive: +20 Minimum Fire Spell Dmg and +2% chance to Burn the enemy when attacking with Magic",
+        "customDescription": "Passive: +50 Minimum Fire Spell Dmg and +2% chance to Burn the enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Platebody",
@@ -9418,7 +9420,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Fire",
-              "value": 2
+              "value": 5
             }
           ]
         },
@@ -9447,7 +9449,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100000,
-        "customDescription": "Passive: +10 Minimum Fire Spell Dmg and +1% chance to Burn the enemy when attacking with Magic",
+        "customDescription": "Passive: +25 Minimum Fire Spell Dmg and +1% chance to Burn the enemy when attacking with Magic",
         "tier": "ancient",
         "validSlots": [
           "Boots",
@@ -9483,7 +9485,7 @@
           "flatMagicMinHit": [
             {
               "subcategoryID": "melvorD:Fire",
-              "value": 1
+              "value": 2.5
             }
           ]
         },
@@ -9562,7 +9564,7 @@
           "expandedAreas:Fierce_Flames"
         ],
         "overrideSpecialChances": [
-          10
+          20
         ],
         "providedRunes": [
           {
@@ -11396,10 +11398,10 @@
         "currencyCosts": []
       },
       {
-        "upgradedItemID": "expandedAreas:Glacia_God_Helm_P",
+        "upgradedItemID": "expandedAreas:Glacia_God_Helmet_P",
         "itemCosts": [
           {
-            "id": "melvorF:Glacia_God_Helm",
+            "id": "melvorF:Glacia_God_Helmet",
             "quantity": 1
           },
           {
@@ -11408,7 +11410,7 @@
           }
         ],
         "rootItemIDs": [
-          "melvorF:Glacia_God_Helm"
+          "melvorF:Glacia_God_Helmet"
         ],
         "isDowngrade": false,
         "currencyCosts": []
@@ -14423,6 +14425,50 @@
       }
     ],
     "items": [
+      {
+        "id": "melvorF:Glacia_God_Helmet",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "meleeDefenceBonus",
+              "value": 24
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Glacia_God_Platelegs",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "meleeDefenceBonus",
+              "value": 41
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Glacia_God_Platebody",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "meleeDefenceBonus",
+              "value": 68
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Glacia_God_Gloves",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "meleeDefenceBonus",
+              "value": 2
+            }
+          ]
+        }
+      },
       {
         "id": "melvorD:Magic_Chest",
         "dropTable": {
