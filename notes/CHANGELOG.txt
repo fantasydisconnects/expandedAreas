@@ -1,3 +1,6 @@
+New Content:
+Added Tome of the Elements as a Runecrafting recipe
+
 Bug Fixes:
 Added missing images for Glacia God Set (P)
 Fixed the Pure Elementalist Set (all pieces were previously considered Helmets—oops!)
@@ -10,3 +13,4 @@ Changed Pure Elementalist Sceptre to require 1 Orb of the Elements instead of 50
 Decreased Glacia God Set (P) Pureform Rune cost from 50 -> 25
 Changed the Elementalist Set from being an Upgrade to being a Runecrafting recipe
 Added Elemental Pages as possible drops from Runecrafting, scaling with level
+Changed Elemental Tomes' Pages cost from 500 -> 300
