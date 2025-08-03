@@ -4,4 +4,9 @@ Fixed the Pure Elementalist Set (all pieces were previously considered Helmetsâ€
 Increased the Magic Minimum Hit values of all the Elementalist Gear (previously, they were outperformed by the Expert Robes!!! I've really gotta stop working while tired)
 
 Balance Changes:
-The Glacia God Set and Glacia God Set (P) have had their Melee Defence bonuses increased to be equal to an untrimmed set of Rune Armour, to account for Combat Triangle as well as to contest with the Elementalist Gear that was added.
+The Glacia God Set and Glacia God Set (P) have had their Melee Defence bonuses increased to be equal to an untrimmed set of Rune Armour, to account for Combat Triangle as well as to contest with the Elementalist Gear that was added
+Changed rarity of the Ancient Staff to be roughly the same rarity as the Ancient Wizard Hat
+Changed Pure Elementalist Sceptre to require 1 Orb of the Elements instead of 5000 Diamond Dust, and increased Pureform Rune cost from 5 -> 10
+Decreased Glacia God Set (P) Pureform Rune cost from 50 -> 25
+Changed the Elementalist Set from being an Upgrade to being a Runecrafting recipe
+Added Elemental Pages as possible drops from Runecrafting, scaling with level

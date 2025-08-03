@@ -11245,159 +11245,6 @@
     ],
     "itemUpgrades": [
       {
-        "upgradedItemID": "expandedAreas:Pure_Elementalist_Sceptre",
-        "itemCosts": [
-          {
-            "id": "expandedAreas:Air_Elementalist_Staff",
-            "quantity": 1
-          },
-          {
-            "id": "expandedAreas:Earth_Elementalist_Staff",
-            "quantity": 1
-          },
-          {
-            "id": "expandedAreas:Fire_Elementalist_Staff",
-            "quantity": 1
-          },
-          {
-            "id": "expandedAreas:Water_Elementalist_Staff",
-            "quantity": 1
-          },
-          {
-            "id": "melvorF:Natures_Wrath_Staff",
-            "quantity": 1
-          },
-          {
-            "id": "expandedAreas:Diamond_Dust",
-            "quantity": 5000
-          },
-          {
-            "id": "expandedAreas:Pureform_Rune",
-            "quantity": 5
-          }
-        ],
-        "rootItemIDs": [
-          "expandedAreas:Air_Elementalist_Staff",
-          "expandedAreas:Earth_Elementalist_Staff",
-          "expandedAreas:Fire_Elementalist_Staff",
-          "expandedAreas:Water_Elementalist_Staff",
-          "melvorF:Natures_Wrath_Staff"
-        ],
-        "isDowngrade": false,
-        "currencyCosts": []
-      },
-      {
-        "upgradedItemID": "expandedAreas:Pure_Elementalist_Hat",
-        "itemCosts": [
-          {
-            "id": "expandedAreas:Air_Elementalist_Hat",
-            "quantity": 1
-          },
-          {
-            "id": "expandedAreas:Earth_Elementalist_Hat",
-            "quantity": 1
-          },
-          {
-            "id": "expandedAreas:Fire_Elementalist_Hat",
-            "quantity": 1
-          },
-          {
-            "id": "expandedAreas:Water_Elementalist_Hat",
-            "quantity": 1
-          },
-          {
-            "id": "expandedAreas:Diamond_Dust",
-            "quantity": 5000
-          },
-          {
-            "id": "expandedAreas:Pureform_Rune",
-            "quantity": 5
-          }
-        ],
-        "rootItemIDs": [
-          "expandedAreas:Air_Elementalist_Hat",
-          "expandedAreas:Earth_Elementalist_Hat",
-          "expandedAreas:Fire_Elementalist_Hat",
-          "expandedAreas:Water_Elementalist_Hat"
-        ],
-        "isDowngrade": false,
-        "currencyCosts": []
-      },
-      {
-        "upgradedItemID": "expandedAreas:Pure_Elementalist_Robes",
-        "itemCosts": [
-          {
-            "id": "expandedAreas:Air_Elementalist_Robes",
-            "quantity": 1
-          },
-          {
-            "id": "expandedAreas:Earth_Elementalist_Robes",
-            "quantity": 1
-          },
-          {
-            "id": "expandedAreas:Fire_Elementalist_Robes",
-            "quantity": 1
-          },
-          {
-            "id": "expandedAreas:Water_Elementalist_Robes",
-            "quantity": 1
-          },
-          {
-            "id": "expandedAreas:Diamond_Dust",
-            "quantity": 10000
-          },
-          {
-            "id": "expandedAreas:Pureform_Rune",
-            "quantity": 10
-          }
-        ],
-        "rootItemIDs": [
-          "expandedAreas:Air_Elementalist_Robes",
-          "expandedAreas:Earth_Elementalist_Robes",
-          "expandedAreas:Fire_Elementalist_Robes",
-          "expandedAreas:Water_Elementalist_Robes"
-        ],
-        "isDowngrade": false,
-        "currencyCosts": []
-      },
-      {
-        "upgradedItemID": "expandedAreas:Pure_Elementalist_Boots",
-        "itemCosts": [
-          {
-            "id": "expandedAreas:Air_Elementalist_Boots",
-            "quantity": 1
-          },
-          {
-            "id": "expandedAreas:Earth_Elementalist_Boots",
-            "quantity": 1
-          },
-          {
-            "id": "expandedAreas:Fire_Elementalist_Boots",
-            "quantity": 1
-          },
-          {
-            "id": "expandedAreas:Water_Elementalist_Boots",
-            "quantity": 1
-          },
-          {
-            "id": "expandedAreas:Diamond_Dust",
-            "quantity": 5000
-          },
-          {
-            "id": "expandedAreas:Pureform_Rune",
-            "quantity": 5
-          }
-        ],
-        "rootItemIDs": [
-          "expandedAreas:Air_Elementalist_Boots",
-          "expandedAreas:Earth_Elementalist_Boots",
-          "expandedAreas:Fire_Elementalist_Boots",
-          "expandedAreas:Water_Elementalist_Boots"
-        ],
-        "isDowngrade": false,
-        "currencyCosts": []
-      },
-      {
         "upgradedItemID": "expandedAreas:Glacia_God_Helmet_P",
         "itemCosts": [
           {
@@ -11406,7 +11253,7 @@
           },
           {
             "id": "expandedAreas:Pureform_Rune",
-            "quantity": 50
+            "quantity": 25
           }
         ],
         "rootItemIDs": [
@@ -11424,7 +11271,7 @@
           },
           {
             "id": "expandedAreas:Pureform_Rune",
-            "quantity": 50
+            "quantity": 25
           }
         ],
         "rootItemIDs": [
@@ -11442,7 +11289,7 @@
           },
           {
             "id": "expandedAreas:Pureform_Rune",
-            "quantity": 50
+            "quantity": 25
           }
         ],
         "rootItemIDs": [
@@ -11460,7 +11307,7 @@
           },
           {
             "id": "expandedAreas:Pureform_Rune",
-            "quantity": 50
+            "quantity": 25
           }
         ],
         "rootItemIDs": [
@@ -11478,7 +11325,7 @@
           },
           {
             "id": "expandedAreas:Pureform_Rune",
-            "quantity": 50
+            "quantity": 25
           }
         ],
         "rootItemIDs": [
@@ -12406,7 +12253,7 @@
           },
           {
             "id": "expandedAreas:Wispy_Page",
-            "quantity": 500
+            "quantity": 200
           }
         ],
         "rootItemIDs": [
@@ -12426,7 +12273,7 @@
           },
           {
             "id": "expandedAreas:Waterlogged_Page",
-            "quantity": 500
+            "quantity": 200
           }
         ],
         "rootItemIDs": [
@@ -12446,7 +12293,7 @@
           },
           {
             "id": "expandedAreas:Muddy_Page",
-            "quantity": 500
+            "quantity": 200
           }
         ],
         "rootItemIDs": [
@@ -12466,7 +12313,7 @@
           },
           {
             "id": "expandedAreas:Burnt_Page",
-            "quantity": 500
+            "quantity": 200
           }
         ],
         "rootItemIDs": [
@@ -12621,25 +12468,6 @@
       {
         "skillID": "melvorD:Firemaking",
         "data": {
-          "rareDrops": [
-            {
-              "itemID": "expandedAreas:Burnt_Page",
-              "requirements": [
-                {
-                  "type": "ItemFound",
-                  "itemID": "expandedAreas:Mysterious_Tome"
-                }
-              ],
-              "quantity": 1,
-              "chance": {
-                "type": "Fixed",
-                "chance": 0.00325
-              },
-              "realms": [
-                "melvorD:Melvor"
-              ]
-            }
-          ],
           "logs": [
             {
               "id": "Evergreen_Logs",
@@ -12810,6 +12638,72 @@
       {
         "skillID": "melvorD:Runecrafting",
         "data": {
+          "rareDrops": [
+            {
+              "itemID": "expandedAreas:Wispy_Page",
+              "requirements": [
+                {
+                  "type": "ItemFound",
+                  "itemID": "expandedAreas:Mysterious_Tome"
+                }
+              ],
+              "quantity": 1,
+              "chance": {
+                "baseChance": 0.1,
+                "maxChance": 5,
+                "scalingFactor": 0.05,
+                "type": "LevelScaling"
+              }
+            },
+            {
+              "itemID": "expandedAreas:Muddy_Page",
+              "requirements": [
+                {
+                  "type": "ItemFound",
+                  "itemID": "expandedAreas:Mysterious_Tome"
+                }
+              ],
+              "quantity": 1,
+              "chance": {
+                "baseChance": 0.1,
+                "maxChance": 5,
+                "scalingFactor": 0.05,
+                "type": "LevelScaling"
+              }
+            },
+            {
+              "itemID": "expandedAreas:Waterlogged_Page",
+              "requirements": [
+                {
+                  "type": "ItemFound",
+                  "itemID": "expandedAreas:Mysterious_Tome"
+                }
+              ],
+              "quantity": 1,
+              "chance": {
+                "baseChance": 0.1,
+                "maxChance": 5,
+                "scalingFactor": 0.05,
+                "type": "LevelScaling"
+              }
+            },
+            {
+              "itemID": "expandedAreas:Burnt_Page",
+              "requirements": [
+                {
+                  "type": "ItemFound",
+                  "itemID": "expandedAreas:Mysterious_Tome"
+                }
+              ],
+              "quantity": 1,
+              "chance": {
+                "baseChance": 0.1,
+                "maxChance": 5,
+                "scalingFactor": 0.05,
+                "type": "LevelScaling"
+              }
+            }
+          ],
           "categories": [
             {
               "id": "Unique",
@@ -12818,6 +12712,150 @@
             }
           ],
           "recipes": [
+            {
+              "id": "Pure_Elementalist_Hat",
+              "level": 99,
+              "productID": "expandedAreas:Pure_Elementalist_Hat",
+              "baseQuantity": 1,
+              "baseExperience": 9001,
+              "categoryID": "expandedAreas:Unique",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Air_Elementalist_Hat",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Earth_Elementalist_Hat",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Fire_Elementalist_Hat",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Water_Elementalist_Hat",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Diamond_Dust",
+                  "quantity": 5000
+                },
+                {
+                  "id": "expandedAreas:Pureform_Rune",
+                  "quantity": 5
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Pure_Elementalist_Robes",
+              "level": 99,
+              "productID": "expandedAreas:Pure_Elementalist_Robes",
+              "baseQuantity": 1,
+              "baseExperience": 18002,
+              "categoryID": "expandedAreas:Unique",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Air_Elementalist_Robes",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Earth_Elementalist_Robes",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Fire_Elementalist_Robes",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Water_Elementalist_Robes",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Diamond_Dust",
+                  "quantity": 10000
+                },
+                {
+                  "id": "expandedAreas:Pureform_Rune",
+                  "quantity": 10
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Pure_Elementalist_Boots",
+              "level": 99,
+              "baseQuantity": 1,
+              "baseExperience": 9001,
+              "categoryID": "expandedAreas:Unique",
+              "productID": "expandedAreas:Pure_Elementalist_Boots",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Air_Elementalist_Boots",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Earth_Elementalist_Boots",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Fire_Elementalist_Boots",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Water_Elementalist_Boots",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Diamond_Dust",
+                  "quantity": 5000
+                },
+                {
+                  "id": "expandedAreas:Pureform_Rune",
+                  "quantity": 5
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Pure_Elementalist_Sceptre",
+              "level": 99,
+              "productID": "expandedAreas:Pure_Elementalist_Sceptre",
+              "baseQuantity": 1,
+              "baseExperience": 9001,
+              "categoryID": "expandedAreas:Unique",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Air_Elementalist_Staff",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Earth_Elementalist_Staff",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Fire_Elementalist_Staff",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Water_Elementalist_Staff",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorF:Natures_Wrath_Staff",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Orb_of_the_Elements",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Pureform_Rune",
+                  "quantity": 10
+                }
+              ],
+              "currencyCosts": []
+            },
             {
               "id": "Fragmented_Elemental_Rune",
               "level": 70,
@@ -13806,27 +13844,7 @@
       },
       {
         "skillID": "melvorD:Fishing",
-        "data": {
-          "rareDrops": [
-            {
-              "itemID": "expandedAreas:Waterlogged_Page",
-              "requirements": [
-                {
-                  "type": "ItemFound",
-                  "itemID": "expandedAreas:Mysterious_Tome"
-                }
-              ],
-              "quantity": 1,
-              "chance": {
-                "type": "Fixed",
-                "chance": 0.00325
-              },
-              "realms": [
-                "melvorD:Melvor"
-              ]
-            }
-          ]
-        }
+        "data": {}
       },
       {
         "skillID": "melvorD:Farming",
@@ -13896,124 +13914,6 @@
                 "quantity": 1
               },
               "grownMedia": "assets/skills/woodcutting/Loblolly.svg"
-            }
-          ],
-          "rareDrops": [
-            {
-              "itemID": "expandedAreas:Muddy_Page",
-              "requirements": [
-                {
-                  "type": "ItemFound",
-                  "itemID": "expandedAreas:Mysterious_Tome"
-                }
-              ],
-              "quantity": 1,
-              "chance": {
-                "type": "Fixed",
-                "chance": 0.00325
-              },
-              "realms": [
-                "melvorD:Melvor"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "skillID": "melvorD:Astrology",
-        "data": {
-          "rareDrops": [
-            {
-              "itemID": "expandedAreas:Wispy_Page",
-              "requirements": [
-                {
-                  "type": "ItemFound",
-                  "itemID": "expandedAreas:Mysterious_Tome"
-                }
-              ],
-              "quantity": 1,
-              "chance": {
-                "type": "Fixed",
-                "chance": 0.00325
-              },
-              "realms": [
-                "melvorD:Melvor"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "skillID": "melvorD:Runecrafting",
-        "data": {
-          "rareDrops": [
-            {
-              "itemID": "expandedAreas:Wispy_Page",
-              "requirements": [
-                {
-                  "type": "ItemFound",
-                  "itemID": "expandedAreas:Mysterious_Tome"
-                }
-              ],
-              "quantity": 1,
-              "chance": {
-                "type": "Fixed",
-                "chance": 0.00325
-              },
-              "realms": [
-                "melvorD:Melvor"
-              ]
-            },
-            {
-              "itemID": "expandedAreas:Waterlogged_Page",
-              "requirements": [
-                {
-                  "type": "ItemFound",
-                  "itemID": "expandedAreas:Mysterious_Tome"
-                }
-              ],
-              "quantity": 1,
-              "chance": {
-                "type": "Fixed",
-                "chance": 0.00325
-              },
-              "realms": [
-                "melvorD:Melvor"
-              ]
-            },
-            {
-              "itemID": "expandedAreas:Muddy_Page",
-              "requirements": [
-                {
-                  "type": "ItemFound",
-                  "itemID": "expandedAreas:Mysterious_Tome"
-                }
-              ],
-              "quantity": 1,
-              "chance": {
-                "type": "Fixed",
-                "chance": 0.00325
-              },
-              "realms": [
-                "melvorD:Melvor"
-              ]
-            },
-            {
-              "itemID": "expandedAreas:Burnt_Page",
-              "requirements": [
-                {
-                  "type": "ItemFound",
-                  "itemID": "expandedAreas:Mysterious_Tome"
-                }
-              ],
-              "quantity": 1,
-              "chance": {
-                "type": "Fixed",
-                "chance": 0.00325
-              },
-              "realms": [
-                "melvorD:Melvor"
-              ]
             }
           ]
         }
@@ -14477,7 +14377,7 @@
               "itemID": "expandedAreas:Ancient_Staff",
               "minQuantity": 1,
               "maxQuantity": 1,
-              "weight": 1
+              "weight": 4
             }
           ]
         }
