@@ -88,6 +88,10 @@
             "itemID": "expandedAreas:Fragmented_Elemental_Rune"
           }
         ],
+        "pet": {
+          "petID": "expandedAreas:Ellie",
+          "weight": 200
+        },
         "fixedPetClears": false,
         "id": "Elemental_Sanctuary",
         "media": "assets/dungeons/Elemental_Sanctuary.png",
@@ -115,6 +119,10 @@
         ],
         "dropBones": true,
         "entryRequirements": [],
+        "pet": {
+          "petID": "expandedAreas:Yeemik",
+          "weight": 350
+        },
         "fixedPetClears": false,
         "id": "Golbin_Hideout",
         "media": "assets/dungeons/Golbin_Hideout.png",
@@ -813,7 +821,7 @@
         "id": "Wind_Storm",
         "name": "Wind Storm",
         "media": "assets/spells/Wind_Storm.png",
-        "level": 72,
+        "level": 74,
         "runesRequired": [
           {
             "id": "melvorD:Air_Rune",
@@ -848,7 +856,7 @@
         "id": "Water_Storm",
         "name": "Water Storm",
         "media": "assets/spells/Water_Storm.png",
-        "level": 75,
+        "level": 78,
         "runesRequired": [
           {
             "id": "melvorD:Air_Rune",
@@ -883,7 +891,7 @@
           {
             "appliesWhen": "HitWithAttack",
             "chance": 5,
-            "effectID": "melvorD:Frozen",
+            "effectID": "melvorD:Freeze",
             "condition": {
               "character": "Player",
               "thisAttackType": "magic",
@@ -897,7 +905,7 @@
         "id": "Earth_Storm",
         "name": "Earth Storm",
         "media": "assets/spells/Earth_Storm.png",
-        "level": 79,
+        "level": 81,
         "runesRequired": [
           {
             "id": "melvorD:Air_Rune",
@@ -946,7 +954,7 @@
         "id": "Fire_Storm",
         "name": "Fire Storm",
         "media": "assets/spells/Fire_Storm.png",
-        "level": 68,
+        "level": 85,
         "runesRequired": [
           {
             "id": "melvorD:Air_Rune",
@@ -1098,6 +1106,246 @@
     ],
     "monsters": [
       {
+        "id": "Baby_Green_Dragon",
+        "name": "Baby Green Dragon",
+        "media": "assets/monsters/Baby_Green_Dragon.png",
+        "levels": {
+          "Hitpoints": 5455,
+          "Attack": 38,
+          "Strength": 38,
+          "Defence": 38,
+          "Ranged": 30,
+          "Magic": 30
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 75,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Green_Dragonhide",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 5096
+          },
+          {
+            "itemID": "expandedAreas:Green_Dragon_Scale",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 1024
+          }
+        ],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "bones": {
+          "itemID": "expandedAreas:Baby_Dragon_Bones",
+          "quantity": 1
+        },
+        "currencyDrops": [
+          {
+            "currencyID": "melvorD:GP",
+            "min": 1,
+            "max": 40
+          }
+        ]
+      },
+      {
+        "id": "Baby_Blue_Dragon",
+        "name": "Baby Blue Dragon",
+        "media": "assets/monsters/Baby_Blue_Dragon.png",
+        "levels": {
+          "Hitpoints": 55,
+          "Attack": 48,
+          "Strength": 48,
+          "Defence": 48,
+          "Ranged": 40,
+          "Magic": 40
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 10
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 10
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 75,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Blue_Dragonhide",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 5096
+          },
+          {
+            "itemID": "expandedAreas:Blue_Dragon_Scale",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 1024
+          }
+        ],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "bones": {
+          "itemID": "expandedAreas:Baby_Dragon_Bones",
+          "quantity": 1
+        },
+        "currencyDrops": [
+          {
+            "currencyID": "melvorD:GP",
+            "min": 1,
+            "max": 60
+          }
+        ]
+      },
+      {
+        "id": "Baby_Red_Dragon",
+        "name": "Baby Red Dragon",
+        "media": "assets/monsters/Baby_Red_Dragon.png",
+        "levels": {
+          "Hitpoints": 65,
+          "Attack": 58,
+          "Strength": 58,
+          "Defence": 58,
+          "Ranged": 50,
+          "Magic": 50
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 10
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 30
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 30
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 75,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Red_Dragonhide",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 5096
+          },
+          {
+            "itemID": "expandedAreas:Red_Dragon_Scale",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 1024
+          }
+        ],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "bones": {
+          "itemID": "expandedAreas:Baby_Dragon_Bones",
+          "quantity": 1
+        },
+        "currencyDrops": [
+          {
+            "currencyID": "melvorD:GP",
+            "min": 1,
+            "max": 80
+          }
+        ]
+      },
+      {
+        "id": "Baby_Black_Dragon",
+        "name": "Baby Black Dragon",
+        "media": "assets/monsters/Baby_Black_Dragon.png",
+        "levels": {
+          "Hitpoints": 75,
+          "Attack": 68,
+          "Strength": 68,
+          "Defence": 68,
+          "Ranged": 60,
+          "Magic": 60
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 20
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 40
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 40
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 75,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Black_Dragonhide",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 5096
+          },
+          {
+            "itemID": "expandedAreas:Black_Dragon_Scale",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 1024
+          }
+        ],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "bones": {
+          "itemID": "expandedAreas:Baby_Dragon_Bones",
+          "quantity": 1
+        },
+        "currencyDrops": [
+          {
+            "currencyID": "melvorD:GP",
+            "min": 1,
+            "max": 100
+          }
+        ]
+      },
+      {
         "id": "OzmarathraxInscriptorOfRunes",
         "name": "Ozmarathrax, Inscriptor of Runes",
         "media": "assets/monsters/Ozmarathrax.png",
@@ -1147,14 +1395,14 @@
         "isBoss": true,
         "selectedSpell": "melvorF:NaturesWrath",
         "bones": {
-          "itemID": "melvorD:Magic_Bones",
+          "itemID": "expandedAreas:Superior_Dragon_Bones",
           "quantity": 1
         },
         "currencyDrops": [
           {
             "currencyID": "melvorD:GP",
-            "min": 100000,
-            "max": 150000
+            "min": 10000,
+            "max": 15000
           }
         ]
       },
@@ -2059,6 +2307,10 @@
         "id": "Chieftain_Erik",
         "name": "Chieftain Erik",
         "media": "assets/monsters/Chieftain_Erik.png",
+        "pet": {
+          "id": "expandedAreas:Lil_Erik",
+          "quantity": 350
+        },
         "levels": {
           "Attack": 99,
           "Defence": 45,
@@ -3449,6 +3701,10 @@
         "name": "Golbin Chief",
         "media": "assets/monsters/Golbin_Chief.png",
         "description": "“Reek-reek! Shmig blig. Dorgoo!”",
+        "pet": {
+          "id": "expandedAreas:Tinychief",
+          "quantity": 350
+        },
         "levels": {
           "Attack": 50,
           "Defence": 35,
@@ -4281,6 +4537,10 @@
         "name": "Guardian of the Elements",
         "media": "assets/monsters/Guardian_of_the_Elements.png",
         "description": "“I CONTAIN THAT WHICH BINDS MELVOR.”",
+        "pet": {
+          "id": "expandedAreas:Swirli",
+          "quantity": 200
+        },
         "levels": {
           "Attack": 120,
           "Defence": 287,
@@ -4445,11 +4705,82 @@
     ],
     "pets": [
       {
+        "id": "Swirli",
+        "name": "Swirli",
+        "media": "assets/pets/Swirli.svg",
+        "hint": "Obtained from <strong>Guardian of the Elements</strong>",
+        "ignoreCompletion": false,
+        "modifiers": {
+          "runePreservationChance": 0.5
+        },
+        "activeInRaid": false,
+        "scaleChanceWithMasteryPool": false
+      },
+      {
+        "id": "Tinychief",
+        "name": "Tinychief",
+        "media": "assets/pets/Tinychief.svg",
+        "hint": "Obtained from <strong>Golbin Chieftain</strong>",
+        "ignoreCompletion": false,
+        "modifiers": {
+          "combatLootDoublingChance": 0.1
+        },
+        "activeInRaid": false,
+        "scaleChanceWithMasteryPool": false
+      },
+      {
+        "id": "Yeemik",
+        "name": "Yeemik",
+        "media": "assets/pets/Yeemik.svg",
+        "hint": "Obtained from <strong>Golbin Hideout</strong>",
+        "ignoreCompletion": false,
+        "modifiers": {
+          "dodgeChance": 0.0025
+        },
+        "activeInRaid": false,
+        "scaleChanceWithMasteryPool": false
+      },
+      {
+        "id": "Lil_Erik",
+        "name": "Lil Erik",
+        "media": "assets/pets/Lil_Erik.svg",
+        "hint": "Obtained from <strong>Chieftain Erik</strong>",
+        "ignoreCompletion": false,
+        "modifiers": {
+          "globalItemDoublingChance": 0.5
+        },
+        "activeInRaid": false,
+        "scaleChanceWithMasteryPool": false
+      },
+      {
+        "id": "Ellie",
+        "name": "Ellie",
+        "media": "assets/pets/Ellie.svg",
+        "hint": "Obtained from <strong>Elemental Sanctuary</strong>",
+        "ignoreCompletion": false,
+        "modifiers": {
+          "flatMagicMinHit": [
+            {
+              "subcategoryID": "melvorD:Elemental",
+              "value": 0.25
+            }
+          ],
+          "flatMagicMaxHit": [
+            {
+              "subcategoryID": "melvorD:Elemental",
+              "value": 0.25
+            }
+          ]
+        },
+        "activeInRaid": false,
+        "scaleChanceWithMasteryPool": false
+      },
+      {
         "id": "Fenri",
         "name": "Fenri",
         "media": "assets/pets/Fenri.svg",
         "hint": "Obtained from <strong>The Barbarian Trials</strong>",
-        "ignoreCompletion": true,
+        "ignoreCompletion": false,
         "modifiers": {
           "flatHiddenSkillLevel": [
             {
@@ -4463,6 +4794,66 @@
       }
     ],
     "items": [
+      {
+        "itemType": "Item",
+        "id": "Dragonscale_Dust",
+        "name": "Dragonscale Dust",
+        "category": "Herblore",
+        "type": "Ingredient",
+        "media": "assets/items/Dragonscale_Dust.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 10
+      },
+      {
+        "itemType": "Item",
+        "id": "Green_Dragon_Scale",
+        "name": "Green Dragon Scale",
+        "category": "Herblore",
+        "type": "Ingredient",
+        "media": "assets/items/Green_Dragon_Scale.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 30
+      },
+      {
+        "itemType": "Item",
+        "id": "Blue_Dragon_Scale",
+        "name": "Blue Dragon Scale",
+        "category": "Herblore",
+        "type": "Ingredient",
+        "media": "assets/items/Blue_Dragon_Scale.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 40
+      },
+      {
+        "itemType": "Item",
+        "id": "Red_Dragon_Scale",
+        "name": "Red Dragon Scale",
+        "category": "Herblore",
+        "type": "Ingredient",
+        "media": "assets/items/Red_Dragon_Scale.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50
+      },
+      {
+        "itemType": "Item",
+        "id": "Black_Dragon_Scale",
+        "name": "Black Dragon Scale",
+        "category": "Herblore",
+        "type": "Ingredient",
+        "media": "assets/items/Black_Dragon_Scale.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 60
+      },
       {
         "itemType": "Rune",
         "id": "Wrath_Rune",
@@ -7550,7 +7941,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
-        "healsFor": 5
+        "healsFor": 3
       },
       {
         "id": "Cooked_Grub",
@@ -7563,7 +7954,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 5,
-        "healsFor": 10
+        "healsFor": 6
       },
       {
         "id": "Cooked_Grub_Perfect",
@@ -7576,7 +7967,7 @@
         "golbinRaidExclusive": false,
         "sellsFor": 10,
         "itemType": "Food",
-        "healsFor": 11
+        "healsFor": 6.6
       },
       {
         "id": "Sand",
@@ -7680,6 +8071,32 @@
             "type": "EnemyAttack"
           }
         ]
+      },
+      {
+        "id": "Superior_Dragon_Bones",
+        "name": "Superior Dragon Bones",
+        "category": "Misc",
+        "type": "Bones",
+        "itemType": "Bone",
+        "media": "assets/items/Superior_Dragon_Bones.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 500,
+        "prayerPoints": 12
+      },
+      {
+        "id": "Baby_Dragon_Bones",
+        "name": "Baby Dragon Bones",
+        "category": "Misc",
+        "type": "Bones",
+        "itemType": "Bone",
+        "media": "assets/items/Baby_Dragon_Bones.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 10,
+        "prayerPoints": 2
       },
       {
         "id": "Monkey_Bones",
@@ -10836,9 +11253,9 @@
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 36,
+        "sellsFor": 240,
         "itemType": "Food",
-        "healsFor": 15.4
+        "healsFor": 13
       },
       {
         "id": "Chicken_Pesto_Pasta_Perfect",
@@ -10849,9 +11266,9 @@
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 40,
+        "sellsFor": 360,
         "itemType": "Food",
-        "healsFor": 16.9
+        "healsFor": 14.3
       },
       {
         "itemType": "Item",
@@ -11207,17 +11624,34 @@
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 900,
+        "sellsFor": 200,
         "itemType": "Potion",
         "modifiers": {
-          "dragonBreathDamage": -60
+          "dragonBreathDamage": -20
         },
-        "charges": 10,
+        "charges": 1,
         "tier": 0,
         "action": "melvorD:Combat",
         "consumesOn": [
           {
-            "type": "EnemyAttack"
+            "type": "MonsterSpawned",
+            "monsterIDs": [
+              "melvorD:GreenDragon",
+              "melvorD:BlueDragon",
+              "melvorD:RedDragon",
+              "melvorD:BlackDragon",
+              "melvorF:ElderDragon",
+              "melvorD:PratTheProtectorOfSecrets",
+              "melvorD:MalcsTheGuardianOfMelvor",
+              "melvorF:ChaoticGreaterDragon",
+              "melvorF:WickedGreaterDragon",
+              "melvorF:HuntingGreaterDragon",
+              "melvorF:MalcsTheLeaderOfDragons",
+              "melvorF:PratTheGuardianOfSecrets",
+              "melvorF:PratTheGuardianOfSecretsBoss",
+              "melvorF:MalcsTheGuardianOfStrongholds",
+              "melvorF:GreaterSkeletalDragon"
+            ]
           }
         ]
       },
@@ -11230,17 +11664,34 @@
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 1300,
+        "sellsFor": 300,
         "itemType": "Potion",
         "modifiers": {
-          "dragonBreathDamage": -70
+          "dragonBreathDamage": -30
         },
-        "charges": 15,
+        "charges": 1,
         "tier": 1,
         "action": "melvorD:Combat",
         "consumesOn": [
           {
-            "type": "EnemyAttack"
+            "type": "MonsterSpawned",
+            "monsterIDs": [
+              "melvorD:GreenDragon",
+              "melvorD:BlueDragon",
+              "melvorD:RedDragon",
+              "melvorD:BlackDragon",
+              "melvorF:ElderDragon",
+              "melvorD:PratTheProtectorOfSecrets",
+              "melvorD:MalcsTheGuardianOfMelvor",
+              "melvorF:ChaoticGreaterDragon",
+              "melvorF:WickedGreaterDragon",
+              "melvorF:HuntingGreaterDragon",
+              "melvorF:MalcsTheLeaderOfDragons",
+              "melvorF:PratTheGuardianOfSecrets",
+              "melvorF:PratTheGuardianOfSecretsBoss",
+              "melvorF:MalcsTheGuardianOfStrongholds",
+              "melvorF:GreaterSkeletalDragon"
+            ]
           }
         ]
       },
@@ -11253,17 +11704,34 @@
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 1700,
+        "sellsFor": 400,
         "itemType": "Potion",
         "modifiers": {
-          "dragonBreathDamage": -80
+          "dragonBreathDamage": -40
         },
-        "charges": 20,
+        "charges": 1,
         "tier": 2,
         "action": "melvorD:Combat",
         "consumesOn": [
           {
-            "type": "EnemyAttack"
+            "type": "MonsterSpawned",
+            "monsterIDs": [
+              "melvorD:GreenDragon",
+              "melvorD:BlueDragon",
+              "melvorD:RedDragon",
+              "melvorD:BlackDragon",
+              "melvorF:ElderDragon",
+              "melvorD:PratTheProtectorOfSecrets",
+              "melvorD:MalcsTheGuardianOfMelvor",
+              "melvorF:ChaoticGreaterDragon",
+              "melvorF:WickedGreaterDragon",
+              "melvorF:HuntingGreaterDragon",
+              "melvorF:MalcsTheLeaderOfDragons",
+              "melvorF:PratTheGuardianOfSecrets",
+              "melvorF:PratTheGuardianOfSecretsBoss",
+              "melvorF:MalcsTheGuardianOfStrongholds",
+              "melvorF:GreaterSkeletalDragon"
+            ]
           }
         ]
       },
@@ -11276,17 +11744,194 @@
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
+        "sellsFor": 500,
+        "itemType": "Potion",
+        "modifiers": {
+          "dragonBreathDamage": -50
+        },
+        "charges": 1,
+        "tier": 3,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "MonsterSpawned",
+            "monsterIDs": [
+              "melvorD:GreenDragon",
+              "melvorD:BlueDragon",
+              "melvorD:RedDragon",
+              "melvorD:BlackDragon",
+              "melvorF:ElderDragon",
+              "melvorD:PratTheProtectorOfSecrets",
+              "melvorD:MalcsTheGuardianOfMelvor",
+              "melvorF:ChaoticGreaterDragon",
+              "melvorF:WickedGreaterDragon",
+              "melvorF:HuntingGreaterDragon",
+              "melvorF:MalcsTheLeaderOfDragons",
+              "melvorF:PratTheGuardianOfSecrets",
+              "melvorF:PratTheGuardianOfSecretsBoss",
+              "melvorF:MalcsTheGuardianOfStrongholds",
+              "melvorF:GreaterSkeletalDragon"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Super_Antidragon_Potion_I",
+        "name": "Super Anti-Dragon Potion I",
+        "category": "Herblore",
+        "type": "Potion",
+        "media": "assets/items/Super_Antidragon_Potion_I.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 900,
+        "itemType": "Potion",
+        "modifiers": {
+          "dragonBreathDamage": -60
+        },
+        "charges": 1,
+        "tier": 0,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "MonsterSpawned",
+            "monsterIDs": [
+              "melvorD:GreenDragon",
+              "melvorD:BlueDragon",
+              "melvorD:RedDragon",
+              "melvorD:BlackDragon",
+              "melvorF:ElderDragon",
+              "melvorD:PratTheProtectorOfSecrets",
+              "melvorD:MalcsTheGuardianOfMelvor",
+              "melvorF:ChaoticGreaterDragon",
+              "melvorF:WickedGreaterDragon",
+              "melvorF:HuntingGreaterDragon",
+              "melvorF:MalcsTheLeaderOfDragons",
+              "melvorF:PratTheGuardianOfSecrets",
+              "melvorF:PratTheGuardianOfSecretsBoss",
+              "melvorF:MalcsTheGuardianOfStrongholds",
+              "melvorF:GreaterSkeletalDragon"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Super_Antidragon_Potion_II",
+        "name": "Super Anti-Dragon Potion II",
+        "category": "Herblore",
+        "type": "Potion",
+        "media": "assets/items/Super_Antidragon_Potion_II.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1300,
+        "itemType": "Potion",
+        "modifiers": {
+          "dragonBreathDamage": -70
+        },
+        "charges": 1,
+        "tier": 1,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "MonsterSpawned",
+            "monsterIDs": [
+              "melvorD:GreenDragon",
+              "melvorD:BlueDragon",
+              "melvorD:RedDragon",
+              "melvorD:BlackDragon",
+              "melvorF:ElderDragon",
+              "melvorD:PratTheProtectorOfSecrets",
+              "melvorD:MalcsTheGuardianOfMelvor",
+              "melvorF:ChaoticGreaterDragon",
+              "melvorF:WickedGreaterDragon",
+              "melvorF:HuntingGreaterDragon",
+              "melvorF:MalcsTheLeaderOfDragons",
+              "melvorF:PratTheGuardianOfSecrets",
+              "melvorF:PratTheGuardianOfSecretsBoss",
+              "melvorF:MalcsTheGuardianOfStrongholds",
+              "melvorF:GreaterSkeletalDragon"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Super_Antidragon_Potion_III",
+        "name": "Super Anti-Dragon Potion III",
+        "category": "Herblore",
+        "type": "Potion",
+        "media": "assets/items/Super_Antidragon_Potion_III.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1700,
+        "itemType": "Potion",
+        "modifiers": {
+          "dragonBreathDamage": -80
+        },
+        "charges": 1,
+        "tier": 2,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "MonsterSpawned",
+            "monsterIDs": [
+              "melvorD:GreenDragon",
+              "melvorD:BlueDragon",
+              "melvorD:RedDragon",
+              "melvorD:BlackDragon",
+              "melvorF:ElderDragon",
+              "melvorD:PratTheProtectorOfSecrets",
+              "melvorD:MalcsTheGuardianOfMelvor",
+              "melvorF:ChaoticGreaterDragon",
+              "melvorF:WickedGreaterDragon",
+              "melvorF:HuntingGreaterDragon",
+              "melvorF:MalcsTheLeaderOfDragons",
+              "melvorF:PratTheGuardianOfSecrets",
+              "melvorF:PratTheGuardianOfSecretsBoss",
+              "melvorF:MalcsTheGuardianOfStrongholds",
+              "melvorF:GreaterSkeletalDragon"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Super_Antidragon_Potion_IV",
+        "name": "Super Anti-Dragon Potion IV",
+        "category": "Herblore",
+        "type": "Potion",
+        "media": "assets/items/Super_Antidragon_Potion_IV.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
         "sellsFor": 2100,
         "itemType": "Potion",
         "modifiers": {
           "dragonBreathDamage": -90
         },
-        "charges": 25,
+        "charges": 1,
         "tier": 3,
         "action": "melvorD:Combat",
         "consumesOn": [
           {
-            "type": "EnemyAttack"
+            "type": "MonsterSpawned",
+            "monsterIDs": [
+              "melvorD:GreenDragon",
+              "melvorD:BlueDragon",
+              "melvorD:RedDragon",
+              "melvorD:BlackDragon",
+              "melvorF:ElderDragon",
+              "melvorD:PratTheProtectorOfSecrets",
+              "melvorD:MalcsTheGuardianOfMelvor",
+              "melvorF:ChaoticGreaterDragon",
+              "melvorF:WickedGreaterDragon",
+              "melvorF:HuntingGreaterDragon",
+              "melvorF:MalcsTheLeaderOfDragons",
+              "melvorF:PratTheGuardianOfSecrets",
+              "melvorF:PratTheGuardianOfSecretsBoss",
+              "melvorF:MalcsTheGuardianOfStrongholds",
+              "melvorF:GreaterSkeletalDragon"
+            ]
           }
         ]
       },
@@ -11509,6 +12154,66 @@
       }
     ],
     "itemUpgrades": [
+      {
+        "upgradedItemID": "expandedAreas:Dragonscale_Dust",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Green_Dragon_Scale",
+            "quantity": 1
+          }
+        ],
+        "quantity": 3,
+        "rootItemIDs": [
+          "expandedAreas:Green_Dragon_Scale"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Dragonscale_Dust",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Blue_Dragon_Scale",
+            "quantity": 1
+          }
+        ],
+        "quantity": 4,
+        "rootItemIDs": [
+          "expandedAreas:Blue_Dragon_Scale"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Dragonscale_Dust",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Red_Dragon_Scale",
+            "quantity": 1
+          }
+        ],
+        "quantity": 5,
+        "rootItemIDs": [
+          "expandedAreas:Red_Dragon_Scale"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Dragonscale_Dust",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Black_Dragon_Scale",
+            "quantity": 1
+          }
+        ],
+        "quantity": 6,
+        "rootItemIDs": [
+          "expandedAreas:Black_Dragon_Scale"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
       {
         "upgradedItemID": "expandedAreas:Glacia_God_Helmet_P",
         "itemCosts": [
@@ -12840,27 +13545,51 @@
             {
               "id": "Antidragon_Potion",
               "name": "Anti-Dragon Potion",
-              "level": 92,
+              "level": 69,
               "potionIDs": [
                 "expandedAreas:Antidragon_Potion_I",
                 "expandedAreas:Antidragon_Potion_II",
                 "expandedAreas:Antidragon_Potion_III",
                 "expandedAreas:Antidragon_Potion_IV"
               ],
+              "baseExperience": 97,
+              "categoryID": "melvorF:CombatPotions",
+              "itemCosts": [
+                {
+                  "id": "melvorF:Poraxx_Herb",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Dragonscale_Dust",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Super_Antidragon_Potion",
+              "name": "Super Anti-Dragon Potion",
+              "level": 92,
+              "potionIDs": [
+                "expandedAreas:Super_Antidragon_Potion_I",
+                "expandedAreas:Super_Antidragon_Potion_II",
+                "expandedAreas:Super_Antidragon_Potion_III",
+                "expandedAreas:Super_Antidragon_Potion_IV"
+              ],
               "baseExperience": 200,
               "categoryID": "melvorF:CombatPotions",
               "itemCosts": [
                 {
                   "id": "melvorF:Barrentoe_Herb",
-                  "quantity": 2
+                  "quantity": 1
                 },
                 {
                   "id": "expandedAreas:Pine_Resin",
-                  "quantity": 10
+                  "quantity": 1
                 },
                 {
                   "id": "melvorF:Elder_Dragonhide",
-                  "quantity": 5
+                  "quantity": 1
                 }
               ],
               "currencyCosts": []
@@ -14455,6 +15184,75 @@
           "expandedAreas:Barbarian_Skilling"
         ]
       }
+    ],
+    "bankSortOrder": [
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Willow_Logs",
+        "ids": [
+          "expandedAreas:Evergreen_Logs"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Willow_Tree_Seed",
+        "ids": [
+          "expandedAreas:Evergreen_Pine_Seeds"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Maple_Logs",
+        "ids": [
+          "expandedAreas:Longleaf_Logs"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Maple_Tree_Seed",
+        "ids": [
+          "expandedAreas:Longleaf_Pine_Seeds"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Yew_Logs",
+        "ids": [
+          "expandedAreas:Frostpine_Logs"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Yew_Tree_Seed",
+        "ids": [
+          "expandedAreas:Frostpine_Seeds"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Magic_Logs",
+        "ids": [
+          "expandedAreas:White_Pine_Logs",
+          "expandedAreas:Loblolly_Logs"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Magic_Tree_Seed",
+        "ids": [
+          "expandedAreas:White_Pine_Seeds",
+          "expandedAreas:Loblolly_Pine_Seeds"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Beef_Pie_Perfect",
+        "ids": [
+          "expandedAreas:Grub",
+          "expandedAreas:Cooked_Grub",
+          "expandedAreas:Cooked_Grub_Perfect"
+        ]
+      }
     ]
   },
   "modifications": {
@@ -14573,6 +15371,18 @@
     ],
     "dungeons": [
       {
+        "id": "melvorD:Frozen_Cove",
+        "dropBones": true
+      },
+      {
+        "id": "melvorD:Volcanic_Cave",
+        "dropBones": true
+      },
+      {
+        "id": "melvorF:Infernal_Stronghold",
+        "dropBones": true
+      },
+      {
         "id": "melvorD:Undead_Graveyard",
         "monsters": {
           "remove": [
@@ -14605,6 +15415,55 @@
       }
     ],
     "monsters": [
+      {
+        "id": "melvorD:MalcsTheGuardianOfMelvor",
+        "bones": {
+          "itemID": "expandedAreas:Superior_Dragon_Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "melvorD:PratTheProtectorOfSecrets",
+        "bones": {
+          "itemID": "expandedAreas:Superior_Dragon_Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "melvorF:MalcsTheGuardianOfStrongholds",
+        "bones": {
+          "itemID": "expandedAreas:Superior_Dragon_Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "melvorF:MalcsTheLeaderOfDragons",
+        "bones": {
+          "itemID": "expandedAreas:Superior_Dragon_Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "melvorF:PratTheGuardianOfSecrets",
+        "bones": {
+          "itemID": "expandedAreas:Superior_Dragon_Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "melvorF:PratTheGuardianOfSecretsBoss",
+        "bones": {
+          "itemID": "expandedAreas:Superior_Dragon_Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "melvorD:ProtectorofIce",
+        "bones": {
+          "itemID": "expandedAreas:Superior_Dragon_Bones",
+          "quantity": 1
+        }
+      },
       {
         "id": "melvorF:Elementalist",
         "lootTable": {
