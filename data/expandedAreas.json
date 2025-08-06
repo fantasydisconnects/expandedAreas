@@ -10739,7 +10739,7 @@
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 45
+        "sellsFor": 9
       },
       {
         "itemType": "Item",
@@ -13120,81 +13120,6 @@
         "currencyCosts": []
       },
       {
-        "upgradedItemID": "expandedAreas:Topaz_Dust",
-        "itemCosts": [
-          {
-            "id": "melvorD:Topaz",
-            "quantity": 1
-          }
-        ],
-        "rootItemIDs": [
-          "melvorD:Topaz"
-        ],
-        "isDowngrade": true,
-        "currencyCosts": [],
-        "quantity": 10
-      },
-      {
-        "upgradedItemID": "expandedAreas:Sapphire_Dust",
-        "itemCosts": [
-          {
-            "id": "melvorD:Sapphire",
-            "quantity": 1
-          }
-        ],
-        "rootItemIDs": [
-          "melvorD:Sapphire"
-        ],
-        "isDowngrade": true,
-        "currencyCosts": [],
-        "quantity": 10
-      },
-      {
-        "upgradedItemID": "expandedAreas:Emerald_Dust",
-        "itemCosts": [
-          {
-            "id": "melvorD:Emerald",
-            "quantity": 1
-          }
-        ],
-        "rootItemIDs": [
-          "melvorD:Emerald"
-        ],
-        "isDowngrade": true,
-        "currencyCosts": [],
-        "quantity": 10
-      },
-      {
-        "upgradedItemID": "expandedAreas:Ruby_Dust",
-        "itemCosts": [
-          {
-            "id": "melvorD:Ruby",
-            "quantity": 1
-          }
-        ],
-        "rootItemIDs": [
-          "melvorD:Ruby"
-        ],
-        "isDowngrade": true,
-        "currencyCosts": [],
-        "quantity": 10
-      },
-      {
-        "upgradedItemID": "expandedAreas:Diamond_Dust",
-        "itemCosts": [
-          {
-            "id": "melvorD:Diamond",
-            "quantity": 1
-          }
-        ],
-        "rootItemIDs": [
-          "melvorD:Diamond"
-        ],
-        "isDowngrade": true,
-        "currencyCosts": [],
-        "quantity": 10
-      },
-      {
         "upgradedItemID": "expandedAreas:Orb_of_the_Elements",
         "itemCosts": [
           {
@@ -14042,7 +13967,84 @@
       {
         "skillID": "melvorD:Crafting",
         "data": {
+          "categories": [
+            {
+              "id": "Unique",
+              "media": "assets/items/Ruby_Dust.png",
+              "name": "Unique"
+            }
+          ],
           "recipes": [
+            {
+              "id": "Topaz_Dust",
+              "level": 9,
+              "productID": "expandedAreas:Topaz_Dust",
+              "baseQuantity": 2,
+              "baseExperience": 8,
+              "categoryID": "expandedAreas:Unique",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Topaz",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Sapphire_Dust",
+              "level": 16,
+              "productID": "expandedAreas:Sapphire_Dust",
+              "baseQuantity": 2,
+              "baseExperience": 18,
+              "categoryID": "expandedAreas:Unique",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sapphire",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Emerald_Dust",
+              "level": 25,
+              "productID": "expandedAreas:Emerald_Dust",
+              "baseQuantity": 2,
+              "baseExperience": 27,
+              "categoryID": "expandedAreas:Unique",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Ruby_Dust",
+              "level": 33,
+              "productID": "expandedAreas:Ruby_Dust",
+              "baseQuantity": 2,
+              "baseExperience": 38,
+              "categoryID": "expandedAreas:Unique",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Ruby",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Diamond_Dust",
+              "level": 43,
+              "productID": "expandedAreas:Diamond_Dust",
+              "baseQuantity": 2,
+              "baseExperience": 53,
+              "categoryID": "expandedAreas:Unique",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Diamond",
+                  "quantity": 1
+                }
+              ]
+            },
             {
               "id": "Green_Dhide_Boots",
               "level": 53,
@@ -14201,14 +14203,6 @@
       {
         "skillID": "melvorD:Fletching",
         "data": {
-          "categories": [
-            {
-              "id": "Barbarian_Fletching",
-              "media": "assets/icons/Barbarian.png",
-              "name": "Barbarian Fletching",
-              "realm": "melvorD:Melvor"
-            }
-          ],
           "recipes": [
             {
               "id": "Black_Arrows",
@@ -14235,7 +14229,7 @@
               "productID": "expandedAreas:Black_Javelin",
               "baseQuantity": 5,
               "baseExperience": 96,
-              "categoryID": "expandedAreas:Barbarian_Fletching",
+              "categoryID": "melvorF:Javelins",
               "itemCosts": [
                 {
                   "id": "melvorD:Teak_Logs",
@@ -14254,7 +14248,7 @@
               "productID": "expandedAreas:Black_Crossbow",
               "baseQuantity": 1,
               "baseExperience": 105,
-              "categoryID": "expandedAreas:Barbarian_Fletching",
+              "categoryID": "melvorF:Crossbows",
               "itemCosts": [
                 {
                   "id": "melvorD:Teak_Logs",
@@ -14282,15 +14276,15 @@
               "id": "Sterkite_Ore",
               "name": "Sterkite",
               "media": "assets/skills/mining/Rock_Sterkite.svg",
-              "level": 40,
-              "baseExperience": 28,
+              "level": 20,
+              "baseExperience": 16,
               "productId": "expandedAreas:Sterkite_Ore",
-              "baseRespawnInterval": 15000,
+              "baseRespawnInterval": 10000,
               "baseQuantity": 1,
               "hasPassiveRegen": true,
               "category": "melvorD:Ore",
               "giveGems": true,
-              "shopItemPurchased": "expandedAreas:Rock_Smashing"
+              "shopItemPurchased": "expandedAreas:Sterkite_Mining"
             }
           ]
         }
@@ -14539,15 +14533,11 @@
               "level": 9,
               "itemCosts": [
                 {
-                  "id": "melvorD:Normal_Logs",
+                  "id": "expandedAreas:Evergreen_Logs",
                   "quantity": 1
                 },
                 {
                   "id": "melvorD:Bronze_Bar",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -14561,15 +14551,11 @@
               "level": 24,
               "itemCosts": [
                 {
-                  "id": "melvorD:Oak_Logs",
+                  "id": "expandedAreas:Evergreen_Logs",
                   "quantity": 1
                 },
                 {
                   "id": "melvorD:Iron_Bar",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -14583,11 +14569,25 @@
               "level": 39,
               "itemCosts": [
                 {
-                  "id": "melvorD:Willow_Logs",
+                  "id": "expandedAreas:Evergreen_Logs",
                   "quantity": 1
                 },
                 {
                   "id": "melvorD:Steel_Bar",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Black_Spear",
+              "productID": "expandedAreas:Black_Spear",
+              "categoryID": "expandedAreas:Barbarian_Smithing",
+              "baseExperience": 80,
+              "baseQuantity": 1,
+              "level": 46,
+              "itemCosts": [
+                {
+                  "id": "melvorD:Maple_Logs",
                   "quantity": 1
                 },
                 {
@@ -14611,10 +14611,6 @@
                 {
                   "id": "melvorD:Mithril_Bar",
                   "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Sterkite_Bar",
-                  "quantity": 1
                 }
               ]
             },
@@ -14632,10 +14628,6 @@
                 },
                 {
                   "id": "melvorD:Adamantite_Bar",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -14655,10 +14647,6 @@
                 {
                   "id": "melvorD:Runite_Bar",
                   "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Sterkite_Bar",
-                  "quantity": 1
                 }
               ]
             },
@@ -14677,10 +14665,6 @@
                 {
                   "id": "melvorD:Dragonite_Bar",
                   "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Sterkite_Bar",
-                  "quantity": 1
                 }
               ]
             },
@@ -14694,10 +14678,6 @@
               "itemCosts": [
                 {
                   "id": "melvorD:Bronze_Bar",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -14713,10 +14693,6 @@
                 {
                   "id": "melvorD:Iron_Bar",
                   "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Sterkite_Bar",
-                  "quantity": 1
                 }
               ]
             },
@@ -14731,10 +14707,6 @@
                 {
                   "id": "melvorD:Steel_Bar",
                   "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Sterkite_Bar",
-                  "quantity": 1
                 }
               ]
             },
@@ -14748,7 +14720,7 @@
               "itemCosts": [
                 {
                   "id": "expandedAreas:Sterkite_Bar",
-                  "quantity": 2
+                  "quantity": 1
                 }
               ]
             },
@@ -14762,10 +14734,6 @@
               "itemCosts": [
                 {
                   "id": "melvorD:Mithril_Bar",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -14781,10 +14749,6 @@
                 {
                   "id": "melvorD:Adamantite_Bar",
                   "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Sterkite_Bar",
-                  "quantity": 1
                 }
               ]
             },
@@ -14799,10 +14763,6 @@
                 {
                   "id": "melvorD:Runite_Bar",
                   "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Sterkite_Bar",
-                  "quantity": 1
                 }
               ]
             },
@@ -14816,10 +14776,6 @@
               "itemCosts": [
                 {
                   "id": "melvorD:Dragonite_Bar",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Sterkite_Bar",
                   "quantity": 1
                 }
               ]
@@ -14982,6 +14938,44 @@
     ],
     "shopPurchases": [
       {
+        "id": "Sterkite_Mining",
+        "media": "assets/shop/Rock_Sterkite.svg",
+        "category": "expandedAreas:Barbarian_Skilling",
+        "contains": {
+          "items": [],
+          "modifiers": {}
+        },
+        "cost": {
+          "items": [],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 20000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [],
+        "purchaseRequirements": [
+          {
+            "type": "MonsterKilled",
+            "monsterID": "expandedAreas:Chieftain_Erik",
+            "count": 1
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Mining",
+            "level": 20
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Sterkite Mining",
+        "customDescription": "Grants access to Sterkite Ore."
+      },
+      {
         "id": "Spear_Fishing",
         "media": "assets/shop/Spear_Fishing.svg",
         "category": "expandedAreas:Barbarian_Skilling",
@@ -15122,7 +15116,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Rock Smashing",
-        "customDescription": "-5% Mining Node Respawn Interval and +5% chance to deal no damage to Mining Nodes when Mining.<br>Grants access to Sterkite Ore."
+        "customDescription": "-5% Mining Node Respawn Interval and +5% chance to deal no damage to Mining Nodes when Mining."
       },
       {
         "id": "Ancestral_Smithing_Technique",
@@ -15186,6 +15180,98 @@
       }
     ],
     "bankSortOrder": [
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Diamond",
+        "ids": [
+          "expandedAreas:Topaz_Dust",
+          "expandedAreas:Sapphire_Dust",
+          "expandedAreas:Emerald_Dust",
+          "expandedAreas:Ruby_Dust",
+          "expandedAreas:Diamond_Dust"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Thiefs_Moneysack",
+        "ids": [
+          "expandedAreas:Pocket_Sand"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorF:Basic_Bag",
+        "ids": [
+          "expandedAreas:Basket"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorD:Black_Dhide_Vambraces",
+        "ids": [
+          "expandedAreas:Black_Dhide_Cowl",
+          "expandedAreas:Black_Dhide_Boots"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorD:Red_Dhide_Vambraces",
+        "ids": [
+          "expandedAreas:Red_Dhide_Cowl",
+          "expandedAreas:Red_Dhide_Boots"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorD:Blue_Dhide_Vambraces",
+        "ids": [
+          "expandedAreas:Blue_Dhide_Cowl",
+          "expandedAreas:Blue_Dhide_Boots"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorD:Green_Dhide_Vambraces",
+        "ids": [
+          "expandedAreas:Green_Dhide_Cowl",
+          "expandedAreas:Green_Dhide_Boots"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Steel_Crossbow",
+        "ids": [
+          "expandedAreas:Black_Crossbow"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Steel_Javelin",
+        "ids": [
+          "expandedAreas:Black_Javelin"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Steel_Arrows",
+        "ids": [
+          "expandedAreas:Black_Arrows"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Gold_Ore",
+        "ids": [
+          "expandedAreas:Sterkite_Ore"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Silver_Bar",
+        "ids": [
+          "expandedAreas:Sterkite_Bar"
+        ]
+      },
       {
         "insertAt": "After",
         "afterID": "melvorD:Willow_Logs",
