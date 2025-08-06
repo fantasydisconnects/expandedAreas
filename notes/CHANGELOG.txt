@@ -15,3 +15,17 @@ Added Guardian of the Elements pet Swirli
 Balance Changes:
 Bone drops have been enabled in the following dungeons: Frozen Cove, Volcanic Cave, and Infernal Stronghold
 All dragon bosses, including all versions of of Malcs and Prat, now drop Superior Dragon Bones
+Removed Sterkite Bar from Barbarian Smithing of Thrownaxes and Spears, replaced with Pine Logs of all types, and replaced Thrownaxes with Thrownaxe Heads
+Moved Thrownaxe recipe to Fletching category Barbarian Smithing
+Removed Gem Dust Upgrades and moved them to Crafting "Unique" category
+Reduced Mining level requirement for Sterkite Ore from 40 -> 20 (what was I thinking?!)
+Removed Barbarian Trials completion requirement to access Sterkite Ore and replaced with 1 kill of Chieftain Erik requirement & shop purchase of "Sterkite Mining"
+Changed Evergreen Tree requirements (Woodcutting, Firemaking, and Farming) from 30 -> 20 and adjusted XP and GP values to match
+
+
+Bug Fixes:
+Added Black Spear to Barbarian Smithing
+
+Misc:
+Bank sort order, finally!
+Updated Thrownaxe art

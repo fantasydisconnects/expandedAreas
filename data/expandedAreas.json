@@ -1900,7 +1900,7 @@
             "weight": 2048
           },
           {
-            "itemID": "expandedAreas:Black_Thrownaxe",
+            "itemID": "expandedAreas:Black_Thrownaxe_Head",
             "minQuantity": 3,
             "maxQuantity": 6,
             "weight": 1024
@@ -3294,7 +3294,7 @@
             "weight": 2048
           },
           {
-            "itemID": "expandedAreas:Oak_Blackjack",
+            "itemID": "expandedAreas:Blackjack",
             "maxQuantity": 1,
             "minQuantity": 1,
             "weight": 256
@@ -4794,6 +4794,102 @@
       }
     ],
     "items": [
+      {
+        "itemType": "Item",
+        "id": "Bronze_Thrownaxe_Head",
+        "name": "Bronze Thrownaxe Head",
+        "category": "Smithing",
+        "type": "Thrownaxe",
+        "media": "assets/items/Bronze_Thrownaxe_Head.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1
+      },
+      {
+        "itemType": "Item",
+        "id": "Iron_Thrownaxe_Head",
+        "name": "Iron Thrownaxe Head",
+        "category": "Smithing",
+        "type": "Thrownaxe",
+        "media": "assets/items/Iron_Thrownaxe_Head.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 3
+      },
+      {
+        "itemType": "Item",
+        "id": "Steel_Thrownaxe_Head",
+        "name": "Steel Thrownaxe Head",
+        "category": "Smithing",
+        "type": "Thrownaxe",
+        "media": "assets/items/Steel_Thrownaxe_Head.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 5
+      },
+      {
+        "itemType": "Item",
+        "id": "Black_Thrownaxe_Head",
+        "name": "Black Thrownaxe Head",
+        "category": "Smithing",
+        "type": "Thrownaxe",
+        "media": "assets/items/Black_Thrownaxe_Head.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 7
+      },
+      {
+        "itemType": "Item",
+        "id": "Mithril_Thrownaxe_Head",
+        "name": "Mithril Thrownaxe Head",
+        "category": "Smithing",
+        "type": "Thrownaxe",
+        "media": "assets/items/Mithril_Thrownaxe_Head.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 9
+      },
+      {
+        "itemType": "Item",
+        "id": "Adamant_Thrownaxe_Head",
+        "name": "Adamant Thrownaxe Head",
+        "category": "Smithing",
+        "type": "Thrownaxe",
+        "media": "assets/items/Adamant_Thrownaxe_Head.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 11
+      },
+      {
+        "itemType": "Item",
+        "id": "Rune_Thrownaxe_Head",
+        "name": "Rune Thrownaxe Head",
+        "category": "Smithing",
+        "type": "Thrownaxe",
+        "media": "assets/items/Rune_Thrownaxe_Head.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 13
+      },
+      {
+        "itemType": "Item",
+        "id": "Dragon_Thrownaxe_Head",
+        "name": "Dragon Thrownaxe Head",
+        "category": "Smithing",
+        "type": "Thrownaxe",
+        "media": "assets/items/Dragon_Thrownaxe_Head.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 15
+      },
       {
         "itemType": "Item",
         "id": "Dragonscale_Dust",
@@ -7105,8 +7201,8 @@
         ]
       },
       {
-        "id": "Oak_Blackjack",
-        "name": "Oak Blackjack",
+        "id": "Blackjack",
+        "name": "Blackjack",
         "category": "Combat",
         "itemType": "Weapon",
         "type": "Weapon",
@@ -10763,7 +10859,7 @@
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 20
+        "sellsFor": 15
       },
       {
         "itemType": "Item",
@@ -11113,7 +11209,7 @@
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 575
+        "sellsFor": 475
       },
       {
         "itemType": "Item",
@@ -13229,10 +13325,10 @@
               "id": "Evergreen",
               "name": "Evergreen Pine",
               "media": "assets/skills/woodcutting/Evergreen.svg",
-              "baseInterval": 5500,
-              "baseExperience": 26,
+              "baseInterval": 4500,
+              "baseExperience": 19,
               "productId": "expandedAreas:Evergreen_Logs",
-              "level": 30,
+              "level": 20,
               "randomProducts": [
                 "expandedAreas:Pine_Needles",
                 "expandedAreas:Pine_Resin",
@@ -13366,12 +13462,12 @@
           "logs": [
             {
               "id": "Evergreen_Logs",
-              "level": 30,
-              "baseExperience": 68,
+              "level": 20,
+              "baseExperience": 47,
               "logID": "expandedAreas:Evergreen_Logs",
-              "baseInterval": 3500,
-              "baseBonfireInterval": 45000,
-              "bonfireXPBonus": 18,
+              "baseInterval": 2500,
+              "baseBonfireInterval": 35000,
+              "bonfireXPBonus": 13,
               "secondaryProducts": [
                 "expandedAreas:Pine_Resin"
               ]
@@ -13538,14 +13634,10 @@
                 },
                 {
                   "id": "expandedAreas:Pine_Resin",
-                  "quantity": 8
+                  "quantity": 4
                 },
                 {
                   "id": "expandedAreas:Turpentine",
-                  "quantity": 1
-                },
-                {
-                  "id": "melvorD:Dragon_Bones",
                   "quantity": 1
                 }
               ],
@@ -14232,7 +14324,7 @@
               "categoryID": "melvorF:Javelins",
               "itemCosts": [
                 {
-                  "id": "melvorD:Teak_Logs",
+                  "id": "melvorD:Longleaf_Logs",
                   "quantity": 3
                 },
                 {
@@ -14251,7 +14343,7 @@
               "categoryID": "melvorF:Crossbows",
               "itemCosts": [
                 {
-                  "id": "melvorD:Teak_Logs",
+                  "id": "melvorD:Longleaf_Logs",
                   "quantity": 3
                 },
                 {
@@ -14587,7 +14679,7 @@
               "level": 46,
               "itemCosts": [
                 {
-                  "id": "melvorD:Maple_Logs",
+                  "id": "expandedAreas:Longleaf_Logs",
                   "quantity": 1
                 },
                 {
@@ -14605,7 +14697,7 @@
               "level": 54,
               "itemCosts": [
                 {
-                  "id": "melvorD:Maple_Logs",
+                  "id": "expandedAreas:Longleaf_Logs",
                   "quantity": 1
                 },
                 {
@@ -14623,7 +14715,7 @@
               "level": 69,
               "itemCosts": [
                 {
-                  "id": "melvorD:Yew_Logs",
+                  "id": "expandedAreas:Frostpine_Logs",
                   "quantity": 1
                 },
                 {
@@ -14641,7 +14733,7 @@
               "level": 84,
               "itemCosts": [
                 {
-                  "id": "melvorD:Magic_Logs",
+                  "id": "expandedAreas:White_Pine_Logs",
                   "quantity": 1
                 },
                 {
@@ -14659,7 +14751,7 @@
               "level": 98,
               "itemCosts": [
                 {
-                  "id": "melvorD:Redwood_Logs",
+                  "id": "expandedAreas:Loblolly_Logs",
                   "quantity": 1
                 },
                 {
@@ -14669,8 +14761,8 @@
               ]
             },
             {
-              "id": "Bronze_Thrownaxe",
-              "productID": "expandedAreas:Bronze_Thrownaxe",
+              "id": "Bronze_Thrownaxe_Head",
+              "productID": "expandedAreas:Bronze_Thrownaxe_Head",
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "baseExperience": 10,
               "baseQuantity": 3,
@@ -14683,8 +14775,8 @@
               ]
             },
             {
-              "id": "Iron_Thrownaxe",
-              "productID": "expandedAreas:Iron_Thrownaxe",
+              "id": "Iron_Thrownaxe_Head",
+              "productID": "expandedAreas:Iron_Thrownaxe_Head",
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "baseExperience": 20,
               "baseQuantity": 3,
@@ -14697,8 +14789,8 @@
               ]
             },
             {
-              "id": "Steel_Thrownaxe",
-              "productID": "expandedAreas:Steel_Thrownaxe",
+              "id": "Steel_Thrownaxe_Head",
+              "productID": "expandedAreas:Steel_Thrownaxe_Head",
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "baseExperience": 30,
               "baseQuantity": 3,
@@ -14711,8 +14803,8 @@
               ]
             },
             {
-              "id": "Black_Thrownaxe",
-              "productID": "expandedAreas:Black_Thrownaxe",
+              "id": "Black_Thrownaxe_Head",
+              "productID": "expandedAreas:Black_Thrownaxe_Head",
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "baseExperience": 40,
               "baseQuantity": 3,
@@ -14725,8 +14817,8 @@
               ]
             },
             {
-              "id": "Mithril_Thrownaxe",
-              "productID": "expandedAreas:Mithril_Thrownaxe",
+              "id": "Mithril_Thrownaxe_Head",
+              "productID": "expandedAreas:Mithril_Thrownaxe_Head",
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "baseExperience": 50,
               "baseQuantity": 3,
@@ -14739,8 +14831,8 @@
               ]
             },
             {
-              "id": "Adamant_Thrownaxe",
-              "productID": "expandedAreas:Adamant_Thrownaxe",
+              "id": "Adamant_Thrownaxe_Head",
+              "productID": "expandedAreas:Adamant_Thrownaxe_Head",
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "baseExperience": 60,
               "baseQuantity": 3,
@@ -14753,8 +14845,8 @@
               ]
             },
             {
-              "id": "Rune_Thrownaxe",
-              "productID": "expandedAreas:Rune_Thrownaxe",
+              "id": "Rune_Thrownaxe_Head",
+              "productID": "expandedAreas:Rune_Thrownaxe_Head",
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "baseExperience": 75,
               "baseQuantity": 3,
@@ -14767,8 +14859,8 @@
               ]
             },
             {
-              "id": "Dragon_Thrownaxe",
-              "productID": "expandedAreas:Dragon_Thrownaxe",
+              "id": "Dragon_Thrownaxe_Head",
+              "productID": "expandedAreas:Dragon_Thrownaxe_Head",
               "categoryID": "expandedAreas:Barbarian_Smithing",
               "baseExperience": 100,
               "baseQuantity": 3,
@@ -14850,10 +14942,10 @@
           "recipes": [
             {
               "id": "Evergreen_Logs",
-              "baseExperience": 26300,
-              "level": 35,
+              "baseExperience": 12010,
+              "level": 20,
               "productId": "expandedAreas:Evergreen_Logs",
-              "baseInterval": 35200000,
+              "baseInterval": 28800000,
               "categoryID": "melvorD:Tree",
               "seedCost": {
                 "id": "expandedAreas:Evergreen_Pine_Seed",
@@ -15182,27 +15274,149 @@
     "bankSortOrder": [
       {
         "insertAt": "After",
-        "afterID": "melvorD:Diamond",
+        "afterID": "melvorD:Bronze_Battleaxe",
         "ids": [
-          "expandedAreas:Topaz_Dust",
-          "expandedAreas:Sapphire_Dust",
-          "expandedAreas:Emerald_Dust",
-          "expandedAreas:Ruby_Dust",
-          "expandedAreas:Diamond_Dust"
+          "expandedAreas:Bronze_Spear"
         ]
       },
       {
         "insertAt": "After",
-        "afterID": "melvorF:Thiefs_Moneysack",
+        "afterID": "melvorD:Iron_Battleaxe",
         "ids": [
-          "expandedAreas:Pocket_Sand"
+          "expandedAreas:Iron_Spear"
         ]
       },
       {
-        "insertAt": "Before",
-        "beforeID": "melvorF:Basic_Bag",
+        "insertAt": "After",
+        "afterID": "melvorD:Steel_Battleaxe",
         "ids": [
-          "expandedAreas:Basket"
+          "expandedAreas:Steel_Spear"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Black_Battleaxe",
+        "ids": [
+          "expandedAreas:Black_Spear"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Mithril_Battleaxe",
+        "ids": [
+          "expandedAreas:Mithril_Spear"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Adamant_Battleaxe",
+        "ids": [
+          "expandedAreas:Adamant_Spear"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Rune_Battleaxe",
+        "ids": [
+          "expandedAreas:Rune_Spear"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Dragon_Battleaxe",
+        "ids": [
+          "expandedAreas:Dragon_Spear"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Steel_Crossbow",
+        "ids": [
+          "expandedAreas:Black_Crossbow"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Steel_Javelin",
+        "ids": [
+          "expandedAreas:Black_Javelin"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Steel_Arrows",
+        "ids": [
+          "expandedAreas:Black_Arrows"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Steel_Throwing_Knife",
+        "ids": [
+          "expandedAreas:Black_Throwing_Knife"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Dragon_Javelin_Heads",
+        "ids": [
+          "expandedAreas:Bronze_Thrownaxe_Head",
+          "expandedAreas:Iron_Thrownaxe_Head",
+          "expandedAreas:Steel_Thrownaxe_Head",
+          "expandedAreas:Black_Thrownaxe_Head",
+          "expandedAreas:Mithril_Thrownaxe_Head",
+          "expandedAreas:Adamant_Thrownaxe_Head",
+          "expandedAreas:Rune_Thrownaxe_Head",
+          "expandedAreas:Dragon_Thrownaxe_Head"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Steel_Javelin_Heads",
+        "ids": [
+          "expandedAreas:Black_Javelin_Heads"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Dragon_Javelin",
+        "ids": [
+          "expandedAreas:Bronze_Thrownaxe",
+          "expandedAreas:Iron_Thrownaxe",
+          "expandedAreas:Steel_Thrownaxe",
+          "expandedAreas:Black_Thrownaxe",
+          "expandedAreas:Mithril_Thrownaxe",
+          "expandedAreas:Adamant_Thrownaxe",
+          "expandedAreas:Rune_Thrownaxe",
+          "expandedAreas:Dragon_Thrownaxe"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Steel_Arrowtips",
+        "ids": [
+          "expandedAreas:Black_Arrowtips"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Steel_Crossbow_Head",
+        "ids": [
+          "expandedAreas:Black_Crossbow_Head"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Gold_Ore",
+        "ids": [
+          "expandedAreas:Sterkite_Ore"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Silver_Bar",
+        "ids": [
+          "expandedAreas:Sterkite_Bar"
         ]
       },
       {
@@ -15238,38 +15452,10 @@
         ]
       },
       {
-        "insertAt": "After",
-        "afterID": "melvorD:Steel_Crossbow",
+        "insertAt": "Before",
+        "beforeID": "melvorD:Black_Helmet",
         "ids": [
-          "expandedAreas:Black_Crossbow"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Steel_Javelin",
-        "ids": [
-          "expandedAreas:Black_Javelin"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Steel_Arrows",
-        "ids": [
-          "expandedAreas:Black_Arrows"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Gold_Ore",
-        "ids": [
-          "expandedAreas:Sterkite_Ore"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Silver_Bar",
-        "ids": [
-          "expandedAreas:Sterkite_Bar"
+          "expandedAreas:Black_Gloves"
         ]
       },
       {
@@ -15338,10 +15524,274 @@
           "expandedAreas:Cooked_Grub",
           "expandedAreas:Cooked_Grub_Perfect"
         ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Chicken_Soup_Perfect",
+        "ids": [
+          "expandedAreas:Chicken_Pesto_Pasta",
+          "expandedAreas:Chicken_Pesto_Pasta_Perfect"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorF:Basic_Bag",
+        "ids": [
+          "expandedAreas:Basket"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Thiefs_Moneysack",
+        "ids": [
+          "expandedAreas:Pocket_Sand"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Diamond",
+        "ids": [
+          "expandedAreas:Topaz_Dust",
+          "expandedAreas:Sapphire_Dust",
+          "expandedAreas:Emerald_Dust",
+          "expandedAreas:Ruby_Dust",
+          "expandedAreas:Diamond_Dust"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Giant_Club",
+        "ids": [
+          "expandedAreas:Blackjack"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Ancient_Rune",
+        "ids": [
+          "expandedAreas:Wrath_Rune"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Staff_of_Earth",
+        "ids": [
+          "expandedAreas:Staff_of_Dust"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Earth_Battlestaff",
+        "ids": [
+          "expandedAreas:Dust_Battlestaff"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Mystic_Earth_Staff",
+        "ids": [
+          "expandedAreas:Mystic_Dust_Staff"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Earth_Imbued_Wand",
+        "ids": [
+          "expandedAreas:Dust_Imbued_Wand"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Air_Expert_Wizard_Boots",
+        "ids": [
+          "expandedAreas:Air_Elementalist_Hat",
+          "expandedAreas:Air_Elementalist_Robes",
+          "expandedAreas:Air_Elementalist_Boots"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Water_Expert_Wizard_Boots",
+        "ids": [
+          "expandedAreas:Water_Elementalist_Hat",
+          "expandedAreas:Water_Elementalist_Robes",
+          "expandedAreas:Water_Elementalist_Boots"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Earth_Expert_Wizard_Boots",
+        "ids": [
+          "expandedAreas:Earth_Elementalist_Hat",
+          "expandedAreas:Earth_Elementalist_Robes",
+          "expandedAreas:Earth_Elementalist_Boots"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Fire_Expert_Wizard_Boots",
+        "ids": [
+          "expandedAreas:Fire_Elementalist_Hat",
+          "expandedAreas:Fire_Elementalist_Robes",
+          "expandedAreas:Fire_Elementalist_Boots"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "expandedAreas:Fire_Elementalist_Boots",
+        "ids": [
+          "expandedAreas:Pureform_Rune",
+          "expandedAreas:Pure_Elementalist_Hat",
+          "expandedAreas:Pure_Elementalist_Robes",
+          "expandedAreas:Pure_Elementalist_Boots"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Enchanted_Cape",
+        "ids": [
+          "expandedAreas:Elemental_Cape"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Book_Of_Scholars",
+        "ids": [
+          "expandedAreas:Wispy_Page",
+          "expandedAreas:Tome_of_Air",
+          "expandedAreas:Waterlogged_Page",
+          "expandedAreas:Tome_of_Water",
+          "expandedAreas:Muddy_Page",
+          "expandedAreas:Tome_of_Earth",
+          "expandedAreas:Burnt_Page",
+          "expandedAreas:Tome_of_Fire",
+          "expandedAreas:Tome_of_the_Elements"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Natures_Wrath_Staff",
+        "ids": [
+          "expandedAreas:Ancient_Staff"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Magic_Wand_Elite",
+        "ids": [
+          "expandedAreas:Pure_Elementalist_Sceptre"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorF:Warlock_Ring",
+        "ids": [
+          "expandedAreas:Orb_of_the_Elements"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorF:Wizards_Scroll",
+        "ids": [
+          "expandedAreas:Fragmented_Elemental_Rune"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Ranged_Assistance_Potion_IV",
+        "ids": [
+          "expandedAreas:Burn_Relief_Potion_I",
+          "expandedAreas:Burn_Relief_Potion_II",
+          "expandedAreas:Burn_Relief_Potion_III",
+          "expandedAreas:Burn_Relief_Potion_IV"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Lethal_Toxins_Potion_IV",
+        "ids": [
+          "expandedAreas:Antidragon_Potion_I",
+          "expandedAreas:Antidragon_Potion_II",
+          "expandedAreas:Antidragon_Potion_III",
+          "expandedAreas:Antidragon_Potion_IV",
+          "expandedAreas:Volatile_Potion_I",
+          "expandedAreas:Volatile_Potion_II",
+          "expandedAreas:Volatile_Potion_III",
+          "expandedAreas:Volatile_Potion_IV"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Damage_Reduction_Potion_IV",
+        "ids": [
+          "expandedAreas:Super_Antidragon_Potion_I",
+          "expandedAreas:Super_Antidragon_Potion_II",
+          "expandedAreas:Super_Antidragon_Potion_III",
+          "expandedAreas:Super_Antidragon_Potion_IV"
+        ]
       }
     ]
   },
   "modifications": {
+    "skillData": [
+      {
+        "skillID": "melvorD:Fletching",
+        "data": {
+          "recipes": [
+            {
+              "id": "melvorF:Arrow_Shafts",
+              "alternativeCosts": [
+                {
+                  "itemCosts": [
+                    {
+                      "id": "melvorD:Evergreen_Logs",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantityMultiplier": 2
+                },
+                {
+                  "itemCosts": [
+                    {
+                      "id": "expandedAreas:Longleaf_Logs",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantityMultiplier": 5
+                },
+                {
+                  "itemCosts": [
+                    {
+                      "id": "expandedAreas:Frostpine_Logs",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantityMultiplier": 7
+                },
+                {
+                  "itemCosts": [
+                    {
+                      "id": "expandedAreas:White_Pine_Logs",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantityMultiplier": 8
+                },
+                {
+                  "itemCosts": [
+                    {
+                      "id": "expandedAreas:Loblolly_Logs",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantityMultiplier": 9
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
     "combatAreas": [
       {
         "id": "melvorD:Goblin_Village",
