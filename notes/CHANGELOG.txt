@@ -16,7 +16,9 @@ Added Elder Vampire to Thieving
 Added Blood Shard
 Added Cursed Maiden to Thieving
 Added Tormented Bracelet
-
+Added Bounty Hunter
+Added Shroud of the Badlands
+Added Lantern Oil
 
 Balance Changes:
 Bone drops have been enabled in the following dungeons: Frozen Cove, Volcanic Cave, and Infernal Stronghold

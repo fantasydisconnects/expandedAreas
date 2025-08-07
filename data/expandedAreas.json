@@ -4819,6 +4819,47 @@
     "items": [
       {
         "itemType": "Equipment",
+        "id": "Lantern_Oil",
+        "name": "Lantern Oil",
+        "category": "Thieving",
+        "type": "Equipment",
+        "media": "assets/items/Lantern_Oil.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25,
+        "customDescription": "+2.5% Flat Slayer Area Effect Negation and +5% Global Accuracy Rating.<br>+5% Global Accuracy Rating when equipped with <strong>Blazing Lantern</strong> and <strong>Shroud of the Badlands</strong>.",
+        "tier": "none",
+        "validSlots": [
+          "Consumable"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [],
+        "modifiers": {
+          "flatSlayerAreaEffectNegation": 2.5,
+          "accuracyRating": 5
+        },
+        "consumesOn": [
+          {
+            "type": "PlayerAttack"
+          }
+        ]
+      },
+      {
+        "itemType": "Item",
+        "id": "Blood_Shard",
+        "name": "Blood Shard",
+        "category": "Miscellaneous",
+        "type": "Shard",
+        "media": "assets/items/Blood_Shard.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 10000
+      },
+      {
+        "itemType": "Equipment",
         "id": "Shroud_of_the_Badlands",
         "name": "Shroud of the Badlands",
         "category": "Combat",
@@ -12225,6 +12266,16 @@
       {
         "itemIDs": [
           "expandedAreas:Shroud_of_the_Badlands",
+          "expandedAreas:Lantern_Oil",
+          "melvorF:Blazing_Lantern"
+        ],
+        "playerModifiers": {
+          "accuracyRating": 5
+        }
+      },
+      {
+        "itemIDs": [
+          "expandedAreas:Shroud_of_the_Badlands",
           "melvorF:Blazing_Lantern"
         ],
         "playerModifiers": {
@@ -15121,12 +15172,13 @@
               "name": "Shrouded Badlands",
               "npcIDs": [
                 "expandedAreas:ELDER_VAMPIRE",
-                "expandedAreas:CURSED_MAIDEN"
+                "expandedAreas:CURSED_MAIDEN",
+                "expandedAreas:BOUNTY_HUNTER"
               ],
               "uniqueDrops": [
                 {
-                  "id": "expandedAreas:Shroud_of_the_Badlands",
-                  "quantity": 1
+                  "id": "expandedAreas:Lantern_Oil",
+                  "quantity": 500
                 }
               ]
             }
@@ -15191,7 +15243,7 @@
               "baseExperience": 99,
               "level": 86,
               "name": "Elder Vampire",
-              "media": "assets/skills/thieving/Elder_Vampire.png",
+              "media": "assets/skills/thieving/Cursed_Maiden.png",
               "perception": 790,
               "maxHit": 23.0,
               "currencyDrops": [
@@ -15202,13 +15254,13 @@
               ],
               "lootTable": [
                 {
-                  "itemID": "melvorD:Spirit_Rune",
+                  "itemID": "melvorF:Spirit_Rune",
                   "minQuantity": 1,
                   "maxQuantity": 1,
                   "weight": 10
                 },
                 {
-                  "itemID": "melvorD:Nature_Rune",
+                  "itemID": "melvorF:Nature_Rune",
                   "minQuantity": 1,
                   "maxQuantity": 1,
                   "weight": 6
@@ -15234,6 +15286,84 @@
               ],
               "uniqueDrop": {
                 "id": "expandedAreas:Tormented_Bracelet",
+                "quantity": 1
+              },
+              "allowedDamageTypeIDs": [
+                "melvorD:Normal"
+              ]
+            },
+            {
+              "id": "BOUNTY_HUNTER",
+              "baseExperience": 99,
+              "level": 91,
+              "name": "Bounty Hunter",
+              "media": "assets/skills/thieving/Bounty_Hunter.png",
+              "perception": 790,
+              "maxHit": 23.0,
+              "currencyDrops": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 735
+                }
+              ],
+              "lootTable": [
+                {
+                  "itemID": "melvorD:Dragon_Sword",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 5
+                },
+                {
+                  "itemID": "melvorD:Dragon_Helmet",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 3
+                },
+                {
+                  "itemID": "melvorD:Dragon_Platebody",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 3
+                },
+                {
+                  "itemID": "melvorD:Dragon_Platelegs",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 3
+                },
+                {
+                  "itemID": "melvorD:Dragon_Gloves",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 3
+                },
+                {
+                  "itemID": "melvorD:Dragon_Boots",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 3
+                },
+                {
+                  "itemID": "melvorD:Dragon_Dagger",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 4
+                },
+                {
+                  "itemID": "melvorD:Amulet_of_Strength",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 6
+                },
+                {
+                  "itemID": "melvorF:Ancient_2H_Sword",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 1
+                }
+              ],
+              "uniqueDrop": {
+                "id": "expandedAreas:Shroud_of_the_Badlands",
                 "quantity": 1
               },
               "allowedDamageTypeIDs": [
@@ -15642,6 +15772,14 @@
     "bankSortOrder": [
       {
         "insertAt": "After",
+        "afterID": "melvorF:Blazing_Lantern",
+        "ids": [
+          "expandedAreas:Shroud_of_the_Badlands",
+          "expandedAreas:Lantern_Oil"
+        ]
+      },
+      {
+        "insertAt": "After",
         "afterID": "melvorF:Earth_Layered_Shield",
         "ids": [
           "expandedAreas:Glacia_God_Helmet_P",
@@ -15649,6 +15787,14 @@
           "expandedAreas:Glacia_God_Platebody_P",
           "expandedAreas:Glacia_God_Boots_P",
           "expandedAreas:Glacia_God_Gloves_P"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Amulet_of_Fury",
+        "ids": [
+          "expandedAreas:Blood_Shard",
+          "expandedAreas:Amulet_of_Blood_Fury"
         ]
       },
       {
@@ -15831,7 +15977,7 @@
       },
       {
         "insertAt": "After",
-        "afterID": "melvorD:Black_Dhide_Shield",
+        "afterID": "melvorF:Black_Dhide_Shield",
         "ids": [
           "expandedAreas:Black_Dhide_Cowl_U",
           "expandedAreas:Black_Dhide_Boots_U"
@@ -15847,7 +15993,7 @@
       },
       {
         "insertAt": "After",
-        "afterID": "melvorD:Red_Dhide_Shield",
+        "afterID": "melvorF:Red_Dhide_Shield",
         "ids": [
           "expandedAreas:Red_Dhide_Cowl_U",
           "expandedAreas:Red_Dhide_Boots_U"
@@ -15863,7 +16009,7 @@
       },
       {
         "insertAt": "After",
-        "afterID": "melvorD:Blue_Dhide_Shield",
+        "afterID": "melvorF:Blue_Dhide_Shield",
         "ids": [
           "expandedAreas:Blue_Dhide_Cowl_U",
           "expandedAreas:Blue_Dhide_Boots_U"
@@ -15879,7 +16025,7 @@
       },
       {
         "insertAt": "After",
-        "afterID": "melvorD:Green_Dhide_Shield",
+        "afterID": "melvorF:Green_Dhide_Shield",
         "ids": [
           "expandedAreas:Green_Dhide_Cowl_U",
           "expandedAreas:Green_Dhide_Boots_U"
@@ -16055,8 +16201,8 @@
         ]
       },
       {
-        "insertAt": "Before",
-        "beforeID": "melvorF:Priest_Hat",
+        "insertAt": "After",
+        "afterID": "melvorF:Priest_Hat",
         "ids": [
           "expandedAreas:Monk_Robe_Top",
           "expandedAreas:Monk_Robe_Bottoms"
@@ -16088,6 +16234,13 @@
         "afterID": "melvorD:Amulet_of_Magic",
         "ids": [
           "expandedAreas:Amulet_of_Occults"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Tormented_Ring",
+        "ids": [
+          "expandedAreas:Tormented_Bracelet"
         ]
       },
       {
