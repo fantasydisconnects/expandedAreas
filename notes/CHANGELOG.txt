@@ -11,6 +11,12 @@ Added Chieftain Erik pet Lil Erik
 Added Golbin Chief pet Tinychief
 Added Golbin Hideout pet Yeemik
 Added Guardian of the Elements pet Swirli
+Added Shrouded Badlands Thieving Area
+Added Elder Vampire to Thieving
+Added Blood Shard
+Added Cursed Maiden to Thieving
+Added Tormented Bracelet
+
 
 Balance Changes:
 Bone drops have been enabled in the following dungeons: Frozen Cove, Volcanic Cave, and Infernal Stronghold

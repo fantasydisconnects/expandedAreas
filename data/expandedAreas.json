@@ -196,6 +196,29 @@
     ],
     "attacks": [
       {
+        "id": "Blood_Tithe",
+        "defaultChance": 20,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 100
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 2000,
+        "lifesteal": 30,
+        "name": "Blood Tithe",
+        "description": "Your melee attack heals you for ${lifesteal}% of the damage dealt.",
+        "descriptionGenerator": "<AttPos> attack heals <attacker> for <lifesteal> of the damage dealt.",
+        "usesRunesPerProc": false,
+        "attackTypes": [
+          "melee"
+        ]
+      },
+      {
         "id": "Elemental_Breath",
         "defaultChance": 25,
         "damage": [
@@ -4794,6 +4817,168 @@
       }
     ],
     "items": [
+      {
+        "itemType": "Equipment",
+        "id": "Shroud_of_the_Badlands",
+        "name": "Shroud of the Badlands",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/Shroud_of_the_Badlands.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 100000,
+        "customDescription": "+20% Flat Slayer Area Effect Negation and -0.05 Attack Interval.<br>+10% Flat Slayer Area Effect Negation when equipped with <strong>Blazing Lantern</strong>.",
+        "tier": "none",
+        "validSlots": [
+          "Cape"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Slayer",
+            "level": 80
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "meleeDefenceBonus",
+            "value": 9
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 9
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 9
+          },
+          {
+            "key": "damageReduction",
+            "value": 1
+          }
+        ],
+        "modifiers": {
+          "flatSlayerAreaEffectNegation": 20,
+          "flatAttackInterval": -0.05
+        }
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Amulet_of_Blood_Fury",
+        "name": "Amulet of Blood Fury",
+        "category": "Combat",
+        "type": "Amulet",
+        "media": "assets/items/Amulet_of_Blood_Fury.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 30000,
+        "tier": "Special",
+        "validSlots": [
+          "Amulet"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 10
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 10
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 10
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 10
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 10
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 8
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 15
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 15
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 15
+          }
+        ],
+        "specialAttacks": [
+          "expandedAreas:Blood_Tithe"
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Tormented_Bracelet",
+        "name": "Tormented Bracelet",
+        "category": "Combat",
+        "type": "Gloves",
+        "media": "assets/items/Tormented_Bracelet.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 40000,
+        "customDescription": "Greatly increased Magic Accuracy Rating and Magic Damage. Greatly decreased Defence bonuses and Damage Reduction.",
+        "tier": "misc",
+        "validSlots": [
+          "Gloves"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 75
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Hitpoints",
+            "level": 75
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "magicDamageBonus",
+            "value": 25
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 50
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": -50
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": -50
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": -50
+          },
+          {
+            "key": "damageReduction",
+            "value": -10
+          }
+        ]
+      },
       {
         "itemType": "Item",
         "id": "Bronze_Thrownaxe_Head",
@@ -12039,6 +12224,15 @@
     "itemSynergies": [
       {
         "itemIDs": [
+          "expandedAreas:Shroud_of_the_Badlands",
+          "melvorF:Blazing_Lantern"
+        ],
+        "playerModifiers": {
+          "flatSlayerAreaEffectNegation": 10
+        }
+      },
+      {
+        "itemIDs": [
           "expandedAreas:Barbarian_Archer_Helm",
           "ThrowingWeapon"
         ],
@@ -12114,6 +12308,26 @@
       }
     ],
     "itemUpgrades": [
+      {
+        "upgradedItemID": "expandedAreas:Amulet_of_Blood_Fury",
+        "itemCosts": [
+          {
+            "id": "melvorD:Amulet_of_Fury",
+            "quantity": 5
+          },
+          {
+            "id": "expandedAreas:Blood_Shard",
+            "quantity": 1
+          }
+        ],
+        "quantity": 1,
+        "rootItemIDs": [
+          "expandedAreas:Blood_Shard",
+          "melvorD:Amulet_of_Fury"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
       {
         "upgradedItemID": "expandedAreas:Dragonscale_Dust",
         "itemCosts": [
@@ -14899,6 +15113,137 @@
         }
       },
       {
+        "skillID": "melvorD:Thieving",
+        "data": {
+          "areas": [
+            {
+              "id": "SHROUDED_BADLANDS",
+              "name": "Shrouded Badlands",
+              "npcIDs": [
+                "expandedAreas:ELDER_VAMPIRE",
+                "expandedAreas:CURSED_MAIDEN"
+              ],
+              "uniqueDrops": [
+                {
+                  "id": "expandedAreas:Shroud_of_the_Badlands",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "npcs": [
+            {
+              "id": "ELDER_VAMPIRE",
+              "baseExperience": 89,
+              "level": 82,
+              "name": "Elder Vampire",
+              "media": "assets/skills/thieving/Elder_Vampire.png",
+              "perception": 730,
+              "maxHit": 20.7,
+              "currencyDrops": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 650
+                }
+              ],
+              "lootTable": [
+                {
+                  "itemID": "melvorD:Blood_Rune",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 10
+                },
+                {
+                  "itemID": "melvorD:Death_Rune",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 6
+                },
+                {
+                  "itemID": "melvorF:Eyeball",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 4
+                },
+                {
+                  "itemID": "melvorD:Magic_Bones",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 2
+                },
+                {
+                  "itemID": "melvorF:Ancient_Arrow",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 1
+                }
+              ],
+              "uniqueDrop": {
+                "id": "expandedAreas:Blood_Shard",
+                "quantity": 1
+              },
+              "allowedDamageTypeIDs": [
+                "melvorD:Normal"
+              ]
+            },
+            {
+              "id": "CURSED_MAIDEN",
+              "baseExperience": 99,
+              "level": 86,
+              "name": "Elder Vampire",
+              "media": "assets/skills/thieving/Elder_Vampire.png",
+              "perception": 790,
+              "maxHit": 23.0,
+              "currencyDrops": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 735
+                }
+              ],
+              "lootTable": [
+                {
+                  "itemID": "melvorD:Spirit_Rune",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 10
+                },
+                {
+                  "itemID": "melvorD:Nature_Rune",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 6
+                },
+                {
+                  "itemID": "melvorD:Amulet_of_Magic",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 4
+                },
+                {
+                  "itemID": "melvorF:Gold_Diamond_Ring",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 2
+                },
+                {
+                  "itemID": "melvorD:Magic_Wand_Basic",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 1
+                }
+              ],
+              "uniqueDrop": {
+                "id": "expandedAreas:Tormented_Bracelet",
+                "quantity": 1
+              },
+              "allowedDamageTypeIDs": [
+                "melvorD:Normal"
+              ]
+            }
+          ]
+        }
+      },
+      {
         "skillID": "melvorD:Cooking",
         "data": {
           "recipes": [
@@ -16089,6 +16434,29 @@
             {
               "monsterID": "expandedAreas:Sandy_Devil",
               "insertAt": 5
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Dragon_Valley",
+        "monsters": {
+          "add": [
+            {
+              "monsterID": "expandedAreas:Baby_Green_Dragon",
+              "insertAt": 0
+            },
+            {
+              "monsterID": "expandedAreas:Baby_Blue_Dragon",
+              "insertAt": 1
+            },
+            {
+              "monsterID": "expandedAreas:Baby_Red_Dragon",
+              "insertAt": 2
+            },
+            {
+              "monsterID": "expandedAreas:Baby_Black_Dragon",
+              "insertAt": 3
             }
           ]
         }
