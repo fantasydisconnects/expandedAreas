@@ -4818,6 +4818,92 @@
     ],
     "items": [
       {
+        "itemType": "Item",
+        "id": "Bell_Pepper_Seed",
+        "name": "Bell_Pepper Seed",
+        "category": "Farming",
+        "type": "Seeds",
+        "media": "assets/items/Bell_Pepper_Seed.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 300
+      },
+      {
+        "itemType": "Item",
+        "id": "Coffea_Seed",
+        "name": "Coffea Seed",
+        "category": "Farming",
+        "type": "Seeds",
+        "media": "assets/items/Coffea_Seed.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 500
+      },
+      {
+        "itemType": "Food",
+        "id": "Coffee_Beans",
+        "name": "Coffee_Beans",
+        "category": "Farming",
+        "type": "Food",
+        "media": "assets/items/Coffee_Beans.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50,
+        "healsFor": 0.1
+      },
+      {
+        "itemType": "Food",
+        "id": "Barley",
+        "name": "Barley",
+        "category": "Farming",
+        "type": "Food",
+        "media": "assets/items/Barley.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "healsFor": 0.1
+      },
+      {
+        "itemType": "Item",
+        "id": "Barley_Seed",
+        "name": "Barley Seed",
+        "category": "Farming",
+        "type": "Seeds",
+        "media": "assets/items/Barley_Seed.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 10
+      },
+      {
+        "itemType": "Item",
+        "id": "Jute_Fibre",
+        "name": "Jute Fibre",
+        "category": "Crafting",
+        "type": "Material",
+        "media": "assets/items/Jute_Fibre.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 5
+      },
+      {
+        "itemType": "Item",
+        "id": "Jute_Seed",
+        "name": "Jute Seed",
+        "category": "Farming",
+        "type": "Seeds",
+        "media": "assets/items/Jute_Seed.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 20
+      },
+      {
         "itemType": "Equipment",
         "id": "Lantern_Oil",
         "name": "Lantern Oil",
@@ -8308,7 +8394,7 @@
         "golbinRaidExclusive": false,
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
-        "healsFor": 3.6
+        "healsFor": 2.6
       },
       {
         "id": "Monkey_Dung",
@@ -11286,13 +11372,12 @@
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 1,
-        "customDescription": "Used to create Baskets in Crafting."
+        "sellsFor": 1
       },
       {
         "itemType": "Item",
-        "id": "Evergreen_Pine_Seeds",
-        "name": "Evergreen Pine Seeds",
+        "id": "Evergreen_Pine_Seed",
+        "name": "Evergreen Pine Seed",
         "category": "Farming",
         "type": "Seeds",
         "media": "assets/items/Evergreen_Pine_Seed.png",
@@ -11303,8 +11388,8 @@
       },
       {
         "itemType": "Item",
-        "id": "Longleaf_Pine_Seeds",
-        "name": "Longleaf Pine Seeds",
+        "id": "Longleaf_Pine_Seed",
+        "name": "Longleaf Pine Seed",
         "category": "Farming",
         "type": "Seeds",
         "media": "assets/items/Longleaf_Pine_Seed.png",
@@ -11315,8 +11400,8 @@
       },
       {
         "itemType": "Item",
-        "id": "Frostpine_Seeds",
-        "name": "Frostpine Seeds",
+        "id": "Frostpine_Seed",
+        "name": "Frostpine Seed",
         "category": "Farming",
         "type": "Seeds",
         "media": "assets/items/Frostpine_Seed.png",
@@ -11327,8 +11412,8 @@
       },
       {
         "itemType": "Item",
-        "id": "Loblolly_Pine_Seeds",
-        "name": "Loblolly Pine Seeds",
+        "id": "Loblolly_Pine_Seed",
+        "name": "Loblolly Pine Seed",
         "category": "Farming",
         "type": "Seeds",
         "media": "assets/items/Loblolly_Pine_Seed.png",
@@ -11339,8 +11424,8 @@
       },
       {
         "itemType": "Item",
-        "id": "White_Pine_Seeds",
-        "name": "White Pine Seeds",
+        "id": "White_Pine_Seed",
+        "name": "White Pine Seed",
         "category": "Farming",
         "type": "Seeds",
         "media": "assets/items/White_Pine_Seed.png",
@@ -11393,31 +11478,31 @@
             "weight": 35
           },
           {
-            "itemID": "expandedAreas:Evergreen_Pine_Seeds",
+            "itemID": "expandedAreas:Evergreen_Pine_Seed",
             "minQuantity": 1,
             "maxQuantity": 3,
             "weight": 27
           },
           {
-            "itemID": "expandedAreas:Frostpine_Seeds",
+            "itemID": "expandedAreas:Frostpine_Seed",
             "minQuantity": 1,
             "maxQuantity": 3,
             "weight": 17
           },
           {
-            "itemID": "expandedAreas:White_Pine_Seeds",
+            "itemID": "expandedAreas:White_Pine_Seed",
             "minQuantity": 1,
             "maxQuantity": 3,
             "weight": 13
           },
           {
-            "itemID": "expandedAreas:Longleaf_Pine_Seeds",
+            "itemID": "expandedAreas:Longleaf_Pine_Seed",
             "minQuantity": 1,
             "maxQuantity": 3,
             "weight": 10
           },
           {
-            "itemID": "expandedAreas:Loblolly_Pine_Seeds",
+            "itemID": "expandedAreas:Loblolly_Pine_Seed",
             "minQuantity": 1,
             "maxQuantity": 3,
             "weight": 8
@@ -11466,7 +11551,97 @@
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 2500
+        "sellsFor": 10
+      },
+      {
+        "itemType": "Item",
+        "id": "Sack",
+        "name": "Sack",
+        "category": "Crafting",
+        "type": "Crafting Material",
+        "media": "assets/items/Sack.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 5
+      },
+      {
+        "id": "Sack_of_Potatoes",
+        "name": "Sack of Potatoes",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Sack_of_Potatoes.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 10,
+        "itemType": "Food",
+        "healsFor": 1.875
+      },
+      {
+        "id": "Sack_of_Onions",
+        "name": "Sack of Onions",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Sack_of_Onions.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 15,
+        "itemType": "Food",
+        "healsFor": 3.75
+      },
+      {
+        "id": "Sack_of_Cabbage",
+        "name": "Sack of Cabbage",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Sack_of_Cabbage.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 20,
+        "itemType": "Food",
+        "healsFor": 5.625
+      },
+      {
+        "id": "Sack_of_Carrots",
+        "name": "Sack of Carrots",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Sack_of_Carrots.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25,
+        "itemType": "Food",
+        "healsFor": 17.5
+      },
+      {
+        "id": "Bell_Peppers",
+        "name": "Bell Peppers",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Bell_Peppers.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 6,
+        "itemType": "Food",
+        "healsFor": 3.6
+      },
+      {
+        "id": "Sack_of_Peppers",
+        "name": "Sack of Peppers",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Sack_of_Peppers.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 30,
+        "itemType": "Food",
+        "healsFor": 22.5
       },
       {
         "id": "Basket_of_Tomatoes",
@@ -12714,6 +12889,101 @@
         ]
       },
       {
+        "upgradedItemID": "expandedAreas:Sack_of_Potatoes",
+        "itemCosts": [
+          {
+            "id": "melvorD:Potatoes",
+            "quantity": 5
+          },
+          {
+            "id": "expandedAreas:Sack",
+            "quantity": 1
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Sack",
+          "melvorD:Potatoes"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Sack_of_Onions",
+        "itemCosts": [
+          {
+            "id": "melvorD:Onions",
+            "quantity": 5
+          },
+          {
+            "id": "expandedAreas:Sack",
+            "quantity": 1
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Sack",
+          "melvorD:Onions"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Sack_of_Cabbage",
+        "itemCosts": [
+          {
+            "id": "melvorD:Cabbage",
+            "quantity": 5
+          },
+          {
+            "id": "expandedAreas:Sack",
+            "quantity": 1
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Sack",
+          "melvorD:Cabbage"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Sack_of_Carrots",
+        "itemCosts": [
+          {
+            "id": "melvorD:Carrot",
+            "quantity": 5
+          },
+          {
+            "id": "expandedAreas:Sack",
+            "quantity": 1
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Sack",
+          "melvorD:Carrot"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Sack_of_Peppers",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Bell_Peppers",
+            "quantity": 5
+          },
+          {
+            "id": "expandedAreas:Sack",
+            "quantity": 1
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Sack",
+          "expandedAreas:Bell_Peppers"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
         "upgradedItemID": "expandedAreas:Basket_of_Tomatoes",
         "itemCosts": [
           {
@@ -12771,25 +13041,6 @@
         "currencyCosts": []
       },
       {
-        "upgradedItemID": "expandedAreas:Basket_of_Apples",
-        "itemCosts": [
-          {
-            "id": "melvorF:Apple",
-            "quantity": 5
-          },
-          {
-            "id": "expandedAreas:Basket",
-            "quantity": 1
-          }
-        ],
-        "rootItemIDs": [
-          "expandedAreas:Basket",
-          "melvorF:Apple"
-        ],
-        "isDowngrade": false,
-        "currencyCosts": []
-      },
-      {
         "upgradedItemID": "expandedAreas:Basket_of_Cherries",
         "itemCosts": [
           {
@@ -12804,6 +13055,25 @@
         "rootItemIDs": [
           "expandedAreas:Basket",
           "melvorD:Cherry"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": []
+      },
+      {
+        "upgradedItemID": "expandedAreas:Basket_of_Apples",
+        "itemCosts": [
+          {
+            "id": "melvorF:Apple",
+            "quantity": 5
+          },
+          {
+            "id": "expandedAreas:Basket",
+            "quantity": 1
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Basket",
+          "melvorF:Apple"
         ],
         "isDowngrade": false,
         "currencyCosts": []
@@ -13447,6 +13717,157 @@
     ],
     "skillData": [
       {
+        "skillID": "melvorD:Farming",
+        "data": {
+          "categories": [
+            {
+              "id": "Hops",
+              "name": "Hops",
+              "media": "assets/skills/farming/Hops.svg",
+              "returnSeeds": true,
+              "scaleXPWithQuantity": true,
+              "harvestMultiplier": 3,
+              "masteryXPDivider": 3,
+              "giveXPOnPlant": true,
+              "description": "Useful for odds and ends, that sort of thing.",
+              "seedNotice": "Hops seeds will only show if you have the level requirement, and at least 3 in your bank.",
+              "singularName": "Hops"
+            },
+            {
+              "id": "Shrubs",
+              "name": "Shrubs",
+              "media": "assets/skills/farming/Shrub.svg",
+              "returnSeeds": true,
+              "scaleXPWithQuantity": true,
+              "harvestMultiplier": 4,
+              "masteryXPDivider": 3,
+              "giveXPOnPlant": true,
+              "description": "A good place to grow berries, beans, and the like.",
+              "seedNotice": "Shrub seeds will only show if you have the level requirement, and at least 2 in your bank.",
+              "singularName": "Shrub"
+            }
+          ],
+          "recipes": [
+            {
+              "id": "Barley",
+              "baseExperience": 9,
+              "level": 3,
+              "productId": "expandedAreas:Barley",
+              "baseInterval": 3000000,
+              "categoryID": "expandedAreas:Hops",
+              "seedCost": {
+                "id": "expandedAreas:Barley_Seed",
+                "quantity": 3
+              },
+              "grownMedia": "assets/skills/farming/Barley.svg"
+            },
+            {
+              "id": "Jute",
+              "baseExperience": 15,
+              "level": 13,
+              "productId": "expandedAreas:Jute_Fibre",
+              "baseInterval": 2400000,
+              "categoryID": "expandedAreas:Hops",
+              "seedCost": {
+                "id": "expandedAreas:Jute_Seed",
+                "quantity": 3
+              },
+              "grownName": "Jute Fibre",
+              "grownMedia": "assets/skills/farming/Jute.png"
+            },
+            {
+              "id": "Bell_Peppers",
+              "baseExperience": 132,
+              "level": 72,
+              "productId": "expandedAreas:Bell_Peppers",
+              "baseInterval": 13400000,
+              "categoryID": "melvorD:Allotment",
+              "seedCost": {
+                "id": "expandedAreas:Bell_Pepper_Seed",
+                "quantity": 3
+              }
+            },
+            {
+              "id": "Coffea",
+              "baseExperience": 165,
+              "level": 78,
+              "productId": "expandedAreas:Coffee_Beans",
+              "baseInterval": 16500000,
+              "categoryID": "expandedAreas:Shrubs",
+              "seedCost": {
+                "id": "expandedAreas:Coffea_Seed",
+                "quantity": 2
+              }
+            },
+            {
+              "id": "Evergreen_Logs",
+              "baseExperience": 12010,
+              "level": 20,
+              "productId": "expandedAreas:Evergreen_Logs",
+              "baseInterval": 28800000,
+              "categoryID": "melvorD:Tree",
+              "seedCost": {
+                "id": "expandedAreas:Evergreen_Pine_Seed",
+                "quantity": 1
+              },
+              "grownMedia": "assets/skills/woodcutting/Evergreen.svg"
+            },
+            {
+              "id": "Longleaf_Logs",
+              "baseExperience": 57810,
+              "level": 50,
+              "productId": "expandedAreas:Longleaf_Logs",
+              "baseInterval": 41600000,
+              "categoryID": "melvorD:Tree",
+              "seedCost": {
+                "id": "expandedAreas:Longleaf_Pine_Seed",
+                "quantity": 1
+              },
+              "grownMedia": "assets/skills/woodcutting/Longleaf.svg"
+            },
+            {
+              "id": "Frostpine_Logs",
+              "baseExperience": 116325,
+              "level": 65,
+              "productId": "expandedAreas:Frostpine_Logs",
+              "baseInterval": 51200000,
+              "categoryID": "melvorD:Tree",
+              "seedCost": {
+                "id": "expandedAreas:Frostpine_Seed",
+                "quantity": 1
+              },
+              "grownMedia": "assets/skills/woodcutting/Frostpine.svg"
+            },
+            {
+              "id": "White_Pine_Logs",
+              "baseExperience": 183015,
+              "level": 80,
+              "productId": "expandedAreas:White_Pine_Logs",
+              "baseInterval": 54400000,
+              "categoryID": "melvorD:Tree",
+              "seedCost": {
+                "id": "expandedAreas:White_Pine_Seed",
+                "quantity": 1
+              },
+              "grownMedia": "assets/skills/woodcutting/White_Pine.svg"
+            },
+            {
+              "id": "Loblolly_Logs",
+              "baseExperience": 194455,
+              "level": 85,
+              "productId": "expandedAreas:Loblolly_Logs",
+              "baseInterval": 57800000,
+              "categoryID": "melvorD:Tree",
+              "seedCost": {
+                "id": "expandedAreas:Loblolly_Pine_Seed",
+                "quantity": 1
+              },
+              "grownMedia": "assets/skills/woodcutting/Loblolly.svg"
+            }
+          ]
+        }
+      },
+      {
         "skillID": "melvorD:Woodcutting",
         "data": {
           "trees": [
@@ -13665,982 +14086,80 @@
         }
       },
       {
-        "skillID": "melvorD:Herblore",
+        "skillID": "melvorD:Cooking",
         "data": {
-          "recipes": [
-            {
-              "id": "Burn_Relief_Potion",
-              "name": "Burn Relief Potion",
-              "level": 22,
-              "potionIDs": [
-                "expandedAreas:Burn_Relief_Potion_I",
-                "expandedAreas:Burn_Relief_Potion_II",
-                "expandedAreas:Burn_Relief_Potion_III",
-                "expandedAreas:Burn_Relief_Potion_IV"
-              ],
-              "baseExperience": 19,
-              "categoryID": "melvorF:CombatPotions",
-              "itemCosts": [
-                {
-                  "id": "melvorD:Sourweed_Herb",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Pine_Resin",
-                  "quantity": 1
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Antidragon_Potion",
-              "name": "Anti-Dragon Potion",
-              "level": 69,
-              "potionIDs": [
-                "expandedAreas:Antidragon_Potion_I",
-                "expandedAreas:Antidragon_Potion_II",
-                "expandedAreas:Antidragon_Potion_III",
-                "expandedAreas:Antidragon_Potion_IV"
-              ],
-              "baseExperience": 97,
-              "categoryID": "melvorF:CombatPotions",
-              "itemCosts": [
-                {
-                  "id": "melvorF:Poraxx_Herb",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Dragonscale_Dust",
-                  "quantity": 1
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Super_Antidragon_Potion",
-              "name": "Super Anti-Dragon Potion",
-              "level": 92,
-              "potionIDs": [
-                "expandedAreas:Super_Antidragon_Potion_I",
-                "expandedAreas:Super_Antidragon_Potion_II",
-                "expandedAreas:Super_Antidragon_Potion_III",
-                "expandedAreas:Super_Antidragon_Potion_IV"
-              ],
-              "baseExperience": 200,
-              "categoryID": "melvorF:CombatPotions",
-              "itemCosts": [
-                {
-                  "id": "melvorF:Barrentoe_Herb",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Pine_Resin",
-                  "quantity": 1
-                },
-                {
-                  "id": "melvorF:Elder_Dragonhide",
-                  "quantity": 1
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Volatile_Potion",
-              "name": "Volatile Potion",
-              "level": 80,
-              "potionIDs": [
-                "expandedAreas:Volatile_Potion_I",
-                "expandedAreas:Volatile_Potion_II",
-                "expandedAreas:Volatile_Potion_III",
-                "expandedAreas:Volatile_Potion_IV"
-              ],
-              "baseExperience": 145,
-              "categoryID": "melvorF:CombatPotions",
-              "itemCosts": [
-                {
-                  "id": "melvorF:Barrentoe_Herb",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Pine_Resin",
-                  "quantity": 4
-                },
-                {
-                  "id": "expandedAreas:Turpentine",
-                  "quantity": 1
-                }
-              ],
-              "currencyCosts": []
-            }
-          ]
-        }
-      },
-      {
-        "skillID": "melvorD:Runecrafting",
-        "data": {
-          "rareDrops": [
-            {
-              "itemID": "expandedAreas:Wispy_Page",
-              "requirements": [
-                {
-                  "type": "ItemFound",
-                  "itemID": "expandedAreas:Mysterious_Tome"
-                }
-              ],
-              "quantity": 1,
-              "chance": {
-                "baseChance": 0.1,
-                "maxChance": 5,
-                "scalingFactor": 0.05,
-                "type": "LevelScaling"
-              }
-            },
-            {
-              "itemID": "expandedAreas:Muddy_Page",
-              "requirements": [
-                {
-                  "type": "ItemFound",
-                  "itemID": "expandedAreas:Mysterious_Tome"
-                }
-              ],
-              "quantity": 1,
-              "chance": {
-                "baseChance": 0.1,
-                "maxChance": 5,
-                "scalingFactor": 0.05,
-                "type": "LevelScaling"
-              }
-            },
-            {
-              "itemID": "expandedAreas:Waterlogged_Page",
-              "requirements": [
-                {
-                  "type": "ItemFound",
-                  "itemID": "expandedAreas:Mysterious_Tome"
-                }
-              ],
-              "quantity": 1,
-              "chance": {
-                "baseChance": 0.1,
-                "maxChance": 5,
-                "scalingFactor": 0.05,
-                "type": "LevelScaling"
-              }
-            },
-            {
-              "itemID": "expandedAreas:Burnt_Page",
-              "requirements": [
-                {
-                  "type": "ItemFound",
-                  "itemID": "expandedAreas:Mysterious_Tome"
-                }
-              ],
-              "quantity": 1,
-              "chance": {
-                "baseChance": 0.1,
-                "maxChance": 5,
-                "scalingFactor": 0.05,
-                "type": "LevelScaling"
-              }
-            }
-          ],
           "categories": [
             {
-              "id": "Unique",
-              "name": "Unique",
-              "media": "assets/items/Pureform_Rune.png"
+              "id": "Brewing_Barrel",
+              "media": "assets/skills/cooking/Barrel.svg",
+              "name": "Brewing Barrel Required",
+              "modifierName": "Brewing Barrel",
+              "shopUpgradeIDs": [
+                "expandedAreas:Redwood_Brewing_Barrel",
+                "expandedAreas:Magic_Brewing_Barrel",
+                "expandedAreas:Yew_Brewing_Barrel",
+                "expandedAreas:Mahogany_Brewing_Barrel",
+                "expandedAreas:Teak_Brewing_Barrel",
+                "expandedAreas:Willow_Brewing_Barrel",
+                "expandedAreas:Oak_Brewing_Barrel",
+                "expandedAreas:Normal_Brewing_Barrel"
+              ],
+              "upgradeRequired": true
+            }
+          ],
+          "subcategories": [
+            {
+              "id": "Alcohol",
+              "name": "Alcohol"
             }
           ],
           "recipes": [
             {
-              "id": "Wrath_Rune",
-              "level": 90,
-              "productID": "expandedAreas:Wrath_Rune",
+              "id": "Cooked_Grub",
+              "productID": "expandedAreas:Cooked_Grub",
+              "perfectCookID": "expandedAreas:Cooked_Grub_Perfect",
+              "baseExperience": 31,
+              "level": 18,
+              "baseInterval": 3000,
               "baseQuantity": 1,
-              "baseExperience": 26,
-              "categoryID": "melvorF:StandardRunes",
-              "subcategories": [
-                "melvorF:Runes"
-              ],
+              "categoryID": "melvorD:Fire",
               "itemCosts": [
                 {
-                  "id": "melvorD:Rune_Essence",
+                  "id": "expandedAreas:Raw_Grub",
                   "quantity": 1
                 }
               ],
               "currencyCosts": []
             },
             {
-              "id": "Tome_of_the_Elements",
+              "id": "Chicken_Pesto_Pasta",
+              "productID": "expandedAreas:Chicken_Pesto_Pasta",
+              "perfectCookID": "expandedAreas:Chicken_Pesto_Pasta_Perfect",
+              "baseExperience": 701,
               "level": 85,
-              "productID": "expandedAreas:Tome_of_the_Elements",
-              "baseQuantity": 1,
-              "baseExperience": 5000,
-              "categoryID": "expandedAreas:Unique",
+              "baseInterval": 8000,
+              "baseQuantity": 4,
+              "categoryID": "melvorD:Pot",
               "itemCosts": [
                 {
-                  "id": "expandedAreas:Tome_of_Air",
+                  "id": "melvorD:Raw_Chicken",
                   "quantity": 1
                 },
                 {
-                  "id": "expandedAreas:Tome_of_Earth",
+                  "id": "melvorD:Bag_of_Flour",
                   "quantity": 1
                 },
                 {
-                  "id": "expandedAreas:Tome_of_Water",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Tome_of_Fire",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Pureform_Rune",
-                  "quantity": 10
-                }
-              ]
-            },
-            {
-              "id": "Pure_Elementalist_Hat",
-              "level": 99,
-              "productID": "expandedAreas:Pure_Elementalist_Hat",
-              "baseQuantity": 1,
-              "baseExperience": 9001,
-              "categoryID": "expandedAreas:Unique",
-              "itemCosts": [
-                {
-                  "id": "expandedAreas:Air_Elementalist_Hat",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Earth_Elementalist_Hat",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Fire_Elementalist_Hat",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Water_Elementalist_Hat",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Diamond_Dust",
-                  "quantity": 5000
-                },
-                {
-                  "id": "expandedAreas:Pureform_Rune",
-                  "quantity": 5
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Pure_Elementalist_Robes",
-              "level": 99,
-              "productID": "expandedAreas:Pure_Elementalist_Robes",
-              "baseQuantity": 1,
-              "baseExperience": 18002,
-              "categoryID": "expandedAreas:Unique",
-              "itemCosts": [
-                {
-                  "id": "expandedAreas:Air_Elementalist_Robes",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Earth_Elementalist_Robes",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Fire_Elementalist_Robes",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Water_Elementalist_Robes",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Diamond_Dust",
-                  "quantity": 10000
-                },
-                {
-                  "id": "expandedAreas:Pureform_Rune",
-                  "quantity": 10
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Pure_Elementalist_Boots",
-              "level": 99,
-              "baseQuantity": 1,
-              "baseExperience": 9001,
-              "categoryID": "expandedAreas:Unique",
-              "productID": "expandedAreas:Pure_Elementalist_Boots",
-              "itemCosts": [
-                {
-                  "id": "expandedAreas:Air_Elementalist_Boots",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Earth_Elementalist_Boots",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Fire_Elementalist_Boots",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Water_Elementalist_Boots",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Diamond_Dust",
-                  "quantity": 5000
-                },
-                {
-                  "id": "expandedAreas:Pureform_Rune",
-                  "quantity": 5
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Pure_Elementalist_Sceptre",
-              "level": 99,
-              "productID": "expandedAreas:Pure_Elementalist_Sceptre",
-              "baseQuantity": 1,
-              "baseExperience": 9001,
-              "categoryID": "expandedAreas:Unique",
-              "itemCosts": [
-                {
-                  "id": "expandedAreas:Air_Elementalist_Staff",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Earth_Elementalist_Staff",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Fire_Elementalist_Staff",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Water_Elementalist_Staff",
-                  "quantity": 1
-                },
-                {
-                  "id": "melvorF:Natures_Wrath_Staff",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Orb_of_the_Elements",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Pureform_Rune",
-                  "quantity": 10
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Fragmented_Elemental_Rune",
-              "level": 70,
-              "productID": "expandedAreas:Fragmented_Elemental_Rune",
-              "baseQuantity": 1,
-              "baseExperience": 90,
-              "categoryID": "expandedAreas:Unique",
-              "itemCosts": [
-                {
-                  "id": "expandedAreas:Air_Rune_Shard",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Earth_Rune_Shard",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Fire_Rune_Shard",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Water_Rune_Shard",
-                  "quantity": 1
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Staff_of_Dust",
-              "productID": "expandedAreas:Staff_of_Dust",
-              "categoryID": "melvorF:StavesWands",
-              "baseExperience": 22,
-              "baseQuantity": 1,
-              "level": 10,
-              "itemCosts": [
-                {
-                  "id": "melvorF:Staff_of_Air",
-                  "quantity": 1
-                },
-                {
-                  "id": "melvorF:Staff_of_Earth",
-                  "quantity": 1
-                },
-                {
-                  "id": "melvorD:Dust_Rune",
-                  "quantity": 100
-                },
-                {
-                  "id": "expandedAreas:Sand",
-                  "quantity": 10
-                }
-              ]
-            },
-            {
-              "id": "Dust_Battlestaff",
-              "level": 40,
-              "productID": "expandedAreas:Dust_Battlestaff",
-              "baseQuantity": 1,
-              "baseExperience": 48,
-              "categoryID": "melvorF:StavesWands",
-              "itemCosts": [
-                {
-                  "id": "melvorD:Air_Battlestaff",
-                  "quantity": 1
-                },
-                {
-                  "id": "melvorD:Earth_Battlestaff",
-                  "quantity": 1
-                },
-                {
-                  "id": "melvorD:Dust_Rune",
-                  "quantity": 100
-                },
-                {
-                  "id": "expandedAreas:Sand",
-                  "quantity": 25
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Mystic_Dust_Staff",
-              "level": 80,
-              "productID": "expandedAreas:Mystic_Dust_Staff",
-              "baseQuantity": 1,
-              "baseExperience": 88,
-              "categoryID": "melvorF:StavesWands",
-              "itemCosts": [
-                {
-                  "id": "melvorD:Mystic_Air_Staff",
-                  "quantity": 1
-                },
-                {
-                  "id": "melvorF:Mystic_Earth_Staff",
-                  "quantity": 1
-                },
-                {
-                  "id": "melvorD:Dust_Rune",
-                  "quantity": 100
-                },
-                {
-                  "id": "expandedAreas:Sand",
-                  "quantity": 50
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Dust_Imbued_Wand",
-              "level": 90,
-              "productID": "expandedAreas:Dust_Imbued_Wand",
-              "baseQuantity": 1,
-              "baseExperience": 425,
-              "categoryID": "melvorF:StavesWands",
-              "itemCosts": [
-                {
-                  "id": "melvorF:Air_Imbued_Wand",
-                  "quantity": 1
-                },
-                {
-                  "id": "melvorF:Earth_Imbued_Wand",
-                  "quantity": 1
-                },
-                {
-                  "id": "melvorD:Dust_Rune",
-                  "quantity": 1000
-                },
-                {
-                  "id": "melvorF:Nature_Rune",
-                  "quantity": 20
-                },
-                {
-                  "id": "expandedAreas:Sand",
-                  "quantity": 100
-                }
-              ],
-              "currencyCosts": []
-            }
-          ]
-        }
-      },
-      {
-        "skillID": "melvorD:Crafting",
-        "data": {
-          "categories": [
-            {
-              "id": "Unique",
-              "media": "assets/items/Ruby_Dust.png",
-              "name": "Unique"
-            }
-          ],
-          "recipes": [
-            {
-              "id": "Topaz_Dust",
-              "level": 9,
-              "productID": "expandedAreas:Topaz_Dust",
-              "baseQuantity": 2,
-              "baseExperience": 8,
-              "categoryID": "expandedAreas:Unique",
-              "itemCosts": [
-                {
-                  "id": "melvorD:Topaz",
-                  "quantity": 1
-                }
-              ]
-            },
-            {
-              "id": "Sapphire_Dust",
-              "level": 16,
-              "productID": "expandedAreas:Sapphire_Dust",
-              "baseQuantity": 2,
-              "baseExperience": 18,
-              "categoryID": "expandedAreas:Unique",
-              "itemCosts": [
-                {
-                  "id": "melvorD:Sapphire",
-                  "quantity": 1
-                }
-              ]
-            },
-            {
-              "id": "Emerald_Dust",
-              "level": 25,
-              "productID": "expandedAreas:Emerald_Dust",
-              "baseQuantity": 2,
-              "baseExperience": 27,
-              "categoryID": "expandedAreas:Unique",
-              "itemCosts": [
-                {
-                  "id": "melvorD:Emerald",
-                  "quantity": 1
-                }
-              ]
-            },
-            {
-              "id": "Ruby_Dust",
-              "level": 33,
-              "productID": "expandedAreas:Ruby_Dust",
-              "baseQuantity": 2,
-              "baseExperience": 38,
-              "categoryID": "expandedAreas:Unique",
-              "itemCosts": [
-                {
-                  "id": "melvorD:Ruby",
-                  "quantity": 1
-                }
-              ]
-            },
-            {
-              "id": "Diamond_Dust",
-              "level": 43,
-              "productID": "expandedAreas:Diamond_Dust",
-              "baseQuantity": 2,
-              "baseExperience": 53,
-              "categoryID": "expandedAreas:Unique",
-              "itemCosts": [
-                {
-                  "id": "melvorD:Diamond",
-                  "quantity": 1
-                }
-              ]
-            },
-            {
-              "id": "Green_Dhide_Boots",
-              "level": 53,
-              "productID": "expandedAreas:Green_Dhide_Boots",
-              "baseQuantity": 1,
-              "baseExperience": 50,
-              "categoryID": "melvorF:Dragonhide",
-              "itemCosts": [
-                {
-                  "id": "melvorD:Green_Dragonhide",
-                  "quantity": 1
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Green_Dhide_Cowl",
-              "level": 55,
-              "productID": "expandedAreas:Green_Dhide_Cowl",
-              "baseQuantity": 1,
-              "baseExperience": 100,
-              "categoryID": "melvorF:Dragonhide",
-              "itemCosts": [
-                {
-                  "id": "melvorD:Green_Dragonhide",
-                  "quantity": 2
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Blue_Dhide_Boots",
-              "level": 64,
-              "productID": "expandedAreas:Blue_Dhide_Boots",
-              "baseQuantity": 1,
-              "baseExperience": 56,
-              "categoryID": "melvorF:Dragonhide",
-              "itemCosts": [
-                {
-                  "id": "melvorD:Blue_Dragonhide",
-                  "quantity": 1
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Blue_Dhide_Cowl",
-              "level": 65,
-              "productID": "expandedAreas:Blue_Dhide_Cowl",
-              "baseQuantity": 1,
-              "baseExperience": 112,
-              "categoryID": "melvorF:Dragonhide",
-              "itemCosts": [
-                {
-                  "id": "melvorD:Blue_Dragonhide",
-                  "quantity": 2
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Red_Dhide_Boots",
-              "level": 72,
-              "productID": "expandedAreas:Red_Dhide_Boots",
-              "baseQuantity": 1,
-              "baseExperience": 62,
-              "categoryID": "melvorF:Dragonhide",
-              "itemCosts": [
-                {
-                  "id": "melvorD:Red_Dragonhide",
-                  "quantity": 1
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Red_Dhide_Cowl",
-              "level": 73,
-              "productID": "expandedAreas:Red_Dhide_Cowl",
-              "baseQuantity": 1,
-              "baseExperience": 129,
-              "categoryID": "melvorF:Dragonhide",
-              "itemCosts": [
-                {
-                  "id": "melvorD:Red_Dragonhide",
-                  "quantity": 2
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Black_Dhide_Boots",
-              "level": 77,
-              "productID": "expandedAreas:Black_Dhide_Boots",
-              "baseQuantity": 1,
-              "baseExperience": 86,
-              "categoryID": "melvorF:Dragonhide",
-              "itemCosts": [
-                {
-                  "id": "melvorD:Black_Dragonhide",
-                  "quantity": 1
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Black_Dhide_Cowl",
-              "level": 78,
-              "productID": "expandedAreas:Black_Dhide_Cowl",
-              "baseQuantity": 1,
-              "baseExperience": 172,
-              "categoryID": "melvorF:Dragonhide",
-              "itemCosts": [
-                {
-                  "id": "melvorD:Black_Dragonhide",
-                  "quantity": 2
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Pocket_Sand",
-              "categoryID": "melvorF:Bags",
-              "productID": "expandedAreas:Pocket_Sand",
-              "baseExperience": 150,
-              "baseQuantity": 25,
-              "level": 53,
-              "itemCosts": [
-                {
-                  "id": "melvorF:Basic_Bag",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Sand",
-                  "quantity": 25
-                }
-              ]
-            },
-            {
-              "id": "Basket",
-              "categoryID": "melvorF:Bags",
-              "productID": "expandedAreas:Basket",
-              "baseExperience": 25,
-              "baseQuantity": 1,
-              "level": 28,
-              "itemCosts": [
-                {
-                  "id": "expandedAreas:Pine_Needles",
-                  "quantity": 50
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "skillID": "melvorD:Fletching",
-        "data": {
-          "categories": [
-            {
-              "id": "Barbarian_Fletching",
-              "media": "assets/icons/Barbarian.png",
-              "name": "Barbarian Fletching"
-            }
-          ],
-          "recipes": [
-            {
-              "id": "Black_Arrows",
-              "level": 38,
-              "productID": "expandedAreas:Black_Arrows",
-              "baseQuantity": 15,
-              "baseExperience": 90,
-              "categoryID": "melvorF:Arrows",
-              "itemCosts": [
-                {
-                  "id": "expandedAreas:Black_Arrowtips",
-                  "quantity": 15
-                },
-                {
-                  "id": "melvorD:Headless_Arrows",
-                  "quantity": 15
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Black_Javelin",
-              "level": 40,
-              "productID": "expandedAreas:Black_Javelin",
-              "baseQuantity": 5,
-              "baseExperience": 96,
-              "categoryID": "melvorF:Javelins",
-              "itemCosts": [
-                {
-                  "id": "expandedAreas:Longleaf_Logs",
-                  "quantity": 3
-                },
-                {
-                  "id": "expandedAreas:Black_Javelin_Heads",
-                  "quantity": 5
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Black_Crossbow",
-              "level": 43,
-              "productID": "expandedAreas:Black_Crossbow",
-              "baseQuantity": 1,
-              "baseExperience": 105,
-              "categoryID": "melvorF:Crossbows",
-              "itemCosts": [
-                {
-                  "id": "expandedAreas:Longleaf_Logs",
-                  "quantity": 3
-                },
-                {
-                  "id": "expandedAreas:Black_Crossbow_Head",
-                  "quantity": 1
-                },
-                {
-                  "id": "melvorD:Bowstring",
-                  "quantity": 1
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Bronze_Thrownaxe",
-              "level": 2,
-              "productID": "expandedAreas:Bronze_Thrownaxe",
-              "baseQuantity": 3,
-              "baseExperience": 16,
-              "categoryID": "expandedAreas:Barbarian_Fletching",
-              "itemCosts": [
-                {
-                  "id": "expandedAreas:Evergreen_Logs",
+                  "id": "expandedAreas:Pine_Nuts",
                   "quantity": 2
                 },
                 {
-                  "id": "expandedAreas:Bronze_Thrownaxe_Head",
-                  "quantity": 3
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Iron_Thrownaxe",
-              "level": 15,
-              "productID": "expandedAreas:Iron_Thrownaxe",
-              "baseQuantity": 3,
-              "baseExperience": 27,
-              "categoryID": "expandedAreas:Barbarian_Fletching",
-              "itemCosts": [
-                {
-                  "id": "expandedAreas:Evergreen_Logs",
-                  "quantity": 2
+                  "id": "melvorD:Cream",
+                  "quantity": 1
                 },
                 {
-                  "id": "expandedAreas:Iron_Thrownaxe_Head",
-                  "quantity": 3
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Steel_Thrownaxe",
-              "level": 30,
-              "productID": "expandedAreas:Steel_Thrownaxe",
-              "baseQuantity": 3,
-              "baseExperience": 61,
-              "categoryID": "expandedAreas:Barbarian_Fletching",
-              "itemCosts": [
-                {
-                  "id": "expandedAreas:Evergreen_Logs",
+                  "id": "melvorD:Cheese",
                   "quantity": 2
-                },
-                {
-                  "id": "expandedAreas:Steel_Thrownaxe_Head",
-                  "quantity": 3
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Black_Thrownaxe",
-              "level": 38,
-              "productID": "expandedAreas:Black_Thrownaxe",
-              "baseQuantity": 3,
-              "baseExperience": 89,
-              "categoryID": "expandedAreas:Barbarian_Fletching",
-              "itemCosts": [
-                {
-                  "id": "expandedAreas:Evergreen_Logs",
-                  "quantity": 2
-                },
-                {
-                  "id": "expandedAreas:Black_Thrownaxe_Head",
-                  "quantity": 3
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Mithril_Thrownaxe",
-              "level": 45,
-              "productID": "expandedAreas:Mithril_Thrownaxe",
-              "baseQuantity": 3,
-              "baseExperience": 105,
-              "categoryID": "expandedAreas:Barbarian_Fletching",
-              "itemCosts": [
-                {
-                  "id": "expandedAreas:Longleaf_Logs",
-                  "quantity": 2
-                },
-                {
-                  "id": "expandedAreas:Mithril_Thrownaxe_Head",
-                  "quantity": 3
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Adamant_Thrownaxe",
-              "level": 60,
-              "productID": "expandedAreas:Adamant_Thrownaxe",
-              "baseQuantity": 3,
-              "baseExperience": 121,
-              "categoryID": "expandedAreas:Barbarian_Fletching",
-              "itemCosts": [
-                {
-                  "id": "expandedAreas:Frostpine_Logs",
-                  "quantity": 2
-                },
-                {
-                  "id": "expandedAreas:Adamant_Thrownaxe_Head",
-                  "quantity": 3
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Rune_Thrownaxe",
-              "level": 77,
-              "productID": "expandedAreas:Rune_Thrownaxe",
-              "baseQuantity": 3,
-              "baseExperience": 174,
-              "categoryID": "expandedAreas:Barbarian_Fletching",
-              "itemCosts": [
-                {
-                  "id": "expandedAreas:White_Pine_Logs",
-                  "quantity": 2
-                },
-                {
-                  "id": "expandedAreas:Rune_Thrownaxe_Head",
-                  "quantity": 3
-                }
-              ],
-              "currencyCosts": []
-            },
-            {
-              "id": "Dragon_Thrownaxe",
-              "level": 90,
-              "productID": "expandedAreas:Dragon_Thrownaxe",
-              "baseQuantity": 3,
-              "baseExperience": 219,
-              "categoryID": "expandedAreas:Barbarian_Fletching",
-              "itemCosts": [
-                {
-                  "id": "expandedAreas:Loblolly_Logs",
-                  "quantity": 2
-                },
-                {
-                  "id": "expandedAreas:Dragon_Thrownaxe_Head",
-                  "quantity": 3
                 }
               ],
               "currencyCosts": []
@@ -15203,22 +14722,70 @@
                   "itemID": "melvorD:Blood_Rune",
                   "minQuantity": 1,
                   "maxQuantity": 1,
-                  "weight": 10
+                  "weight": 4096
                 },
                 {
                   "itemID": "melvorD:Death_Rune",
                   "minQuantity": 1,
                   "maxQuantity": 1,
-                  "weight": 6
+                  "weight": 2048
                 },
                 {
-                  "itemID": "melvorF:Eyeball",
+                  "itemID": "melvorD:Amulet_of_Ranged",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 1024
+                },
+                {
+                  "itemID": "melvorD:Mithril_Arrows",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 512
+                },
+                {
+                  "itemID": "melvorD:Adamant_Arrows",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 256
+                },
+                {
+                  "itemID": "melvorD:Rune_Arrows",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 128
+                },
+                {
+                  "itemID": "melvorD:Chaos_Rune",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 64
+                },
+                {
+                  "itemID": "melvorF:Havoc_Rune",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 32
+                },
+                {
+                  "itemID": "melvorD:Dragon_Arrows",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 16
+                },
+                {
+                  "itemID": "melvorF:Topaz_Bolts",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 8
+                },
+                {
+                  "itemID": "melvorF:Ruby_Bolts",
                   "minQuantity": 1,
                   "maxQuantity": 1,
                   "weight": 4
                 },
                 {
-                  "itemID": "melvorD:Magic_Bones",
+                  "itemID": "melvorF:Emerald_Bolts",
                   "minQuantity": 1,
                   "maxQuantity": 1,
                   "weight": 2
@@ -15242,7 +14809,7 @@
               "id": "CURSED_MAIDEN",
               "baseExperience": 99,
               "level": 86,
-              "name": "Elder Vampire",
+              "name": "Cursed Maiden",
               "media": "assets/skills/thieving/Cursed_Maiden.png",
               "perception": 790,
               "maxHit": 23.0,
@@ -15254,31 +14821,79 @@
               ],
               "lootTable": [
                 {
-                  "itemID": "melvorF:Spirit_Rune",
+                  "itemID": "melvorD:Body_Rune",
                   "minQuantity": 1,
                   "maxQuantity": 1,
-                  "weight": 10
+                  "weight": 4096
                 },
                 {
-                  "itemID": "melvorF:Nature_Rune",
+                  "itemID": "melvorD:Mind_Rune",
                   "minQuantity": 1,
                   "maxQuantity": 1,
-                  "weight": 6
+                  "weight": 2048
                 },
                 {
                   "itemID": "melvorD:Amulet_of_Magic",
                   "minQuantity": 1,
                   "maxQuantity": 1,
-                  "weight": 4
+                  "weight": 1024
+                },
+                {
+                  "itemID": "melvorD:Black_Wizard_Boots",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 512
+                },
+                {
+                  "itemID": "melvorD:Black_Wizard_Bottoms",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 256
+                },
+                {
+                  "itemID": "melvorD:Black_Wizard_Robes",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 128
+                },
+                {
+                  "itemID": "melvorF:Spirit_Rune",
+                  "minQuantity": 10,
+                  "maxQuantity": 10,
+                  "weight": 64
+                },
+                {
+                  "itemID": "melvorF:Nature_Rune",
+                  "minQuantity": 10,
+                  "maxQuantity": 10,
+                  "weight": 32
                 },
                 {
                   "itemID": "melvorF:Gold_Diamond_Ring",
                   "minQuantity": 1,
                   "maxQuantity": 1,
-                  "weight": 2
+                  "weight": 16
                 },
                 {
                   "itemID": "melvorD:Magic_Wand_Basic",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 8
+                },
+                {
+                  "itemID": "melvorD:Magic_Wand_Powerful",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 4
+                },
+                {
+                  "itemID": "melvorD:Magic_Wand_Elite",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 2
+                },
+                {
+                  "itemID": "expandedAreas:Ancient_Staff",
                   "minQuantity": 1,
                   "maxQuantity": 1,
                   "weight": 1
@@ -15294,69 +14909,93 @@
             },
             {
               "id": "BOUNTY_HUNTER",
-              "baseExperience": 99,
+              "baseExperience": 112,
               "level": 91,
               "name": "Bounty Hunter",
               "media": "assets/skills/thieving/Bounty_Hunter.png",
-              "perception": 790,
-              "maxHit": 23.0,
+              "perception": 830,
+              "maxHit": 25.6,
               "currencyDrops": [
                 {
                   "id": "melvorD:GP",
-                  "quantity": 735
+                  "quantity": 840
                 }
               ],
               "lootTable": [
                 {
-                  "itemID": "melvorD:Dragon_Sword",
+                  "itemID": "melvorD:Adamant_Dagger",
                   "minQuantity": 1,
                   "maxQuantity": 1,
-                  "weight": 5
+                  "weight": 4096
                 },
                 {
-                  "itemID": "melvorD:Dragon_Helmet",
+                  "itemID": "melvorD:Adamant_Sword",
                   "minQuantity": 1,
                   "maxQuantity": 1,
-                  "weight": 3
+                  "weight": 2048
                 },
                 {
-                  "itemID": "melvorD:Dragon_Platebody",
+                  "itemID": "melvorD:Rune_Dagger",
                   "minQuantity": 1,
                   "maxQuantity": 1,
-                  "weight": 3
+                  "weight": 1024
                 },
                 {
-                  "itemID": "melvorD:Dragon_Platelegs",
+                  "itemID": "melvorD:Rune_Sword",
                   "minQuantity": 1,
                   "maxQuantity": 1,
-                  "weight": 3
-                },
-                {
-                  "itemID": "melvorD:Dragon_Gloves",
-                  "minQuantity": 1,
-                  "maxQuantity": 1,
-                  "weight": 3
-                },
-                {
-                  "itemID": "melvorD:Dragon_Boots",
-                  "minQuantity": 1,
-                  "maxQuantity": 1,
-                  "weight": 3
-                },
-                {
-                  "itemID": "melvorD:Dragon_Dagger",
-                  "minQuantity": 1,
-                  "maxQuantity": 1,
-                  "weight": 4
+                  "weight": 512
                 },
                 {
                   "itemID": "melvorD:Amulet_of_Strength",
                   "minQuantity": 1,
                   "maxQuantity": 1,
-                  "weight": 6
+                  "weight": 256
                 },
                 {
-                  "itemID": "melvorF:Ancient_2H_Sword",
+                  "itemID": "melvorD:Dragon_Dagger",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 128
+                },
+                {
+                  "itemID": "melvorD:Dragon_Sword",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 64
+                },
+                {
+                  "itemID": "melvorD:Dragon_Gloves",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 32
+                },
+                {
+                  "itemID": "melvorD:Dragon_Boots",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 16
+                },
+                {
+                  "itemID": "melvorD:Dragon_Helmet",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 8
+                },
+                {
+                  "itemID": "melvorD:Dragon_Platelegs",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 4
+                },
+                {
+                  "itemID": "melvorD:Dragon_Platebody",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 2
+                },
+                {
+                  "itemID": "melvorD:Ancient_Sword",
                   "minQuantity": 1,
                   "maxQuantity": 1,
                   "weight": 1
@@ -15374,55 +15013,225 @@
         }
       },
       {
-        "skillID": "melvorD:Cooking",
+        "skillID": "melvorD:Fletching",
         "data": {
+          "categories": [
+            {
+              "id": "Barbarian_Fletching",
+              "media": "assets/icons/Barbarian.png",
+              "name": "Barbarian Fletching"
+            }
+          ],
           "recipes": [
             {
-              "id": "Cooked_Grub",
-              "productID": "expandedAreas:Cooked_Grub",
-              "perfectCookID": "expandedAreas:Cooked_Grub_Perfect",
-              "baseExperience": 31,
-              "level": 18,
-              "baseInterval": 3000,
-              "baseQuantity": 1,
-              "categoryID": "melvorD:Fire",
+              "id": "Black_Arrows",
+              "level": 38,
+              "productID": "expandedAreas:Black_Arrows",
+              "baseQuantity": 15,
+              "baseExperience": 90,
+              "categoryID": "melvorF:Arrows",
               "itemCosts": [
                 {
-                  "id": "expandedAreas:Raw_Grub",
+                  "id": "expandedAreas:Black_Arrowtips",
+                  "quantity": 15
+                },
+                {
+                  "id": "melvorD:Headless_Arrows",
+                  "quantity": 15
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Black_Javelin",
+              "level": 40,
+              "productID": "expandedAreas:Black_Javelin",
+              "baseQuantity": 5,
+              "baseExperience": 96,
+              "categoryID": "melvorF:Javelins",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Longleaf_Logs",
+                  "quantity": 3
+                },
+                {
+                  "id": "expandedAreas:Black_Javelin_Heads",
+                  "quantity": 5
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Black_Crossbow",
+              "level": 43,
+              "productID": "expandedAreas:Black_Crossbow",
+              "baseQuantity": 1,
+              "baseExperience": 105,
+              "categoryID": "melvorF:Crossbows",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Longleaf_Logs",
+                  "quantity": 3
+                },
+                {
+                  "id": "expandedAreas:Black_Crossbow_Head",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Bowstring",
                   "quantity": 1
                 }
               ],
               "currencyCosts": []
             },
             {
-              "id": "Chicken_Pesto_Pasta",
-              "productID": "expandedAreas:Chicken_Pesto_Pasta",
-              "perfectCookID": "expandedAreas:Chicken_Pesto_Pasta_Perfect",
-              "baseExperience": 701,
-              "level": 85,
-              "baseInterval": 8000,
-              "baseQuantity": 4,
-              "categoryID": "melvorD:Pot",
+              "id": "Bronze_Thrownaxe",
+              "level": 2,
+              "productID": "expandedAreas:Bronze_Thrownaxe",
+              "baseQuantity": 3,
+              "baseExperience": 16,
+              "categoryID": "expandedAreas:Barbarian_Fletching",
               "itemCosts": [
                 {
-                  "id": "melvorD:Raw_Chicken",
-                  "quantity": 1
-                },
-                {
-                  "id": "melvorD:Bag_of_Flour",
-                  "quantity": 1
-                },
-                {
-                  "id": "expandedAreas:Pine_Nuts",
+                  "id": "expandedAreas:Evergreen_Logs",
                   "quantity": 2
                 },
                 {
-                  "id": "melvorD:Cream",
-                  "quantity": 1
+                  "id": "expandedAreas:Bronze_Thrownaxe_Head",
+                  "quantity": 3
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Iron_Thrownaxe",
+              "level": 15,
+              "productID": "expandedAreas:Iron_Thrownaxe",
+              "baseQuantity": 3,
+              "baseExperience": 27,
+              "categoryID": "expandedAreas:Barbarian_Fletching",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Evergreen_Logs",
+                  "quantity": 2
                 },
                 {
-                  "id": "melvorD:Cheese",
+                  "id": "expandedAreas:Iron_Thrownaxe_Head",
+                  "quantity": 3
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Steel_Thrownaxe",
+              "level": 30,
+              "productID": "expandedAreas:Steel_Thrownaxe",
+              "baseQuantity": 3,
+              "baseExperience": 61,
+              "categoryID": "expandedAreas:Barbarian_Fletching",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Evergreen_Logs",
                   "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Steel_Thrownaxe_Head",
+                  "quantity": 3
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Black_Thrownaxe",
+              "level": 38,
+              "productID": "expandedAreas:Black_Thrownaxe",
+              "baseQuantity": 3,
+              "baseExperience": 89,
+              "categoryID": "expandedAreas:Barbarian_Fletching",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Evergreen_Logs",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Black_Thrownaxe_Head",
+                  "quantity": 3
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Mithril_Thrownaxe",
+              "level": 45,
+              "productID": "expandedAreas:Mithril_Thrownaxe",
+              "baseQuantity": 3,
+              "baseExperience": 105,
+              "categoryID": "expandedAreas:Barbarian_Fletching",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Longleaf_Logs",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Mithril_Thrownaxe_Head",
+                  "quantity": 3
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Adamant_Thrownaxe",
+              "level": 60,
+              "productID": "expandedAreas:Adamant_Thrownaxe",
+              "baseQuantity": 3,
+              "baseExperience": 121,
+              "categoryID": "expandedAreas:Barbarian_Fletching",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Frostpine_Logs",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Adamant_Thrownaxe_Head",
+                  "quantity": 3
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Rune_Thrownaxe",
+              "level": 77,
+              "productID": "expandedAreas:Rune_Thrownaxe",
+              "baseQuantity": 3,
+              "baseExperience": 174,
+              "categoryID": "expandedAreas:Barbarian_Fletching",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:White_Pine_Logs",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Rune_Thrownaxe_Head",
+                  "quantity": 3
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Dragon_Thrownaxe",
+              "level": 90,
+              "productID": "expandedAreas:Dragon_Thrownaxe",
+              "baseQuantity": 3,
+              "baseExperience": 219,
+              "categoryID": "expandedAreas:Barbarian_Fletching",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Loblolly_Logs",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Dragon_Thrownaxe_Head",
+                  "quantity": 3
                 }
               ],
               "currencyCosts": []
@@ -15431,83 +15240,793 @@
         }
       },
       {
-        "skillID": "melvorD:Fishing",
-        "data": {}
+        "skillID": "melvorD:Crafting",
+        "data": {
+          "categories": [
+            {
+              "id": "Unique",
+              "media": "assets/items/Ruby_Dust.png",
+              "name": "Unique"
+            }
+          ],
+          "recipes": [
+            {
+              "id": "Topaz_Dust",
+              "level": 9,
+              "productID": "expandedAreas:Topaz_Dust",
+              "baseQuantity": 2,
+              "baseExperience": 8,
+              "categoryID": "expandedAreas:Unique",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Topaz",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Sapphire_Dust",
+              "level": 16,
+              "productID": "expandedAreas:Sapphire_Dust",
+              "baseQuantity": 2,
+              "baseExperience": 18,
+              "categoryID": "expandedAreas:Unique",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sapphire",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Emerald_Dust",
+              "level": 25,
+              "productID": "expandedAreas:Emerald_Dust",
+              "baseQuantity": 2,
+              "baseExperience": 27,
+              "categoryID": "expandedAreas:Unique",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Ruby_Dust",
+              "level": 33,
+              "productID": "expandedAreas:Ruby_Dust",
+              "baseQuantity": 2,
+              "baseExperience": 38,
+              "categoryID": "expandedAreas:Unique",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Ruby",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Diamond_Dust",
+              "level": 43,
+              "productID": "expandedAreas:Diamond_Dust",
+              "baseQuantity": 2,
+              "baseExperience": 53,
+              "categoryID": "expandedAreas:Unique",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Diamond",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "Green_Dhide_Boots",
+              "level": 53,
+              "productID": "expandedAreas:Green_Dhide_Boots",
+              "baseQuantity": 1,
+              "baseExperience": 50,
+              "categoryID": "melvorF:Dragonhide",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Green_Dragonhide",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Green_Dhide_Cowl",
+              "level": 55,
+              "productID": "expandedAreas:Green_Dhide_Cowl",
+              "baseQuantity": 1,
+              "baseExperience": 100,
+              "categoryID": "melvorF:Dragonhide",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Green_Dragonhide",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Blue_Dhide_Boots",
+              "level": 64,
+              "productID": "expandedAreas:Blue_Dhide_Boots",
+              "baseQuantity": 1,
+              "baseExperience": 56,
+              "categoryID": "melvorF:Dragonhide",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Blue_Dragonhide",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Blue_Dhide_Cowl",
+              "level": 65,
+              "productID": "expandedAreas:Blue_Dhide_Cowl",
+              "baseQuantity": 1,
+              "baseExperience": 112,
+              "categoryID": "melvorF:Dragonhide",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Blue_Dragonhide",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Red_Dhide_Boots",
+              "level": 72,
+              "productID": "expandedAreas:Red_Dhide_Boots",
+              "baseQuantity": 1,
+              "baseExperience": 62,
+              "categoryID": "melvorF:Dragonhide",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Red_Dragonhide",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Red_Dhide_Cowl",
+              "level": 73,
+              "productID": "expandedAreas:Red_Dhide_Cowl",
+              "baseQuantity": 1,
+              "baseExperience": 129,
+              "categoryID": "melvorF:Dragonhide",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Red_Dragonhide",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Black_Dhide_Boots",
+              "level": 77,
+              "productID": "expandedAreas:Black_Dhide_Boots",
+              "baseQuantity": 1,
+              "baseExperience": 86,
+              "categoryID": "melvorF:Dragonhide",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Black_Dragonhide",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Black_Dhide_Cowl",
+              "level": 78,
+              "productID": "expandedAreas:Black_Dhide_Cowl",
+              "baseQuantity": 1,
+              "baseExperience": 172,
+              "categoryID": "melvorF:Dragonhide",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Black_Dragonhide",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Pocket_Sand",
+              "categoryID": "melvorF:Bags",
+              "productID": "expandedAreas:Pocket_Sand",
+              "baseExperience": 150,
+              "baseQuantity": 25,
+              "level": 53,
+              "itemCosts": [
+                {
+                  "id": "melvorF:Basic_Bag",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Sand",
+                  "quantity": 25
+                }
+              ]
+            },
+            {
+              "id": "Sack",
+              "categoryID": "melvorF:Bags",
+              "productID": "expandedAreas:Sack",
+              "baseExperience": 17,
+              "baseQuantity": 1,
+              "level": 21,
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Jute_Fibre",
+                  "quantity": 4
+                }
+              ]
+            },
+            {
+              "id": "Basket",
+              "categoryID": "melvorF:Bags",
+              "productID": "expandedAreas:Basket",
+              "baseExperience": 36,
+              "baseQuantity": 1,
+              "level": 36,
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Jute_Fibre",
+                  "quantity": 6
+                }
+              ]
+            }
+          ]
+        }
       },
       {
-        "skillID": "melvorD:Farming",
+        "skillID": "melvorD:Herblore",
         "data": {
           "recipes": [
             {
-              "id": "Evergreen_Logs",
-              "baseExperience": 12010,
-              "level": 20,
-              "productId": "expandedAreas:Evergreen_Logs",
-              "baseInterval": 28800000,
-              "categoryID": "melvorD:Tree",
-              "seedCost": {
-                "id": "expandedAreas:Evergreen_Pine_Seeds",
-                "quantity": 1
-              },
-              "grownMedia": "assets/skills/woodcutting/Evergreen.svg"
+              "id": "Burn_Relief_Potion",
+              "name": "Burn Relief Potion",
+              "level": 22,
+              "potionIDs": [
+                "expandedAreas:Burn_Relief_Potion_I",
+                "expandedAreas:Burn_Relief_Potion_II",
+                "expandedAreas:Burn_Relief_Potion_III",
+                "expandedAreas:Burn_Relief_Potion_IV"
+              ],
+              "baseExperience": 19,
+              "categoryID": "melvorF:CombatPotions",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Sourweed_Herb",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Pine_Resin",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
             },
             {
-              "id": "Longleaf_Logs",
-              "baseExperience": 57810,
-              "level": 50,
-              "productId": "expandedAreas:Longleaf_Logs",
-              "baseInterval": 41600000,
-              "categoryID": "melvorD:Tree",
-              "seedCost": {
-                "id": "expandedAreas:Longleaf_Pine_Seeds",
-                "quantity": 1
-              },
-              "grownMedia": "assets/skills/woodcutting/Longleaf.svg"
+              "id": "Antidragon_Potion",
+              "name": "Anti-Dragon Potion",
+              "level": 69,
+              "potionIDs": [
+                "expandedAreas:Antidragon_Potion_I",
+                "expandedAreas:Antidragon_Potion_II",
+                "expandedAreas:Antidragon_Potion_III",
+                "expandedAreas:Antidragon_Potion_IV"
+              ],
+              "baseExperience": 97,
+              "categoryID": "melvorF:CombatPotions",
+              "itemCosts": [
+                {
+                  "id": "melvorF:Poraxx_Herb",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Dragonscale_Dust",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
             },
             {
-              "id": "Frostpine_Logs",
-              "baseExperience": 116325,
-              "level": 65,
-              "productId": "expandedAreas:Frostpine_Logs",
-              "baseInterval": 51200000,
-              "categoryID": "melvorD:Tree",
-              "seedCost": {
-                "id": "expandedAreas:Frostpine_Seeds",
-                "quantity": 1
-              },
-              "grownMedia": "assets/skills/woodcutting/Frostpine.svg"
+              "id": "Super_Antidragon_Potion",
+              "name": "Super Anti-Dragon Potion",
+              "level": 92,
+              "potionIDs": [
+                "expandedAreas:Super_Antidragon_Potion_I",
+                "expandedAreas:Super_Antidragon_Potion_II",
+                "expandedAreas:Super_Antidragon_Potion_III",
+                "expandedAreas:Super_Antidragon_Potion_IV"
+              ],
+              "baseExperience": 200,
+              "categoryID": "melvorF:CombatPotions",
+              "itemCosts": [
+                {
+                  "id": "melvorF:Barrentoe_Herb",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Pine_Resin",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorF:Elder_Dragonhide",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
             },
             {
-              "id": "White_Pine_Logs",
-              "baseExperience": 183015,
+              "id": "Volatile_Potion",
+              "name": "Volatile Potion",
               "level": 80,
-              "productId": "expandedAreas:White_Pine_Logs",
-              "baseInterval": 54400000,
-              "categoryID": "melvorD:Tree",
-              "seedCost": {
-                "id": "expandedAreas:White_Pine_Seeds",
-                "quantity": 1
-              },
-              "grownMedia": "assets/skills/woodcutting/White_Pine.svg"
+              "potionIDs": [
+                "expandedAreas:Volatile_Potion_I",
+                "expandedAreas:Volatile_Potion_II",
+                "expandedAreas:Volatile_Potion_III",
+                "expandedAreas:Volatile_Potion_IV"
+              ],
+              "baseExperience": 145,
+              "categoryID": "melvorF:CombatPotions",
+              "itemCosts": [
+                {
+                  "id": "melvorF:Barrentoe_Herb",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Pine_Resin",
+                  "quantity": 4
+                },
+                {
+                  "id": "expandedAreas:Turpentine",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Runecrafting",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "expandedAreas:Wispy_Page",
+              "requirements": [
+                {
+                  "type": "ItemFound",
+                  "itemID": "expandedAreas:Mysterious_Tome"
+                }
+              ],
+              "quantity": 1,
+              "chance": {
+                "baseChance": 0.1,
+                "maxChance": 5,
+                "scalingFactor": 0.05,
+                "type": "LevelScaling"
+              }
             },
             {
-              "id": "Loblolly_Logs",
-              "baseExperience": 194455,
+              "itemID": "expandedAreas:Muddy_Page",
+              "requirements": [
+                {
+                  "type": "ItemFound",
+                  "itemID": "expandedAreas:Mysterious_Tome"
+                }
+              ],
+              "quantity": 1,
+              "chance": {
+                "baseChance": 0.1,
+                "maxChance": 5,
+                "scalingFactor": 0.05,
+                "type": "LevelScaling"
+              }
+            },
+            {
+              "itemID": "expandedAreas:Waterlogged_Page",
+              "requirements": [
+                {
+                  "type": "ItemFound",
+                  "itemID": "expandedAreas:Mysterious_Tome"
+                }
+              ],
+              "quantity": 1,
+              "chance": {
+                "baseChance": 0.1,
+                "maxChance": 5,
+                "scalingFactor": 0.05,
+                "type": "LevelScaling"
+              }
+            },
+            {
+              "itemID": "expandedAreas:Burnt_Page",
+              "requirements": [
+                {
+                  "type": "ItemFound",
+                  "itemID": "expandedAreas:Mysterious_Tome"
+                }
+              ],
+              "quantity": 1,
+              "chance": {
+                "baseChance": 0.1,
+                "maxChance": 5,
+                "scalingFactor": 0.05,
+                "type": "LevelScaling"
+              }
+            }
+          ],
+          "categories": [
+            {
+              "id": "Unique",
+              "name": "Unique",
+              "media": "assets/items/Pureform_Rune.png"
+            }
+          ],
+          "recipes": [
+            {
+              "id": "Wrath_Rune",
+              "level": 90,
+              "productID": "expandedAreas:Wrath_Rune",
+              "baseQuantity": 1,
+              "baseExperience": 26,
+              "categoryID": "melvorF:StandardRunes",
+              "subcategories": [
+                "melvorF:Runes"
+              ],
+              "itemCosts": [
+                {
+                  "id": "melvorD:Rune_Essence",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Tome_of_the_Elements",
               "level": 85,
-              "productId": "expandedAreas:Loblolly_Logs",
-              "baseInterval": 57800000,
-              "categoryID": "melvorD:Tree",
-              "seedCost": {
-                "id": "expandedAreas:Loblolly_Pine_Seeds",
-                "quantity": 1
-              },
-              "grownMedia": "assets/skills/woodcutting/Loblolly.svg"
+              "productID": "expandedAreas:Tome_of_the_Elements",
+              "baseQuantity": 1,
+              "baseExperience": 5000,
+              "categoryID": "expandedAreas:Unique",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Tome_of_Air",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Tome_of_Earth",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Tome_of_Water",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Tome_of_Fire",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Pureform_Rune",
+                  "quantity": 10
+                }
+              ]
+            },
+            {
+              "id": "Pure_Elementalist_Hat",
+              "level": 99,
+              "productID": "expandedAreas:Pure_Elementalist_Hat",
+              "baseQuantity": 1,
+              "baseExperience": 9001,
+              "categoryID": "expandedAreas:Unique",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Air_Elementalist_Hat",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Earth_Elementalist_Hat",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Fire_Elementalist_Hat",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Water_Elementalist_Hat",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Diamond_Dust",
+                  "quantity": 5000
+                },
+                {
+                  "id": "expandedAreas:Pureform_Rune",
+                  "quantity": 5
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Pure_Elementalist_Robes",
+              "level": 99,
+              "productID": "expandedAreas:Pure_Elementalist_Robes",
+              "baseQuantity": 1,
+              "baseExperience": 18002,
+              "categoryID": "expandedAreas:Unique",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Air_Elementalist_Robes",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Earth_Elementalist_Robes",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Fire_Elementalist_Robes",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Water_Elementalist_Robes",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Diamond_Dust",
+                  "quantity": 10000
+                },
+                {
+                  "id": "expandedAreas:Pureform_Rune",
+                  "quantity": 10
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Pure_Elementalist_Boots",
+              "level": 99,
+              "baseQuantity": 1,
+              "baseExperience": 9001,
+              "categoryID": "expandedAreas:Unique",
+              "productID": "expandedAreas:Pure_Elementalist_Boots",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Air_Elementalist_Boots",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Earth_Elementalist_Boots",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Fire_Elementalist_Boots",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Water_Elementalist_Boots",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Diamond_Dust",
+                  "quantity": 5000
+                },
+                {
+                  "id": "expandedAreas:Pureform_Rune",
+                  "quantity": 5
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Pure_Elementalist_Sceptre",
+              "level": 99,
+              "productID": "expandedAreas:Pure_Elementalist_Sceptre",
+              "baseQuantity": 1,
+              "baseExperience": 9001,
+              "categoryID": "expandedAreas:Unique",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Air_Elementalist_Staff",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Earth_Elementalist_Staff",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Fire_Elementalist_Staff",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Water_Elementalist_Staff",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorF:Natures_Wrath_Staff",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Orb_of_the_Elements",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Pureform_Rune",
+                  "quantity": 10
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Fragmented_Elemental_Rune",
+              "level": 70,
+              "productID": "expandedAreas:Fragmented_Elemental_Rune",
+              "baseQuantity": 1,
+              "baseExperience": 90,
+              "categoryID": "expandedAreas:Unique",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Air_Rune_Shard",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Earth_Rune_Shard",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Fire_Rune_Shard",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Water_Rune_Shard",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Staff_of_Dust",
+              "productID": "expandedAreas:Staff_of_Dust",
+              "categoryID": "melvorF:StavesWands",
+              "baseExperience": 22,
+              "baseQuantity": 1,
+              "level": 10,
+              "itemCosts": [
+                {
+                  "id": "melvorF:Staff_of_Air",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorF:Staff_of_Earth",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Dust_Rune",
+                  "quantity": 100
+                },
+                {
+                  "id": "expandedAreas:Sand",
+                  "quantity": 10
+                }
+              ]
+            },
+            {
+              "id": "Dust_Battlestaff",
+              "level": 40,
+              "productID": "expandedAreas:Dust_Battlestaff",
+              "baseQuantity": 1,
+              "baseExperience": 48,
+              "categoryID": "melvorF:StavesWands",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Air_Battlestaff",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Earth_Battlestaff",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Dust_Rune",
+                  "quantity": 100
+                },
+                {
+                  "id": "expandedAreas:Sand",
+                  "quantity": 25
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Mystic_Dust_Staff",
+              "level": 80,
+              "productID": "expandedAreas:Mystic_Dust_Staff",
+              "baseQuantity": 1,
+              "baseExperience": 88,
+              "categoryID": "melvorF:StavesWands",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Mystic_Air_Staff",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorF:Mystic_Earth_Staff",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Dust_Rune",
+                  "quantity": 100
+                },
+                {
+                  "id": "expandedAreas:Sand",
+                  "quantity": 50
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Dust_Imbued_Wand",
+              "level": 90,
+              "productID": "expandedAreas:Dust_Imbued_Wand",
+              "baseQuantity": 1,
+              "baseExperience": 425,
+              "categoryID": "melvorF:StavesWands",
+              "itemCosts": [
+                {
+                  "id": "melvorF:Air_Imbued_Wand",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorF:Earth_Imbued_Wand",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Dust_Rune",
+                  "quantity": 1000
+                },
+                {
+                  "id": "melvorF:Nature_Rune",
+                  "quantity": 20
+                },
+                {
+                  "id": "expandedAreas:Sand",
+                  "quantity": 100
+                }
+              ],
+              "currencyCosts": []
             }
           ]
         }
       }
     ],
     "shopDisplayOrder": [
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Magic_Pot",
+        "ids": [
+          "expandedAreas:Normal_Brewing_Barrel",
+          "expandedAreas:Oak_Brewing_Barrel",
+          "expandedAreas:Willow_Brewing_Barrel",
+          "expandedAreas:Teak_Brewing_Barrel",
+          "expandedAreas:Maple_Brewing_Barrel",
+          "expandedAreas:Mahogany_Brewing_Barrel",
+          "expandedAreas:Yew_Brewing_Barrel",
+          "expandedAreas:Magic_Brewing_Barrel",
+          "expandedAreas:Redwood_Brewing_Barrel"
+        ]
+      },
       {
         "insertAt": "After",
         "afterID": "melvorF:Art_of_Control",
@@ -15527,6 +16046,554 @@
       }
     ],
     "shopPurchases": [
+      {
+        "id": "Normal_Brewing_Barrel",
+        "media": "assets/skills/cooking/Normal_Brewing_Barrel.png",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "perfectCookChance": [
+              {
+                "categoryID": "expandedAreas:Brewing_Barrel",
+                "value": 1
+              }
+            ],
+            "skillXP": [
+              {
+                "skillID": "melvorD:Cooking",
+                "value": 1
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Normal_Logs",
+              "quantity": 2000
+            },
+            {
+              "id": "melvorD:Bronze_Bar",
+              "quantity": 100
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 50000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 10
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 10
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Normal Brewing Barrel",
+        "customDescription": "+1% Perfect Cook chance for Brewing Barrel only for a total of +1% from Brewing Barrel.<br>+1% Cooking XP for a total of +1% Cooking XP from your Brewing Barrel."
+      },
+      {
+        "id": "Oak_Brewing_Barrel",
+        "media": "assets/skills/cooking/Oak_Brewing_Barrel.png",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "skillXP": [
+              {
+                "skillID": "melvorD:Cooking",
+                "value": 2
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Oak_Logs",
+              "quantity": 2000
+            },
+            {
+              "id": "melvorD:Iron_Bar",
+              "quantity": 100
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 100000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Normal_Brewing_Barrel",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 15
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 15
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Oak Brewing Barrel",
+        "customDescription": "+2% Cooking XP for a total of +3% Cooking XP from your Brewing Barrel."
+      },
+      {
+        "id": "Willow_Brewing_Barrel",
+        "media": "assets/skills/cooking/Willow_Brewing_Barrel.png",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "perfectCookChance": [
+              {
+                "categoryID": "expandedAreas:Brewing_Barrel",
+                "value": 2
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Willow_Logs",
+              "quantity": 2000
+            },
+            {
+              "id": "melvorD:Steel_Bar",
+              "quantity": 100
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 150000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Oak_Brewing_Barrel",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 25
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 25
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Willow Brewing Barrel",
+        "customDescription": "+2% Perfect Cook chance for Brewing Barrel only for a total of +3% from your Brewing Barrel."
+      },
+      {
+        "id": "Maple_Brewing_Barrel",
+        "media": "assets/skills/cooking/Maple_Brewing_Barrel.png",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "skillXP": [
+              {
+                "skillID": "melvorD:Cooking",
+                "value": 2
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Maple_Logs",
+              "quantity": 2000
+            },
+            {
+              "id": "expandedAreas:Sterkite_Bar",
+              "quantity": 100
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 200000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Willow_Brewing_Barrel",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 35
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 35
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Maple Brewing Barrel",
+        "customDescription": "+2% Cooking XP for a total of +5% Cooking XP from your Brewing Barrel."
+      },
+      {
+        "id": "Teak_Brewing_Barrel",
+        "media": "assets/skills/cooking/Teak_Brewing_Barrel.png",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "perfectCookChance": [
+              {
+                "categoryID": "expandedAreas:Brewing_Barrel",
+                "value": 2
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Teak_Logs",
+              "quantity": 2000
+            },
+            {
+              "id": "melvorD:Mithril_Bar",
+              "quantity": 100
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 250000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Maple_Brewing_Barrel",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 45
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 45
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Teak Brewing Barrel",
+        "customDescription": "+2% Perfect Cook Chance from Brewing Barrel only for a total of +5% Cooking XP from your Brewing Barrel."
+      },
+      {
+        "id": "Mahogany_Brewing_Barrel",
+        "media": "assets/skills/cooking/Mahogany_Brewing_Barrel.png",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "skillXP": [
+              {
+                "skillID": "melvorD:Cooking",
+                "value": 2
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Mahogany_Logs",
+              "quantity": 2000
+            },
+            {
+              "id": "melvorD:Adamantite_Bar",
+              "quantity": 100
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 300000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Teak_Brewing_Barrel",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 55
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 55
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Mahogany Brewing Barrel",
+        "customDescription": "+2% Cooking XP for a total of +7% Cooking XP from your Brewing Barrel."
+      },
+      {
+        "id": "Yew_Brewing_Barrel",
+        "media": "assets/skills/cooking/Yew_Brewing_Barrel.png",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "perfectCookChance": [
+              {
+                "categoryID": "expandedAreas:Brewing_Barrel",
+                "value": 2
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Yew_Logs",
+              "quantity": 2000
+            },
+            {
+              "id": "melvorD:Runite_Bar",
+              "quantity": 100
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 500000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Mahogany_Brewing_Barrel",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 65
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 65
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Yew Brewing Barrel",
+        "customDescription": "+2% Perfect Cook Chance from Brewing Barrel only for a total of +7% Perfect Cook Chance from your Brewing Barrel."
+      },
+      {
+        "id": "Magic_Brewing_Barrel",
+        "media": "assets/skills/cooking/Magic_Brewing_Barrel.png",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "skillXP": [
+              {
+                "skillID": "melvorD:Cooking",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Magic_Logs",
+              "quantity": 2000
+            },
+            {
+              "id": "melvorD:Runite_Bar",
+              "quantity": 50
+            },
+            {
+              "id": "melvorD:Silver_Bar",
+              "quantity": 50
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 1250000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Yew_Brewing_Barrel",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 75
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 75
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Magic Brewing Barrel",
+        "customDescription": "+3% Cooking XP for a total of +10% Cooking XP from your Brewing Barrel."
+      },
+      {
+        "id": "Redwood_Brewing_Barrel",
+        "media": "assets/skills/cooking/Redwood_Brewing_Barrel.png",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "perfectCookChance": [
+              {
+                "categoryID": "expandedAreas:Brewing_Barrel",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Redwood_Logs",
+              "quantity": 2000
+            },
+            {
+              "id": "melvorD:Dragonite_Bar",
+              "quantity": 50
+            },
+            {
+              "id": "melvorD:Gold_Bar",
+              "quantity": 50
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 2500000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Magic_Brewing_Barrel",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 90
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 90
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Redwood Brewing Barrel",
+        "customDescription": "+3% Perfect Cook Chance for Brewing Barrel only for a total of +10% Perfect Cook Chance from your Brewing Barrel."
+      },
       {
         "id": "Sterkite_Mining",
         "media": "assets/shop/Rock_Sterkite.svg",
@@ -15770,6 +16837,25 @@
       }
     ],
     "bankSortOrder": [
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Carrot_Seeds",
+        "ids": [
+          "expandedAreas:Bell_Pepper_Seed"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Carrot_Seeds",
+        "ids": [
+          "expandedAreas:Barley_Seed",
+          "expandedAreas:Jute_Seed",
+          "expandedAreas:Barley",
+          "expandedAreas:Jute_Fibre",
+          "expandedAreas:Coffea_Seed",
+          "expandedAreas:Coffee_Beans"
+        ]
+      },
       {
         "insertAt": "After",
         "afterID": "melvorF:Blazing_Lantern",
@@ -16049,7 +17135,7 @@
         "insertAt": "After",
         "afterID": "melvorD:Willow_Tree_Seed",
         "ids": [
-          "expandedAreas:Evergreen_Pine_Seeds"
+          "expandedAreas:Evergreen_Pine_Seed"
         ]
       },
       {
@@ -16063,7 +17149,7 @@
         "insertAt": "After",
         "afterID": "melvorD:Maple_Tree_Seed",
         "ids": [
-          "expandedAreas:Longleaf_Pine_Seeds"
+          "expandedAreas:Longleaf_Pine_Seed"
         ]
       },
       {
@@ -16077,7 +17163,7 @@
         "insertAt": "After",
         "afterID": "melvorD:Yew_Tree_Seed",
         "ids": [
-          "expandedAreas:Frostpine_Seeds"
+          "expandedAreas:Frostpine_Seed"
         ]
       },
       {
@@ -16092,8 +17178,8 @@
         "insertAt": "After",
         "afterID": "melvorD:Magic_Tree_Seed",
         "ids": [
-          "expandedAreas:White_Pine_Seeds",
-          "expandedAreas:Loblolly_Pine_Seeds"
+          "expandedAreas:White_Pine_Seed",
+          "expandedAreas:Loblolly_Pine_Seed"
         ]
       },
       {
@@ -16118,7 +17204,12 @@
         "insertAt": "After",
         "afterID": "melvorF:Apple",
         "ids": [
-          "expandedAreas:Coconut",
+          "expandedAreas:Bell_Peppers",
+          "expandedAreas:Sack_of_Potatoes",
+          "expandedAreas:Sack_of_Onions",
+          "expandedAreas:Sack_of_Cabbage",
+          "expandedAreas:Sack_of_Carrots",
+          "expandedAreas:Sack_of_Peppers",
           "expandedAreas:Basket_of_Tomatoes",
           "expandedAreas:Basket_of_Sweetcorn",
           "expandedAreas:Basket_of_Strawberries",
@@ -16166,6 +17257,13 @@
         "beforeID": "melvorF:Basic_Bag",
         "ids": [
           "expandedAreas:Basket"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "expandedAreas:Basket",
+        "ids": [
+          "expandedAreas:Sack"
         ]
       },
       {

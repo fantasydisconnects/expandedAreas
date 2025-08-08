@@ -1,41 +1,23 @@
 New Content:
-Added Green-Black Baby Dragons to Dragon Valley
-Added Baby Dragon Bones
-Added Green-Black Dragonscale
-Added Dragonscale Dust
-Added Anti-Dragon Potion
-Added Super Anti-Dragon Potion
-Added Superior Dragon Bones
-Added Elemental Sanctuary pet Ellie
-Added Chieftain Erik pet Lil Erik
-Added Golbin Chief pet Tinychief
-Added Golbin Hideout pet Yeemik
-Added Guardian of the Elements pet Swirli
-Added Shrouded Badlands Thieving Area
-Added Elder Vampire to Thieving
-Added Blood Shard
-Added Cursed Maiden to Thieving
-Added Tormented Bracelet
-Added Bounty Hunter
-Added Shroud of the Badlands
-Added Lantern Oil
+Added Hops Farming Patch
+Added Jute Farming Plot to Hops
+Added Jute Seeds
+Added Jute Fibre
+Added Barley Farming Plot to Hops
+Added Sack as a Crafting Recipe
+Added Bell Peppers Plot to Allotments
+Added Sacks of: Potatoes, Onions, Cabbage, Carrots, and Peppers
+Added Shrubs Farming Patch
+Added Coffea Farming Plot to Shrubs
+Added Coffea Seeds
+Added Coffee Beans
+Added Brewing Barrel Cooking category
+Added Normal-Redwood Brewing Barrel Shop Upgrades
 
 Balance Changes:
-Bone drops have been enabled in the following dungeons: Frozen Cove, Volcanic Cave, and Infernal Stronghold
-All dragon bosses, including all versions of of Malcs and Prat, now drop Superior Dragon Bones
-Removed Sterkite Bar from Barbarian Smithing of Thrownaxes and Spears, replaced with Pine Logs of all types, and replaced Thrownaxes with Thrownaxe Heads
-Moved Thrownaxe recipe to Fletching category Barbarian Smithing
-Removed Gem Dust Upgrades and moved them to Crafting "Unique" category
-Reduced Mining level requirement for Sterkite Ore from 40 -> 20 (what was I thinking?!)
-Removed Barbarian Trials completion requirement to access Sterkite Ore and replaced with 1 kill of Chieftain Erik requirement & shop purchase of "Sterkite Mining"
-Changed Evergreen Tree requirements (Woodcutting, Firemaking, and Farming) from 30 -> 20 and adjusted XP and GP values to match
-Coconut healing changed from 100 to 30
-Golbin Pauldron and Executioners Hood Removed
-Baskets of Food have received a 25% increase in their healing value
-
-Bug Fixes:
-Added Black Spear to Barbarian Smithing
+Updated Shrouded Badlands Thieving Area drop tables to be more consistent and fair
+Changed Basket Crafting recipe to require 5 Jute Fibre instead of 25 Pine Needles
 
 Misc:
-Bank sort order, finally!
-Updated Thrownaxe art
+Added missing Lantern Oil art
+Updated Basket art
