@@ -1,17 +1,18 @@
 RARITY:
 TOTAL: 8192
-Very Common: 2048
-Common: 1024
-Uncommon: 512
-Very Uncommon: 256
-Kinda Rare: 128
-Rare: 64
-Very Rare: 32
-Legendary: 16
-Mythical: 8
-Godly: 4
-Ungodly: 2
-Impossible: 1
+1/2: 4096
+1/4: 2048
+1/8: 1024
+1/16: 512
+1/32: 256
+1/64: 128
+1/128: 64
+1/256: 32
+1/512: 16
+1/1024: 8
+1/2048: 4
+1/4096: 2
+1/8192: 1
 
 Aeris Colors:
 #BFDFE4

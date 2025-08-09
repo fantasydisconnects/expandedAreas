@@ -1,23 +1,10 @@
 New Content:
-Added Hops Farming Patch
-Added Jute Farming Plot to Hops
-Added Jute Seeds
-Added Jute Fibre
-Added Barley Farming Plot to Hops
-Added Sack as a Crafting Recipe
-Added Bell Peppers Plot to Allotments
-Added Sacks of: Potatoes, Onions, Cabbage, Carrots, and Peppers
-Added Shrubs Farming Patch
-Added Coffea Farming Plot to Shrubs
-Added Coffea Seeds
-Added Coffee Beans
-Added Brewing Barrel Cooking category
-Added Normal-Redwood Brewing Barrel Shop Upgrades
 
 Balance Changes:
-Updated Shrouded Badlands Thieving Area drop tables to be more consistent and fair
-Changed Basket Crafting recipe to require 5 Jute Fibre instead of 25 Pine Needles
+Added Bird Nest to Pine Tree random products table
+Changed Junior, Adult, and Master Farmer drop tables to include new seeds; moved herb and tree seeds to Junior, Adult, and Master Gardener drop tables
+
+Bug Fixes:
+Added Coffea Seed to Bird Nest drop table
 
 Misc:
-Added missing Lantern Oil art
-Updated Basket art

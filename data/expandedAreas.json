@@ -4819,8 +4819,56 @@
     "items": [
       {
         "itemType": "Item",
+        "id": "Teak_Tree_Seed",
+        "name": "Teak Tree Seed",
+        "category": "Farming",
+        "type": "Seeds",
+        "media": "assets/items/Teak_Tree_Seed.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1750
+      },
+      {
+        "itemType": "Item",
+        "id": "Mahogany_Tree_Seed",
+        "name": "Mahogany Tree Seed",
+        "category": "Farming",
+        "type": "Seeds",
+        "media": "assets/items/Mahogany_Tree_Seed.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2250
+      },
+      {
+        "itemType": "Item",
+        "id": "Palm_Tree_Seed",
+        "name": "Palm Tree Seed",
+        "category": "Farming",
+        "type": "Seeds",
+        "media": "assets/items/Palm_Tree_Seed.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 7200
+      },
+      {
+        "itemType": "Item",
+        "id": "Redwood_Tree_Seed",
+        "name": "Redwood Tree Seed",
+        "category": "Farming",
+        "type": "Seeds",
+        "media": "assets/items/Redwood_Tree_Seed.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 20000
+      },
+      {
+        "itemType": "Item",
         "id": "Bell_Pepper_Seed",
-        "name": "Bell_Pepper Seed",
+        "name": "Bell Pepper Seed",
         "category": "Farming",
         "type": "Seeds",
         "media": "assets/items/Bell_Pepper_Seed.png",
@@ -4844,7 +4892,7 @@
       {
         "itemType": "Food",
         "id": "Coffee_Beans",
-        "name": "Coffee_Beans",
+        "name": "Coffee Beans",
         "category": "Farming",
         "type": "Food",
         "media": "assets/items/Coffee_Beans.png",
@@ -13747,6 +13795,194 @@
               "singularName": "Shrub"
             }
           ],
+          "plots": [
+            {
+              "id": "HopsPlot1",
+              "categoryID": "expandedAreas:Hops",
+              "level": 5
+            },
+            {
+              "id": "HopsPlot2",
+              "categoryID": "expandedAreas:Hops",
+              "level": 5,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 500
+                }
+              ]
+            },
+            {
+              "id": "HopsPlot3",
+              "categoryID": "expandedAreas:Hops",
+              "level": 5,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 5000
+                }
+              ]
+            },
+            {
+              "id": "HopsPlot4",
+              "categoryID": "expandedAreas:Hops",
+              "level": 5,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 15000
+                }
+              ]
+            },
+            {
+              "id": "HopsPlot5",
+              "categoryID": "expandedAreas:Hops",
+              "level": 20,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 25000
+                }
+              ]
+            },
+            {
+              "id": "HopsPlot6",
+              "categoryID": "expandedAreas:Hops",
+              "level": 35,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 40000
+                }
+              ]
+            },
+            {
+              "id": "HopsPlot7",
+              "categoryID": "expandedAreas:Hops",
+              "level": 50,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 65000
+                }
+              ]
+            },
+            {
+              "id": "HopsPlot8",
+              "categoryID": "expandedAreas:Hops",
+              "level": 65,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 80000
+                }
+              ]
+            },
+            {
+              "id": "HopsPlot9",
+              "categoryID": "expandedAreas:Hops",
+              "level": 80,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 100000
+                }
+              ]
+            },
+            {
+              "id": "HopsPlot10",
+              "categoryID": "expandedAreas:Hops",
+              "level": 95,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 120000
+                }
+              ]
+            },
+            {
+              "id": "ShrubsPlot1",
+              "categoryID": "expandedAreas:Shrubs",
+              "level": 10
+            },
+            {
+              "id": "ShrubsPlot2",
+              "categoryID": "expandedAreas:Shrubs",
+              "level": 25,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 500
+                }
+              ]
+            },
+            {
+              "id": "ShrubsPlot3",
+              "categoryID": "expandedAreas:Shrubs",
+              "level": 35,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 5000
+                }
+              ]
+            },
+            {
+              "id": "ShrubsPlot4",
+              "categoryID": "expandedAreas:Shrubs",
+              "level": 45,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 15000
+                }
+              ]
+            },
+            {
+              "id": "ShrubsPlot5",
+              "categoryID": "expandedAreas:Shrubs",
+              "level": 55,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 25000
+                }
+              ]
+            },
+            {
+              "id": "ShrubsPlot6",
+              "categoryID": "expandedAreas:Shrubs",
+              "level": 65,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 40000
+                }
+              ]
+            },
+            {
+              "id": "ShrubsPlot7",
+              "categoryID": "expandedAreas:Shrubs",
+              "level": 75,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 65000
+                }
+              ]
+            },
+            {
+              "id": "ShrubsPlot8",
+              "categoryID": "expandedAreas:Shrubs",
+              "level": 85,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 80000
+                }
+              ]
+            }
+          ],
           "recipes": [
             {
               "id": "Barley",
@@ -13798,6 +14034,58 @@
                 "id": "expandedAreas:Coffea_Seed",
                 "quantity": 2
               }
+            },
+            {
+              "id": "Teak_Logs",
+              "baseExperience": 69995,
+              "level": 50,
+              "productId": "melvorD:Teak_Logs",
+              "baseInterval": 41200000,
+              "categoryID": "melvorD:Tree",
+              "seedCost": {
+                "id": "expandedAreas:Teak_Tree_Seed",
+                "quantity": 1
+              },
+              "grownMedia": "assets/skills/farming/Teak_Tree.svg"
+            },
+            {
+              "id": "Mahogany_Logs",
+              "baseExperience": 77882,
+              "level": 55,
+              "productId": "melvorD:Mahogany_Logs",
+              "baseInterval": 44400000,
+              "categoryID": "melvorD:Tree",
+              "seedCost": {
+                "id": "expandedAreas:Mahogany_Tree_Seed",
+                "quantity": 1
+              },
+              "grownMedia": "assets/skills/farming/Mahogany_Tree.svg"
+            },
+            {
+              "id": "Coconut",
+              "baseExperience": 91564,
+              "level": 68,
+              "productId": "expandedAreas:Coconut",
+              "baseInterval": 52200000,
+              "categoryID": "melvorD:Tree",
+              "seedCost": {
+                "id": "expandedAreas:Palm_Tree_Seed",
+                "quantity": 1
+              },
+              "grownMedia": "assets/skills/farming/Palm_Tree.svg"
+            },
+            {
+              "id": "Redwood_Logs",
+              "baseExperience": 292778,
+              "level": 90,
+              "productId": "melvorD:Redwood_Logs",
+              "baseInterval": 112300000,
+              "categoryID": "melvorD:Tree",
+              "seedCost": {
+                "id": "expandedAreas:Redwood_Tree_Seed",
+                "quantity": 1
+              },
+              "grownMedia": "assets/skills/farming/Redwood_Tree.svg"
             },
             {
               "id": "Evergreen_Logs",
@@ -13943,6 +14231,7 @@
               "productId": "expandedAreas:White_Pine_Logs",
               "level": 80,
               "randomProducts": [
+                "melvorD:Bird_Nest",
                 "expandedAreas:Pine_Needles",
                 "expandedAreas:Pine_Resin",
                 "expandedAreas:Pine_Cone"
@@ -17140,6 +17429,28 @@
       },
       {
         "insertAt": "After",
+        "afterID": "melvorD:Maple_Tree_Seed",
+        "ids": [
+          "expandedAreas:Teak_Tree_Seed",
+          "expandedAreas:Mahogany_Tree_Seed"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Yew_Tree_Seed",
+        "ids": [
+          "expandedAreas:Palm_Tree_Seed"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Magic_Tree_Seed",
+        "ids": [
+          "expandedAreas:Redwood_Tree_Seed"
+        ]
+      },
+      {
+        "insertAt": "After",
         "afterID": "melvorD:Maple_Logs",
         "ids": [
           "expandedAreas:Longleaf_Logs"
@@ -17818,6 +18129,247 @@
     ],
     "monsters": [
       {
+        "id": "melvorD:AdultFarmer",
+        "lootChance": 96,
+        "lootTable": {
+          "remove": [
+            "melvorD:Onion_Seed",
+            "melvorD:Cabbage_Seed",
+            "melvorD:Onion_Seed",
+            "melvorD:Cabbage_Seed",
+            "melvorD:Sourweed_Seed",
+            "melvorD:Mantalyme_Seed",
+            "melvorD:Sweetcorn_Seed",
+            "melvorD:Strawberry_Seed",
+            "melvorD:Watermelon_Seed",
+            "melvorD:Compost",
+            "melvorD:Snape_Grass_Seed",
+            "melvorD:Oak_Tree_Seed"
+          ],
+          "add": [
+            {
+              "itemID": "expandedAreas:Jute_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 2048
+            },
+            {
+              "itemID": "expandedAreas:Barley_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 2048
+            },
+            {
+              "itemID": "melvorD:Onion_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 1024
+            },
+            {
+              "itemID": "melvorD:Cabbage_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 1024
+            },
+            {
+              "itemID": "melvorD:Tomato_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 512
+            },
+            {
+              "itemID": "melvorD:Sweetcorn_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 512
+            },
+            {
+              "itemID": "melvorD:Strawberry_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 256
+            },
+            {
+              "itemID": "melvorD:Watermelon_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 128
+            },
+            {
+              "itemID": "melvorD:Compost",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 128
+            },
+            {
+              "itemID": "expandedAreas:Basket",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 128
+            },
+            {
+              "itemID": "melvorD:Snape_Grass_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 64
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:JuniorFarmer",
+        "lootChance": 100,
+        "lootTable": {
+          "remove": [
+            "melvorD:Potato_Seed",
+            "melvorD:Garum_Seed",
+            "melvorD:Onion_Seed",
+            "melvorD:Cabbage_Seed",
+            "melvorD:Tomato_Seed"
+          ],
+          "add": [
+            {
+              "itemID": "expandedAreas:Jute_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 3,
+              "weight": 2048
+            },
+            {
+              "itemID": "expandedAreas:Barley_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 3,
+              "weight": 2048
+            },
+            {
+              "itemID": "melvorD:Potato_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 3,
+              "weight": 1024
+            },
+            {
+              "itemID": "melvorD:Onion_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 3,
+              "weight": 1024
+            },
+            {
+              "itemID": "melvorD:Cabbage_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 3,
+              "weight": 1024
+            },
+            {
+              "itemID": "melvorD:Tomato_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 3,
+              "weight": 1024
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:MasterFarmer",
+        "lootChance": 100,
+        "lootTable": {
+          "remove": [
+            "melvorD:Tomato_Seed",
+            "melvorD:Sweetcorn_Seed",
+            "melvorD:Strawberry_Seed",
+            "melvorD:Lemontyle_Seed",
+            "melvorD:Oxilyme_Seed",
+            "melvorD:Watermelon_Seed",
+            "melvorD:Compost",
+            "melvorD:Snape_Grass_Seed",
+            "melvorD:Oak_Tree_Seed",
+            "melvorD:Willow_Tree_Seed",
+            "melvorD:Maple_Tree_Seed",
+            "melvorD:Yew_Tree_Seed",
+            "melvorD:Magic_Tree_Seed",
+            "melvorD:Bobs_Rake"
+          ],
+          "add": [
+            {
+              "itemID": "melvorD:Tomato_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 8,
+              "weight": 2048
+            },
+            {
+              "itemID": "expandedAreas:Barley_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 8,
+              "weight": 2048
+            },
+            {
+              "itemID": "expandedAreas:Jute_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 8,
+              "weight": 1024
+            },
+            {
+              "itemID": "melvorD:Sweetcorn_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 8,
+              "weight": 1024
+            },
+            {
+              "itemID": "melvorD:Strawberry_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 8,
+              "weight": 512
+            },
+            {
+              "itemID": "expandedAreas:Sack",
+              "minQuantity": 1,
+              "maxQuantity": 8,
+              "weight": 512
+            },
+            {
+              "itemID": "melvorD:Cherry_Seeds",
+              "minQuantity": 1,
+              "maxQuantity": 8,
+              "weight": 256
+            },
+            {
+              "itemID": "melvorD:Watermelon_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 8,
+              "weight": 256
+            },
+            {
+              "itemID": "melvorD:Compost",
+              "minQuantity": 1,
+              "maxQuantity": 8,
+              "weight": 256
+            },
+            {
+              "itemID": "melvorD:Snape_Grass_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 8,
+              "weight": 128
+            },
+            {
+              "itemID": "melvorD:Carrot_Seeds",
+              "minQuantity": 1,
+              "maxQuantity": 8,
+              "weight": 64
+            },
+            {
+              "itemID": "expandedAreas:Bell_Pepper_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 8,
+              "weight": 32
+            },
+            {
+              "itemID": "melvorD:Bobs_Rake",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 16
+            }
+          ]
+        }
+      },
+      {
         "id": "melvorD:MalcsTheGuardianOfMelvor",
         "bones": {
           "itemID": "expandedAreas:Superior_Dragon_Bones",
@@ -17899,6 +18451,174 @@
       }
     ],
     "items": [
+      {
+        "id": "melvorD:Bird_Nest",
+        "dropTable": {
+          "remove": [
+            "melvorD:Potato_Seed",
+            "melvorD:Onion_Seed",
+            "melvorD:Cabbage_Seed",
+            "melvorD:Tomato_Seed",
+            "melvorD:Sweetcorn_Seed",
+            "melvorD:Strawberry_Seed",
+            "melvorD:Cherry_Seeds",
+            "melvorD:Watermelon_Seed",
+            "melvorD:Snape_Grass_Seed",
+            "melvorD:Carrot_Seed",
+            "melvorD:Oak_Tree_Seed",
+            "melvorD:Willow_Tree_Seed",
+            "melvorD:Maple_Tree_Seed",
+            "melvorD:Yew_Tree_Seed",
+            "melvorD:Magic_Tree_Seed"
+          ],
+          "add": [
+            {
+              "itemID": "melvorD:Potato_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 279
+            },
+            {
+              "itemID": "expandedAreas:Barley_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 254
+            },
+            {
+              "itemID": "expandedAreas:Jute_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 231
+            },
+            {
+              "itemID": "melvorD:Onion_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 192
+            },
+            {
+              "itemID": "melvorD:Cabbage_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 128
+            },
+            {
+              "itemID": "melvorD:Tomato_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 85
+            },
+            {
+              "itemID": "melvorD:Sweetcorn_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 57
+            },
+            {
+              "itemID": "melvorD:Strawberry_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 38
+            },
+            {
+              "itemID": "melvorD:Cherry_Seeds",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 25
+            },
+            {
+              "itemID": "melvorD:Watermelon_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 17
+            },
+            {
+              "itemID": "melvorD:Snape_Grass_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 11
+            },
+            {
+              "itemID": "melvorD:Carrot_Seeds",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 8
+            },
+            {
+              "itemID": "expandedAreas:Bell_Pepper_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 5
+            },
+            {
+              "itemID": "melvorD:Oak_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 61
+            },
+            {
+              "itemID": "melvorD:Willow_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 41
+            },
+            {
+              "itemID": "melvorD:Maple_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 27
+            },
+            {
+              "itemID": "expandedAreas:Teak_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 18
+            },
+            {
+              "itemID": "expandedAreas:Mahogany_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 12
+            },
+            {
+              "itemID": "melvorD:Yew_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 8
+            },
+            {
+              "itemID": "expandedAreas:Palm_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 5
+            },
+            {
+              "itemID": "melvorF:Apple_Tree_Seeds",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 3
+            },
+            {
+              "itemID": "melvorD:Magic_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 2
+            },
+            {
+              "itemID": "expandedAreas:Redwood_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 1
+            },
+            {
+              "itemID": "expandedAreas:Coffea_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 8
+            }
+          ]
+        }
+      },
       {
         "id": "melvorF:Glacia_God_Helmet",
         "equipmentStats": {
