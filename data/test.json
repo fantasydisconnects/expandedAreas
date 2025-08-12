@@ -1,0 +1,115 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "namespace": "expandedAreas",
+    "data": {
+        "equipmentSlots": [
+            {
+                "id": "Belt",
+                "allowQuantity": false,
+                "emptyMedia": "assets/icons/Belt.svg",
+                "emptyName": "Waist",
+                "providesEquipStats": true,
+                "gridPosition": {
+                    "col": 2,
+                    "row": 3
+                }
+            },
+            {
+                "id": "Tool",
+                "allowQuantity": false,
+                "emptyMedia": "assets/icons/Tool.svg",
+                "emptyName": "Tool",
+                "providesEquipStats": true,
+                "gridPosition": {
+                    "col": 1,
+                    "row": 3
+                }
+            },
+            {
+                "id": "Tattoo",
+                "allowQuantity": false,
+                "emptyMedia": "assets/icons/Tattoo.svg",
+                "emptyName": "Tattoo",
+                "providesEquipStats": true,
+                "gridPosition": {
+                    "col": 3,
+                    "row": 4
+                }
+            }
+        ]
+    },
+    "modifications": {
+        "equipmentSlots": [
+            {
+                "id": "melvorD:Platelegs",
+                "gridPosition": {
+                    "col": 2,
+                    "row": 4
+                }
+            },
+            {
+                "id": "melvorD:Boots",
+                "gridPosition": {
+                    "col": 2,
+                    "row": 5
+                }
+            },
+            {
+                "id": "melvorD:Ring",
+                "gridPosition": {
+                    "col": 2,
+                    "row": 5
+                }
+            },
+            {
+                "id": "melvorD:Gloves",
+                "gridPosition": {
+                    "col": 2,
+                    "row": 5
+                }
+            },
+            {
+                "id": "melvorD:Summon1",
+                "gridPosition": {
+                    "col": 2,
+                    "row": 6
+                }
+            },
+            {
+                "id": "melvorD:Summon2",
+                "gridPosition": {
+                    "col": 2,
+                    "row": 6
+                }
+            },
+            {
+                "id": "melvorD:Gem",
+                "gridPosition": {
+                    "col": 2,
+                    "row": 4
+                }
+            },
+            {
+                "id": "melvorD:Enhancement1",
+                "gridPosition": {
+                    "col": 2,
+                    "row": 7
+                }
+            },
+            {
+                "id": "melvorD:Enhancement2",
+                "gridPosition": {
+                    "col": 2,
+                    "row": 7
+                }
+            },
+            {
+                "id": "melvorD:Enhancement3",
+                "gridPosition": {
+                    "col": 2,
+                    "row": 7
+                }
+            }
+        ]
+    }
+}

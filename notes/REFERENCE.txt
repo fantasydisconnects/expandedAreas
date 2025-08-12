@@ -45,3 +45,402 @@ Ruby Colors:
 Elemental Sanctuary
 Elemental Avatar
 Elemental Chest
+
+            {
+              "id": "LORDS_ESTATE",
+              "name": "Lord's Estate",
+              "npcIDs": [
+                "expandedAreas:PETUNIA_THE_GARDENER",
+                "expandedAreas:JEEVES_THE_BUTLER",
+                "expandedAreas:LADY_VONTUVIUS"
+              ],
+              "uniqueDrops": [
+                {
+                  "id": "expandedAreas:Superfertilizer",
+                  "quantity": 500
+                },
+                {
+                  "id": "expandedAreas:Fancy_Wine",
+                  "quantity": 100
+                }
+              ]
+            }
+
+                        {
+              "id": "PETUNIA_THE_GARDENER",
+              "baseExperience": 41,
+              "level": 46,
+              "name": "Petunia the Gardener",
+              "media": "assets/skills/thieving/Petunia_the_Gardener.png",
+              "perception": 500,
+              "maxHit": 13.7,
+              "currencyDrops": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 375
+                }
+              ],
+              "lootTable": [
+                {
+                  "itemID": "melvorD:Garum_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 280
+                },
+                {
+                  "itemID": "melvorD:Sourweed_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 180
+                },
+                {
+                  "itemID": "melvorD:Mantalyme_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 150
+                },
+                {
+                  "itemID": "melvorD:Lemontyle_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 140
+                },
+                {
+                  "itemID": "melvorF:Poraxx_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 110
+                },
+                {
+                  "itemID": "melvorF:Pigtayle_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 80
+                },
+                {
+                  "itemID": "melvorF:Barrentoe_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 50
+                },
+                {
+                  "itemID": "expandedAreas:Pine_Nuts",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 35
+                },
+                {
+                  "itemID": "melvorD:Watermelon_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 20
+                },
+                {
+                  "itemID": "melvorD:Compost",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 20
+                },
+                {
+                  "itemID": "melvorD:Snape_Grass_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 18
+                },
+                {
+                  "itemID": "melvorD:Carrot_Seeds",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 15
+                },
+                {
+                  "itemID": "melvorD:Oak_Tree_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 80
+                },
+                {
+                  "itemID": "melvorD:Willow_Tree_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 30
+                },
+                {
+                  "itemID": "expandedAreas:Palm_Tree_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 15
+                },
+                {
+                  "itemID": "melvorF:Apple_Tree_Seeds",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 5
+                },
+                {
+                  "itemID": "expandedAreas:Orange_Tree_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 1
+                }
+              ],
+              "uniqueDrop": {
+                "id": "melvorF:Bobs_Gloves",
+                "quantity": 1
+              },
+              "allowedDamageTypeIDs": [
+                "melvorD:Normal"
+              ]
+            },
+            {
+              "id": "LADY_VONTUVIUS",
+              "baseExperience": 59,
+              "level": 60,
+              "name": "Lady Vontuvius",
+              "media": "assets/skills/thieving/Lady_Vontuvius.png",
+              "perception": 465,
+              "maxHit": 15.7,
+              "currencyDrops": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 535
+                }
+              ],
+              "lootTable": [
+                {
+                  "itemID": "expandedAreas:Jute_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 280
+                },
+                {
+                  "itemID": "melvorD:Onion_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 180
+                },
+                {
+                  "itemID": "melvorF:Herb_Sack",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 150
+                },
+                {
+                  "itemID": "melvorD:Cabbage_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 140
+                },
+                {
+                  "itemID": "melvorD:Tomato_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 110
+                },
+                {
+                  "itemID": "melvorD:Sweetcorn_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 80
+                },
+                {
+                  "itemID": "melvorD:Strawberry_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 50
+                },
+                {
+                  "itemID": "melvorD:Cherry_Seeds",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 35
+                },
+                {
+                  "itemID": "melvorD:Watermelon_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 20
+                },
+                {
+                  "itemID": "melvorD:Compost",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 20
+                },
+                {
+                  "itemID": "melvorD:Snape_Grass_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 18
+                },
+                {
+                  "itemID": "melvorD:Carrot_Seeds",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 15
+                },
+                {
+                  "itemID": "melvorD:Oak_Tree_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 80
+                },
+                {
+                  "itemID": "melvorD:Willow_Tree_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 30
+                },
+                {
+                  "itemID": "melvorD:Maple_Tree_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 15
+                },
+                {
+                  "itemID": "melvorD:Yew_Tree_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 5
+                },
+                {
+                  "itemID": "melvorD:Magic_Tree_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 1
+                }
+              ],
+              "uniqueDrop": {
+                "id": "melvorF:Bobs_Gloves",
+                "quantity": 1
+              },
+              "allowedDamageTypeIDs": [
+                "melvorD:Normal"
+              ]
+            },
+            {
+              "id": "JEEVES_THE_BUTLER",
+              "baseExperience": 47,
+              "level": 54,
+              "name": "Jeeves the Butler",
+              "media": "assets/skills/thieving/Jeeves_the_Butler.png",
+              "perception": 420,
+              "maxHit": 12.8,
+              "currencyDrops": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 415
+                }
+              ],
+              "lootTable": [
+                {
+                  "itemID": "expandedAreas:Jute_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 280
+                },
+                {
+                  "itemID": "melvorD:Onion_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 180
+                },
+                {
+                  "itemID": "melvorF:Herb_Sack",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 150
+                },
+                {
+                  "itemID": "melvorD:Cabbage_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 140
+                },
+                {
+                  "itemID": "melvorD:Tomato_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 110
+                },
+                {
+                  "itemID": "melvorD:Sweetcorn_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 80
+                },
+                {
+                  "itemID": "melvorD:Strawberry_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 50
+                },
+                {
+                  "itemID": "melvorD:Cherry_Seeds",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 35
+                },
+                {
+                  "itemID": "melvorD:Watermelon_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 20
+                },
+                {
+                  "itemID": "melvorD:Compost",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 20
+                },
+                {
+                  "itemID": "melvorD:Snape_Grass_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 18
+                },
+                {
+                  "itemID": "melvorD:Carrot_Seeds",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 15
+                },
+                {
+                  "itemID": "melvorD:Oak_Tree_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 80
+                },
+                {
+                  "itemID": "melvorD:Willow_Tree_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 30
+                },
+                {
+                  "itemID": "melvorD:Maple_Tree_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 15
+                },
+                {
+                  "itemID": "melvorD:Yew_Tree_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 5
+                },
+                {
+                  "itemID": "melvorD:Magic_Tree_Seed",
+                  "minQuantity": 1,
+                  "maxQuantity": 1,
+                  "weight": 1
+                }
+              ],
+              "uniqueDrop": {
+                "id": "melvorF:Bobs_Gloves",
+                "quantity": 1
+              },
+              "allowedDamageTypeIDs": [
+                "melvorD:Normal"
+              ]
+            },
