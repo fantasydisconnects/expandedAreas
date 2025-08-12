@@ -4,36 +4,47 @@
   "data": {
     "equipmentSlots": [
       {
-        "id": "Belt",
+        "id": "Earrings",
         "allowQuantity": false,
-        "emptyMedia": "assets/icons/Belt.svg",
+        "emptyMedia": "assets/icons/Earrings.png",
         "emptyName": "Waist",
         "providesEquipStats": true,
         "gridPosition": {
-          "col": 2,
+          "col": 3,
           "row": 3
         }
       },
       {
-        "id": "Tool",
+        "id": "Tool1",
         "allowQuantity": false,
-        "emptyMedia": "assets/icons/Tool.svg",
+        "emptyMedia": "assets/icons/Tool.png",
         "emptyName": "Tool",
-        "providesEquipStats": true,
+        "providesEquipStats": false,
         "gridPosition": {
           "col": 1,
-          "row": 3
+          "row": 7
         }
       },
       {
-        "id": "Tattoo",
+        "id": "Tool2",
         "allowQuantity": false,
-        "emptyMedia": "assets/icons/Tattoo.svg",
-        "emptyName": "Tattoo",
-        "providesEquipStats": true,
+        "emptyMedia": "assets/icons/Tool.png",
+        "emptyName": "Tool",
+        "providesEquipStats": false,
+        "gridPosition": {
+          "col": 2,
+          "row": 7
+        }
+      },
+      {
+        "id": "Tool3",
+        "allowQuantity": false,
+        "emptyMedia": "assets/icons/Tool.png",
+        "emptyName": "Tool",
+        "providesEquipStats": false,
         "gridPosition": {
           "col": 3,
-          "row": 4
+          "row": 7
         }
       }
     ],
@@ -44,8 +55,8 @@
         "name": "Gardening Apron",
         "category": "Thieving",
         "type": "Equipment",
-        "media": "assets/items/Gardening_apron.png",
-        "customDescription": "-2.5% Farming Growth Interval. 5% chance to preserve seeds when harvesting Shrubs and Flowers.",
+        "media": "assets/items/Gardening_Apron.png",
+        "customDescription": "-2.5% Farming Growth Interval. +5% chance to preserve seeds when harvesting Shrubs and Flowers.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -298,7 +309,7 @@
             },
             {
               "skillID": "melvorD:Farming",
-              "actionID": "expandedAreas:Poison_Ivy",
+              "actionID": "expandedAreas:Poison_Ivy_Leaf",
               "value": 15
             },
             {
@@ -604,7 +615,7 @@
         ]
       },
       {
-        "id": "Poison_Ivy",
+        "id": "Poison_Ivy_Leaf",
         "name": "Poison Ivy Leaf",
         "category": "Herblore",
         "type": "Ingredient",
@@ -15711,10 +15722,10 @@
               "grownMedia": "assets/skills/farming/Coffea.svg"
             },
             {
-              "id": "Poison_Ivy",
+              "id": "Poison_Ivy_Leaf",
               "baseExperience": 1203,
               "level": 95,
-              "productId": "expandedAreas:Poison_Ivy",
+              "productId": "expandedAreas:Poison_Ivy_Leaf",
               "baseInterval": 107500000,
               "categoryID": "expandedAreas:Shrub",
               "seedCost": {
@@ -19654,78 +19665,6 @@
     ]
   },
   "modifications": {
-    "equipmentSlots": [
-      {
-        "id": "melvorD:Platelegs",
-        "gridPosition": {
-          "col": 2,
-          "row": 4
-        }
-      },
-      {
-        "id": "melvorD:Boots",
-        "gridPosition": {
-          "col": 2,
-          "row": 5
-        }
-      },
-      {
-        "id": "melvorD:Ring",
-        "gridPosition": {
-          "col": 2,
-          "row": 5
-        }
-      },
-      {
-        "id": "melvorD:Gloves",
-        "gridPosition": {
-          "col": 2,
-          "row": 5
-        }
-      },
-      {
-        "id": "melvorD:Summon1",
-        "gridPosition": {
-          "col": 2,
-          "row": 6
-        }
-      },
-      {
-        "id": "melvorD:Summon2",
-        "gridPosition": {
-          "col": 2,
-          "row": 6
-        }
-      },
-      {
-        "id": "melvorD:Gem",
-        "gridPosition": {
-          "col": 2,
-          "row": 4
-        }
-      },
-      {
-        "id": "melvorD:Enhancement1",
-        "gridPosition": {
-          "col": 2,
-          "row": 7
-        }
-      },
-      {
-        "id": "melvorD:Enhancement2",
-        "gridPosition": {
-          "col": 2,
-          "row": 7
-        }
-      },
-      {
-        "id": "melvorD:Enhancement3",
-        "gridPosition": {
-          "col": 2,
-          "row": 7
-        }
-      }
-    ],
     "skillData": [
       {
         "skillID": "melvorD:Fletching",
@@ -20271,7 +20210,7 @@
               "weight": 222222
             },
             {
-              "itemID": "melvorD:Bell_Pepper_Seed",
+              "itemID": "expandedAreas:Bell_Pepper_Seed",
               "minQuantity": 1,
               "maxQuantity": 9,
               "weight": 111111

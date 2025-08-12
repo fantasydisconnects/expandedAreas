@@ -1,3 +1,46 @@
+
+
+pages
+gameModes
+"skillLevelCapIncreases"
+equipmentSlots
+items
+attackStyles
+combatEffectGroups
+combatEffectTemplates
+combatEffects
+"attacks"
+"combatPassives"
+"monsters"
+"combatAreas"
+"dungeons"
+slayerTaskCategories
+"combatAreaCategories"
+"combatAreaCategoryOrder"
+prayers
+curseSpells
+auroraSpells
+"attackSpellbooks"
+"attackSpells"
+"pets"
+"shopCategories"
+"shopCategoryOrder"
+shopPurchases
+shopDisplayOrder
+shopUpgradeChains
+itemUpgrades
+tutorialStages
+tutorialStageOrder
+randomGems
+randomSuperiorGems
+spiderLairMonsters
+skillData
+bankSortOrder
+lore
+golbinRaid
+combatEffects
+modifiers
+
 RARITY:
 TOTAL: 8192
 1/2: 4096
@@ -45,6 +88,8 @@ Ruby Colors:
 Elemental Sanctuary
 Elemental Avatar
 Elemental Chest
+
+
 
             {
               "id": "LORDS_ESTATE",
