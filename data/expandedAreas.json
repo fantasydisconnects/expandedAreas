@@ -3570,7 +3570,8 @@
         "sellsFor": 800,
         "tier": "rune",
         "validSlots": [
-          "Weapon"
+          "Weapon",
+          "expandedAreas:Tool"
         ],
         "occupiesSlots": [],
         "equipRequirements": [
@@ -3746,9 +3747,9 @@
       {
         "id": "Blackjack",
         "name": "Blackjack",
-        "category": "Combat",
-        "itemType": "Weapon",
-        "type": "Weapon",
+        "category": "Thieving",
+        "itemType": "Equipment",
+        "type": "Tool",
         "media": "assets/items/Oak_Blackjack.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
@@ -3756,40 +3757,15 @@
         "sellsFor": 50,
         "tier": "none",
         "validSlots": [
-          "melvorD:Weapon"
+          "expandedAreas:Tool"
         ],
         "occupiesSlots": [],
+        "equipmentStats": [],
         "equipRequirements": [
           {
-            "skillID": "melvorD:Attack",
-            "level": 10,
-            "type": "SkillLevel"
-          },
-          {
             "skillID": "melvorD:Thieving",
-            "level": 10,
+            "level": 30,
             "type": "SkillLevel"
-          }
-        ],
-        "equipmentStats": [
-          {
-            "key": "attackSpeed",
-            "value": 2600
-          },
-          {
-            "key": "slashAttackBonus",
-            "value": 4
-          },
-          {
-            "key": "meleeStrengthBonus",
-            "value": 4
-          }
-        ],
-        "combatEffects": [
-          {
-            "effectID": "melvorD:Stun",
-            "appliesWhen": "HitWithAttack",
-            "chance": 5
           }
         ],
         "modifiers": {
@@ -3799,8 +3775,7 @@
               "value": 5
             }
           ]
-        },
-        "attackType": "melee"
+        }
       },
       {
         "id": "Bronze_Spear",
@@ -6771,7 +6746,7 @@
         "id": "Orb_of_the_Elements",
         "name": "Orb of the Elements",
         "category": "Combat",
-        "type": "Ring",
+        "type": "Accessory",
         "media": "assets/items/Orb_of_the_Elements.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
@@ -6780,7 +6755,8 @@
         "tier": "ancient",
         "customDescription": "+30 Minimum and Maximum Elemental Spell Dmg. Reduces Elemental Rune cost of Magic Spells by 1.",
         "validSlots": [
-          "Ring"
+          "expandedAreas:Accessory1",
+          "expandedAreas:Accessory2"
         ],
         "occupiesSlots": [],
         "equipRequirements": [
@@ -6899,7 +6875,9 @@
         "customDescription": "Reduces the Elemental Rune cost of Magic Spells by 1 when equipped as an Off-hand (Cost cannot go below 1).<br>Increases Maximum Hit and Accuracy of Elemental Spells by 25% when equipped.",
         "tier": "book",
         "validSlots": [
-          "Shield"
+          "Shield",
+          "expandedAreas:Accessory1",
+          "expandedAreas:Accessory2"
         ],
         "occupiesSlots": [],
         "equipRequirements": [
@@ -6970,7 +6948,9 @@
         "customDescription": "Reduces the Air Rune cost of Magic Spells by 1 when equipped as an Off-hand (Cost cannot go below 1).<br>Increases Maximum Hit and Accuracy of Air Spells by 20% when equipped.",
         "tier": "book",
         "validSlots": [
-          "Shield"
+          "Shield",
+          "expandedAreas:Accessory1",
+          "expandedAreas:Accessory2"
         ],
         "occupiesSlots": [],
         "equipRequirements": [
@@ -7029,7 +7009,9 @@
         "customDescription": "Reduces the Water Rune cost of Magic Spells by 1 when equipped as an Off-hand (Cost cannot go below 1).<br>Increases Maximum Hit and Accuracy of Water Spells by 20% when equipped.",
         "tier": "book",
         "validSlots": [
-          "Shield"
+          "Shield",
+          "expandedAreas:Accessory1",
+          "expandedAreas:Accessory2"
         ],
         "occupiesSlots": [],
         "equipRequirements": [
@@ -7088,7 +7070,9 @@
         "customDescription": "Reduces the Earth Rune cost of Magic Spells by 1 when equipped as an Off-hand (Cost cannot go below 1).<br>Increases Maximum Hit and Accuracy of Earth Spells by 20% when equipped.",
         "tier": "book",
         "validSlots": [
-          "Shield"
+          "Shield",
+          "expandedAreas:Accessory1",
+          "expandedAreas:Accessory2"
         ],
         "occupiesSlots": [],
         "equipRequirements": [
@@ -7147,7 +7131,9 @@
         "customDescription": "Reduces the Fire Rune cost of Magic Spells by 1 when equipped as an Off-hand (Cost cannot go below 1).<br>Increases Maximum Hit and Accuracy of Fire Spells by 20% when equipped.",
         "tier": "book",
         "validSlots": [
-          "Shield"
+          "Shield",
+          "expandedAreas:Accessory1",
+          "expandedAreas:Accessory2"
         ],
         "occupiesSlots": [],
         "equipRequirements": [
@@ -19665,653 +19651,271 @@
     ]
   },
   "modifications": {
-    "skillData": [
-      {
-        "skillID": "melvorD:Fletching",
-        "data": {
-          "recipes": [
-            {
-              "id": "melvorF:Arrow_Shafts",
-              "alternativeCosts": [
-                {
-                  "itemCosts": [
-                    {
-                      "id": "expandedAreas:Evergreen_Logs",
-                      "quantity": 1
-                    }
-                  ],
-                  "quantityMultiplier": 2
-                },
-                {
-                  "itemCosts": [
-                    {
-                      "id": "expandedAreas:Longleaf_Logs",
-                      "quantity": 1
-                    }
-                  ],
-                  "quantityMultiplier": 5
-                },
-                {
-                  "itemCosts": [
-                    {
-                      "id": "expandedAreas:Frostpine_Logs",
-                      "quantity": 1
-                    }
-                  ],
-                  "quantityMultiplier": 7
-                },
-                {
-                  "itemCosts": [
-                    {
-                      "id": "expandedAreas:White_Pine_Logs",
-                      "quantity": 1
-                    }
-                  ],
-                  "quantityMultiplier": 8
-                },
-                {
-                  "itemCosts": [
-                    {
-                      "id": "expandedAreas:Loblolly_Logs",
-                      "quantity": 1
-                    }
-                  ],
-                  "quantityMultiplier": 9
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "skillID": "melvorD:Farming",
-        "data": {
-          "recipes": [
-            {
-              "id": "melvorF:Apple",
-              "categoryID": "expandedAreas:Fruit_Tree"
-            }
-          ]
-        }
-      }
-    ],
-    "combatAreas": [
-      {
-        "id": "melvorD:Goblin_Village",
-        "monsters": {
-          "add": [
-            {
-              "insertAt": 2,
-              "monsterID": "expandedAreas:Magic_Golbin"
-            },
-            {
-              "insertAt": 3,
-              "monsterID": "expandedAreas:Hobgolbin"
-            },
-            {
-              "insertAt": 4,
-              "monsterID": "expandedAreas:Big_Golbin"
-            },
-            {
-              "insertAt": 5,
-              "monsterID": "expandedAreas:Golbin_Chief"
-            }
-          ]
-        }
-      },
-      {
-        "id": "melvorD:Graveyard",
-        "monsters": {
-          "add": [
-            {
-              "insertAt": 2,
-              "monsterID": "expandedAreas:Giant_Grub"
-            },
-            {
-              "insertAt": 5,
-              "monsterID": "expandedAreas:Novice_Necromancer"
-            }
-          ]
-        }
-      },
-      {
-        "id": "melvorD:Sandy_Shores",
-        "monsters": {
-          "add": [
-            {
-              "monsterID": "expandedAreas:Lost_Monkey",
-              "insertAt": 2
-            },
-            {
-              "monsterID": "expandedAreas:Sandy_Devil",
-              "insertAt": 5
-            }
-          ]
-        }
-      },
-      {
-        "id": "melvorD:Dragon_Valley",
-        "monsters": {
-          "add": [
-            {
-              "monsterID": "expandedAreas:Baby_Green_Dragon",
-              "insertAt": 0
-            },
-            {
-              "monsterID": "expandedAreas:Baby_Blue_Dragon",
-              "insertAt": 1
-            },
-            {
-              "monsterID": "expandedAreas:Baby_Red_Dragon",
-              "insertAt": 2
-            },
-            {
-              "monsterID": "expandedAreas:Baby_Black_Dragon",
-              "insertAt": 3
-            }
-          ]
-        }
-      }
-    ],
-    "combatAreaCategories": [
-      {
-        "id": "melvorD:CombatAreas",
-        "areas": {
-          "add": [
-            {
-              "insertAt": "After",
-              "afterID": "melvorD:Farmlands",
-              "ids": [
-                "expandedAreas:Low_Town"
-              ]
-            },
-            {
-              "insertAt": "After",
-              "afterID": "melvorD:ElerineBattlegrounds",
-              "ids": [
-                "expandedAreas:Secluded_Monastery"
-              ]
-            },
-            {
-              "insertAt": "After",
-              "afterID": "melvorD:Icy_Hills",
-              "ids": [
-                "expandedAreas:Barbarian_Village"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "melvorD:Dungeons",
-        "areas": {
-          "add": [
-            {
-              "insertAt": "After",
-              "afterID": "melvorD:Chicken_Coop",
-              "ids": [
-                "expandedAreas:Golbin_Hideout"
-              ]
-            },
-            {
-              "insertAt": "After",
-              "afterID": "melvorD:Hall_of_Wizards",
-              "ids": [
-                "expandedAreas:The_Barbarian_Trials"
-              ]
-            },
-            {
-              "insertAt": "After",
-              "afterID": "melvorF:Dragons_Den",
-              "ids": [
-                "expandedAreas:Elemental_Sanctuary"
-              ]
-            }
-          ]
-        }
-      }
-    ],
-    "dungeons": [
-      {
-        "id": "melvorD:Frozen_Cove",
-        "dropBones": true
-      },
-      {
-        "id": "melvorD:Volcanic_Cave",
-        "dropBones": true
-      },
-      {
-        "id": "melvorF:Infernal_Stronghold",
-        "dropBones": true
-      },
-      {
-        "id": "melvorD:Undead_Graveyard",
-        "monsters": {
-          "remove": [
-            {
-              "removeAt": 0,
-              "monsterID": "melvorD:ZombieHand"
-            },
-            {
-              "removeAt": 5,
-              "monsterID": "melvorD:Zombie"
-            }
-          ],
-          "add": [
-            {
-              "insertAt": 2,
-              "monsterID": "expandedAreas:Giant_Grub"
-            },
-            {
-              "insertAt": 7,
-              "monsterID": "expandedAreas:Novice_Necromancer"
-            }
-          ]
-        }
-      },
-      {
-        "id": "melvorD:Bandit_Base",
-        "difficulty": [
-          2
-        ]
-      }
-    ],
-    "monsters": [
-      {
-        "id": "melvorD:JuniorFarmer",
-        "lootChance": 100,
-        "lootTable": {
-          "remove": [
-            "melvorD:Potato_Seed",
-            "melvorD:Garum_Seed",
-            "melvorD:Onion_Seed",
-            "melvorD:Cabbage_Seed",
-            "melvorD:Tomato_Seed"
-          ],
-          "add": [
-            {
-              "itemID": "expandedAreas:Jute_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 3,
-              "weight": 999999
-            },
-            {
-              "itemID": "expandedAreas:Barley_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 3,
-              "weight": 888888
-            },
-            {
-              "itemID": "melvorD:Potato_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 3,
-              "weight": 999999
-            },
-            {
-              "itemID": "melvorD:Onion_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 3,
-              "weight": 888888
-            },
-            {
-              "itemID": "melvorD:Cabbage_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 3,
-              "weight": 777777
-            },
-            {
-              "itemID": "melvorD:Tomato_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 3,
-              "weight": 666666
-            },
-            {
-              "itemID": "expandedAreas:Sack",
-              "minQuantity": 1,
-              "maxQuantity": 3,
-              "weight": 555555
-            },
-            {
-              "itemID": "expandedAreas:Basket",
-              "minQuantity": 1,
-              "maxQuantity": 3,
-              "weight": 444444
-            },
-            {
-              "itemID": "melvorD:Oak_Tree_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 3,
-              "weight": 333333
-            }
-          ]
-        }
-      },
-      {
-        "id": "melvorD:AdultFarmer",
-        "lootChance": 96,
-        "lootTable": {
-          "remove": [
-            "melvorD:Onion_Seed",
-            "melvorD:Cabbage_Seed",
-            "melvorD:Onion_Seed",
-            "melvorD:Cabbage_Seed",
-            "melvorD:Sourweed_Seed",
-            "melvorD:Mantalyme_Seed",
-            "melvorD:Sweetcorn_Seed",
-            "melvorD:Strawberry_Seed",
-            "melvorD:Watermelon_Seed",
-            "melvorD:Compost",
-            "melvorD:Snape_Grass_Seed",
-            "melvorD:Oak_Tree_Seed"
-          ],
-          "add": [
-            {
-              "itemID": "expandedAreas:Plumm_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 6,
-              "weight": 999999
-            },
-            {
-              "itemID": "expandedAreas:Firewine_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 6,
-              "weight": 888888
-            },
-            {
-              "itemID": "expandedAreas:Andlovan_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 6,
-              "weight": 777777
-            },
-            {
-              "itemID": "expandedAreas:Orange_Tree_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 6,
-              "weight": 555555
-            },
-            {
-              "itemID": "expandedAreas:Cherry_Tree_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 6,
-              "weight": 444444
-            },
-            {
-              "itemID": "expandedAreas:Curry_Tree_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 6,
-              "weight": 333333
-            },
-            {
-              "itemID": "melvorD:Sweetcorn_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 6,
-              "weight": 888888
-            },
-            {
-              "itemID": "melvorD:Strawberry_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 6,
-              "weight": 777777
-            },
-            {
-              "itemID": "melvorD:Watermelon_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 6,
-              "weight": 666666
-            },
-            {
-              "itemID": "melvorD:Compost",
-              "minQuantity": 1,
-              "maxQuantity": 6,
-              "weight": 555555
-            }
-          ]
-        }
-      },
-      {
-        "id": "melvorD:MasterFarmer",
-        "lootChance": 100,
-        "lootTable": {
-          "remove": [
-            "melvorD:Tomato_Seed",
-            "melvorD:Sweetcorn_Seed",
-            "melvorD:Strawberry_Seed",
-            "melvorD:Lemontyle_Seed",
-            "melvorD:Oxilyme_Seed",
-            "melvorD:Watermelon_Seed",
-            "melvorD:Compost",
-            "melvorD:Snape_Grass_Seed",
-            "melvorD:Oak_Tree_Seed",
-            "melvorD:Willow_Tree_Seed",
-            "melvorD:Maple_Tree_Seed",
-            "melvorD:Yew_Tree_Seed",
-            "melvorD:Magic_Tree_Seed",
-            "melvorD:Bobs_Rake"
-          ],
-          "add": [
-            {
-              "itemID": "expandedAreas:Jute_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 999999
-            },
-            {
-              "itemID": "expandedAreas:Barley_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 888888
-            },
-            {
-              "itemID": "expandedAreas:Plumm_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 777777
-            },
-            {
-              "itemID": "expandedAreas:Firewine_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 666666
-            },
-            {
-              "itemID": "expandedAreas:Andlovan_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 555555
-            },
-            {
-              "itemID": "expandedAreas:Goldengod_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 444444
-            },
-            {
-              "itemID": "expandedAreas:Orange_Tree_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 666666
-            },
-            {
-              "itemID": "expandedAreas:Cherry_Tree_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 555555
-            },
-            {
-              "itemID": "expandedAreas:Curry_Tree_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 444444
-            },
-            {
-              "itemID": "expandedAreas:Papaya_Tree_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 333333
-            },
-            {
-              "itemID": "expandedAreas:Palm_Tree_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 222222
-            },
-            {
-              "itemID": "expandedAreas:Dragonfruit_Tree_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 111111
-            },
-            {
-              "itemID": "melvorD:Potato_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 999999
-            },
-            {
-              "itemID": "melvorD:Onion_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 888888
-            },
-            {
-              "itemID": "melvorD:Cabbage_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 777777
-            },
-            {
-              "itemID": "melvorD:Tomato_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 666666
-            },
-            {
-              "itemID": "melvorD:Sweetcorn_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 555555
-            },
-            {
-              "itemID": "melvorD:Strawberry_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 444444
-            },
-            {
-              "itemID": "melvorD:Watermelon_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 333333
-            },
-            {
-              "itemID": "melvorD:Snape_Grass_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 222222
-            },
-            {
-              "itemID": "expandedAreas:Bell_Pepper_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 9,
-              "weight": 111111
-            },
-            {
-              "itemID": "melvorD:Bobs_Rake",
-              "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 23333
-            },
-            {
-              "itemID": "melvorD:Farming_Skillcape",
-              "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 12
-            }
-          ]
-        }
-      },
-      {
-        "id": "melvorD:MalcsTheGuardianOfMelvor",
-        "bones": {
-          "itemID": "expandedAreas:Superior_Dragon_Bones",
-          "quantity": 1
-        }
-      },
-      {
-        "id": "melvorD:PratTheProtectorOfSecrets",
-        "bones": {
-          "itemID": "expandedAreas:Superior_Dragon_Bones",
-          "quantity": 1
-        }
-      },
-      {
-        "id": "melvorF:MalcsTheGuardianOfStrongholds",
-        "bones": {
-          "itemID": "expandedAreas:Superior_Dragon_Bones",
-          "quantity": 1
-        }
-      },
-      {
-        "id": "melvorF:MalcsTheLeaderOfDragons",
-        "bones": {
-          "itemID": "expandedAreas:Superior_Dragon_Bones",
-          "quantity": 1
-        }
-      },
-      {
-        "id": "melvorF:PratTheGuardianOfSecrets",
-        "bones": {
-          "itemID": "expandedAreas:Superior_Dragon_Bones",
-          "quantity": 1
-        }
-      },
-      {
-        "id": "melvorF:PratTheGuardianOfSecretsBoss",
-        "bones": {
-          "itemID": "expandedAreas:Superior_Dragon_Bones",
-          "quantity": 1
-        }
-      },
-      {
-        "id": "melvorD:ProtectorofIce",
-        "bones": {
-          "itemID": "expandedAreas:Superior_Dragon_Bones",
-          "quantity": 1
-        }
-      },
-      {
-        "id": "melvorF:Elementalist",
-        "lootTable": {
-          "add": [
-            {
-              "itemID": "expandedAreas:Burnt_Page",
-              "minQuantity": 1,
-              "maxQuantity": 20,
-              "weight": 3
-            },
-            {
-              "itemID": "expandedAreas:Waterlogged_Page",
-              "minQuantity": 1,
-              "maxQuantity": 20,
-              "weight": 3
-            },
-            {
-              "itemID": "expandedAreas:Wispy_Page",
-              "minQuantity": 1,
-              "maxQuantity": 20,
-              "weight": 3
-            },
-            {
-              "itemID": "expandedAreas:Muddy_Page",
-              "minQuantity": 1,
-              "maxQuantity": 20,
-              "weight": 3
-            }
-          ]
-        }
-      }
-    ],
     "items": [
+      {
+        "id": "melvorF:Blazing_Lantern",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Tool"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Adventurers_Backpack",
+        "validSlots": {
+          "remove": [
+            "melvorD:Cape"
+          ],
+          "add": [
+            "expandedAreas:Accessory1",
+            "expandedAreas:Accessory2"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Ghostly_Parrot",
+        "validSlots": {
+          "remove": [
+            "melvorD:Cape"
+          ],
+          "add": [
+            "expandedAreas:Accessory1",
+            "expandedAreas:Accessory2"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Book_of_Occults",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Accessory1",
+            "expandedAreas:Accessory2"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Voodoo_Trinket",
+        "validSlots": {
+          "remove": [
+            "melvorD:Amulet"
+          ],
+          "add": [
+            "expandedAreas:Accessory1",
+            "expandedAreas:Accessory2"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Sailors_Compass",
+        "validSlots": {
+          "remove": [
+            "melvorD:Ring"
+          ],
+          "add": [
+            "expandedAreas:Accessory1",
+            "expandedAreas:Accessory2"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Book_Of_Scholars",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Accessory1",
+            "expandedAreas:Accessory2"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Cursed_Arcana",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Accessory1",
+            "expandedAreas:Accessory2"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Ancient_Arcana",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Accessory1",
+            "expandedAreas:Accessory2"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Hunters_Journal",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Accessory1",
+            "expandedAreas:Accessory2"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Mortar_and_Pestle",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Tool"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Grappling_Hook",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Tool"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Ancient_Scythe",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Tool"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Old_Wooden_Ladle",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Tool"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Potion_Stirrer",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Tool"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Mining_Lantern",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Tool"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Blacksmith_Tongs",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Tool"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Chisel",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Tool"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Fishing_Net",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Tool"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Archaeologists_Whip",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Tool"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Golden_Trowel",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Tool"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Captains_Logbook",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Accessory1",
+            "expandedAreas:Accessory2"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Old_Spyglass",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Tool"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Enhanced_Spyglass",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Tool"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Old_Fancy_Quill",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Tool"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Sturdy_Fancy_Quill",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Tool"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Burning_Embers_Book",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Accessory1",
+            "expandedAreas:Accessory2"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Bottle_of_Mystic_Water",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Accessory1",
+            "expandedAreas:Accessory2"
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Bobs_Rake",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Tool"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Almighty_Lute",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Tool"
+          ]
+        }
+      },
       {
         "id": "melvorD:Ring_Of_Balance",
         "validSlots": {
@@ -20634,6 +20238,262 @@
       },
       {
         "id": "melvorF:Wasteful_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Iridium_Onyx_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Palladium_Onyx_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Iridium_Cerulean_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Palladium_Cerulean_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Iridium_Oricha_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Palladium_Oricha_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Iridium_Runestone_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Iridium_Zephyte_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Palladium_Zephyte_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Palladium_Runestone_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Meteorite_Warrior_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Meteorite_Marksman_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Meteorite_Spellcaster_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Meteorite_Woodcutting_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Ring_of_Summoning",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Blood_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Barrier_Eroding_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Barrier_Hunter_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Bone_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Bronze_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Cleansing_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Cursed_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Haunted_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Ring_of_Barrier_Touch",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Ring_of_Curse_Protection",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Ring_of_Deception",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Ring_of_Faith",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Ring_of_Malice",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorTotH:Ring_of_Phantom_Summon",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Silver_Magic_Band",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Summoners_Blessed_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorAoD:Unholy_Ring",
         "validSlots": {
           "add": [
             "expandedAreas:Ring"
@@ -21423,6 +21283,652 @@
             {
               "key": "meleeStrengthBonus",
               "value": 1
+            }
+          ]
+        }
+      }
+    ],
+    "skillData": [
+      {
+        "skillID": "melvorD:Fletching",
+        "data": {
+          "recipes": [
+            {
+              "id": "melvorF:Arrow_Shafts",
+              "alternativeCosts": [
+                {
+                  "itemCosts": [
+                    {
+                      "id": "expandedAreas:Evergreen_Logs",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantityMultiplier": 2
+                },
+                {
+                  "itemCosts": [
+                    {
+                      "id": "expandedAreas:Longleaf_Logs",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantityMultiplier": 5
+                },
+                {
+                  "itemCosts": [
+                    {
+                      "id": "expandedAreas:Frostpine_Logs",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantityMultiplier": 7
+                },
+                {
+                  "itemCosts": [
+                    {
+                      "id": "expandedAreas:White_Pine_Logs",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantityMultiplier": 8
+                },
+                {
+                  "itemCosts": [
+                    {
+                      "id": "expandedAreas:Loblolly_Logs",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantityMultiplier": 9
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Farming",
+        "data": {
+          "recipes": [
+            {
+              "id": "melvorF:Apple",
+              "categoryID": "expandedAreas:Fruit_Tree"
+            }
+          ]
+        }
+      }
+    ],
+    "combatAreas": [
+      {
+        "id": "melvorD:Goblin_Village",
+        "monsters": {
+          "add": [
+            {
+              "insertAt": 2,
+              "monsterID": "expandedAreas:Magic_Golbin"
+            },
+            {
+              "insertAt": 3,
+              "monsterID": "expandedAreas:Hobgolbin"
+            },
+            {
+              "insertAt": 4,
+              "monsterID": "expandedAreas:Big_Golbin"
+            },
+            {
+              "insertAt": 5,
+              "monsterID": "expandedAreas:Golbin_Chief"
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Graveyard",
+        "monsters": {
+          "add": [
+            {
+              "insertAt": 2,
+              "monsterID": "expandedAreas:Giant_Grub"
+            },
+            {
+              "insertAt": 5,
+              "monsterID": "expandedAreas:Novice_Necromancer"
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Sandy_Shores",
+        "monsters": {
+          "add": [
+            {
+              "monsterID": "expandedAreas:Lost_Monkey",
+              "insertAt": 2
+            },
+            {
+              "monsterID": "expandedAreas:Sandy_Devil",
+              "insertAt": 5
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Dragon_Valley",
+        "monsters": {
+          "add": [
+            {
+              "monsterID": "expandedAreas:Baby_Green_Dragon",
+              "insertAt": 0
+            },
+            {
+              "monsterID": "expandedAreas:Baby_Blue_Dragon",
+              "insertAt": 1
+            },
+            {
+              "monsterID": "expandedAreas:Baby_Red_Dragon",
+              "insertAt": 2
+            },
+            {
+              "monsterID": "expandedAreas:Baby_Black_Dragon",
+              "insertAt": 3
+            }
+          ]
+        }
+      }
+    ],
+    "combatAreaCategories": [
+      {
+        "id": "melvorD:CombatAreas",
+        "areas": {
+          "add": [
+            {
+              "insertAt": "After",
+              "afterID": "melvorD:Farmlands",
+              "ids": [
+                "expandedAreas:Low_Town"
+              ]
+            },
+            {
+              "insertAt": "After",
+              "afterID": "melvorD:ElerineBattlegrounds",
+              "ids": [
+                "expandedAreas:Secluded_Monastery"
+              ]
+            },
+            {
+              "insertAt": "After",
+              "afterID": "melvorD:Icy_Hills",
+              "ids": [
+                "expandedAreas:Barbarian_Village"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Dungeons",
+        "areas": {
+          "add": [
+            {
+              "insertAt": "After",
+              "afterID": "melvorD:Chicken_Coop",
+              "ids": [
+                "expandedAreas:Golbin_Hideout"
+              ]
+            },
+            {
+              "insertAt": "After",
+              "afterID": "melvorD:Hall_of_Wizards",
+              "ids": [
+                "expandedAreas:The_Barbarian_Trials"
+              ]
+            },
+            {
+              "insertAt": "After",
+              "afterID": "melvorF:Dragons_Den",
+              "ids": [
+                "expandedAreas:Elemental_Sanctuary"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "dungeons": [
+      {
+        "id": "melvorD:Frozen_Cove",
+        "dropBones": true
+      },
+      {
+        "id": "melvorD:Volcanic_Cave",
+        "dropBones": true
+      },
+      {
+        "id": "melvorF:Infernal_Stronghold",
+        "dropBones": true
+      },
+      {
+        "id": "melvorD:Undead_Graveyard",
+        "monsters": {
+          "remove": [
+            {
+              "removeAt": 0,
+              "monsterID": "melvorD:ZombieHand"
+            },
+            {
+              "removeAt": 5,
+              "monsterID": "melvorD:Zombie"
+            }
+          ],
+          "add": [
+            {
+              "insertAt": 2,
+              "monsterID": "expandedAreas:Giant_Grub"
+            },
+            {
+              "insertAt": 7,
+              "monsterID": "expandedAreas:Novice_Necromancer"
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Bandit_Base",
+        "difficulty": [
+          2
+        ]
+      }
+    ],
+    "monsters": [
+      {
+        "id": "melvorD:JuniorFarmer",
+        "lootChance": 100,
+        "lootTable": {
+          "remove": [
+            "melvorD:Potato_Seed",
+            "melvorD:Garum_Seed",
+            "melvorD:Onion_Seed",
+            "melvorD:Cabbage_Seed",
+            "melvorD:Tomato_Seed"
+          ],
+          "add": [
+            {
+              "itemID": "expandedAreas:Jute_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 3,
+              "weight": 999999
+            },
+            {
+              "itemID": "expandedAreas:Barley_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 3,
+              "weight": 888888
+            },
+            {
+              "itemID": "melvorD:Potato_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 3,
+              "weight": 999999
+            },
+            {
+              "itemID": "melvorD:Onion_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 3,
+              "weight": 888888
+            },
+            {
+              "itemID": "melvorD:Cabbage_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 3,
+              "weight": 777777
+            },
+            {
+              "itemID": "melvorD:Tomato_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 3,
+              "weight": 666666
+            },
+            {
+              "itemID": "expandedAreas:Sack",
+              "minQuantity": 1,
+              "maxQuantity": 3,
+              "weight": 555555
+            },
+            {
+              "itemID": "expandedAreas:Basket",
+              "minQuantity": 1,
+              "maxQuantity": 3,
+              "weight": 444444
+            },
+            {
+              "itemID": "melvorD:Oak_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 3,
+              "weight": 333333
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:AdultFarmer",
+        "lootChance": 96,
+        "lootTable": {
+          "remove": [
+            "melvorD:Onion_Seed",
+            "melvorD:Cabbage_Seed",
+            "melvorD:Onion_Seed",
+            "melvorD:Cabbage_Seed",
+            "melvorD:Sourweed_Seed",
+            "melvorD:Mantalyme_Seed",
+            "melvorD:Sweetcorn_Seed",
+            "melvorD:Strawberry_Seed",
+            "melvorD:Watermelon_Seed",
+            "melvorD:Compost",
+            "melvorD:Snape_Grass_Seed",
+            "melvorD:Oak_Tree_Seed"
+          ],
+          "add": [
+            {
+              "itemID": "expandedAreas:Plumm_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 999999
+            },
+            {
+              "itemID": "expandedAreas:Firewine_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 888888
+            },
+            {
+              "itemID": "expandedAreas:Andlovan_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 777777
+            },
+            {
+              "itemID": "expandedAreas:Orange_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 555555
+            },
+            {
+              "itemID": "expandedAreas:Cherry_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 444444
+            },
+            {
+              "itemID": "expandedAreas:Curry_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 333333
+            },
+            {
+              "itemID": "melvorD:Sweetcorn_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 888888
+            },
+            {
+              "itemID": "melvorD:Strawberry_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 777777
+            },
+            {
+              "itemID": "melvorD:Watermelon_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 666666
+            },
+            {
+              "itemID": "melvorD:Compost",
+              "minQuantity": 1,
+              "maxQuantity": 6,
+              "weight": 555555
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:MasterFarmer",
+        "lootChance": 100,
+        "lootTable": {
+          "remove": [
+            "melvorD:Tomato_Seed",
+            "melvorD:Sweetcorn_Seed",
+            "melvorD:Strawberry_Seed",
+            "melvorD:Lemontyle_Seed",
+            "melvorD:Oxilyme_Seed",
+            "melvorD:Watermelon_Seed",
+            "melvorD:Compost",
+            "melvorD:Snape_Grass_Seed",
+            "melvorD:Oak_Tree_Seed",
+            "melvorD:Willow_Tree_Seed",
+            "melvorD:Maple_Tree_Seed",
+            "melvorD:Yew_Tree_Seed",
+            "melvorD:Magic_Tree_Seed",
+            "melvorD:Bobs_Rake"
+          ],
+          "add": [
+            {
+              "itemID": "expandedAreas:Jute_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 999999
+            },
+            {
+              "itemID": "expandedAreas:Barley_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 888888
+            },
+            {
+              "itemID": "expandedAreas:Plumm_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 777777
+            },
+            {
+              "itemID": "expandedAreas:Firewine_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 666666
+            },
+            {
+              "itemID": "expandedAreas:Andlovan_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 555555
+            },
+            {
+              "itemID": "expandedAreas:Goldengod_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 444444
+            },
+            {
+              "itemID": "expandedAreas:Orange_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 666666
+            },
+            {
+              "itemID": "expandedAreas:Cherry_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 555555
+            },
+            {
+              "itemID": "expandedAreas:Curry_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 444444
+            },
+            {
+              "itemID": "expandedAreas:Papaya_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 333333
+            },
+            {
+              "itemID": "expandedAreas:Palm_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 222222
+            },
+            {
+              "itemID": "expandedAreas:Dragonfruit_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 111111
+            },
+            {
+              "itemID": "melvorD:Potato_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 999999
+            },
+            {
+              "itemID": "melvorD:Onion_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 888888
+            },
+            {
+              "itemID": "melvorD:Cabbage_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 777777
+            },
+            {
+              "itemID": "melvorD:Tomato_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 666666
+            },
+            {
+              "itemID": "melvorD:Sweetcorn_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 555555
+            },
+            {
+              "itemID": "melvorD:Strawberry_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 444444
+            },
+            {
+              "itemID": "melvorD:Watermelon_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 333333
+            },
+            {
+              "itemID": "melvorD:Snape_Grass_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 222222
+            },
+            {
+              "itemID": "expandedAreas:Bell_Pepper_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 111111
+            },
+            {
+              "itemID": "melvorD:Bobs_Rake",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 23333
+            },
+            {
+              "itemID": "melvorD:Farming_Skillcape",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 12
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:MalcsTheGuardianOfMelvor",
+        "bones": {
+          "itemID": "expandedAreas:Superior_Dragon_Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "melvorD:PratTheProtectorOfSecrets",
+        "bones": {
+          "itemID": "expandedAreas:Superior_Dragon_Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "melvorF:MalcsTheGuardianOfStrongholds",
+        "bones": {
+          "itemID": "expandedAreas:Superior_Dragon_Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "melvorF:MalcsTheLeaderOfDragons",
+        "bones": {
+          "itemID": "expandedAreas:Superior_Dragon_Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "melvorF:PratTheGuardianOfSecrets",
+        "bones": {
+          "itemID": "expandedAreas:Superior_Dragon_Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "melvorF:PratTheGuardianOfSecretsBoss",
+        "bones": {
+          "itemID": "expandedAreas:Superior_Dragon_Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "melvorD:ProtectorofIce",
+        "bones": {
+          "itemID": "expandedAreas:Superior_Dragon_Bones",
+          "quantity": 1
+        }
+      },
+      {
+        "id": "melvorF:Elementalist",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "expandedAreas:Burnt_Page",
+              "minQuantity": 1,
+              "maxQuantity": 20,
+              "weight": 3
+            },
+            {
+              "itemID": "expandedAreas:Waterlogged_Page",
+              "minQuantity": 1,
+              "maxQuantity": 20,
+              "weight": 3
+            },
+            {
+              "itemID": "expandedAreas:Wispy_Page",
+              "minQuantity": 1,
+              "maxQuantity": 20,
+              "weight": 3
+            },
+            {
+              "itemID": "expandedAreas:Muddy_Page",
+              "minQuantity": 1,
+              "maxQuantity": 20,
+              "weight": 3
             }
           ]
         }
