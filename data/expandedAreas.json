@@ -4,10 +4,10 @@
   "data": {
     "equipmentSlots": [
       {
-        "id": "Earrings",
+        "id": "Ring",
         "allowQuantity": false,
-        "emptyMedia": "assets/icons/Earrings.png",
-        "emptyName": "Waist",
+        "emptyMedia": "assets/icons/Ring.png",
+        "emptyName": "Ring",
         "providesEquipStats": true,
         "gridPosition": {
           "col": 3,
@@ -15,18 +15,18 @@
         }
       },
       {
-        "id": "Tool1",
+        "id": "Accessory1",
         "allowQuantity": false,
-        "emptyMedia": "assets/icons/Tool.png",
-        "emptyName": "Tool",
-        "providesEquipStats": false,
+        "emptyMedia": "assets/icons/Accessory.png",
+        "emptyName": "Accessory",
+        "providesEquipStats": true,
         "gridPosition": {
           "col": 1,
           "row": 7
         }
       },
       {
-        "id": "Tool2",
+        "id": "Tool",
         "allowQuantity": false,
         "emptyMedia": "assets/icons/Tool.png",
         "emptyName": "Tool",
@@ -37,11 +37,11 @@
         }
       },
       {
-        "id": "Tool3",
+        "id": "Accessory2",
         "allowQuantity": false,
-        "emptyMedia": "assets/icons/Tool.png",
-        "emptyName": "Tool",
-        "providesEquipStats": false,
+        "emptyMedia": "assets/icons/Accessory.png",
+        "emptyName": "Accessory",
+        "providesEquipStats": true,
         "gridPosition": {
           "col": 3,
           "row": 7
@@ -20312,6 +20312,334 @@
       }
     ],
     "items": [
+      {
+        "id": "melvorD:Ring_Of_Balance",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Poison_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Ancient_Ring_Of_Mastery",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Ancient_Ring_Of_Skills",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Burning_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Almighty_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Frostburn_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Pirates_Lost_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Ring_Of_Blade_Echoes",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Ring_Of_Power",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Ring_Of_Barrage",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Ring_Of_Wealth",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Ring_Of_Spirit_Power",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Shaman_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Deadeye_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Fighter_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Warlock_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Aorpheats_Signet_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Christmas_Coal",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Friendship_Bracelet",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Burning_Madness_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Gold_Diamond_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Gold_Emerald_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Gold_Ruby_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Gold_Sapphire_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Gold_Topaz_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Guardian_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Hunters_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Magical_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Natures_Blessing_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Poison_Virulence_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Relentless_Fury_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Sandstorm_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Silver_Diamond_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Silver_Emerald_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Silver_Ruby_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Silver_Sapphire_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Silver_Topaz_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Spiked_Shell_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Tormented_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Wasteful_Ring",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Ring"
+          ]
+        }
+      },
       {
         "id": "melvorD:Bird_Nest",
         "dropTable": {
