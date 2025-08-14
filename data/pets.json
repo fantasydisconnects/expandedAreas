@@ -1,0 +1,96 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "namespace": "expandedAreas",
+    "data": {
+        "pets": [
+            {
+                "id": "Swirli",
+                "name": "Swirli",
+                "media": "assets/pets/Swirli.svg",
+                "hint": "Obtained from <strong>Guardian of the Elements</strong>",
+                "ignoreCompletion": false,
+                "modifiers": {
+                    "runePreservationChance": 0.5
+                },
+                "activeInRaid": false,
+                "scaleChanceWithMasteryPool": false
+            },
+            {
+                "id": "Tinychief",
+                "name": "Tinychief",
+                "media": "assets/pets/Tinychief.svg",
+                "hint": "Obtained from <strong>Golbin Chieftain</strong>",
+                "ignoreCompletion": false,
+                "modifiers": {
+                    "combatLootDoublingChance": 0.1
+                },
+                "activeInRaid": false,
+                "scaleChanceWithMasteryPool": false
+            },
+            {
+                "id": "Yeemik",
+                "name": "Yeemik",
+                "media": "assets/pets/Yeemik.svg",
+                "hint": "Obtained from <strong>Golbin Hideout</strong>",
+                "ignoreCompletion": false,
+                "modifiers": {
+                    "dodgeChance": 0.0025
+                },
+                "activeInRaid": false,
+                "scaleChanceWithMasteryPool": false
+            },
+            {
+                "id": "Lil_Erik",
+                "name": "Lil Erik",
+                "media": "assets/pets/Lil_Erik.svg",
+                "hint": "Obtained from <strong>Chieftain Erik</strong>",
+                "ignoreCompletion": false,
+                "modifiers": {
+                    "globalItemDoublingChance": 0.5
+                },
+                "activeInRaid": false,
+                "scaleChanceWithMasteryPool": false
+            },
+            {
+                "id": "Ellie",
+                "name": "Ellie",
+                "media": "assets/pets/Ellie.svg",
+                "hint": "Obtained from <strong>Elemental Sanctuary</strong>",
+                "ignoreCompletion": false,
+                "modifiers": {
+                    "flatMagicMinHit": [
+                        {
+                            "subcategoryID": "melvorD:Elemental",
+                            "value": 0.25
+                        }
+                    ],
+                    "flatMagicMaxHit": [
+                        {
+                            "subcategoryID": "melvorD:Elemental",
+                            "value": 0.25
+                        }
+                    ]
+                },
+                "activeInRaid": false,
+                "scaleChanceWithMasteryPool": false
+            },
+            {
+                "id": "Fenri",
+                "name": "Fenri",
+                "media": "assets/pets/Fenri.svg",
+                "hint": "Obtained from <strong>The Barbarian Trials</strong>",
+                "ignoreCompletion": false,
+                "modifiers": {
+                    "flatHiddenSkillLevel": [
+                        {
+                            "skillID": "melvorD:Strength",
+                            "value": 1
+                        }
+                    ]
+                },
+                "activeInRaid": false,
+                "scaleChanceWithMasteryPool": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "namespace": "expandedAreas",
+    "data": {
+        "equipmentSlots": [
+            {
+                "id": "Ring",
+                "allowQuantity": false,
+                "emptyMedia": "assets/icons/Ring.png",
+                "emptyName": "Rinsg",
+                "providesEquipStats": true,
+                "gridPosition": {
+                    "col": 3,
+                    "row": 3
+                }
+            },
+            {
+                "id": "Accessory1",
+                "allowQuantity": false,
+                "emptyMedia": "assets/icons/Accessory.png",
+                "emptyName": "Accessory",
+                "providesEquipStats": true,
+                "gridPosition": {
+                    "col": 1,
+                    "row": 7
+                }
+            },
+            {
+                "id": "Tool",
+                "allowQuantity": false,
+                "emptyMedia": "assets/icons/Tool.png",
+                "emptyName": "Tool",
+                "providesEquipStats": false,
+                "gridPosition": {
+                    "col": 2,
+                    "row": 7
+                }
+            },
+            {
+                "id": "Accessory2",
+                "allowQuantity": false,
+                "emptyMedia": "assets/icons/Accessory.png",
+                "emptyName": "Accessory",
+                "providesEquipStats": true,
+                "gridPosition": {
+                    "col": 3,
+                    "row": 7
+                }
+            }
+        ]
+    }
+}

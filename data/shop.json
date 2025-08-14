@@ -1,0 +1,831 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "namespace": "expandedAreas",
+    "data": {
+        "shopCategories": [
+            {
+                "id": "Barbarian_Skilling",
+                "name": "Barbarian Skilling",
+                "media": "assets/icons/Barbarian.png"
+            }
+        ],
+        "shopCategoryOrder": [
+            {
+                "insertAt": "After",
+                "afterID": "melvorD:SkillUpgrades",
+                "ids": [
+                    "expandedAreas:Barbarian_Skilling"
+                ]
+            }
+        ],
+        "shopPurchases": [
+            {
+                "id": "Normal_Brewing_Barrel",
+                "media": "assets/skills/cooking/Normal_Brewing_Barrel.png",
+                "category": "melvorD:SkillUpgrades",
+                "contains": {
+                    "items": [],
+                    "modifiers": {
+                        "perfectCookChance": [
+                            {
+                                "categoryID": "expandedAreas:Brewing_Barrel",
+                                "value": 1
+                            }
+                        ],
+                        "skillXP": [
+                            {
+                                "skillID": "melvorD:Cooking",
+                                "value": 1
+                            }
+                        ]
+                    }
+                },
+                "cost": {
+                    "items": [
+                        {
+                            "id": "melvorD:Normal_Logs",
+                            "quantity": 2000
+                        },
+                        {
+                            "id": "melvorD:Bronze_Bar",
+                            "quantity": 100
+                        }
+                    ],
+                    "currencies": [
+                        {
+                            "currency": "melvorD:GP",
+                            "type": "Fixed",
+                            "cost": 50000
+                        }
+                    ]
+                },
+                "allowQuantityPurchase": false,
+                "unlockRequirements": [],
+                "purchaseRequirements": [
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Cooking",
+                        "level": 10
+                    },
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Smithing",
+                        "level": 10
+                    }
+                ],
+                "defaultBuyLimit": 1,
+                "buyLimitOverrides": [],
+                "showBuyLimit": false,
+                "customName": "Normal Brewing Barrel",
+                "customDescription": "+1% Perfect Cook chance for Brewing Barrel only for a total of +1% from Brewing Barrel.<br>+1% Cooking XP for a total of +1% Cooking XP from your Brewing Barrel."
+            },
+            {
+                "id": "Oak_Brewing_Barrel",
+                "media": "assets/skills/cooking/Oak_Brewing_Barrel.png",
+                "category": "melvorD:SkillUpgrades",
+                "contains": {
+                    "items": [],
+                    "modifiers": {
+                        "skillXP": [
+                            {
+                                "skillID": "melvorD:Cooking",
+                                "value": 2
+                            }
+                        ]
+                    }
+                },
+                "cost": {
+                    "items": [
+                        {
+                            "id": "melvorD:Oak_Logs",
+                            "quantity": 2000
+                        },
+                        {
+                            "id": "melvorD:Iron_Bar",
+                            "quantity": 100
+                        }
+                    ],
+                    "currencies": [
+                        {
+                            "currency": "melvorD:GP",
+                            "type": "Fixed",
+                            "cost": 100000
+                        }
+                    ]
+                },
+                "allowQuantityPurchase": false,
+                "unlockRequirements": [
+                    {
+                        "type": "ShopPurchase",
+                        "purchaseID": "expandedAreas:Normal_Brewing_Barrel",
+                        "count": 1
+                    }
+                ],
+                "purchaseRequirements": [
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Cooking",
+                        "level": 15
+                    },
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Smithing",
+                        "level": 15
+                    }
+                ],
+                "defaultBuyLimit": 1,
+                "buyLimitOverrides": [],
+                "showBuyLimit": false,
+                "customName": "Oak Brewing Barrel",
+                "customDescription": "+2% Cooking XP for a total of +3% Cooking XP from your Brewing Barrel."
+            },
+            {
+                "id": "Willow_Brewing_Barrel",
+                "media": "assets/skills/cooking/Willow_Brewing_Barrel.png",
+                "category": "melvorD:SkillUpgrades",
+                "contains": {
+                    "items": [],
+                    "modifiers": {
+                        "perfectCookChance": [
+                            {
+                                "categoryID": "expandedAreas:Brewing_Barrel",
+                                "value": 2
+                            }
+                        ]
+                    }
+                },
+                "cost": {
+                    "items": [
+                        {
+                            "id": "melvorD:Willow_Logs",
+                            "quantity": 2000
+                        },
+                        {
+                            "id": "melvorD:Steel_Bar",
+                            "quantity": 100
+                        }
+                    ],
+                    "currencies": [
+                        {
+                            "currency": "melvorD:GP",
+                            "type": "Fixed",
+                            "cost": 150000
+                        }
+                    ]
+                },
+                "allowQuantityPurchase": false,
+                "unlockRequirements": [
+                    {
+                        "type": "ShopPurchase",
+                        "purchaseID": "expandedAreas:Oak_Brewing_Barrel",
+                        "count": 1
+                    }
+                ],
+                "purchaseRequirements": [
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Cooking",
+                        "level": 25
+                    },
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Smithing",
+                        "level": 25
+                    }
+                ],
+                "defaultBuyLimit": 1,
+                "buyLimitOverrides": [],
+                "showBuyLimit": false,
+                "customName": "Willow Brewing Barrel",
+                "customDescription": "+2% Perfect Cook chance for Brewing Barrel only for a total of +3% from your Brewing Barrel."
+            },
+            {
+                "id": "Maple_Brewing_Barrel",
+                "media": "assets/skills/cooking/Maple_Brewing_Barrel.png",
+                "category": "melvorD:SkillUpgrades",
+                "contains": {
+                    "items": [],
+                    "modifiers": {
+                        "skillXP": [
+                            {
+                                "skillID": "melvorD:Cooking",
+                                "value": 2
+                            }
+                        ]
+                    }
+                },
+                "cost": {
+                    "items": [
+                        {
+                            "id": "melvorD:Maple_Logs",
+                            "quantity": 2000
+                        },
+                        {
+                            "id": "expandedAreas:Sterkite_Bar",
+                            "quantity": 100
+                        }
+                    ],
+                    "currencies": [
+                        {
+                            "currency": "melvorD:GP",
+                            "type": "Fixed",
+                            "cost": 200000
+                        }
+                    ]
+                },
+                "allowQuantityPurchase": false,
+                "unlockRequirements": [
+                    {
+                        "type": "ShopPurchase",
+                        "purchaseID": "expandedAreas:Willow_Brewing_Barrel",
+                        "count": 1
+                    }
+                ],
+                "purchaseRequirements": [
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Cooking",
+                        "level": 35
+                    },
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Smithing",
+                        "level": 35
+                    }
+                ],
+                "defaultBuyLimit": 1,
+                "buyLimitOverrides": [],
+                "showBuyLimit": false,
+                "customName": "Maple Brewing Barrel",
+                "customDescription": "+2% Cooking XP for a total of +5% Cooking XP from your Brewing Barrel."
+            },
+            {
+                "id": "Teak_Brewing_Barrel",
+                "media": "assets/skills/cooking/Teak_Brewing_Barrel.png",
+                "category": "melvorD:SkillUpgrades",
+                "contains": {
+                    "items": [],
+                    "modifiers": {
+                        "perfectCookChance": [
+                            {
+                                "categoryID": "expandedAreas:Brewing_Barrel",
+                                "value": 2
+                            }
+                        ]
+                    }
+                },
+                "cost": {
+                    "items": [
+                        {
+                            "id": "melvorD:Teak_Logs",
+                            "quantity": 2000
+                        },
+                        {
+                            "id": "melvorD:Mithril_Bar",
+                            "quantity": 100
+                        }
+                    ],
+                    "currencies": [
+                        {
+                            "currency": "melvorD:GP",
+                            "type": "Fixed",
+                            "cost": 250000
+                        }
+                    ]
+                },
+                "allowQuantityPurchase": false,
+                "unlockRequirements": [
+                    {
+                        "type": "ShopPurchase",
+                        "purchaseID": "expandedAreas:Maple_Brewing_Barrel",
+                        "count": 1
+                    }
+                ],
+                "purchaseRequirements": [
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Cooking",
+                        "level": 45
+                    },
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Smithing",
+                        "level": 45
+                    }
+                ],
+                "defaultBuyLimit": 1,
+                "buyLimitOverrides": [],
+                "showBuyLimit": false,
+                "customName": "Teak Brewing Barrel",
+                "customDescription": "+2% Perfect Cook Chance from Brewing Barrel only for a total of +5% Cooking XP from your Brewing Barrel."
+            },
+            {
+                "id": "Mahogany_Brewing_Barrel",
+                "media": "assets/skills/cooking/Mahogany_Brewing_Barrel.png",
+                "category": "melvorD:SkillUpgrades",
+                "contains": {
+                    "items": [],
+                    "modifiers": {
+                        "skillXP": [
+                            {
+                                "skillID": "melvorD:Cooking",
+                                "value": 2
+                            }
+                        ]
+                    }
+                },
+                "cost": {
+                    "items": [
+                        {
+                            "id": "melvorD:Mahogany_Logs",
+                            "quantity": 2000
+                        },
+                        {
+                            "id": "melvorD:Adamantite_Bar",
+                            "quantity": 100
+                        }
+                    ],
+                    "currencies": [
+                        {
+                            "currency": "melvorD:GP",
+                            "type": "Fixed",
+                            "cost": 300000
+                        }
+                    ]
+                },
+                "allowQuantityPurchase": false,
+                "unlockRequirements": [
+                    {
+                        "type": "ShopPurchase",
+                        "purchaseID": "expandedAreas:Teak_Brewing_Barrel",
+                        "count": 1
+                    }
+                ],
+                "purchaseRequirements": [
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Cooking",
+                        "level": 55
+                    },
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Smithing",
+                        "level": 55
+                    }
+                ],
+                "defaultBuyLimit": 1,
+                "buyLimitOverrides": [],
+                "showBuyLimit": false,
+                "customName": "Mahogany Brewing Barrel",
+                "customDescription": "+2% Cooking XP for a total of +7% Cooking XP from your Brewing Barrel."
+            },
+            {
+                "id": "Yew_Brewing_Barrel",
+                "media": "assets/skills/cooking/Yew_Brewing_Barrel.png",
+                "category": "melvorD:SkillUpgrades",
+                "contains": {
+                    "items": [],
+                    "modifiers": {
+                        "perfectCookChance": [
+                            {
+                                "categoryID": "expandedAreas:Brewing_Barrel",
+                                "value": 2
+                            }
+                        ]
+                    }
+                },
+                "cost": {
+                    "items": [
+                        {
+                            "id": "melvorD:Yew_Logs",
+                            "quantity": 2000
+                        },
+                        {
+                            "id": "melvorD:Runite_Bar",
+                            "quantity": 100
+                        }
+                    ],
+                    "currencies": [
+                        {
+                            "currency": "melvorD:GP",
+                            "type": "Fixed",
+                            "cost": 500000
+                        }
+                    ]
+                },
+                "allowQuantityPurchase": false,
+                "unlockRequirements": [
+                    {
+                        "type": "ShopPurchase",
+                        "purchaseID": "expandedAreas:Mahogany_Brewing_Barrel",
+                        "count": 1
+                    }
+                ],
+                "purchaseRequirements": [
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Cooking",
+                        "level": 65
+                    },
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Smithing",
+                        "level": 65
+                    }
+                ],
+                "defaultBuyLimit": 1,
+                "buyLimitOverrides": [],
+                "showBuyLimit": false,
+                "customName": "Yew Brewing Barrel",
+                "customDescription": "+2% Perfect Cook Chance from Brewing Barrel only for a total of +7% Perfect Cook Chance from your Brewing Barrel."
+            },
+            {
+                "id": "Magic_Brewing_Barrel",
+                "media": "assets/skills/cooking/Magic_Brewing_Barrel.png",
+                "category": "melvorD:SkillUpgrades",
+                "contains": {
+                    "items": [],
+                    "modifiers": {
+                        "skillXP": [
+                            {
+                                "skillID": "melvorD:Cooking",
+                                "value": 3
+                            }
+                        ]
+                    }
+                },
+                "cost": {
+                    "items": [
+                        {
+                            "id": "melvorD:Magic_Logs",
+                            "quantity": 2000
+                        },
+                        {
+                            "id": "melvorD:Runite_Bar",
+                            "quantity": 50
+                        },
+                        {
+                            "id": "melvorD:Silver_Bar",
+                            "quantity": 50
+                        }
+                    ],
+                    "currencies": [
+                        {
+                            "currency": "melvorD:GP",
+                            "type": "Fixed",
+                            "cost": 1250000
+                        }
+                    ]
+                },
+                "allowQuantityPurchase": false,
+                "unlockRequirements": [
+                    {
+                        "type": "ShopPurchase",
+                        "purchaseID": "expandedAreas:Yew_Brewing_Barrel",
+                        "count": 1
+                    }
+                ],
+                "purchaseRequirements": [
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Cooking",
+                        "level": 75
+                    },
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Smithing",
+                        "level": 75
+                    }
+                ],
+                "defaultBuyLimit": 1,
+                "buyLimitOverrides": [],
+                "showBuyLimit": false,
+                "customName": "Magic Brewing Barrel",
+                "customDescription": "+3% Cooking XP for a total of +10% Cooking XP from your Brewing Barrel."
+            },
+            {
+                "id": "Redwood_Brewing_Barrel",
+                "media": "assets/skills/cooking/Redwood_Brewing_Barrel.png",
+                "category": "melvorD:SkillUpgrades",
+                "contains": {
+                    "items": [],
+                    "modifiers": {
+                        "perfectCookChance": [
+                            {
+                                "categoryID": "expandedAreas:Brewing_Barrel",
+                                "value": 3
+                            }
+                        ]
+                    }
+                },
+                "cost": {
+                    "items": [
+                        {
+                            "id": "melvorD:Redwood_Logs",
+                            "quantity": 2000
+                        },
+                        {
+                            "id": "melvorD:Dragonite_Bar",
+                            "quantity": 50
+                        },
+                        {
+                            "id": "melvorD:Gold_Bar",
+                            "quantity": 50
+                        }
+                    ],
+                    "currencies": [
+                        {
+                            "currency": "melvorD:GP",
+                            "type": "Fixed",
+                            "cost": 2500000
+                        }
+                    ]
+                },
+                "allowQuantityPurchase": false,
+                "unlockRequirements": [
+                    {
+                        "type": "ShopPurchase",
+                        "purchaseID": "expandedAreas:Magic_Brewing_Barrel",
+                        "count": 1
+                    }
+                ],
+                "purchaseRequirements": [
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Cooking",
+                        "level": 90
+                    },
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Smithing",
+                        "level": 90
+                    }
+                ],
+                "defaultBuyLimit": 1,
+                "buyLimitOverrides": [],
+                "showBuyLimit": false,
+                "customName": "Redwood Brewing Barrel",
+                "customDescription": "+3% Perfect Cook Chance for Brewing Barrel only for a total of +10% Perfect Cook Chance from your Brewing Barrel."
+            },
+            {
+                "id": "Sterkite_Mining",
+                "media": "assets/shop/Rock_Sterkite.svg",
+                "category": "expandedAreas:Barbarian_Skilling",
+                "contains": {
+                    "items": [],
+                    "modifiers": {}
+                },
+                "cost": {
+                    "items": [],
+                    "currencies": [
+                        {
+                            "currency": "melvorD:GP",
+                            "type": "Fixed",
+                            "cost": 20000
+                        }
+                    ]
+                },
+                "allowQuantityPurchase": false,
+                "unlockRequirements": [],
+                "purchaseRequirements": [
+                    {
+                        "type": "MonsterKilled",
+                        "monsterID": "expandedAreas:Chieftain_Erik",
+                        "count": 1
+                    },
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Mining",
+                        "level": 20
+                    }
+                ],
+                "defaultBuyLimit": 1,
+                "buyLimitOverrides": [],
+                "showBuyLimit": false,
+                "customName": "Sterkite Mining",
+                "customDescription": "Grants access to Sterkite Ore."
+            },
+            {
+                "id": "Spear_Fishing",
+                "media": "assets/shop/Spear_Fishing.svg",
+                "category": "expandedAreas:Barbarian_Skilling",
+                "contains": {
+                    "items": [],
+                    "modifiers": {
+                        "skillInterval": [
+                            {
+                                "skillID": "melvorD:Fishing",
+                                "value": -2.5
+                            }
+                        ],
+                        "additionalPrimaryProductChance": [
+                            {
+                                "skillID": "melvorD:Fishing",
+                                "value": 2.5
+                            }
+                        ]
+                    }
+                },
+                "cost": {
+                    "items": [],
+                    "currencies": [
+                        {
+                            "currency": "melvorD:GP",
+                            "type": "Fixed",
+                            "cost": 1500000
+                        }
+                    ]
+                },
+                "allowQuantityPurchase": false,
+                "unlockRequirements": [],
+                "purchaseRequirements": [
+                    {
+                        "type": "DungeonCompletion",
+                        "dungeonID": "expandedAreas:The_Barbarian_Trials",
+                        "count": 1
+                    },
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Fishing",
+                        "level": 50
+                    }
+                ],
+                "defaultBuyLimit": 1,
+                "buyLimitOverrides": [],
+                "showBuyLimit": false,
+                "customName": "Spear Fishing",
+                "customDescription": "+2.5% chance to receive an additional resource from Fishing (cannot be doubled) and -2.5% Fishing Interval."
+            },
+            {
+                "id": "Tree_Punching",
+                "media": "assets/shop/Tree_Punching.svg",
+                "category": "expandedAreas:Barbarian_Skilling",
+                "contains": {
+                    "items": [],
+                    "modifiers": {
+                        "additionalPrimaryProductChance": [
+                            {
+                                "skillID": "melvorD:Woodcutting",
+                                "value": 2.5
+                            }
+                        ],
+                        "skillInterval": [
+                            {
+                                "skillID": "melvorD:Woodcutting",
+                                "value": -2.5
+                            }
+                        ]
+                    }
+                },
+                "cost": {
+                    "items": [],
+                    "currencies": [
+                        {
+                            "currency": "melvorD:GP",
+                            "type": "Fixed",
+                            "cost": 3000000
+                        }
+                    ]
+                },
+                "allowQuantityPurchase": false,
+                "unlockRequirements": [],
+                "purchaseRequirements": [
+                    {
+                        "type": "DungeonCompletion",
+                        "dungeonID": "expandedAreas:The_Barbarian_Trials",
+                        "count": 1
+                    },
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Woodcutting",
+                        "level": 30
+                    }
+                ],
+                "defaultBuyLimit": 1,
+                "buyLimitOverrides": [],
+                "showBuyLimit": false,
+                "customName": "Tree Punching",
+                "customDescription": "+2.5% chance to receive an additional resource from Woodcutting (cannot be doubled) and -2.5% Woodcutting Interval.<br>Grants access to Pine trees."
+            },
+            {
+                "id": "Rock_Smashing",
+                "media": "assets/shop/Rock_Smashing.png",
+                "category": "expandedAreas:Barbarian_Skilling",
+                "contains": {
+                    "items": [],
+                    "modifiers": {
+                        "miningNodeRespawnInterval": -5,
+                        "noMiningNodeDamageChance": 5
+                    }
+                },
+                "cost": {
+                    "items": [],
+                    "currencies": [
+                        {
+                            "currency": "melvorD:GP",
+                            "type": "Fixed",
+                            "cost": 1000000
+                        }
+                    ]
+                },
+                "allowQuantityPurchase": false,
+                "unlockRequirements": [],
+                "purchaseRequirements": [
+                    {
+                        "type": "DungeonCompletion",
+                        "dungeonID": "expandedAreas:The_Barbarian_Trials",
+                        "count": 1
+                    },
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Mining",
+                        "level": 40
+                    }
+                ],
+                "defaultBuyLimit": 1,
+                "buyLimitOverrides": [],
+                "showBuyLimit": false,
+                "customName": "Rock Smashing",
+                "customDescription": "-5% Mining Node Respawn Interval and +5% chance to deal no damage to Mining Nodes when Mining."
+            },
+            {
+                "id": "Ancestral_Smithing_Technique",
+                "media": "assets/shop/Ancestral_Smithing_Technique.svg",
+                "category": "expandedAreas:Barbarian_Skilling",
+                "contains": {
+                    "items": [],
+                    "modifiers": {
+                        "skillItemDoublingChance": [
+                            {
+                                "skillID": "melvorD:Smithing",
+                                "value": 2.5
+                            }
+                        ],
+                        "skillInterval": [
+                            {
+                                "skillID": "melvorD:Smithing",
+                                "value": -2.5
+                            }
+                        ]
+                    }
+                },
+                "cost": {
+                    "items": [],
+                    "currencies": [
+                        {
+                            "currency": "melvorD:GP",
+                            "type": "Fixed",
+                            "cost": 2000000
+                        }
+                    ]
+                },
+                "allowQuantityPurchase": false,
+                "unlockRequirements": [],
+                "purchaseRequirements": [
+                    {
+                        "type": "DungeonCompletion",
+                        "dungeonID": "expandedAreas:The_Barbarian_Trials",
+                        "count": 1
+                    },
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Smithing",
+                        "level": 50
+                    }
+                ],
+                "defaultBuyLimit": 1,
+                "buyLimitOverrides": [],
+                "showBuyLimit": false,
+                "customName": "Ancestral Smithing Technique",
+                "customDescription": "+2.5% chance to double items in Smithing and -2.5% Smithing Interval."
+            }
+        ],
+        "shopDisplayOrder": [
+            {
+                "insertAt": "After",
+                "afterID": "melvorD:Magic_Pot",
+                "ids": [
+                    "expandedAreas:Normal_Brewing_Barrel",
+                    "expandedAreas:Oak_Brewing_Barrel",
+                    "expandedAreas:Willow_Brewing_Barrel",
+                    "expandedAreas:Teak_Brewing_Barrel",
+                    "expandedAreas:Maple_Brewing_Barrel",
+                    "expandedAreas:Mahogany_Brewing_Barrel",
+                    "expandedAreas:Yew_Brewing_Barrel",
+                    "expandedAreas:Magic_Brewing_Barrel",
+                    "expandedAreas:Redwood_Brewing_Barrel"
+                ]
+            },
+            {
+                "insertAt": "After",
+                "afterID": "melvorF:Art_of_Control",
+                "ids": [
+                    "expandedAreas:Spear_Fishing",
+                    "expandedAreas:Tree_Punching",
+                    "expandedAreas:Rock_Smashing",
+                    "expandedAreas:Ancestral_Smithing_Technique"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,437 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "namespace": "expandedAreas",
+    "data": {
+        "combatAreas": [
+            {
+                "id": "Low_Town",
+                "name": "Low Town",
+                "media": "assets/combatAreas/Low_Town.png",
+                "difficulty": [
+                    0
+                ],
+                "monsterIDs": [
+                    "expandedAreas:Peasant_Man",
+                    "expandedAreas:Peasant_Woman",
+                    "expandedAreas:Pickpocket",
+                    "expandedAreas:Guard",
+                    "expandedAreas:Executioner",
+                    "expandedAreas:Mysterious_Monk"
+                ],
+                "entryRequirements": []
+            },
+            {
+                "id": "Botanical_Gardens",
+                "name": "Botanical_Gardens",
+                "media": "assets/combatAreas/Botanical_Gardens.svg",
+                "difficulty": [
+                    0
+                ],
+                "monsterIDs": [
+                    "expandedAreas:Junior_Gardener",
+                    "expandedAreas:Adult_Gardener",
+                    "expandedAreas:Master_Gardener"
+                ],
+                "entryRequirements": []
+            },
+            {
+                "id": "Barbarian_Village",
+                "name": "Barbarian Village",
+                "media": "assets/combatAreas/Barbarian_Village.png",
+                "difficulty": [
+                    0,
+                    1
+                ],
+                "monsterIDs": [
+                    "expandedAreas:Barbarian",
+                    "expandedAreas:Barbarian_Warrior",
+                    "expandedAreas:Barbarian_Bowyer",
+                    "expandedAreas:Barbarian_Berserker",
+                    "expandedAreas:Barbarian_Brawler",
+                    "expandedAreas:Chieftain_Erik"
+                ],
+                "entryRequirements": []
+            },
+            {
+                "id": "Secluded_Monastery",
+                "name": "Secluded Monastery",
+                "media": "assets/combatAreas/Secluded_Monastery.png",
+                "monsterIDs": [
+                    "expandedAreas:Monk_of_the_Wind",
+                    "expandedAreas:Monk_of_the_River",
+                    "expandedAreas:Monk_of_the_Moss",
+                    "expandedAreas:Monk_of_the_Flame",
+                    "expandedAreas:Guardian_of_the_Elements"
+                ],
+                "difficulty": [
+                    2,
+                    3
+                ],
+                "entryRequirements": [
+                    {
+                        "skillID": "melvorD:Runecrafting",
+                        "level": 50,
+                        "type": "SkillLevel"
+                    },
+                    {
+                        "skillID": "melvorD:Magic",
+                        "level": 50,
+                        "type": "SkillLevel"
+                    },
+                    {
+                        "type": "ItemFound",
+                        "itemID": "expandedAreas:Mysterious_Tome"
+                    },
+                    {
+                        "type": "DungeonCompletion",
+                        "dungeonID": "melvorD:Hall_of_Wizards",
+                        "count": 1
+                    }
+                ]
+            }
+        ],
+        "dungeons": [
+            {
+                "difficulty": [
+                    4
+                ],
+                "dropBones": true,
+                "entryRequirements": [
+                    {
+                        "type": "ItemFound",
+                        "itemID": "expandedAreas:Fragmented_Elemental_Rune"
+                    }
+                ],
+                "pet": {
+                    "petID": "expandedAreas:Ellie",
+                    "weight": 200
+                },
+                "fixedPetClears": false,
+                "id": "Elemental_Sanctuary",
+                "media": "assets/dungeons/Elemental_Sanctuary.png",
+                "monsterIDs": [
+                    "expandedAreas:Monk_of_the_Wind",
+                    "expandedAreas:Monk_of_the_River",
+                    "expandedAreas:Monk_of_the_Moss",
+                    "expandedAreas:Monk_of_the_Flame",
+                    "expandedAreas:Harpiar",
+                    "expandedAreas:Kappa",
+                    "expandedAreas:Rock_Giant",
+                    "expandedAreas:Fire_Maiden",
+                    "expandedAreas:OzmarathraxInscriptorOfRunes"
+                ],
+                "name": "Elemental Sanctuary",
+                "pauseOnBosses": false,
+                "rewardItemIDs": [
+                    "expandedAreas:Pureform_Rune",
+                    "expandedAreas:Elemental_Cape"
+                ]
+            },
+            {
+                "difficulty": [
+                    0
+                ],
+                "dropBones": true,
+                "entryRequirements": [],
+                "pet": {
+                    "petID": "expandedAreas:Yeemik",
+                    "weight": 350
+                },
+                "fixedPetClears": false,
+                "id": "Golbin_Hideout",
+                "media": "assets/dungeons/Golbin_Hideout.png",
+                "monsterIDs": [
+                    "melvorD:Golbin",
+                    "melvorD:RangedGolbin",
+                    "expandedAreas:Magic_Golbin",
+                    "expandedAreas:Hobgolbin",
+                    "expandedAreas:Big_Golbin",
+                    "expandedAreas:Golbin_Chief"
+                ],
+                "name": "Golbin Hideout",
+                "pauseOnBosses": false,
+                "rewardItemIDs": [
+                    "expandedAreas:Damaged_Supply_Crate"
+                ]
+            },
+            {
+                "id": "The_Barbarian_Trials",
+                "name": "The Barbarian Trials",
+                "media": "assets/dungeons/The_Barbarian_Trials.svg",
+                "monsterIDs": [
+                    "expandedAreas:Barbarian_Warrior",
+                    "expandedAreas:Barbarian_Bowyer",
+                    "expandedAreas:Barbarian_Berserker",
+                    "expandedAreas:Barbarian_Brawler",
+                    "expandedAreas:Walking_Keg",
+                    "expandedAreas:Jarl_Eriksson",
+                    "expandedAreas:Draugr",
+                    "expandedAreas:Draugr",
+                    "expandedAreas:Drowned_Maiden",
+                    "expandedAreas:Koschei_the_Deathless_Form1",
+                    "expandedAreas:Koschei_the_Deathless_Form2",
+                    "expandedAreas:Koschei_the_Deathless_Form3",
+                    "expandedAreas:Koschei_the_Deathless_Form4"
+                ],
+                "difficulty": [
+                    2
+                ],
+                "entryRequirements": [
+                    {
+                        "type": "SkillLevel",
+                        "level": 60,
+                        "skillID": "melvorD:Strength"
+                    },
+                    {
+                        "type": "MonsterKilled",
+                        "monsterID": "expandedAreas:Chieftain_Erik",
+                        "count": 1
+                    }
+                ],
+                "rewardItemIDs": [
+                    "expandedAreas:Raid_Spoils"
+                ],
+                "dropBones": true,
+                "pet": {
+                    "petID": "expandedAreas:Fenri",
+                    "weight": 150
+                },
+                "fixedPetClears": false,
+                "pauseOnBosses": false,
+                "floors": [
+                    6,
+                    3,
+                    4
+                ],
+                "allowedDamageTypeIDs": [
+                    "melvorD:Normal"
+                ]
+            }
+        ]
+    },
+    "modifications": {
+        "combatAreas": [
+            {
+                "id": "melvorD:Goblin_Village",
+                "monsters": {
+                    "add": [
+                        {
+                            "insertAt": 2,
+                            "monsterID": "expandedAreas:Magic_Golbin"
+                        },
+                        {
+                            "insertAt": 3,
+                            "monsterID": "expandedAreas:Hobgolbin"
+                        },
+                        {
+                            "insertAt": 4,
+                            "monsterID": "expandedAreas:Big_Golbin"
+                        },
+                        {
+                            "insertAt": 5,
+                            "monsterID": "expandedAreas:Golbin_Chief"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "melvorD:Graveyard",
+                "monsters": {
+                    "add": [
+                        {
+                            "insertAt": 2,
+                            "monsterID": "expandedAreas:Giant_Grub"
+                        },
+                        {
+                            "insertAt": 5,
+                            "monsterID": "expandedAreas:Novice_Necromancer"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "melvorD:Sandy_Shores",
+                "monsters": {
+                    "add": [
+                        {
+                            "monsterID": "expandedAreas:Lost_Monkey",
+                            "insertAt": 2
+                        },
+                        {
+                            "monsterID": "expandedAreas:Sandy_Devil",
+                            "insertAt": 5
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "melvorD:Dragon_Valley",
+                "monsters": {
+                    "add": [
+                        {
+                            "monsterID": "expandedAreas:Baby_Green_Dragon",
+                            "insertAt": 0
+                        },
+                        {
+                            "monsterID": "expandedAreas:Baby_Blue_Dragon",
+                            "insertAt": 1
+                        },
+                        {
+                            "monsterID": "expandedAreas:Baby_Red_Dragon",
+                            "insertAt": 2
+                        },
+                        {
+                            "monsterID": "expandedAreas:Baby_Black_Dragon",
+                            "insertAt": 3
+                        }
+                    ]
+                }
+            }
+        ],
+        "combatAreaCategories": [
+            {
+                "id": "melvorD:CombatAreas",
+                "areas": {
+                    "add": [
+                        {
+                            "insertAt": "After",
+                            "afterID": "melvorD:Farmlands",
+                            "ids": [
+                                "expandedAreas:Low_Town"
+                            ]
+                        },
+                        {
+                            "insertAt": "After",
+                            "afterID": "melvorD:ElerineBattlegrounds",
+                            "ids": [
+                                "expandedAreas:Secluded_Monastery"
+                            ]
+                        },
+                        {
+                            "insertAt": "After",
+                            "afterID": "melvorD:Icy_Hills",
+                            "ids": [
+                                "expandedAreas:Barbarian_Village"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "melvorD:Dungeons",
+                "areas": {
+                    "add": [
+                        {
+                            "insertAt": "After",
+                            "afterID": "melvorD:Chicken_Coop",
+                            "ids": [
+                                "expandedAreas:Golbin_Hideout"
+                            ]
+                        },
+                        {
+                            "insertAt": "After",
+                            "afterID": "melvorD:Hall_of_Wizards",
+                            "ids": [
+                                "expandedAreas:The_Barbarian_Trials"
+                            ]
+                        },
+                        {
+                            "insertAt": "After",
+                            "afterID": "melvorF:Dragons_Den",
+                            "ids": [
+                                "expandedAreas:Elemental_Sanctuary"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "dungeons": [
+            {
+                "id": "melvorD:Frozen_Cove",
+                "dropBones": true
+            },
+            {
+                "id": "melvorD:Volcanic_Cave",
+                "dropBones": true
+            },
+            {
+                "id": "melvorF:Infernal_Stronghold",
+                "dropBones": true
+            },
+            {
+                "id": "melvorD:Undead_Graveyard",
+                "monsters": {
+                    "remove": [
+                        {
+                            "removeAt": 0,
+                            "monsterID": "melvorD:ZombieHand"
+                        },
+                        {
+                            "removeAt": 5,
+                            "monsterID": "melvorD:Zombie"
+                        }
+                    ],
+                    "add": [
+                        {
+                            "insertAt": 2,
+                            "monsterID": "expandedAreas:Giant_Grub"
+                        },
+                        {
+                            "insertAt": 7,
+                            "monsterID": "expandedAreas:Novice_Necromancer"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "melvorD:Bandit_Base",
+                "difficulty": [
+                    2
+                ]
+            },
+            {
+                "id": "melvorF:Miolite_Caves",
+                "difficulty": [
+                    2
+                ],
+                "entryRequirements": {
+                    "remove": [
+                        "melvorD:SkillLevel"
+                    ],
+                    "add": [
+                        {
+                            "skillID": "melvorD:Slayer",
+                            "level": 50,
+                            "type": "SkillLevel"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "melvorD:Deep_Sea_Ship",
+                "difficulty": [
+                    2
+                ]
+            },
+            {
+                "id": "melvorD:Frozen_Cove",
+                "difficulty": [
+                    2
+                ]
+            },
+            {
+                "id": "melvorAoD:Unholy_Forest",
+                "difficulty": [
+                    3
+                ]
+            },
+            {
+                "id": "melvorF:Dragons_Den",
+                "difficulty": [
+                    3
+                ]
+            }
+        ]
+    }
+}
