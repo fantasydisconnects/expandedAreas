@@ -1089,14 +1089,15 @@
         "itemType": "Food",
         "id": "Barley",
         "name": "Barley",
-        "category": "Farming",
-        "type": "Food",
+        "category": "Cooking",
+        "type": "Ingredient",
         "media": "assets/items/Food/Barley.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 2,
-        "healsFor": 0.1
+        "healsFor": 0.1,
+        "customDescription": "Cook this on a Cooking Fire to make Barley Malt."
       },
       {
         "itemType": "Item",
@@ -3599,48 +3600,14 @@
             }
           ]
         },
-        "attackType": "melee",
-        "equipmentStats": [
-          {
-            "key": "attackSpeed",
-            "value": 2000
-          },
-          {
-            "key": "stabAttackBonus",
-            "value": 1
-          },
-          {
-            "key": "slashAttackBonus",
-            "value": 1
-          },
-          {
-            "key": "blockAttackBonus",
-            "value": 1
-          },
-          {
-            "key": "meleeStrengthBonus",
-            "value": 1
-          },
-          {
-            "key": "meleeDefenceBonus",
-            "value": 1
-          },
-          {
-            "key": "rangedDefenceBonus",
-            "value": 1
-          },
-          {
-            "key": "magicDefenceBonus",
-            "value": 1
-          }
-        ]
+        "equipmentStats": []
       },
       {
-        "id": "Beer",
-        "name": "Beer",
+        "id": "Barbar",
+        "name": "Barbar",
         "category": "Herblore",
         "type": "Potion",
-        "media": "assets/items/Potion/Beer.png",
+        "media": "assets/items/Potion/Barbar.png",
         "customDescription": "10% of your Strength Level added as Hidden Strength levels<br>50% of your Attack Level subtracted as Hidden Attack Levels",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
@@ -3669,11 +3636,11 @@
         }
       },
       {
-        "id": "Keg_of_Beer",
-        "name": "Keg of Beer",
+        "id": "Keg_of_Barbar",
+        "name": "Keg of Barbar",
         "category": "Herblore",
         "type": "Potion",
-        "media": "assets/items/Potion/Keg_of_Beer.png",
+        "media": "assets/items/Potion/Keg_of_Barbar.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -4472,6 +4439,7 @@
         "customDescription": "Sandy."
       },
       {
+        "attackType": "magic",
         "id": "Staff_of_Dust",
         "name": "Staff of Dust",
         "category": "Combat",
@@ -8556,7 +8524,7 @@
             "weight": 70
           },
           {
-            "itemID": "expandedAreas:Keg_of_Beer",
+            "itemID": "expandedAreas:Keg_of_Barbar",
             "minQuantity": 1,
             "maxQuantity": 10,
             "weight": 65
@@ -10243,7 +10211,7 @@
         "lootChance": 68,
         "lootTable": [
           {
-            "itemID": "expandedAreas:Beer",
+            "itemID": "expandedAreas:Barbar",
             "minQuantity": 1,
             "maxQuantity": 1,
             "weight": 2048
@@ -10384,7 +10352,7 @@
         "lootChance": 72,
         "lootTable": [
           {
-            "itemID": "expandedAreas:Beer",
+            "itemID": "expandedAreas:Barbar",
             "minQuantity": 1,
             "maxQuantity": 3,
             "weight": 2048
@@ -10590,7 +10558,7 @@
         "id": "Barbarian_Berserker",
         "name": "Barbarian Berserker",
         "media": "assets/monsters/Barbarian_Berserker.png",
-        "description": "I can smell the beer from here...",
+        "description": "I can smell the Barbar from here...",
         "levels": {
           "Attack": 60,
           "Defence": 10,
@@ -10628,7 +10596,7 @@
         "lootChance": 82,
         "lootTable": [
           {
-            "itemID": "expandedAreas:Beer",
+            "itemID": "expandedAreas:Barbar",
             "minQuantity": 1,
             "maxQuantity": 8,
             "weight": 2048
@@ -10741,7 +10709,7 @@
             "weight": 2048
           },
           {
-            "itemID": "expandedAreas:Beer",
+            "itemID": "expandedAreas:Barbar",
             "minQuantity": 4,
             "maxQuantity": 13,
             "weight": 2048
@@ -10834,7 +10802,7 @@
         "lootChance": 25,
         "lootTable": [
           {
-            "itemID": "expandedAreas:Keg_of_Beer",
+            "itemID": "expandedAreas:Keg_of_Barbar",
             "minQuantity": 1,
             "maxQuantity": 1,
             "weight": 1
@@ -10965,7 +10933,7 @@
         "lootChance": 50,
         "lootTable": [
           {
-            "itemID": "expandedAreas:Beer",
+            "itemID": "expandedAreas:Barbar",
             "minQuantity": 1,
             "maxQuantity": 10,
             "weight": 2048
@@ -13922,22 +13890,17 @@
     ],
     "shopPurchases": [
       {
-        "id": "Normal_Brewing_Barrel",
-        "media": "assets/skills/cooking/Normal_Brewing_Barrel.png",
+        "id": "Bronze_Fermenting_Tank",
+        "media": "assets/skills/cooking/Bronze_Fermenting_Tank.svg",
         "category": "melvorD:SkillUpgrades",
         "contains": {
           "items": [],
           "modifiers": {
-            "perfectCookChance": [
-              {
-                "categoryID": "expandedAreas:Brewing_Barrel",
-                "value": 1
-              }
-            ],
-            "skillXP": [
+            "skillItemDoublingChance": [
               {
                 "skillID": "melvorD:Cooking",
-                "value": 1
+                "categoryID": "expandedAreas:Fermenting_Tank",
+                "value": 1.5
               }
             ]
           }
@@ -13945,19 +13908,15 @@
         "cost": {
           "items": [
             {
-              "id": "melvorD:Normal_Logs",
-              "quantity": 2000
-            },
-            {
               "id": "melvorD:Bronze_Bar",
-              "quantity": 100
+              "quantity": 500
             }
           ],
           "currencies": [
             {
               "currency": "melvorD:GP",
               "type": "Fixed",
-              "cost": 50000
+              "cost": 100000
             }
           ]
         },
@@ -13978,12 +13937,462 @@
         "defaultBuyLimit": 1,
         "buyLimitOverrides": [],
         "showBuyLimit": false,
-        "customName": "Normal Brewing Barrel",
-        "customDescription": "+1% Perfect Cook chance for Brewing Barrel only for a total of +1% from Brewing Barrel.<br>+1% Cooking XP for a total of +1% Cooking XP from your Brewing Barrel."
+        "customName": "Bronze Fermenting Tank",
+        "customDescription": "+1.5% Chance to Double Items in Fermenting Tank only for a total of +1.5% from Fermenting Tank."
       },
       {
-        "id": "Oak_Brewing_Barrel",
-        "media": "assets/skills/cooking/Oak_Brewing_Barrel.png",
+        "id": "Iron_Fermenting_Tank",
+        "media": "assets/skills/cooking/Iron_Fermenting_Tank.svg",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "skillItemDoublingChance": [
+              {
+                "skillID": "melvorD:Cooking",
+                "categoryID": "expandedAreas:Fermenting_Tank",
+                "value": 1.5
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Iron_Bar",
+              "quantity": 500
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 200000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Bronze_Fermenting_Tank",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 20
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 20
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Iron Fermenting Tank",
+        "customDescription": "+1.5% Chance to Double Items in Fermenting Tank only for a total of +3% from Fermenting Tank."
+      },
+      {
+        "id": "Steel_Fermenting_Tank",
+        "media": "assets/skills/cooking/Steel_Fermenting_Tank.svg",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "skillItemDoublingChance": [
+              {
+                "skillID": "melvorD:Cooking",
+                "categoryID": "expandedAreas:Fermenting_Tank",
+                "value": 1.5
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Steel_Bar",
+              "quantity": 500
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 300000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Iron_Fermenting_Tank",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 30
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 30
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Steel Fermenting Tank",
+        "customDescription": "+1.5% Chance to Double Items in Fermenting Tank only for a total of +4.5% from Fermenting Tank."
+      },
+      {
+        "id": "Black_Fermenting_Tank",
+        "media": "assets/skills/cooking/Black_Fermenting_Tank.svg",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "skillItemDoublingChance": [
+              {
+                "skillID": "melvorD:Cooking",
+                "categoryID": "expandedAreas:Fermenting_Tank",
+                "value": 1.5
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "expandedAreas:Sterkite_Bar",
+              "quantity": 500
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 350000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Steel_Fermenting_Tank",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 35
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 35
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Black Fermenting Tank",
+        "customDescription": "+1.5% Chance to Double Items in Fermenting Tank only for a total of +6% from Fermenting Tank."
+      },
+      {
+        "id": "Mithril_Fermenting_Tank",
+        "media": "assets/skills/cooking/Mithril_Fermenting_Tank.svg",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "skillItemDoublingChance": [
+              {
+                "skillID": "melvorD:Cooking",
+                "categoryID": "expandedAreas:Fermenting_Tank",
+                "value": 1.5
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Mithril_Bar",
+              "quantity": 500
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 500000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Black_Fermenting_Tank",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 45
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 45
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Mithril Fermenting Tank",
+        "customDescription": "+1.5% Chance to Double Items in Fermenting Tank only for a total of +7.5% from Fermenting Tank."
+      },
+      {
+        "id": "Adamant_Fermenting_Tank",
+        "media": "assets/skills/cooking/Adamant_Fermenting_Tank.svg",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "skillItemDoublingChance": [
+              {
+                "skillID": "melvorD:Cooking",
+                "categoryID": "expandedAreas:Fermenting_Tank",
+                "value": 1.5
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Adamantite_Bar",
+              "quantity": 500
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 750000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Mithril_Fermenting_Tank",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 60
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 60
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Adamant Fermenting Tank",
+        "customDescription": "+1.5% Chance to Double Items in Fermenting Tank only for a total of +9% from Fermenting Tank."
+      },
+      {
+        "id": "Rune_Fermenting_Tank",
+        "media": "assets/skills/cooking/Rune_Fermenting_Tank.svg",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "skillItemDoublingChance": [
+              {
+                "skillID": "melvorD:Cooking",
+                "categoryID": "expandedAreas:Fermenting_Tank",
+                "value": 1.5
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Runite_Bar",
+              "quantity": 500
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 1250000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Adamant_Fermenting_Tank",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 75
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 75
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Rune Fermenting Tank",
+        "customDescription": "+1.5% Chance to Double Items in Fermenting Tank only for a total of +9% from Fermenting Tank."
+      },
+      {
+        "id": "Dragon_Fermenting_Tank",
+        "media": "assets/skills/cooking/Dragon_Fermenting_Tank.svg",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "skillItemDoublingChance": [
+              {
+                "skillID": "melvorD:Cooking",
+                "categoryID": "expandedAreas:Fermenting_Tank",
+                "value": 1.5
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Dragonite_Bar",
+              "quantity": 500
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 2000000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Rune_Fermenting_Tank",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 90
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 90
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Dragon Fermenting Tank",
+        "customDescription": "+1.5% Chance to Double Items in Fermenting Tank only for a total of +10.5% from Fermenting Tank."
+      },
+      {
+        "id": "Normal_Barrel",
+        "media": "assets/skills/cooking/Normal_Barrel.svg",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "perfectCookChance": [
+              {
+                "categoryID": "expandedAreas:Fermenting_Tank",
+                "value": 1
+              }
+            ],
+            "skillXP": [
+              {
+                "skillID": "melvorD:Cooking",
+                "value": 1
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Normal_Logs",
+              "quantity": 2000
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 50000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 10
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Normal Barrel",
+        "customDescription": "+1% Perfect Cook chance for Fermenting Tank only for a total of +1% from Fermenting Tank.<br>+1% Cooking XP for a total of +1% Cooking XP from your Fermenting Tank."
+      },
+      {
+        "id": "Oak_Barrel",
+        "media": "assets/skills/cooking/Oak_Barrel.svg",
         "category": "melvorD:SkillUpgrades",
         "contains": {
           "items": [],
@@ -14001,10 +14410,6 @@
             {
               "id": "melvorD:Oak_Logs",
               "quantity": 2000
-            },
-            {
-              "id": "melvorD:Iron_Bar",
-              "quantity": 100
             }
           ],
           "currencies": [
@@ -14019,7 +14424,7 @@
         "unlockRequirements": [
           {
             "type": "ShopPurchase",
-            "purchaseID": "expandedAreas:Normal_Brewing_Barrel",
+            "purchaseID": "expandedAreas:Normal_Barrel",
             "count": 1
           }
         ],
@@ -14028,29 +14433,24 @@
             "type": "SkillLevel",
             "skillID": "melvorD:Cooking",
             "level": 15
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Smithing",
-            "level": 15
           }
         ],
         "defaultBuyLimit": 1,
         "buyLimitOverrides": [],
         "showBuyLimit": false,
-        "customName": "Oak Brewing Barrel",
-        "customDescription": "+2% Cooking XP for a total of +3% Cooking XP from your Brewing Barrel."
+        "customName": "Oak Barrel",
+        "customDescription": "+2% Cooking XP for a total of +3% Cooking XP from your Fermenting Tank."
       },
       {
-        "id": "Willow_Brewing_Barrel",
-        "media": "assets/skills/cooking/Willow_Brewing_Barrel.png",
+        "id": "Willow_Barrel",
+        "media": "assets/skills/cooking/Willow_Barrel.svg",
         "category": "melvorD:SkillUpgrades",
         "contains": {
           "items": [],
           "modifiers": {
             "perfectCookChance": [
               {
-                "categoryID": "expandedAreas:Brewing_Barrel",
+                "categoryID": "expandedAreas:Fermenting_Tank",
                 "value": 2
               }
             ]
@@ -14061,10 +14461,6 @@
             {
               "id": "melvorD:Willow_Logs",
               "quantity": 2000
-            },
-            {
-              "id": "melvorD:Steel_Bar",
-              "quantity": 100
             }
           ],
           "currencies": [
@@ -14079,7 +14475,7 @@
         "unlockRequirements": [
           {
             "type": "ShopPurchase",
-            "purchaseID": "expandedAreas:Oak_Brewing_Barrel",
+            "purchaseID": "expandedAreas:Oak_Barrel",
             "count": 1
           }
         ],
@@ -14088,22 +14484,17 @@
             "type": "SkillLevel",
             "skillID": "melvorD:Cooking",
             "level": 25
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Smithing",
-            "level": 25
           }
         ],
         "defaultBuyLimit": 1,
         "buyLimitOverrides": [],
         "showBuyLimit": false,
-        "customName": "Willow Brewing Barrel",
-        "customDescription": "+2% Perfect Cook chance for Brewing Barrel only for a total of +3% from your Brewing Barrel."
+        "customName": "Willow Barrel",
+        "customDescription": "+2% Perfect Cook chance for Fermenting Tank only for a total of +3% from your Fermenting Tank."
       },
       {
-        "id": "Maple_Brewing_Barrel",
-        "media": "assets/skills/cooking/Maple_Brewing_Barrel.png",
+        "id": "Maple_Barrel",
+        "media": "assets/skills/cooking/Maple_Barrel.svg",
         "category": "melvorD:SkillUpgrades",
         "contains": {
           "items": [],
@@ -14121,10 +14512,6 @@
             {
               "id": "melvorD:Maple_Logs",
               "quantity": 2000
-            },
-            {
-              "id": "expandedAreas:Sterkite_Bar",
-              "quantity": 100
             }
           ],
           "currencies": [
@@ -14139,7 +14526,7 @@
         "unlockRequirements": [
           {
             "type": "ShopPurchase",
-            "purchaseID": "expandedAreas:Willow_Brewing_Barrel",
+            "purchaseID": "expandedAreas:Willow_Barrel",
             "count": 1
           }
         ],
@@ -14148,29 +14535,24 @@
             "type": "SkillLevel",
             "skillID": "melvorD:Cooking",
             "level": 35
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Smithing",
-            "level": 35
           }
         ],
         "defaultBuyLimit": 1,
         "buyLimitOverrides": [],
         "showBuyLimit": false,
-        "customName": "Maple Brewing Barrel",
-        "customDescription": "+2% Cooking XP for a total of +5% Cooking XP from your Brewing Barrel."
+        "customName": "Maple Barrel",
+        "customDescription": "+2% Cooking XP for a total of +5% Cooking XP from your Fermenting Tank."
       },
       {
-        "id": "Teak_Brewing_Barrel",
-        "media": "assets/skills/cooking/Teak_Brewing_Barrel.png",
+        "id": "Teak_Barrel",
+        "media": "assets/skills/cooking/Teak_Barrel.svg",
         "category": "melvorD:SkillUpgrades",
         "contains": {
           "items": [],
           "modifiers": {
             "perfectCookChance": [
               {
-                "categoryID": "expandedAreas:Brewing_Barrel",
+                "categoryID": "expandedAreas:Fermenting_Tank",
                 "value": 2
               }
             ]
@@ -14181,10 +14563,6 @@
             {
               "id": "melvorD:Teak_Logs",
               "quantity": 2000
-            },
-            {
-              "id": "melvorD:Mithril_Bar",
-              "quantity": 100
             }
           ],
           "currencies": [
@@ -14199,7 +14577,7 @@
         "unlockRequirements": [
           {
             "type": "ShopPurchase",
-            "purchaseID": "expandedAreas:Maple_Brewing_Barrel",
+            "purchaseID": "expandedAreas:Maple_Barrel",
             "count": 1
           }
         ],
@@ -14208,22 +14586,17 @@
             "type": "SkillLevel",
             "skillID": "melvorD:Cooking",
             "level": 45
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Smithing",
-            "level": 45
           }
         ],
         "defaultBuyLimit": 1,
         "buyLimitOverrides": [],
         "showBuyLimit": false,
-        "customName": "Teak Brewing Barrel",
-        "customDescription": "+2% Perfect Cook Chance from Brewing Barrel only for a total of +5% Cooking XP from your Brewing Barrel."
+        "customName": "Teak Barrel",
+        "customDescription": "+2% Perfect Cook Chance from Fermenting Tank only for a total of +5% Cooking XP from your Fermenting Tank."
       },
       {
-        "id": "Mahogany_Brewing_Barrel",
-        "media": "assets/skills/cooking/Mahogany_Brewing_Barrel.png",
+        "id": "Mahogany_Barrel",
+        "media": "assets/skills/cooking/Mahogany_Barrel.svg",
         "category": "melvorD:SkillUpgrades",
         "contains": {
           "items": [],
@@ -14241,10 +14614,6 @@
             {
               "id": "melvorD:Mahogany_Logs",
               "quantity": 2000
-            },
-            {
-              "id": "melvorD:Adamantite_Bar",
-              "quantity": 100
             }
           ],
           "currencies": [
@@ -14259,7 +14628,7 @@
         "unlockRequirements": [
           {
             "type": "ShopPurchase",
-            "purchaseID": "expandedAreas:Teak_Brewing_Barrel",
+            "purchaseID": "expandedAreas:Teak_Barrel",
             "count": 1
           }
         ],
@@ -14268,29 +14637,24 @@
             "type": "SkillLevel",
             "skillID": "melvorD:Cooking",
             "level": 55
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Smithing",
-            "level": 55
           }
         ],
         "defaultBuyLimit": 1,
         "buyLimitOverrides": [],
         "showBuyLimit": false,
-        "customName": "Mahogany Brewing Barrel",
-        "customDescription": "+2% Cooking XP for a total of +7% Cooking XP from your Brewing Barrel."
+        "customName": "Mahogany Barrel",
+        "customDescription": "+2% Cooking XP for a total of +7% Cooking XP from your Fermenting Tank."
       },
       {
-        "id": "Yew_Brewing_Barrel",
-        "media": "assets/skills/cooking/Yew_Brewing_Barrel.png",
+        "id": "Yew_Barrel",
+        "media": "assets/skills/cooking/Yew_Barrel.svg",
         "category": "melvorD:SkillUpgrades",
         "contains": {
           "items": [],
           "modifiers": {
             "perfectCookChance": [
               {
-                "categoryID": "expandedAreas:Brewing_Barrel",
+                "categoryID": "expandedAreas:Fermenting_Tank",
                 "value": 2
               }
             ]
@@ -14301,10 +14665,6 @@
             {
               "id": "melvorD:Yew_Logs",
               "quantity": 2000
-            },
-            {
-              "id": "melvorD:Runite_Bar",
-              "quantity": 100
             }
           ],
           "currencies": [
@@ -14319,7 +14679,7 @@
         "unlockRequirements": [
           {
             "type": "ShopPurchase",
-            "purchaseID": "expandedAreas:Mahogany_Brewing_Barrel",
+            "purchaseID": "expandedAreas:Mahogany_Barrel",
             "count": 1
           }
         ],
@@ -14328,22 +14688,17 @@
             "type": "SkillLevel",
             "skillID": "melvorD:Cooking",
             "level": 65
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Smithing",
-            "level": 65
           }
         ],
         "defaultBuyLimit": 1,
         "buyLimitOverrides": [],
         "showBuyLimit": false,
-        "customName": "Yew Brewing Barrel",
-        "customDescription": "+2% Perfect Cook Chance from Brewing Barrel only for a total of +7% Perfect Cook Chance from your Brewing Barrel."
+        "customName": "Yew Barrel",
+        "customDescription": "+2% Perfect Cook Chance from Fermenting Tank only for a total of +7% Perfect Cook Chance from your Fermenting Tank."
       },
       {
-        "id": "Magic_Brewing_Barrel",
-        "media": "assets/skills/cooking/Magic_Brewing_Barrel.png",
+        "id": "Magic_Barrel",
+        "media": "assets/skills/cooking/Magic_Barrel.svg",
         "category": "melvorD:SkillUpgrades",
         "contains": {
           "items": [],
@@ -14361,14 +14716,6 @@
             {
               "id": "melvorD:Magic_Logs",
               "quantity": 2000
-            },
-            {
-              "id": "melvorD:Runite_Bar",
-              "quantity": 50
-            },
-            {
-              "id": "melvorD:Silver_Bar",
-              "quantity": 50
             }
           ],
           "currencies": [
@@ -14383,7 +14730,7 @@
         "unlockRequirements": [
           {
             "type": "ShopPurchase",
-            "purchaseID": "expandedAreas:Yew_Brewing_Barrel",
+            "purchaseID": "expandedAreas:Yew_Barrel",
             "count": 1
           }
         ],
@@ -14392,29 +14739,24 @@
             "type": "SkillLevel",
             "skillID": "melvorD:Cooking",
             "level": 75
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Smithing",
-            "level": 75
           }
         ],
         "defaultBuyLimit": 1,
         "buyLimitOverrides": [],
         "showBuyLimit": false,
-        "customName": "Magic Brewing Barrel",
-        "customDescription": "+3% Cooking XP for a total of +10% Cooking XP from your Brewing Barrel."
+        "customName": "Magic Barrel",
+        "customDescription": "+3% Cooking XP for a total of +10% Cooking XP from your Fermenting Tank."
       },
       {
-        "id": "Redwood_Brewing_Barrel",
-        "media": "assets/skills/cooking/Redwood_Brewing_Barrel.png",
+        "id": "Redwood_Barrel",
+        "media": "assets/skills/cooking/Redwood_Barrel.svg",
         "category": "melvorD:SkillUpgrades",
         "contains": {
           "items": [],
           "modifiers": {
             "perfectCookChance": [
               {
-                "categoryID": "expandedAreas:Brewing_Barrel",
+                "categoryID": "expandedAreas:Fermenting_Tank",
                 "value": 3
               }
             ]
@@ -14425,14 +14767,6 @@
             {
               "id": "melvorD:Redwood_Logs",
               "quantity": 2000
-            },
-            {
-              "id": "melvorD:Dragonite_Bar",
-              "quantity": 50
-            },
-            {
-              "id": "melvorD:Gold_Bar",
-              "quantity": 50
             }
           ],
           "currencies": [
@@ -14447,7 +14781,7 @@
         "unlockRequirements": [
           {
             "type": "ShopPurchase",
-            "purchaseID": "expandedAreas:Magic_Brewing_Barrel",
+            "purchaseID": "expandedAreas:Magic_Barrel",
             "count": 1
           }
         ],
@@ -14456,18 +14790,13 @@
             "type": "SkillLevel",
             "skillID": "melvorD:Cooking",
             "level": 90
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Smithing",
-            "level": 90
           }
         ],
         "defaultBuyLimit": 1,
         "buyLimitOverrides": [],
         "showBuyLimit": false,
-        "customName": "Redwood Brewing Barrel",
-        "customDescription": "+3% Perfect Cook Chance for Brewing Barrel only for a total of +10% Perfect Cook Chance from your Brewing Barrel."
+        "customName": "Redwood Barrel",
+        "customDescription": "+3% Perfect Cook Chance for Fermenting Tank only for a total of +10% Perfect Cook Chance from your Fermenting Tank."
       },
       {
         "id": "Sterkite_Mining",
@@ -14707,15 +15036,23 @@
         "insertAt": "After",
         "afterID": "melvorD:Magic_Pot",
         "ids": [
-          "expandedAreas:Normal_Brewing_Barrel",
-          "expandedAreas:Oak_Brewing_Barrel",
-          "expandedAreas:Willow_Brewing_Barrel",
-          "expandedAreas:Teak_Brewing_Barrel",
-          "expandedAreas:Maple_Brewing_Barrel",
-          "expandedAreas:Mahogany_Brewing_Barrel",
-          "expandedAreas:Yew_Brewing_Barrel",
-          "expandedAreas:Magic_Brewing_Barrel",
-          "expandedAreas:Redwood_Brewing_Barrel"
+          "expandedAreas:Bronze_Fermenting_Tank",
+          "expandedAreas:Iron_Fermenting_Tank",
+          "expandedAreas:Steel_Fermenting_Tank",
+          "expandedAreas:Black_Fermenting_Tank",
+          "expandedAreas:Mithril_Fermenting_Tank",
+          "expandedAreas:Adamant_Fermenting_Tank",
+          "expandedAreas:Rune_Fermenting_Tank",
+          "expandedAreas:Dragon_Fermenting_Tank",
+          "expandedAreas:Normal_Barrel",
+          "expandedAreas:Oak_Barrel",
+          "expandedAreas:Willow_Barrel",
+          "expandedAreas:Teak_Barrel",
+          "expandedAreas:Maple_Barrel",
+          "expandedAreas:Mahogany_Barrel",
+          "expandedAreas:Yew_Barrel",
+          "expandedAreas:Magic_Barrel",
+          "expandedAreas:Redwood_Barrel"
         ]
       },
       {
@@ -16698,8 +17035,8 @@
         "insertAt": "After",
         "afterID": "melvorF:Melee_Strength_Potion_IV",
         "ids": [
-          "expandedAreas:Beer",
-          "expandedAreas:Keg_of_Beer"
+          "expandedAreas:Barbar",
+          "expandedAreas:Keg_of_Barbar"
         ]
       },
       {
@@ -17727,19 +18064,19 @@
         "data": {
           "categories": [
             {
-              "id": "Brewing_Barrel",
-              "media": "assets/skills/cooking/Barrel.svg",
-              "name": "Brewing Barrel Required",
-              "modifierName": "Brewing Barrel",
+              "id": "Fermenting_Tank",
+              "media": "assets/skills/cooking/Iron_Fermenting_Tank.svg",
+              "name": "Fermenting Tank Required",
+              "modifierName": "Fermenting Tank",
               "shopUpgradeIDs": [
-                "expandedAreas:Redwood_Brewing_Barrel",
-                "expandedAreas:Magic_Brewing_Barrel",
-                "expandedAreas:Yew_Brewing_Barrel",
-                "expandedAreas:Mahogany_Brewing_Barrel",
-                "expandedAreas:Teak_Brewing_Barrel",
-                "expandedAreas:Willow_Brewing_Barrel",
-                "expandedAreas:Oak_Brewing_Barrel",
-                "expandedAreas:Normal_Brewing_Barrel"
+                "expandedAreas:Dragon_Fermenting_Tank",
+                "expandedAreas:Rune_Fermenting_Tank",
+                "expandedAreas:Adamant_Fermenting_Tank",
+                "expandedAreas:Mithril_Fermenting_Tank",
+                "expandedAreas:Black_Fermenting_Tank",
+                "expandedAreas:Steel_Fermenting_Tank",
+                "expandedAreas:Iron_Fermenting_Tank",
+                "expandedAreas:Bronze_Fermenting_Tank"
               ],
               "upgradeRequired": true
             }
