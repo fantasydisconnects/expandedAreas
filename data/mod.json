@@ -3,6 +3,100 @@
     "namespace": "expandedAreas",
     "data": {},
     "modifications": {
+        "monsters": [
+            {
+                "id": "melvorF:Aeris",
+                "levels": {
+                    "Hitpoints": 1050,
+                    "Attack": 550,
+                    "Strength": 550,
+                    "Defence": 550,
+                    "Ranged": 800,
+                    "Magic": 550
+                }
+            },
+            {
+                "id": "melvorF:Glacia",
+                "levels": {
+                    "Hitpoints": 1150,
+                    "Attack": 600,
+                    "Strength": 600,
+                    "Defence": 500,
+                    "Ranged": 300,
+                    "Magic": 600
+                }
+            },
+            {
+                "id": "melvorF:Terran",
+                "levels": {
+                    "Hitpoints": 1250,
+                    "Attack": 525,
+                    "Strength": 550,
+                    "Defence": 650,
+                    "Ranged": 300,
+                    "Magic": 300
+                }
+            },
+            {
+                "id": "melvorF:Ragnar",
+                "levels": {
+                    "Hitpoints": 1100,
+                    "Attack": 700,
+                    "Strength": 600,
+                    "Defence": 600,
+                    "Ranged": 300,
+                    "Magic": 400
+                }
+            },
+            {
+                "id": "melvorF:Ahrenia",
+                "levels": {
+                    "Hitpoints": 1050,
+                    "Attack": 820,
+                    "Strength": 820,
+                    "Defence": 820,
+                    "Ranged": 820,
+                    "Magic": 820
+                }
+            },
+            {
+                "id": "melvorAoD:Nagaia",
+                "levels": {
+                    "Hitpoints": 1125,
+                    "Attack": 1,
+                    "Strength": 1,
+                    "Defence": 575,
+                    "Ranged": 750,
+                    "Magic": 500
+                }
+            }
+        ],
+        "dungeons": [
+            {
+                "id": "melvorD:Deep_Sea_Ship",
+                "difficulty": [
+                    2
+                ]
+            },
+            {
+                "id": "melvorD:Frozen_Cove",
+                "difficulty": [
+                    2
+                ]
+            },
+            {
+                "id": "melvorAoD:Unholy_Forest",
+                "difficulty": [
+                    3
+                ]
+            },
+            {
+                "id": "melvorF:Dragons_Den",
+                "difficulty": [
+                    3
+                ]
+            }
+        ],
         "items": [
             {
                 "id": "melvorF:Blazing_Lantern",

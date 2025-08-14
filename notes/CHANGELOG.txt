@@ -1,7 +1,7 @@
 New Content:
 Added Food Sack
 Added 1 new thieving area: Lord's Estate
-Added 3 new thieving targets: Petunia the Gardener, Jeeves the Butler, and Lady Vontuvius
+
 Added Flower crop to Farming
 Added Fruit Tree crop to Farming
 Added Orange

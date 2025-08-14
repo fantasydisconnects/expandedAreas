@@ -7,7 +7,7 @@
         "id": "Ring",
         "allowQuantity": false,
         "emptyMedia": "assets/icons/Ring.png",
-        "emptyName": "Ring",
+        "emptyName": "Rinsg",
         "providesEquipStats": true,
         "gridPosition": {
           "col": 3,
@@ -8765,212 +8765,6 @@
         ]
       }
     ],
-    "combatAreas": [
-      {
-        "id": "Low_Town",
-        "name": "Low Town",
-        "media": "assets/combatAreas/Low_Town.png",
-        "difficulty": [
-          0
-        ],
-        "monsterIDs": [
-          "expandedAreas:Peasant_Man",
-          "expandedAreas:Peasant_Woman",
-          "expandedAreas:Pickpocket",
-          "expandedAreas:Guard",
-          "expandedAreas:Executioner",
-          "expandedAreas:Mysterious_Monk"
-        ],
-        "entryRequirements": []
-      },
-      {
-        "id": "Botanical_Gardens",
-        "name": "Botanical_Gardens",
-        "media": "assets/combatAreas/Botanical_Gardens.svg",
-        "difficulty": [
-          0
-        ],
-        "monsterIDs": [
-          "expandedAreas:Junior_Gardener",
-          "expandedAreas:Adult_Gardener",
-          "expandedAreas:Master_Gardener"
-        ],
-        "entryRequirements": []
-      },
-      {
-        "id": "Barbarian_Village",
-        "name": "Barbarian Village",
-        "media": "assets/combatAreas/Barbarian_Village.png",
-        "difficulty": [
-          0,
-          1
-        ],
-        "monsterIDs": [
-          "expandedAreas:Barbarian",
-          "expandedAreas:Barbarian_Warrior",
-          "expandedAreas:Barbarian_Bowyer",
-          "expandedAreas:Barbarian_Berserker",
-          "expandedAreas:Barbarian_Brawler",
-          "expandedAreas:Chieftain_Erik"
-        ],
-        "entryRequirements": []
-      },
-      {
-        "id": "Secluded_Monastery",
-        "name": "Secluded Monastery",
-        "media": "assets/combatAreas/Secluded_Monastery.png",
-        "monsterIDs": [
-          "expandedAreas:Monk_of_the_Wind",
-          "expandedAreas:Monk_of_the_River",
-          "expandedAreas:Monk_of_the_Moss",
-          "expandedAreas:Monk_of_the_Flame",
-          "expandedAreas:Guardian_of_the_Elements"
-        ],
-        "difficulty": [
-          2,
-          3
-        ],
-        "entryRequirements": [
-          {
-            "skillID": "melvorD:Runecrafting",
-            "level": 50,
-            "type": "SkillLevel"
-          },
-          {
-            "skillID": "melvorD:Magic",
-            "level": 50,
-            "type": "SkillLevel"
-          },
-          {
-            "type": "ItemFound",
-            "itemID": "expandedAreas:Mysterious_Tome"
-          },
-          {
-            "type": "DungeonCompletion",
-            "dungeonID": "melvorD:Hall_of_Wizards",
-            "count": 1
-          }
-        ]
-      }
-    ],
-    "dungeons": [
-      {
-        "difficulty": [
-          4
-        ],
-        "dropBones": true,
-        "entryRequirements": [
-          {
-            "type": "ItemFound",
-            "itemID": "expandedAreas:Fragmented_Elemental_Rune"
-          }
-        ],
-        "pet": {
-          "petID": "expandedAreas:Ellie",
-          "weight": 200
-        },
-        "fixedPetClears": false,
-        "id": "Elemental_Sanctuary",
-        "media": "assets/dungeons/Elemental_Sanctuary.png",
-        "monsterIDs": [
-          "expandedAreas:Monk_of_the_Wind",
-          "expandedAreas:Monk_of_the_River",
-          "expandedAreas:Monk_of_the_Moss",
-          "expandedAreas:Monk_of_the_Flame",
-          "expandedAreas:Harpiar",
-          "expandedAreas:Kappa",
-          "expandedAreas:Rock_Giant",
-          "expandedAreas:Fire_Maiden",
-          "expandedAreas:OzmarathraxInscriptorOfRunes"
-        ],
-        "name": "Elemental Sanctuary",
-        "pauseOnBosses": false,
-        "rewardItemIDs": [
-          "expandedAreas:Pureform_Rune",
-          "expandedAreas:Elemental_Cape"
-        ]
-      },
-      {
-        "difficulty": [
-          0
-        ],
-        "dropBones": true,
-        "entryRequirements": [],
-        "pet": {
-          "petID": "expandedAreas:Yeemik",
-          "weight": 350
-        },
-        "fixedPetClears": false,
-        "id": "Golbin_Hideout",
-        "media": "assets/dungeons/Golbin_Hideout.png",
-        "monsterIDs": [
-          "melvorD:Golbin",
-          "melvorD:RangedGolbin",
-          "expandedAreas:Magic_Golbin",
-          "expandedAreas:Hobgolbin",
-          "expandedAreas:Big_Golbin",
-          "expandedAreas:Golbin_Chief"
-        ],
-        "name": "Golbin Hideout",
-        "pauseOnBosses": false,
-        "rewardItemIDs": [
-          "expandedAreas:Damaged_Supply_Crate"
-        ]
-      },
-      {
-        "id": "The_Barbarian_Trials",
-        "name": "The Barbarian Trials",
-        "media": "assets/dungeons/The_Barbarian_Trials.svg",
-        "monsterIDs": [
-          "expandedAreas:Barbarian_Warrior",
-          "expandedAreas:Barbarian_Bowyer",
-          "expandedAreas:Barbarian_Berserker",
-          "expandedAreas:Barbarian_Brawler",
-          "expandedAreas:Walking_Keg",
-          "expandedAreas:Jarl_Eriksson",
-          "expandedAreas:Draugr",
-          "expandedAreas:Draugr",
-          "expandedAreas:Drowned_Maiden",
-          "expandedAreas:Koschei_the_Deathless_Form1",
-          "expandedAreas:Koschei_the_Deathless_Form2",
-          "expandedAreas:Koschei_the_Deathless_Form3",
-          "expandedAreas:Koschei_the_Deathless_Form4"
-        ],
-        "difficulty": [
-          2
-        ],
-        "entryRequirements": [
-          {
-            "type": "SkillLevel",
-            "level": 60,
-            "skillID": "melvorD:Strength"
-          },
-          {
-            "type": "MonsterKilled",
-            "monsterID": "expandedAreas:Chieftain_Erik",
-            "count": 1
-          }
-        ],
-        "rewardItemIDs": [
-          "expandedAreas:Raid_Spoils"
-        ],
-        "dropBones": true,
-        "pet": {
-          "petID": "expandedAreas:Fenri",
-          "weight": 150
-        },
-        "fixedPetClears": false,
-        "pauseOnBosses": false,
-        "floors": [
-          6,
-          3,
-          4
-        ],
-        "allowedDamageTypeIDs": [
-          "melvorD:Normal"
-        ]
-      }
-    ],
     "attacks": [
       {
         "id": "Blood_Tithe",
@@ -9614,294 +9408,6 @@
         "description": "Attack once dealing ${attackDamageMaxValue0} damage (Can miss). On a hit, has a ${onHitEffect0chance}% chance to inflict Burn that deals ${onHitEffect0DamageMaxValue0}% of the enemy's current hitpoints as damage over ${onHitEffect0duration}s.",
         "descriptionGenerator": "Attack once dealing <damage> damage (<CanMiss>). On a hit, <hitEffect>.",
         "usesRunesPerProc": false
-      }
-    ],
-    "attackSpells": [
-      {
-        "id": "Wind_Storm",
-        "name": "Wind Storm",
-        "media": "assets/spells/Wind_Storm.png",
-        "level": 74,
-        "runesRequired": [
-          {
-            "id": "melvorD:Air_Rune",
-            "quantity": 20
-          },
-          {
-            "id": "expandedAreas:Wrath_Rune",
-            "quantity": 1
-          }
-        ],
-        "maxHit": 25,
-        "categories": [
-          "melvorD:Air",
-          "melvorD:Elemental"
-        ],
-        "spellbook": "melvorD:Standard",
-        "combatEffects": [
-          {
-            "appliesWhen": "HitWithAttack",
-            "chance": 5,
-            "effectID": "melvorD:Frostburn",
-            "condition": {
-              "character": "Player",
-              "thisAttackType": "magic",
-              "targetAttackType": "any",
-              "type": "CombatType"
-            }
-          }
-        ]
-      },
-      {
-        "id": "Water_Storm",
-        "name": "Water Storm",
-        "media": "assets/spells/Water_Storm.png",
-        "level": 78,
-        "runesRequired": [
-          {
-            "id": "melvorD:Air_Rune",
-            "quantity": 12
-          },
-          {
-            "id": "expandedAreas:Wrath_Rune",
-            "quantity": 1
-          },
-          {
-            "id": "melvorD:Water_Rune",
-            "quantity": 12
-          }
-        ],
-        "runesRequiredAlt": [
-          {
-            "id": "melvorD:Mist_Rune",
-            "quantity": 12
-          },
-          {
-            "id": "expandedAreas:Wrath_Rune",
-            "quantity": 1
-          }
-        ],
-        "maxHit": 26.5,
-        "categories": [
-          "melvorD:Water",
-          "melvorD:Elemental"
-        ],
-        "spellbook": "melvorD:Standard",
-        "combatEffects": [
-          {
-            "appliesWhen": "HitWithAttack",
-            "chance": 5,
-            "effectID": "melvorD:Freeze",
-            "condition": {
-              "character": "Player",
-              "thisAttackType": "magic",
-              "targetAttackType": "any",
-              "type": "CombatType"
-            }
-          }
-        ]
-      },
-      {
-        "id": "Earth_Storm",
-        "name": "Earth Storm",
-        "media": "assets/spells/Earth_Storm.png",
-        "level": 81,
-        "runesRequired": [
-          {
-            "id": "melvorD:Air_Rune",
-            "quantity": 12
-          },
-          {
-            "id": "expandedAreas:Wrath_Rune",
-            "quantity": 1
-          },
-          {
-            "id": "melvorD:Earth_Rune",
-            "quantity": 12
-          }
-        ],
-        "runesRequiredAlt": [
-          {
-            "id": "melvorD:Dust_Rune",
-            "quantity": 12
-          },
-          {
-            "id": "expandedAreas:Wrath_Rune",
-            "quantity": 1
-          }
-        ],
-        "maxHit": 28,
-        "categories": [
-          "melvorD:Earth",
-          "melvorD:Elemental"
-        ],
-        "spellbook": "melvorD:Standard",
-        "combatEffects": [
-          {
-            "appliesWhen": "HitWithAttack",
-            "chance": 5,
-            "effectID": "melvorD:Sleep",
-            "condition": {
-              "character": "Player",
-              "thisAttackType": "magic",
-              "targetAttackType": "any",
-              "type": "CombatType"
-            }
-          }
-        ]
-      },
-      {
-        "id": "Fire_Storm",
-        "name": "Fire Storm",
-        "media": "assets/spells/Fire_Storm.png",
-        "level": 85,
-        "runesRequired": [
-          {
-            "id": "melvorD:Air_Rune",
-            "quantity": 12
-          },
-          {
-            "id": "expandedAreas:Wrath_Rune",
-            "quantity": 1
-          },
-          {
-            "id": "melvorD:Fire_Rune",
-            "quantity": 12
-          }
-        ],
-        "runesRequiredAlt": [
-          {
-            "id": "melvorD:Smoke_Rune",
-            "quantity": 12
-          },
-          {
-            "id": "expandedAreas:Wrath_Rune",
-            "quantity": 1
-          }
-        ],
-        "maxHit": 29.5,
-        "categories": [
-          "melvorD:Fire",
-          "melvorD:Elemental"
-        ],
-        "spellbook": "melvorD:Standard",
-        "combatEffects": [
-          {
-            "appliesWhen": "HitWithAttack",
-            "chance": 5,
-            "effectID": "melvorD:Burn",
-            "condition": {
-              "character": "Player",
-              "thisAttackType": "magic",
-              "targetAttackType": "any",
-              "type": "CombatType"
-            }
-          }
-        ]
-      },
-      {
-        "id": "Zephyr_Strike",
-        "name": "Zephyr Strike",
-        "media": "assets/spells/Zephyr_Strike.png",
-        "level": 54,
-        "maxHit": 11.0,
-        "runesRequired": [
-          {
-            "id": "melvorD:Air_Rune",
-            "quantity": 15
-          },
-          {
-            "id": "melvorD:Ancient_Rune",
-            "quantity": 3
-          }
-        ],
-        "specialAttackID": "expandedAreas:Zephyr_Strike",
-        "requirements": [
-          {
-            "type": "DungeonCompletion",
-            "dungeonID": "expandedAreas:Elemental_Sanctuary",
-            "count": 100
-          }
-        ],
-        "spellbook": "melvorF:Ancient"
-      },
-      {
-        "id": "Cold_Snap",
-        "name": "Cold Snap",
-        "media": "assets/spells/Cold_Snap.png",
-        "level": 58,
-        "maxHit": 10.5,
-        "runesRequired": [
-          {
-            "id": "melvorD:Water_Rune",
-            "quantity": 15
-          },
-          {
-            "id": "melvorD:Ancient_Rune",
-            "quantity": 3
-          }
-        ],
-        "specialAttackID": "expandedAreas:Cold_Snap",
-        "requirements": [
-          {
-            "type": "DungeonCompletion",
-            "dungeonID": "expandedAreas:Elemental_Sanctuary",
-            "count": 100
-          }
-        ],
-        "spellbook": "melvorF:Ancient"
-      },
-      {
-        "id": "Avalanche",
-        "name": "Avalanche",
-        "media": "assets/spells/Avalanche.png",
-        "level": 62,
-        "maxHit": 34,
-        "runesRequired": [
-          {
-            "id": "melvorD:Earth_Rune",
-            "quantity": 15
-          },
-          {
-            "id": "melvorD:Ancient_Rune",
-            "quantity": 2
-          }
-        ],
-        "specialAttackID": "expandedAreas:Avalanche",
-        "requirements": [
-          {
-            "type": "DungeonCompletion",
-            "dungeonID": "expandedAreas:Elemental_Sanctuary",
-            "count": 100
-          }
-        ],
-        "spellbook": "melvorF:Ancient"
-      },
-      {
-        "id": "Fierce_Flames",
-        "name": "Fierce Flames",
-        "media": "assets/spells/Fierce_Flames.png",
-        "level": 66,
-        "maxHit": 43,
-        "runesRequired": [
-          {
-            "id": "melvorD:Fire_Rune",
-            "quantity": 15
-          },
-          {
-            "id": "melvorD:Ancient_Rune",
-            "quantity": 3
-          }
-        ],
-        "specialAttackID": "expandedAreas:Fierce_Flames",
-        "requirements": [
-          {
-            "type": "DungeonCompletion",
-            "dungeonID": "expandedAreas:Elemental_Sanctuary",
-            "count": 100
-          }
-        ],
-        "spellbook": "melvorF:Ancient"
       }
     ],
     "monsters": [
@@ -13815,6 +13321,500 @@
         }
       }
     ],
+    "combatAreas": [
+      {
+        "id": "Low_Town",
+        "name": "Low Town",
+        "media": "assets/combatAreas/Low_Town.png",
+        "difficulty": [
+          0
+        ],
+        "monsterIDs": [
+          "expandedAreas:Peasant_Man",
+          "expandedAreas:Peasant_Woman",
+          "expandedAreas:Pickpocket",
+          "expandedAreas:Guard",
+          "expandedAreas:Executioner",
+          "expandedAreas:Mysterious_Monk"
+        ],
+        "entryRequirements": []
+      },
+      {
+        "id": "Botanical_Gardens",
+        "name": "Botanical_Gardens",
+        "media": "assets/combatAreas/Botanical_Gardens.svg",
+        "difficulty": [
+          0
+        ],
+        "monsterIDs": [
+          "expandedAreas:Junior_Gardener",
+          "expandedAreas:Adult_Gardener",
+          "expandedAreas:Master_Gardener"
+        ],
+        "entryRequirements": []
+      },
+      {
+        "id": "Barbarian_Village",
+        "name": "Barbarian Village",
+        "media": "assets/combatAreas/Barbarian_Village.png",
+        "difficulty": [
+          0,
+          1
+        ],
+        "monsterIDs": [
+          "expandedAreas:Barbarian",
+          "expandedAreas:Barbarian_Warrior",
+          "expandedAreas:Barbarian_Bowyer",
+          "expandedAreas:Barbarian_Berserker",
+          "expandedAreas:Barbarian_Brawler",
+          "expandedAreas:Chieftain_Erik"
+        ],
+        "entryRequirements": []
+      },
+      {
+        "id": "Secluded_Monastery",
+        "name": "Secluded Monastery",
+        "media": "assets/combatAreas/Secluded_Monastery.png",
+        "monsterIDs": [
+          "expandedAreas:Monk_of_the_Wind",
+          "expandedAreas:Monk_of_the_River",
+          "expandedAreas:Monk_of_the_Moss",
+          "expandedAreas:Monk_of_the_Flame",
+          "expandedAreas:Guardian_of_the_Elements"
+        ],
+        "difficulty": [
+          2,
+          3
+        ],
+        "entryRequirements": [
+          {
+            "skillID": "melvorD:Runecrafting",
+            "level": 50,
+            "type": "SkillLevel"
+          },
+          {
+            "skillID": "melvorD:Magic",
+            "level": 50,
+            "type": "SkillLevel"
+          },
+          {
+            "type": "ItemFound",
+            "itemID": "expandedAreas:Mysterious_Tome"
+          },
+          {
+            "type": "DungeonCompletion",
+            "dungeonID": "melvorD:Hall_of_Wizards",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "dungeons": [
+      {
+        "difficulty": [
+          4
+        ],
+        "dropBones": true,
+        "entryRequirements": [
+          {
+            "type": "ItemFound",
+            "itemID": "expandedAreas:Fragmented_Elemental_Rune"
+          }
+        ],
+        "pet": {
+          "petID": "expandedAreas:Ellie",
+          "weight": 200
+        },
+        "fixedPetClears": false,
+        "id": "Elemental_Sanctuary",
+        "media": "assets/dungeons/Elemental_Sanctuary.png",
+        "monsterIDs": [
+          "expandedAreas:Monk_of_the_Wind",
+          "expandedAreas:Monk_of_the_River",
+          "expandedAreas:Monk_of_the_Moss",
+          "expandedAreas:Monk_of_the_Flame",
+          "expandedAreas:Harpiar",
+          "expandedAreas:Kappa",
+          "expandedAreas:Rock_Giant",
+          "expandedAreas:Fire_Maiden",
+          "expandedAreas:OzmarathraxInscriptorOfRunes"
+        ],
+        "name": "Elemental Sanctuary",
+        "pauseOnBosses": false,
+        "rewardItemIDs": [
+          "expandedAreas:Pureform_Rune",
+          "expandedAreas:Elemental_Cape"
+        ]
+      },
+      {
+        "difficulty": [
+          0
+        ],
+        "dropBones": true,
+        "entryRequirements": [],
+        "pet": {
+          "petID": "expandedAreas:Yeemik",
+          "weight": 350
+        },
+        "fixedPetClears": false,
+        "id": "Golbin_Hideout",
+        "media": "assets/dungeons/Golbin_Hideout.png",
+        "monsterIDs": [
+          "melvorD:Golbin",
+          "melvorD:RangedGolbin",
+          "expandedAreas:Magic_Golbin",
+          "expandedAreas:Hobgolbin",
+          "expandedAreas:Big_Golbin",
+          "expandedAreas:Golbin_Chief"
+        ],
+        "name": "Golbin Hideout",
+        "pauseOnBosses": false,
+        "rewardItemIDs": [
+          "expandedAreas:Damaged_Supply_Crate"
+        ]
+      },
+      {
+        "id": "The_Barbarian_Trials",
+        "name": "The Barbarian Trials",
+        "media": "assets/dungeons/The_Barbarian_Trials.svg",
+        "monsterIDs": [
+          "expandedAreas:Barbarian_Warrior",
+          "expandedAreas:Barbarian_Bowyer",
+          "expandedAreas:Barbarian_Berserker",
+          "expandedAreas:Barbarian_Brawler",
+          "expandedAreas:Walking_Keg",
+          "expandedAreas:Jarl_Eriksson",
+          "expandedAreas:Draugr",
+          "expandedAreas:Draugr",
+          "expandedAreas:Drowned_Maiden",
+          "expandedAreas:Koschei_the_Deathless_Form1",
+          "expandedAreas:Koschei_the_Deathless_Form2",
+          "expandedAreas:Koschei_the_Deathless_Form3",
+          "expandedAreas:Koschei_the_Deathless_Form4"
+        ],
+        "difficulty": [
+          2
+        ],
+        "entryRequirements": [
+          {
+            "type": "SkillLevel",
+            "level": 60,
+            "skillID": "melvorD:Strength"
+          },
+          {
+            "type": "MonsterKilled",
+            "monsterID": "expandedAreas:Chieftain_Erik",
+            "count": 1
+          }
+        ],
+        "rewardItemIDs": [
+          "expandedAreas:Raid_Spoils"
+        ],
+        "dropBones": true,
+        "pet": {
+          "petID": "expandedAreas:Fenri",
+          "weight": 150
+        },
+        "fixedPetClears": false,
+        "pauseOnBosses": false,
+        "floors": [
+          6,
+          3,
+          4
+        ],
+        "allowedDamageTypeIDs": [
+          "melvorD:Normal"
+        ]
+      }
+    ],
+    "attackSpells": [
+      {
+        "id": "Wind_Storm",
+        "name": "Wind Storm",
+        "media": "assets/spells/Wind_Storm.png",
+        "level": 74,
+        "runesRequired": [
+          {
+            "id": "melvorD:Air_Rune",
+            "quantity": 20
+          },
+          {
+            "id": "expandedAreas:Wrath_Rune",
+            "quantity": 1
+          }
+        ],
+        "maxHit": 25,
+        "categories": [
+          "melvorD:Air",
+          "melvorD:Elemental"
+        ],
+        "spellbook": "melvorD:Standard",
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 5,
+            "effectID": "melvorD:Frostburn",
+            "condition": {
+              "character": "Player",
+              "thisAttackType": "magic",
+              "targetAttackType": "any",
+              "type": "CombatType"
+            }
+          }
+        ]
+      },
+      {
+        "id": "Water_Storm",
+        "name": "Water Storm",
+        "media": "assets/spells/Water_Storm.png",
+        "level": 78,
+        "runesRequired": [
+          {
+            "id": "melvorD:Air_Rune",
+            "quantity": 12
+          },
+          {
+            "id": "expandedAreas:Wrath_Rune",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Water_Rune",
+            "quantity": 12
+          }
+        ],
+        "runesRequiredAlt": [
+          {
+            "id": "melvorD:Mist_Rune",
+            "quantity": 12
+          },
+          {
+            "id": "expandedAreas:Wrath_Rune",
+            "quantity": 1
+          }
+        ],
+        "maxHit": 26.5,
+        "categories": [
+          "melvorD:Water",
+          "melvorD:Elemental"
+        ],
+        "spellbook": "melvorD:Standard",
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 5,
+            "effectID": "melvorD:Freeze",
+            "condition": {
+              "character": "Player",
+              "thisAttackType": "magic",
+              "targetAttackType": "any",
+              "type": "CombatType"
+            }
+          }
+        ]
+      },
+      {
+        "id": "Earth_Storm",
+        "name": "Earth Storm",
+        "media": "assets/spells/Earth_Storm.png",
+        "level": 81,
+        "runesRequired": [
+          {
+            "id": "melvorD:Air_Rune",
+            "quantity": 12
+          },
+          {
+            "id": "expandedAreas:Wrath_Rune",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Earth_Rune",
+            "quantity": 12
+          }
+        ],
+        "runesRequiredAlt": [
+          {
+            "id": "melvorD:Dust_Rune",
+            "quantity": 12
+          },
+          {
+            "id": "expandedAreas:Wrath_Rune",
+            "quantity": 1
+          }
+        ],
+        "maxHit": 28,
+        "categories": [
+          "melvorD:Earth",
+          "melvorD:Elemental"
+        ],
+        "spellbook": "melvorD:Standard",
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 5,
+            "effectID": "melvorD:Sleep",
+            "condition": {
+              "character": "Player",
+              "thisAttackType": "magic",
+              "targetAttackType": "any",
+              "type": "CombatType"
+            }
+          }
+        ]
+      },
+      {
+        "id": "Fire_Storm",
+        "name": "Fire Storm",
+        "media": "assets/spells/Fire_Storm.png",
+        "level": 85,
+        "runesRequired": [
+          {
+            "id": "melvorD:Air_Rune",
+            "quantity": 12
+          },
+          {
+            "id": "expandedAreas:Wrath_Rune",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Fire_Rune",
+            "quantity": 12
+          }
+        ],
+        "runesRequiredAlt": [
+          {
+            "id": "melvorD:Smoke_Rune",
+            "quantity": 12
+          },
+          {
+            "id": "expandedAreas:Wrath_Rune",
+            "quantity": 1
+          }
+        ],
+        "maxHit": 29.5,
+        "categories": [
+          "melvorD:Fire",
+          "melvorD:Elemental"
+        ],
+        "spellbook": "melvorD:Standard",
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 5,
+            "effectID": "melvorD:Burn",
+            "condition": {
+              "character": "Player",
+              "thisAttackType": "magic",
+              "targetAttackType": "any",
+              "type": "CombatType"
+            }
+          }
+        ]
+      },
+      {
+        "id": "Zephyr_Strike",
+        "name": "Zephyr Strike",
+        "media": "assets/spells/Zephyr_Strike.png",
+        "level": 54,
+        "maxHit": 11.0,
+        "runesRequired": [
+          {
+            "id": "melvorD:Air_Rune",
+            "quantity": 15
+          },
+          {
+            "id": "melvorD:Ancient_Rune",
+            "quantity": 3
+          }
+        ],
+        "specialAttackID": "expandedAreas:Zephyr_Strike",
+        "requirements": [
+          {
+            "type": "DungeonCompletion",
+            "dungeonID": "expandedAreas:Elemental_Sanctuary",
+            "count": 100
+          }
+        ],
+        "spellbook": "melvorF:Ancient"
+      },
+      {
+        "id": "Cold_Snap",
+        "name": "Cold Snap",
+        "media": "assets/spells/Cold_Snap.png",
+        "level": 58,
+        "maxHit": 10.5,
+        "runesRequired": [
+          {
+            "id": "melvorD:Water_Rune",
+            "quantity": 15
+          },
+          {
+            "id": "melvorD:Ancient_Rune",
+            "quantity": 3
+          }
+        ],
+        "specialAttackID": "expandedAreas:Cold_Snap",
+        "requirements": [
+          {
+            "type": "DungeonCompletion",
+            "dungeonID": "expandedAreas:Elemental_Sanctuary",
+            "count": 100
+          }
+        ],
+        "spellbook": "melvorF:Ancient"
+      },
+      {
+        "id": "Avalanche",
+        "name": "Avalanche",
+        "media": "assets/spells/Avalanche.png",
+        "level": 62,
+        "maxHit": 34,
+        "runesRequired": [
+          {
+            "id": "melvorD:Earth_Rune",
+            "quantity": 15
+          },
+          {
+            "id": "melvorD:Ancient_Rune",
+            "quantity": 2
+          }
+        ],
+        "specialAttackID": "expandedAreas:Avalanche",
+        "requirements": [
+          {
+            "type": "DungeonCompletion",
+            "dungeonID": "expandedAreas:Elemental_Sanctuary",
+            "count": 100
+          }
+        ],
+        "spellbook": "melvorF:Ancient"
+      },
+      {
+        "id": "Fierce_Flames",
+        "name": "Fierce Flames",
+        "media": "assets/spells/Fierce_Flames.png",
+        "level": 66,
+        "maxHit": 43,
+        "runesRequired": [
+          {
+            "id": "melvorD:Fire_Rune",
+            "quantity": 15
+          },
+          {
+            "id": "melvorD:Ancient_Rune",
+            "quantity": 3
+          }
+        ],
+        "specialAttackID": "expandedAreas:Fierce_Flames",
+        "requirements": [
+          {
+            "type": "DungeonCompletion",
+            "dungeonID": "expandedAreas:Elemental_Sanctuary",
+            "count": 100
+          }
+        ],
+        "spellbook": "melvorF:Ancient"
+      }
+    ],
     "pets": [
       {
         "id": "Swirli",
@@ -13905,100 +13905,829 @@
         "scaleChanceWithMasteryPool": false
       }
     ],
-    "itemSynergies": [
+    "shopCategories": [
       {
-        "itemIDs": [
-          "expandedAreas:Shroud_of_the_Badlands",
-          "expandedAreas:Lantern_Oil",
-          "melvorF:Blazing_Lantern"
-        ],
-        "playerModifiers": {
-          "accuracyRating": 5
-        }
-      },
+        "id": "Barbarian_Skilling",
+        "name": "Barbarian Skilling",
+        "media": "assets/icons/Barbarian.png"
+      }
+    ],
+    "shopCategoryOrder": [
       {
-        "itemIDs": [
-          "expandedAreas:Shroud_of_the_Badlands",
-          "melvorF:Blazing_Lantern"
-        ],
-        "playerModifiers": {
-          "flatSlayerAreaEffectNegation": 10
-        }
-      },
+        "insertAt": "After",
+        "afterID": "melvorD:SkillUpgrades",
+        "ids": [
+          "expandedAreas:Barbarian_Skilling"
+        ]
+      }
+    ],
+    "shopPurchases": [
       {
-        "itemIDs": [
-          "expandedAreas:Barbarian_Archer_Helm",
-          "ThrowingWeapon"
-        ],
-        "playerModifiers": {
-          "critChance": 5,
-          "rangedAccuracyRating": 10
-        }
-      },
-      {
-        "itemIDs": [
-          "expandedAreas:Amulet_of_Occults",
-          "melvorF:Book_of_Occults"
-        ],
-        "playerModifiers": {
-          "melvorD:summoningChargePreservationChance": [
+        "id": "Normal_Brewing_Barrel",
+        "media": "assets/skills/cooking/Normal_Brewing_Barrel.png",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "perfectCookChance": [
+              {
+                "categoryID": "expandedAreas:Brewing_Barrel",
+                "value": 1
+              }
+            ],
+            "skillXP": [
+              {
+                "skillID": "melvorD:Cooking",
+                "value": 1
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
             {
-              "value": 10
+              "id": "melvorD:Normal_Logs",
+              "quantity": 2000
+            },
+            {
+              "id": "melvorD:Bronze_Bar",
+              "quantity": 100
             }
           ],
-          "summoningAttackInterval": [
+          "currencies": [
             {
-              "value": 10
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 50000
             }
           ]
         },
-        "combatEffects": [
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [],
+        "purchaseRequirements": [
           {
-            "effectID": "melvorF:WeakeningII",
-            "appliesWhen": "StartOfFight",
-            "chance": 100
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 10
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 10
           }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Normal Brewing Barrel",
+        "customDescription": "+1% Perfect Cook chance for Brewing Barrel only for a total of +1% from Brewing Barrel.<br>+1% Cooking XP for a total of +1% Cooking XP from your Brewing Barrel."
+      },
+      {
+        "id": "Oak_Brewing_Barrel",
+        "media": "assets/skills/cooking/Oak_Brewing_Barrel.png",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "skillXP": [
+              {
+                "skillID": "melvorD:Cooking",
+                "value": 2
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Oak_Logs",
+              "quantity": 2000
+            },
+            {
+              "id": "melvorD:Iron_Bar",
+              "quantity": 100
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 100000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Normal_Brewing_Barrel",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 15
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 15
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Oak Brewing Barrel",
+        "customDescription": "+2% Cooking XP for a total of +3% Cooking XP from your Brewing Barrel."
+      },
+      {
+        "id": "Willow_Brewing_Barrel",
+        "media": "assets/skills/cooking/Willow_Brewing_Barrel.png",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "perfectCookChance": [
+              {
+                "categoryID": "expandedAreas:Brewing_Barrel",
+                "value": 2
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Willow_Logs",
+              "quantity": 2000
+            },
+            {
+              "id": "melvorD:Steel_Bar",
+              "quantity": 100
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 150000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Oak_Brewing_Barrel",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 25
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 25
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Willow Brewing Barrel",
+        "customDescription": "+2% Perfect Cook chance for Brewing Barrel only for a total of +3% from your Brewing Barrel."
+      },
+      {
+        "id": "Maple_Brewing_Barrel",
+        "media": "assets/skills/cooking/Maple_Brewing_Barrel.png",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "skillXP": [
+              {
+                "skillID": "melvorD:Cooking",
+                "value": 2
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Maple_Logs",
+              "quantity": 2000
+            },
+            {
+              "id": "expandedAreas:Sterkite_Bar",
+              "quantity": 100
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 200000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Willow_Brewing_Barrel",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 35
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 35
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Maple Brewing Barrel",
+        "customDescription": "+2% Cooking XP for a total of +5% Cooking XP from your Brewing Barrel."
+      },
+      {
+        "id": "Teak_Brewing_Barrel",
+        "media": "assets/skills/cooking/Teak_Brewing_Barrel.png",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "perfectCookChance": [
+              {
+                "categoryID": "expandedAreas:Brewing_Barrel",
+                "value": 2
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Teak_Logs",
+              "quantity": 2000
+            },
+            {
+              "id": "melvorD:Mithril_Bar",
+              "quantity": 100
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 250000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Maple_Brewing_Barrel",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 45
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 45
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Teak Brewing Barrel",
+        "customDescription": "+2% Perfect Cook Chance from Brewing Barrel only for a total of +5% Cooking XP from your Brewing Barrel."
+      },
+      {
+        "id": "Mahogany_Brewing_Barrel",
+        "media": "assets/skills/cooking/Mahogany_Brewing_Barrel.png",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "skillXP": [
+              {
+                "skillID": "melvorD:Cooking",
+                "value": 2
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Mahogany_Logs",
+              "quantity": 2000
+            },
+            {
+              "id": "melvorD:Adamantite_Bar",
+              "quantity": 100
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 300000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Teak_Brewing_Barrel",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 55
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 55
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Mahogany Brewing Barrel",
+        "customDescription": "+2% Cooking XP for a total of +7% Cooking XP from your Brewing Barrel."
+      },
+      {
+        "id": "Yew_Brewing_Barrel",
+        "media": "assets/skills/cooking/Yew_Brewing_Barrel.png",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "perfectCookChance": [
+              {
+                "categoryID": "expandedAreas:Brewing_Barrel",
+                "value": 2
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Yew_Logs",
+              "quantity": 2000
+            },
+            {
+              "id": "melvorD:Runite_Bar",
+              "quantity": 100
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 500000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Mahogany_Brewing_Barrel",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 65
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 65
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Yew Brewing Barrel",
+        "customDescription": "+2% Perfect Cook Chance from Brewing Barrel only for a total of +7% Perfect Cook Chance from your Brewing Barrel."
+      },
+      {
+        "id": "Magic_Brewing_Barrel",
+        "media": "assets/skills/cooking/Magic_Brewing_Barrel.png",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "skillXP": [
+              {
+                "skillID": "melvorD:Cooking",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Magic_Logs",
+              "quantity": 2000
+            },
+            {
+              "id": "melvorD:Runite_Bar",
+              "quantity": 50
+            },
+            {
+              "id": "melvorD:Silver_Bar",
+              "quantity": 50
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 1250000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Yew_Brewing_Barrel",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 75
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 75
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Magic Brewing Barrel",
+        "customDescription": "+3% Cooking XP for a total of +10% Cooking XP from your Brewing Barrel."
+      },
+      {
+        "id": "Redwood_Brewing_Barrel",
+        "media": "assets/skills/cooking/Redwood_Brewing_Barrel.png",
+        "category": "melvorD:SkillUpgrades",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "perfectCookChance": [
+              {
+                "categoryID": "expandedAreas:Brewing_Barrel",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [
+            {
+              "id": "melvorD:Redwood_Logs",
+              "quantity": 2000
+            },
+            {
+              "id": "melvorD:Dragonite_Bar",
+              "quantity": 50
+            },
+            {
+              "id": "melvorD:Gold_Bar",
+              "quantity": 50
+            }
+          ],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 2500000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Magic_Brewing_Barrel",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Cooking",
+            "level": 90
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 90
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Redwood Brewing Barrel",
+        "customDescription": "+3% Perfect Cook Chance for Brewing Barrel only for a total of +10% Perfect Cook Chance from your Brewing Barrel."
+      },
+      {
+        "id": "Sterkite_Mining",
+        "media": "assets/shop/Rock_Sterkite.svg",
+        "category": "expandedAreas:Barbarian_Skilling",
+        "contains": {
+          "items": [],
+          "modifiers": {}
+        },
+        "cost": {
+          "items": [],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 20000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [],
+        "purchaseRequirements": [
+          {
+            "type": "MonsterKilled",
+            "monsterID": "expandedAreas:Chieftain_Erik",
+            "count": 1
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Mining",
+            "level": 20
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Sterkite Mining",
+        "customDescription": "Grants access to Sterkite Ore."
+      },
+      {
+        "id": "Spear_Fishing",
+        "media": "assets/shop/Spear_Fishing.svg",
+        "category": "expandedAreas:Barbarian_Skilling",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "skillInterval": [
+              {
+                "skillID": "melvorD:Fishing",
+                "value": -2.5
+              }
+            ],
+            "additionalPrimaryProductChance": [
+              {
+                "skillID": "melvorD:Fishing",
+                "value": 2.5
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 1500000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [],
+        "purchaseRequirements": [
+          {
+            "type": "DungeonCompletion",
+            "dungeonID": "expandedAreas:The_Barbarian_Trials",
+            "count": 1
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Fishing",
+            "level": 50
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Spear Fishing",
+        "customDescription": "+2.5% chance to receive an additional resource from Fishing (cannot be doubled) and -2.5% Fishing Interval."
+      },
+      {
+        "id": "Tree_Punching",
+        "media": "assets/shop/Tree_Punching.svg",
+        "category": "expandedAreas:Barbarian_Skilling",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "additionalPrimaryProductChance": [
+              {
+                "skillID": "melvorD:Woodcutting",
+                "value": 2.5
+              }
+            ],
+            "skillInterval": [
+              {
+                "skillID": "melvorD:Woodcutting",
+                "value": -2.5
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 3000000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [],
+        "purchaseRequirements": [
+          {
+            "type": "DungeonCompletion",
+            "dungeonID": "expandedAreas:The_Barbarian_Trials",
+            "count": 1
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Woodcutting",
+            "level": 30
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Tree Punching",
+        "customDescription": "+2.5% chance to receive an additional resource from Woodcutting (cannot be doubled) and -2.5% Woodcutting Interval.<br>Grants access to Pine trees."
+      },
+      {
+        "id": "Rock_Smashing",
+        "media": "assets/shop/Rock_Smashing.png",
+        "category": "expandedAreas:Barbarian_Skilling",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "miningNodeRespawnInterval": -5,
+            "noMiningNodeDamageChance": 5
+          }
+        },
+        "cost": {
+          "items": [],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 1000000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [],
+        "purchaseRequirements": [
+          {
+            "type": "DungeonCompletion",
+            "dungeonID": "expandedAreas:The_Barbarian_Trials",
+            "count": 1
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Mining",
+            "level": 40
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Rock Smashing",
+        "customDescription": "-5% Mining Node Respawn Interval and +5% chance to deal no damage to Mining Nodes when Mining."
+      },
+      {
+        "id": "Ancestral_Smithing_Technique",
+        "media": "assets/shop/Ancestral_Smithing_Technique.svg",
+        "category": "expandedAreas:Barbarian_Skilling",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "skillItemDoublingChance": [
+              {
+                "skillID": "melvorD:Smithing",
+                "value": 2.5
+              }
+            ],
+            "skillInterval": [
+              {
+                "skillID": "melvorD:Smithing",
+                "value": -2.5
+              }
+            ]
+          }
+        },
+        "cost": {
+          "items": [],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 2000000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [],
+        "purchaseRequirements": [
+          {
+            "type": "DungeonCompletion",
+            "dungeonID": "expandedAreas:The_Barbarian_Trials",
+            "count": 1
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Smithing",
+            "level": 50
+          }
+        ],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Ancestral Smithing Technique",
+        "customDescription": "+2.5% chance to double items in Smithing and -2.5% Smithing Interval."
+      }
+    ],
+    "shopDisplayOrder": [
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Magic_Pot",
+        "ids": [
+          "expandedAreas:Normal_Brewing_Barrel",
+          "expandedAreas:Oak_Brewing_Barrel",
+          "expandedAreas:Willow_Brewing_Barrel",
+          "expandedAreas:Teak_Brewing_Barrel",
+          "expandedAreas:Maple_Brewing_Barrel",
+          "expandedAreas:Mahogany_Brewing_Barrel",
+          "expandedAreas:Yew_Brewing_Barrel",
+          "expandedAreas:Magic_Brewing_Barrel",
+          "expandedAreas:Redwood_Brewing_Barrel"
         ]
       },
       {
-        "itemIDs": [
-          "expandedAreas:Barbarian_Armour",
-          "expandedAreas:Barbarian_Boots",
-          "expandedAreas:Barbarian_Skirt"
-        ],
-        "playerModifiers": {
-          "critChance": [
-            {
-              "value": 10
-            }
-          ]
-        }
-      },
-      {
-        "itemIDs": [
-          "expandedAreas:Barbarian_Berserker_Axe",
-          "expandedAreas:Barbarian_Berserker_Helm"
-        ],
-        "playerModifiers": {
-          "meleeLifesteal": [
-            {
-              "value": 2
-            }
-          ]
-        }
-      },
-      {
-        "itemIDs": [
-          "expandedAreas:Barbarian_Longblade",
-          "expandedAreas:Barbarian_Warrior_Helm"
-        ],
-        "playerModifiers": {
-          "meleeAccuracyRating": [
-            {
-              "value": 25
-            }
-          ]
-        }
+        "insertAt": "After",
+        "afterID": "melvorF:Art_of_Control",
+        "ids": [
+          "expandedAreas:Spear_Fishing",
+          "expandedAreas:Tree_Punching",
+          "expandedAreas:Rock_Smashing",
+          "expandedAreas:Ancestral_Smithing_Technique"
+        ]
       }
     ],
     "itemUpgrades": [
@@ -15181,6 +15910,861 @@
         "isDowngrade": false,
         "currencyCosts": [],
         "quantity": 1
+      }
+    ],
+    "itemSynergies": [
+      {
+        "itemIDs": [
+          "expandedAreas:Shroud_of_the_Badlands",
+          "expandedAreas:Lantern_Oil",
+          "melvorF:Blazing_Lantern"
+        ],
+        "playerModifiers": {
+          "accuracyRating": 5
+        }
+      },
+      {
+        "itemIDs": [
+          "expandedAreas:Shroud_of_the_Badlands",
+          "melvorF:Blazing_Lantern"
+        ],
+        "playerModifiers": {
+          "flatSlayerAreaEffectNegation": 10
+        }
+      },
+      {
+        "itemIDs": [
+          "expandedAreas:Barbarian_Archer_Helm",
+          "ThrowingWeapon"
+        ],
+        "playerModifiers": {
+          "critChance": 5,
+          "rangedAccuracyRating": 10
+        }
+      },
+      {
+        "itemIDs": [
+          "expandedAreas:Amulet_of_Occults",
+          "melvorF:Book_of_Occults"
+        ],
+        "playerModifiers": {
+          "melvorD:summoningChargePreservationChance": [
+            {
+              "value": 10
+            }
+          ],
+          "summoningAttackInterval": [
+            {
+              "value": 10
+            }
+          ]
+        },
+        "combatEffects": [
+          {
+            "effectID": "melvorF:WeakeningII",
+            "appliesWhen": "StartOfFight",
+            "chance": 100
+          }
+        ]
+      },
+      {
+        "itemIDs": [
+          "expandedAreas:Barbarian_Armour",
+          "expandedAreas:Barbarian_Boots",
+          "expandedAreas:Barbarian_Skirt"
+        ],
+        "playerModifiers": {
+          "critChance": [
+            {
+              "value": 10
+            }
+          ]
+        }
+      },
+      {
+        "itemIDs": [
+          "expandedAreas:Barbarian_Berserker_Axe",
+          "expandedAreas:Barbarian_Berserker_Helm"
+        ],
+        "playerModifiers": {
+          "meleeLifesteal": [
+            {
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "itemIDs": [
+          "expandedAreas:Barbarian_Longblade",
+          "expandedAreas:Barbarian_Warrior_Helm"
+        ],
+        "playerModifiers": {
+          "meleeAccuracyRating": [
+            {
+              "value": 25
+            }
+          ]
+        }
+      }
+    ],
+    "bankSortOrder": [
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Blazing_Lantern",
+        "ids": [
+          "expandedAreas:Shroud_of_the_Badlands",
+          "expandedAreas:Lantern_Oil"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Earth_Layered_Shield",
+        "ids": [
+          "expandedAreas:Glacia_God_Helmet_P",
+          "expandedAreas:Glacia_God_Platelegs_P",
+          "expandedAreas:Glacia_God_Platebody_P",
+          "expandedAreas:Glacia_God_Boots_P",
+          "expandedAreas:Glacia_God_Gloves_P"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Amulet_of_Fury",
+        "ids": [
+          "expandedAreas:Blood_Shard",
+          "expandedAreas:Amulet_of_Blood_Fury"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Bronze_Battleaxe",
+        "ids": [
+          "expandedAreas:Bronze_Spear"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Iron_Battleaxe",
+        "ids": [
+          "expandedAreas:Iron_Spear"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Steel_Battleaxe",
+        "ids": [
+          "expandedAreas:Steel_Spear"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Black_Battleaxe",
+        "ids": [
+          "expandedAreas:Black_Spear"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Mithril_Battleaxe",
+        "ids": [
+          "expandedAreas:Mithril_Spear"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Adamant_Battleaxe",
+        "ids": [
+          "expandedAreas:Adamant_Spear"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Rune_Battleaxe",
+        "ids": [
+          "expandedAreas:Rune_Spear",
+          "expandedAreas:Barbarian_Berserker_Axe",
+          "expandedAreas:Barbarian_Longblade",
+          "expandedAreas:Barbarian_Brawling_Gloves"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Dragon_Battleaxe",
+        "ids": [
+          "expandedAreas:Dragon_Spear"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Rune_Shield_T_G",
+        "ids": [
+          "expandedAreas:Barbarian_Helm",
+          "expandedAreas:Barbarian_Archer_Helm",
+          "expandedAreas:Barbarian_Berserker_Helm",
+          "expandedAreas:Barbarian_Warrior_Helm",
+          "expandedAreas:Barbarian_Armour",
+          "expandedAreas:Barbarian_Skirt",
+          "expandedAreas:Barbarian_Boots"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorF:Fletchers_Hat",
+        "ids": [
+          "expandedAreas:Barbarian_Fletching_Knife"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Steel_Crossbow",
+        "ids": [
+          "expandedAreas:Black_Crossbow"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Steel_Javelin",
+        "ids": [
+          "expandedAreas:Black_Javelin"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Steel_Arrows",
+        "ids": [
+          "expandedAreas:Black_Arrows"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Steel_Throwing_Knife",
+        "ids": [
+          "expandedAreas:Black_Throwing_Knife"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Dragon_Javelin_Heads",
+        "ids": [
+          "expandedAreas:Bronze_Thrownaxe_Head",
+          "expandedAreas:Iron_Thrownaxe_Head",
+          "expandedAreas:Steel_Thrownaxe_Head",
+          "expandedAreas:Black_Thrownaxe_Head",
+          "expandedAreas:Mithril_Thrownaxe_Head",
+          "expandedAreas:Adamant_Thrownaxe_Head",
+          "expandedAreas:Rune_Thrownaxe_Head",
+          "expandedAreas:Dragon_Thrownaxe_Head"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Steel_Javelin_Heads",
+        "ids": [
+          "expandedAreas:Black_Javelin_Heads"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Ancient_Javelin",
+        "ids": [
+          "expandedAreas:Bronze_Thrownaxe",
+          "expandedAreas:Iron_Thrownaxe",
+          "expandedAreas:Steel_Thrownaxe",
+          "expandedAreas:Black_Thrownaxe",
+          "expandedAreas:Mithril_Thrownaxe",
+          "expandedAreas:Adamant_Thrownaxe",
+          "expandedAreas:Rune_Thrownaxe",
+          "expandedAreas:Dragon_Thrownaxe"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Steel_Arrowtips",
+        "ids": [
+          "expandedAreas:Black_Arrowtips"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Steel_Crossbow_Head",
+        "ids": [
+          "expandedAreas:Black_Crossbow_Head"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Gold_Ore",
+        "ids": [
+          "expandedAreas:Sterkite_Ore"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Silver_Bar",
+        "ids": [
+          "expandedAreas:Sterkite_Bar"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorD:Black_Dhide_Vambraces",
+        "ids": [
+          "expandedAreas:Black_Dhide_Cowl",
+          "expandedAreas:Black_Dhide_Boots"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Black_Dhide_Shield",
+        "ids": [
+          "expandedAreas:Black_Dhide_Cowl_U",
+          "expandedAreas:Black_Dhide_Boots_U"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorD:Red_Dhide_Vambraces",
+        "ids": [
+          "expandedAreas:Red_Dhide_Cowl",
+          "expandedAreas:Red_Dhide_Boots"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Red_Dhide_Shield",
+        "ids": [
+          "expandedAreas:Red_Dhide_Cowl_U",
+          "expandedAreas:Red_Dhide_Boots_U"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorD:Blue_Dhide_Vambraces",
+        "ids": [
+          "expandedAreas:Blue_Dhide_Cowl",
+          "expandedAreas:Blue_Dhide_Boots"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Blue_Dhide_Shield",
+        "ids": [
+          "expandedAreas:Blue_Dhide_Cowl_U",
+          "expandedAreas:Blue_Dhide_Boots_U"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorD:Green_Dhide_Vambraces",
+        "ids": [
+          "expandedAreas:Green_Dhide_Cowl",
+          "expandedAreas:Green_Dhide_Boots"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Green_Dhide_Shield",
+        "ids": [
+          "expandedAreas:Green_Dhide_Cowl_U",
+          "expandedAreas:Green_Dhide_Boots_U"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorD:Black_Helmet",
+        "ids": [
+          "expandedAreas:Black_Gloves"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Willow_Logs",
+        "ids": [
+          "expandedAreas:Evergreen_Logs"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Willow_Tree_Seed",
+        "ids": [
+          "expandedAreas:Evergreen_Pine_Seed"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Maple_Tree_Seed",
+        "ids": [
+          "expandedAreas:Teak_Tree_Seed",
+          "expandedAreas:Mahogany_Tree_Seed"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Maple_Logs",
+        "ids": [
+          "expandedAreas:Longleaf_Logs"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Maple_Tree_Seed",
+        "ids": [
+          "expandedAreas:Longleaf_Pine_Seed"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Yew_Logs",
+        "ids": [
+          "expandedAreas:Frostpine_Logs"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Yew_Tree_Seed",
+        "ids": [
+          "expandedAreas:Frostpine_Seed"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Magic_Logs",
+        "ids": [
+          "expandedAreas:White_Pine_Logs",
+          "expandedAreas:Loblolly_Logs"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Magic_Tree_Seed",
+        "ids": [
+          "expandedAreas:White_Pine_Seed",
+          "expandedAreas:Loblolly_Pine_Seed",
+          "expandedAreas:Redwood_Tree_Seed"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Bird_Nest",
+        "ids": [
+          "expandedAreas:Pine_Cone",
+          "expandedAreas:Pine_Needles",
+          "expandedAreas:Pine_Resin",
+          "expandedAreas:Pine_Nuts",
+          "expandedAreas:Turpentine"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Seaweed",
+        "ids": [
+          "expandedAreas:Sand"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Carrot_Seeds",
+        "ids": [
+          "expandedAreas:Bell_Pepper_Seed",
+          "expandedAreas:Barley_Seed",
+          "expandedAreas:Jute_Seed",
+          "expandedAreas:Plumm_Seed",
+          "expandedAreas:Firewine_Seed",
+          "expandedAreas:Andlovan_Seed",
+          "expandedAreas:Goldengod_Seed",
+          "expandedAreas:Coffea_Seed",
+          "expandedAreas:Coffee_Beans"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Apple",
+        "ids": [
+          "expandedAreas:Bell_Peppers",
+          "expandedAreas:Dragonfruit",
+          "expandedAreas:Sack_of_Potatoes",
+          "expandedAreas:Sack_of_Onions",
+          "expandedAreas:Sack_of_Cabbage",
+          "expandedAreas:Sack_of_Curry_Leaves",
+          "expandedAreas:Sack_of_Carrots",
+          "expandedAreas:Sack_of_Peppers",
+          "expandedAreas:Basket_of_Tomatoes",
+          "expandedAreas:Basket_of_Sweetcorn",
+          "expandedAreas:Basket_of_Strawberries",
+          "expandedAreas:Basket_of_Cherries",
+          "expandedAreas:Basket_of_Apples"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Shrimp",
+        "ids": [
+          "expandedAreas:Raw_Grub"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Herring",
+        "ids": [
+          "expandedAreas:Cooked_Grub"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Burnt_Herring",
+        "ids": [
+          "expandedAreas:Burnt_Grub"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Herring_Perfect",
+        "ids": [
+          "expandedAreas:Cooked_Grub_Perfect"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Chicken_Soup",
+        "ids": [
+          "expandedAreas:Chicken_Pesto_Pasta"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Chicken_Soup_Perfect",
+        "ids": [
+          "expandedAreas:Chicken_Pesto_Pasta_Perfect"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorF:Basic_Bag",
+        "ids": [
+          "expandedAreas:Basket"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "expandedAreas:Basket",
+        "ids": [
+          "expandedAreas:Sack"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Thiefs_Moneysack",
+        "ids": [
+          "expandedAreas:Pocket_Sand"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Jadestone",
+        "ids": [
+          "expandedAreas:Topaz_Dust",
+          "expandedAreas:Sapphire_Dust",
+          "expandedAreas:Emerald_Dust",
+          "expandedAreas:Ruby_Dust",
+          "expandedAreas:Diamond_Dust"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Giant_Club",
+        "ids": [
+          "expandedAreas:Blackjack"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Ring_Of_Wealth",
+        "ids": [
+          "expandedAreas:Prosperous_Necklace"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Priest_Hat",
+        "ids": [
+          "expandedAreas:Monk_Robe_Top",
+          "expandedAreas:Monk_Robe_Bottoms"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Big_Bones",
+        "ids": [
+          "expandedAreas:Baby_Dragon_Bones"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Magic_Bones",
+        "ids": [
+          "expandedAreas:Superior_Dragon_Bones"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Bones",
+        "ids": [
+          "expandedAreas:Monkey_Bones"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Amulet_of_Magic",
+        "ids": [
+          "expandedAreas:Amulet_of_Occults"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Tormented_Ring",
+        "ids": [
+          "expandedAreas:Tormented_Bracelet"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Ancient_Rune",
+        "ids": [
+          "expandedAreas:Wrath_Rune"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Staff_of_Earth",
+        "ids": [
+          "expandedAreas:Staff_of_Dust"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Earth_Battlestaff",
+        "ids": [
+          "expandedAreas:Dust_Battlestaff"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Mystic_Earth_Staff",
+        "ids": [
+          "expandedAreas:Mystic_Dust_Staff"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Earth_Imbued_Wand",
+        "ids": [
+          "expandedAreas:Dust_Imbued_Wand",
+          "expandedAreas:Air_Elementalist_Staff",
+          "expandedAreas:Water_Elementalist_Staff",
+          "expandedAreas:Earth_Elementalist_Staff",
+          "expandedAreas:Fire_Elementalist_Staff"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Air_Expert_Wizard_Boots",
+        "ids": [
+          "expandedAreas:Air_Elementalist_Hat",
+          "expandedAreas:Air_Elementalist_Robes",
+          "expandedAreas:Air_Elementalist_Boots"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Water_Expert_Wizard_Boots",
+        "ids": [
+          "expandedAreas:Water_Elementalist_Hat",
+          "expandedAreas:Water_Elementalist_Robes",
+          "expandedAreas:Water_Elementalist_Boots"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Earth_Expert_Wizard_Boots",
+        "ids": [
+          "expandedAreas:Earth_Elementalist_Hat",
+          "expandedAreas:Earth_Elementalist_Robes",
+          "expandedAreas:Earth_Elementalist_Boots"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Fire_Expert_Wizard_Boots",
+        "ids": [
+          "expandedAreas:Fire_Elementalist_Hat",
+          "expandedAreas:Fire_Elementalist_Robes",
+          "expandedAreas:Fire_Elementalist_Boots"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "expandedAreas:Fire_Elementalist_Boots",
+        "ids": [
+          "expandedAreas:Pureform_Rune",
+          "expandedAreas:Pure_Elementalist_Hat",
+          "expandedAreas:Pure_Elementalist_Robes",
+          "expandedAreas:Pure_Elementalist_Boots"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Enchanted_Cape",
+        "ids": [
+          "expandedAreas:Elemental_Cape"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Book_Of_Scholars",
+        "ids": [
+          "expandedAreas:Mysterious_Tome",
+          "expandedAreas:Wispy_Page",
+          "expandedAreas:Tome_of_Air",
+          "expandedAreas:Waterlogged_Page",
+          "expandedAreas:Tome_of_Water",
+          "expandedAreas:Muddy_Page",
+          "expandedAreas:Tome_of_Earth",
+          "expandedAreas:Burnt_Page",
+          "expandedAreas:Tome_of_Fire",
+          "expandedAreas:Tome_of_the_Elements"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Mystic_Fire_Staff",
+        "ids": [
+          "expandedAreas:Ancient_Staff"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Magic_Wand_Elite",
+        "ids": [
+          "expandedAreas:Pure_Elementalist_Sceptre"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorF:Staff_of_Air",
+        "ids": [
+          "expandedAreas:Golbin_Staff"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorD:Air_Rune",
+        "ids": [
+          "expandedAreas:Air_Rune_Shard",
+          "expandedAreas:Water_Rune_Shard",
+          "expandedAreas:Earth_Rune_Shard",
+          "expandedAreas:Fire_Rune_Shard"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorF:Warlock_Ring",
+        "ids": [
+          "expandedAreas:Orb_of_the_Elements"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorF:Wizards_Scroll",
+        "ids": [
+          "expandedAreas:Fragmented_Elemental_Rune",
+          "expandedAreas:Eye_of_Air",
+          "expandedAreas:Eye_of_Water",
+          "expandedAreas:Eye_of_Earth",
+          "expandedAreas:Eye_of_Fire"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Eyeball",
+        "ids": [
+          "expandedAreas:Green_Dragon_Scale",
+          "expandedAreas:Blue_Dragon_Scale",
+          "expandedAreas:Red_Dragon_Scale",
+          "expandedAreas:Black_Dragon_Scale",
+          "expandedAreas:Dragonscale_Dust"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Melee_Strength_Potion_IV",
+        "ids": [
+          "expandedAreas:Beer",
+          "expandedAreas:Keg_of_Beer"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Ranged_Assistance_Potion_IV",
+        "ids": [
+          "expandedAreas:Burn_Relief_Potion_I",
+          "expandedAreas:Burn_Relief_Potion_II",
+          "expandedAreas:Burn_Relief_Potion_III",
+          "expandedAreas:Burn_Relief_Potion_IV"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Lethal_Toxins_Potion_IV",
+        "ids": [
+          "expandedAreas:Antidragon_Potion_I",
+          "expandedAreas:Antidragon_Potion_II",
+          "expandedAreas:Antidragon_Potion_III",
+          "expandedAreas:Antidragon_Potion_IV",
+          "expandedAreas:Volatile_Potion_I",
+          "expandedAreas:Volatile_Potion_II",
+          "expandedAreas:Volatile_Potion_III",
+          "expandedAreas:Volatile_Potion_IV"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Damage_Reduction_Potion_IV",
+        "ids": [
+          "expandedAreas:Super_Antidragon_Potion_I",
+          "expandedAreas:Super_Antidragon_Potion_II",
+          "expandedAreas:Super_Antidragon_Potion_III",
+          "expandedAreas:Super_Antidragon_Potion_IV"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Lemon",
+        "ids": [
+          "expandedAreas:Monkey_Dung",
+          "expandedAreas:Chieftain_Eriks_Head"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Magic_Chest",
+        "ids": [
+          "expandedAreas:Raid_Spoils"
+        ]
+      },
+      {
+        "insertAt": "Before",
+        "beforeID": "melvorF:Crate_Of_Basic_Supplies",
+        "ids": [
+          "expandedAreas:Damaged_Supply_Crate"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Crate_Of_Basic_Supplies",
+        "ids": [
+          "expandedAreas:Food_Sack"
+        ]
       }
     ],
     "skillData": [
@@ -18064,1590 +19648,6 @@
           ]
         }
       }
-    ],
-    "shopDisplayOrder": [
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Magic_Pot",
-        "ids": [
-          "expandedAreas:Normal_Brewing_Barrel",
-          "expandedAreas:Oak_Brewing_Barrel",
-          "expandedAreas:Willow_Brewing_Barrel",
-          "expandedAreas:Teak_Brewing_Barrel",
-          "expandedAreas:Maple_Brewing_Barrel",
-          "expandedAreas:Mahogany_Brewing_Barrel",
-          "expandedAreas:Yew_Brewing_Barrel",
-          "expandedAreas:Magic_Brewing_Barrel",
-          "expandedAreas:Redwood_Brewing_Barrel"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Art_of_Control",
-        "ids": [
-          "expandedAreas:Spear_Fishing",
-          "expandedAreas:Tree_Punching",
-          "expandedAreas:Rock_Smashing",
-          "expandedAreas:Ancestral_Smithing_Technique"
-        ]
-      }
-    ],
-    "shopCategories": [
-      {
-        "id": "Barbarian_Skilling",
-        "name": "Barbarian Skilling",
-        "media": "assets/icons/Barbarian.png"
-      }
-    ],
-    "shopPurchases": [
-      {
-        "id": "Normal_Brewing_Barrel",
-        "media": "assets/skills/cooking/Normal_Brewing_Barrel.png",
-        "category": "melvorD:SkillUpgrades",
-        "contains": {
-          "items": [],
-          "modifiers": {
-            "perfectCookChance": [
-              {
-                "categoryID": "expandedAreas:Brewing_Barrel",
-                "value": 1
-              }
-            ],
-            "skillXP": [
-              {
-                "skillID": "melvorD:Cooking",
-                "value": 1
-              }
-            ]
-          }
-        },
-        "cost": {
-          "items": [
-            {
-              "id": "melvorD:Normal_Logs",
-              "quantity": 2000
-            },
-            {
-              "id": "melvorD:Bronze_Bar",
-              "quantity": 100
-            }
-          ],
-          "currencies": [
-            {
-              "currency": "melvorD:GP",
-              "type": "Fixed",
-              "cost": 50000
-            }
-          ]
-        },
-        "allowQuantityPurchase": false,
-        "unlockRequirements": [],
-        "purchaseRequirements": [
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Cooking",
-            "level": 10
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Smithing",
-            "level": 10
-          }
-        ],
-        "defaultBuyLimit": 1,
-        "buyLimitOverrides": [],
-        "showBuyLimit": false,
-        "customName": "Normal Brewing Barrel",
-        "customDescription": "+1% Perfect Cook chance for Brewing Barrel only for a total of +1% from Brewing Barrel.<br>+1% Cooking XP for a total of +1% Cooking XP from your Brewing Barrel."
-      },
-      {
-        "id": "Oak_Brewing_Barrel",
-        "media": "assets/skills/cooking/Oak_Brewing_Barrel.png",
-        "category": "melvorD:SkillUpgrades",
-        "contains": {
-          "items": [],
-          "modifiers": {
-            "skillXP": [
-              {
-                "skillID": "melvorD:Cooking",
-                "value": 2
-              }
-            ]
-          }
-        },
-        "cost": {
-          "items": [
-            {
-              "id": "melvorD:Oak_Logs",
-              "quantity": 2000
-            },
-            {
-              "id": "melvorD:Iron_Bar",
-              "quantity": 100
-            }
-          ],
-          "currencies": [
-            {
-              "currency": "melvorD:GP",
-              "type": "Fixed",
-              "cost": 100000
-            }
-          ]
-        },
-        "allowQuantityPurchase": false,
-        "unlockRequirements": [
-          {
-            "type": "ShopPurchase",
-            "purchaseID": "expandedAreas:Normal_Brewing_Barrel",
-            "count": 1
-          }
-        ],
-        "purchaseRequirements": [
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Cooking",
-            "level": 15
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Smithing",
-            "level": 15
-          }
-        ],
-        "defaultBuyLimit": 1,
-        "buyLimitOverrides": [],
-        "showBuyLimit": false,
-        "customName": "Oak Brewing Barrel",
-        "customDescription": "+2% Cooking XP for a total of +3% Cooking XP from your Brewing Barrel."
-      },
-      {
-        "id": "Willow_Brewing_Barrel",
-        "media": "assets/skills/cooking/Willow_Brewing_Barrel.png",
-        "category": "melvorD:SkillUpgrades",
-        "contains": {
-          "items": [],
-          "modifiers": {
-            "perfectCookChance": [
-              {
-                "categoryID": "expandedAreas:Brewing_Barrel",
-                "value": 2
-              }
-            ]
-          }
-        },
-        "cost": {
-          "items": [
-            {
-              "id": "melvorD:Willow_Logs",
-              "quantity": 2000
-            },
-            {
-              "id": "melvorD:Steel_Bar",
-              "quantity": 100
-            }
-          ],
-          "currencies": [
-            {
-              "currency": "melvorD:GP",
-              "type": "Fixed",
-              "cost": 150000
-            }
-          ]
-        },
-        "allowQuantityPurchase": false,
-        "unlockRequirements": [
-          {
-            "type": "ShopPurchase",
-            "purchaseID": "expandedAreas:Oak_Brewing_Barrel",
-            "count": 1
-          }
-        ],
-        "purchaseRequirements": [
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Cooking",
-            "level": 25
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Smithing",
-            "level": 25
-          }
-        ],
-        "defaultBuyLimit": 1,
-        "buyLimitOverrides": [],
-        "showBuyLimit": false,
-        "customName": "Willow Brewing Barrel",
-        "customDescription": "+2% Perfect Cook chance for Brewing Barrel only for a total of +3% from your Brewing Barrel."
-      },
-      {
-        "id": "Maple_Brewing_Barrel",
-        "media": "assets/skills/cooking/Maple_Brewing_Barrel.png",
-        "category": "melvorD:SkillUpgrades",
-        "contains": {
-          "items": [],
-          "modifiers": {
-            "skillXP": [
-              {
-                "skillID": "melvorD:Cooking",
-                "value": 2
-              }
-            ]
-          }
-        },
-        "cost": {
-          "items": [
-            {
-              "id": "melvorD:Maple_Logs",
-              "quantity": 2000
-            },
-            {
-              "id": "expandedAreas:Sterkite_Bar",
-              "quantity": 100
-            }
-          ],
-          "currencies": [
-            {
-              "currency": "melvorD:GP",
-              "type": "Fixed",
-              "cost": 200000
-            }
-          ]
-        },
-        "allowQuantityPurchase": false,
-        "unlockRequirements": [
-          {
-            "type": "ShopPurchase",
-            "purchaseID": "expandedAreas:Willow_Brewing_Barrel",
-            "count": 1
-          }
-        ],
-        "purchaseRequirements": [
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Cooking",
-            "level": 35
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Smithing",
-            "level": 35
-          }
-        ],
-        "defaultBuyLimit": 1,
-        "buyLimitOverrides": [],
-        "showBuyLimit": false,
-        "customName": "Maple Brewing Barrel",
-        "customDescription": "+2% Cooking XP for a total of +5% Cooking XP from your Brewing Barrel."
-      },
-      {
-        "id": "Teak_Brewing_Barrel",
-        "media": "assets/skills/cooking/Teak_Brewing_Barrel.png",
-        "category": "melvorD:SkillUpgrades",
-        "contains": {
-          "items": [],
-          "modifiers": {
-            "perfectCookChance": [
-              {
-                "categoryID": "expandedAreas:Brewing_Barrel",
-                "value": 2
-              }
-            ]
-          }
-        },
-        "cost": {
-          "items": [
-            {
-              "id": "melvorD:Teak_Logs",
-              "quantity": 2000
-            },
-            {
-              "id": "melvorD:Mithril_Bar",
-              "quantity": 100
-            }
-          ],
-          "currencies": [
-            {
-              "currency": "melvorD:GP",
-              "type": "Fixed",
-              "cost": 250000
-            }
-          ]
-        },
-        "allowQuantityPurchase": false,
-        "unlockRequirements": [
-          {
-            "type": "ShopPurchase",
-            "purchaseID": "expandedAreas:Maple_Brewing_Barrel",
-            "count": 1
-          }
-        ],
-        "purchaseRequirements": [
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Cooking",
-            "level": 45
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Smithing",
-            "level": 45
-          }
-        ],
-        "defaultBuyLimit": 1,
-        "buyLimitOverrides": [],
-        "showBuyLimit": false,
-        "customName": "Teak Brewing Barrel",
-        "customDescription": "+2% Perfect Cook Chance from Brewing Barrel only for a total of +5% Cooking XP from your Brewing Barrel."
-      },
-      {
-        "id": "Mahogany_Brewing_Barrel",
-        "media": "assets/skills/cooking/Mahogany_Brewing_Barrel.png",
-        "category": "melvorD:SkillUpgrades",
-        "contains": {
-          "items": [],
-          "modifiers": {
-            "skillXP": [
-              {
-                "skillID": "melvorD:Cooking",
-                "value": 2
-              }
-            ]
-          }
-        },
-        "cost": {
-          "items": [
-            {
-              "id": "melvorD:Mahogany_Logs",
-              "quantity": 2000
-            },
-            {
-              "id": "melvorD:Adamantite_Bar",
-              "quantity": 100
-            }
-          ],
-          "currencies": [
-            {
-              "currency": "melvorD:GP",
-              "type": "Fixed",
-              "cost": 300000
-            }
-          ]
-        },
-        "allowQuantityPurchase": false,
-        "unlockRequirements": [
-          {
-            "type": "ShopPurchase",
-            "purchaseID": "expandedAreas:Teak_Brewing_Barrel",
-            "count": 1
-          }
-        ],
-        "purchaseRequirements": [
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Cooking",
-            "level": 55
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Smithing",
-            "level": 55
-          }
-        ],
-        "defaultBuyLimit": 1,
-        "buyLimitOverrides": [],
-        "showBuyLimit": false,
-        "customName": "Mahogany Brewing Barrel",
-        "customDescription": "+2% Cooking XP for a total of +7% Cooking XP from your Brewing Barrel."
-      },
-      {
-        "id": "Yew_Brewing_Barrel",
-        "media": "assets/skills/cooking/Yew_Brewing_Barrel.png",
-        "category": "melvorD:SkillUpgrades",
-        "contains": {
-          "items": [],
-          "modifiers": {
-            "perfectCookChance": [
-              {
-                "categoryID": "expandedAreas:Brewing_Barrel",
-                "value": 2
-              }
-            ]
-          }
-        },
-        "cost": {
-          "items": [
-            {
-              "id": "melvorD:Yew_Logs",
-              "quantity": 2000
-            },
-            {
-              "id": "melvorD:Runite_Bar",
-              "quantity": 100
-            }
-          ],
-          "currencies": [
-            {
-              "currency": "melvorD:GP",
-              "type": "Fixed",
-              "cost": 500000
-            }
-          ]
-        },
-        "allowQuantityPurchase": false,
-        "unlockRequirements": [
-          {
-            "type": "ShopPurchase",
-            "purchaseID": "expandedAreas:Mahogany_Brewing_Barrel",
-            "count": 1
-          }
-        ],
-        "purchaseRequirements": [
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Cooking",
-            "level": 65
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Smithing",
-            "level": 65
-          }
-        ],
-        "defaultBuyLimit": 1,
-        "buyLimitOverrides": [],
-        "showBuyLimit": false,
-        "customName": "Yew Brewing Barrel",
-        "customDescription": "+2% Perfect Cook Chance from Brewing Barrel only for a total of +7% Perfect Cook Chance from your Brewing Barrel."
-      },
-      {
-        "id": "Magic_Brewing_Barrel",
-        "media": "assets/skills/cooking/Magic_Brewing_Barrel.png",
-        "category": "melvorD:SkillUpgrades",
-        "contains": {
-          "items": [],
-          "modifiers": {
-            "skillXP": [
-              {
-                "skillID": "melvorD:Cooking",
-                "value": 3
-              }
-            ]
-          }
-        },
-        "cost": {
-          "items": [
-            {
-              "id": "melvorD:Magic_Logs",
-              "quantity": 2000
-            },
-            {
-              "id": "melvorD:Runite_Bar",
-              "quantity": 50
-            },
-            {
-              "id": "melvorD:Silver_Bar",
-              "quantity": 50
-            }
-          ],
-          "currencies": [
-            {
-              "currency": "melvorD:GP",
-              "type": "Fixed",
-              "cost": 1250000
-            }
-          ]
-        },
-        "allowQuantityPurchase": false,
-        "unlockRequirements": [
-          {
-            "type": "ShopPurchase",
-            "purchaseID": "expandedAreas:Yew_Brewing_Barrel",
-            "count": 1
-          }
-        ],
-        "purchaseRequirements": [
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Cooking",
-            "level": 75
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Smithing",
-            "level": 75
-          }
-        ],
-        "defaultBuyLimit": 1,
-        "buyLimitOverrides": [],
-        "showBuyLimit": false,
-        "customName": "Magic Brewing Barrel",
-        "customDescription": "+3% Cooking XP for a total of +10% Cooking XP from your Brewing Barrel."
-      },
-      {
-        "id": "Redwood_Brewing_Barrel",
-        "media": "assets/skills/cooking/Redwood_Brewing_Barrel.png",
-        "category": "melvorD:SkillUpgrades",
-        "contains": {
-          "items": [],
-          "modifiers": {
-            "perfectCookChance": [
-              {
-                "categoryID": "expandedAreas:Brewing_Barrel",
-                "value": 3
-              }
-            ]
-          }
-        },
-        "cost": {
-          "items": [
-            {
-              "id": "melvorD:Redwood_Logs",
-              "quantity": 2000
-            },
-            {
-              "id": "melvorD:Dragonite_Bar",
-              "quantity": 50
-            },
-            {
-              "id": "melvorD:Gold_Bar",
-              "quantity": 50
-            }
-          ],
-          "currencies": [
-            {
-              "currency": "melvorD:GP",
-              "type": "Fixed",
-              "cost": 2500000
-            }
-          ]
-        },
-        "allowQuantityPurchase": false,
-        "unlockRequirements": [
-          {
-            "type": "ShopPurchase",
-            "purchaseID": "expandedAreas:Magic_Brewing_Barrel",
-            "count": 1
-          }
-        ],
-        "purchaseRequirements": [
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Cooking",
-            "level": 90
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Smithing",
-            "level": 90
-          }
-        ],
-        "defaultBuyLimit": 1,
-        "buyLimitOverrides": [],
-        "showBuyLimit": false,
-        "customName": "Redwood Brewing Barrel",
-        "customDescription": "+3% Perfect Cook Chance for Brewing Barrel only for a total of +10% Perfect Cook Chance from your Brewing Barrel."
-      },
-      {
-        "id": "Sterkite_Mining",
-        "media": "assets/shop/Rock_Sterkite.svg",
-        "category": "expandedAreas:Barbarian_Skilling",
-        "contains": {
-          "items": [],
-          "modifiers": {}
-        },
-        "cost": {
-          "items": [],
-          "currencies": [
-            {
-              "currency": "melvorD:GP",
-              "type": "Fixed",
-              "cost": 20000
-            }
-          ]
-        },
-        "allowQuantityPurchase": false,
-        "unlockRequirements": [],
-        "purchaseRequirements": [
-          {
-            "type": "MonsterKilled",
-            "monsterID": "expandedAreas:Chieftain_Erik",
-            "count": 1
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Mining",
-            "level": 20
-          }
-        ],
-        "defaultBuyLimit": 1,
-        "buyLimitOverrides": [],
-        "showBuyLimit": false,
-        "customName": "Sterkite Mining",
-        "customDescription": "Grants access to Sterkite Ore."
-      },
-      {
-        "id": "Spear_Fishing",
-        "media": "assets/shop/Spear_Fishing.svg",
-        "category": "expandedAreas:Barbarian_Skilling",
-        "contains": {
-          "items": [],
-          "modifiers": {
-            "skillInterval": [
-              {
-                "skillID": "melvorD:Fishing",
-                "value": -2.5
-              }
-            ],
-            "additionalPrimaryProductChance": [
-              {
-                "skillID": "melvorD:Fishing",
-                "value": 2.5
-              }
-            ]
-          }
-        },
-        "cost": {
-          "items": [],
-          "currencies": [
-            {
-              "currency": "melvorD:GP",
-              "type": "Fixed",
-              "cost": 1500000
-            }
-          ]
-        },
-        "allowQuantityPurchase": false,
-        "unlockRequirements": [],
-        "purchaseRequirements": [
-          {
-            "type": "DungeonCompletion",
-            "dungeonID": "expandedAreas:The_Barbarian_Trials",
-            "count": 1
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Fishing",
-            "level": 50
-          }
-        ],
-        "defaultBuyLimit": 1,
-        "buyLimitOverrides": [],
-        "showBuyLimit": false,
-        "customName": "Spear Fishing",
-        "customDescription": "+2.5% chance to receive an additional resource from Fishing (cannot be doubled) and -2.5% Fishing Interval."
-      },
-      {
-        "id": "Tree_Punching",
-        "media": "assets/shop/Tree_Punching.svg",
-        "category": "expandedAreas:Barbarian_Skilling",
-        "contains": {
-          "items": [],
-          "modifiers": {
-            "additionalPrimaryProductChance": [
-              {
-                "skillID": "melvorD:Woodcutting",
-                "value": 2.5
-              }
-            ],
-            "skillInterval": [
-              {
-                "skillID": "melvorD:Woodcutting",
-                "value": -2.5
-              }
-            ]
-          }
-        },
-        "cost": {
-          "items": [],
-          "currencies": [
-            {
-              "currency": "melvorD:GP",
-              "type": "Fixed",
-              "cost": 3000000
-            }
-          ]
-        },
-        "allowQuantityPurchase": false,
-        "unlockRequirements": [],
-        "purchaseRequirements": [
-          {
-            "type": "DungeonCompletion",
-            "dungeonID": "expandedAreas:The_Barbarian_Trials",
-            "count": 1
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Woodcutting",
-            "level": 30
-          }
-        ],
-        "defaultBuyLimit": 1,
-        "buyLimitOverrides": [],
-        "showBuyLimit": false,
-        "customName": "Tree Punching",
-        "customDescription": "+2.5% chance to receive an additional resource from Woodcutting (cannot be doubled) and -2.5% Woodcutting Interval.<br>Grants access to Pine trees."
-      },
-      {
-        "id": "Rock_Smashing",
-        "media": "assets/shop/Rock_Smashing.png",
-        "category": "expandedAreas:Barbarian_Skilling",
-        "contains": {
-          "items": [],
-          "modifiers": {
-            "miningNodeRespawnInterval": -5,
-            "noMiningNodeDamageChance": 5
-          }
-        },
-        "cost": {
-          "items": [],
-          "currencies": [
-            {
-              "currency": "melvorD:GP",
-              "type": "Fixed",
-              "cost": 1000000
-            }
-          ]
-        },
-        "allowQuantityPurchase": false,
-        "unlockRequirements": [],
-        "purchaseRequirements": [
-          {
-            "type": "DungeonCompletion",
-            "dungeonID": "expandedAreas:The_Barbarian_Trials",
-            "count": 1
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Mining",
-            "level": 40
-          }
-        ],
-        "defaultBuyLimit": 1,
-        "buyLimitOverrides": [],
-        "showBuyLimit": false,
-        "customName": "Rock Smashing",
-        "customDescription": "-5% Mining Node Respawn Interval and +5% chance to deal no damage to Mining Nodes when Mining."
-      },
-      {
-        "id": "Ancestral_Smithing_Technique",
-        "media": "assets/shop/Ancestral_Smithing_Technique.svg",
-        "category": "expandedAreas:Barbarian_Skilling",
-        "contains": {
-          "items": [],
-          "modifiers": {
-            "skillItemDoublingChance": [
-              {
-                "skillID": "melvorD:Smithing",
-                "value": 2.5
-              }
-            ],
-            "skillInterval": [
-              {
-                "skillID": "melvorD:Smithing",
-                "value": -2.5
-              }
-            ]
-          }
-        },
-        "cost": {
-          "items": [],
-          "currencies": [
-            {
-              "currency": "melvorD:GP",
-              "type": "Fixed",
-              "cost": 2000000
-            }
-          ]
-        },
-        "allowQuantityPurchase": false,
-        "unlockRequirements": [],
-        "purchaseRequirements": [
-          {
-            "type": "DungeonCompletion",
-            "dungeonID": "expandedAreas:The_Barbarian_Trials",
-            "count": 1
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Smithing",
-            "level": 50
-          }
-        ],
-        "defaultBuyLimit": 1,
-        "buyLimitOverrides": [],
-        "showBuyLimit": false,
-        "customName": "Ancestral Smithing Technique",
-        "customDescription": "+2.5% chance to double items in Smithing and -2.5% Smithing Interval."
-      }
-    ],
-    "shopCategoryOrder": [
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:SkillUpgrades",
-        "ids": [
-          "expandedAreas:Barbarian_Skilling"
-        ]
-      }
-    ],
-    "bankSortOrder": [
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Blazing_Lantern",
-        "ids": [
-          "expandedAreas:Shroud_of_the_Badlands",
-          "expandedAreas:Lantern_Oil"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Earth_Layered_Shield",
-        "ids": [
-          "expandedAreas:Glacia_God_Helmet_P",
-          "expandedAreas:Glacia_God_Platelegs_P",
-          "expandedAreas:Glacia_God_Platebody_P",
-          "expandedAreas:Glacia_God_Boots_P",
-          "expandedAreas:Glacia_God_Gloves_P"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Amulet_of_Fury",
-        "ids": [
-          "expandedAreas:Blood_Shard",
-          "expandedAreas:Amulet_of_Blood_Fury"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Bronze_Battleaxe",
-        "ids": [
-          "expandedAreas:Bronze_Spear"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Iron_Battleaxe",
-        "ids": [
-          "expandedAreas:Iron_Spear"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Steel_Battleaxe",
-        "ids": [
-          "expandedAreas:Steel_Spear"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Black_Battleaxe",
-        "ids": [
-          "expandedAreas:Black_Spear"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Mithril_Battleaxe",
-        "ids": [
-          "expandedAreas:Mithril_Spear"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Adamant_Battleaxe",
-        "ids": [
-          "expandedAreas:Adamant_Spear"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Rune_Battleaxe",
-        "ids": [
-          "expandedAreas:Rune_Spear",
-          "expandedAreas:Barbarian_Berserker_Axe",
-          "expandedAreas:Barbarian_Longblade",
-          "expandedAreas:Barbarian_Brawling_Gloves"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Dragon_Battleaxe",
-        "ids": [
-          "expandedAreas:Dragon_Spear"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Rune_Shield_T_G",
-        "ids": [
-          "expandedAreas:Barbarian_Helm",
-          "expandedAreas:Barbarian_Archer_Helm",
-          "expandedAreas:Barbarian_Berserker_Helm",
-          "expandedAreas:Barbarian_Warrior_Helm",
-          "expandedAreas:Barbarian_Armour",
-          "expandedAreas:Barbarian_Skirt",
-          "expandedAreas:Barbarian_Boots"
-        ]
-      },
-      {
-        "insertAt": "Before",
-        "beforeID": "melvorF:Fletchers_Hat",
-        "ids": [
-          "expandedAreas:Barbarian_Fletching_Knife"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Steel_Crossbow",
-        "ids": [
-          "expandedAreas:Black_Crossbow"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Steel_Javelin",
-        "ids": [
-          "expandedAreas:Black_Javelin"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Steel_Arrows",
-        "ids": [
-          "expandedAreas:Black_Arrows"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Steel_Throwing_Knife",
-        "ids": [
-          "expandedAreas:Black_Throwing_Knife"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Dragon_Javelin_Heads",
-        "ids": [
-          "expandedAreas:Bronze_Thrownaxe_Head",
-          "expandedAreas:Iron_Thrownaxe_Head",
-          "expandedAreas:Steel_Thrownaxe_Head",
-          "expandedAreas:Black_Thrownaxe_Head",
-          "expandedAreas:Mithril_Thrownaxe_Head",
-          "expandedAreas:Adamant_Thrownaxe_Head",
-          "expandedAreas:Rune_Thrownaxe_Head",
-          "expandedAreas:Dragon_Thrownaxe_Head"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Steel_Javelin_Heads",
-        "ids": [
-          "expandedAreas:Black_Javelin_Heads"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Ancient_Javelin",
-        "ids": [
-          "expandedAreas:Bronze_Thrownaxe",
-          "expandedAreas:Iron_Thrownaxe",
-          "expandedAreas:Steel_Thrownaxe",
-          "expandedAreas:Black_Thrownaxe",
-          "expandedAreas:Mithril_Thrownaxe",
-          "expandedAreas:Adamant_Thrownaxe",
-          "expandedAreas:Rune_Thrownaxe",
-          "expandedAreas:Dragon_Thrownaxe"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Steel_Arrowtips",
-        "ids": [
-          "expandedAreas:Black_Arrowtips"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Steel_Crossbow_Head",
-        "ids": [
-          "expandedAreas:Black_Crossbow_Head"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Gold_Ore",
-        "ids": [
-          "expandedAreas:Sterkite_Ore"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Silver_Bar",
-        "ids": [
-          "expandedAreas:Sterkite_Bar"
-        ]
-      },
-      {
-        "insertAt": "Before",
-        "beforeID": "melvorD:Black_Dhide_Vambraces",
-        "ids": [
-          "expandedAreas:Black_Dhide_Cowl",
-          "expandedAreas:Black_Dhide_Boots"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Black_Dhide_Shield",
-        "ids": [
-          "expandedAreas:Black_Dhide_Cowl_U",
-          "expandedAreas:Black_Dhide_Boots_U"
-        ]
-      },
-      {
-        "insertAt": "Before",
-        "beforeID": "melvorD:Red_Dhide_Vambraces",
-        "ids": [
-          "expandedAreas:Red_Dhide_Cowl",
-          "expandedAreas:Red_Dhide_Boots"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Red_Dhide_Shield",
-        "ids": [
-          "expandedAreas:Red_Dhide_Cowl_U",
-          "expandedAreas:Red_Dhide_Boots_U"
-        ]
-      },
-      {
-        "insertAt": "Before",
-        "beforeID": "melvorD:Blue_Dhide_Vambraces",
-        "ids": [
-          "expandedAreas:Blue_Dhide_Cowl",
-          "expandedAreas:Blue_Dhide_Boots"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Blue_Dhide_Shield",
-        "ids": [
-          "expandedAreas:Blue_Dhide_Cowl_U",
-          "expandedAreas:Blue_Dhide_Boots_U"
-        ]
-      },
-      {
-        "insertAt": "Before",
-        "beforeID": "melvorD:Green_Dhide_Vambraces",
-        "ids": [
-          "expandedAreas:Green_Dhide_Cowl",
-          "expandedAreas:Green_Dhide_Boots"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Green_Dhide_Shield",
-        "ids": [
-          "expandedAreas:Green_Dhide_Cowl_U",
-          "expandedAreas:Green_Dhide_Boots_U"
-        ]
-      },
-      {
-        "insertAt": "Before",
-        "beforeID": "melvorD:Black_Helmet",
-        "ids": [
-          "expandedAreas:Black_Gloves"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Willow_Logs",
-        "ids": [
-          "expandedAreas:Evergreen_Logs"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Willow_Tree_Seed",
-        "ids": [
-          "expandedAreas:Evergreen_Pine_Seed"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Maple_Tree_Seed",
-        "ids": [
-          "expandedAreas:Teak_Tree_Seed",
-          "expandedAreas:Mahogany_Tree_Seed"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Maple_Logs",
-        "ids": [
-          "expandedAreas:Longleaf_Logs"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Maple_Tree_Seed",
-        "ids": [
-          "expandedAreas:Longleaf_Pine_Seed"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Yew_Logs",
-        "ids": [
-          "expandedAreas:Frostpine_Logs"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Yew_Tree_Seed",
-        "ids": [
-          "expandedAreas:Frostpine_Seed"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Magic_Logs",
-        "ids": [
-          "expandedAreas:White_Pine_Logs",
-          "expandedAreas:Loblolly_Logs"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Magic_Tree_Seed",
-        "ids": [
-          "expandedAreas:White_Pine_Seed",
-          "expandedAreas:Loblolly_Pine_Seed",
-          "expandedAreas:Redwood_Tree_Seed"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Bird_Nest",
-        "ids": [
-          "expandedAreas:Pine_Cone",
-          "expandedAreas:Pine_Needles",
-          "expandedAreas:Pine_Resin",
-          "expandedAreas:Pine_Nuts",
-          "expandedAreas:Turpentine"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Seaweed",
-        "ids": [
-          "expandedAreas:Sand"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Carrot_Seeds",
-        "ids": [
-          "expandedAreas:Bell_Pepper_Seed",
-          "expandedAreas:Barley_Seed",
-          "expandedAreas:Jute_Seed",
-          "expandedAreas:Plumm_Seed",
-          "expandedAreas:Firewine_Seed",
-          "expandedAreas:Andlovan_Seed",
-          "expandedAreas:Goldengod_Seed",
-          "expandedAreas:Coffea_Seed",
-          "expandedAreas:Coffee_Beans"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Apple",
-        "ids": [
-          "expandedAreas:Bell_Peppers",
-          "expandedAreas:Dragonfruit",
-          "expandedAreas:Sack_of_Potatoes",
-          "expandedAreas:Sack_of_Onions",
-          "expandedAreas:Sack_of_Cabbage",
-          "expandedAreas:Sack_of_Curry_Leaves",
-          "expandedAreas:Sack_of_Carrots",
-          "expandedAreas:Sack_of_Peppers",
-          "expandedAreas:Basket_of_Tomatoes",
-          "expandedAreas:Basket_of_Sweetcorn",
-          "expandedAreas:Basket_of_Strawberries",
-          "expandedAreas:Basket_of_Cherries",
-          "expandedAreas:Basket_of_Apples"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Shrimp",
-        "ids": [
-          "expandedAreas:Raw_Grub"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Herring",
-        "ids": [
-          "expandedAreas:Cooked_Grub"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Burnt_Herring",
-        "ids": [
-          "expandedAreas:Burnt_Grub"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Herring_Perfect",
-        "ids": [
-          "expandedAreas:Cooked_Grub_Perfect"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Chicken_Soup",
-        "ids": [
-          "expandedAreas:Chicken_Pesto_Pasta"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Chicken_Soup_Perfect",
-        "ids": [
-          "expandedAreas:Chicken_Pesto_Pasta_Perfect"
-        ]
-      },
-      {
-        "insertAt": "Before",
-        "beforeID": "melvorF:Basic_Bag",
-        "ids": [
-          "expandedAreas:Basket"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "expandedAreas:Basket",
-        "ids": [
-          "expandedAreas:Sack"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Thiefs_Moneysack",
-        "ids": [
-          "expandedAreas:Pocket_Sand"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Jadestone",
-        "ids": [
-          "expandedAreas:Topaz_Dust",
-          "expandedAreas:Sapphire_Dust",
-          "expandedAreas:Emerald_Dust",
-          "expandedAreas:Ruby_Dust",
-          "expandedAreas:Diamond_Dust"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Giant_Club",
-        "ids": [
-          "expandedAreas:Blackjack"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Ring_Of_Wealth",
-        "ids": [
-          "expandedAreas:Prosperous_Necklace"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Priest_Hat",
-        "ids": [
-          "expandedAreas:Monk_Robe_Top",
-          "expandedAreas:Monk_Robe_Bottoms"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Big_Bones",
-        "ids": [
-          "expandedAreas:Baby_Dragon_Bones"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Magic_Bones",
-        "ids": [
-          "expandedAreas:Superior_Dragon_Bones"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Bones",
-        "ids": [
-          "expandedAreas:Monkey_Bones"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Amulet_of_Magic",
-        "ids": [
-          "expandedAreas:Amulet_of_Occults"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Tormented_Ring",
-        "ids": [
-          "expandedAreas:Tormented_Bracelet"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Ancient_Rune",
-        "ids": [
-          "expandedAreas:Wrath_Rune"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Staff_of_Earth",
-        "ids": [
-          "expandedAreas:Staff_of_Dust"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Earth_Battlestaff",
-        "ids": [
-          "expandedAreas:Dust_Battlestaff"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Mystic_Earth_Staff",
-        "ids": [
-          "expandedAreas:Mystic_Dust_Staff"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Earth_Imbued_Wand",
-        "ids": [
-          "expandedAreas:Dust_Imbued_Wand",
-          "expandedAreas:Air_Elementalist_Staff",
-          "expandedAreas:Water_Elementalist_Staff",
-          "expandedAreas:Earth_Elementalist_Staff",
-          "expandedAreas:Fire_Elementalist_Staff"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Air_Expert_Wizard_Boots",
-        "ids": [
-          "expandedAreas:Air_Elementalist_Hat",
-          "expandedAreas:Air_Elementalist_Robes",
-          "expandedAreas:Air_Elementalist_Boots"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Water_Expert_Wizard_Boots",
-        "ids": [
-          "expandedAreas:Water_Elementalist_Hat",
-          "expandedAreas:Water_Elementalist_Robes",
-          "expandedAreas:Water_Elementalist_Boots"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Earth_Expert_Wizard_Boots",
-        "ids": [
-          "expandedAreas:Earth_Elementalist_Hat",
-          "expandedAreas:Earth_Elementalist_Robes",
-          "expandedAreas:Earth_Elementalist_Boots"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Fire_Expert_Wizard_Boots",
-        "ids": [
-          "expandedAreas:Fire_Elementalist_Hat",
-          "expandedAreas:Fire_Elementalist_Robes",
-          "expandedAreas:Fire_Elementalist_Boots"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "expandedAreas:Fire_Elementalist_Boots",
-        "ids": [
-          "expandedAreas:Pureform_Rune",
-          "expandedAreas:Pure_Elementalist_Hat",
-          "expandedAreas:Pure_Elementalist_Robes",
-          "expandedAreas:Pure_Elementalist_Boots"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Enchanted_Cape",
-        "ids": [
-          "expandedAreas:Elemental_Cape"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Book_Of_Scholars",
-        "ids": [
-          "expandedAreas:Mysterious_Tome",
-          "expandedAreas:Wispy_Page",
-          "expandedAreas:Tome_of_Air",
-          "expandedAreas:Waterlogged_Page",
-          "expandedAreas:Tome_of_Water",
-          "expandedAreas:Muddy_Page",
-          "expandedAreas:Tome_of_Earth",
-          "expandedAreas:Burnt_Page",
-          "expandedAreas:Tome_of_Fire",
-          "expandedAreas:Tome_of_the_Elements"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Mystic_Fire_Staff",
-        "ids": [
-          "expandedAreas:Ancient_Staff"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Magic_Wand_Elite",
-        "ids": [
-          "expandedAreas:Pure_Elementalist_Sceptre"
-        ]
-      },
-      {
-        "insertAt": "Before",
-        "beforeID": "melvorF:Staff_of_Air",
-        "ids": [
-          "expandedAreas:Golbin_Staff"
-        ]
-      },
-      {
-        "insertAt": "Before",
-        "beforeID": "melvorD:Air_Rune",
-        "ids": [
-          "expandedAreas:Air_Rune_Shard",
-          "expandedAreas:Water_Rune_Shard",
-          "expandedAreas:Earth_Rune_Shard",
-          "expandedAreas:Fire_Rune_Shard"
-        ]
-      },
-      {
-        "insertAt": "Before",
-        "beforeID": "melvorF:Warlock_Ring",
-        "ids": [
-          "expandedAreas:Orb_of_the_Elements"
-        ]
-      },
-      {
-        "insertAt": "Before",
-        "beforeID": "melvorF:Wizards_Scroll",
-        "ids": [
-          "expandedAreas:Fragmented_Elemental_Rune",
-          "expandedAreas:Eye_of_Air",
-          "expandedAreas:Eye_of_Water",
-          "expandedAreas:Eye_of_Earth",
-          "expandedAreas:Eye_of_Fire"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Eyeball",
-        "ids": [
-          "expandedAreas:Green_Dragon_Scale",
-          "expandedAreas:Blue_Dragon_Scale",
-          "expandedAreas:Red_Dragon_Scale",
-          "expandedAreas:Black_Dragon_Scale",
-          "expandedAreas:Dragonscale_Dust"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Melee_Strength_Potion_IV",
-        "ids": [
-          "expandedAreas:Beer",
-          "expandedAreas:Keg_of_Beer"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Ranged_Assistance_Potion_IV",
-        "ids": [
-          "expandedAreas:Burn_Relief_Potion_I",
-          "expandedAreas:Burn_Relief_Potion_II",
-          "expandedAreas:Burn_Relief_Potion_III",
-          "expandedAreas:Burn_Relief_Potion_IV"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Lethal_Toxins_Potion_IV",
-        "ids": [
-          "expandedAreas:Antidragon_Potion_I",
-          "expandedAreas:Antidragon_Potion_II",
-          "expandedAreas:Antidragon_Potion_III",
-          "expandedAreas:Antidragon_Potion_IV",
-          "expandedAreas:Volatile_Potion_I",
-          "expandedAreas:Volatile_Potion_II",
-          "expandedAreas:Volatile_Potion_III",
-          "expandedAreas:Volatile_Potion_IV"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Damage_Reduction_Potion_IV",
-        "ids": [
-          "expandedAreas:Super_Antidragon_Potion_I",
-          "expandedAreas:Super_Antidragon_Potion_II",
-          "expandedAreas:Super_Antidragon_Potion_III",
-          "expandedAreas:Super_Antidragon_Potion_IV"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Lemon",
-        "ids": [
-          "expandedAreas:Monkey_Dung",
-          "expandedAreas:Chieftain_Eriks_Head"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorD:Magic_Chest",
-        "ids": [
-          "expandedAreas:Raid_Spoils"
-        ]
-      },
-      {
-        "insertAt": "Before",
-        "beforeID": "melvorF:Crate_Of_Basic_Supplies",
-        "ids": [
-          "expandedAreas:Damaged_Supply_Crate"
-        ]
-      },
-      {
-        "insertAt": "After",
-        "afterID": "melvorF:Crate_Of_Basic_Supplies",
-        "ids": [
-          "expandedAreas:Food_Sack"
-        ]
-      }
     ]
   },
   "modifications": {
@@ -19902,14 +19902,6 @@
       },
       {
         "id": "melvorD:Bobs_Rake",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Tool"
-          ]
-        }
-      },
-      {
-        "id": "melvorF:Almighty_Lute",
         "validSlots": {
           "add": [
             "expandedAreas:Tool"
@@ -21353,6 +21345,10 @@
             {
               "id": "melvorF:Apple",
               "categoryID": "expandedAreas:Fruit_Tree"
+            },
+            {
+              "id": "melvorTotH:Bananas",
+              "categoryID": "expandedAreas:Fruit_Tree"
             }
           ]
         }
@@ -21537,9 +21533,117 @@
         "difficulty": [
           2
         ]
+      },
+      {
+        "id": "melvorF:Miolite_Caves",
+        "difficulty": [
+          2
+        ],
+        "entryRequirements": {
+          "remove": [
+            "melvorD:SkillLevel"
+          ],
+          "add": [
+            {
+              "skillID": "melvorD:Slayer",
+              "level": 50,
+              "type": "SkillLevel"
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorD:Deep_Sea_Ship",
+        "difficulty": [
+          2
+        ]
+      },
+      {
+        "id": "melvorD:Frozen_Cove",
+        "difficulty": [
+          2
+        ]
+      },
+      {
+        "id": "melvorAoD:Unholy_Forest",
+        "difficulty": [
+          3
+        ]
+      },
+      {
+        "id": "melvorF:Dragons_Den",
+        "difficulty": [
+          3
+        ]
       }
     ],
     "monsters": [
+      {
+        "id": "melvorF:Aeris",
+        "levels": {
+          "Hitpoints": 1050,
+          "Attack": 550,
+          "Strength": 550,
+          "Defence": 550,
+          "Ranged": 800,
+          "Magic": 550
+        }
+      },
+      {
+        "id": "melvorF:Glacia",
+        "levels": {
+          "Hitpoints": 1150,
+          "Attack": 600,
+          "Strength": 600,
+          "Defence": 500,
+          "Ranged": 300,
+          "Magic": 600
+        }
+      },
+      {
+        "id": "melvorF:Terran",
+        "levels": {
+          "Hitpoints": 1250,
+          "Attack": 525,
+          "Strength": 550,
+          "Defence": 650,
+          "Ranged": 300,
+          "Magic": 300
+        }
+      },
+      {
+        "id": "melvorF:Ragnar",
+        "levels": {
+          "Hitpoints": 1100,
+          "Attack": 700,
+          "Strength": 600,
+          "Defence": 600,
+          "Ranged": 300,
+          "Magic": 400
+        }
+      },
+      {
+        "id": "melvorF:Ahrenia",
+        "levels": {
+          "Hitpoints": 1050,
+          "Attack": 820,
+          "Strength": 820,
+          "Defence": 820,
+          "Ranged": 820,
+          "Magic": 820
+        }
+      },
+      {
+        "id": "melvorAoD:Nagaia",
+        "levels": {
+          "Hitpoints": 1125,
+          "Attack": 1,
+          "Strength": 1,
+          "Defence": 575,
+          "Ranged": 750,
+          "Magic": 500
+        }
+      },
       {
         "id": "melvorD:JuniorFarmer",
         "lootChance": 100,

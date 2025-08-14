@@ -1,11 +1,7 @@
-Accessory Ideas
-
-Tattoo Ideas
-
-
-pages
-gameModes
+damageTypes
 "skillLevelCapIncreases"
+gameModes
+pages
 equipmentSlots
 items
 attackStyles
@@ -16,15 +12,17 @@ combatEffects
 "combatPassives"
 "monsters"
 "combatAreas"
+slayerAreas
 "dungeons"
-slayerTaskCategories
+combatEvents
 "combatAreaCategories"
 "combatAreaCategoryOrder"
+slayerTaskCategories
 prayers
-curseSpells
-auroraSpells
 "attackSpellbooks"
 "attackSpells"
+curseSpells
+auroraSpells
 "pets"
 "shopCategories"
 "shopCategoryOrder"
@@ -32,16 +30,15 @@ shopPurchases
 shopDisplayOrder
 shopUpgradeChains
 itemUpgrades
-tutorialStages
-tutorialStageOrder
+itemSynergies
+strongholds
+bankSortOrder
 randomGems
 randomSuperiorGems
-spiderLairMonsters
 skillData
-bankSortOrder
 lore
-golbinRaid
 combatEffects
+combatEffectsTables
 modifiers
 
 RARITY:
