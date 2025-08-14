@@ -72,15 +72,6 @@
                 "category": "Cooking",
                 "type": "Ingredient",
                 "media": "assets/items/Food/Barley_Malt.png",
-                "modifiers": {
-                    "skillItemDoublingChance": [
-                        {
-                            "categoryID": "expandedAreas:Fermenting_Tank",
-                            "skillID": "melvorD:Cooking",
-                            "value": 1.5
-                        }
-                    ]
-                },
                 "ignoreCompletion": false,
                 "obtainFromItemLog": false,
                 "golbinRaidExclusive": false,
@@ -266,7 +257,25 @@
                             "level": 59,
                             "baseInterval": 30000,
                             "baseQuantity": 8,
-                            "categoryID": "expandedAreas:Brewing_Barrel",
+                            "categoryID": "expandedAreas:Fermenting_Tank",
+                            "subcategoryID": "expandedAreas:Alcohol",
+                            "itemCosts": [
+                                {
+                                    "id": "expandedAreas:Bucket_of_Water",
+                                    "quantity": 1
+                                }
+                            ],
+                            "currencyCosts": []
+                        },
+                        {
+                            "id": "Apple_Cider",
+                            "productID": "expandedAreas:Apple_Cider",
+                            "perfectCookID": "expandedAreas:Apple_Cider_m",
+                            "baseExperience": 450,
+                            "level": 14,
+                            "baseInterval": 30000,
+                            "baseQuantity": 8,
+                            "categoryID": "expandedAreas:Fermenting_Tank",
                             "subcategoryID": "expandedAreas:Alcohol",
                             "itemCosts": [
                                 {
