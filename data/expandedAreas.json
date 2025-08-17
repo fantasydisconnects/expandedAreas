@@ -55,6 +55,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Basic_Curry.png",
+        "customDescription": "Simple, elegant, delicious.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -68,6 +69,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Grub_Grub.png",
+        "customDescription": "Surprisingly flavourful, despite the protein source.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -81,6 +83,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Spicy_Curry.png",
+        "customDescription": "Not as hot as I'd like it to be, but still spicy.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -94,6 +97,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Shrimp_Curry.png",
+        "customDescription": "Ahhh, nothing beats shrimp curry.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -107,6 +111,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Massaman_Curry.png",
+        "customDescription": "Had to make do with ingredients on hand, but it turned out pretty good!",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -120,6 +125,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Spicy_Papaya_Curry.png",
+        "customDescription": "Who knew fruit and curry would go so well together?",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -133,6 +139,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Gammonberry_Pie.png",
+        "customDescription": "Tastes like gammonberry.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -146,6 +153,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Booberry_Pie.png",
+        "customDescription": "Tastes like booberry. Spooky.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -159,6 +167,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Yellowberry_Pie.png",
+        "customDescription": "Tastes like yellowberry.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -172,6 +181,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Blueberry_Pie.png",
+        "customDescription": "Tastes like blueberry.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -185,6 +195,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Coconut_Cream_Pie.png",
+        "customDescription": "Heh heh—\"cream pie.\".",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -198,6 +209,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Mumuberry_Pie.png",
+        "customDescription": "Tastes like mumuberry.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -210,7 +222,8 @@
         "name": "Pineapple Cake",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Pineapple_cake.png",
+        "media": "assets/items/Food/Pineapple_Cake.png",
+        "customDescription": "Rightside up.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -223,7 +236,8 @@
         "name": "Coffee Cake",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Coffee_cake.png",
+        "media": "assets/items/Food/Coffee_Cake.png",
+        "customDescription": "Rich and smooth, but gives me the jitters.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -236,7 +250,8 @@
         "name": "Dragonfruit Cake",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Dragonfruit_cake.png",
+        "media": "assets/items/Food/Dragonfruit_Cake.png",
+        "customDescription": "Don't know what I expected...",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -249,7 +264,8 @@
         "name": "Stuffed Pepper",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Stuffed_Pepper.png",
+        "media": "assets/items/Food/Stuffed_Pepper.png",
+        "customDescription": "Better than killing golbins!",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -262,7 +278,8 @@
         "name": "Tomato Juice",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Tomato_Juice.png",
+        "media": "assets/items/Food/Tomato_Juice.png",
+        "customDescription": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -278,12 +295,7 @@
               "value": 25
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 10
-                }
-              ]
+              "autoEatEfficiency": 10
             }
           }
         ]
@@ -293,7 +305,8 @@
         "name": "Strawberry Juice",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Strawberry_Juice.png",
+        "media": "assets/items/Food/Strawberry_Juice.png",
+        "customDescription": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -309,12 +322,7 @@
               "value": 25
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 10
-                }
-              ]
+              "autoEatEfficiency": 10
             }
           }
         ]
@@ -324,7 +332,8 @@
         "name": "Orange Juice",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Orange_Juice.png",
+        "media": "assets/items/Food/Orange_Juice.png",
+        "customDescription": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -340,12 +349,7 @@
               "value": 25
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 10
-                }
-              ]
+              "autoEatEfficiency": 10
             }
           }
         ]
@@ -355,7 +359,8 @@
         "name": "Cherry Juice",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Cherry_Juice.png",
+        "media": "assets/items/Food/Cherry_Juice.png",
+        "customDescription": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -371,12 +376,7 @@
               "value": 25
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 10
-                }
-              ]
+              "autoEatEfficiency": 10
             }
           }
         ]
@@ -386,7 +386,8 @@
         "name": "Watermelon Juice",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Watermelon_Juice.png",
+        "media": "assets/items/Food/Watermelon_Juice.png",
+        "customDescription": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -402,12 +403,7 @@
               "value": 25
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 10
-                }
-              ]
+              "autoEatEfficiency": 10
             }
           }
         ]
@@ -417,7 +413,8 @@
         "name": "Pineapple Juice",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Pineapple_Juice.png",
+        "media": "assets/items/Food/Pineapple_Juice.png",
+        "customDescription": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -433,12 +430,7 @@
               "value": 25
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 10
-                }
-              ]
+              "autoEatEfficiency": 10
             }
           }
         ]
@@ -448,7 +440,8 @@
         "name": "Papaya Juice",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Papaya_Juice.png",
+        "media": "assets/items/Food/Papaya_Juice.png",
+        "customDescription": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -464,12 +457,7 @@
               "value": 25
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 10
-                }
-              ]
+              "autoEatEfficiency": 10
             }
           }
         ]
@@ -479,7 +467,8 @@
         "name": "Green Smoothie",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Green_Smoothie.png",
+        "media": "assets/items/Food/Green_Smoothie.png",
+        "customDescription": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -495,12 +484,7 @@
               "value": 25
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 10
-                }
-              ]
+              "autoEatEfficiency": 10
             }
           }
         ]
@@ -510,7 +494,8 @@
         "name": "Coconut Water",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Coconut_Water.png",
+        "media": "assets/items/Food/Coconut_Water.png",
+        "customDescription": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -526,12 +511,7 @@
               "value": 25
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 10
-                }
-              ]
+              "autoEatEfficiency": 10
             }
           }
         ]
@@ -541,7 +521,8 @@
         "name": "Carrot Juice",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Carrot_Juice.png",
+        "media": "assets/items/Food/Carrot_Juice.png",
+        "customDescription": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -557,12 +538,7 @@
               "value": 25
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 10
-                }
-              ]
+              "autoEatEfficiency": 10
             }
           }
         ]
@@ -572,7 +548,8 @@
         "name": "Apple Juice",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Apple_Juice.png",
+        "media": "assets/items/Food/Apple_Juice.png",
+        "customDescription": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -588,12 +565,7 @@
               "value": 25
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 10
-                }
-              ]
+              "autoEatEfficiency": 10
             }
           }
         ]
@@ -603,7 +575,8 @@
         "name": "Dragonfruit Smoothie",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Dragonfruit_Smoothie.png",
+        "media": "assets/items/Food/Dragonfruit_Smoothie.png",
+        "customDescription": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -619,12 +592,7 @@
               "value": 25
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 10
-                }
-              ]
+              "autoEatEfficiency": 10
             }
           }
         ]
@@ -634,7 +602,8 @@
         "name": "Super Delicious Power Smoothie",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Super_Delicious_Power_Smoothie.png",
+        "media": "assets/items/Food/Super_Delicious_Power_Smoothie.png",
+        "customDescription": "+15% Auto Eat Efficiency when at or below 25% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -650,12 +619,7 @@
               "value": 25
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 10
-                }
-              ]
+              "autoEatEfficiency": 15
             }
           }
         ]
@@ -666,6 +630,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Basic_Curry_Perfect.png",
+        "customDescription": "Like Basic Curry, but perfect.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -679,6 +644,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Grub_Grub_Perfect.png",
+        "customDescription": "Like Grub Grub, but perfect.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -692,6 +658,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Spicy_Curry_Perfect.png",
+        "customDescription": "Like Spicy Curry, but perfect.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -705,6 +672,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Shrimp_Curry_Perfect.png",
+        "customDescription": "Like Shrimp Curry, but perfect.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -718,6 +686,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Massaman_Curry_Perfect.png",
+        "customDescription": "Like Massaman Curry, but perfect.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -731,6 +700,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Spicy_Papaya_Curry_Perfect.png",
+        "customDescription": "Like Spicy Papaya Curry, but perfect.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -744,6 +714,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Gammonberry_Pie_Perfect.png",
+        "customDescription": "Like Gammonberry Pie, but perfect.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -757,6 +728,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Booberry_Pie_Perfect.png",
+        "customDescription": "Like Booberry Pie, but perfect.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -770,6 +742,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Yellowberry_Pie_Perfect.png",
+        "customDescription": "Like Yellowberry Pie, but perfect.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -783,6 +756,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Blueberry_Pie_Perfect.png",
+        "customDescription": "Like Blueberry Pie, but perfect.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -796,6 +770,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Coconut_Cream_Pie_Perfect.png",
+        "customDescription": "Heh heh, it's the perfect \"cream pie.\"",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -809,6 +784,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Mumuberry_Pie_Perfect.png",
+        "customDescription": "Like Mumuberry Pie, but perfect.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -821,7 +797,8 @@
         "name": "Pineapple Cake (Perfect)",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Pineapple_cake_Perfect.png",
+        "media": "assets/items/Food/Pineapple_Cake_Perfect.png",
+        "customDescription": "Like Pineapple Cake, but perfect.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -834,7 +811,8 @@
         "name": "Coffee Cake (Perfect)",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Coffee_cake_Perfect.png",
+        "media": "assets/items/Food/Coffee_Cake_Perfect.png",
+        "customDescription": "Like Coffee Cake, but perfect. And more jitters.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -847,7 +825,8 @@
         "name": "Dragonfruit Cake (Perfect)",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Dragonfruit_cake_Perfect.png",
+        "media": "assets/items/Food/Dragonfruit_Cake_Perfect.png",
+        "customDescription": "Still don't know what I expected...",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -860,7 +839,8 @@
         "name": "Stuffed Pepper (Perfect)",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Stuffed_Pepper_Perfect.png",
+        "media": "assets/items/Food/Stuffed_Pepper_Perfect.png",
+        "customDescription": "It's better than killing golbins <em>and</em> dragons!",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -873,7 +853,8 @@
         "name": "Tomato Juice (Perfect)",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Tomato_Juice_Perfect.png",
+        "media": "assets/items/Food/Tomato_Juice_Perfect.png",
+        "customDescription": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -886,15 +867,10 @@
               "character": "Player",
               "type": "Hitpoints",
               "operator": "<=",
-              "value": 25
+              "value": 27.5
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 15.0
-                }
-              ]
+              "autoEatEfficiency": 1
             }
           }
         ]
@@ -904,7 +880,8 @@
         "name": "Strawberry Juice (Perfect)",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Strawberry_Juice_Perfect.png",
+        "media": "assets/items/Food/Strawberry_Juice_Perfect.png",
+        "customDescription": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -917,15 +894,10 @@
               "character": "Player",
               "type": "Hitpoints",
               "operator": "<=",
-              "value": 25
+              "value": 27.5
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 15.0
-                }
-              ]
+              "autoEatEfficiency": 11
             }
           }
         ]
@@ -935,7 +907,8 @@
         "name": "Orange Juice (Perfect)",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Orange_Juice_Perfect.png",
+        "media": "assets/items/Food/Orange_Juice_Perfect.png",
+        "customDescription": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -948,15 +921,10 @@
               "character": "Player",
               "type": "Hitpoints",
               "operator": "<=",
-              "value": 25
+              "value": 27.5
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 15.0
-                }
-              ]
+              "autoEatEfficiency": 11
             }
           }
         ]
@@ -966,7 +934,8 @@
         "name": "Cherry Juice (Perfect)",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Cherry_Juice_Perfect.png",
+        "media": "assets/items/Food/Cherry_Juice_Perfect.png",
+        "customDescription": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -979,15 +948,10 @@
               "character": "Player",
               "type": "Hitpoints",
               "operator": "<=",
-              "value": 25
+              "value": 27.5
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 15.0
-                }
-              ]
+              "autoEatEfficiency": 11
             }
           }
         ]
@@ -997,7 +961,8 @@
         "name": "Watermelon Juice (Perfect)",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Watermelon_Juice_Perfect.png",
+        "media": "assets/items/Food/Watermelon_Juice_Perfect.png",
+        "customDescription": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -1010,15 +975,10 @@
               "character": "Player",
               "type": "Hitpoints",
               "operator": "<=",
-              "value": 25
+              "value": 27.5
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 15.0
-                }
-              ]
+              "autoEatEfficiency": 11
             }
           }
         ]
@@ -1028,7 +988,8 @@
         "name": "Pineapple Juice (Perfect)",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Pineapple_Juice_Perfect.png",
+        "media": "assets/items/Food/Pineapple_Juice_Perfect.png",
+        "customDescription": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -1041,15 +1002,10 @@
               "character": "Player",
               "type": "Hitpoints",
               "operator": "<=",
-              "value": 25
+              "value": 27.5
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 15.0
-                }
-              ]
+              "autoEatEfficiency": 11
             }
           }
         ]
@@ -1059,7 +1015,8 @@
         "name": "Papaya Juice (Perfect)",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Papaya_Juice_Perfect.png",
+        "media": "assets/items/Food/Papaya_Juice_Perfect.png",
+        "customDescription": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -1072,15 +1029,10 @@
               "character": "Player",
               "type": "Hitpoints",
               "operator": "<=",
-              "value": 25
+              "value": 27.5
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 15.0
-                }
-              ]
+              "autoEatEfficiency": 11
             }
           }
         ]
@@ -1090,7 +1042,8 @@
         "name": "Green Smoothie (Perfect)",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Green_Smoothie_Perfect.png",
+        "media": "assets/items/Food/Green_Smoothie_Perfect.png",
+        "customDescription": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -1103,15 +1056,10 @@
               "character": "Player",
               "type": "Hitpoints",
               "operator": "<=",
-              "value": 25
+              "value": 27.5
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 15.0
-                }
-              ]
+              "autoEatEfficiency": 11
             }
           }
         ]
@@ -1121,7 +1069,8 @@
         "name": "Coconut Water (Perfect)",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Coconut_Water_Perfect.png",
+        "media": "assets/items/Food/Coconut_Water_Perfect.png",
+        "customDescription": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -1134,15 +1083,10 @@
               "character": "Player",
               "type": "Hitpoints",
               "operator": "<=",
-              "value": 25
+              "value": 27.5
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 15.0
-                }
-              ]
+              "autoEatEfficiency": 11
             }
           }
         ]
@@ -1152,7 +1096,8 @@
         "name": "Carrot Juice (Perfect)",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Carrot_Juice_Perfect.png",
+        "media": "assets/items/Food/Carrot_Juice_Perfect.png",
+        "customDescription": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -1165,15 +1110,10 @@
               "character": "Player",
               "type": "Hitpoints",
               "operator": "<=",
-              "value": 25
+              "value": 27.5
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 15.0
-                }
-              ]
+              "autoEatEfficiency": 11
             }
           }
         ]
@@ -1183,7 +1123,8 @@
         "name": "Apple Juice (Perfect)",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Apple_Juice_Perfect.png",
+        "media": "assets/items/Food/Apple_Juice_Perfect.png",
+        "customDescription": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -1196,15 +1137,10 @@
               "character": "Player",
               "type": "Hitpoints",
               "operator": "<=",
-              "value": 25
+              "value": 27.5
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 15.0
-                }
-              ]
+              "autoEatEfficiency": 11
             }
           }
         ]
@@ -1214,7 +1150,8 @@
         "name": "Dragonfruit Smoothie (Perfect)",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Dragonfruit_Smoothie_Perfect.png",
+        "media": "assets/items/Food/Dragonfruit_Smoothie_Perfect.png",
+        "customDescription": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -1227,15 +1164,10 @@
               "character": "Player",
               "type": "Hitpoints",
               "operator": "<=",
-              "value": 25
+              "value": 27.5
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 15.0
-                }
-              ]
+              "autoEatEfficiency": 11
             }
           }
         ]
@@ -1245,7 +1177,8 @@
         "name": "Super Delicious Power Smoothie (Perfect)",
         "category": "Cooking",
         "type": "Food",
-        "media": "assets/media/bank/Super_Delicious_Power_Smoothie_Perfect.png",
+        "media": "assets/items/Food/Super_Delicious_Power_Smoothie_Perfect.png",
+        "customDescription": "+16.5% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -1258,15 +1191,10 @@
               "character": "Player",
               "type": "Hitpoints",
               "operator": "<=",
-              "value": 25
+              "value": 27.5
             },
             "modifiers": {
-              "foodHealingValue": [
-                {
-                  "actionID": "expandedAreas:Drinks",
-                  "value": 15.0
-                }
-              ]
+              "autoEatEfficiency": 16.5
             }
           }
         ]
@@ -1281,8 +1209,8 @@
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 100,
-        "customDescription": "+20% Chance to Brew a Mature drink in Cooking. One item is consumed per Brewing action.",
+        "sellsFor": 500,
+        "customDescription": "+20% Chance to Brew Mature Alcohol in Cooking, but takes 3x as long to Brew Alcohol. One item is consumed per Brewing action.",
         "tier": "none",
         "validSlots": [
           "Consumable"
@@ -1293,8 +1221,75 @@
         "modifiers": {
           "perfectCookChance": [
             {
-              "categoryID": "expandedAreas:Brewing_Barrel",
+              "categoryID": "expandedAreas:Fermenting_Tank",
               "value": 20
+            }
+          ],
+          "skillInterval": [
+            {
+              "actionID": "expandedAreas:Apple_Cider",
+              "skillID": "melvorD:Cooking",
+              "value": 300
+            },
+            {
+              "actionID": "expandedAreas:Darkblood_Grog",
+              "skillID": "melvorD:Cooking",
+              "value": 300
+            },
+            {
+              "actionID": "expandedAreas:Dragonbane_Mead",
+              "skillID": "melvorD:Cooking",
+              "value": 300
+            },
+            {
+              "actionID": "expandedAreas:Facekicker",
+              "skillID": "melvorD:Cooking",
+              "value": 300
+            },
+            {
+              "actionID": "expandedAreas:Fools_Gold_Ale",
+              "skillID": "melvorD:Cooking",
+              "value": 300
+            },
+            {
+              "actionID": "expandedAreas:Holy_Cow_Brew",
+              "skillID": "melvorD:Cooking",
+              "value": 300
+            },
+            {
+              "actionID": "expandedAreas:Huntress_Stout",
+              "skillID": "melvorD:Cooking",
+              "value": 300
+            },
+            {
+              "actionID": "expandedAreas:One_Foot_in_the_Grave",
+              "skillID": "melvorD:Cooking",
+              "value": 300
+            },
+            {
+              "actionID": "expandedAreas:Sailors_Respite",
+              "skillID": "melvorD:Cooking",
+              "value": 300
+            },
+            {
+              "actionID": "expandedAreas:Sourberry_Ale",
+              "skillID": "melvorD:Cooking",
+              "value": 300
+            },
+            {
+              "actionID": "expandedAreas:The_Firebreather",
+              "skillID": "melvorD:Cooking",
+              "value": 300
+            },
+            {
+              "actionID": "expandedAreas:The_Green_Golbin",
+              "skillID": "melvorD:Cooking",
+              "value": 300
+            },
+            {
+              "actionID": "expandedAreas:The_Two_Flower",
+              "skillID": "melvorD:Cooking",
+              "value": 300
             }
           ]
         },
@@ -1302,7 +1297,7 @@
           {
             "type": "CookingAction",
             "categoryIDs": [
-              "expandedAreas:Brewing_Barrel"
+              "expandedAreas:Fermenting_Tank"
             ]
           }
         ]
@@ -1332,20 +1327,6 @@
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "customDescription": "A bag of ale yeast used for brewing ales, malts, and grog."
-      },
-      {
-        "itemType": "Food",
-        "id": "Barley_Malt",
-        "name": "Barley Malt",
-        "category": "Cooking",
-        "type": "Ingredient",
-        "media": "assets/items/Food/Barley_Malt.png",
-        "ignoreCompletion": false,
-        "obtainFromItemLog": false,
-        "golbinRaidExclusive": false,
-        "sellsFor": 4,
-        "healsFor": 0.2,
-        "customDescription": "An ingredient used in brewing."
       },
       {
         "id": "Holy_Cow_Brew",
@@ -2162,7 +2143,7 @@
         "category": "Cooking",
         "type": "Potion",
         "media": "assets/items/Potion/The_Firebreather.png",
-        "customDescription": "+20% Chance to receive Random Products (e.g. Ash) in Firemaking and +10% Firemaking XP.<br>+10% Firemaking Interval.",
+        "customDescription": "+10% Chance to receive Ash and Coal in Firemaking and +5% Firemaking XP.<br>+5% Firemaking Interval.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -2172,28 +2153,25 @@
         "sellsFor": 65,
         "itemType": "Potion",
         "modifiers": {
-          "randomProductChance": [
-            {
-              "skillID": "melvorD:Firemaking",
-              "value": 20
-            }
-          ],
           "skillXP": [
             {
               "skillID": "melvorD:Firemaking",
-              "value": 10
+              "value": 5
             }
           ],
           "skillInterval": [
             {
               "skillID": "melvorD:Firemaking",
-              "value": 10
+              "value": 5
             }
           ]
         },
         "consumesOn": [
           {
-            "type": "FiremakingAction"
+            "type": "FiremakingAction",
+            "realms": [
+              "melvorD:Melvor"
+            ]
           }
         ]
       },
@@ -2203,7 +2181,7 @@
         "category": "Cooking",
         "type": "Potion",
         "media": "assets/items/Potion/The_Firebreather_m.png",
-        "customDescription": "+40% Chance to receive Random Products (e.g. Ash) in Firemaking and +20% Firemaking XP.<br>+20% Firemaking Interval.",
+        "customDescription": "+15% Chance to receive Random Products (e.g. Ash) in Firemaking and +7.5% Firemaking XP.<br>+7.5% Firemaking Interval.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -2213,28 +2191,25 @@
         "sellsFor": 130,
         "itemType": "Potion",
         "modifiers": {
-          "randomProductChance": [
-            {
-              "skillID": "melvorD:Firemaking",
-              "value": 40
-            }
-          ],
           "skillXP": [
             {
               "skillID": "melvorD:Firemaking",
-              "value": 20
+              "value": 7.5
             }
           ],
           "skillInterval": [
             {
               "skillID": "melvorD:Firemaking",
-              "value": 20
+              "value": 7.5
             }
           ]
         },
         "consumesOn": [
           {
-            "type": "FiremakingAction"
+            "type": "FiremakingAction",
+            "realms": [
+              "melvorD:Melvor"
+            ]
           }
         ]
       },
@@ -3461,7 +3436,7 @@
         "golbinRaidExclusive": false,
         "sellsFor": 2,
         "healsFor": 0.1,
-        "customDescription": "Cook this on a Cooking Fire to make Barley Malt."
+        "customDescription": "Used as an ingredient in Brewing Alcohol."
       },
       {
         "itemType": "Item",
@@ -6745,6 +6720,7 @@
         "itemType": "Food",
         "type": "Food",
         "media": "assets/items/Food/Raw_Grub.png",
+        "customDescription": "A lot smaller than I thought it'd be!",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -6770,6 +6746,7 @@
         "itemType": "Food",
         "type": "Food",
         "media": "assets/items/Food/Cooked_Grub.png",
+        "customDescription": "Can't believe I'm really gonna eat this...",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -6782,6 +6759,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Cooked_Grub_Perfect.png",
+        "customDescription": "Looks more appetizing than it would have been, but still. Yeugh.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -6936,6 +6914,7 @@
         "id": "Coconut",
         "name": "Coconut",
         "media": "assets/items/Food/Coconut.png",
+        "customDescription": "I'm cuckoo for these!",
         "category": "Cooking",
         "type": "Food",
         "itemType": "Food",
@@ -9920,7 +9899,7 @@
         "golbinRaidExclusive": false,
         "sellsFor": 20,
         "healsFor": 3.0,
-        "customDescription": "Nutty."
+        "customDescription": "Nutty. Piney. Just what you want out of these."
       },
       {
         "itemType": "Item",
@@ -10081,6 +10060,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Chicken_Pesto_Pasta.png",
+        "customDescription": "Maybe I could open my own restaurant with this?",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -10094,6 +10074,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Chicken_Pesto_Pasta_Perfect.png",
+        "customDescription": "Okay, this is <em>definitely</em> the best pasta I've had.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -10108,6 +10089,7 @@
         "category": "Crafting",
         "type": "Crafting Material",
         "media": "assets/items/Item/Basket.png",
+        "customDescription": "It's a Basket.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -10120,6 +10102,7 @@
         "category": "Crafting",
         "type": "Crafting Material",
         "media": "assets/items/Item/Sack.png",
+        "customDescription": "It's a Sack.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -10131,6 +10114,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Sack_of_Potatoes.png",
+        "customDescription": "I guess this is what they meant when they said that.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -10144,6 +10128,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Sack_of_Onions.png",
+        "customDescription": "Better keep these away from the potatoes.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -10157,6 +10142,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Sack_of_Cabbage.png",
+        "customDescription": "I know a guy named Andrew who'd probably buy these.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -10170,6 +10156,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Sack_of_Curry_Leaves.png",
+        "customDescription": "So aromatic.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -10183,6 +10170,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Sack_of_Carrots.png",
+        "customDescription": "Hey, what's up, doc?",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -10196,6 +10184,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Bell_Peppers.png",
+        "customDescription": "They don't really look like bells to me.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -10209,6 +10198,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Sack_of_Peppers.png",
+        "customDescription": "Could make a lot of salsa with these.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -10222,6 +10212,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Basket_of_Tomatoes.png",
+        "customDescription": "The apple of the earth: now in a basket!",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -10235,6 +10226,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Basket_of_Sweetcorn.png",
+        "customDescription": "Corny.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -10248,6 +10240,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Basket_of_Strawberries.png",
+        "customDescription": "Maybe I could treat myself to a picnic.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -10261,6 +10254,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Basket_of_Cherries.png",
+        "customDescription": "That's a lot of cherries.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -10274,6 +10268,7 @@
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Basket_of_Apples.png",
+        "customDescription": "How 'bout them apples?",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -20496,12 +20491,24 @@
                 "expandedAreas:Bronze_Fermenting_Tank"
               ],
               "upgradeRequired": true
+            },
+            {
+              "id": "Drink_Station",
+              "media": "assets/skills/cooking/Drink_Station.svg",
+              "name": "Drink Station",
+              "modifierName": "Drink Station",
+              "shopUpgradeIDs": [],
+              "upgradeRequired": false
             }
           ],
           "subcategories": [
             {
               "id": "Alcohol",
               "name": "Alcohol"
+            },
+            {
+              "id": "Drinks",
+              "name": "Drinks"
             },
             {
               "id": "Curry",
@@ -20551,7 +20558,7 @@
                   "quantity": 2
                 },
                 {
-                  "id": "expandedAreas:Barley_Malt",
+                  "id": "expandedAreas:Barley",
                   "quantity": 2
                 },
                 {
@@ -20589,7 +20596,7 @@
                   "quantity": 1
                 },
                 {
-                  "id": "expandedAreas:Barley_Malt",
+                  "id": "expandedAreas:Barley",
                   "quantity": 2
                 },
                 {
@@ -20632,7 +20639,7 @@
                   "quantity": 1
                 },
                 {
-                  "id": "expandedAreas:Barley_Malt",
+                  "id": "expandedAreas:Barley",
                   "quantity": 2
                 },
                 {
@@ -20667,7 +20674,7 @@
                   "quantity": 2
                 },
                 {
-                  "id": "expandedAreas:Barley_Malt",
+                  "id": "expandedAreas:Barley",
                   "quantity": 2
                 },
                 {
@@ -20705,7 +20712,7 @@
                   "quantity": 2
                 },
                 {
-                  "id": "expandedAreas:Barley_Malt",
+                  "id": "expandedAreas:Barley",
                   "quantity": 2
                 },
                 {
@@ -20739,7 +20746,7 @@
                   "quantity": 2
                 },
                 {
-                  "id": "expandedAreas:Barley_Malt",
+                  "id": "expandedAreas:Barley",
                   "quantity": 2
                 },
                 {
@@ -20777,7 +20784,7 @@
                   "quantity": 2
                 },
                 {
-                  "id": "expandedAreas:Barley_Malt",
+                  "id": "expandedAreas:Barley",
                   "quantity": 2
                 },
                 {
@@ -20815,7 +20822,7 @@
                   "quantity": 2
                 },
                 {
-                  "id": "expandedAreas:Barley_Malt",
+                  "id": "expandedAreas:Barley",
                   "quantity": 2
                 },
                 {
@@ -20849,7 +20856,7 @@
                   "quantity": 2
                 },
                 {
-                  "id": "expandedAreas:Barley_Malt",
+                  "id": "expandedAreas:Barley",
                   "quantity": 2
                 },
                 {
@@ -20887,7 +20894,7 @@
                   "quantity": 2
                 },
                 {
-                  "id": "expandedAreas:Barley_Malt",
+                  "id": "expandedAreas:Barley",
                   "quantity": 2
                 },
                 {
@@ -20941,7 +20948,7 @@
                   "quantity": 2
                 },
                 {
-                  "id": "expandedAreas:Barley_Malt",
+                  "id": "expandedAreas:Barley",
                   "quantity": 2
                 },
                 {
@@ -20983,7 +20990,7 @@
                   "quantity": 1
                 },
                 {
-                  "id": "expandedAreas:Curry_Leaves",
+                  "id": "expandedAreas:Curry_Leaf",
                   "quantity": 3
                 }
               ],
@@ -21031,6 +21038,10 @@
                   "quantity": 1
                 },
                 {
+                  "id": "expandedAreas:Curry_Leaf",
+                  "quantity": 3
+                },
+                {
                   "id": "expandedAreas:Bell_Peppers",
                   "quantity": 2
                 }
@@ -21057,7 +21068,7 @@
                   "quantity": 1
                 },
                 {
-                  "id": "expandedAreas:Raw_Shrimp",
+                  "id": "melvorD:Raw_Shrimp",
                   "quantity": 2
                 }
               ],
@@ -21361,7 +21372,7 @@
               "level": 12,
               "baseInterval": 5000,
               "baseQuantity": 1,
-              "categoryID": "expandedAreas:Drinks",
+              "categoryID": "expandedAreas:Drink_Station",
               "subcategoryID": "expandedAreas:Drinks",
               "itemCosts": [
                 {
@@ -21383,7 +21394,7 @@
               "level": 31,
               "baseInterval": 5000,
               "baseQuantity": 1,
-              "categoryID": "expandedAreas:Drinks",
+              "categoryID": "expandedAreas:Drink_Station",
               "subcategoryID": "expandedAreas:Drinks",
               "itemCosts": [
                 {
@@ -21405,7 +21416,7 @@
               "level": 33,
               "baseInterval": 5000,
               "baseQuantity": 1,
-              "categoryID": "expandedAreas:Drinks",
+              "categoryID": "expandedAreas:Drink_Station",
               "subcategoryID": "expandedAreas:Drinks",
               "itemCosts": [
                 {
@@ -21427,7 +21438,7 @@
               "level": 39,
               "baseInterval": 5000,
               "baseQuantity": 1,
-              "categoryID": "expandedAreas:Drinks",
+              "categoryID": "expandedAreas:Drink_Station",
               "subcategoryID": "expandedAreas:Drinks",
               "itemCosts": [
                 {
@@ -21449,7 +21460,7 @@
               "level": 47,
               "baseInterval": 15000,
               "baseQuantity": 1,
-              "categoryID": "expandedAreas:Drinks",
+              "categoryID": "expandedAreas:Drink_Station",
               "subcategoryID": "expandedAreas:Drinks",
               "itemCosts": [
                 {
@@ -21471,7 +21482,7 @@
               "level": 55,
               "baseInterval": 15000,
               "baseQuantity": 1,
-              "categoryID": "expandedAreas:Drinks",
+              "categoryID": "expandedAreas:Drink_Station",
               "subcategoryID": "expandedAreas:Drinks",
               "itemCosts": [
                 {
@@ -21493,7 +21504,7 @@
               "level": 57,
               "baseInterval": 10000,
               "baseQuantity": 1,
-              "categoryID": "expandedAreas:Drinks",
+              "categoryID": "expandedAreas:Drink_Station",
               "subcategoryID": "expandedAreas:Drinks",
               "itemCosts": [
                 {
@@ -21515,7 +21526,7 @@
               "level": 61,
               "baseInterval": 15000,
               "baseQuantity": 1,
-              "categoryID": "expandedAreas:Drinks",
+              "categoryID": "expandedAreas:Drink_Station",
               "subcategoryID": "expandedAreas:Drinks",
               "itemCosts": [
                 {
@@ -21537,7 +21548,7 @@
               "level": 68,
               "baseInterval": 5000,
               "baseQuantity": 1,
-              "categoryID": "expandedAreas:Drinks",
+              "categoryID": "expandedAreas:Drink_Station",
               "subcategoryID": "expandedAreas:Drinks",
               "itemCosts": [
                 {
@@ -21559,7 +21570,7 @@
               "level": 69,
               "baseInterval": 5000,
               "baseQuantity": 1,
-              "categoryID": "expandedAreas:Drinks",
+              "categoryID": "expandedAreas:Drink_Station",
               "subcategoryID": "expandedAreas:Drinks",
               "itemCosts": [
                 {
@@ -21581,7 +21592,7 @@
               "level": 70,
               "baseInterval": 5000,
               "baseQuantity": 1,
-              "categoryID": "expandedAreas:Drinks",
+              "categoryID": "expandedAreas:Drink_Station",
               "subcategoryID": "expandedAreas:Drinks",
               "itemCosts": [
                 {
@@ -21603,7 +21614,7 @@
               "level": 76,
               "baseInterval": 5000,
               "baseQuantity": 1,
-              "categoryID": "expandedAreas:Drinks",
+              "categoryID": "expandedAreas:Drink_Station",
               "subcategoryID": "expandedAreas:Drinks",
               "itemCosts": [
                 {
@@ -21625,7 +21636,7 @@
               "level": 88,
               "baseInterval": 50000,
               "baseQuantity": 1,
-              "categoryID": "expandedAreas:Drinks",
+              "categoryID": "expandedAreas:Drink_Station",
               "subcategoryID": "expandedAreas:Drinks",
               "itemCosts": [
                 {
@@ -23575,6 +23586,54 @@
   },
   "modifications": {
     "items": [
+      {
+        "id": "expandedAreas:The_Firebreather",
+        "modifiers": {
+          "add": {
+            "randomProductChance": [
+              {
+                "skillID": "melvorD:Firemaking",
+                "itemID": "melvorF:Ash",
+                "value": 10
+              },
+              {
+                "skillID": "melvorD:Firemaking",
+                "itemID": "melvorD:Coal_Ore",
+                "value": 10
+              },
+              {
+                "skillID": "melvorD:Firemaking",
+                "itemID": "melvorF:Stardust",
+                "value": 10
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "expandedAreas:The_Firebreather_m",
+        "modifiers": {
+          "add": {
+            "randomProductChance": [
+              {
+                "skillID": "melvorD:Firemaking",
+                "itemID": "melvorF:Ash",
+                "value": 15
+              },
+              {
+                "skillID": "melvorD:Firemaking",
+                "itemID": "melvorD:Coal_Ore",
+                "value": 15
+              },
+              {
+                "skillID": "melvorD:Firemaking",
+                "itemID": "melvorF:Stardust",
+                "value": 15
+              }
+            ]
+          }
+        }
+      },
       {
         "id": "melvorF:Blazing_Lantern",
         "validSlots": {
