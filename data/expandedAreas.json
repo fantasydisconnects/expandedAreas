@@ -50,6 +50,1228 @@
     ],
     "items": [
       {
+        "id": "Basic_Curry",
+        "name": "Basic Curry",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Basic_Curry.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 10,
+        "itemType": "Food",
+        "healsFor": 3.8
+      },
+      {
+        "id": "Grub_Grub",
+        "name": "Grub Grub",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Grub_Grub.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 20,
+        "itemType": "Food",
+        "healsFor": 4.2
+      },
+      {
+        "id": "Spicy_Curry",
+        "name": "Spicy Curry",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Spicy_Curry.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 35,
+        "itemType": "Food",
+        "healsFor": 4.8
+      },
+      {
+        "id": "Shrimp_Curry",
+        "name": "Shrimp Curry",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Shrimp_Curry.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 49,
+        "itemType": "Food",
+        "healsFor": 5.4
+      },
+      {
+        "id": "Massaman_Curry",
+        "name": "Massaman Curry",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Massaman_Curry.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 58,
+        "itemType": "Food",
+        "healsFor": 5.8
+      },
+      {
+        "id": "Spicy_Papaya_Curry",
+        "name": "Spicy_Papaya Curry",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Spicy_Papaya_Curry.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 100,
+        "itemType": "Food",
+        "healsFor": 8.5
+      },
+      {
+        "id": "Gammonberry_Pie",
+        "name": "Gammonberry Pie",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Gammonberry_Pie.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 142,
+        "itemType": "Food",
+        "healsFor": 16
+      },
+      {
+        "id": "Booberry_Pie",
+        "name": "Booberry Pie",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Booberry_Pie.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 167,
+        "itemType": "Food",
+        "healsFor": 17.5
+      },
+      {
+        "id": "Yellowberry_Pie",
+        "name": "Yellowberry Pie",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Yellowberry_Pie.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 190,
+        "itemType": "Food",
+        "healsFor": 19
+      },
+      {
+        "id": "Blueberry_Pie",
+        "name": "Blueberry Pie",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Blueberry_Pie.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 295,
+        "itemType": "Food",
+        "healsFor": 23.5
+      },
+      {
+        "id": "Coconut_Cream_Pie",
+        "name": "Coconut_Cream Pie",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Coconut_Cream_Pie.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 351,
+        "itemType": "Food",
+        "healsFor": 25
+      },
+      {
+        "id": "Mumuberry_Pie",
+        "name": "Mumuberry Pie",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Mumuberry_Pie.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 420,
+        "itemType": "Food",
+        "healsFor": 26.5
+      },
+      {
+        "id": "Pineapple_Cake",
+        "name": "Pineapple Cake",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Pineapple_cake.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 733,
+        "itemType": "Food",
+        "healsFor": 28
+      },
+      {
+        "id": "Coffee_Cake",
+        "name": "Coffee Cake",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Coffee_cake.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 999,
+        "itemType": "Food",
+        "healsFor": 29
+      },
+      {
+        "id": "Dragonfruit_Cake",
+        "name": "Dragonfruit Cake",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Dragonfruit_cake.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1350,
+        "itemType": "Food",
+        "healsFor": 31
+      },
+      {
+        "id": "Stuffed_Pepper",
+        "name": "Stuffed Pepper",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Stuffed_Pepper.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 69,
+        "itemType": "Food",
+        "healsFor": 8
+      },
+      {
+        "id": "Tomato_Juice",
+        "name": "Tomato Juice",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Tomato_Juice.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 10,
+        "itemType": "Food",
+        "healsFor": 8,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 10
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Strawberry_Juice",
+        "name": "Strawberry Juice",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Strawberry_Juice.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 20,
+        "itemType": "Food",
+        "healsFor": 10,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 10
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Orange_Juice",
+        "name": "Orange Juice",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Orange_Juice.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 30,
+        "itemType": "Food",
+        "healsFor": 12,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 10
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Cherry_Juice",
+        "name": "Cherry Juice",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Cherry_Juice.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 20,
+        "itemType": "Food",
+        "healsFor": 14,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 10
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Watermelon_Juice",
+        "name": "Watermelon Juice",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Watermelon_Juice.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 20,
+        "itemType": "Food",
+        "healsFor": 16,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 10
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Pineapple_Juice",
+        "name": "Pineapple Juice",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Pineapple_Juice.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 20,
+        "itemType": "Food",
+        "healsFor": 18,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 10
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Papaya_Juice",
+        "name": "Papaya Juice",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Papaya_Juice.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 20,
+        "itemType": "Food",
+        "healsFor": 19,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 10
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Green_Smoothie",
+        "name": "Green Smoothie",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Green_Smoothie.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 20,
+        "itemType": "Food",
+        "healsFor": 20,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 10
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Coconut_Water",
+        "name": "Coconut Water",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Coconut_Water.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 20,
+        "itemType": "Food",
+        "healsFor": 21,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 10
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Carrot_Juice",
+        "name": "Carrot Juice",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Carrot_Juice.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 20,
+        "itemType": "Food",
+        "healsFor": 22,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 10
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Apple_Juice",
+        "name": "Apple Juice",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Apple_Juice.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 90,
+        "itemType": "Food",
+        "healsFor": 23,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 10
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Dragonfruit_Smoothie",
+        "name": "Dragonfruit Smoothie",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Dragonfruit_Smoothie.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 100,
+        "itemType": "Food",
+        "healsFor": 24,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 10
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Super_Delicious_Power_Smoothie",
+        "name": "Super Delicious Power Smoothie",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Super_Delicious_Power_Smoothie.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1500,
+        "itemType": "Food",
+        "healsFor": 35,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 10
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Basic_Curry_Perfect",
+        "name": "Basic Curry (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Basic_Curry_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 11,
+        "itemType": "Food",
+        "healsFor": 4.2
+      },
+      {
+        "id": "Grub_Grub_Perfect",
+        "name": "Grub Grub (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Grub_Grub_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 22,
+        "itemType": "Food",
+        "healsFor": 4.6
+      },
+      {
+        "id": "Spicy_Curry_Perfect",
+        "name": "Spicy Curry (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Spicy_Curry_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 39,
+        "itemType": "Food",
+        "healsFor": 5.3
+      },
+      {
+        "id": "Shrimp_Curry_Perfect",
+        "name": "Shrimp Curry (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Shrimp_Curry_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 54,
+        "itemType": "Food",
+        "healsFor": 6
+      },
+      {
+        "id": "Massaman_Curry_Perfect",
+        "name": "Massaman Curry (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Massaman_Curry_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 64,
+        "itemType": "Food",
+        "healsFor": 6.4
+      },
+      {
+        "id": "Spicy_Papaya_Curry_Perfect",
+        "name": "Spicy Papaya Curry (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Spicy_Papaya_Curry_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 111,
+        "itemType": "Food",
+        "healsFor": 9.4
+      },
+      {
+        "id": "Gammonberry_Pie_Perfect",
+        "name": "Gammonberry Pie (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Gammonberry_Pie_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 157,
+        "itemType": "Food",
+        "healsFor": 17.6
+      },
+      {
+        "id": "Booberry_Pie_Perfect",
+        "name": "Booberry Pie (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Booberry_Pie_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 184,
+        "itemType": "Food",
+        "healsFor": 19.3
+      },
+      {
+        "id": "Yellowberry_Pie_Perfect",
+        "name": "Yellowberry Pie (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Yellowberry_Pie_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 210,
+        "itemType": "Food",
+        "healsFor": 20.9
+      },
+      {
+        "id": "Blueberry_Pie_Perfect",
+        "name": "Blueberry Pie (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Blueberry_Pie_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 325,
+        "itemType": "Food",
+        "healsFor": 25.9
+      },
+      {
+        "id": "Coconut_Cream_Pie_Perfect",
+        "name": "Coconut_Cream Pie (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Coconut_Cream_Pie_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 387,
+        "itemType": "Food",
+        "healsFor": 27.5
+      },
+      {
+        "id": "Mumuberry_Pie_Perfect",
+        "name": "Mumuberry Pie (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/items/Food/Mumuberry_Pie_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 463,
+        "itemType": "Food",
+        "healsFor": 29.2
+      },
+      {
+        "id": "Pineapple_Cake_Perfect",
+        "name": "Pineapple Cake (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Pineapple_cake_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 807,
+        "itemType": "Food",
+        "healsFor": 31
+      },
+      {
+        "id": "Coffee_Cake_Perfect",
+        "name": "Coffee Cake (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Coffee_cake_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1099,
+        "itemType": "Food",
+        "healsFor": 31.9
+      },
+      {
+        "id": "Dragonfruit_Cake_Perfect",
+        "name": "Dragonfruit Cake (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Dragonfruit_cake_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1486,
+        "itemType": "Food",
+        "healsFor": 34.1
+      },
+      {
+        "id": "Stuffed_Pepper_Perfect",
+        "name": "Stuffed Pepper (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Stuffed_Pepper_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 76,
+        "itemType": "Food",
+        "healsFor": 8.8
+      },
+      {
+        "id": "Tomato_Juice_Perfect",
+        "name": "Tomato Juice (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Tomato_Juice_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 11,
+        "itemType": "Food",
+        "healsFor": 8.8,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 15.0
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Strawberry_Juice_Perfect",
+        "name": "Strawberry Juice (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Strawberry_Juice_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 22,
+        "itemType": "Food",
+        "healsFor": 11.0,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 15.0
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Orange_Juice_Perfect",
+        "name": "Orange Juice (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Orange_Juice_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 33,
+        "itemType": "Food",
+        "healsFor": 13.2,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 15.0
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Cherry_Juice_Perfect",
+        "name": "Cherry Juice (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Cherry_Juice_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 44,
+        "itemType": "Food",
+        "healsFor": 15.4,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 15.0
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Watermelon_Juice_Perfect",
+        "name": "Watermelon Juice (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Watermelon_Juice_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 55,
+        "itemType": "Food",
+        "healsFor": 17.6,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 15.0
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Pineapple_Juice_Perfect",
+        "name": "Pineapple Juice (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Pineapple_Juice_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 66,
+        "itemType": "Food",
+        "healsFor": 19.8,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 15.0
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Papaya_Juice_Perfect",
+        "name": "Papaya Juice (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Papaya_Juice_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 77,
+        "itemType": "Food",
+        "healsFor": 20.9,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 15.0
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Green_Smoothie_Perfect",
+        "name": "Green Smoothie (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Green_Smoothie_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 88,
+        "itemType": "Food",
+        "healsFor": 22.0,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 15.0
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Coconut_Water_Perfect",
+        "name": "Coconut Water (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Coconut_Water_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 99,
+        "itemType": "Food",
+        "healsFor": 23.1,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 15.0
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Carrot_Juice_Perfect",
+        "name": "Carrot Juice (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Carrot_Juice_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 110,
+        "itemType": "Food",
+        "healsFor": 24.2,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 15.0
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Apple_Juice_Perfect",
+        "name": "Apple Juice (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Apple_Juice_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 120,
+        "itemType": "Food",
+        "healsFor": 25.3,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 15.0
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Dragonfruit_Smoothie_Perfect",
+        "name": "Dragonfruit Smoothie (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Dragonfruit_Smoothie_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 110,
+        "itemType": "Food",
+        "healsFor": 26.4,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 15.0
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "Super_Delicious_Power_Smoothie_Perfect",
+        "name": "Super Delicious Power Smoothie (Perfect)",
+        "category": "Cooking",
+        "type": "Food",
+        "media": "assets/media/bank/Super_Delicious_Power_Smoothie_Perfect.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1650,
+        "itemType": "Food",
+        "healsFor": 38.5,
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "type": "Hitpoints",
+              "operator": "<=",
+              "value": 25
+            },
+            "modifiers": {
+              "foodHealingValue": [
+                {
+                  "actionID": "expandedAreas:Drinks",
+                  "value": 15.0
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
         "itemType": "Equipment",
         "id": "The_Good_Stuff",
         "name": "The Good Stuff",
@@ -131,6 +1353,7 @@
         "category": "Cooking",
         "type": "Potion",
         "media": "assets/items/Potion/Holy_Cow_Brew.png",
+        "customDescription": "+10% Food Healing Value and -25% Prayer Point Cost<br>25% Chance to be afflicted with a 15% Slow for 2 turns at the start of a fight.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -154,7 +1377,8 @@
                 "name": "magnitude",
                 "value": 15
               }
-            ]
+            ],
+            "targetOverride": "Self"
           }
         ],
         "charges": 1,
@@ -175,6 +1399,7 @@
         "category": "Cooking",
         "type": "Potion",
         "media": "assets/items/Potion/Holy_Cow_Brew.png",
+        "customDescription": "+15% Food Healing Value and -31% Prayer Point Cost<br>37.5% Chance to be afflicted with a 19% Slow for 2 turns at the start of a fight.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -182,12 +1407,12 @@
         "itemType": "Potion",
         "modifiers": {
           "foodHealingValue": 15,
-          "prayerPointCost": -30
+          "prayerPointCost": -31.25
         },
         "combatEffects": [
           {
             "effectID": "melvorD:Slow",
-            "chance": 50,
+            "chance": 37.5,
             "appliesWhen": "StartOfFight",
             "initialParams": [
               {
@@ -196,7 +1421,7 @@
               },
               {
                 "name": "magnitude",
-                "value": 15
+                "value": 18.75
               }
             ]
           }
@@ -219,20 +1444,28 @@
         "category": "Cooking",
         "type": "Potion",
         "media": "assets/items/Potion/Apple_Cider.png",
+        "customDescription": "-25% Farming Seed Cost and +1.5% Farming Skill XP and Mastery XP.<br>-25% Compost Preservation Chance and -5% Product when Harvesting.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 50,
         "itemType": "Potion",
         "modifiers": {
-          "foodHealingValue": 5,
-          "basePrimaryProductQuantity": [
+          "farmingSeedCost": -25,
+          "skillXP": [
             {
               "skillID": "melvorD:Farming",
-              "value": 15
+              "value": 1.5
             }
           ],
-          "skillXP": [
+          "masteryXP": [
+            {
+              "skillID": "melvorD:Farming",
+              "value": 1.5
+            }
+          ],
+          "compostPreservationChance": -25,
+          "basePrimaryProductQuantity": [
             {
               "skillID": "melvorD:Farming",
               "value": -5
@@ -245,9 +1478,6 @@
         "consumesOn": [
           {
             "type": "FarmingHarvestAction"
-          },
-          {
-            "type": "FoodEaten"
           }
         ]
       },
@@ -257,13 +1487,1088 @@
         "category": "Cooking",
         "type": "Potion",
         "media": "assets/items/Potion/Apple_Cider_m.png",
+        "customDescription": "-37.5% Farming Seed Cost and +2% Farming Skill XP and Mastery XP.<br>-25% Compost Preservation Chance and -7.5% Product when Harvesting.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 100,
         "itemType": "Potion",
         "modifiers": {
-          "foodHealingValue": 10,
+          "farmingSeedCost": -37.5,
+          "skillXP": [
+            {
+              "skillID": "melvorD:Farming",
+              "value": 2
+            }
+          ],
+          "masteryXP": [
+            {
+              "skillID": "melvorD:Farming",
+              "value": 2
+            }
+          ],
+          "compostPreservationChance": -37.5,
+          "basePrimaryProductQuantity": [
+            {
+              "skillID": "melvorD:Farming",
+              "value": -7.5
+            }
+          ]
+        },
+        "charges": 1,
+        "tier": 3,
+        "action": "melvorD:Farming",
+        "consumesOn": [
+          {
+            "type": "FarmingHarvestAction"
+          }
+        ]
+      },
+      {
+        "id": "Darkblood_Grog",
+        "name": "Darkblood Grog",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/Darkblood_Grog.png",
+        "customDescription": "+50 Maximum Hit Points and +2.5% Bleed Lifesteal.<br>-50% Hitpoint Regeneration and 10% chance on enemy hit to be inflicted with Bleed that deals 100% of the damage dealt as damage over 20s.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 450,
+        "itemType": "Potion",
+        "combatEffects": [
+          {
+            "effectID": "melvorD:Bleed100",
+            "chance": 10,
+            "appliesWhen": "HitByAttack",
+            "initialParams": [
+              {
+                "name": "interval",
+                "value": 1000
+              }
+            ],
+            "targetOverride": "Self"
+          }
+        ],
+        "modifiers": {
+          "flatMaxHitpoints": 5,
+          "bleedLifesteal": 2.5,
+          "hitpointRegeneration": -50
+        },
+        "charges": 1,
+        "tier": 3,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "EnemyAttack"
+          }
+        ]
+      },
+      {
+        "id": "Darkblood_Grog_m",
+        "name": "Darkblood Grog (Mature)",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/Darkblood_Grog_m.png",
+        "customDescription": "+75 Maximum Hit Points and +3% Bleed Lifesteal.<br>-75% Hitpoint Regeneration and 12.5% chance on enemy hit to be inflicted with Bleed that deals 200% of the damage dealt as damage over 20s.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 900,
+        "itemType": "Potion",
+        "combatEffects": [
+          {
+            "effectID": "melvorD:Bleed200",
+            "chance": 12.5,
+            "appliesWhen": "HitByAttack",
+            "initialParams": [
+              {
+                "name": "interval",
+                "value": 1000
+              }
+            ],
+            "targetOverride": "Self"
+          }
+        ],
+        "modifiers": {
+          "flatMaxHitpoints": 7.5,
+          "bleedLifesteal": 3,
+          "hitpointRegeneration": -75
+        },
+        "charges": 1,
+        "tier": 3,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "EnemyAttack"
+          }
+        ]
+      },
+      {
+        "id": "Dragonbane_Mead",
+        "name": "Dragonbane Mead",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/Dragonbane_Mead.png",
+        "customDescription": "+10% Maximum Hit and +10% Global Accuracy Rating when afflicted by Burn, but +20% Damage Taken from Dragonbreath and Burn.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 300,
+        "itemType": "Potion",
+        "modifiers": {
+          "burnDOTDamageTaken": 20,
+          "dragonBreathDamage": 20
+        },
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "groupID": "melvorD:BurnDOT",
+              "character": "Player",
+              "type": "CombatEffectGroup"
+            },
+            "modifiers": {
+              "maxHit": 10,
+              "accuracyRating": 10
+            }
+          }
+        ],
+        "charges": 1,
+        "tier": 3,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "MonsterSpawned",
+            "monsterIDs": [
+              "melvorD:GreenDragon",
+              "melvorD:BlueDragon",
+              "melvorD:RedDragon",
+              "melvorD:BlackDragon",
+              "melvorF:ElderDragon",
+              "expandedAreas:OzmarathraxInscriptorOfRunes",
+              "melvorD:PratTheProtectorOfSecrets",
+              "melvorD:MalcsTheGuardianOfMelvor",
+              "melvorF:ChaoticGreaterDragon",
+              "melvorF:WickedGreaterDragon",
+              "melvorF:HuntingGreaterDragon",
+              "melvorF:MalcsTheLeaderOfDragons",
+              "melvorF:PratTheGuardianOfSecrets",
+              "melvorF:PratTheGuardianOfSecretsBoss",
+              "melvorF:MalcsTheGuardianOfStrongholds"
+            ]
+          },
+          {
+            "type": "PlayerAttack"
+          }
+        ]
+      },
+      {
+        "id": "Dragonbane_Mead_m",
+        "name": "Dragonbane Mead (Mature)",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/Dragonbane_Mead_m.png",
+        "customDescription": "+15% Maximum Hit and +15% Global Accuracy Rating when afflicted by Dragonbreath, but +30% Damage Taken from Dragonbreath and Burn.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 600,
+        "itemType": "Potion",
+        "modifiers": {
+          "burnDOTDamageTaken": 30,
+          "dragonBreathDamage": 30
+        },
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "groupID": "melvorD:BurnDOT",
+              "character": "Player",
+              "type": "CombatEffectGroup"
+            },
+            "modifiers": {
+              "maxHit": 15,
+              "accuracyRating": 15
+            }
+          }
+        ],
+        "charges": 1,
+        "tier": 3,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "MonsterSpawned",
+            "monsterIDs": [
+              "melvorD:GreenDragon",
+              "melvorD:BlueDragon",
+              "melvorD:RedDragon",
+              "melvorD:BlackDragon",
+              "melvorF:ElderDragon",
+              "expandedAreas:OzmarathraxInscriptorOfRunes",
+              "melvorD:PratTheProtectorOfSecrets",
+              "melvorD:MalcsTheGuardianOfMelvor",
+              "melvorF:ChaoticGreaterDragon",
+              "melvorF:WickedGreaterDragon",
+              "melvorF:HuntingGreaterDragon",
+              "melvorF:MalcsTheLeaderOfDragons",
+              "melvorF:PratTheGuardianOfSecrets",
+              "melvorF:PratTheGuardianOfSecretsBoss",
+              "melvorF:MalcsTheGuardianOfStrongholds"
+            ]
+          },
+          {
+            "type": "PlayerAttack"
+          }
+        ]
+      },
+      {
+        "id": "Facekicker",
+        "name": "Facekicker",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/Facekicker.png",
+        "customDescription": "-20% Attack Interval, but -20% Global Accuracy Rating and -10% Global Skill XP.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1200,
+        "itemType": "Potion",
+        "modifiers": {
+          "accuracyRating": -20,
+          "skillXP": -10,
+          "attackInterval": 20
+        },
+        "charges": 1,
+        "tier": 3,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "PlayerAttack"
+          }
+        ]
+      },
+      {
+        "id": "Facekicker_m",
+        "name": "Facekicker (Mature)",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/Facekicker_m.png",
+        "customDescription": "-30% Attack Interval, but -30% Global Accuracy Rating and -15% Global Skill XP.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2400,
+        "itemType": "Potion",
+        "modifiers": {
+          "accuracyRating": -30,
+          "skillXP": -15,
+          "attackInterval": 30
+        },
+        "charges": 1,
+        "tier": 3,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "PlayerAttack"
+          }
+        ]
+      },
+      {
+        "id": "Fools_Gold_Ale",
+        "name": "Fool's Gold Ale",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/Fools_Gold_Ale.png",
+        "customDescription": "Automatically sell Common Drops from Thieving for 3x their base value.<br>-40% Chance to receive Area Uniques and -40% Chance to avoid Stuns in Thieving.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "tier": 3,
+        "charges": 1,
+        "action": "melvorD:Thieving",
+        "sellsFor": 200,
+        "itemType": "Potion",
+        "modifiers": {
+          "thievingAutoSellPrice": [
+            {
+              "currencyID": "melvorD:GP",
+              "value": 3
+            }
+          ],
+          "thievingAreaUniqueChance": -40,
+          "thievingStunAvoidanceChance": [
+            {
+              "realmID": "melvorD:Melvor",
+              "value": -40
+            }
+          ]
+        },
+        "consumesOn": [
+          {
+            "type": "ThievingAction",
+            "succesful": true,
+            "commonDropObtained": true
+          }
+        ]
+      },
+      {
+        "id": "Fools_Gold_Ale_m",
+        "name": "Fool's Gold Ale (Mature)",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/Fools_Gold_Ale_m.png",
+        "customDescription": "Automatically sell Common Drops from Thieving for 4.5x their base value.<br>-60% Chance to receive Area Uniques and -60% Chance to avoid Stuns in Thieving.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "tier": 3,
+        "charges": 1,
+        "action": "melvorD:Thieving",
+        "sellsFor": 400,
+        "itemType": "Potion",
+        "modifiers": {
+          "thievingAutoSellPrice": [
+            {
+              "currencyID": "melvorD:GP",
+              "value": 5
+            }
+          ],
+          "thievingAreaUniqueChance": -60,
+          "thievingStunAvoidanceChance": [
+            {
+              "realmID": "melvorD:Melvor",
+              "value": -60
+            }
+          ]
+        },
+        "consumesOn": [
+          {
+            "type": "ThievingAction",
+            "succesful": true,
+            "commonDropObtained": true
+          }
+        ]
+      },
+      {
+        "id": "Huntress_Stout",
+        "name": "Huntress' Stout",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/Huntress_Stout.png",
+        "customDescription": "+15% Ranged Strength Bonus with a 2H Ranged Weapon and +2 Flat Ranged Accuracy Bonus per 0.1s of Attack Interval.<br>+10% Ranged Attack Interval and -10% Melee Evasion.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "tier": 3,
+        "charges": 1,
+        "action": "melvorD:Combat",
+        "sellsFor": 400,
+        "itemType": "Potion",
+        "modifiers": {
+          "rangedStrengthBonusWith2HWeapon": 15,
+          "flatRangedAccuracyBonusPerAttackInterval": 1,
+          "rangedAttackInterval": 10,
+          "meleeEvasion": -10
+        },
+        "consumesOn": [
+          {
+            "type": "PlayerAttack",
+            "attackTypes": [
+              "ranged"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Huntress_Stout_m",
+        "name": "Huntress' Stout (Mature)",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/Huntress_Stout_m.png",
+        "customDescription": "+22.5% Ranged Strength Bonus with a 2H Ranged Weapon and +3 Flat Ranged Accuracy Bonus per 0.1s of Attack Interval.<br>+15% Ranged Attack Interval and -15% Melee Evasion.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "tier": 3,
+        "charges": 1,
+        "action": "melvorD:Combat",
+        "sellsFor": 800,
+        "itemType": "Potion",
+        "modifiers": {
+          "rangedStrengthBonusWith2HWeapon": 22.5,
+          "flatRangedAccuracyBonusPerAttackInterval": 1.5,
+          "rangedAttackInterval": 15,
+          "meleeEvasion": -15
+        },
+        "consumesOn": [
+          {
+            "type": "PlayerAttack",
+            "attackTypes": [
+              "ranged"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "One_Foot_in_the_Grave",
+        "name": "One Foot in the Grave",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/One_Foot_in_the_Grave.png",
+        "customDescription": "+20% Damage Dealt when affected by 2 or more effects.<br>Become afflicted with 1-5 Random Curses (15% Chance per Curse) at the start of a fight.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "tier": 3,
+        "charges": 1,
+        "action": "melvorD:Combat",
+        "sellsFor": 2000,
+        "itemType": "Potion",
+        "modifiers": {
+          "damageDealtWith2Effects": 20
+        },
+        "combatEffects": [
+          {
+            "appliesWhen": "StartOfFight",
+            "tableID": "melvorF:RandomCurse",
+            "targetOverride": "Self",
+            "chance": 20
+          },
+          {
+            "appliesWhen": "StartOfFight",
+            "tableID": "melvorF:RandomCurse",
+            "targetOverride": "Self",
+            "chance": 20
+          },
+          {
+            "appliesWhen": "StartOfFight",
+            "tableID": "melvorF:RandomCurse",
+            "targetOverride": "Self",
+            "chance": 20
+          },
+          {
+            "appliesWhen": "StartOfFight",
+            "tableID": "melvorF:RandomCurse",
+            "targetOverride": "Self",
+            "chance": 20
+          },
+          {
+            "appliesWhen": "StartOfFight",
+            "tableID": "melvorF:RandomCurse",
+            "targetOverride": "Self",
+            "chance": 20
+          }
+        ],
+        "consumesOn": [
+          {
+            "type": "PlayerAttack"
+          }
+        ]
+      },
+      {
+        "id": "One_Foot_in_the_Grave_m",
+        "name": "One Foot in the Grave (Mature)",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/One_Foot_in_the_Grave_m.png",
+        "customDescription": "+30% Damage Dealt when affected by 2 or more effects.<br>Become afflicted with 1-5 Random Curses (30% Chance per Curse) at the start of a fight.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "tier": 3,
+        "charges": 1,
+        "action": "melvorD:Combat",
+        "sellsFor": 8000,
+        "itemType": "Potion",
+        "modifiers": {
+          "damageDealtWith2Effects": 30
+        },
+        "combatEffects": [
+          {
+            "appliesWhen": "StartOfFight",
+            "tableID": "melvorF:RandomCurse",
+            "targetOverride": "Self",
+            "chance": 30
+          },
+          {
+            "appliesWhen": "StartOfFight",
+            "tableID": "melvorF:RandomCurse",
+            "targetOverride": "Self",
+            "chance": 30
+          },
+          {
+            "appliesWhen": "StartOfFight",
+            "tableID": "melvorF:RandomCurse",
+            "targetOverride": "Self",
+            "chance": 30
+          },
+          {
+            "appliesWhen": "StartOfFight",
+            "tableID": "melvorF:RandomCurse",
+            "targetOverride": "Self",
+            "chance": 30
+          },
+          {
+            "appliesWhen": "StartOfFight",
+            "tableID": "melvorF:RandomCurse",
+            "targetOverride": "Self",
+            "chance": 30
+          }
+        ],
+        "consumesOn": [
+          {
+            "type": "PlayerAttack"
+          }
+        ]
+      },
+      {
+        "id": "Sailors_Respite",
+        "name": "Sailors_Respite",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/Sailors_Respite.png",
+        "customDescription": "-10% Fishing Interval.<br>-5% Chance for Global Rare Items, Special Items, and Doubling Items in Fishing",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "tier": 3,
+        "charges": 1,
+        "action": "melvorD:Fishing",
+        "sellsFor": 135,
+        "itemType": "Potion",
+        "modifiers": {
+          "skillInterval": [
+            {
+              "skillID": "melvorD:Fishing",
+              "value": -10
+            }
+          ],
+          "offItemChance": -5,
+          "fishingSpecialChance": -5,
+          "skillItemDoublingChance": [
+            {
+              "skillID": "melvorD:Fishing",
+              "value": -5
+            }
+          ]
+        },
+        "consumesOn": [
+          {
+            "type": "FishingAction"
+          }
+        ]
+      },
+      {
+        "id": "Sailors_Respite_m",
+        "name": "Sailors_Respite (Mature)",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/Sailors_Respite_m.png",
+        "customDescription": "-15% Fishing Interval.<br>-7.5% Chance for Global Rare Items, Special Items, and Doubling Items in Fishing",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "tier": 3,
+        "charges": 1,
+        "action": "melvorD:Fishing",
+        "sellsFor": 270,
+        "itemType": "Potion",
+        "modifiers": {
+          "skillInterval": [
+            {
+              "skillID": "melvorD:Fishing",
+              "value": -15
+            }
+          ],
+          "offItemChance": -7.5,
+          "fishingSpecialChance": -7.5,
+          "skillItemDoublingChance": [
+            {
+              "skillID": "melvorD:Fishing",
+              "value": -7.5
+            }
+          ]
+        },
+        "consumesOn": [
+          {
+            "type": "FishingAction"
+          }
+        ]
+      },
+      {
+        "id": "Sourberry_Ale",
+        "name": "Sourberry Ale",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/Sourberry_Ale.png",
+        "customDescription": "-15% Passive Cooking Interval.<br>+100% Cost to Produce Food in Cooking.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "tier": 3,
+        "charges": 1,
+        "action": "melvorD:Cooking",
+        "sellsFor": 305,
+        "itemType": "Potion",
+        "modifiers": {
+          "passiveCookingInterval": -15,
+          "skillCostReduction": [
+            {
+              "skillID": "melvorD:Cooking",
+              "value": -100
+            }
+          ]
+        },
+        "consumesOn": [
+          {
+            "type": "CookingAction",
+            "isPassiveCooking": true
+          }
+        ]
+      },
+      {
+        "id": "Sourberry_Ale_m",
+        "name": "Sourberry Ale (Mature)",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/Sourberry_Ale_m.png",
+        "customDescription": "-30% Passive Cooking Interval.<br>+200% Cost to Produce Food in Cooking.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "tier": 3,
+        "charges": 1,
+        "action": "melvorD:Cooking",
+        "sellsFor": 610,
+        "itemType": "Potion",
+        "modifiers": {
+          "passiveCookingInterval": -30,
+          "skillCostReduction": [
+            {
+              "skillID": "melvorD:Cooking",
+              "value": -200
+            }
+          ]
+        },
+        "consumesOn": [
+          {
+            "type": "CookingAction",
+            "isPassiveCooking": true
+          }
+        ]
+      },
+      {
+        "id": "The_Firebreather",
+        "name": "The Firebreather",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/The_Firebreather.png",
+        "customDescription": "+20% Chance to receive Random Products (e.g. Ash) in Firemaking and +10% Firemaking XP.<br>+10% Firemaking Interval.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "tier": 3,
+        "charges": 1,
+        "action": "melvorD:Firemaking",
+        "sellsFor": 65,
+        "itemType": "Potion",
+        "modifiers": {
+          "randomProductChance": [
+            {
+              "skillID": "melvorD:Firemaking",
+              "value": 20
+            }
+          ],
+          "skillXP": [
+            {
+              "skillID": "melvorD:Firemaking",
+              "value": 10
+            }
+          ],
+          "skillInterval": [
+            {
+              "skillID": "melvorD:Firemaking",
+              "value": 10
+            }
+          ]
+        },
+        "consumesOn": [
+          {
+            "type": "FiremakingAction"
+          }
+        ]
+      },
+      {
+        "id": "The_Firebreather_m",
+        "name": "The Firebreather (Mature)",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/The_Firebreather_m.png",
+        "customDescription": "+40% Chance to receive Random Products (e.g. Ash) in Firemaking and +20% Firemaking XP.<br>+20% Firemaking Interval.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "tier": 3,
+        "charges": 1,
+        "action": "melvorD:Firemaking",
+        "sellsFor": 130,
+        "itemType": "Potion",
+        "modifiers": {
+          "randomProductChance": [
+            {
+              "skillID": "melvorD:Firemaking",
+              "value": 40
+            }
+          ],
+          "skillXP": [
+            {
+              "skillID": "melvorD:Firemaking",
+              "value": 20
+            }
+          ],
+          "skillInterval": [
+            {
+              "skillID": "melvorD:Firemaking",
+              "value": 20
+            }
+          ]
+        },
+        "consumesOn": [
+          {
+            "type": "FiremakingAction"
+          }
+        ]
+      },
+      {
+        "id": "The_Green_Goblin",
+        "name": "The Green Goblin",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/The_Green_Goblin.png",
+        "customDescription": "+10% Chance to Preserve and Double items in Herblore.<br>-10% Herblore Skill XP and Mastery XP.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "tier": 3,
+        "charges": 1,
+        "action": "melvorD:Herblore",
+        "sellsFor": 280,
+        "itemType": "Potion",
+        "modifiers": {
+          "skillPreservationChance": [
+            {
+              "skillID": "melvorD:Herblore",
+              "value": 10
+            }
+          ],
+          "masteryXP": [
+            {
+              "skillID": "melvorD:Herblore",
+              "value": -10
+            }
+          ],
+          "skillItemDoublingChance": [
+            {
+              "skillID": "melvorD:Herblore",
+              "value": 10
+            }
+          ],
+          "skillXP": [
+            {
+              "skillID": "melvorD:Herblore",
+              "value": -10
+            }
+          ]
+        },
+        "consumesOn": [
+          {
+            "type": "HerbloreAction"
+          }
+        ]
+      },
+      {
+        "id": "The_Green_Goblin_m",
+        "name": "The Green Goblin (Mature)",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/The_Green_Goblin_m.png",
+        "customDescription": "+15% Chance to Preserve and Double items in Herblore.<br>-15% Herblore Skill XP and Mastery XP.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "tier": 3,
+        "charges": 1,
+        "action": "melvorD:Herblore",
+        "sellsFor": 560,
+        "itemType": "Potion",
+        "modifiers": {
+          "skillPreservationChance": [
+            {
+              "skillID": "melvorD:Herblore",
+              "value": 15
+            }
+          ],
+          "masteryXP": [
+            {
+              "skillID": "melvorD:Herblore",
+              "value": -15
+            }
+          ],
+          "skillItemDoublingChance": [
+            {
+              "skillID": "melvorD:Herblore",
+              "value": 15
+            }
+          ],
+          "skillXP": [
+            {
+              "skillID": "melvorD:Herblore",
+              "value": -15
+            }
+          ]
+        },
+        "consumesOn": [
+          {
+            "type": "HerbloreAction"
+          }
+        ]
+      },
+      {
+        "id": "The_Two_Flower",
+        "name": "The Two Flower",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/The_Two_Flower.png",
+        "customDescription": "+5% Chance to Dodge Attacks and +10% Global Evasion.<br>Enemies get +5% Maximum Hit.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "tier": 3,
+        "charges": 1,
+        "action": "melvorD:Combat",
+        "sellsFor": 2000,
+        "itemType": "Potion",
+        "enemyModifiers": {
+          "maxHit": 5
+        },
+        "modifiers": {
+          "dodgeChance": 5,
+          "evasion": 10
+        },
+        "consumesOn": [
+          {
+            "type": "EnemyAttack"
+          }
+        ]
+      },
+      {
+        "id": "The_Two_Flower_m",
+        "name": "The Two Flower (Mature)",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/The_Two_Flower_m.png",
+        "customDescription": "+7.5% Chance to Dodge Attacks and +15% Global Evasion.<br>Enemies get +10% Maximum Hit.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "tier": 3,
+        "charges": 1,
+        "action": "melvorD:Magic",
+        "sellsFor": 4000,
+        "itemType": "Potion",
+        "enemyModifiers": {
+          "maxHit": 10
+        },
+        "modifiers": {
+          "dodgeChance": 7.5,
+          "evasion": 15
+        },
+        "consumesOn": [
+          {
+            "type": "EnemyAttack"
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "The_Good_Stuff",
+        "name": "The Good Stuff",
+        "category": "Combat",
+        "type": "Equipment",
+        "media": "assets/items/Equipment/The_Good_Stuff.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 100,
+        "customDescription": "+20% Chance to Brew a Mature drink in Cooking but +10% Cooking Interval. One item is consumed per Brewing action.",
+        "tier": "none",
+        "validSlots": [
+          "Consumable"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [],
+        "modifiers": {
+          "perfectCookChance": [
+            {
+              "categoryID": "expandedAreas:Fermenting_Tank",
+              "value": 20
+            }
+          ],
+          "skillInterval": [
+            {
+              "skillID": "melvorD:Cooking",
+              "value": 10
+            }
+          ]
+        },
+        "consumesOn": [
+          {
+            "type": "CookingAction",
+            "categoryIDs": [
+              "expandedAreas:Fermenting_Tank"
+            ]
+          }
+        ]
+      },
+      {
+        "itemType": "Item",
+        "id": "Bucket_of_Water",
+        "name": "Bucket of Water",
+        "category": "Cooking",
+        "type": "Ingredient",
+        "media": "assets/items/Item/Bucket_of_Water.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "customDescription": "It's a bucket. And it's filled with, like, water, and stuff."
+      },
+      {
+        "itemType": "Item",
+        "id": "Ale_Yeast",
+        "name": "Ale Yeast",
+        "category": "Cooking",
+        "type": "Ingredient",
+        "media": "assets/items/Item/Ale_Yeast.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "customDescription": "A bag of ale yeast used for brewing ales, malts, and grog."
+      },
+      {
+        "itemType": "Food",
+        "id": "Barley_Malt",
+        "name": "Barley Malt",
+        "category": "Cooking",
+        "type": "Ingredient",
+        "media": "assets/items/Food/Barley_Malt.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 4,
+        "healsFor": 0.2,
+        "customDescription": "An ingredient used in brewing."
+      },
+      {
+        "id": "Holy_Cow_Brew",
+        "name": "Holy Cow Brew",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/Holy_Cow_Brew.png",
+        "customDescription": "+10% Prayer Point Preservation Chance and -20% Prayer Point Cost.<br>50% Chance at the Start of a Fight to become Slowed by 10% for 2 turns.<br>One item is consumed on Prayer Point Consumption.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 250,
+        "itemType": "Potion",
+        "modifiers": {
+          "prayerPointPreservationChance": 10,
+          "prayerPointCost": -20
+        },
+        "combatEffects": [
+          {
+            "effectID": "melvorD:Slow",
+            "chance": 50,
+            "appliesWhen": "StartOfFight",
+            "targetOverride": "Self",
+            "initialParams": [
+              {
+                "name": "turns",
+                "value": 2
+              },
+              {
+                "name": "magnitude",
+                "value": 10
+              }
+            ]
+          }
+        ],
+        "charges": 1,
+        "tier": 3,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "PrayerPointConsumption"
+          }
+        ]
+      },
+      {
+        "id": "Holy_Cow_Brew_m",
+        "name": "Holy Cow Brew (Mature)",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/Holy_Cow_Brew.png",
+        "customDescription": "+15% Prayer Point Preservation Chance and -30% Prayer Point Cost.<br>50% Chance at the Start of a Fight to become Slowed by 15% for 3 turns.<br>One item is consumed on Prayer Point Consumption.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 500,
+        "itemType": "Potion",
+        "modifiers": {
+          "prayerPointPreservationChance": 15,
+          "prayerPointCost": -30
+        },
+        "combatEffects": [
+          {
+            "effectID": "melvorD:Slow",
+            "chance": 50,
+            "appliesWhen": "StartOfFight",
+            "targetOverride": "Self",
+            "initialParams": [
+              {
+                "name": "turns",
+                "value": 3
+              },
+              {
+                "name": "magnitude",
+                "value": 15
+              }
+            ]
+          }
+        ],
+        "charges": 1,
+        "tier": 3,
+        "action": "melvorD:Combat",
+        "consumesOn": [
+          {
+            "type": "PrayerPointConsumption"
+          }
+        ]
+      },
+      {
+        "id": "Apple_Cider",
+        "name": "Apple Cider",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/Apple_Cider.png",
+        "customDescription": "+25% Base Primary Product Quantity when Harvesting Crops in Farming, but -10% Farming XP.<br>One item is consumed on either Harvesting Crops or Food Eaten.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50,
+        "itemType": "Potion",
+        "modifiers": {
           "basePrimaryProductQuantity": [
             {
               "skillID": "melvorD:Farming",
@@ -283,9 +2588,41 @@
         "consumesOn": [
           {
             "type": "FarmingHarvestAction"
-          },
+          }
+        ]
+      },
+      {
+        "id": "Apple_Cider_m",
+        "name": "Apple Cider (Mature)",
+        "category": "Cooking",
+        "type": "Potion",
+        "media": "assets/items/Potion/Apple_Cider_m.png",
+        "customDescription": "+35% Base Primary Product Quantity when Harvesting Crops in Farming, but -15% Farming XP.<br>One item is consumed on Harvesting Crops.",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 100,
+        "itemType": "Potion",
+        "modifiers": {
+          "basePrimaryProductQuantity": [
+            {
+              "skillID": "melvorD:Farming",
+              "value": 35
+            }
+          ],
+          "skillXP": [
+            {
+              "skillID": "melvorD:Farming",
+              "value": -15
+            }
+          ]
+        },
+        "charges": 1,
+        "tier": 3,
+        "action": "melvorD:Farming",
+        "consumesOn": [
           {
-            "type": "FoodEaten"
+            "type": "FarmingHarvestAction"
           }
         ]
       },
@@ -568,7 +2905,7 @@
               "value": 1
             },
             {
-              "actionID": "expandedAreas:Goldengod_Hops",
+              "actionID": "expandedAreas:Poison_Ivy_Leaf",
               "value": 1
             }
           ]
@@ -627,7 +2964,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 20,
-        "customDescription": "+12.5% Farming Yield for Potatoes, Plumm Hops, and Coffee Beans. Those crops cannot die. Consumed on Planting and Harvesting.",
+        "customDescription": "+12.5% Farming Yield for Potatoes, Wildblood Hops, and Coffee Beans. Those crops cannot die. Consumed on Planting and Harvesting.",
         "tier": "none",
         "validSlots": [
           "Consumable"
@@ -644,7 +2981,7 @@
             },
             {
               "skillID": "melvorD:Farming",
-              "actionID": "expandedAreas:Plumm_Hops",
+              "actionID": "expandedAreas:Wildblood_Hops",
               "value": 12.5
             },
             {
@@ -659,7 +2996,7 @@
               "value": 1
             },
             {
-              "actionID": "expandedAreas:Plumm_Hops",
+              "actionID": "expandedAreas:Wildblood_Hops",
               "value": 1
             },
             {
@@ -688,7 +3025,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 15,
-        "customDescription": "+10% Farming Yield for Blueberries, Orange Trees, and Snape Grass. Those crops cannot die. Consumed on Planting and Harvesting.",
+        "customDescription": "+10% Farming Yield for Blueberries, Orange Trees, and Plumm Hops. Those crops cannot die. Consumed on Planting and Harvesting.",
         "tier": "none",
         "validSlots": [
           "Consumable"
@@ -710,7 +3047,7 @@
             },
             {
               "skillID": "melvorD:Farming",
-              "actionID": "melvorD:Snape_Grass",
+              "actionID": "expandedAreas:Plumm_Hops",
               "value": 10
             }
           ],
@@ -724,7 +3061,7 @@
               "value": 1
             },
             {
-              "actionID": "expandedAreas:Coffee_Beans",
+              "actionID": "expandedAreas:Orange",
               "value": 1
             }
           ]
@@ -1029,6 +3366,31 @@
         "sellsFor": 1
       },
       {
+        "id": "Wildblood_Hops",
+        "name": "Wildblood Hops",
+        "category": "Farming",
+        "type": "Food",
+        "media": "assets/items/Food/Wildblood_Hops.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 124,
+        "itemType": "Food",
+        "healsFor": 2.0
+      },
+      {
+        "itemType": "Item",
+        "id": "Wildblood_Seed",
+        "name": "Wildblood Seeds",
+        "category": "Farming",
+        "type": "Seeds",
+        "media": "assets/items/Item/Wildblood_Seed.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 278
+      },
+      {
         "id": "Goldengod_Hops",
         "name": "Goldengod Hops",
         "category": "Farming",
@@ -1238,7 +3600,7 @@
         "golbinRaidExclusive": false,
         "sellsFor": 10,
         "itemType": "Food",
-        "healsFor": 2
+        "healsFor": 2.2
       },
       {
         "itemType": "Item",
@@ -15040,7 +17402,7 @@
       },
       {
         "id": "Sterkite_Mining",
-        "media": "assets/shop/Rock_Sterkite.svg",
+        "media": "assets/skills/mining/Rock_Sterkite.svg",
         "category": "expandedAreas:Barbarian_Skilling",
         "contains": {
           "items": [],
@@ -15070,11 +17432,49 @@
             "level": 20
           }
         ],
-        "defaultBuyLimit": 1,
+        "defaultBuyLimit": 0,
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Sterkite Mining",
         "customDescription": "Grants access to Sterkite Ore."
+      },
+      {
+        "id": "Pine_Tree_Felling",
+        "media": "assets/skills/woodcutting/Evergreen.svg",
+        "category": "expandedAreas:Barbarian_Skilling",
+        "contains": {
+          "items": [],
+          "modifiers": {}
+        },
+        "cost": {
+          "items": [],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 20000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [],
+        "purchaseRequirements": [
+          {
+            "type": "MonsterKilled",
+            "monsterID": "expandedAreas:Chieftain_Erik",
+            "count": 1
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Woodcutting",
+            "level": 20
+          }
+        ],
+        "defaultBuyLimit": 0,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Pine Tree Felling",
+        "customDescription": "Grants access to Pine Trees."
       },
       {
         "id": "Spear_Fishing",
@@ -15176,7 +17576,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Tree Punching",
-        "customDescription": "+2.5% chance to receive an additional resource from Woodcutting (cannot be doubled) and -2.5% Woodcutting Interval.<br>Grants access to Pine trees."
+        "customDescription": "+2.5% chance to receive an additional resource from Woodcutting (cannot be doubled) and -2.5% Woodcutting Interval."
       },
       {
         "id": "Rock_Smashing",
@@ -15299,6 +17699,8 @@
         "insertAt": "After",
         "afterID": "melvorF:Art_of_Control",
         "ids": [
+          "expandedAreas:Sterkite_Mining",
+          "expandedAreas:Pine_Tree_Felling",
           "expandedAreas:Spear_Fishing",
           "expandedAreas:Tree_Punching",
           "expandedAreas:Rock_Smashing",
@@ -16949,8 +19351,7 @@
           "expandedAreas:Firewine_Seed",
           "expandedAreas:Andlovan_Seed",
           "expandedAreas:Goldengod_Seed",
-          "expandedAreas:Coffea_Seed",
-          "expandedAreas:Coffee_Beans"
+          "expandedAreas:Wildblood_Seed"
         ]
       },
       {
@@ -17713,7 +20114,7 @@
                 "quantity": 3
               },
               "grownName": "Plumm Hops",
-              "grownMedia": "assets/items/Plumm_Hops.png"
+              "grownMedia": "assets/items/Food/Plumm_Hops.png"
             },
             {
               "id": "Firewine_Hops",
@@ -17727,7 +20128,7 @@
                 "quantity": 3
               },
               "grownName": "Firewine Hops",
-              "grownMedia": "assets/items/Firewine_Hops.png"
+              "grownMedia": "assets/items/Food/Firewine_Hops.png"
             },
             {
               "id": "Andlovan_Hops",
@@ -17741,7 +20142,7 @@
                 "quantity": 3
               },
               "grownName": "Andlovan Hops",
-              "grownMedia": "assets/items/Andlovan_Hops.png"
+              "grownMedia": "assets/items/Food/Andlovan_Hops.png"
             },
             {
               "id": "Goldengod_Hops",
@@ -17756,6 +20157,20 @@
               },
               "grownName": "Goldengod Hops",
               "grownMedia": "assets/items/Goldengod_Hops.png"
+            },
+            {
+              "id": "Wildblood_Hops",
+              "baseExperience": 124,
+              "level": 77,
+              "productId": "expandedAreas:Wildblood_Hops",
+              "baseInterval": 8360000,
+              "categoryID": "expandedAreas:Hops",
+              "seedCost": {
+                "id": "expandedAreas:Wildblood_Seed",
+                "quantity": 3
+              },
+              "grownName": "Wildblood Hops",
+              "grownMedia": "assets/items/Wildblood_Hops.png"
             },
             {
               "id": "Bell_Peppers",
@@ -17809,7 +20224,7 @@
                 "quantity": 2
               },
               "grownName": "Pineapple Shrub",
-              "grownMedia": "assets/items/Pineapple.png"
+              "grownMedia": "assets/items/Food/Pineapple.png"
             },
             {
               "id": "Yellowberry",
@@ -18100,7 +20515,7 @@
               "requirements": [
                 {
                   "type": "ShopPurchase",
-                  "purchaseID": "expandedAreas:Tree_Punching",
+                  "purchaseID": "expandedAreas:Pine_Tree_Felling",
                   "count": 1
                 }
               ]
@@ -18121,7 +20536,7 @@
               "requirements": [
                 {
                   "type": "ShopPurchase",
-                  "purchaseID": "expandedAreas:Tree_Punching",
+                  "purchaseID": "expandedAreas:Pine_Tree_Felling",
                   "count": 1
                 }
               ]
@@ -18142,7 +20557,7 @@
               "requirements": [
                 {
                   "type": "ShopPurchase",
-                  "purchaseID": "expandedAreas:Tree_Punching",
+                  "purchaseID": "expandedAreas:Pine_Tree_Felling",
                   "count": 1
                 }
               ]
@@ -18164,7 +20579,7 @@
               "requirements": [
                 {
                   "type": "ShopPurchase",
-                  "purchaseID": "expandedAreas:Tree_Punching",
+                  "purchaseID": "expandedAreas:Pine_Tree_Felling",
                   "count": 1
                 }
               ]
@@ -18186,7 +20601,7 @@
               "requirements": [
                 {
                   "type": "ShopPurchase",
-                  "purchaseID": "expandedAreas:Tree_Punching",
+                  "purchaseID": "expandedAreas:Pine_Tree_Felling",
                   "count": 1
                 }
               ]
@@ -18325,46 +20740,1178 @@
             {
               "id": "Alcohol",
               "name": "Alcohol"
+            },
+            {
+              "id": "Curry",
+              "name": "Curry"
             }
           ],
           "recipes": [
             {
-              {
-                "id": "Holy_Cow_Brew",
-                "productID": "expandedAreas:Holy_Cow_Brew",
-                "perfectCookID": "expandedAreas:Holy_Cow_Brew_m",
-                "baseExperience": 1200,
-                "level": 59,
-                "baseInterval": 30000,
-                "baseQuantity": 8,
-                "categoryID": "expandedAreas:Fermenting_Tank",
-                "subcategoryID": "expandedAreas:Alcohol",
-                "itemCosts": [
-                  {
-                    "id": "expandedAreas:Bucket_of_Water",
-                    "quantity": 1
-                  }
-                ],
-                "currencyCosts": []
-              },
-              {
-                "id": "Apple_Cider",
-                "productID": "expandedAreas:Apple_Cider",
-                "perfectCookID": "expandedAreas:Apple_Cider_m",
-                "baseExperience": 450,
-                "level": 14,
-                "baseInterval": 30000,
-                "baseQuantity": 8,
-                "categoryID": "expandedAreas:Fermenting_Tank",
-                "subcategoryID": "expandedAreas:Alcohol",
-                "itemCosts": [
-                  {
-                    "id": "expandedAreas:Bucket_of_Water",
-                    "quantity": 1
-                  }
-                ],
-                "currencyCosts": []
-              },
+              "id": "Apple_Cider",
+              "productID": "expandedAreas:Apple_Cider",
+              "perfectCookID": "expandedAreas:Apple_Cider_m",
+              "baseExperience": 450,
+              "level": 14,
+              "baseInterval": 30000,
+              "baseQuantity": 8,
+              "categoryID": "expandedAreas:Fermenting_Tank",
+              "subcategoryID": "expandedAreas:Alcohol",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Ale_Yeast",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorF:Apple",
+                  "quantity": 4
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "The_Firebreather",
+              "productID": "expandedAreas:The_Firebreather",
+              "perfectCookID": "expandedAreas:The_Firebreather_m",
+              "baseExperience": 813,
+              "level": 23,
+              "baseInterval": 30000,
+              "baseQuantity": 8,
+              "categoryID": "expandedAreas:Fermenting_Tank",
+              "subcategoryID": "expandedAreas:Alcohol",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Barley_Malt",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Ale_Yeast",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Firewine_Hops",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Plumm_Hops",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Sailors_Respite",
+              "productID": "expandedAreas:Sailors_Respite",
+              "perfectCookID": "expandedAreas:Sailors_Respite_m",
+              "baseExperience": 991,
+              "level": 26,
+              "baseInterval": 30000,
+              "baseQuantity": 8,
+              "categoryID": "expandedAreas:Fermenting_Tank",
+              "subcategoryID": "expandedAreas:Alcohol",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Ale_Yeast",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Barley_Malt",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Plumm_Hops",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Firewine_Hops",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Raw_Herring",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 400
+                }
+              ]
+            },
+            {
+              "id": "Fools_Gold_Ale",
+              "productID": "expandedAreas:Fools_Gold_Ale",
+              "perfectCookID": "expandedAreas:Fools_Gold_Ale_m",
+              "baseExperience": 1244,
+              "level": 32,
+              "baseInterval": 30000,
+              "baseQuantity": 8,
+              "categoryID": "expandedAreas:Fermenting_Tank",
+              "subcategoryID": "expandedAreas:Alcohol",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Ale_Yeast",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Barley_Malt",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Firewine_Hops",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Plumm_Hops",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 400
+                }
+              ]
+            },
+            {
+              "id": "Sourberry_Ale",
+              "productID": "expandedAreas:Sourberry_Ale",
+              "perfectCookID": "expandedAreas:Sourberry_Ale_m",
+              "baseExperience": 2023,
+              "level": 48,
+              "baseInterval": 30000,
+              "baseQuantity": 8,
+              "categoryID": "expandedAreas:Fermenting_Tank",
+              "subcategoryID": "expandedAreas:Alcohol",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Barley_Malt",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Ale_Yeast",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Andlovan_Hops",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Plumm_Hops",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Gammonberry",
+                  "quantity": 4
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Huntress_Stout",
+              "productID": "expandedAreas:Huntress_Stout",
+              "perfectCookID": "expandedAreas:Huntress_Stout_m",
+              "baseExperience": 2480,
+              "level": 55,
+              "baseInterval": 30000,
+              "baseQuantity": 8,
+              "categoryID": "expandedAreas:Fermenting_Tank",
+              "subcategoryID": "expandedAreas:Alcohol",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Barley_Malt",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Ale_Yeast",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Andlovan_Hops",
+                  "quantity": 4
+                },
+                {
+                  "id": "expandedAreas:Pine_Nuts",
+                  "quantity": 4
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Holy_Cow_Brew",
+              "productID": "expandedAreas:Holy_Cow_Brew",
+              "perfectCookID": "expandedAreas:Holy_Cow_Brew_m",
+              "baseExperience": 2770,
+              "level": 59,
+              "baseInterval": 30000,
+              "baseQuantity": 8,
+              "categoryID": "expandedAreas:Fermenting_Tank",
+              "subcategoryID": "expandedAreas:Alcohol",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Barley_Malt",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Ale_Yeast",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorF:Holy_Dust",
+                  "quantity": 4
+                },
+                {
+                  "id": "expandedAreas:Plumm_Hops",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Goldengod_Hops",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Dragonbane_Mead",
+              "productID": "expandedAreas:Dragonbane_Mead",
+              "perfectCookID": "expandedAreas:Dragonbane_Mead_m",
+              "baseExperience": 3305,
+              "level": 64,
+              "baseInterval": 30000,
+              "baseQuantity": 8,
+              "categoryID": "expandedAreas:Fermenting_Tank",
+              "subcategoryID": "expandedAreas:Alcohol",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Barley_Malt",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Ale_Yeast",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Superior_Dragon_Bones",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Plumm_Hops",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Goldengod_Hops",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Darkblood_Grog",
+              "productID": "expandedAreas:Darkblood_Grog",
+              "perfectCookID": "expandedAreas:Darkblood_Grog_m",
+              "baseExperience": 4260,
+              "level": 75,
+              "baseInterval": 30000,
+              "baseQuantity": 8,
+              "categoryID": "expandedAreas:Fermenting_Tank",
+              "subcategoryID": "expandedAreas:Alcohol",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Barley_Malt",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Ale_Yeast",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Blood_Rune",
+                  "quantity": 64
+                },
+                {
+                  "id": "expandedAreas:Wildblood_Hops",
+                  "quantity": 4
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Facekicker",
+              "productID": "expandedAreas:Facekicker",
+              "perfectCookID": "expandedAreas:Facekicker_m",
+              "baseExperience": 5623,
+              "level": 90,
+              "baseInterval": 30000,
+              "baseQuantity": 8,
+              "categoryID": "expandedAreas:Fermenting_Tank",
+              "subcategoryID": "expandedAreas:Alcohol",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Barley_Malt",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Ale_Yeast",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Coffee_Beans",
+                  "quantity": 16
+                },
+                {
+                  "id": "expandedAreas:Plumm_Hops",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Wildblood_Hops",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "The_Two_Flower",
+              "productID": "expandedAreas:The_Two_Flower",
+              "perfectCookID": "expandedAreas:The_Two_Flower_m",
+              "baseExperience": 6460,
+              "level": 94,
+              "baseInterval": 30000,
+              "baseQuantity": 8,
+              "categoryID": "expandedAreas:Fermenting_Tank",
+              "subcategoryID": "expandedAreas:Alcohol",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Barley_Malt",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Ale_Yeast",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Plumm_Hops",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Firewine_Hops",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Andlovan_Hops",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Goldengod_Hops",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Wildblood_Hops",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Lily",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Rose",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "One_Foot_in_the_Grave",
+              "productID": "expandedAreas:One_Foot_in_the_Grave",
+              "perfectCookID": "expandedAreas:One_Foot_in_the_Grave_m",
+              "baseExperience": 6927,
+              "level": 96,
+              "baseInterval": 30000,
+              "baseQuantity": 8,
+              "categoryID": "expandedAreas:Fermenting_Tank",
+              "subcategoryID": "expandedAreas:Alcohol",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Barley_Malt",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Ale_Yeast",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Plumm_Hops",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Wildblood_Hops",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorF:Cursed_Hands",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Basic_Curry",
+              "productID": "expandedAreas:Basic_Curry",
+              "perfectCookID": "expandedAreas:Basic_Curry_Perfect",
+              "baseExperience": 139,
+              "level": 36,
+              "baseInterval": 7000,
+              "baseQuantity": 4,
+              "categoryID": "melvorD:Pot",
+              "subcategoryID": "expandedAreas:Curry",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Tomatoes",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Onions",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Curry_Leaves",
+                  "quantity": 3
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Grub_Grub",
+              "productID": "expandedAreas:Grub_Grub",
+              "perfectCookID": "expandedAreas:Grub_Grub_Perfect",
+              "baseExperience": 175,
+              "level": 45,
+              "baseInterval": 7000,
+              "baseQuantity": 4,
+              "categoryID": "melvorD:Pot",
+              "subcategoryID": "expandedAreas:Curry",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Basic_Curry",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Raw_Grub",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Spicy_Curry",
+              "productID": "expandedAreas:Spicy_Curry",
+              "perfectCookID": "expandedAreas:Spicy_Curry_Perfect",
+              "baseExperience": 222,
+              "level": 56,
+              "baseInterval": 7000,
+              "baseQuantity": 4,
+              "categoryID": "melvorD:Pot",
+              "subcategoryID": "expandedAreas:Curry",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Tomatoes",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Onions",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Bell_Peppers",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Shrimp_Curry",
+              "productID": "expandedAreas:Shrimp_Curry",
+              "perfectCookID": "expandedAreas:Shrimp_Curry_Perfect",
+              "baseExperience": 260,
+              "level": 62,
+              "baseInterval": 7000,
+              "baseQuantity": 4,
+              "categoryID": "melvorD:Pot",
+              "subcategoryID": "expandedAreas:Curry",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Spicy_Curry",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Coconut",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Raw_Shrimp",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Massaman_Curry",
+              "productID": "expandedAreas:Massaman_Curry",
+              "perfectCookID": "expandedAreas:Massaman_Curry_Perfect",
+              "baseExperience": 350,
+              "level": 69,
+              "baseInterval": 7000,
+              "baseQuantity": 4,
+              "categoryID": "melvorD:Pot",
+              "subcategoryID": "expandedAreas:Curry",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Spicy_Curry",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Coconut",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Chicken",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Potatoes",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Spicy_Papaya_Curry",
+              "productID": "expandedAreas:Spicy_Papaya_Curry",
+              "perfectCookID": "expandedAreas:Spicy_Papaya_Curry_Perfect",
+              "baseExperience": 462,
+              "level": 87,
+              "baseInterval": 7000,
+              "baseQuantity": 4,
+              "categoryID": "melvorD:Pot",
+              "subcategoryID": "expandedAreas:Curry",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Spicy_Curry",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Coconut",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Papaya",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Gammonberry_Pie",
+              "productID": "expandedAreas:Gammonberry_Pie",
+              "perfectCookID": "expandedAreas:Gammonberry_Pie_Perfect",
+              "baseExperience": 310,
+              "level": 55,
+              "baseInterval": 8000,
+              "baseQuantity": 4,
+              "categoryID": "melvorD:Furnace",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Gammonberry",
+                  "quantity": 4
+                },
+                {
+                  "id": "melvorD:Bag_of_Flour",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Booberry_Pie",
+              "productID": "expandedAreas:Booberry_Pie",
+              "perfectCookID": "expandedAreas:Booberry_Pie_Perfect",
+              "baseExperience": 364,
+              "level": 62,
+              "baseInterval": 8000,
+              "baseQuantity": 1,
+              "categoryID": "melvorD:Furnace",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Booberry",
+                  "quantity": 4
+                },
+                {
+                  "id": "melvorD:Bag_of_Flour",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Yellowberry_Pie",
+              "productID": "expandedAreas:Yellowberry_Pie",
+              "perfectCookID": "expandedAreas:Yellowberry_Pie_Perfect",
+              "baseExperience": 392,
+              "level": 69,
+              "baseInterval": 8000,
+              "baseQuantity": 1,
+              "categoryID": "melvorD:Furnace",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Yellowberry",
+                  "quantity": 4
+                },
+                {
+                  "id": "melvorD:Bag_of_Flour",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Blueberry_Pie",
+              "productID": "expandedAreas:Blueberry_Pie",
+              "perfectCookID": "expandedAreas:Blueberry_Pie_Perfect",
+              "baseExperience": 441,
+              "level": 77,
+              "baseInterval": 8000,
+              "baseQuantity": 1,
+              "categoryID": "melvorD:Furnace",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Blueberry",
+                  "quantity": 4
+                },
+                {
+                  "id": "melvorD:Bag_of_Flour",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Coconut_Cream_Pie",
+              "productID": "expandedAreas:Coconut_Cream_Pie",
+              "perfectCookID": "expandedAreas:Coconut_Cream_Pie_Perfect",
+              "baseExperience": 469,
+              "level": 84,
+              "baseInterval": 8000,
+              "baseQuantity": 4,
+              "categoryID": "melvorD:Furnace",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Coconut",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Cream",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Bag_of_Flour",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Mumuberry_Pie",
+              "productID": "expandedAreas:Mumuberry_Pie",
+              "perfectCookID": "expandedAreas:Mumuberry_Pie_Perfect",
+              "baseExperience": 510,
+              "level": 90,
+              "baseInterval": 8000,
+              "baseQuantity": 1,
+              "categoryID": "melvorD:Furnace",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Mumuberry",
+                  "quantity": 4
+                },
+                {
+                  "id": "melvorD:Bag_of_Flour",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Pineapple_Cake",
+              "productID": "expandedAreas:Pineapple_Cake",
+              "perfectCookID": "expandedAreas:Pineapple_Cake_Perfect",
+              "baseExperience": 538,
+              "level": 93,
+              "baseInterval": 8000,
+              "baseQuantity": 4,
+              "categoryID": "melvorD:Furnace",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Pineapple",
+                  "quantity": 3
+                },
+                {
+                  "id": "melvorD:Bag_of_Flour",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Cream",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Coffee_Cake",
+              "productID": "expandedAreas:Coffee_Cake",
+              "perfectCookID": "expandedAreas:Coffee_Cake_Perfect",
+              "baseExperience": 601,
+              "level": 95,
+              "baseInterval": 8000,
+              "baseQuantity": 1,
+              "categoryID": "melvorD:Furnace",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Coffee_Beans",
+                  "quantity": 6
+                },
+                {
+                  "id": "melvorD:Bag_of_Flour",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Cream",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Dragonfruit_Cake",
+              "productID": "expandedAreas:Dragonfruit_Cake",
+              "perfectCookID": "expandedAreas:Dragonfruit_Cake_Perfect",
+              "baseExperience": 646,
+              "level": 98,
+              "baseInterval": 8000,
+              "baseQuantity": 1,
+              "categoryID": "melvorD:Furnace",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Dragonfruit",
+                  "quantity": 3
+                },
+                {
+                  "id": "expandedAreas:Orange",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Bag_of_Flour",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Cream",
+                  "quantity": 2
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Stuffed_Pepper",
+              "productID": "expandedAreas:Stuffed_Pepper",
+              "perfectCookID": "expandedAreas:Stuffed_Pepper_Perfect",
+              "baseExperience": 285,
+              "level": 75,
+              "baseInterval": 8000,
+              "baseQuantity": 3,
+              "categoryID": "melvorD:Furnace",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Bell_Peppers",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Cheese",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Raw_Beef",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Tomato_Juice",
+              "productID": "expandedAreas:Tomato_Juice",
+              "perfectCookID": "expandedAreas:Tomato_Juice_Perfect",
+              "baseExperience": 30,
+              "level": 12,
+              "baseInterval": 5000,
+              "baseQuantity": 1,
+              "categoryID": "expandedAreas:Drinks",
+              "subcategoryID": "expandedAreas:Drinks",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Tomatoes",
+                  "quantity": 3
+                },
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Strawberry_Juice",
+              "productID": "expandedAreas:Strawberry_Juice",
+              "perfectCookID": "expandedAreas:Strawberry_Juice_Perfect",
+              "baseExperience": 45,
+              "level": 31,
+              "baseInterval": 5000,
+              "baseQuantity": 1,
+              "categoryID": "expandedAreas:Drinks",
+              "subcategoryID": "expandedAreas:Drinks",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Strawberries",
+                  "quantity": 3
+                },
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Orange_Juice",
+              "productID": "expandedAreas:Orange_Juice",
+              "perfectCookID": "expandedAreas:Orange_Juice_Perfect",
+              "baseExperience": 51,
+              "level": 33,
+              "baseInterval": 5000,
+              "baseQuantity": 1,
+              "categoryID": "expandedAreas:Drinks",
+              "subcategoryID": "expandedAreas:Drinks",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Orange",
+                  "quantity": 3
+                },
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Cherry_Juice",
+              "productID": "expandedAreas:Cherry_Juice",
+              "perfectCookID": "expandedAreas:Cherry_Juice_Perfect",
+              "baseExperience": 60,
+              "level": 39,
+              "baseInterval": 5000,
+              "baseQuantity": 1,
+              "categoryID": "expandedAreas:Drinks",
+              "subcategoryID": "expandedAreas:Drinks",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Cherry",
+                  "quantity": 3
+                },
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Watermelon_Juice",
+              "productID": "expandedAreas:Watermelon_Juice",
+              "perfectCookID": "expandedAreas:Watermelon_Juice_Perfect",
+              "baseExperience": 216,
+              "level": 47,
+              "baseInterval": 15000,
+              "baseQuantity": 1,
+              "categoryID": "expandedAreas:Drinks",
+              "subcategoryID": "expandedAreas:Drinks",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Watermelon",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Pineapple_Juice",
+              "productID": "expandedAreas:Pineapple_Juice",
+              "perfectCookID": "expandedAreas:Pineapple_Juice_Perfect",
+              "baseExperience": 264,
+              "level": 55,
+              "baseInterval": 15000,
+              "baseQuantity": 1,
+              "categoryID": "expandedAreas:Drinks",
+              "subcategoryID": "expandedAreas:Drinks",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Pineapple",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Papaya_Juice",
+              "productID": "expandedAreas:Papaya_Juice",
+              "perfectCookID": "expandedAreas:Papaya_Juice_Perfect",
+              "baseExperience": 184,
+              "level": 57,
+              "baseInterval": 10000,
+              "baseQuantity": 1,
+              "categoryID": "expandedAreas:Drinks",
+              "subcategoryID": "expandedAreas:Drinks",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Papaya",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Green_Smoothie",
+              "productID": "expandedAreas:Green_Smoothie",
+              "perfectCookID": "expandedAreas:Green_Smoothie_Perfect",
+              "baseExperience": 318,
+              "level": 61,
+              "baseInterval": 15000,
+              "baseQuantity": 1,
+              "categoryID": "expandedAreas:Drinks",
+              "subcategoryID": "expandedAreas:Drinks",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Snape_Grass",
+                  "quantity": 3
+                },
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Coconut_Water",
+              "productID": "expandedAreas:Coconut_Water",
+              "perfectCookID": "expandedAreas:Coconut_Water_Perfect",
+              "baseExperience": 129,
+              "level": 68,
+              "baseInterval": 5000,
+              "baseQuantity": 1,
+              "categoryID": "expandedAreas:Drinks",
+              "subcategoryID": "expandedAreas:Drinks",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Coconut",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Carrot_Juice",
+              "productID": "expandedAreas:Carrot_Juice",
+              "perfectCookID": "expandedAreas:Carrot_Juice_Perfect",
+              "baseExperience": 134,
+              "level": 69,
+              "baseInterval": 5000,
+              "baseQuantity": 1,
+              "categoryID": "expandedAreas:Drinks",
+              "subcategoryID": "expandedAreas:Drinks",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Carrot",
+                  "quantity": 3
+                },
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Apple_Juice",
+              "productID": "expandedAreas:Apple_Juice",
+              "perfectCookID": "expandedAreas:Apple_Juice_Perfect",
+              "baseExperience": 139,
+              "level": 70,
+              "baseInterval": 5000,
+              "baseQuantity": 1,
+              "categoryID": "expandedAreas:Drinks",
+              "subcategoryID": "expandedAreas:Drinks",
+              "itemCosts": [
+                {
+                  "id": "melvorF:Apple",
+                  "quantity": 3
+                },
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Dragonfruit_Smoothie",
+              "productID": "expandedAreas:Dragonfruit_Smoothie",
+              "perfectCookID": "expandedAreas:Dragonfruit_Smoothie_Perfect",
+              "baseExperience": 181,
+              "level": 76,
+              "baseInterval": 5000,
+              "baseQuantity": 1,
+              "categoryID": "expandedAreas:Drinks",
+              "subcategoryID": "expandedAreas:Drinks",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Dragonfruit",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
+            },
+            {
+              "id": "Super_Delicious_Power_Smoothie",
+              "productID": "expandedAreas:Super_Delicious_Power_Smoothie",
+              "perfectCookID": "expandedAreas:Super_Delicious_Power_Smoothie_Perfect",
+              "baseExperience": 255,
+              "level": 88,
+              "baseInterval": 50000,
+              "baseQuantity": 1,
+              "categoryID": "expandedAreas:Drinks",
+              "subcategoryID": "expandedAreas:Drinks",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Tomatoes",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Strawberries",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Orange",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Cherry",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Watermelon",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Papaya",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Snape_Grass",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Coconut",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorD:Carrot",
+                  "quantity": 1
+                },
+                {
+                  "id": "melvorF:Apple",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Dragonfruit",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
             },
             {
               "id": "Cooked_Grub",
@@ -19497,7 +23044,7 @@
           "categories": [
             {
               "id": "Unique",
-              "media": "assets/items/Ruby_Dust.png",
+              "media": "assets/items/Item/Ruby_Dust.png",
               "name": "Unique"
             }
           ],
@@ -19925,7 +23472,7 @@
             {
               "id": "Unique",
               "name": "Unique",
-              "media": "assets/items/Pureform_Rune.png"
+              "media": "assets/items/Item/Pureform_Rune.png"
             }
           ],
           "recipes": [
@@ -22465,6 +26012,12 @@
               "minQuantity": 1,
               "maxQuantity": 9,
               "weight": 444444
+            },
+            {
+              "itemID": "expandedAreas:Wildblood_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 9,
+              "weight": 333333
             },
             {
               "itemID": "expandedAreas:Orange_Tree_Seed",
