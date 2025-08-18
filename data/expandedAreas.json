@@ -19825,7 +19825,15 @@
         "insertAt": "After",
         "afterID": "melvorD:Snape_Grass",
         "ids": [
-          "expandedAreas:Blueberry"
+          "expandedAreas:Blueberry",
+          "expandedAreas:Coconut"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Bad_Cooker_Scroll",
+        "ids": [
+          "expandedAreas:The_Good_Stuff"
         ]
       },
       {
