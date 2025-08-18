@@ -5904,14 +5904,15 @@
         "category": "Fletching",
         "type": "Tool",
         "media": "assets/items/Equipment/Barbarian_Fletching_Knife.png",
-        "customDescription": "-5% Fletching Interval when fletching Shortbows, Longbows, and Standard Arrows when equipped as a Weapon.",
+        "customDescription": "-5% Fletching Interval when fletching Shortbows, Longbows, and Standard Arrows when equipped.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 800,
         "tier": "rune",
         "validSlots": [
-          "expandedAreas:Tool"
+          "expandedAreas:Tool",
+          "Weapon"
         ],
         "occupiesSlots": [],
         "equipRequirements": [
@@ -11851,12 +11852,7 @@
         ],
         "canSlayer": true,
         "isBoss": false,
-        "selectedSpell": "melvorD:WindStrike",
-        "bones": {
-          "itemID": "melvorD:Bones",
-          "quantity": 1
-        },
-        "currencyDrops": []
+        "selectedSpell": "melvorD:WindStrike"
       },
       {
         "id": "Mutant_Flower",
@@ -11896,8 +11892,7 @@
         "bones": {
           "itemID": "expandedAreas:Sunflower_Seed",
           "quantity": 1
-        },
-        "currencyDrops": []
+        }
       },
       {
         "id": "Weeds",
@@ -11922,13 +11917,18 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 0,
-        "lootTable": [],
+        "lootChance": 10,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Snape_Grass_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
         "canSlayer": true,
         "isBoss": false,
-        "selectedSpell": "melvorD:WindStrike",
-        "bones": {},
-        "currencyDrops": []
+        "selectedSpell": "melvorD:WindStrike"
       },
       {
         "id": "Junior_Gardener",
@@ -12095,6 +12095,12 @@
             "minQuantity": 1,
             "maxQuantity": 5,
             "weight": 300
+          },
+          {
+            "itemID": "expandedAreas:Coffea_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 150
           }
         ],
         "canSlayer": true,
@@ -12157,13 +12163,13 @@
           {
             "itemID": "expandedAreas:Gammonberry_Seed",
             "minQuantity": 1,
-            "maxQuantity": 2,
+            "maxQuantity": 8,
             "weight": 1638
           },
           {
             "itemID": "expandedAreas:Tulip_Seed",
             "minQuantity": 1,
-            "maxQuantity": 2,
+            "maxQuantity": 8,
             "weight": 1092
           },
           {
@@ -12195,6 +12201,12 @@
             "minQuantity": 1,
             "maxQuantity": 8,
             "weight": 312
+          },
+          {
+            "itemID": "expandedAreas:Coffea_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 8,
+            "weight": 256
           },
           {
             "itemID": "expandedAreas:Nasturtium_Seed",
@@ -12288,7 +12300,7 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 75,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "melvorD:Green_Dragonhide",
@@ -12348,7 +12360,7 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 75,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "melvorD:Blue_Dragonhide",
@@ -12412,7 +12424,7 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 75,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "melvorD:Red_Dragonhide",
@@ -12476,7 +12488,7 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 75,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "melvorD:Black_Dragonhide",
@@ -12925,7 +12937,7 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 72,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "expandedAreas:Barbar",
@@ -13058,7 +13070,7 @@
         "attackType": "ranged",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 74,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "expandedAreas:Barbar",
@@ -13214,7 +13226,7 @@
             "weight": 888888
           },
           {
-            "itemID": "melvorF:Hearty_Soup",
+            "itemID": "melvorD:Hearty_Soup",
             "minQuantity": 1,
             "maxQuantity": 1,
             "weight": 777777
@@ -14091,7 +14103,7 @@
             "weight": 333333
           },
           {
-            "itemID": "melvorD:Willow_Shortbow",
+            "itemID": "melvorF:Willow_Shortbow",
             "minQuantity": 1,
             "maxQuantity": 1,
             "weight": 222222
@@ -14429,7 +14441,7 @@
             "weight": 333333
           },
           {
-            "itemID": "melvorD:Oak_Longbow",
+            "itemID": "melvorF:Oak_Longbow",
             "minQuantity": 1,
             "maxQuantity": 1,
             "weight": 222222
@@ -14509,7 +14521,7 @@
             "weight": 999999
           },
           {
-            "itemID": "melvorD:Leather_Gloves",
+            "itemID": "melvorF:Leather_Gloves",
             "maxQuantity": 1,
             "minQuantity": 1,
             "weight": 888888
@@ -14839,7 +14851,7 @@
         "attackType": "magic",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 73,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "melvorD:Air_Rune",
@@ -14974,7 +14986,7 @@
         "passives": [
           "melvorD:CantTouchThis"
         ],
-        "lootChance": 14,
+        "lootChance": 25,
         "lootTable": [
           {
             "itemID": "melvorD:Topaz",
@@ -15071,7 +15083,7 @@
           "expandedAreas:Novice_Necromancer_Zombie_Summon"
         ],
         "passives": [],
-        "lootChance": 73,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "melvorD:Earth_Rune",
@@ -15393,7 +15405,7 @@
         "passives": [
           "melvorF:ElementalistI"
         ],
-        "lootChance": 68,
+        "lootChance": 78,
         "lootTable": [
           {
             "itemID": "melvorD:Air_Rune",
@@ -15493,7 +15505,7 @@
         "passives": [
           "melvorF:ElementalistI"
         ],
-        "lootChance": 68,
+        "lootChance": 78,
         "lootTable": [
           {
             "itemID": "melvorD:Water_Rune",
@@ -15597,7 +15609,7 @@
         "passives": [
           "melvorF:ElementalistI"
         ],
-        "lootChance": 68,
+        "lootChance": 78,
         "lootTable": [
           {
             "itemID": "melvorD:Earth_Rune",
@@ -15697,7 +15709,7 @@
         "passives": [
           "melvorF:ElementalistI"
         ],
-        "lootChance": 68,
+        "lootChance": 78,
         "lootTable": [
           {
             "itemID": "melvorD:Fire_Rune",
@@ -15954,15 +15966,15 @@
       },
       {
         "id": "Botanical_Gardens",
-        "name": "Botanical_Gardens",
+        "name": "Botanical Gardens",
         "media": "assets/combatAreas/Botanical_Gardens.svg",
         "difficulty": [
           0
         ],
         "monsterIDs": [
           "expandedAreas:Mutant_Flower",
-          "expandedAreas:Wasp",
           "expandedAreas:Junior_Gardener",
+          "expandedAreas:Wasp",
           "expandedAreas:Weeds",
           "expandedAreas:Adult_Gardener",
           "expandedAreas:Master_Gardener"
@@ -16538,6 +16550,64 @@
       }
     ],
     "shopPurchases": [
+      {
+        "id": "Bucket_of_Water",
+        "media": "assets/items/Item/Bucket_of_Water.png",
+        "category": "melvorD:Materials",
+        "contains": {
+          "items": [
+            {
+              "id": "expandedAreas:Bucket_of_Water",
+              "quantity": 1
+            }
+          ]
+        },
+        "cost": {
+          "items": [],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 2
+            }
+          ]
+        },
+        "allowQuantityPurchase": true,
+        "unlockRequirements": [],
+        "purchaseRequirements": [],
+        "defaultBuyLimit": 0,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false
+      },
+      {
+        "id": "Ale_Yeast",
+        "media": "assets/items/Item/Ale_Yeast.png",
+        "category": "melvorD:Materials",
+        "contains": {
+          "items": [
+            {
+              "id": "expandedAreas:Ale_Yeast",
+              "quantity": 1
+            }
+          ]
+        },
+        "cost": {
+          "items": [],
+          "currencies": [
+            {
+              "currency": "melvorD:GP",
+              "type": "Fixed",
+              "cost": 100
+            }
+          ]
+        },
+        "allowQuantityPurchase": true,
+        "unlockRequirements": [],
+        "purchaseRequirements": [],
+        "defaultBuyLimit": 0,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false
+      },
       {
         "id": "Bronze_Fermenting_Tank",
         "media": "assets/skills/cooking/Bronze_Fermenting_Tank.svg",
@@ -17719,6 +17789,14 @@
       }
     ],
     "shopDisplayOrder": [
+      {
+        "insertAt": "After",
+        "afterID": "melvorD:Bag_of_Flour",
+        "ids": [
+          "expandedAreas:Bucket_of_Water",
+          "expandedAreas:Ale_Yeast"
+        ]
+      },
       {
         "insertAt": "After",
         "afterID": "melvorD:Magic_Pot",
@@ -19851,9 +19929,163 @@
           ],
           "plots": [
             {
+              "id": "Fruit_TreePlot1",
+              "categoryID": "expandedAreas:Fruit_Tree",
+              "level": 33,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 50000
+                }
+              ]
+            },
+            {
+              "id": "Fruit_TreePlot2",
+              "categoryID": "expandedAreas:Fruit_Tree",
+              "level": 45,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 100000
+                }
+              ]
+            },
+            {
+              "id": "Fruit_TreePlot3",
+              "categoryID": "expandedAreas:Fruit_Tree",
+              "level": 60,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 200000
+                }
+              ]
+            },
+            {
+              "id": "Fruit_TreePlot4",
+              "categoryID": "expandedAreas:Fruit_Tree",
+              "level": 75,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 500000
+                }
+              ]
+            },
+            {
+              "id": "Fruit_TreePlot5",
+              "categoryID": "expandedAreas:Fruit_Tree",
+              "level": 85,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 750000
+                }
+              ]
+            },
+            {
+              "id": "Fruit_TreePlot6",
+              "categoryID": "expandedAreas:Fruit_Tree",
+              "level": 95,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 1000000
+                }
+              ]
+            },
+            {
+              "id": "FlowerPlot1",
+              "categoryID": "expandedAreas:Flower",
+              "level": 2
+            },
+            {
+              "id": "FlowerPlot2",
+              "categoryID": "expandedAreas:Flower",
+              "level": 2,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 5000
+                }
+              ]
+            },
+            {
+              "id": "FlowerPlot3",
+              "categoryID": "expandedAreas:Flower",
+              "level": 15,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 50000
+                }
+              ]
+            },
+            {
+              "id": "FlowerPlot4",
+              "categoryID": "expandedAreas:Flower",
+              "level": 35,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 120000
+                }
+              ]
+            },
+            {
+              "id": "FlowerPlot5",
+              "categoryID": "expandedAreas:Flower",
+              "level": 50,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 210000
+                }
+              ]
+            },
+            {
+              "id": "FlowerPlot6",
+              "categoryID": "expandedAreas:Flower",
+              "level": 65,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 369000
+                }
+              ]
+            },
+            {
+              "id": "FlowerPlot7",
+              "categoryID": "expandedAreas:Flower",
+              "level": 75,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 420000
+                }
+              ]
+            },
+            {
+              "id": "FlowerPlot8",
+              "categoryID": "expandedAreas:Flower",
+              "level": 85,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 500000
+                }
+              ]
+            },
+            {
               "id": "HopsPlot1",
               "categoryID": "expandedAreas:Hops",
-              "level": 5
+              "level": 5,
+              "currencyCosts": [
+                {
+                  "id": "melvorD:GP",
+                  "quantity": 1000
+                }
+              ]
             },
             {
               "id": "HopsPlot2",
@@ -19862,7 +20094,7 @@
               "currencyCosts": [
                 {
                   "id": "melvorD:GP",
-                  "quantity": 500
+                  "quantity": 2500
                 }
               ]
             },
@@ -19873,7 +20105,7 @@
               "currencyCosts": [
                 {
                   "id": "melvorD:GP",
-                  "quantity": 5000
+                  "quantity": 2500
                 }
               ]
             },
@@ -19884,7 +20116,7 @@
               "currencyCosts": [
                 {
                   "id": "melvorD:GP",
-                  "quantity": 15000
+                  "quantity": 30000
                 }
               ]
             },
@@ -19895,7 +20127,7 @@
               "currencyCosts": [
                 {
                   "id": "melvorD:GP",
-                  "quantity": 25000
+                  "quantity": 67600
                 }
               ]
             },
@@ -19906,7 +20138,7 @@
               "currencyCosts": [
                 {
                   "id": "melvorD:GP",
-                  "quantity": 40000
+                  "quantity": 159580
                 }
               ]
             },
@@ -19917,7 +20149,7 @@
               "currencyCosts": [
                 {
                   "id": "melvorD:GP",
-                  "quantity": 65000
+                  "quantity": 315750
                 }
               ]
             },
@@ -19928,7 +20160,7 @@
               "currencyCosts": [
                 {
                   "id": "melvorD:GP",
-                  "quantity": 80000
+                  "quantity": 475000
                 }
               ]
             },
@@ -19939,7 +20171,7 @@
               "currencyCosts": [
                 {
                   "id": "melvorD:GP",
-                  "quantity": 100000
+                  "quantity": 680000
                 }
               ]
             },
@@ -19950,7 +20182,7 @@
               "currencyCosts": [
                 {
                   "id": "melvorD:GP",
-                  "quantity": 120000
+                  "quantity": 1200000
                 }
               ]
             },
@@ -23911,6 +24143,19 @@
   "modifications": {
     "items": [
       {
+        "id": "melvorD:Pirate_Booty",
+        "dropTable": {
+          "add": [
+            {
+              "itemID": "expandedAreas:The_Good_Stuff",
+              "minQuantity": 25,
+              "maxQuantity": 100,
+              "weight": 25
+            }
+          ]
+        }
+      },
+      {
         "id": "expandedAreas:The_Firebreather",
         "modifiers": {
           "add": {
@@ -23969,9 +24214,6 @@
       {
         "id": "melvorTotH:Adventurers_Backpack",
         "validSlots": {
-          "remove": [
-            "melvorD:Cape"
-          ],
           "add": [
             "expandedAreas:Accessory1",
             "expandedAreas:Accessory2"
@@ -23981,9 +24223,6 @@
       {
         "id": "melvorAoD:Ghostly_Parrot",
         "validSlots": {
-          "remove": [
-            "melvorD:Cape"
-          ],
           "add": [
             "expandedAreas:Accessory1",
             "expandedAreas:Accessory2"
@@ -24002,9 +24241,6 @@
       {
         "id": "melvorTotH:Voodoo_Trinket",
         "validSlots": {
-          "remove": [
-            "melvorD:Amulet"
-          ],
           "add": [
             "expandedAreas:Accessory1",
             "expandedAreas:Accessory2"
@@ -24014,9 +24250,6 @@
       {
         "id": "melvorAoD:Sailors_Compass",
         "validSlots": {
-          "remove": [
-            "melvorD:Ring"
-          ],
           "add": [
             "expandedAreas:Accessory1",
             "expandedAreas:Accessory2"
@@ -25956,7 +26189,7 @@
       },
       {
         "id": "melvorD:AdultFarmer",
-        "lootChance": 96,
+        "lootChance": 100,
         "lootTable": {
           "remove": [
             "melvorD:Onion_Seed",
