@@ -121,7 +121,7 @@
       },
       {
         "id": "Spicy_Papaya_Curry",
-        "name": "Spicy_Papaya Curry",
+        "name": "Spicy Papaya Curry",
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Spicy_Papaya_Curry.png",
@@ -191,11 +191,11 @@
       },
       {
         "id": "Coconut_Cream_Pie",
-        "name": "Coconut_Cream Pie",
+        "name": "Coconut Cream Pie",
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Coconut_Cream_Pie.png",
-        "customDescription": "Heh heh—\"cream pie.\".",
+        "customDescription": "Heh heh—\"cream pie.\"",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -766,7 +766,7 @@
       },
       {
         "id": "Coconut_Cream_Pie_Perfect",
-        "name": "Coconut_Cream Pie (Perfect)",
+        "name": "Coconut Cream Pie (Perfect)",
         "category": "Cooking",
         "type": "Food",
         "media": "assets/items/Food/Coconut_Cream_Pie_Perfect.png",
@@ -1380,7 +1380,7 @@
         "category": "Cooking",
         "type": "Potion",
         "media": "assets/items/Potion/Holy_Cow_Brew.png",
-        "customDescription": "+15% Food Healing Value and -31% Prayer Point Cost<br>37.5% Chance to be afflicted with a 19% Slow for 2 turns at the start of a fight.",
+        "customDescription": "+15% Food Healing Value and -30% Prayer Point Cost<br>37.5% Chance to be afflicted with a 20% Slow for 2 turns at the start of a fight.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -1388,7 +1388,7 @@
         "itemType": "Potion",
         "modifiers": {
           "foodHealingValue": 15,
-          "prayerPointCost": -31.25
+          "prayerPointCost": -30
         },
         "combatEffects": [
           {
@@ -1402,7 +1402,7 @@
               },
               {
                 "name": "magnitude",
-                "value": 18.75
+                "value": 20
               }
             ]
           }
@@ -1591,7 +1591,7 @@
         "category": "Cooking",
         "type": "Potion",
         "media": "assets/items/Potion/Dragonbane_Mead.png",
-        "customDescription": "+10% Maximum Hit and +10% Global Accuracy Rating when afflicted by Burn, but +20% Damage Taken from Dragonbreath and Burn.",
+        "customDescription": "+10% Maximum Hit and +10% Global Accuracy Rating when afflicted by Dragonbreath or Burn, but +20% Damage Taken from Dragonbreath and Burn.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -1649,7 +1649,7 @@
         "category": "Cooking",
         "type": "Potion",
         "media": "assets/items/Potion/Dragonbane_Mead_m.png",
-        "customDescription": "+15% Maximum Hit and +15% Global Accuracy Rating when afflicted by Dragonbreath, but +30% Damage Taken from Dragonbreath and Burn.",
+        "customDescription": "+15% Maximum Hit and +15% Global Accuracy Rating when afflicted by Dragonbreath or Burn, but +30% Damage Taken from Dragonbreath and Burn.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -1707,14 +1707,14 @@
         "category": "Cooking",
         "type": "Potion",
         "media": "assets/items/Potion/Facekicker.png",
-        "customDescription": "-20% Attack Interval, but -20% Global Accuracy Rating and -10% Global Skill XP.",
+        "customDescription": "-20% Attack Interval, but -40% Global Accuracy Rating and -10% Global Skill XP.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1200,
         "itemType": "Potion",
         "modifiers": {
-          "accuracyRating": -20,
+          "accuracyRating": -40,
           "skillXP": -10,
           "attackInterval": 20
         },
@@ -1733,14 +1733,14 @@
         "category": "Cooking",
         "type": "Potion",
         "media": "assets/items/Potion/Facekicker_m.png",
-        "customDescription": "-30% Attack Interval, but -30% Global Accuracy Rating and -15% Global Skill XP.",
+        "customDescription": "-30% Attack Interval, but -60% Global Accuracy Rating and -15% Global Skill XP.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 2400,
         "itemType": "Potion",
         "modifiers": {
-          "accuracyRating": -30,
+          "accuracyRating": -60,
           "skillXP": -15,
           "attackInterval": 30
         },
@@ -2003,7 +2003,7 @@
       },
       {
         "id": "Sailors_Respite",
-        "name": "Sailors_Respite",
+        "name": "Sailors Respite",
         "category": "Cooking",
         "type": "Potion",
         "media": "assets/items/Potion/Sailors_Respite.png",
@@ -2040,7 +2040,7 @@
       },
       {
         "id": "Sailors_Respite_m",
-        "name": "Sailors_Respite (Mature)",
+        "name": "Sailors Respite (Mature)",
         "category": "Cooking",
         "type": "Potion",
         "media": "assets/items/Potion/Sailors_Respite_m.png",
@@ -2143,7 +2143,7 @@
         "category": "Cooking",
         "type": "Potion",
         "media": "assets/items/Potion/The_Firebreather.png",
-        "customDescription": "+10% Chance to receive Ash and Coal in Firemaking and +5% Firemaking XP.<br>+5% Firemaking Interval.",
+        "customDescription": "+10% Chance to receive Random Products in Firemaking and +5% Firemaking XP.<br>+5% Firemaking Interval.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -2181,7 +2181,7 @@
         "category": "Cooking",
         "type": "Potion",
         "media": "assets/items/Potion/The_Firebreather_m.png",
-        "customDescription": "+15% Chance to receive Random Products (e.g. Ash) in Firemaking and +7.5% Firemaking XP.<br>+7.5% Firemaking Interval.",
+        "customDescription": "+15% Chance to receive Random Products in Firemaking and +7.5% Firemaking XP.<br>+7.5% Firemaking Interval.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -2214,11 +2214,11 @@
         ]
       },
       {
-        "id": "The_Green_Goblin",
-        "name": "The Green Goblin",
+        "id": "The_Green_Golbin",
+        "name": "The Green Golbin",
         "category": "Cooking",
         "type": "Potion",
-        "media": "assets/items/Potion/The_Green_Goblin.png",
+        "media": "assets/items/Potion/The_Green_Golbin.png",
         "customDescription": "+10% Chance to Preserve and Double items in Herblore.<br>-10% Herblore Skill XP and Mastery XP.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
@@ -2261,11 +2261,11 @@
         ]
       },
       {
-        "id": "The_Green_Goblin_m",
-        "name": "The Green Goblin (Mature)",
+        "id": "The_Green_Golbin_m",
+        "name": "The Green Golbin (Mature)",
         "category": "Cooking",
         "type": "Potion",
-        "media": "assets/items/Potion/The_Green_Goblin_m.png",
+        "media": "assets/items/Potion/The_Green_Golbin_m.png",
         "customDescription": "+15% Chance to Preserve and Double items in Herblore.<br>-15% Herblore Skill XP and Mastery XP.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
@@ -2934,6 +2934,7 @@
         "category": "Herblore",
         "type": "Ingredient",
         "media": "assets/items/Item/Poison_Ivy_Leaf.png",
+        "customDescription": "Poisonous and itchy.<br>CURRENTLY HAS NO USE (YET) AS OF V0.7.1!",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -6927,15 +6928,36 @@
       {
         "id": "Monkey_Dung",
         "name": "Monkey Dung",
-        "media": "assets/items/Item/Monkey_Dung.png",
-        "category": "Misc",
-        "type": "Dung",
-        "itemType": "Item",
-        "sellsFor": 0,
+        "media": "assets/items/Weapon/Monkey_Dung.png",
+        "category": "Weapon",
+        "type": "Weapon",
+        "itemType": "Weapon",
+        "sellsFor": 1,
         "golbinRaidExclusive": false,
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
-        "customDescription": "Disgustingly useless."
+        "customDescription": "Disgustingly useless, except to throw at someone you hate.",
+        "tier": "none",
+        "validSlots": [
+          "Quiver"
+        ],
+        "equipRequirements": [],
+        "occupiesSlots": [],
+        "specialAttacks": [
+          "expandedAreas:Dung_Throw"
+        ],
+        "ammoType": "Javelins",
+        "attackType": "ranged",
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 6
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 2
+          }
+        ]
       },
       {
         "id": "Bronze_Thrownaxe",
@@ -11523,7 +11545,8 @@
         "attackCount": 1,
         "attackInterval": 3100,
         "lifesteal": 0,
-        "description": "Performs a regular attack, then summons a Zombie Hand that attacks for 42 damage.",
+        "description": "Summon a Zombie Hand to attack once, dealing ${attackDamageMaxValue0} damage (Can miss)..",
+        "descriptionGenerator": "Attack once dealing <damage> damage (<CanMiss>).",
         "usesRunesPerProc": true,
         "attackTypes": [
           "magic"
@@ -11539,23 +11562,31 @@
             "character": "Attacker",
             "roll": true,
             "minRoll": "Fixed",
-            "minPercent": 2,
+            "minPercent": 1,
             "maxRoll": "Fixed",
-            "maxPercent": 4
+            "maxPercent": 3,
+            "attackCount": 3
           }
         ],
         "prehitEffects": [],
         "onhitEffects": [
           {
-            "effectID": "melvorF:BlindingII",
-            "chance": 50
+            "effectID": "melvorF:BlindingI",
+            "chance": 50,
+            "initialParams": [
+              {
+                "name": "turns",
+                "value": 2
+              }
+            ]
           }
         ],
         "cantMiss": false,
         "attackCount": 3,
         "attackInterval": 50,
         "lifesteal": 0,
-        "description": "",
+        "description": "Attack 3 times, dealing ${attackDamageMaxValue0} damage (Can miss). On a hit, has a ${onHitEffect0chance}% chance to inflict Blinding I for ${onHitEffect0duration}s.",
+        "descriptionGenerator": "Attack once dealing <damage> damage (<CanMiss>). On a hit, <hitEffect>.",
         "attackTypes": [
           "magic"
         ]
@@ -11563,7 +11594,7 @@
       {
         "id": "Dung_Throw",
         "name": "Dung Throw",
-        "defaultChance": 50,
+        "defaultChance": 100,
         "damage": [
           {
             "damageType": "Custom",
@@ -11576,15 +11607,27 @@
           }
         ],
         "prehitEffects": [],
-        "onhitEffects": [],
+        "onhitEffects": [
+          {
+            "effectID": "melvorF:BlindingI",
+            "chance": 50,
+            "initialParams": [
+              {
+                "name": "turns",
+                "value": 1
+              }
+            ]
+          }
+        ],
         "cantMiss": false,
         "attackCount": 1,
         "attackInterval": 50,
         "lifesteal": 0,
-        "description": "",
         "attackTypes": [
           "ranged"
-        ]
+        ],
+        "description": "Attack once dealing ${attackDamageMaxValue0} damage (Can miss). On a hit, has a ${onHitEffect0chance}% chance to inflict Blinding I for ${onHitEffect0duration}s.",
+        "descriptionGenerator": "Attack once dealing <damage> damage (<CanMiss>). On a hit, <hitEffect>."
       },
       {
         "id": "Coconut_Throw",
@@ -11607,10 +11650,11 @@
         "attackCount": 1,
         "attackInterval": 50,
         "lifesteal": 0,
-        "description": "",
         "attackTypes": [
           "ranged"
-        ]
+        ],
+        "description": "Attack once dealing ${attackDamageMaxValue0} damage (Can miss).",
+        "descriptionGenerator": "Attack once dealing <damage> damage (<CanMiss>)."
       },
       {
         "id": "Zephyr_Strike",
@@ -11737,6 +11781,155 @@
       }
     ],
     "monsters": [
+      {
+        "id": "Wasp",
+        "name": "Wasp",
+        "media": "assets/monsters/Wasp.png",
+        "description": "It's even worse up close!",
+        "levels": {
+          "Hitpoints": 10,
+          "Attack": 50,
+          "Strength": 1,
+          "Defence": 1,
+          "Ranged": 1,
+          "Magic": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 500
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 50,
+        "lootTable": [
+          {
+            "itemID": "expandedAreas:Lavender_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 888888
+          },
+          {
+            "itemID": "expandedAreas:Sunflower_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 666666
+          },
+          {
+            "itemID": "expandedAreas:Tulip_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 444444
+          },
+          {
+            "itemID": "expandedAreas:Thyme_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 222222
+          },
+          {
+            "itemID": "expandedAreas:Rose_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 111111
+          },
+          {
+            "itemID": "expandedAreas:Lily_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 55555
+          },
+          {
+            "itemID": "expandedAreas:Nasturtium_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 22222
+          }
+        ],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "bones": {
+          "itemID": "melvorD:Bones",
+          "quantity": 1
+        },
+        "currencyDrops": []
+      },
+      {
+        "id": "Mutant_Flower",
+        "name": "Mutant_Flower",
+        "media": "assets/monsters/Mutant_Flower.png",
+        "description": "AHHH! It's got eyes! EYES!",
+        "levels": {
+          "Hitpoints": 5,
+          "Attack": 1,
+          "Strength": 1,
+          "Defence": 20,
+          "Ranged": 1,
+          "Magic": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 80,
+        "lootTable": [
+          {
+            "itemID": "expandedAreas:Sunflower",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "weight": 1
+          }
+        ],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "bones": {
+          "itemID": "expandedAreas:Sunflower_Seed",
+          "quantity": 1
+        },
+        "currencyDrops": []
+      },
+      {
+        "id": "Weeds",
+        "name": "Weeds",
+        "media": "assets/monsters/Weeds.png",
+        "description": "A greenthumb's worst nightmare.",
+        "levels": {
+          "Hitpoints": 100,
+          "Attack": 1,
+          "Strength": 1,
+          "Defence": 1,
+          "Ranged": 1,
+          "Magic": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 5000
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 0,
+        "lootTable": [],
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "bones": {},
+        "currencyDrops": []
+      },
       {
         "id": "Junior_Gardener",
         "name": "Junior Gardener",
@@ -12022,10 +12215,34 @@
             "weight": 416
           },
           {
+            "itemID": "expandedAreas:Orange_Tree_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 8,
+            "weight": 250
+          },
+          {
+            "itemID": "expandedAreas:Curry_Tree_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 8,
+            "weight": 220
+          },
+          {
             "itemID": "expandedAreas:Cherry_Tree_Seed",
             "minQuantity": 1,
             "maxQuantity": 8,
             "weight": 166
+          },
+          {
+            "itemID": "expandedAreas:Palm_Tree_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 8,
+            "weight": 85
+          },
+          {
+            "itemID": "expandedAreas:Dragonfruit_Tree_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 8,
+            "weight": 42
           },
           {
             "itemID": "expandedAreas:Gardening_Apron",
@@ -12567,91 +12784,91 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 68,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "expandedAreas:Barbar",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 2048
+            "weight": 999999
           },
           {
             "itemID": "melvorD:Potatoes",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1024
+            "weight": 888888
           },
           {
             "itemID": "expandedAreas:Bronze_Spear",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 512
+            "weight": 777777
           },
           {
             "itemID": "melvorD:Chaos_Rune",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 256
+            "weight": 666666
           },
           {
             "itemID": "melvorD:Bronze_Arrows",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 256
+            "weight": 555555
           },
           {
             "itemID": "melvorD:Earth_Rune",
             "minQuantity": 1,
             "maxQuantity": 5,
-            "weight": 256
+            "weight": 444444
           },
           {
             "itemID": "melvorD:Fire_Rune",
             "minQuantity": 1,
             "maxQuantity": 5,
-            "weight": 256
+            "weight": 444444
           },
           {
             "itemID": "melvorD:Mind_Rune",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 256
+            "weight": 333333
           },
           {
             "itemID": "expandedAreas:Iron_Thrownaxe",
             "minQuantity": 1,
             "maxQuantity": 6,
-            "weight": 128
+            "weight": 333333
           },
           {
-            "itemID": "melvorD:Garum_Seed",
+            "itemID": "expandedAreas:Thyme_Seed",
             "minQuantity": 1,
-            "maxQuantity": 2,
-            "weight": 128
+            "maxQuantity": 1,
+            "weight": 222222
           },
           {
             "itemID": "melvorD:Tin_Ore",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 128
+            "weight": 222222
           },
           {
-            "itemID": "melvorD:Leather",
+            "itemID": "expandedAreas:Plumm_Seed",
             "minQuantity": 1,
-            "maxQuantity": 4,
-            "weight": 128
+            "maxQuantity": 1,
+            "weight": 222222
           },
           {
             "itemID": "melvorF:Gold_Sapphire_Ring",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 128
+            "weight": 111111
           },
           {
             "itemID": "expandedAreas:Barbarian_Helm",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 64
+            "weight": 111111
           }
         ],
         "canSlayer": true,
@@ -12714,67 +12931,73 @@
             "itemID": "expandedAreas:Barbar",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 2048
+            "weight": 999999
           },
           {
-            "itemID": "melvorD:Bronze_Bar",
+            "itemID": "expandedAreas:Firewine_Hops",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "weight": 555555
+          },
+          {
+            "itemID": "expandedAreas:Sterkite_Bar",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1024
+            "weight": 444444
           },
           {
             "itemID": "melvorF:Hard_Leather_Body",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 512
+            "weight": 333333
           },
           {
-            "itemID": "melvorD:Black_2H_Sword",
+            "itemID": "expandedAreas:Pine_Cone",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 512
+            "weight": 222222
           },
           {
-            "itemID": "melvorF:Hard_Leather_Boots",
+            "itemID": "melvorD:Black_Sword",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 512
+            "weight": 111111
           },
           {
-            "itemID": "melvorD:Cheese",
+            "itemID": "melvorD:Black_Boots",
             "minQuantity": 1,
-            "maxQuantity": 2,
-            "weight": 512
+            "maxQuantity": 1,
+            "weight": 111111
           },
           {
-            "itemID": "melvorD:Chaos_Rune",
+            "itemID": "melvorD:Black_Shield",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 111111
+          },
+          {
+            "itemID": "expandedAreas:Gammonberry_Seed",
             "minQuantity": 4,
             "maxQuantity": 12,
-            "weight": 256
+            "weight": 55555
           },
           {
             "itemID": "melvorD:Leather",
-            "minQuantity": 3,
-            "maxQuantity": 6,
-            "weight": 256
-          },
-          {
-            "itemID": "melvorF:Silver_Ruby_Necklace",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 128
-          },
-          {
-            "itemID": "melvorD:Oak_Tree_Seed",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 128
+            "minQuantity": 4,
+            "maxQuantity": 7,
+            "weight": 55555
           },
           {
             "itemID": "expandedAreas:Barbarian_Warrior_Helm",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 32
+            "weight": 55555
+          },
+          {
+            "itemID": "expandedAreas:White_Pine_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 22222
           }
         ],
         "canSlayer": true,
@@ -12838,64 +13061,88 @@
         "lootChance": 74,
         "lootTable": [
           {
+            "itemID": "expandedAreas:Barbar",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 999999
+          },
+          {
             "itemID": "melvorD:Bowstring",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 2048
-          },
-          {
-            "itemID": "expandedAreas:Black_Thrownaxe_Head",
-            "minQuantity": 3,
-            "maxQuantity": 6,
-            "weight": 1024
-          },
-          {
-            "itemID": "melvorF:Oak_Longbow_U",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 1024
-          },
-          {
-            "itemID": "melvorF:Willow_Longbow_U",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 512
+            "weight": 666666
           },
           {
             "itemID": "melvorF:Arrow_Shafts",
             "minQuantity": 17,
             "maxQuantity": 28,
-            "weight": 512
+            "weight": 555555
+          },
+          {
+            "itemID": "expandedAreas:Black_Thrownaxe_Head",
+            "minQuantity": 3,
+            "maxQuantity": 6,
+            "weight": 444444
+          },
+          {
+            "itemID": "melvorF:Oak_Longbow_U",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 333333
+          },
+          {
+            "itemID": "melvorF:Willow_Longbow_U",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 222222
+          },
+          {
+            "itemID": "expandedAreas:Frostpine_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 111111
           },
           {
             "itemID": "melvorF:Maple_Longbow_U",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 256
+            "weight": 111111
           },
           {
             "itemID": "melvorD:Mithril_Arrowtips",
             "minQuantity": 6,
             "maxQuantity": 9,
-            "weight": 256
+            "weight": 444444
+          },
+          {
+            "itemID": "expandedAreas:Andlovan_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 333333
+          },
+          {
+            "itemID": "expandedAreas:Huntress_Stout",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 222222
           },
           {
             "itemID": "melvorD:Adamant_Arrowtips",
             "minQuantity": 2,
             "maxQuantity": 9,
-            "weight": 256
+            "weight": 111111
           },
           {
             "itemID": "melvorD:Mithril_Javelin_Heads",
             "minQuantity": 2,
             "maxQuantity": 6,
-            "weight": 128
+            "weight": 333333
           },
           {
             "itemID": "expandedAreas:Barbarian_Archer_Helm",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 32
+            "weight": 55555
           }
         ],
         "canSlayer": true,
@@ -12952,55 +13199,55 @@
         "passives": [
           "melvorTotH:Rage"
         ],
-        "lootChance": 82,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "expandedAreas:Barbar",
             "minQuantity": 1,
-            "maxQuantity": 8,
-            "weight": 2048
+            "maxQuantity": 10,
+            "weight": 999999
           },
           {
-            "itemID": "melvorD:Beef",
+            "itemID": "expandedAreas:Adamant_Thrownaxe",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 2048
+            "weight": 888888
           },
           {
-            "itemID": "melvorD:Onions",
-            "minQuantity": 1,
-            "maxQuantity": 10,
-            "weight": 1024
-          },
-          {
-            "itemID": "melvorD:Black_Battleaxe",
-            "minQuantity": 1,
-            "maxQuantity": 2,
-            "weight": 512
-          },
-          {
-            "itemID": "melvorD:Black_Platelegs",
+            "itemID": "melvorF:Hearty_Soup",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 512
+            "weight": 777777
+          },
+          {
+            "itemID": "expandedAreas:Frostpine_Logs",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 666666
+          },
+          {
+            "itemID": "expandedAreas:Wildblood_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 333333
           },
           {
             "itemID": "melvorD:Amulet_of_Strength",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 256
+            "weight": 111111
           },
           {
-            "itemID": "melvorF:Melee_Strength_Potion_I",
+            "itemID": "expandedAreas:Barbarian_Berserker_Helm",
             "minQuantity": 1,
-            "maxQuantity": 2,
-            "weight": 256
+            "maxQuantity": 1,
+            "weight": 55555
           },
           {
             "itemID": "expandedAreas:Barbarian_Berserker_Axe",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 32
+            "weight": 33333
           }
         ],
         "canSlayer": true,
@@ -13059,49 +13306,79 @@
           "expandedAreas:Sucker_Punch"
         ],
         "passives": [],
-        "lootChance": 74,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "melvorD:Bronze_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 2048
+            "weight": 999999
+          },
+          {
+            "itemID": "expandedAreas:Barley",
+            "minQuantity": 5,
+            "maxQuantity": 10,
+            "weight": 888888
           },
           {
             "itemID": "expandedAreas:Barbar",
-            "minQuantity": 4,
-            "maxQuantity": 13,
-            "weight": 2048
+            "minQuantity": 3,
+            "maxQuantity": 5,
+            "weight": 777777
+          },
+          {
+            "itemID": "expandedAreas:Goldengod_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 666666
           },
           {
             "itemID": "melvorF:Hard_Leather_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1024
+            "weight": 777777
           },
           {
             "itemID": "melvorD:Iron_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 512
+            "weight": 666666
           },
           {
             "itemID": "melvorD:Steel_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 256
+            "weight": 555555
+          },
+          {
+            "itemID": "expandedAreas:Evergreen_Pine_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "weight": 444444
           },
           {
             "itemID": "expandedAreas:Black_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 128
+            "weight": 333333
+          },
+          {
+            "itemID": "expandedAreas:Sterkite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "weight": 222222
+          },
+          {
+            "itemID": "melvorD:Barbarian_Gloves",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 111111
           },
           {
             "itemID": "expandedAreas:Barbarian_Brawling_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 32
+            "weight": 55555
           }
         ],
         "canSlayer": true,
@@ -13289,61 +13566,55 @@
         "passives": [
           "melvorTotH:Rage"
         ],
-        "lootChance": 50,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "expandedAreas:Barbar",
             "minQuantity": 1,
             "maxQuantity": 10,
-            "weight": 2048
+            "weight": 888888
           },
           {
             "itemID": "expandedAreas:Pine_Nuts",
             "minQuantity": 6,
             "maxQuantity": 14,
-            "weight": 1024
+            "weight": 666666
           },
           {
             "itemID": "melvorD:Black_Helmet_T_G",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 512
+            "weight": 444444
           },
           {
             "itemID": "melvorD:Black_Boots_T_G",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 256
+            "weight": 333333
           },
           {
             "itemID": "melvorF:Summoning_Familiar_Yak",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 128
+            "weight": 222222
           },
           {
             "itemID": "melvorF:Looter_Pouch",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 64
-          },
-          {
-            "itemID": "melvorF:Ring_Of_Wealth",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 32
+            "minQuantity": 5,
+            "maxQuantity": 10,
+            "weight": 111111
           },
           {
             "itemID": "expandedAreas:Prosperous_Necklace",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 32
+            "weight": 55555
           },
           {
             "itemID": "expandedAreas:Barbarian_Longblade",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 16
+            "weight": 33333
           }
         ],
         "canSlayer": false,
@@ -13642,73 +13913,73 @@
         "attackType": "magic",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 60,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "melvorF:Nature_Rune",
             "minQuantity": 1,
             "maxQuantity": 4,
-            "weight": 1024
+            "weight": 999999
           },
           {
             "itemID": "melvorD:Chaos_Rune",
             "minQuantity": 1,
             "maxQuantity": 4,
-            "weight": 1024
+            "weight": 888888
           },
           {
             "itemID": "melvorD:Earth_Rune",
             "minQuantity": 1,
             "maxQuantity": 36,
-            "weight": 512
+            "weight": 777777
           },
           {
             "itemID": "melvorD:Air_Rune",
             "minQuantity": 1,
             "maxQuantity": 18,
-            "weight": 512
+            "weight": 666666
           },
           {
             "itemID": "melvorD:Water_Rune",
             "minQuantity": 1,
             "maxQuantity": 18,
-            "weight": 512
+            "weight": 555555
           },
           {
             "itemID": "melvorD:Fire_Rune",
             "minQuantity": 1,
             "maxQuantity": 18,
-            "weight": 512
+            "weight": 444444
           },
           {
             "itemID": "melvorD:Mind_Rune",
             "minQuantity": 1,
             "maxQuantity": 10,
-            "weight": 256
+            "weight": 333333
           },
           {
             "itemID": "melvorD:Body_Rune",
             "minQuantity": 1,
             "maxQuantity": 10,
-            "weight": 256
+            "weight": 222222
           },
           {
             "itemID": "melvorD:Death_Rune",
             "minQuantity": 2,
             "maxQuantity": 2,
-            "weight": 128
+            "weight": 111111
           },
           {
             "itemID": "melvorD:Blood_Rune",
             "minQuantity": 2,
             "maxQuantity": 2,
-            "weight": 128
+            "weight": 99999
           },
           {
             "itemID": "expandedAreas:Golbin_Staff",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 64
+            "weight": 55555
           }
         ],
         "canSlayer": true,
@@ -13775,67 +14046,73 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 73,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "melvorD:Salmon",
             "minQuantity": 1,
-            "maxQuantity": 2,
-            "weight": 2048
+            "maxQuantity": 1,
+            "weight": 999999
           },
           {
-            "itemID": "expandedAreas:Iron_Spear",
+            "itemID": "melvorD:Bones",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1024
+            "weight": 888888
           },
           {
-            "itemID": "melvorD:Sapphire",
+            "itemID": "expandedAreas:Steel_Spear",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1024
+            "weight": 777777
+          },
+          {
+            "itemID": "expandedAreas:Jute_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 666666
+          },
+          {
+            "itemID": "expandedAreas:Cherry_Tree_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 555555
           },
           {
             "itemID": "melvorD:Snape_Grass_Seed",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 512
+            "weight": 444444
           },
           {
             "itemID": "melvorF:Hard_Leather_Chaps",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 512
+            "weight": 333333
           },
           {
-            "itemID": "melvorD:Bird_Nest",
+            "itemID": "melvorD:Willow_Shortbow",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 256
-          },
-          {
-            "itemID": "melvorD:Bones",
-            "minQuantity": 1,
-            "maxQuantity": 6,
-            "weight": 256
+            "weight": 222222
           },
           {
             "itemID": "melvorF:Steel_Javelin",
-            "minQuantity": 2,
-            "maxQuantity": 7,
-            "weight": 128
+            "minQuantity": 1,
+            "maxQuantity": 6,
+            "weight": 111111
           },
           {
             "itemID": "melvorD:Old_Boot",
             "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 128
+            "maxQuantity": 2,
+            "weight": 99999
           },
           {
             "itemID": "melvorF:Eyeball",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 64
+            "weight": 88888
           }
         ],
         "canSlayer": true,
@@ -13892,79 +14169,79 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 96,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "melvorD:Chicken",
             "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 999999
+          },
+          {
+            "itemID": "melvorD:Beef",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 888888
+          },
+          {
+            "itemID": "melvorD:Bones",
+            "minQuantity": 1,
             "maxQuantity": 3,
-            "weight": 2048
-          },
-          {
-            "itemID": "melvorD:Oak_Logs",
-            "minQuantity": 1,
-            "maxQuantity": 6,
-            "weight": 2048
-          },
-          {
-            "itemID": "melvorD:Bronze_Bar",
-            "minQuantity": 1,
-            "maxQuantity": 2,
-            "weight": 1024
+            "weight": 777777
           },
           {
             "itemID": "melvorD:Feathers",
             "minQuantity": 1,
-            "maxQuantity": 21,
-            "weight": 1024
+            "maxQuantity": 50,
+            "weight": 666666
           },
           {
-            "itemID": "melvorD:Onion_Seed",
+            "itemID": "melvorD:Leather",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 555555
+          },
+          {
+            "itemID": "expandedAreas:Yellowberry_Seed",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 512
+            "weight": 444444
           },
           {
-            "itemID": "melvorD:Potato_Seed",
-            "minQuantity": 1,
-            "maxQuantity": 2,
-            "weight": 512
-          },
-          {
-            "itemID": "melvorF:Barrentoe_Herb",
+            "itemID": "expandedAreas:Longleaf_Pine_Seed",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 128
+            "weight": 333333
           },
           {
-            "itemID": "melvorF:Gold_Ruby_Necklace",
+            "itemID": "expandedAreas:Mithril_Spear",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 128
+            "weight": 222222
           },
           {
             "itemID": "melvorF:Pile_Of_Logs",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 32
+            "weight": 111111
           },
           {
-            "itemID": "melvorD:Sourweed_Seed",
+            "itemID": "melvorD:Raw_Poison_Fish",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 256
+            "weight": 99999
           },
           {
             "itemID": "melvorD:Ruby",
             "minQuantity": 1,
-            "maxQuantity": 3,
-            "weight": 128
+            "maxQuantity": 1,
+            "weight": 88888
           },
           {
             "itemID": "melvorD:Mithril_Bar",
             "minQuantity": 1,
-            "maxQuantity": 2,
-            "weight": 32
+            "maxQuantity": 1,
+            "weight": 77777
           }
         ],
         "canSlayer": true,
@@ -14006,73 +14283,67 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 66,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "melvorD:Copper_Ore",
-            "minQuantity": 2,
-            "maxQuantity": 4,
-            "weight": 1024
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 999999
+          },
+          {
+            "itemID": "expandedAreas:Lavender_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 888888
+          },
+          {
+            "itemID": "expandedAreas:Barley_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 777777
+          },
+          {
+            "itemID": "melvorD:Garum_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 666666
+          },
+          {
+            "itemID": "melvorD:Raw_Shrimp",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 555555
+          },
+          {
+            "itemID": "melvorD:Normal_Logs",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 444444
+          },
+          {
+            "itemID": "melvorD:Bronze_Bar",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 333333
           },
           {
             "itemID": "melvorD:Bronze_Arrows",
             "minQuantity": 1,
-            "maxQuantity": 7,
-            "weight": 1024
+            "maxQuantity": 10,
+            "weight": 222222
           },
           {
-            "itemID": "melvorD:Cabbage",
+            "itemID": "expandedAreas:Sack_of_Cabbage",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1024
-          },
-          {
-            "itemID": "melvorD:Bronze_Helmet",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 512
-          },
-          {
-            "itemID": "melvorD:Earth_Rune",
-            "minQuantity": 1,
-            "maxQuantity": 4,
-            "weight": 512
-          },
-          {
-            "itemID": "melvorD:Fire_Rune",
-            "minQuantity": 1,
-            "maxQuantity": 6,
-            "weight": 512
-          },
-          {
-            "itemID": "melvorD:Mind_Rune",
-            "minQuantity": 1,
-            "maxQuantity": 9,
-            "weight": 256
-          },
-          {
-            "itemID": "melvorD:Iron_Dagger",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 256
-          },
-          {
-            "itemID": "melvorD:Chaos_Rune",
-            "minQuantity": 1,
-            "maxQuantity": 2,
-            "weight": 128
+            "weight": 111111
           },
           {
             "itemID": "melvorF:Fishing_Hook",
             "minQuantity": 5,
             "maxQuantity": 25,
-            "weight": 64
-          },
-          {
-            "itemID": "melvorD:Leather_Boots",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 128
+            "weight": 55555
           }
         ],
         "canSlayer": true,
@@ -14113,67 +14384,67 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 49,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "melvorD:Basic_Soup",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1024
+            "weight": 999999
           },
           {
             "itemID": "melvorD:Bag_of_Flour",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1024
+            "weight": 888888
           },
           {
-            "itemID": "melvorD:Iron_Sword",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 512
-          },
-          {
-            "itemID": "melvorF:Normal_Longbow",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 512
-          },
-          {
-            "itemID": "melvorD:Earth_Rune",
-            "minQuantity": 1,
-            "maxQuantity": 4,
-            "weight": 256
-          },
-          {
-            "itemID": "melvorD:Fire_Rune",
-            "minQuantity": 2,
-            "maxQuantity": 6,
-            "weight": 256
-          },
-          {
-            "itemID": "melvorD:Mind_Rune",
-            "minQuantity": 3,
-            "maxQuantity": 9,
-            "weight": 128
-          },
-          {
-            "itemID": "melvorD:Chaos_Rune",
+            "itemID": "melvorD:Cabbage_Seed",
             "minQuantity": 1,
             "maxQuantity": 2,
-            "weight": 128
+            "weight": 777777
+          },
+          {
+            "itemID": "expandedAreas:Tomato_Juice",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 666666
+          },
+          {
+            "itemID": "expandedAreas:Basket",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "weight": 555555
+          },
+          {
+            "itemID": "expandedAreas:Bucket_of_Water",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 444444
+          },
+          {
+            "itemID": "expandedAreas:Jute_Fibre",
+            "minQuantity": 3,
+            "maxQuantity": 6,
+            "weight": 333333
+          },
+          {
+            "itemID": "melvorD:Oak_Longbow",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 222222
+          },
+          {
+            "itemID": "expandedAreas:Lavender",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 111111
           },
           {
             "itemID": "melvorF:Fine_Coinpurse",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 64
-          },
-          {
-            "itemID": "melvorD:Leather_Vambraces",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 128
+            "weight": 55555
           }
         ],
         "canSlayer": true,
@@ -14229,31 +14500,43 @@
         ],
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 30,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "melvorD:Leather_Cowl",
             "maxQuantity": 1,
             "minQuantity": 1,
-            "weight": 2048
+            "weight": 999999
           },
           {
-            "itemID": "expandedAreas:Blackjack",
+            "itemID": "melvorD:Leather_Gloves",
             "maxQuantity": 1,
             "minQuantity": 1,
-            "weight": 256
+            "weight": 888888
           },
           {
             "itemID": "melvorF:Bobbys_Pocket",
             "maxQuantity": 1,
             "minQuantity": 1,
-            "weight": 64
+            "weight": 444444
+          },
+          {
+            "itemID": "expandedAreas:Pocket_Sand",
+            "maxQuantity": 1,
+            "minQuantity": 5,
+            "weight": 222222
           },
           {
             "itemID": "melvorF:Thiefs_Moneysack",
             "maxQuantity": 25,
             "minQuantity": 5,
-            "weight": 64
+            "weight": 111111
+          },
+          {
+            "itemID": "expandedAreas:Blackjack",
+            "maxQuantity": 1,
+            "minQuantity": 1,
+            "weight": 55555
           }
         ],
         "canSlayer": true,
@@ -14314,97 +14597,67 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 95,
+        "lootChance": 100,
         "lootTable": [
           {
-            "itemID": "melvorF:Apple",
+            "itemID": "melvorD:Steel_Sword",
             "maxQuantity": 1,
             "minQuantity": 1,
-            "weight": 2048
+            "weight": 55555
+          },
+          {
+            "itemID": "melvorD:Steel_Shield",
+            "maxQuantity": 1,
+            "minQuantity": 1,
+            "weight": 111111
+          },
+          {
+            "itemID": "melvorD:Steel_Helmet",
+            "maxQuantity": 1,
+            "minQuantity": 1,
+            "weight": 222222
+          },
+          {
+            "itemID": "melvorD:Sourweed_Herb",
+            "maxQuantity": 1,
+            "minQuantity": 1,
+            "weight": 333333
           },
           {
             "itemID": "melvorD:Bread",
             "maxQuantity": 1,
             "minQuantity": 1,
-            "weight": 2048
+            "weight": 444444
           },
           {
-            "itemID": "melvorD:Iron_Helmet",
+            "itemID": "melvorD:Cheese",
             "maxQuantity": 1,
             "minQuantity": 1,
-            "weight": 1024
+            "weight": 555555
           },
           {
-            "itemID": "melvorF:Topaz_Bolts",
+            "itemID": "melvorD:Feathers",
             "maxQuantity": 1,
-            "minQuantity": 3,
-            "weight": 512
+            "minQuantity": 10,
+            "weight": 666666
           },
           {
-            "itemID": "melvorD:Steel_Arrows",
+            "itemID": "melvorD:Steel_Arrowtips",
             "maxQuantity": 1,
-            "minQuantity": 6,
-            "weight": 256
+            "minQuantity": 10,
+            "weight": 777777
           },
           {
-            "itemID": "melvorD:Bronze_Arrows",
+            "itemID": "melvorF:Arrow_Shafts",
             "maxQuantity": 1,
-            "minQuantity": 12,
-            "weight": 1024
+            "minQuantity": 10,
+            "weight": 888888
           },
           {
-            "itemID": "melvorD:Air_Rune",
-            "maxQuantity": 6,
-            "minQuantity": 6,
-            "weight": 128
-          },
-          {
-            "itemID": "melvorD:Water_Rune",
-            "maxQuantity": 6,
-            "minQuantity": 6,
-            "weight": 128
-          },
-          {
-            "itemID": "melvorD:Earth_Rune",
-            "maxQuantity": 6,
-            "minQuantity": 6,
-            "weight": 128
-          },
-          {
-            "itemID": "melvorD:Fire_Rune",
-            "maxQuantity": 6,
-            "minQuantity": 6,
-            "weight": 128
-          },
-          {
-            "itemID": "melvorD:Blood_Rune",
+            "itemID": "melvorD:Iron_Dagger",
             "maxQuantity": 1,
-            "minQuantity": 1,
-            "weight": 64
-          },
-          {
-            "itemID": "melvorD:Chaos_Rune",
-            "maxQuantity": 1,
-            "minQuantity": 2,
-            "weight": 64
-          },
-          {
-            "itemID": "melvorF:Nature_Rune",
-            "maxQuantity": 1,
-            "minQuantity": 1,
-            "weight": 64
-          },
-          {
-            "itemID": "melvorF:Apple_Pie",
-            "maxQuantity": 1,
-            "minQuantity": 2,
-            "weight": 64
-          },
-          {
-            "itemID": "melvorF:Steel_Crossbow",
-            "maxQuantity": 1,
-            "minQuantity": 1,
-            "weight": 128
+            "minQuantity": 10,
+            "weight": 999999
           }
         ],
         "canSlayer": true,
@@ -14473,43 +14726,67 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [],
-        "lootChance": 30,
+        "lootChance": 100,
         "lootTable": [
           {
-            "itemID": "melvorD:Black_Battleaxe",
+            "itemID": "melvorF:Hard_Leather_Gloves",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 256
-          },
-          {
-            "itemID": "melvorD:Steel_Gloves",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 1024
-          },
-          {
-            "itemID": "melvorD:Teak_Logs",
-            "minQuantity": 1,
-            "maxQuantity": 3,
-            "weight": 512
+            "weight": 999999
           },
           {
             "itemID": "melvorF:Ash",
             "minQuantity": 1,
-            "maxQuantity": 3,
-            "weight": 512
+            "maxQuantity": 2,
+            "weight": 888888
           },
           {
-            "itemID": "melvorF:Whetstone",
-            "minQuantity": 5,
-            "maxQuantity": 25,
-            "weight": 64
+            "itemID": "melvorD:Oak_Logs",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 777777
+          },
+          {
+            "itemID": "melvorD:Potatoes",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 666666
+          },
+          {
+            "itemID": "melvorD:Steel_Battleaxe",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 555555
+          },
+          {
+            "itemID": "melvorD:Rusty_Key",
+            "minQuantity": 3,
+            "maxQuantity": 6,
+            "weight": 444444
           },
           {
             "itemID": "melvorF:Melee_Accuracy_Potion_I",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 64
+            "weight": 333333
+          },
+          {
+            "itemID": "expandedAreas:Sunflower_Seed",
+            "minQuantity": 4,
+            "maxQuantity": 8,
+            "weight": 222222
+          },
+          {
+            "itemID": "melvorF:Whetstone",
+            "minQuantity": 5,
+            "maxQuantity": 25,
+            "weight": 111111
+          },
+          {
+            "itemID": "melvorF:Basic_Bag",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 55555
           }
         ],
         "canSlayer": true,
@@ -14935,73 +15212,67 @@
           "expandedAreas:Sandy_Twister"
         ],
         "passives": [],
-        "lootChance": 94,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "melvorD:Treasure_Chest",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 2
+            "weight": 55555
+          },
+          {
+            "itemID": "expandedAreas:Sand",
+            "minQuantity": 5,
+            "maxQuantity": 25,
+            "weight": 111111
           },
           {
             "itemID": "melvorD:Copper_Ore",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 2048
+            "weight": 555555
           },
           {
             "itemID": "melvorD:Tin_Ore",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 2048
+            "weight": 444444
           },
           {
             "itemID": "melvorD:Iron_Ore",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1024
+            "weight": 333333
           },
           {
             "itemID": "melvorD:Silver_Ore",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 512
-          },
-          {
-            "itemID": "melvorD:Gold_Ore",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 256
-          },
-          {
-            "itemID": "melvorD:Mithril_Ore",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 128
+            "weight": 222222
           },
           {
             "itemID": "melvorD:Earth_Rune",
             "minQuantity": 1,
-            "maxQuantity": 42,
-            "weight": 1024
+            "maxQuantity": 3,
+            "weight": 666666
           },
           {
             "itemID": "melvorD:Water_Rune",
             "minQuantity": 1,
-            "maxQuantity": 25,
-            "weight": 512
+            "maxQuantity": 4,
+            "weight": 777777
           },
           {
             "itemID": "melvorD:Air_Rune",
             "minQuantity": 1,
-            "maxQuantity": 17,
-            "weight": 512
+            "maxQuantity": 7,
+            "weight": 888888
           },
           {
             "itemID": "melvorD:Seaweed",
             "minQuantity": 1,
             "maxQuantity": 6,
-            "weight": 128
+            "weight": 999999
           }
         ],
         "canSlayer": true,
@@ -15041,26 +15312,42 @@
           "expandedAreas:Dung_Throw",
           "expandedAreas:Coconut_Throw"
         ],
+        "overrideSpecialChances": [
+          50,
+          50
+        ],
         "passives": [],
-        "lootChance": 38,
+        "lootChance": 100,
         "lootTable": [
           {
             "itemID": "expandedAreas:Monkey_Dung",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 2048
+            "weight": 999999
           },
           {
             "itemID": "expandedAreas:Coconut",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1024
+            "weight": 777777
+          },
+          {
+            "itemID": "melvorD:Bird_Nest",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 555555
+          },
+          {
+            "itemID": "expandedAreas:Palm_Tree_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 333333
           },
           {
             "itemID": "melvorD:Pirates_Lost_Ring",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 8
+            "weight": 111111
           }
         ],
         "canSlayer": true,
@@ -15673,7 +15960,10 @@
           0
         ],
         "monsterIDs": [
+          "expandedAreas:Mutant_Flower",
+          "expandedAreas:Wasp",
           "expandedAreas:Junior_Gardener",
+          "expandedAreas:Weeds",
           "expandedAreas:Adult_Gardener",
           "expandedAreas:Master_Gardener"
         ],
@@ -17179,9 +17469,9 @@
         "unlockRequirements": [],
         "purchaseRequirements": [
           {
-            "type": "MonsterKilled",
-            "monsterID": "expandedAreas:Chieftain_Erik",
-            "count": 1
+            "type": "SkillLevel",
+            "skillID": "melvorD:Strength",
+            "level": 30
           },
           {
             "type": "SkillLevel",
@@ -17217,9 +17507,9 @@
         "unlockRequirements": [],
         "purchaseRequirements": [
           {
-            "type": "MonsterKilled",
-            "monsterID": "expandedAreas:Chieftain_Erik",
-            "count": 1
+            "type": "SkillLevel",
+            "skillID": "melvorD:Strength",
+            "level": 30
           },
           {
             "type": "SkillLevel",
@@ -17268,14 +17558,14 @@
         "unlockRequirements": [],
         "purchaseRequirements": [
           {
-            "type": "DungeonCompletion",
-            "dungeonID": "expandedAreas:The_Barbarian_Trials",
-            "count": 1
+            "type": "SkillLevel",
+            "skillID": "melvorD:Strength",
+            "level": 60
           },
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Fishing",
-            "level": 50
+            "level": 60
           }
         ],
         "defaultBuyLimit": 1,
@@ -17319,14 +17609,14 @@
         "unlockRequirements": [],
         "purchaseRequirements": [
           {
-            "type": "DungeonCompletion",
-            "dungeonID": "expandedAreas:The_Barbarian_Trials",
-            "count": 1
+            "type": "SkillLevel",
+            "skillID": "melvorD:Strength",
+            "level": 70
           },
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Woodcutting",
-            "level": 30
+            "level": 70
           }
         ],
         "defaultBuyLimit": 1,
@@ -17360,14 +17650,14 @@
         "unlockRequirements": [],
         "purchaseRequirements": [
           {
-            "type": "DungeonCompletion",
-            "dungeonID": "expandedAreas:The_Barbarian_Trials",
-            "count": 1
+            "type": "SkillLevel",
+            "skillID": "melvorD:Strength",
+            "level": 65
           },
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Mining",
-            "level": 40
+            "level": 65
           }
         ],
         "defaultBuyLimit": 1,
@@ -17411,14 +17701,14 @@
         "unlockRequirements": [],
         "purchaseRequirements": [
           {
-            "type": "DungeonCompletion",
-            "dungeonID": "expandedAreas:The_Barbarian_Trials",
-            "count": 1
+            "type": "SkillLevel",
+            "skillID": "melvorD:Strength",
+            "level": 75
           },
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Smithing",
-            "level": 50
+            "level": 75
           }
         ],
         "defaultBuyLimit": 1,
@@ -20657,6 +20947,40 @@
                   "quantity": 400
                 }
               ]
+            },
+            {
+              "id": "The_Green_Golbin",
+              "productID": "expandedAreas:The_Green_Golbin",
+              "perfectCookID": "expandedAreas:The_Green_Golbin_m",
+              "baseExperience": 1802,
+              "level": 42,
+              "baseInterval": 30000,
+              "baseQuantity": 8,
+              "categoryID": "expandedAreas:Fermenting_Tank",
+              "subcategoryID": "expandedAreas:Alcohol",
+              "itemCosts": [
+                {
+                  "id": "expandedAreas:Bucket_of_Water",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Barley",
+                  "quantity": 2
+                },
+                {
+                  "id": "expandedAreas:Ale_Yeast",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Andlovan_Hops",
+                  "quantity": 4
+                },
+                {
+                  "id": "melvorD:Cabbage",
+                  "quantity": 1
+                }
+              ],
+              "currencyCosts": []
             },
             {
               "id": "Sourberry_Ale",
@@ -24496,148 +24820,82 @@
           ],
           "add": [
             {
-              "itemID": "melvorD:Potato_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 279
-            },
-            {
-              "itemID": "expandedAreas:Barley_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 254
-            },
-            {
-              "itemID": "expandedAreas:Jute_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 231
-            },
-            {
-              "itemID": "melvorD:Onion_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 192
-            },
-            {
-              "itemID": "melvorD:Cabbage_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 128
-            },
-            {
-              "itemID": "melvorD:Tomato_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 85
-            },
-            {
-              "itemID": "melvorD:Sweetcorn_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 57
-            },
-            {
-              "itemID": "melvorD:Strawberry_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 38
-            },
-            {
-              "itemID": "melvorD:Cherry_Seeds",
-              "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 25
-            },
-            {
-              "itemID": "melvorD:Watermelon_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 17
-            },
-            {
-              "itemID": "melvorD:Snape_Grass_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 11
-            },
-            {
-              "itemID": "melvorD:Carrot_Seeds",
-              "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 8
-            },
-            {
-              "itemID": "expandedAreas:Bell_Pepper_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 5
-            },
-            {
               "itemID": "melvorD:Oak_Tree_Seed",
               "minQuantity": 1,
               "maxQuantity": 1,
-              "weight": 61
+              "weight": 1111111
             },
             {
               "itemID": "melvorD:Willow_Tree_Seed",
               "minQuantity": 1,
               "maxQuantity": 1,
-              "weight": 41
+              "weight": 999999
+            },
+            {
+              "itemID": "expandedAreas:Curry_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 888888
             },
             {
               "itemID": "melvorD:Maple_Tree_Seed",
               "minQuantity": 1,
               "maxQuantity": 1,
-              "weight": 27
+              "weight": 777777
+            },
+            {
+              "itemID": "expandedAreas:Papaya_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 666666
             },
             {
               "itemID": "expandedAreas:Teak_Tree_Seed",
               "minQuantity": 1,
               "maxQuantity": 1,
-              "weight": 18
+              "weight": 555555
             },
             {
               "itemID": "expandedAreas:Mahogany_Tree_Seed",
               "minQuantity": 1,
               "maxQuantity": 1,
-              "weight": 12
+              "weight": 444444
             },
             {
               "itemID": "melvorD:Yew_Tree_Seed",
               "minQuantity": 1,
               "maxQuantity": 1,
-              "weight": 8
+              "weight": 333333
             },
             {
               "itemID": "expandedAreas:Palm_Tree_Seed",
               "minQuantity": 1,
               "maxQuantity": 1,
-              "weight": 5
+              "weight": 222222
             },
             {
               "itemID": "melvorF:Apple_Tree_Seeds",
               "minQuantity": 1,
               "maxQuantity": 1,
-              "weight": 3
+              "weight": 111111
             },
             {
               "itemID": "melvorD:Magic_Tree_Seed",
               "minQuantity": 1,
               "maxQuantity": 1,
-              "weight": 2
+              "weight": 55555
+            },
+            {
+              "itemID": "expandedAreas:Dragonfruit_Tree_Seed",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 11111
             },
             {
               "itemID": "expandedAreas:Redwood_Tree_Seed",
               "minQuantity": 1,
               "maxQuantity": 1,
-              "weight": 1
-            },
-            {
-              "itemID": "expandedAreas:Coffea_Seed",
-              "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 8
+              "weight": 5555
             }
           ]
         }
@@ -25423,6 +25681,7 @@
               "insertAt": "After",
               "afterID": "melvorD:Farmlands",
               "ids": [
+                "expandedAreas:Botanical_Gardens",
                 "expandedAreas:Low_Town"
               ]
             },
@@ -25660,37 +25919,37 @@
               "itemID": "melvorD:Onion_Seed",
               "minQuantity": 1,
               "maxQuantity": 3,
-              "weight": 888888
+              "weight": 777777
             },
             {
               "itemID": "melvorD:Cabbage_Seed",
               "minQuantity": 1,
               "maxQuantity": 3,
-              "weight": 777777
+              "weight": 666666
             },
             {
               "itemID": "melvorD:Tomato_Seed",
               "minQuantity": 1,
               "maxQuantity": 3,
-              "weight": 666666
+              "weight": 555555
             },
             {
               "itemID": "expandedAreas:Sack",
               "minQuantity": 1,
               "maxQuantity": 3,
-              "weight": 555555
+              "weight": 444444
             },
             {
               "itemID": "expandedAreas:Basket",
               "minQuantity": 1,
               "maxQuantity": 3,
-              "weight": 444444
+              "weight": 333333
             },
             {
               "itemID": "melvorD:Oak_Tree_Seed",
               "minQuantity": 1,
               "maxQuantity": 3,
-              "weight": 333333
+              "weight": 111111
             }
           ]
         }
@@ -25704,6 +25963,7 @@
             "melvorD:Cabbage_Seed",
             "melvorD:Onion_Seed",
             "melvorD:Cabbage_Seed",
+            "melvorD:Tomato_Seed",
             "melvorD:Sourweed_Seed",
             "melvorD:Mantalyme_Seed",
             "melvorD:Sweetcorn_Seed",
@@ -25724,37 +25984,37 @@
               "itemID": "expandedAreas:Firewine_Seed",
               "minQuantity": 1,
               "maxQuantity": 6,
-              "weight": 888888
+              "weight": 777777
             },
             {
               "itemID": "expandedAreas:Andlovan_Seed",
               "minQuantity": 1,
               "maxQuantity": 6,
-              "weight": 777777
+              "weight": 555555
             },
             {
               "itemID": "expandedAreas:Orange_Tree_Seed",
               "minQuantity": 1,
               "maxQuantity": 6,
-              "weight": 555555
+              "weight": 333333
             },
             {
               "itemID": "expandedAreas:Cherry_Tree_Seed",
               "minQuantity": 1,
               "maxQuantity": 6,
-              "weight": 444444
+              "weight": 111111
             },
             {
               "itemID": "expandedAreas:Curry_Tree_Seed",
               "minQuantity": 1,
               "maxQuantity": 6,
-              "weight": 333333
+              "weight": 55555
             },
             {
               "itemID": "melvorD:Sweetcorn_Seed",
               "minQuantity": 1,
               "maxQuantity": 6,
-              "weight": 888888
+              "weight": 999999
             },
             {
               "itemID": "melvorD:Strawberry_Seed",
@@ -25766,7 +26026,7 @@
               "itemID": "melvorD:Watermelon_Seed",
               "minQuantity": 1,
               "maxQuantity": 6,
-              "weight": 666666
+              "weight": 555555
             },
             {
               "itemID": "melvorD:Compost",
@@ -25808,37 +26068,37 @@
               "itemID": "expandedAreas:Barley_Seed",
               "minQuantity": 1,
               "maxQuantity": 9,
-              "weight": 888888
+              "weight": 777777
             },
             {
               "itemID": "expandedAreas:Plumm_Seed",
               "minQuantity": 1,
               "maxQuantity": 9,
-              "weight": 777777
+              "weight": 555555
             },
             {
               "itemID": "expandedAreas:Firewine_Seed",
               "minQuantity": 1,
               "maxQuantity": 9,
-              "weight": 666666
+              "weight": 333333
             },
             {
               "itemID": "expandedAreas:Andlovan_Seed",
               "minQuantity": 1,
               "maxQuantity": 9,
-              "weight": 555555
+              "weight": 111111
             },
             {
               "itemID": "expandedAreas:Goldengod_Seed",
               "minQuantity": 1,
               "maxQuantity": 9,
-              "weight": 444444
+              "weight": 55555
             },
             {
               "itemID": "expandedAreas:Wildblood_Seed",
               "minQuantity": 1,
               "maxQuantity": 9,
-              "weight": 333333
+              "weight": 22222
             },
             {
               "itemID": "expandedAreas:Orange_Tree_Seed",
@@ -25850,31 +26110,31 @@
               "itemID": "expandedAreas:Cherry_Tree_Seed",
               "minQuantity": 1,
               "maxQuantity": 9,
-              "weight": 555555
+              "weight": 444444
             },
             {
               "itemID": "expandedAreas:Curry_Tree_Seed",
               "minQuantity": 1,
               "maxQuantity": 9,
-              "weight": 444444
+              "weight": 222222
             },
             {
               "itemID": "expandedAreas:Papaya_Tree_Seed",
               "minQuantity": 1,
               "maxQuantity": 9,
-              "weight": 333333
+              "weight": 111111
             },
             {
               "itemID": "expandedAreas:Palm_Tree_Seed",
               "minQuantity": 1,
               "maxQuantity": 9,
-              "weight": 222222
+              "weight": 55555
             },
             {
               "itemID": "expandedAreas:Dragonfruit_Tree_Seed",
               "minQuantity": 1,
               "maxQuantity": 9,
-              "weight": 111111
+              "weight": 22222
             },
             {
               "itemID": "melvorD:Potato_Seed",
@@ -25922,13 +26182,13 @@
               "itemID": "melvorD:Snape_Grass_Seed",
               "minQuantity": 1,
               "maxQuantity": 9,
-              "weight": 222222
+              "weight": 111111
             },
             {
               "itemID": "expandedAreas:Bell_Pepper_Seed",
               "minQuantity": 1,
               "maxQuantity": 9,
-              "weight": 111111
+              "weight": 55555
             },
             {
               "itemID": "melvorD:Bobs_Rake",
@@ -25940,7 +26200,7 @@
               "itemID": "melvorD:Farming_Skillcape",
               "minQuantity": 1,
               "maxQuantity": 1,
-              "weight": 12
+              "weight": 1
             }
           ]
         }
