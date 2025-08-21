@@ -2402,7 +2402,7 @@
         "modifiers": {
           "accuracyRating": -40,
           "skillXP": -10,
-          "attackInterval": 20
+          "attackInterval": -20
         },
         "charges": 1,
         "tier": 3,
@@ -2428,7 +2428,7 @@
         "modifiers": {
           "accuracyRating": -60,
           "skillXP": -15,
-          "attackInterval": 30
+          "attackInterval": -30
         },
         "charges": 1,
         "tier": 3,
@@ -11840,22 +11840,28 @@
             "character": "Attacker",
             "roll": false,
             "maxRoll": "Fixed",
-            "maxPercent": 50
+            "maxPercent": 130
           }
         ],
         "prehitEffects": [],
         "onhitEffects": [
           {
-            "effectID": "melvorF:SpikedTailWhip0"
+            "effectID": "melvorD:Stun",
+            "initialParams": [
+              {
+                "name": "turns",
+                "value": 2
+              }
+            ]
           }
         ],
         "cantMiss": false,
-        "attackCount": 3,
+        "attackCount": 1,
         "attackInterval": 300,
         "lifesteal": 0,
-        "name": "Spiked Tail Whip",
-        "description": "The enemy's tail whips at you ${hitCount} times, dealing ${attackDamageMaxValue0} damage each (Avoidable). On a hit gives you -${onHitEffect0modValue0}% Damage Reduction for ${onHitEffect0turns} of your turns.",
-        "descriptionGenerator": "<AttPos> tail whips at <target> <count> times, dealing <damage> damage each (<Avoidable>). On a hit <hitEffect>.",
+        "name": "Barbed Tail Whip",
+        "description": "The enemy's tail whips at you, dealing ${attackDamageMaxValue0} damage (Avoidable). On a hit, become Stunned for 2 turns.",
+        "descriptionGenerator": "<AttPos> tail whips at <target>, dealing <damage> damage (<Avoidable>). On a hit <hitEffect>.",
         "usesRunesPerProc": false
       },
       {
@@ -11887,7 +11893,7 @@
             "character": "Attacker",
             "roll": false,
             "maxRoll": "Fixed",
-            "maxPercent": 15
+            "maxPercent": 25
           }
         ],
         "prehitEffects": [],
@@ -11915,7 +11921,7 @@
             "character": "Attacker",
             "roll": false,
             "maxRoll": "Fixed",
-            "maxPercent": 2.5
+            "maxPercent": 10
           }
         ],
         "prehitEffects": [],
@@ -12617,6 +12623,13 @@
     ],
     "combatPassives": [
       {
+        "id": "PhaseHP33",
+        "name": "Phase HP 33%",
+        "modifiers": {
+          "maxHitpoints": -66.6
+        }
+      },
+      {
         "id": "MeleeImmunity",
         "name": "Melee Immunity",
         "modifiers": {
@@ -12692,12 +12705,12 @@
         "currencyDrops": [],
         "id": "Kuulbra_Ranged",
         "levels": {
-          "Attack": 1,
-          "Strength": 1,
-          "Defence": 600,
-          "Hitpoints": 333,
-          "Ranged": 800,
-          "Magic": 400
+          "Attack": 500,
+          "Strength": 500,
+          "Defence": 500,
+          "Hitpoints": 1500,
+          "Ranged": 600,
+          "Magic": 300
         },
         "equipmentStats": [
           {
@@ -12719,10 +12732,11 @@
         ],
         "lootChance": 0,
         "lootTable": [],
-        "name": "Kuulbra",
+        "name": "Kuulbra (Phase One)",
         "media": "assets/monsters/Kuulbra_Ranged.png",
         "ignoreCompletion": false,
         "passives": [
+          "expandedAreas:PhaseHP33",
           "expandedAreas:VenomousHide",
           "expandedAreas:StunImmunity",
           "expandedAreas:MeleeImmunity",
@@ -12746,12 +12760,12 @@
         "currencyDrops": [],
         "id": "Kuulbra_Magic",
         "levels": {
-          "Attack": 1,
-          "Strength": 1,
-          "Defence": 600,
-          "Hitpoints": 333,
-          "Ranged": 700,
-          "Magic": 750
+          "Attack": 500,
+          "Strength": 500,
+          "Defence": 500,
+          "Hitpoints": 1500,
+          "Ranged": 300,
+          "Magic": 600
         },
         "equipmentStats": [
           {
@@ -12773,10 +12787,11 @@
         ],
         "lootChance": 0,
         "lootTable": [],
-        "name": "Kuulbra",
+        "name": "Kuulbra (Phase Two)",
         "media": "assets/monsters/Kuulbra_Magic.png",
         "ignoreCompletion": false,
         "passives": [
+          "expandedAreas:PhaseHP33",
           "expandedAreas:VenomousHide",
           "expandedAreas:StunImmunity",
           "expandedAreas:MeleeImmunity",
@@ -12795,30 +12810,33 @@
       },
       {
         "attackType": "melee",
-        "damageType": "melvorF:Pure",
         "canSlayer": false,
         "isBoss": true,
         "currencyDrops": [],
         "id": "Kuulbra_Melee",
         "levels": {
-          "Attack": 700,
-          "Strength": 700,
-          "Defence": 800,
-          "Hitpoints": 333,
+          "Attack": 500,
+          "Strength": 500,
+          "Defence": 500,
+          "Hitpoints": 1500,
           "Ranged": 500,
-          "Magic": 500
+          "Magic": 300
         },
         "equipmentStats": [
           {
             "key": "attackSpeed",
-            "value": 2400
+            "value": 2200
           },
           {
             "key": "magicDefenceBonus",
-            "value": -100
+            "value": -50
           },
           {
             "key": "meleeDefenceBonus",
+            "value": 100
+          },
+          {
+            "key": "rangedDefenceBonus",
             "value": 100
           },
           {
@@ -12828,28 +12846,20 @@
         ],
         "lootChance": 0,
         "lootTable": [],
-        "name": "Kuulbra",
+        "name": "Kuulbra (Final Phase)",
         "media": "assets/monsters/Kuulbra_Melee.png",
         "ignoreCompletion": false,
         "passives": [
+          "expandedAreas:PhaseHP33",
           "expandedAreas:VenomousHide",
           "expandedAreas:StunImmunity"
         ],
-        "combatEffects": [
-          {
-            "appliesWhen": "HitWithAttack",
-            "chance": 80,
-            "condition": {
-              "character": "Enemy",
-              "targetAttackType": "any",
-              "thisAttackType": "melee",
-              "type": "CombatType"
-            },
-            "effectID": "melvorD:Stun"
-          }
-        ],
         "selectedSpell": "melvorD:WindStrike",
-        "specialAttacks": [],
+        "specialAttacks": [
+          "expandedAreas:CobralingsSummon",
+          "expandedAreas:ToxicClouds",
+          "expandedAreas:BarbedTailWhip"
+        ],
         "bones": {
           "itemID": "expandedAreas:Kuulbra_Scales",
           "quantity": 25
@@ -17179,8 +17189,8 @@
           "melvorF:VenomousSnake",
           "melvorF:GiantMoth",
           "expandedAreas:Kuulbra_Ranged",
-          "expandedAreas:Kuulbra_Melee",
-          "expandedAreas:Kuulbra_Magic"
+          "expandedAreas:Kuulbra_Magic",
+          "expandedAreas:Kuulbra_Melee"
         ],
         "name": "Swamp of Desolation",
         "pauseOnBosses": false,

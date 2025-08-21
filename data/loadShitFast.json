@@ -18,6 +18,13 @@
         ],
         "combatPassives": [
             {
+                "id": "PhaseHP33",
+                "name": "Phase HP 33%",
+                "modifiers": {
+                    "maxHitpoints": -66.6
+                }
+            },
+            {
                 "id": "MeleeImmunity",
                 "name": "Melee Immunity",
                 "modifiers": {
@@ -143,7 +150,7 @@
                         "character": "Attacker",
                         "roll": false,
                         "maxRoll": "Fixed",
-                        "maxPercent": 15
+                        "maxPercent": 25
                     }
                 ],
                 "prehitEffects": [],
@@ -171,7 +178,7 @@
                         "character": "Attacker",
                         "roll": false,
                         "maxRoll": "Fixed",
-                        "maxPercent": 2.5
+                        "maxPercent": 10
                     }
                 ],
                 "prehitEffects": [],
@@ -199,12 +206,12 @@
                 "currencyDrops": [],
                 "id": "Kuulbra_Ranged",
                 "levels": {
-                    "Attack": 1,
-                    "Strength": 1,
-                    "Defence": 600,
-                    "Hitpoints": 333,
-                    "Ranged": 800,
-                    "Magic": 400
+                    "Attack": 500,
+                    "Strength": 500,
+                    "Defence": 500,
+                    "Hitpoints": 1500,
+                    "Ranged": 500,
+                    "Magic": 500
                 },
                 "equipmentStats": [
                     {
@@ -253,12 +260,12 @@
                 "currencyDrops": [],
                 "id": "Kuulbra_Magic",
                 "levels": {
-                    "Attack": 1,
-                    "Strength": 1,
-                    "Defence": 600,
-                    "Hitpoints": 333,
-                    "Ranged": 700,
-                    "Magic": 750
+                    "Attack": 500,
+                    "Strength": 500,
+                    "Defence": 500,
+                    "Hitpoints": 1500,
+                    "Ranged": 500,
+                    "Magic": 500
                 },
                 "equipmentStats": [
                     {
@@ -280,7 +287,7 @@
                 ],
                 "lootChance": 0,
                 "lootTable": [],
-                "name": "Kuulbra",
+                "name": "Kuulbra (Phase Two)",
                 "media": "assets/monsters/Kuulbra_Magic.png",
                 "ignoreCompletion": false,
                 "passives": [
@@ -302,7 +309,6 @@
             },
             {
                 "attackType": "melee",
-                "damageType": "melvorF:Pure",
                 "canSlayer": false,
                 "isBoss": true,
                 "currencyDrops": [],
@@ -311,7 +317,7 @@
                     "Attack": 700,
                     "Strength": 700,
                     "Defence": 800,
-                    "Hitpoints": 333,
+                    "Hitpoints": 750,
                     "Ranged": 500,
                     "Magic": 500
                 },
@@ -340,7 +346,9 @@
                 "ignoreCompletion": false,
                 "passives": [
                     "expandedAreas:VenomousHide",
-                    "expandedAreas:StunImmunity"
+                    "expandedAreas:StunImmunity",
+                    "expandedAreas:CobralingsSummon",
+                    "expandedAreas:ToxicClouds"
                 ],
                 "combatEffects": [
                     {
@@ -348,11 +356,12 @@
                         "chance": 80,
                         "condition": {
                             "character": "Enemy",
-                            "targetAttackType": "any",
+                            "targetAttackType": "melee",
                             "thisAttackType": "melee",
                             "type": "CombatType"
                         },
-                        "effectID": "melvorD:Stun"
+                        "effectID": "melvorD:Stun",
+                        "customDescription": "80% Chance to Stun on Hit if target is using Melee."
                     }
                 ],
                 "selectedSpell": "melvorD:WindStrike",
