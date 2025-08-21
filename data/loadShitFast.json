@@ -1,6 +1,368 @@
 {
     "$schema": "https://melvoridle.com/assets/schema/gameData.json",
     "namespace": "expandedAreas",
-    "data": {},
+    "data": {
+        "items": [
+            {
+                "itemType": "Item",
+                "id": "Kuulbra_Scales",
+                "name": "Kuulbra Scales",
+                "category": "Scales",
+                "type": "Misc",
+                "media": "assets/items/Item/Kuulbra_Scales.png",
+                "ignoreCompletion": false,
+                "obtainFromItemLog": false,
+                "golbinRaidExclusive": false,
+                "sellsFor": 3
+            }
+        ],
+        "combatPassives": [
+            {
+                "id": "MeleeImmunity",
+                "name": "Melee Immunity",
+                "modifiers": {
+                    "meleeImmunity": 1
+                },
+                "customDescription": "Immune to all Melee Attacks."
+            },
+            {
+                "id": "VenomousHide",
+                "name": "Venomous Hide",
+                "modifiers": {
+                    "effectImmunity": [
+                        {
+                            "effectGroupID": "melvorD:PoisonDOT",
+                            "value": 1
+                        },
+                        {
+                            "effectGroupID": "melvorD:DeadlyPoisonDOT",
+                            "value": 1
+                        }
+                    ]
+                },
+                "combatEffects": [
+                    {
+                        "effectID": "melvorD:DeadlyPoison",
+                        "chance": 20,
+                        "appliesWhen": "HitWithAttack"
+                    }
+                ]
+            },
+            {
+                "id": "StunImmunity",
+                "name": "Stun Immunity",
+                "modifiers": {
+                    "effectImmunity": [
+                        {
+                            "effectGroupID": "melvorD:StunLike",
+                            "value": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "MagicVulnerability",
+                "name": "Magic Vulnerability",
+                "modifiers": {
+                    "flatResistanceAgainstMagic": [
+                        {
+                            "damageTypeID": "melvorD:Normal",
+                            "value": -15
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "RangedVulnerability",
+                "name": "Ranged Vulnerability",
+                "modifiers": {
+                    "flatResistanceAgainstRanged": [
+                        {
+                            "damageTypeID": "melvorD:Normal",
+                            "value": -15
+                        }
+                    ]
+                }
+            }
+        ],
+        "attacks": [
+            {
+                "id": "BarbedTailWhip",
+                "defaultChance": 40,
+                "canNormalAttack": true,
+                "damage": [
+                    {
+                        "damageType": "Custom",
+                        "character": "Attacker",
+                        "roll": false,
+                        "maxRoll": "Fixed",
+                        "maxPercent": 50
+                    }
+                ],
+                "prehitEffects": [],
+                "onhitEffects": [
+                    {
+                        "effectID": "melvorF:SpikedTailWhip0"
+                    }
+                ],
+                "cantMiss": false,
+                "attackCount": 3,
+                "attackInterval": 300,
+                "lifesteal": 0,
+                "name": "Spiked Tail Whip",
+                "description": "The enemy's tail whips at you ${hitCount} times, dealing ${attackDamageMaxValue0} damage each (Avoidable). On a hit gives you -${onHitEffect0modValue0}% Damage Reduction for ${onHitEffect0turns} of your turns.",
+                "descriptionGenerator": "<AttPos> tail whips at <target> <count> times, dealing <damage> damage each (<Avoidable>). On a hit <hitEffect>.",
+                "usesRunesPerProc": false
+            },
+            {
+                "id": "BarbedProjectile",
+                "defaultChance": 40,
+                "damage": [
+                    {
+                        "damageType": "Normal",
+                        "amplitude": 125
+                    }
+                ],
+                "prehitEffects": [],
+                "onhitEffects": [],
+                "cantMiss": false,
+                "attackCount": 1,
+                "attackInterval": 50,
+                "lifesteal": 0,
+                "name": "Barbed Projectile",
+                "description": "Rapidly fires ${hitCount} barbed projectile dealing ${attackDamageMaxValue0}% of the enemy's normal damage (Avoidable).",
+                "descriptionGenerator": "Rapidly fires <count> barbed projectile dealing <damage> (<Avoidable>)."
+            },
+            {
+                "id": "ToxicClouds",
+                "defaultChance": 30,
+                "canNormalAttack": true,
+                "damage": [
+                    {
+                        "damageType": "Custom",
+                        "character": "Attacker",
+                        "roll": false,
+                        "maxRoll": "Fixed",
+                        "maxPercent": 15
+                    }
+                ],
+                "prehitEffects": [],
+                "onhitEffects": [
+                    {
+                        "effectID": "melvorD:DeadlyPoison",
+                        "chance": 100
+                    }
+                ],
+                "cantMiss": false,
+                "attackCount": 6,
+                "attackInterval": 600,
+                "lifesteal": 0,
+                "name": "Toxic Clouds",
+                "description": "Noxious gas erupts from around the enemy, dealing ${attackDamageMaxValue0}x${hitCount} damage over ${duration}s. On a hit inflicts Deadly Poison that deals ${onHitEffect0DamageMaxValue0}% of your max hitpoints as damage over ${onHitEffect0duration}s.",
+                "descriptionGenerator": "Noxious gas erupts within the <attPos> vicinity, dealing <damage>x<count> damage over <duration>.",
+                "usesRunesPerProc": false
+            },
+            {
+                "id": "CobralingsSummon",
+                "defaultChance": 20,
+                "damage": [
+                    {
+                        "damageType": "Custom",
+                        "character": "Attacker",
+                        "roll": false,
+                        "maxRoll": "Fixed",
+                        "maxPercent": 2.5
+                    }
+                ],
+                "prehitEffects": [],
+                "onhitEffects": [
+                    {
+                        "effectID": "melvorD:DeadlyPoison",
+                        "chance": 10
+                    }
+                ],
+                "cantMiss": false,
+                "attackCount": 12,
+                "attackInterval": 300,
+                "lifesteal": 0,
+                "name": "Summon Cobralings",
+                "description": "The enemy summons a dozen cobralings, dealing ${attackDamageMaxValue0}x${hitCount} damage over ${duration}s. On a hit inflicts Deadly Poison that deals ${onHitEffect0DamageMaxValue0}% of your max hitpoints as damage over ${onHitEffect0duration}s.",
+                "descriptionGenerator": "Noxious gas erupts within the <attPos> vicinity, dealing <damage>x<count> damage over <duration>.",
+                "usesRunesPerProc": false
+            }
+        ],
+        "monsters": [
+            {
+                "attackType": "ranged",
+                "canSlayer": false,
+                "isBoss": true,
+                "currencyDrops": [],
+                "id": "Kuulbra_Ranged",
+                "levels": {
+                    "Attack": 1,
+                    "Strength": 1,
+                    "Defence": 600,
+                    "Hitpoints": 333,
+                    "Ranged": 800,
+                    "Magic": 400
+                },
+                "equipmentStats": [
+                    {
+                        "key": "attackSpeed",
+                        "value": 1800
+                    },
+                    {
+                        "key": "magicDefenceBonus",
+                        "value": -100
+                    },
+                    {
+                        "key": "rangedAttackBonus",
+                        "value": 50
+                    },
+                    {
+                        "key": "rangedStrengthBonus",
+                        "value": 20
+                    }
+                ],
+                "lootChance": 0,
+                "lootTable": [],
+                "name": "Kuulbra",
+                "media": "assets/monsters/Kuulbra_Ranged.png",
+                "ignoreCompletion": false,
+                "passives": [
+                    "expandedAreas:VenomousHide",
+                    "expandedAreas:StunImmunity",
+                    "expandedAreas:MeleeImmunity",
+                    "expandedAreas:MagicVulnerability"
+                ],
+                "selectedSpell": "melvorD:WindStrike",
+                "specialAttacks": [
+                    "expandedAreas:CobralingsSummon",
+                    "expandedAreas:ToxicClouds",
+                    "expandedAreas:BarbedProjectile"
+                ],
+                "bones": {
+                    "itemID": "expandedAreas:Kuulbra_Scales",
+                    "quantity": 25
+                }
+            },
+            {
+                "attackType": "magic",
+                "canSlayer": false,
+                "isBoss": true,
+                "currencyDrops": [],
+                "id": "Kuulbra_Magic",
+                "levels": {
+                    "Attack": 1,
+                    "Strength": 1,
+                    "Defence": 600,
+                    "Hitpoints": 333,
+                    "Ranged": 700,
+                    "Magic": 750
+                },
+                "equipmentStats": [
+                    {
+                        "key": "attackSpeed",
+                        "value": 1800
+                    },
+                    {
+                        "key": "rangedDefenceBonus",
+                        "value": -100
+                    },
+                    {
+                        "key": "magicAttackBonus",
+                        "value": 50
+                    },
+                    {
+                        "key": "magicDamageBonus",
+                        "value": 20
+                    }
+                ],
+                "lootChance": 0,
+                "lootTable": [],
+                "name": "Kuulbra",
+                "media": "assets/monsters/Kuulbra_Magic.png",
+                "ignoreCompletion": false,
+                "passives": [
+                    "expandedAreas:VenomousHide",
+                    "expandedAreas:StunImmunity",
+                    "expandedAreas:MeleeImmunity",
+                    "expandedAreas:RangedVulnerability"
+                ],
+                "selectedSpell": "expandedAreas:Fire_Storm",
+                "specialAttacks": [
+                    "expandedAreas:CobralingsSummon",
+                    "expandedAreas:ToxicClouds",
+                    "expandedAreas:BarbedProjectile"
+                ],
+                "bones": {
+                    "itemID": "expandedAreas:Kuulbra_Scales",
+                    "quantity": 25
+                }
+            },
+            {
+                "attackType": "melee",
+                "damageType": "melvorF:Pure",
+                "canSlayer": false,
+                "isBoss": true,
+                "currencyDrops": [],
+                "id": "Kuulbra_Melee",
+                "levels": {
+                    "Attack": 700,
+                    "Strength": 700,
+                    "Defence": 800,
+                    "Hitpoints": 333,
+                    "Ranged": 500,
+                    "Magic": 500
+                },
+                "equipmentStats": [
+                    {
+                        "key": "attackSpeed",
+                        "value": 2400
+                    },
+                    {
+                        "key": "magicDefenceBonus",
+                        "value": -100
+                    },
+                    {
+                        "key": "meleeDefenceBonus",
+                        "value": 100
+                    },
+                    {
+                        "key": "meleeStrengthBonus",
+                        "value": 20
+                    }
+                ],
+                "lootChance": 0,
+                "lootTable": [],
+                "name": "Kuulbra",
+                "media": "assets/monsters/Kuulbra_Melee.png",
+                "ignoreCompletion": false,
+                "passives": [
+                    "expandedAreas:VenomousHide",
+                    "expandedAreas:StunImmunity"
+                ],
+                "combatEffects": [
+                    {
+                        "appliesWhen": "HitWithAttack",
+                        "chance": 80,
+                        "condition": {
+                            "character": "Enemy",
+                            "targetAttackType": "any",
+                            "thisAttackType": "melee",
+                            "type": "CombatType"
+                        },
+                        "effectID": "melvorD:Stun"
+                    }
+                ],
+                "selectedSpell": "melvorD:WindStrike",
+                "specialAttacks": [],
+                "bones": {
+                    "itemID": "expandedAreas:Kuulbra_Scales",
+                    "quantity": 25
+                }
+            }
+        ]
+    },
     "modifications": {}
 }

@@ -7,7 +7,7 @@
         "id": "Ring",
         "allowQuantity": false,
         "emptyMedia": "assets/icons/Ring.png",
-        "emptyName": "Rinsg",
+        "emptyName": "Ring 2",
         "providesEquipStats": true,
         "gridPosition": {
           "col": 3,
@@ -18,7 +18,7 @@
         "id": "Accessory1",
         "allowQuantity": false,
         "emptyMedia": "assets/icons/Accessory.png",
-        "emptyName": "Accessory",
+        "emptyName": "Accessory Left",
         "providesEquipStats": true,
         "gridPosition": {
           "col": 1,
@@ -40,7 +40,7 @@
         "id": "Accessory2",
         "allowQuantity": false,
         "emptyMedia": "assets/icons/Accessory.png",
-        "emptyName": "Accessory",
+        "emptyName": "Accessory Right",
         "providesEquipStats": true,
         "gridPosition": {
           "col": 3,
@@ -49,6 +49,620 @@
       }
     ],
     "items": [
+      {
+        "itemType": "Item",
+        "id": "Kuulbra_Scales",
+        "name": "Kuulbra Scales",
+        "category": "Scales",
+        "type": "Misc",
+        "media": "assets/items/Item/Kuulbra_Scales.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 3
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Bronze_Javelin_Ammo",
+        "name": "Bronze Javelin (Ammo)",
+        "category": "Combat",
+        "type": "Ammo",
+        "media": "assets/items/Equipment/Bronze_Javelin_Ammo.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 7,
+        "tier": "bronze",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 55
+          }
+        ],
+        "ammoType": "Javelins"
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Iron_Javelin_Ammo",
+        "name": "Iron Javelin (Ammo)",
+        "category": "Combat",
+        "type": "Ammo",
+        "media": "assets/items/Equipment/Iron_Javelin_Ammo.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 16,
+        "tier": "Iron",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 3
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 58
+          }
+        ],
+        "ammoType": "Javelins"
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Steel_Javelin_Ammo",
+        "name": "Steel Javelin (Ammo)",
+        "category": "Combat",
+        "type": "Ammo",
+        "media": "assets/items/Equipment/Steel_Javelin_Ammo.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 38,
+        "tier": "Steel",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 5
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 62
+          }
+        ],
+        "ammoType": "Javelins"
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Black_Javelin_Ammo",
+        "name": "Black Javelin (Ammo)",
+        "category": "Combat",
+        "type": "Ammo",
+        "media": "assets/items/Equipment/Black_Javelin_Ammo.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 97,
+        "tier": "Black",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 10
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 6
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 64
+          }
+        ],
+        "ammoType": "Javelins"
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Mithril_Javelin_Ammo",
+        "name": "Mithril Javelin (Ammo)",
+        "category": "Combat",
+        "type": "Ammo",
+        "media": "assets/items/Equipment/Mithril_Javelin_Ammo.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 7,
+        "tier": "Mithril",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 20
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 7
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 66
+          }
+        ],
+        "ammoType": "Javelins"
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Adamant_Javelin_Ammo",
+        "name": "Adamant Javelin (Ammo)",
+        "category": "Combat",
+        "type": "Ammo",
+        "media": "assets/items/Equipment/Adamant_Javelin_Ammo.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 223,
+        "tier": "Adamant",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 30
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 9
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 73
+          }
+        ],
+        "ammoType": "Javelins"
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Rune_Javelin_Ammo",
+        "name": "Rune Javelin (Ammo)",
+        "category": "Combat",
+        "type": "Ammo",
+        "media": "assets/items/Equipment/Rune_Javelin_Ammo.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 283,
+        "tier": "Rune",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 11
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 80
+          }
+        ],
+        "ammoType": "Javelins"
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Dragon_Javelin_Ammo",
+        "name": "Dragon Javelin (Ammo)",
+        "category": "Combat",
+        "type": "Ammo",
+        "media": "assets/items/Equipment/Dragon_Javelin_Ammo.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 650,
+        "tier": "Dragon",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 13
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 93
+          }
+        ],
+        "ammoType": "Javelins"
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Pure_Crystal_Javelin_Ammo",
+        "name": "Pure Crystal Javelin (Ammo)",
+        "category": "Combat",
+        "type": "Ammo",
+        "media": "assets/items/Equipment/Pure_Crystal_Javelin_Ammo.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 650,
+        "tier": "Dragon",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 13
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 93
+          }
+        ],
+        "specialAttacks": [
+          "melvorAoD:CrystalShot"
+        ],
+        "overrideSpecialChances": [
+          10
+        ],
+        "ammoType": "Javelins"
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Ancient_Javelin_Ammo",
+        "name": "Ancient Javelin (Ammo)",
+        "category": "Combat",
+        "type": "Ammo",
+        "media": "assets/items/Equipment/Ancient_Javelin_Ammo.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1750,
+        "tier": "Ancient",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 70
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 15
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 108
+          }
+        ],
+        "ammoType": "Javelins"
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Crystal_Javelin_Ammo",
+        "name": "Crystal Javelin (Ammo)",
+        "category": "Combat",
+        "type": "Ammo",
+        "media": "assets/items/Equipment/Crystal_Javelin_Ammo.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 156,
+        "tier": "Crystal",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 20
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 7
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 66
+          }
+        ],
+        "specialAttacks": [
+          "melvorAoD:CrystalShot"
+        ],
+        "overrideSpecialChances": [
+          5
+        ],
+        "ammoType": "Javelins"
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Corundum_Javelin_Ammo",
+        "name": "Corundum Javelin (Ammo)",
+        "category": "Combat",
+        "type": "Ammo",
+        "media": "assets/items/Equipment/Corundum_Javelin_Ammo.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 725,
+        "tier": "Corundum",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 100
+          },
+          {
+            "type": "DungeonCompletion",
+            "dungeonID": "melvorF:Impending_Darkness",
+            "count": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 18
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 130
+          }
+        ],
+        "ammoType": "Javelins"
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Augite_Javelin_Ammo",
+        "name": "Augite Javelin (Ammo)",
+        "category": "Combat",
+        "type": "Ammo",
+        "media": "assets/items/Equipment/Augite_Javelin_Ammo.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 795,
+        "tier": "Augite",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 105
+          },
+          {
+            "type": "DungeonCompletion",
+            "dungeonID": "melvorF:Impending_Darkness",
+            "count": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 20
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 149
+          }
+        ],
+        "ammoType": "Javelins"
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Divine_Javelin_Ammo",
+        "name": "Divine Javelin (Ammo)",
+        "category": "Combat",
+        "type": "Ammo",
+        "media": "assets/items/Equipment/Divine_Javelin_Ammo.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 860,
+        "tier": "Divine",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 110
+          },
+          {
+            "type": "DungeonCompletion",
+            "dungeonID": "melvorF:Impending_Darkness",
+            "count": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 26
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 196
+          }
+        ],
+        "ammoType": "Javelins"
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Meteorite_Javelin_Ammo",
+        "name": "Meteorite Javelin (Ammo)",
+        "category": "Combat",
+        "type": "Ammo",
+        "media": "assets/items/Equipment/Meteorite_Javelin_Ammo.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 940,
+        "tier": "Meteorite",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 115
+          },
+          {
+            "type": "DungeonCompletion",
+            "dungeonID": "melvorF:Impending_Darkness",
+            "count": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 23
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 171
+          }
+        ],
+        "ammoType": "Javelins"
+      },
+      {
+        "id": "Heavy_Hand_Ballista",
+        "name": "Heavy Hand Ballista",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "assets/items/Weapon/Heavy_Hand_Ballista.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 950000,
+        "tier": "ancient",
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Shield"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 75
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 4200
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 125
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 178
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Javelins",
+        "specialAttacks": [
+          "expandedAreas:Heavy_Shot"
+        ]
+      },
       {
         "id": "Basic_Curry",
         "name": "Basic Curry",
@@ -11217,6 +11831,137 @@
     ],
     "attacks": [
       {
+        "id": "BarbedTailWhip",
+        "defaultChance": 40,
+        "canNormalAttack": true,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Attacker",
+            "roll": false,
+            "maxRoll": "Fixed",
+            "maxPercent": 50
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectID": "melvorF:SpikedTailWhip0"
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 3,
+        "attackInterval": 300,
+        "lifesteal": 0,
+        "name": "Spiked Tail Whip",
+        "description": "The enemy's tail whips at you ${hitCount} times, dealing ${attackDamageMaxValue0} damage each (Avoidable). On a hit gives you -${onHitEffect0modValue0}% Damage Reduction for ${onHitEffect0turns} of your turns.",
+        "descriptionGenerator": "<AttPos> tail whips at <target> <count> times, dealing <damage> damage each (<Avoidable>). On a hit <hitEffect>.",
+        "usesRunesPerProc": false
+      },
+      {
+        "id": "BarbedProjectile",
+        "defaultChance": 40,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 125
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "name": "Barbed Projectile",
+        "description": "Rapidly fires ${hitCount} barbed projectile dealing ${attackDamageMaxValue0}% of the enemy's normal damage (Avoidable).",
+        "descriptionGenerator": "Rapidly fires <count> barbed projectile dealing <damage> (<Avoidable>)."
+      },
+      {
+        "id": "ToxicClouds",
+        "defaultChance": 30,
+        "canNormalAttack": true,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Attacker",
+            "roll": false,
+            "maxRoll": "Fixed",
+            "maxPercent": 15
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectID": "melvorD:DeadlyPoison",
+            "chance": 100
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 6,
+        "attackInterval": 600,
+        "lifesteal": 0,
+        "name": "Toxic Clouds",
+        "description": "Noxious gas erupts from around the enemy, dealing ${attackDamageMaxValue0}x${hitCount} damage over ${duration}s. On a hit inflicts Deadly Poison that deals ${onHitEffect0DamageMaxValue0}% of your max hitpoints as damage over ${onHitEffect0duration}s.",
+        "descriptionGenerator": "Noxious gas erupts within the <attPos> vicinity, dealing <damage>x<count> damage over <duration>.",
+        "usesRunesPerProc": false
+      },
+      {
+        "id": "CobralingsSummon",
+        "defaultChance": 20,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Attacker",
+            "roll": false,
+            "maxRoll": "Fixed",
+            "maxPercent": 2.5
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectID": "melvorD:DeadlyPoison",
+            "chance": 10
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 12,
+        "attackInterval": 300,
+        "lifesteal": 0,
+        "name": "Summon Cobralings",
+        "description": "The enemy summons a dozen cobralings, dealing ${attackDamageMaxValue0}x${hitCount} damage over ${duration}s. On a hit inflicts Deadly Poison that deals ${onHitEffect0DamageMaxValue0}% of your max hitpoints as damage over ${onHitEffect0duration}s.",
+        "descriptionGenerator": "Noxious gas erupts within the <attPos> vicinity, dealing <damage>x<count> damage over <duration>.",
+        "usesRunesPerProc": false
+      },
+      {
+        "id": "Heavy_Shot",
+        "name": "Heavy Shot",
+        "defaultChance": 35,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Attacker",
+            "roll": true,
+            "minRoll": "MinHit",
+            "minPercent": 100,
+            "maxRoll": "MaxHit",
+            "maxPercent": 125
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Perform a heavy ranged attack that deals up to ${attackDamageMaxValue0}% of your normal damage.",
+        "descriptionGenerator": "Perform an attack that does <damage>.",
+        "attackTypes": [
+          "ranged"
+        ]
+      },
+      {
         "id": "Blood_Tithe",
         "defaultChance": 20,
         "damage": [
@@ -11870,7 +12615,246 @@
         "usesRunesPerProc": false
       }
     ],
+    "combatPassives": [
+      {
+        "id": "MeleeImmunity",
+        "name": "Melee Immunity",
+        "modifiers": {
+          "meleeImmunity": 1
+        },
+        "customDescription": "Immune to all Melee Attacks."
+      },
+      {
+        "id": "VenomousHide",
+        "name": "Venomous Hide",
+        "modifiers": {
+          "effectImmunity": [
+            {
+              "effectGroupID": "melvorD:PoisonDOT",
+              "value": 1
+            },
+            {
+              "effectGroupID": "melvorD:DeadlyPoisonDOT",
+              "value": 1
+            }
+          ]
+        },
+        "combatEffects": [
+          {
+            "effectID": "melvorD:DeadlyPoison",
+            "chance": 20,
+            "appliesWhen": "HitWithAttack"
+          }
+        ]
+      },
+      {
+        "id": "StunImmunity",
+        "name": "Stun Immunity",
+        "modifiers": {
+          "effectImmunity": [
+            {
+              "effectGroupID": "melvorD:StunLike",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "MagicVulnerability",
+        "name": "Magic Vulnerability",
+        "modifiers": {
+          "flatResistanceAgainstMagic": [
+            {
+              "damageTypeID": "melvorD:Normal",
+              "value": -15
+            }
+          ]
+        }
+      },
+      {
+        "id": "RangedVulnerability",
+        "name": "Ranged Vulnerability",
+        "modifiers": {
+          "flatResistanceAgainstRanged": [
+            {
+              "damageTypeID": "melvorD:Normal",
+              "value": -15
+            }
+          ]
+        }
+      }
+    ],
     "monsters": [
+      {
+        "attackType": "ranged",
+        "canSlayer": false,
+        "isBoss": true,
+        "currencyDrops": [],
+        "id": "Kuulbra_Ranged",
+        "levels": {
+          "Attack": 1,
+          "Strength": 1,
+          "Defence": 600,
+          "Hitpoints": 333,
+          "Ranged": 800,
+          "Magic": 400
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 1800
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": -100
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 50
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 20
+          }
+        ],
+        "lootChance": 0,
+        "lootTable": [],
+        "name": "Kuulbra",
+        "media": "assets/monsters/Kuulbra_Ranged.png",
+        "ignoreCompletion": false,
+        "passives": [
+          "expandedAreas:VenomousHide",
+          "expandedAreas:StunImmunity",
+          "expandedAreas:MeleeImmunity",
+          "expandedAreas:MagicVulnerability"
+        ],
+        "selectedSpell": "melvorD:WindStrike",
+        "specialAttacks": [
+          "expandedAreas:CobralingsSummon",
+          "expandedAreas:ToxicClouds",
+          "expandedAreas:BarbedProjectile"
+        ],
+        "bones": {
+          "itemID": "expandedAreas:Kuulbra_Scales",
+          "quantity": 25
+        }
+      },
+      {
+        "attackType": "magic",
+        "canSlayer": false,
+        "isBoss": true,
+        "currencyDrops": [],
+        "id": "Kuulbra_Magic",
+        "levels": {
+          "Attack": 1,
+          "Strength": 1,
+          "Defence": 600,
+          "Hitpoints": 333,
+          "Ranged": 700,
+          "Magic": 750
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 1800
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": -100
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 50
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 20
+          }
+        ],
+        "lootChance": 0,
+        "lootTable": [],
+        "name": "Kuulbra",
+        "media": "assets/monsters/Kuulbra_Magic.png",
+        "ignoreCompletion": false,
+        "passives": [
+          "expandedAreas:VenomousHide",
+          "expandedAreas:StunImmunity",
+          "expandedAreas:MeleeImmunity",
+          "expandedAreas:RangedVulnerability"
+        ],
+        "selectedSpell": "expandedAreas:Fire_Storm",
+        "specialAttacks": [
+          "expandedAreas:CobralingsSummon",
+          "expandedAreas:ToxicClouds",
+          "expandedAreas:BarbedProjectile"
+        ],
+        "bones": {
+          "itemID": "expandedAreas:Kuulbra_Scales",
+          "quantity": 25
+        }
+      },
+      {
+        "attackType": "melee",
+        "damageType": "melvorF:Pure",
+        "canSlayer": false,
+        "isBoss": true,
+        "currencyDrops": [],
+        "id": "Kuulbra_Melee",
+        "levels": {
+          "Attack": 700,
+          "Strength": 700,
+          "Defence": 800,
+          "Hitpoints": 333,
+          "Ranged": 500,
+          "Magic": 500
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": -100
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 100
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 20
+          }
+        ],
+        "lootChance": 0,
+        "lootTable": [],
+        "name": "Kuulbra",
+        "media": "assets/monsters/Kuulbra_Melee.png",
+        "ignoreCompletion": false,
+        "passives": [
+          "expandedAreas:VenomousHide",
+          "expandedAreas:StunImmunity"
+        ],
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 80,
+            "condition": {
+              "character": "Enemy",
+              "targetAttackType": "any",
+              "thisAttackType": "melee",
+              "type": "CombatType"
+            },
+            "effectID": "melvorD:Stun"
+          }
+        ],
+        "selectedSpell": "melvorD:WindStrike",
+        "specialAttacks": [],
+        "bones": {
+          "itemID": "expandedAreas:Kuulbra_Scales",
+          "quantity": 25
+        }
+      },
       {
         "id": "Wasp",
         "name": "Wasp",
@@ -15478,25 +16462,25 @@
             "itemID": "expandedAreas:Coconut",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 777777
+            "weight": 55555
           },
           {
             "itemID": "melvorD:Bird_Nest",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 555555
+            "weight": 25252
           },
           {
             "itemID": "expandedAreas:Palm_Tree_Seed",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 333333
+            "weight": 3333
           },
           {
             "itemID": "melvorD:Pirates_Lost_Ring",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 111111
+            "weight": 1111
           }
         ],
         "canSlayer": true,
@@ -16177,6 +17161,35 @@
     "dungeons": [
       {
         "difficulty": [
+          5
+        ],
+        "dropBones": true,
+        "entryRequirements": [
+          {
+            "type": "SkillLevel",
+            "level": 75,
+            "skillID": "melvorD:Slayer"
+          }
+        ],
+        "fixedPetClears": false,
+        "id": "Swamp_of_Desolation",
+        "media": "assets/dungeons/Swamp_of_Desolation.png",
+        "monsterIDs": [
+          "melvorF:NoxiousSerpent",
+          "melvorF:VenomousSnake",
+          "melvorF:GiantMoth",
+          "expandedAreas:Kuulbra_Ranged",
+          "expandedAreas:Kuulbra_Melee",
+          "expandedAreas:Kuulbra_Magic"
+        ],
+        "name": "Swamp of Desolation",
+        "pauseOnBosses": false,
+        "rewardItemIDs": [
+          "expandedAreas:Kuulbra_Scales"
+        ]
+      },
+      {
+        "difficulty": [
           4
         ],
         "dropBones": true,
@@ -16751,7 +17764,15 @@
         "category": "melvorD:SkillUpgrades",
         "contains": {
           "items": [],
-          "modifiers": {}
+          "modifiers": {
+            "additionalPrimaryProductChance": [
+              {
+                "skillID": "melvorD:Cooking",
+                "categoryID": "expandedAreas:Drink_Station",
+                "value": 10
+              }
+            ]
+          }
         },
         "cost": {
           "items": [],
@@ -16769,14 +17790,14 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Cooking",
-            "level": 10
+            "level": 21
           }
         ],
         "defaultBuyLimit": 1,
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Basic Drink Station",
-        "customDescription": "Unlocks the Drink Station in Cooking."
+        "customDescription": "+10% Chance to Receive +1 Additional Drink when Cooking for a total of +10% Chance to Receive +1 Additional Drink from your Drink Station."
       },
       {
         "id": "Enhanced_Drink_Station",
@@ -16789,7 +17810,7 @@
               {
                 "skillID": "melvorD:Cooking",
                 "categoryID": "expandedAreas:Drink_Station",
-                "value": 25
+                "value": 20
               }
             ]
           }
@@ -16816,14 +17837,14 @@
           {
             "type": "SkillLevel",
             "skillID": "melvorD:Cooking",
-            "level": 40
+            "level": 42
           }
         ],
         "defaultBuyLimit": 1,
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Enhanced Drink Station",
-        "customDescription": "+25% Chance to Receive +1 Additional Drink in Cooking."
+        "customDescription": "+20% Chance to Receive +1 Additional Drink when Cooking for a total of +30% Chance to Receive +1 Additional Drink from your Drink Station."
       },
       {
         "id": "Super_Drink_Station",
@@ -16836,7 +17857,7 @@
               {
                 "skillID": "melvorD:Cooking",
                 "categoryID": "expandedAreas:Drink_Station",
-                "value": 50
+                "value": 30
               }
             ]
           }
@@ -16870,7 +17891,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Super Drink Station",
-        "customDescription": "+50% Chance to Receive +1 Additional Drink in Cooking."
+        "customDescription": "+30% Chance to Receive +1 Additional Drink when Cooking for a total of +60% Chance to Receive +1 Additional Drink from your Drink Station."
       },
       {
         "id": "Bronze_Fermenting_Tank",
@@ -18101,6 +19122,201 @@
       }
     ],
     "itemUpgrades": [
+      {
+        "rootItemIDs": [
+          "melvorF:Bronze_Javelin"
+        ],
+        "itemCosts": [
+          {
+            "id": "melvorF:Bronze_Javelin",
+            "quantity": 1
+          }
+        ],
+        "upgradedItemID": "expandedAreas:Bronze_Javelin_Ammo",
+        "isDowngrade": false
+      },
+      {
+        "rootItemIDs": [
+          "melvorF:Iron_Javelin"
+        ],
+        "itemCosts": [
+          {
+            "id": "melvorF:Iron_Javelin",
+            "quantity": 1
+          }
+        ],
+        "upgradedItemID": "expandedAreas:Iron_Javelin_Ammo",
+        "isDowngrade": false
+      },
+      {
+        "rootItemIDs": [
+          "melvorF:Steel_Javelin"
+        ],
+        "itemCosts": [
+          {
+            "id": "melvorF:Steel_Javelin",
+            "quantity": 1
+          }
+        ],
+        "upgradedItemID": "expandedAreas:Steel_Javelin_Ammo",
+        "isDowngrade": false
+      },
+      {
+        "rootItemIDs": [
+          "expandedAreas:Black_Javelin"
+        ],
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Black_Javelin",
+            "quantity": 1
+          }
+        ],
+        "upgradedItemID": "expandedAreas:Black_Javelin_Ammo",
+        "isDowngrade": false
+      },
+      {
+        "rootItemIDs": [
+          "melvorF:Mithril_Javelin"
+        ],
+        "itemCosts": [
+          {
+            "id": "melvorF:Mithril_Javelin",
+            "quantity": 1
+          }
+        ],
+        "upgradedItemID": "expandedAreas:Mithril_Javelin_Ammo",
+        "isDowngrade": false
+      },
+      {
+        "rootItemIDs": [
+          "melvorF:Adamant_Javelin"
+        ],
+        "itemCosts": [
+          {
+            "id": "melvorF:Adamant_Javelin",
+            "quantity": 1
+          }
+        ],
+        "upgradedItemID": "expandedAreas:Adamant_Javelin_Ammo",
+        "isDowngrade": false
+      },
+      {
+        "rootItemIDs": [
+          "melvorF:Rune_Javelin"
+        ],
+        "itemCosts": [
+          {
+            "id": "melvorF:Rune_Javelin",
+            "quantity": 1
+          }
+        ],
+        "upgradedItemID": "expandedAreas:Rune_Javelin_Ammo",
+        "isDowngrade": false
+      },
+      {
+        "rootItemIDs": [
+          "melvorF:Dragon_Javelin"
+        ],
+        "itemCosts": [
+          {
+            "id": "melvorF:Dragon_Javelin",
+            "quantity": 1
+          }
+        ],
+        "upgradedItemID": "expandedAreas:Dragon_Javelin_Ammo",
+        "isDowngrade": false
+      },
+      {
+        "rootItemIDs": [
+          "melvorF:Ancient_Javelin"
+        ],
+        "itemCosts": [
+          {
+            "id": "melvorF:Ancient_Javelin",
+            "quantity": 1
+          }
+        ],
+        "upgradedItemID": "expandedAreas:Ancient_Javelin_Ammo",
+        "isDowngrade": false
+      },
+      {
+        "rootItemIDs": [
+          "melvorAoD:Crystal_Javelin"
+        ],
+        "itemCosts": [
+          {
+            "id": "melvorAoD:Crystal_Javelin",
+            "quantity": 1
+          }
+        ],
+        "upgradedItemID": "expandedAreas:Crystal_Javelin_Ammo",
+        "isDowngrade": false
+      },
+      {
+        "rootItemIDs": [
+          "melvorAoD:Pure_Crystal_Javelin"
+        ],
+        "itemCosts": [
+          {
+            "id": "melvorAoD:Pure_Crystal_Javelin",
+            "quantity": 1
+          }
+        ],
+        "upgradedItemID": "expandedAreas:Pure_Crystal_Javelin_Ammo",
+        "isDowngrade": false
+      },
+      {
+        "rootItemIDs": [
+          "melvorTotH:Corundum_Javelin"
+        ],
+        "itemCosts": [
+          {
+            "id": "melvorTotH:Corundum_Javelin",
+            "quantity": 1
+          }
+        ],
+        "upgradedItemID": "expandedAreas:Corundum_Javelin_Ammo",
+        "isDowngrade": false
+      },
+      {
+        "rootItemIDs": [
+          "melvorTotH:Augite_Javelin"
+        ],
+        "itemCosts": [
+          {
+            "id": "melvorTotH:Augite_Javelin",
+            "quantity": 1
+          }
+        ],
+        "upgradedItemID": "expandedAreas:Augite_Javelin_Ammo",
+        "isDowngrade": false
+      },
+      {
+        "rootItemIDs": [
+          "melvorTotH:Divine_Javelin"
+        ],
+        "itemCosts": [
+          {
+            "id": "melvorTotH:Divine_Javelin",
+            "quantity": 1
+          }
+        ],
+        "upgradedItemID": "expandedAreas:Divine_Javelin_Ammo",
+        "isDowngrade": false
+      },
+      {
+        "rootItemIDs": [
+          "melvorTotH:Meteorite_Javelin"
+        ],
+        "itemCosts": [
+          {
+            "id": "melvorTotH:Meteorite_Javelin",
+            "quantity": 1
+          }
+        ],
+        "upgradedItemID": "expandedAreas:Meteorite_Javelin_Ammo",
+        "isDowngrade": false
+      },
       {
         "upgradedItemID": "expandedAreas:Amulet_of_Blood_Fury",
         "itemCosts": [
@@ -21640,8 +22856,20 @@
         "data": {
           "categories": [
             {
+              "id": "Drink_Station",
+              "media": "assets/icons/question.svg",
+              "name": "Drink Station Required",
+              "modifierName": "Drink Station",
+              "shopUpgradeIDs": [
+                "expandedAreas:Super_Drink_Station",
+                "expandedAreas:Enhanced_Drink_Station",
+                "expandedAreas:Basic_Drink_Station"
+              ],
+              "upgradeRequired": true
+            },
+            {
               "id": "Fermenting_Tank",
-              "media": "assets/skills/cooking/Iron_Fermenting_Tank.svg",
+              "media": "assets/icons/question.svg",
               "name": "Fermenting Tank Required",
               "modifierName": "Fermenting Tank",
               "shopUpgradeIDs": [
@@ -21653,17 +22881,6 @@
                 "expandedAreas:Steel_Fermenting_Tank",
                 "expandedAreas:Iron_Fermenting_Tank",
                 "expandedAreas:Bronze_Fermenting_Tank"
-              ],
-              "upgradeRequired": true
-            },
-            {
-              "id": "Drink_Station",
-              "media": "assets/icons/question.svg",
-              "name": "Drink Station Required",
-              "modifierName": "Drink Station",
-              "shopUpgradeIDs": [
-                "expandedAreas:Super_Drink_Station",
-                "expandedAreas:Enhanced_Drink_Station"
               ],
               "upgradeRequired": true
             }
@@ -24883,7 +26100,7 @@
         }
       },
       {
-        "id": "melvorTotH:Adventurers_Backpack",
+        "id": "melvorAoD:Ghostly_Parrot",
         "validSlots": {
           "add": [
             "expandedAreas:Accessory1",
@@ -24892,7 +26109,7 @@
         }
       },
       {
-        "id": "melvorAoD:Ghostly_Parrot",
+        "id": "melvorD:Book_of_Eli",
         "validSlots": {
           "add": [
             "expandedAreas:Accessory1",
@@ -24911,6 +26128,15 @@
       },
       {
         "id": "melvorTotH:Voodoo_Trinket",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Accessory1",
+            "expandedAreas:Accessory2"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Fine_Coinpurse",
         "validSlots": {
           "add": [
             "expandedAreas:Accessory1",
@@ -24955,6 +26181,15 @@
         }
       },
       {
+        "id": "melvorTotH:Book_of_the_Ancients",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Accessory1",
+            "expandedAreas:Accessory2"
+          ]
+        }
+      },
+      {
         "id": "melvorTotH:Hunters_Journal",
         "validSlots": {
           "add": [
@@ -24989,6 +26224,14 @@
       },
       {
         "id": "melvorAoD:Old_Wooden_Ladle",
+        "validSlots": {
+          "add": [
+            "expandedAreas:Tool"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Chefs_Spoon",
         "validSlots": {
           "add": [
             "expandedAreas:Tool"
@@ -25115,6 +26358,11 @@
         "validSlots": {
           "add": [
             "expandedAreas:Tool"
+          ]
+        },
+        "occupiesSlots": {
+          "remove": [
+            "Shield"
           ]
         }
       },
@@ -25935,7 +27183,8 @@
         "id": "melvorD:Bandit_Chest",
         "dropTable": {
           "remove": [
-            "melvorD:Steel_Arrows"
+            "melvorD:Steel_Arrows",
+            "melvorD:Ancient_Longbow"
           ],
           "add": [
             {
@@ -25958,6 +27207,25 @@
             },
             {
               "itemID": "melvorD:Ranger_Boots",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 3
+            },
+            {
+              "itemID": "expandedAreas:Heavy_Hand_Ballista",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Elder_Chest",
+        "dropTable": {
+          "add": [
+            {
+              "itemID": "melvorD:Ancient_Longbow",
               "minQuantity": 1,
               "maxQuantity": 1,
               "weight": 3
@@ -26481,21 +27749,6 @@
             }
           ]
         }
-      },
-      {
-        "skillID": "melvorD:Farming",
-        "data": {
-          "recipes": [
-            {
-              "id": "melvorF:Apple",
-              "categoryID": "expandedAreas:Fruit_Tree"
-            },
-            {
-              "id": "melvorTotH:Bananas",
-              "categoryID": "expandedAreas:Fruit_Tree"
-            }
-          ]
-        }
       }
     ],
     "combatAreas": [
@@ -26629,6 +27882,13 @@
               "afterID": "melvorF:Dragons_Den",
               "ids": [
                 "expandedAreas:Elemental_Sanctuary"
+              ]
+            },
+            {
+              "insertAt": "After",
+              "afterID": "melvorF:Infernal_Stronghold",
+              "ids": [
+                "expandedAreas:Swamp_of_Desolation"
               ]
             }
           ]
