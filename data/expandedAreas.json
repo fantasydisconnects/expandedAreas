@@ -51,15 +51,39 @@
     "items": [
       {
         "itemType": "Item",
-        "id": "Kuulbra_Scales",
-        "name": "Kuulbra Scales",
+        "id": "Tanzanite_Scales",
+        "name": "Tanzanite Scales",
         "category": "Scales",
         "type": "Misc",
-        "media": "assets/items/Item/Kuulbra_Scales.png",
+        "media": "assets/items/Item/Tanzanite_Scales.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 3
+        "sellsFor": 200
+      },
+      {
+        "itemType": "Item",
+        "id": "Magmatic_Scales",
+        "name": "Magmatic Scales",
+        "category": "Scales",
+        "type": "Misc",
+        "media": "assets/items/Item/Magmatic_Scales.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 200
+      },
+      {
+        "itemType": "Item",
+        "id": "Serpentine_Scales",
+        "name": "Serpentine Scales",
+        "category": "Scales",
+        "type": "Misc",
+        "media": "assets/items/Item/Serpentine_Scales.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 200
       },
       {
         "itemType": "Equipment",
@@ -1298,6 +1322,7 @@
         "healsFor": 28,
         "conditionalModifiers": [
           {
+            "description": "+15% Auto Eat Efficiency when at or below 25% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -11840,13 +11865,14 @@
             "character": "Attacker",
             "roll": false,
             "maxRoll": "Fixed",
-            "maxPercent": 130
+            "maxPercent": 75
           }
         ],
         "prehitEffects": [],
         "onhitEffects": [
           {
             "effectID": "melvorD:Stun",
+            "chance": 20,
             "initialParams": [
               {
                 "name": "turns",
@@ -11855,33 +11881,44 @@
             ]
           }
         ],
-        "cantMiss": false,
+        "attackTypes": [
+          "melee"
+        ],
+        "cantMiss": true,
         "attackCount": 1,
-        "attackInterval": 300,
+        "attackInterval": 50,
         "lifesteal": 0,
         "name": "Barbed Tail Whip",
-        "description": "The enemy's tail whips at you, dealing ${attackDamageMaxValue0} damage (Avoidable). On a hit, become Stunned for 2 turns.",
-        "descriptionGenerator": "<AttPos> tail whips at <target>, dealing <damage> damage (<Avoidable>). On a hit <hitEffect>.",
+        "description": "The enemy's barbed tail whips at you, dealing ${attackDamageMaxValue0} damage (Unavoidable). On a hit, {onHitEffect0chance}% chance to inflict Stun for ${onHitEffect0turns} turns. If you are already stunned, perform a regular attack instead.",
+        "descriptionGenerator": "<AttPos> barbed tail whips at <target>, dealing <damage> damage (<Avoidable>) and <hitEffect>. If <target> <taris> already stunned, perform a regular attack instead.",
         "usesRunesPerProc": false
       },
       {
         "id": "BarbedProjectile",
-        "defaultChance": 40,
+        "defaultChance": 30,
         "damage": [
           {
-            "damageType": "Normal",
-            "amplitude": 125
+            "damageType": "Custom",
+            "character": "Attacker",
+            "roll": false,
+            "maxRoll": "Fixed",
+            "maxPercent": 65
           }
         ],
         "prehitEffects": [],
-        "onhitEffects": [],
-        "cantMiss": false,
-        "attackCount": 1,
-        "attackInterval": 50,
+        "onhitEffects": [
+          {
+            "effectID": "melvorD:DeadlyPoison",
+            "chance": 10
+          }
+        ],
+        "cantMiss": true,
+        "attackCount": 3,
+        "attackInterval": 300,
         "lifesteal": 0,
         "name": "Barbed Projectile",
-        "description": "Rapidly fires ${hitCount} barbed projectile dealing ${attackDamageMaxValue0}% of the enemy's normal damage (Avoidable).",
-        "descriptionGenerator": "Rapidly fires <count> barbed projectile dealing <damage> (<Avoidable>)."
+        "description": "Rapidly fires ${hitCount} unavoidable barbed projectiles dealing ${attackDamageMaxValue0} each. Each hit has a ${onHitEffect0Chance}% chance to inflict Deadly Poison that deals ${onHitEffect0DamageMaxValue0}% of your max hitpoints as damage over ${onHitEffect0duration}s.",
+        "descriptionGenerator": "Rapidly fires <count> barbed projectiles dealing <damage> (<Avoidable>). On hit, <hitEffect>."
       },
       {
         "id": "ToxicClouds",
@@ -11893,7 +11930,7 @@
             "character": "Attacker",
             "roll": false,
             "maxRoll": "Fixed",
-            "maxPercent": 25
+            "maxPercent": 20
           }
         ],
         "prehitEffects": [],
@@ -11904,41 +11941,50 @@
           }
         ],
         "cantMiss": false,
-        "attackCount": 6,
-        "attackInterval": 600,
+        "attackCount": 4,
+        "attackInterval": 50,
         "lifesteal": 0,
         "name": "Toxic Clouds",
         "description": "Noxious gas erupts from around the enemy, dealing ${attackDamageMaxValue0}x${hitCount} damage over ${duration}s. On a hit inflicts Deadly Poison that deals ${onHitEffect0DamageMaxValue0}% of your max hitpoints as damage over ${onHitEffect0duration}s.",
-        "descriptionGenerator": "Noxious gas erupts within the <attPos> vicinity, dealing <damage>x<count> damage over <duration>.",
+        "descriptionGenerator": "Noxious gas erupts within the <attPos> vicinity, dealing <damage>x<count> damage over <duration> and <hitEffect>.",
         "usesRunesPerProc": false
       },
       {
-        "id": "CobralingsSummon",
-        "defaultChance": 20,
+        "id": "SummonCobralings",
+        "name": "Summon Cobralings",
+        "defaultChance": 30,
         "damage": [
           {
             "damageType": "Custom",
             "character": "Attacker",
-            "roll": false,
+            "roll": true,
+            "minRoll": "MinHit",
+            "minPercent": 100,
+            "maxRoll": "MaxHit",
+            "maxPercent": 100
+          },
+          {
+            "damageType": "Custom",
+            "character": "Attacker",
+            "roll": true,
+            "minRoll": "Fixed",
+            "minPercent": 0,
             "maxRoll": "Fixed",
-            "maxPercent": 10
+            "maxPercent": 15
           }
         ],
         "prehitEffects": [],
         "onhitEffects": [
           {
             "effectID": "melvorD:DeadlyPoison",
-            "chance": 10
+            "chance": 50
           }
         ],
         "cantMiss": false,
         "attackCount": 12,
-        "attackInterval": 300,
+        "attackInterval": 50,
         "lifesteal": 0,
-        "name": "Summon Cobralings",
-        "description": "The enemy summons a dozen cobralings, dealing ${attackDamageMaxValue0}x${hitCount} damage over ${duration}s. On a hit inflicts Deadly Poison that deals ${onHitEffect0DamageMaxValue0}% of your max hitpoints as damage over ${onHitEffect0duration}s.",
-        "descriptionGenerator": "Noxious gas erupts within the <attPos> vicinity, dealing <damage>x<count> damage over <duration>.",
-        "usesRunesPerProc": false
+        "description": "The enemy makes a normal attack, dealing up to ${attackDamageMaxValue0}% of its normal damage and and summons {hitCount} cobralings, each dealing between ${attackDamageMinValue1}-${attackDamageMaxValue1}x${hitCount} damage over ${duration}s. On a hit, the cobralings have a ${onHitEffect0Chance}% to inflict Deadly Poison that deals ${onHitEffect0DamageMaxValue0}% of your max hitpoints as damage over ${onHitEffect0duration}s."
       },
       {
         "id": "Heavy_Shot",
@@ -12623,10 +12669,10 @@
     ],
     "combatPassives": [
       {
-        "id": "PhaseHP33",
-        "name": "Phase HP 33%",
+        "id": "PhaseHP10",
+        "name": "Phase HP 10%",
         "modifiers": {
-          "maxHitpoints": -66.6
+          "maxHitpoints": -90
         }
       },
       {
@@ -12673,25 +12719,25 @@
         }
       },
       {
-        "id": "MagicVulnerability",
-        "name": "Magic Vulnerability",
+        "id": "MagicVulnerability10",
+        "name": "Magic Vulnerability 10%",
         "modifiers": {
           "flatResistanceAgainstMagic": [
             {
               "damageTypeID": "melvorD:Normal",
-              "value": -15
+              "value": -10
             }
           ]
         }
       },
       {
-        "id": "RangedVulnerability",
-        "name": "Ranged Vulnerability",
+        "id": "RangedVulnerability10",
+        "name": "Ranged Vulnerability 10%",
         "modifiers": {
           "flatResistanceAgainstRanged": [
             {
               "damageTypeID": "melvorD:Normal",
-              "value": -15
+              "value": -10
             }
           ]
         }
@@ -12703,13 +12749,13 @@
         "canSlayer": false,
         "isBoss": true,
         "currencyDrops": [],
-        "id": "Kuulbra_Ranged",
+        "id": "Zulrah_Phase_One",
         "levels": {
-          "Attack": 500,
-          "Strength": 500,
-          "Defence": 500,
-          "Hitpoints": 1500,
-          "Ranged": 600,
+          "Attack": 300,
+          "Strength": 300,
+          "Defence": 300,
+          "Hitpoints": 1820,
+          "Ranged": 300,
           "Magic": 300
         },
         "equipmentStats": [
@@ -12732,25 +12778,105 @@
         ],
         "lootChance": 0,
         "lootTable": [],
-        "name": "Kuulbra (Phase One)",
-        "media": "assets/monsters/Kuulbra_Ranged.png",
+        "name": "Zulrah (Phase One)",
+        "media": "assets/monsters/Zulrah_Serpentine.png",
         "ignoreCompletion": false,
         "passives": [
-          "expandedAreas:PhaseHP33",
+          "expandedAreas:PhaseHP10",
           "expandedAreas:VenomousHide",
           "expandedAreas:StunImmunity",
           "expandedAreas:MeleeImmunity",
-          "expandedAreas:MagicVulnerability"
+          "expandedAreas:MagicVulnerability10"
         ],
         "selectedSpell": "melvorD:WindStrike",
         "specialAttacks": [
-          "expandedAreas:CobralingsSummon",
-          "expandedAreas:ToxicClouds",
-          "expandedAreas:BarbedProjectile"
+          "expandedAreas:ToxicClouds"
+        ],
+        "overrideSpecialChances": [
+          100
         ],
         "bones": {
-          "itemID": "expandedAreas:Kuulbra_Scales",
-          "quantity": 25
+          "itemID": "expandedAreas:Serpentine_Scales",
+          "quantity": 267
+        }
+      },
+      {
+        "attackType": "melee",
+        "canSlayer": false,
+        "isBoss": true,
+        "currencyDrops": [],
+        "id": "Zulrah_Phase_Two",
+        "levels": {
+          "Attack": 300,
+          "Strength": 300,
+          "Defence": 300,
+          "Hitpoints": 1820,
+          "Ranged": 300,
+          "Magic": 300
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 1800
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": -100
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 100
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 100
+          },
+          {
+            "key": "damageReduction",
+            "value": 10
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 20
+          }
+        ],
+        "lootChance": 0,
+        "lootTable": [],
+        "name": "Zulrah (Phase Two)",
+        "media": "assets/monsters/Zulrah_Magma.png",
+        "ignoreCompletion": false,
+        "passives": [
+          "expandedAreas:PhaseHP10",
+          "expandedAreas:VenomousHide",
+          "expandedAreas:StunImmunity"
+        ],
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 80,
+            "condition": {
+              "character": "Enemy",
+              "targetAttackType": "melee",
+              "thisAttackType": "melee",
+              "type": "CombatType"
+            },
+            "effectID": "melvorD:Stun",
+            "initialParams": [
+              {
+                "name": "turns",
+                "value": 2
+              }
+            ],
+            "customDescription": "80% Chance to Stun for 2 turns on Hit if target is using Melee."
+          }
+        ],
+        "selectedSpell": "melvorD:WindStrike",
+        "specialAttacks": [
+          "expandedAreas:BarbedTailWhip"
+        ],
+        "bones": {
+          "itemID": "expandedAreas:Magmatic_Scales",
+          "quantity": 270
         }
       },
       {
@@ -12758,14 +12884,14 @@
         "canSlayer": false,
         "isBoss": true,
         "currencyDrops": [],
-        "id": "Kuulbra_Magic",
+        "id": "Zulrah_Phase_Three",
         "levels": {
-          "Attack": 500,
-          "Strength": 500,
-          "Defence": 500,
-          "Hitpoints": 1500,
+          "Attack": 300,
+          "Strength": 300,
+          "Defence": 300,
+          "Hitpoints": 1820,
           "Ranged": 300,
-          "Magic": 600
+          "Magic": 300
         },
         "equipmentStats": [
           {
@@ -12787,25 +12913,86 @@
         ],
         "lootChance": 0,
         "lootTable": [],
-        "name": "Kuulbra (Phase Two)",
-        "media": "assets/monsters/Kuulbra_Magic.png",
+        "name": "Zulrah (Phase Three)",
+        "media": "assets/monsters/Zulrah_Tanzanite.png",
         "ignoreCompletion": false,
         "passives": [
-          "expandedAreas:PhaseHP33",
+          "expandedAreas:PhaseHP10",
           "expandedAreas:VenomousHide",
           "expandedAreas:StunImmunity",
           "expandedAreas:MeleeImmunity",
-          "expandedAreas:RangedVulnerability"
+          "expandedAreas:RangedVulnerability10"
         ],
         "selectedSpell": "expandedAreas:Fire_Storm",
         "specialAttacks": [
-          "expandedAreas:CobralingsSummon",
-          "expandedAreas:ToxicClouds",
           "expandedAreas:BarbedProjectile"
         ],
+        "overrideSpecialChances": [
+          50
+        ],
         "bones": {
-          "itemID": "expandedAreas:Kuulbra_Scales",
-          "quantity": 25
+          "itemID": "expandedAreas:Tanzanite_Scales",
+          "quantity": 225
+        }
+      },
+      {
+        "attackType": "ranged",
+        "canSlayer": false,
+        "isBoss": true,
+        "currencyDrops": [],
+        "id": "Zulrah_Phase_Four",
+        "levels": {
+          "Attack": 300,
+          "Strength": 300,
+          "Defence": 300,
+          "Hitpoints": 1820,
+          "Ranged": 300,
+          "Magic": 300
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 1800
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": -100
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 50
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 20
+          }
+        ],
+        "lootChance": 0,
+        "lootTable": [],
+        "name": "Zulrah (Phase Four)",
+        "media": "assets/monsters/Zulrah_Serpentine.png",
+        "ignoreCompletion": false,
+        "passives": [
+          "expandedAreas:PhaseHP10",
+          "expandedAreas:VenomousHide",
+          "expandedAreas:StunImmunity",
+          "expandedAreas:MeleeImmunity",
+          "expandedAreas:MagicVulnerability10"
+        ],
+        "selectedSpell": "melvorD:WindStrike",
+        "specialAttacks": [
+          "expandedAreas:ToxicClouds",
+          "expandedAreas:SummonCobralings",
+          "expandedAreas:BarbedProjectile"
+        ],
+        "overrideSpecialChances": [
+          20,
+          35,
+          25
+        ],
+        "bones": {
+          "itemID": "expandedAreas:Serpentine_Scales",
+          "quantity": 278
         }
       },
       {
@@ -12813,23 +13000,23 @@
         "canSlayer": false,
         "isBoss": true,
         "currencyDrops": [],
-        "id": "Kuulbra_Melee",
+        "id": "Zulrah_Phase_Five",
         "levels": {
-          "Attack": 500,
-          "Strength": 500,
-          "Defence": 500,
-          "Hitpoints": 1500,
-          "Ranged": 500,
+          "Attack": 300,
+          "Strength": 300,
+          "Defence": 300,
+          "Hitpoints": 1820,
+          "Ranged": 300,
           "Magic": 300
         },
         "equipmentStats": [
           {
             "key": "attackSpeed",
-            "value": 2200
+            "value": 1800
           },
           {
             "key": "magicDefenceBonus",
-            "value": -50
+            "value": -100
           },
           {
             "key": "meleeDefenceBonus",
@@ -12840,29 +13027,360 @@
             "value": 100
           },
           {
+            "key": "damageReduction",
+            "value": 10
+          },
+          {
             "key": "meleeStrengthBonus",
             "value": 20
           }
         ],
         "lootChance": 0,
         "lootTable": [],
-        "name": "Kuulbra (Final Phase)",
-        "media": "assets/monsters/Kuulbra_Melee.png",
+        "name": "Zulrah (Phase Five)",
+        "media": "assets/monsters/Zulrah_Magma.png",
         "ignoreCompletion": false,
         "passives": [
-          "expandedAreas:PhaseHP33",
+          "expandedAreas:PhaseHP10",
           "expandedAreas:VenomousHide",
           "expandedAreas:StunImmunity"
         ],
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 80,
+            "condition": {
+              "character": "Enemy",
+              "targetAttackType": "melee",
+              "thisAttackType": "melee",
+              "type": "CombatType"
+            },
+            "effectID": "melvorD:Stun",
+            "initialParams": [
+              {
+                "name": "turns",
+                "value": 2
+              }
+            ],
+            "customDescription": "80% Chance to Stun for 2 turns on Hit if target is using Melee."
+          }
+        ],
         "selectedSpell": "melvorD:WindStrike",
         "specialAttacks": [
-          "expandedAreas:CobralingsSummon",
-          "expandedAreas:ToxicClouds",
           "expandedAreas:BarbedTailWhip"
         ],
         "bones": {
-          "itemID": "expandedAreas:Kuulbra_Scales",
-          "quantity": 25
+          "itemID": "expandedAreas:Magmatic_Scales",
+          "quantity": 141
+        }
+      },
+      {
+        "attackType": "magic",
+        "canSlayer": false,
+        "isBoss": true,
+        "currencyDrops": [],
+        "id": "Zulrah_Phase_Six",
+        "levels": {
+          "Attack": 300,
+          "Strength": 300,
+          "Defence": 300,
+          "Hitpoints": 1820,
+          "Ranged": 300,
+          "Magic": 300
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 1800
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": -100
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 50
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 20
+          }
+        ],
+        "lootChance": 0,
+        "lootTable": [],
+        "name": "Zulrah (Phase Six)",
+        "media": "assets/monsters/Zulrah_Tanzanite.png",
+        "ignoreCompletion": false,
+        "passives": [
+          "expandedAreas:PhaseHP10",
+          "expandedAreas:VenomousHide",
+          "expandedAreas:StunImmunity",
+          "expandedAreas:MeleeImmunity",
+          "expandedAreas:RangedVulnerability10"
+        ],
+        "selectedSpell": "expandedAreas:Fire_Storm",
+        "specialAttacks": [
+          "expandedAreas:BarbedProjectile"
+        ],
+        "overrideSpecialChances": [
+          50
+        ],
+        "bones": {
+          "itemID": "expandedAreas:Tanzanite_Scales",
+          "quantity": 144
+        }
+      },
+      {
+        "attackType": "ranged",
+        "canSlayer": false,
+        "isBoss": true,
+        "currencyDrops": [],
+        "id": "Zulrah_Phase_Seven",
+        "levels": {
+          "Attack": 300,
+          "Strength": 300,
+          "Defence": 300,
+          "Hitpoints": 1820,
+          "Ranged": 300,
+          "Magic": 300
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 1800
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": -100
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 50
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 20
+          }
+        ],
+        "lootChance": 0,
+        "lootTable": [],
+        "name": "Zulrah (Phase Seven)",
+        "media": "assets/monsters/Zulrah_Serpentine.png",
+        "ignoreCompletion": false,
+        "passives": [
+          "expandedAreas:PhaseHP10",
+          "expandedAreas:VenomousHide",
+          "expandedAreas:StunImmunity",
+          "expandedAreas:MeleeImmunity",
+          "expandedAreas:MagicVulnerability10"
+        ],
+        "selectedSpell": "melvorD:WindStrike",
+        "specialAttacks": [
+          "expandedAreas:ToxicClouds",
+          "expandedAreas:SummonCobralings"
+        ],
+        "overrideSpecialChances": [
+          43,
+          57
+        ],
+        "bones": {
+          "itemID": "expandedAreas:Serpentine_Scales",
+          "quantity": 236
+        }
+      },
+      {
+        "attackType": "magic",
+        "canSlayer": false,
+        "isBoss": true,
+        "currencyDrops": [],
+        "id": "Zulrah_Phase_Eight",
+        "levels": {
+          "Attack": 300,
+          "Strength": 300,
+          "Defence": 300,
+          "Hitpoints": 1820,
+          "Ranged": 300,
+          "Magic": 300
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 1800
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": -100
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 50
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 20
+          }
+        ],
+        "lootChance": 0,
+        "lootTable": [],
+        "name": "Zulrah (Phase Eight)",
+        "media": "assets/monsters/Zulrah_Tanzanite.png",
+        "ignoreCompletion": false,
+        "passives": [
+          "expandedAreas:PhaseHP10",
+          "expandedAreas:VenomousHide",
+          "expandedAreas:StunImmunity",
+          "expandedAreas:MeleeImmunity",
+          "expandedAreas:RangedVulnerability10"
+        ],
+        "selectedSpell": "expandedAreas:Fire_Storm",
+        "specialAttacks": [
+          "expandedAreas:BarbedProjectile",
+          "expandedAreas:ToxicClouds",
+          "expandedAreas:SummonCobralings"
+        ],
+        "overrideSpecialChances": [
+          25,
+          25,
+          25
+        ],
+        "bones": {
+          "itemID": "expandedAreas:Serpentine_Scales",
+          "quantity": 149
+        }
+      },
+      {
+        "attackType": "random",
+        "canSlayer": false,
+        "isBoss": true,
+        "currencyDrops": [],
+        "id": "Zulrah_Phase_Nine",
+        "levels": {
+          "Attack": 300,
+          "Strength": 300,
+          "Defence": 300,
+          "Hitpoints": 1820,
+          "Ranged": 300,
+          "Magic": 300
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 1800
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": -100
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 50
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 20
+          }
+        ],
+        "lootChance": 0,
+        "lootTable": [],
+        "name": "Zulrah (Phase Nine)",
+        "media": "assets/monsters/Zulrah_Tanzanite.png",
+        "ignoreCompletion": false,
+        "passives": [
+          "expandedAreas:PhaseHP10",
+          "expandedAreas:VenomousHide",
+          "expandedAreas:StunImmunity",
+          "expandedAreas:MeleeImmunity",
+          "expandedAreas:MagicVulnerability10"
+        ],
+        "selectedSpell": "melvorD:WindStrike",
+        "specialAttacks": [
+          "expandedAreas:ToxicClouds"
+        ],
+        "overrideSpecialChances": [
+          30
+        ],
+        "bones": {
+          "itemID": "expandedAreas:Serpentine_Scales",
+          "quantity": 282
+        }
+      },
+      {
+        "attackType": "melee",
+        "canSlayer": false,
+        "isBoss": true,
+        "currencyDrops": [],
+        "id": "Zulrah_Phase_Ten",
+        "levels": {
+          "Attack": 300,
+          "Strength": 300,
+          "Defence": 300,
+          "Hitpoints": 1820,
+          "Ranged": 300,
+          "Magic": 300
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 1800
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": -100
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 100
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 100
+          },
+          {
+            "key": "damageReduction",
+            "value": 10
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 20
+          }
+        ],
+        "lootChance": 0,
+        "lootTable": [],
+        "name": "Zulrah (Phase Ten)",
+        "media": "assets/monsters/Zulrah_Magma.png",
+        "ignoreCompletion": false,
+        "passives": [
+          "expandedAreas:PhaseHP10",
+          "expandedAreas:VenomousHide",
+          "expandedAreas:StunImmunity"
+        ],
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 80,
+            "condition": {
+              "character": "Enemy",
+              "targetAttackType": "melee",
+              "thisAttackType": "melee",
+              "type": "CombatType"
+            },
+            "effectID": "melvorD:Stun",
+            "initialParams": [
+              {
+                "name": "turns",
+                "value": 2
+              }
+            ],
+            "customDescription": "80% Chance to Stun for 2 turns on Hit if target is using Melee."
+          }
+        ],
+        "selectedSpell": "melvorD:WindStrike",
+        "specialAttacks": [
+          "expandedAreas:BarbedTailWhip"
+        ],
+        "bones": {
+          "itemID": "expandedAreas:Magmatic_Scales",
+          "quantity": 191
         }
       },
       {
@@ -17171,7 +17689,7 @@
     "dungeons": [
       {
         "difficulty": [
-          5
+          4
         ],
         "dropBones": true,
         "entryRequirements": [
@@ -17185,17 +17703,21 @@
         "id": "Swamp_of_Desolation",
         "media": "assets/dungeons/Swamp_of_Desolation.png",
         "monsterIDs": [
-          "melvorF:NoxiousSerpent",
-          "melvorF:VenomousSnake",
-          "melvorF:GiantMoth",
-          "expandedAreas:Kuulbra_Ranged",
-          "expandedAreas:Kuulbra_Magic",
-          "expandedAreas:Kuulbra_Melee"
+          "expandedAreas:Zulrah_Phase_One",
+          "expandedAreas:Zulrah_Phase_Two",
+          "expandedAreas:Zulrah_Phase_Three",
+          "expandedAreas:Zulrah_Phase_Four",
+          "expandedAreas:Zulrah_Phase_Five",
+          "expandedAreas:Zulrah_Phase_Six",
+          "expandedAreas:Zulrah_Phase_Seven",
+          "expandedAreas:Zulrah_Phase_Eight",
+          "expandedAreas:Zulrah_Phase_Nine",
+          "expandedAreas:Zulrah_Phase_Ten"
         ],
         "name": "Swamp of Desolation",
         "pauseOnBosses": false,
         "rewardItemIDs": [
-          "expandedAreas:Kuulbra_Scales"
+          "expandedAreas:Serpentine_Scales"
         ]
       },
       {

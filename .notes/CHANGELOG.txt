@@ -1,6 +1,6 @@
 New Content:
 Added new Legendary Dungeon, Swamp of Desolation
-Added one new three-phase boss, Kuulbra
+Added one new multi-phase boss, Kuulbra
 
 Balance Changes:
 None
