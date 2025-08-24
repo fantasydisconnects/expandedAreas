@@ -2,34 +2,139 @@
     "$schema": "https://melvoridle.com/assets/schema/gameData.json",
     "namespace": "expandedAreas",
     "data": {
+        "attacks": [
+            {
+                "id": "ToxicSiphon",
+                "defaultChance": 50,
+                "damage": [
+                    {
+                        "damageType": "Custom",
+                        "character": "Attacker",
+                        "maxRoll": "MaxHit",
+                        "maxPercent": 150,
+                        "minRoll": "MinHit",
+                        "minPercent": 150,
+                        "roll": true
+                    }
+                ],
+                "prehitEffects": [],
+                "onhitEffects": [
+                    {
+                        "effectID": "melvorD:DeadlyPoison",
+                        "chance": 25
+                    }
+                ],
+                "cantMiss": false,
+                "attackCount": 1,
+                "attackInterval": 50,
+                "lifesteal": 50,
+                "name": "Toxic Siphon",
+                "description": "Perform an attack that deals between ${attackDamageMinValue0}% ${attackDamageMaxValue0}% of your normal damage. On a hit, heals for ${lifesteal}% of damage dealt, and has a ${onHitEffect0chance}% chance to inflict Deadly Poison that deals ${onHitEffect0DamageMaxValue0}% of the enemy's max hitpoints as damage over ${onHitEffect0duration}s.",
+                "descriptionGenerator": "Perform an attack that deals <damage>. On a hit <hitEffect>, and <attacker> <attis> healed for <lifesteal> of damage dealt."
+            },
+            {
+                "id": "Drain",
+                "defaultChance": 60,
+                "damage": [
+                    {
+                        "damageType": "Custom",
+                        "character": "Attacker",
+                        "maxRoll": "Fixed",
+                        "maxPercent": 30,
+                        "roll": false
+                    }
+                ],
+                "prehitEffects": [],
+                "onhitEffects": [],
+                "cantMiss": true,
+                "attackCount": 1,
+                "attackInterval": 50,
+                "lifesteal": 100,
+                "name": "Drain",
+                "description": "Fire an unavoidable attack that deals ${attackDamageMaxValue0} damage. The enemy is healed for ${lifesteal}% of damage dealt.",
+                "descriptionGenerator": "Fire an <avoidable> attack that deals <damage> damage. <Attacker> <attis> healed for <lifesteal> of damage dealt.",
+                "usesRunesPerProc": false
+            }
+        ],
         "items": [
             {
-                "id": "Super_Delicious_Power_Smoothie",
-                "name": "Super Delicious Power Smoothie",
-                "category": "Cooking",
-                "type": "Food",
-                "media": "assets/items/Food/Super_Delicious_Power_Smoothie.png",
-                "customDescription": "+15% Auto Eat Efficiency when at or below 25% Hitpoints.",
+                "id": "Toxic_Quickbow",
+                "name": "Toxic Quickbow",
+                "category": "Combat",
+                "type": "Ranged Weapon",
+                "media": "assets/items/Weapon/Toxic_Quickbow.png",
                 "ignoreCompletion": false,
                 "obtainFromItemLog": false,
                 "golbinRaidExclusive": false,
-                "sellsFor": 1500,
-                "itemType": "Food",
-                "healsFor": 28,
+                "sellsFor": 120000,
+                "tier": "none",
+                "validSlots": [
+                    "Weapon"
+                ],
+                "occupiesSlots": [
+                    "Shield"
+                ],
+                "equipRequirements": [
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Ranged",
+                        "level": 75
+                    }
+                ],
+                "equipmentStats": [
+                    {
+                        "key": "attackSpeed",
+                        "value": 1800
+                    },
+                    {
+                        "key": "rangedAttackBonus",
+                        "value": 5
+                    },
+                    {
+                        "key": "rangedStrengthBonus",
+                        "value": 5
+                    }
+                ],
+                "specialAttacks": [
+                    "expandedAreas:ToxicSiphon"
+                ],
+                "consumesItemOn": {
+                    "itemID": "expandedAreas:Serpentine_Scales",
+                    "chance": 75,
+                    "matchers": [
+                        {
+                            "type": "PlayerAttack",
+                            "attackTypes": [
+                                "ranged"
+                            ]
+                        }
+                    ]
+                },
                 "conditionalModifiers": [
                     {
-                        "description": "+15% Auto Eat Efficiency when at or below 25% Hitpoints.",
                         "condition": {
-                            "character": "Player",
-                            "type": "Hitpoints",
-                            "operator": "<=",
-                            "value": 25
+                            "type": "BankItem",
+                            "itemID": "expandedAreas:Serpentine_Scales",
+                            "value": 0,
+                            "operator": ">"
                         },
                         "modifiers": {
-                            "autoEatEfficiency": 15
+                            "poisonLifesteal": 10,
+                            "rangedStrengthBonus": 20,
+                            "flatRangedAttackBonus": 30
                         }
                     }
-                ]
+                ],
+                "combatEffects": [
+                    {
+                        "appliesWhen": "HitWithAttack",
+                        "chance": 25,
+                        "effectID": "melvorD:DeadlyPoison"
+                    }
+                ],
+                "itemType": "Weapon",
+                "attackType": "ranged",
+                "ammoTypeRequired": "Arrows"
             }
         ]
     },

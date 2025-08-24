@@ -11865,7 +11865,7 @@
             "character": "Attacker",
             "roll": false,
             "maxRoll": "Fixed",
-            "maxPercent": 75
+            "maxPercent": 100
           }
         ],
         "prehitEffects": [],
@@ -11889,7 +11889,7 @@
         "attackInterval": 50,
         "lifesteal": 0,
         "name": "Barbed Tail Whip",
-        "description": "The enemy's barbed tail whips at you, dealing ${attackDamageMaxValue0} damage (Unavoidable). On a hit, {onHitEffect0chance}% chance to inflict Stun for ${onHitEffect0turns} turns. If you are already stunned, perform a regular attack instead.",
+        "description": "The enemy's barbed tail whips at you, dealing ${attackDamageMaxValue0} damage (Unavoidable). On a hit, ${onHitEffect0chance}% chance to inflict Stun for ${onHitEffect0turns} turns. If you are already stunned, perform a regular attack instead.",
         "descriptionGenerator": "<AttPos> barbed tail whips at <target>, dealing <damage> damage (<Avoidable>) and <hitEffect>. If <target> <taris> already stunned, perform a regular attack instead.",
         "usesRunesPerProc": false
       },
@@ -11902,7 +11902,7 @@
             "character": "Attacker",
             "roll": false,
             "maxRoll": "Fixed",
-            "maxPercent": 65
+            "maxPercent": 80
           }
         ],
         "prehitEffects": [],
@@ -11916,8 +11916,8 @@
         "attackCount": 3,
         "attackInterval": 300,
         "lifesteal": 0,
-        "name": "Barbed Projectile",
-        "description": "Rapidly fires ${hitCount} unavoidable barbed projectiles dealing ${attackDamageMaxValue0} each. Each hit has a ${onHitEffect0Chance}% chance to inflict Deadly Poison that deals ${onHitEffect0DamageMaxValue0}% of your max hitpoints as damage over ${onHitEffect0duration}s.",
+        "name": "Barbed Projectiles",
+        "description": "Rapidly fires ${hitCount} unavoidable barbed projectiles dealing ${attackDamageMaxValue0} each. Each hit has a ${onHitEffect0chance}% chance to inflict Deadly Poison that deals ${onHitEffect0DamageMaxValue0}% of your max hitpoints as damage over ${onHitEffect0duration}s.",
         "descriptionGenerator": "Rapidly fires <count> barbed projectiles dealing <damage> (<Avoidable>). On hit, <hitEffect>."
       },
       {
@@ -11977,14 +11977,14 @@
         "onhitEffects": [
           {
             "effectID": "melvorD:DeadlyPoison",
-            "chance": 50
+            "chance": 20
           }
         ],
         "cantMiss": false,
         "attackCount": 12,
         "attackInterval": 50,
         "lifesteal": 0,
-        "description": "The enemy makes a normal attack, dealing up to ${attackDamageMaxValue0}% of its normal damage and and summons {hitCount} cobralings, each dealing between ${attackDamageMinValue1}-${attackDamageMaxValue1}x${hitCount} damage over ${duration}s. On a hit, the cobralings have a ${onHitEffect0Chance}% to inflict Deadly Poison that deals ${onHitEffect0DamageMaxValue0}% of your max hitpoints as damage over ${onHitEffect0duration}s."
+        "description": "The enemy makes a normal attack, dealing up to ${attackDamageMaxValue0}% of its normal damage (can miss), then summons ${hitCount} cobralings, each dealing between ${attackDamageMinValue1}-${attackDamageMaxValue1}x${hitCount} damage over ${duration}s. On a hit, the cobralings have a ${onHitEffect0chance}% to inflict Deadly Poison that deals ${onHitEffect0DamageMaxValue0}% of your max hitpoints as damage over ${onHitEffect0duration}s."
       },
       {
         "id": "Heavy_Shot",
@@ -12669,10 +12669,11 @@
     ],
     "combatPassives": [
       {
-        "id": "PhaseHP10",
-        "name": "Phase HP 10%",
+        "id": "PhaseHPFlatNeg1770",
+        "name": "Phase HP -450",
+        "customDescription": "Each phase of this boss is limited to 10% of its total maximum hitpoints.",
         "modifiers": {
-          "maxHitpoints": -90
+          "flatMaxHitpoints": -1770
         }
       },
       {
@@ -12782,7 +12783,7 @@
         "media": "assets/monsters/Zulrah_Serpentine.png",
         "ignoreCompletion": false,
         "passives": [
-          "expandedAreas:PhaseHP10",
+          "expandedAreas:PhaseHPFlatNeg1770",
           "expandedAreas:VenomousHide",
           "expandedAreas:StunImmunity",
           "expandedAreas:MeleeImmunity",
@@ -12797,7 +12798,7 @@
         ],
         "bones": {
           "itemID": "expandedAreas:Serpentine_Scales",
-          "quantity": 267
+          "quantity": 26
         }
       },
       {
@@ -12846,7 +12847,7 @@
         "media": "assets/monsters/Zulrah_Magma.png",
         "ignoreCompletion": false,
         "passives": [
-          "expandedAreas:PhaseHP10",
+          "expandedAreas:PhaseHPFlatNeg1770",
           "expandedAreas:VenomousHide",
           "expandedAreas:StunImmunity"
         ],
@@ -12876,7 +12877,7 @@
         ],
         "bones": {
           "itemID": "expandedAreas:Magmatic_Scales",
-          "quantity": 270
+          "quantity": 27
         }
       },
       {
@@ -12917,7 +12918,7 @@
         "media": "assets/monsters/Zulrah_Tanzanite.png",
         "ignoreCompletion": false,
         "passives": [
-          "expandedAreas:PhaseHP10",
+          "expandedAreas:PhaseHPFlatNeg1770",
           "expandedAreas:VenomousHide",
           "expandedAreas:StunImmunity",
           "expandedAreas:MeleeImmunity",
@@ -12932,7 +12933,7 @@
         ],
         "bones": {
           "itemID": "expandedAreas:Tanzanite_Scales",
-          "quantity": 225
+          "quantity": 22
         }
       },
       {
@@ -12973,7 +12974,7 @@
         "media": "assets/monsters/Zulrah_Serpentine.png",
         "ignoreCompletion": false,
         "passives": [
-          "expandedAreas:PhaseHP10",
+          "expandedAreas:PhaseHPFlatNeg1770",
           "expandedAreas:VenomousHide",
           "expandedAreas:StunImmunity",
           "expandedAreas:MeleeImmunity",
@@ -12992,7 +12993,7 @@
         ],
         "bones": {
           "itemID": "expandedAreas:Serpentine_Scales",
-          "quantity": 278
+          "quantity": 27
         }
       },
       {
@@ -13041,7 +13042,7 @@
         "media": "assets/monsters/Zulrah_Magma.png",
         "ignoreCompletion": false,
         "passives": [
-          "expandedAreas:PhaseHP10",
+          "expandedAreas:PhaseHPFlatNeg1770",
           "expandedAreas:VenomousHide",
           "expandedAreas:StunImmunity"
         ],
@@ -13071,7 +13072,7 @@
         ],
         "bones": {
           "itemID": "expandedAreas:Magmatic_Scales",
-          "quantity": 141
+          "quantity": 14
         }
       },
       {
@@ -13112,7 +13113,7 @@
         "media": "assets/monsters/Zulrah_Tanzanite.png",
         "ignoreCompletion": false,
         "passives": [
-          "expandedAreas:PhaseHP10",
+          "expandedAreas:PhaseHPFlatNeg1770",
           "expandedAreas:VenomousHide",
           "expandedAreas:StunImmunity",
           "expandedAreas:MeleeImmunity",
@@ -13127,7 +13128,7 @@
         ],
         "bones": {
           "itemID": "expandedAreas:Tanzanite_Scales",
-          "quantity": 144
+          "quantity": 14
         }
       },
       {
@@ -13168,7 +13169,7 @@
         "media": "assets/monsters/Zulrah_Serpentine.png",
         "ignoreCompletion": false,
         "passives": [
-          "expandedAreas:PhaseHP10",
+          "expandedAreas:PhaseHPFlatNeg1770",
           "expandedAreas:VenomousHide",
           "expandedAreas:StunImmunity",
           "expandedAreas:MeleeImmunity",
@@ -13185,7 +13186,7 @@
         ],
         "bones": {
           "itemID": "expandedAreas:Serpentine_Scales",
-          "quantity": 236
+          "quantity": 23
         }
       },
       {
@@ -13226,7 +13227,7 @@
         "media": "assets/monsters/Zulrah_Tanzanite.png",
         "ignoreCompletion": false,
         "passives": [
-          "expandedAreas:PhaseHP10",
+          "expandedAreas:PhaseHPFlatNeg1770",
           "expandedAreas:VenomousHide",
           "expandedAreas:StunImmunity",
           "expandedAreas:MeleeImmunity",
@@ -13245,7 +13246,7 @@
         ],
         "bones": {
           "itemID": "expandedAreas:Serpentine_Scales",
-          "quantity": 149
+          "quantity": 14
         }
       },
       {
@@ -13286,7 +13287,7 @@
         "media": "assets/monsters/Zulrah_Tanzanite.png",
         "ignoreCompletion": false,
         "passives": [
-          "expandedAreas:PhaseHP10",
+          "expandedAreas:PhaseHPFlatNeg1770",
           "expandedAreas:VenomousHide",
           "expandedAreas:StunImmunity",
           "expandedAreas:MeleeImmunity",
@@ -13301,7 +13302,7 @@
         ],
         "bones": {
           "itemID": "expandedAreas:Serpentine_Scales",
-          "quantity": 282
+          "quantity": 28
         }
       },
       {
@@ -13350,7 +13351,7 @@
         "media": "assets/monsters/Zulrah_Magma.png",
         "ignoreCompletion": false,
         "passives": [
-          "expandedAreas:PhaseHP10",
+          "expandedAreas:PhaseHPFlatNeg1770",
           "expandedAreas:VenomousHide",
           "expandedAreas:StunImmunity"
         ],
@@ -13380,7 +13381,7 @@
         ],
         "bones": {
           "itemID": "expandedAreas:Magmatic_Scales",
-          "quantity": 191
+          "quantity": 19
         }
       },
       {
