@@ -86,6 +86,716 @@
         "sellsFor": 200
       },
       {
+        "itemType": "Item",
+        "id": "Zulrahs_Head_Magma",
+        "name": "Zulrah's Head (Magma)",
+        "category": "Fletching",
+        "type": "Fang",
+        "media": "assets/items/Item/Zulrahs_Head_Magma.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50000
+      },
+      {
+        "itemType": "Item",
+        "id": "Zulrahs_Head_Tanzanite",
+        "name": "Zulrah's Head (Tanzanite)",
+        "category": "Fletching",
+        "type": "Fang",
+        "media": "assets/items/Item/Zulrahs_Head_Tanzanite.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50000
+      },
+      {
+        "itemType": "Item",
+        "id": "Zulrahs_Head_Serpentine",
+        "name": "Zulrah's Head (Serpentine)",
+        "category": "Fletching",
+        "type": "Fang",
+        "media": "assets/items/Item/Zulrahs_Head_Serpentine.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50000
+      },
+      {
+        "itemType": "Item",
+        "id": "Magmatic_Fang",
+        "name": "Magmatic Fang",
+        "category": "Fletching",
+        "type": "Fang",
+        "media": "assets/items/Item/Magmatic_Fang.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50000
+      },
+      {
+        "itemType": "Item",
+        "id": "Tanzanite_Fang",
+        "name": "Tanzanite Fang",
+        "category": "Fletching",
+        "type": "Fang",
+        "media": "assets/items/Item/Tanzanite_Fang.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50000
+      },
+      {
+        "itemType": "Item",
+        "id": "Serpentine_Fang",
+        "name": "Serpentine Fang",
+        "category": "Fletching",
+        "type": "Fang",
+        "media": "assets/items/Item/Serpentine_Fang.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50000
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Magmatic_Helmet",
+        "name": "Magmatic Helmet",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/Equipment/Magmatic_Helmet.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1398,
+        "tier": "ancient",
+        "validSlots": [
+          "Helmet"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Defence",
+            "level": 75
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": -2
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -6
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 45
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 46
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": -1
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Tanzanite_Helmet",
+        "name": "Tanzanite Helmet",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/Equipment/Tanzanite_Helmet.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1398,
+        "tier": "ancient",
+        "validSlots": [
+          "Helmet"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Defence",
+            "level": 75
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": -2
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -6
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 45
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 46
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": -1
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Serpentine_Helmet",
+        "name": "Serpentine Helmet",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/Equipment/Serpentine_Helmet.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1398,
+        "tier": "ancient",
+        "validSlots": [
+          "Helmet"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Defence",
+            "level": 75
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": -2
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -6
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 45
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 46
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": -1
+          }
+        ]
+      },
+      {
+        "id": "Toxic_Quickbow",
+        "name": "Toxic Quickbow",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "assets/items/Weapon/Toxic_Quickbow.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 120000,
+        "tier": "none",
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Shield"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 75
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 15
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 20
+          }
+        ],
+        "specialAttacks": [
+          "expandedAreas:ToxicSiphon"
+        ],
+        "consumesItemOn": {
+          "itemID": "expandedAreas:Serpentine_Scales",
+          "chance": 100,
+          "matchers": [
+            {
+              "type": "PlayerAttack",
+              "attackTypes": [
+                "ranged"
+              ]
+            }
+          ]
+        },
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "type": "BankItem",
+              "itemID": "expandedAreas:Serpentine_Scales",
+              "value": 1000,
+              "operator": ">="
+            },
+            "modifiers": {
+              "poisonLifesteal": 10,
+              "rangedStrengthBonus": 20,
+              "flatRangedAttackBonus": 15,
+              "flatAttackInterval": -200
+            }
+          }
+        ],
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 25,
+            "effectID": "melvorD:DeadlyPoison"
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Wand_of_the_Swamp",
+        "name": "Wand of the Swamp",
+        "category": "Combat",
+        "type": "Magic Wand",
+        "media": "assets/items/Weapon/Wand_of_the_Swamp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 200000,
+        "tier": "dragon",
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 75
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 35
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 15
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 22
+          }
+        ],
+        "modifiers": {},
+        "specialAttacks": [
+          "expandedAreas:SwampSludge"
+        ],
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "type": "BankItem",
+              "itemID": "expandedAreas:Tanzanite_Scales",
+              "value": 1000,
+              "operator": ">="
+            },
+            "modifiers": {}
+          }
+        ],
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 25,
+            "effectID": "melvorD:DeadlyPoison"
+          }
+        ],
+        "providedRunes": [
+          {
+            "id": "melvorD:Earth_Rune",
+            "quantity": 5
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "magic"
+      },
+      {
+        "id": "Magmatic_Fangblade",
+        "name": "Magmatic Fangblade",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/items/Weapon/Magmatic_Fangblade.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 160000,
+        "tier": "none",
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 75
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2200
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 30
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 15
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 30
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 30
+          }
+        ],
+        "specialAttacks": [
+          "expandedAreas:Bloodboil"
+        ],
+        "combatEffects": [
+          {
+            "appliesWhen": "HitWithAttack",
+            "chance": 25,
+            "effectID": "melvorD:DeadlyPoison"
+          }
+        ],
+        "consumesItemOn": {
+          "itemID": "expandedAreas:Magmatic_Scales",
+          "chance": 100,
+          "matchers": [
+            {
+              "type": "PlayerAttack",
+              "attackTypes": [
+                "melee"
+              ]
+            }
+          ]
+        },
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "type": "BankItem",
+              "itemID": "expandedAreas:Magmatic_Scales",
+              "value": 1000,
+              "operator": ">="
+            },
+            "modifiers": {
+              "meleeAccuracyRating": 20,
+              "meleeCritChance": 5,
+              "critMultiplier": 10,
+              "flatStabAttackBonus": 20,
+              "flatSlashAttackBonus": 10,
+              "flatBlockAttackBonus": 20,
+              "flatMeleeStrengthBonus": 20,
+              "flatAttackInterval": -200
+            }
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Toxic_Hoard",
+        "name": "Toxic Hoard",
+        "category": "Openable",
+        "type": "Chest",
+        "media": "assets/items/Openable/Toxic_Hoard.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1500,
+        "itemType": "Openable",
+        "dropTable": [
+          {
+            "itemID": "melvorD:Bowstring",
+            "minQuantity": 1000,
+            "maxQuantity": 1000,
+            "weight": 500
+          },
+          {
+            "itemID": "melvorD:Earth_Battlestaff",
+            "minQuantity": 10,
+            "maxQuantity": 10,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Dragon_Helmet",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 20
+          },
+          {
+            "itemID": "melvorD:Dragon_2H_Sword",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 10
+          },
+          {
+            "itemID": "melvorD:Death_Rune",
+            "minQuantity": 250,
+            "maxQuantity": 250,
+            "weight": 4
+          },
+          {
+            "itemID": "melvorD:Blood_Rune",
+            "minQuantity": 200,
+            "maxQuantity": 200,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorD:Chaos_Rune",
+            "minQuantity": 400,
+            "maxQuantity": 400,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorD:Oxilyme_Herb",
+            "minQuantity": 30,
+            "maxQuantity": 30,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorF:Pigtayle_Herb",
+            "minQuantity": 20,
+            "maxQuantity": 20,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorF:Poraxx_Herb",
+            "minQuantity": 10,
+            "maxQuantity": 10,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorF:Barrentoe_Herb",
+            "minQuantity": 10,
+            "maxQuantity": 10,
+            "weight": 2
+          },
+          {
+            "itemID": "expandedAreas:Palm_Tree_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 2
+          },
+          {
+            "itemID": "expandedAreas:Papaya_Tree_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 2
+          },
+          {
+            "itemID": "expandedAreas:Curry_Tree_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorD:Magic_Tree_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorF:Poraxx_Seed",
+            "minQuantity": 2,
+            "maxQuantity": 2,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorF:Pigtayle_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorD:Oxilyme_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorF:Barrentoe_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorD:Runite_Ore",
+            "minQuantity": 2,
+            "maxQuantity": 2,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorD:Rune_Essence",
+            "minQuantity": 1500,
+            "maxQuantity": 1500,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorF:Barrentoe_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorD:Yew_Logs",
+            "minQuantity": 35,
+            "maxQuantity": 35,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorD:Adamantite_Bar",
+            "minQuantity": 20,
+            "maxQuantity": 20,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorD:Coal_Ore",
+            "minQuantity": 200,
+            "maxQuantity": 200,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorD:Dragon_Bones",
+            "minQuantity": 12,
+            "maxQuantity": 12,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorD:Mahogany_Logs",
+            "minQuantity": 50,
+            "maxQuantity": 50,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorD:Raw_Shark",
+            "minQuantity": 35,
+            "maxQuantity": 35,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorD:Manta_Ray",
+            "minQuantity": 35,
+            "maxQuantity": 35,
+            "weight": 2
+          },
+          {
+            "itemID": "expandedAreas:Coconut",
+            "minQuantity": 20,
+            "maxQuantity": 20,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorF:Diamond_Bolts",
+            "minQuantity": 12,
+            "maxQuantity": 12,
+            "weight": 2
+          },
+          {
+            "itemID": "melvorD:Cherry",
+            "minQuantity": 250,
+            "maxQuantity": 250,
+            "weight": 2
+          },
+          {
+            "itemID": "expandedAreas:Serpentine_Scales",
+            "minQuantity": 500,
+            "maxQuantity": 500,
+            "weight": 2
+          },
+          {
+            "itemID": "expandedAreas:Magmatic_Scales",
+            "minQuantity": 500,
+            "maxQuantity": 500,
+            "weight": 2
+          },
+          {
+            "itemID": "expandedAreas:Tanzanite_Scales",
+            "minQuantity": 500,
+            "maxQuantity": 500,
+            "weight": 2
+          },
+          {
+            "itemID": "expandedAreas:Tanzanite_Fang",
+            "minQuantity": 20,
+            "maxQuantity": 20,
+            "weight": 2
+          },
+          {
+            "itemID": "expandedAreas:Magmatic_Fang",
+            "minQuantity": 20,
+            "maxQuantity": 20,
+            "weight": 2
+          },
+          {
+            "itemID": "expandedAreas:Serpentine_Fang",
+            "minQuantity": 20,
+            "maxQuantity": 20,
+            "weight": 2
+          },
+          {
+            "itemID": "expandedAreas:Zulrahs_Head_Tanzanite",
+            "minQuantity": 20,
+            "maxQuantity": 20,
+            "weight": 2
+          },
+          {
+            "itemID": "expandedAreas:Zulrahs_Head_Magma",
+            "minQuantity": 20,
+            "maxQuantity": 20,
+            "weight": 2
+          },
+          {
+            "itemID": "expandedAreas:Zulrahs_Head_Serpentine",
+            "minQuantity": 20,
+            "maxQuantity": 20,
+            "weight": 2
+          }
+        ]
+      },
+      {
         "itemType": "Equipment",
         "id": "Bronze_Javelin_Ammo",
         "name": "Bronze Javelin (Ammo)",
@@ -11855,6 +12565,100 @@
       }
     ],
     "attacks": [
+      {
+        "id": "SwampSludge",
+        "defaultChance": 100,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 100
+          },
+          {
+            "damageType": "Custom",
+            "roll": false,
+            "maxRoll": "MagicScaling",
+            "maxPercent": 33,
+            "character": "Attacker"
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "name": "Swamp Sludge",
+        "description": "Perform an avoidable normal attack. Deals your normal damage + ${attackDamageMaxValue1}% of your Magic level.",
+        "descriptionGenerator": "Make an <avoidable> normal attack, dealing your normal damage + <damage>. Consumes Runes per hit.",
+        "usesRunesPerProc": true
+      },
+      {
+        "id": "Bloodboil",
+        "defaultChance": 50,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Attacker",
+            "maxRoll": "PoisonMax35",
+            "maxPercent": 115,
+            "minRoll": "PoisonMin35",
+            "minPercent": 115,
+            "roll": true
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectID": "melvorD:Burn",
+            "chance": 30
+          },
+          {
+            "effectID": "melvorD:DeadlyPoison",
+            "condition": {
+              "effectID": "melvorD:Burn",
+              "character": "Enemy",
+              "type": "CombatEffect"
+            },
+            "chance": 30
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "name": "Bloodboil",
+        "description": "Perform an attack that deals ${attackDamageMaxValue0}% (150% if the enemy is poisoned) of your normal damage. On a hit has a ${onHitEffect0chance}% chance to inflict Burn that deals ${onHitEffect0DamageMaxValue0}% of the enemy's max hitpoints as damage over ${onHitEffect0duration}s. If the enemy is Burning, has a ${onHitEffect1chance}% chance to inflict Deadly Poison that deals ${onHitEffect1DamageMaxValue1}% of the enemyh's max hit points as damage over ${onHitEffect1duration}s.",
+        "descriptionGenerator": "Perform an attack that deals <damage>. On a hit <hitEffect>."
+      },
+      {
+        "id": "ToxicSiphon",
+        "defaultChance": 50,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Attacker",
+            "maxRoll": "MaxHit",
+            "maxPercent": 150,
+            "minRoll": "MinHit",
+            "minPercent": 150,
+            "roll": true
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectID": "melvorD:DeadlyPoison",
+            "chance": 25
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 50,
+        "name": "Toxic Siphon",
+        "description": "Perform an attack that deals between ${attackDamageMinValue0}% ${attackDamageMaxValue0}% of your normal damage. On a hit, heals for ${lifesteal}% of damage dealt, and has a ${onHitEffect0chance}% chance to inflict Deadly Poison that deals ${onHitEffect0DamageMaxValue0}% of the enemy's max hitpoints as damage over ${onHitEffect0duration}s.",
+        "descriptionGenerator": "Perform an attack that deals <damage>. On a hit <hitEffect>, and <attacker> <attis> healed for <lifesteal> of damage dealt."
+      },
       {
         "id": "BarbedTailWhip",
         "defaultChance": 40,
