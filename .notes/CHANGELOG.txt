@@ -1,9 +1,17 @@
 New Content:
-Added new Legendary Dungeon, Swamp of Desolation
-Added one new multi-phase boss, Kuulbra
+added ancient dhide cowl and boots and upgraded versions
 
 Balance Changes:
-None
+Fixed magic enemies that had way too high of damage output because of the incorrect spell being selected
+Rebalanced Secluded Monastery enemies
+Rebalanced Alcohol to have 5 charges per normal drink and 10 charges per mature drink
+rebalanced aeris gear
+Removed ancient longbow from elder chest added back to bandit chest
+added heavy hand ballista to spider chest
+change bone drops from monks to 3 eyes to make consumable more consistent
+change rarity of elemental shards from guardian
+
 
 Bug Fixes:
 Fixed Facekicker accidentally giving +% Attack Interval instead of -%
+Fixed (u) d-hide cowl and boots not giving damage reduction

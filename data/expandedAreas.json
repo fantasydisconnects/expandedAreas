@@ -51,6 +51,52 @@
     "items": [
       {
         "itemType": "Equipment",
+        "id": "Earring_of_Protection",
+        "name": "Earring of Protection",
+        "category": "Combat",
+        "type": "Accessory",
+        "media": "assets/items/Equipment/Earring_of_Protection.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 29000,
+        "tier": "none",
+        "validSlots": [
+          "expandedAreas:Accessory1",
+          "expandedAreas:Accessory2"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "damageReduction",
+            "value": 1
+          }
+        ],
+        "modifiers": {},
+        "conditionalModifiers": [
+          {
+            "condition": {
+              "character": "Player",
+              "thisAttackType": "magic",
+              "targetAttackType": "any",
+              "type": "CombatType"
+            },
+            "modifiers": {
+              "flatResistance": [
+                {
+                  "damageTypeID": "melvorD:Normal",
+                  "value": 4
+                }
+              ]
+            }
+          }
+        ],
+        "customDescription": "+1% Damage Reduction. +5% instead if your attack style is Magic.",
+        "isArtefact": false
+      },
+      {
+        "itemType": "Equipment",
         "id": "Bronze_Javelin_Ammo",
         "name": "Bronze Javelin (Ammo)",
         "category": "Combat",
@@ -2037,7 +2083,7 @@
             "targetOverride": "Self"
           }
         ],
-        "charges": 1,
+        "charges": 5,
         "tier": 3,
         "action": "melvorD:Combat",
         "consumesOn": [
@@ -2082,7 +2128,7 @@
             ]
           }
         ],
-        "charges": 1,
+        "charges": 5,
         "tier": 3,
         "action": "melvorD:Combat",
         "consumesOn": [
@@ -2128,7 +2174,7 @@
             }
           ]
         },
-        "charges": 1,
+        "charges": 5,
         "tier": 3,
         "action": "melvorD:Farming",
         "consumesOn": [
@@ -2171,7 +2217,7 @@
             }
           ]
         },
-        "charges": 1,
+        "charges": 5,
         "tier": 3,
         "action": "melvorD:Farming",
         "consumesOn": [
@@ -2211,7 +2257,7 @@
           "bleedLifesteal": 2.5,
           "hitpointRegeneration": -50
         },
-        "charges": 1,
+        "charges": 5,
         "tier": 3,
         "action": "melvorD:Combat",
         "consumesOn": [
@@ -2251,7 +2297,7 @@
           "bleedLifesteal": 3,
           "hitpointRegeneration": -75
         },
-        "charges": 1,
+        "charges": 5,
         "tier": 3,
         "action": "melvorD:Combat",
         "consumesOn": [
@@ -2289,7 +2335,7 @@
             }
           }
         ],
-        "charges": 1,
+        "charges": 5,
         "tier": 3,
         "action": "melvorD:Combat",
         "consumesOn": [
@@ -2347,7 +2393,7 @@
             }
           }
         ],
-        "charges": 1,
+        "charges": 10,
         "tier": 3,
         "action": "melvorD:Combat",
         "consumesOn": [
@@ -2393,7 +2439,7 @@
           "skillXP": -10,
           "attackInterval": -20
         },
-        "charges": 1,
+        "charges": 5,
         "tier": 3,
         "action": "melvorD:Combat",
         "consumesOn": [
@@ -2419,7 +2465,7 @@
           "skillXP": -15,
           "attackInterval": -30
         },
-        "charges": 1,
+        "charges": 5,
         "tier": 3,
         "action": "melvorD:Combat",
         "consumesOn": [
@@ -2439,7 +2485,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "tier": 3,
-        "charges": 1,
+        "charges": 5,
         "action": "melvorD:Thieving",
         "sellsFor": 200,
         "itemType": "Potion",
@@ -2477,7 +2523,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "tier": 3,
-        "charges": 1,
+        "charges": 5,
         "action": "melvorD:Thieving",
         "sellsFor": 400,
         "itemType": "Potion",
@@ -2515,7 +2561,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "tier": 3,
-        "charges": 1,
+        "charges": 5,
         "action": "melvorD:Combat",
         "sellsFor": 400,
         "itemType": "Potion",
@@ -2545,7 +2591,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "tier": 3,
-        "charges": 1,
+        "charges": 5,
         "action": "melvorD:Combat",
         "sellsFor": 800,
         "itemType": "Potion",
@@ -2575,7 +2621,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "tier": 3,
-        "charges": 1,
+        "charges": 5,
         "action": "melvorD:Combat",
         "sellsFor": 2000,
         "itemType": "Potion",
@@ -2631,7 +2677,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "tier": 3,
-        "charges": 1,
+        "charges": 5,
         "action": "melvorD:Combat",
         "sellsFor": 8000,
         "itemType": "Potion",
@@ -5316,6 +5362,10 @@
           {
             "key": "magicDefenceBonus",
             "value": 10
+          },
+          {
+            "key": "damageReduction",
+            "value": 2
           }
         ]
       },
@@ -5454,6 +5504,10 @@
           {
             "key": "magicDefenceBonus",
             "value": 10
+          },
+          {
+            "key": "damageReduction",
+            "value": 2
           }
         ]
       },
@@ -5546,6 +5600,10 @@
           {
             "key": "magicDefenceBonus",
             "value": 18
+          },
+          {
+            "key": "damageReduction",
+            "value": 3
           }
         ]
       },
@@ -5638,6 +5696,10 @@
           {
             "key": "magicDefenceBonus",
             "value": 18
+          },
+          {
+            "key": "damageReduction",
+            "value": 3
           }
         ]
       },
@@ -5730,6 +5792,10 @@
           {
             "key": "magicDefenceBonus",
             "value": 25
+          },
+          {
+            "key": "damageReduction",
+            "value": 4
           }
         ]
       },
@@ -5822,6 +5888,10 @@
           {
             "key": "magicDefenceBonus",
             "value": 25
+          },
+          {
+            "key": "damageReduction",
+            "value": 4
           }
         ]
       },
@@ -5914,6 +5984,10 @@
           {
             "key": "magicDefenceBonus",
             "value": 35
+          },
+          {
+            "key": "damageReduction",
+            "value": 5
           }
         ]
       },
@@ -6006,6 +6080,210 @@
           {
             "key": "magicDefenceBonus",
             "value": 35
+          },
+          {
+            "key": "damageReduction",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Ancient_Dhide_Cowl",
+        "name": "Ancient D-hide Cowl",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Equipment/Ancient_Dhide_Cowl.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 30000,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Helmet"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 80
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 14
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 4
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 7
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 44
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 28
+          },
+          {
+            "key": "damageReduction",
+            "value": 6
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Ancient_Dhide_Cowl_U",
+        "name": "(U) Ancient D-hide Cowl",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Equipment/Ancient_Dhide_Cowl_U.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 30000,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Helmet"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 80
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 17
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -8
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 5
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 8
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 53
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 34
+          },
+          {
+            "key": "damageReduction",
+            "value": 6
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Ancient_Dhide_Boots",
+        "name": "Ancient D-hide Boots",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Equipment/Ancient_Dhide_Boots.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 30000,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Boots"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 80
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 20
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -8
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 7
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 37
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 34
+          }
+        ]
+      },
+      {
+        "itemType": "Equipment",
+        "id": "Ancient_Dhide_Boots_U",
+        "name": "(U) Ancient D-hide Boots",
+        "category": "Combat",
+        "type": "Ranged Armour",
+        "media": "assets/items/Equipment/Ancient_Dhide_Boots_U.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 30000,
+        "tier": "Dragonhide",
+        "validSlots": [
+          "Boots"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 80
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 24
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -8
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 8
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 44
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 41
           }
         ]
       },
@@ -13345,7 +13623,7 @@
         "lootTable": [],
         "canSlayer": false,
         "isBoss": true,
-        "selectedSpell": "melvorF:NaturesWrath",
+        "selectedSpell": "melvorD:WindBlast",
         "bones": {
           "itemID": "expandedAreas:Superior_Dragon_Bones",
           "quantity": 1
@@ -13398,7 +13676,7 @@
         "lootTable": [],
         "canSlayer": false,
         "isBoss": false,
-        "selectedSpell": "melvorD:WindStrike",
+        "selectedSpell": "melvorD:WaterBolt",
         "bones": {
           "itemID": "expandedAreas:Water_Rune_Shard",
           "quantity": 1
@@ -13443,7 +13721,7 @@
         "lootTable": [],
         "canSlayer": false,
         "isBoss": false,
-        "selectedSpell": "melvorD:WindSurge",
+        "selectedSpell": "melvorD:WindBolt",
         "bones": {
           "itemID": "expandedAreas:Air_Rune_Shard",
           "quantity": 1
@@ -13488,7 +13766,7 @@
         "lootTable": [],
         "canSlayer": false,
         "isBoss": false,
-        "selectedSpell": "melvorD:FireSurge",
+        "selectedSpell": "melvorD:FireBolt",
         "bones": {
           "itemID": "expandedAreas:Fire_Rune_Shard",
           "quantity": 1
@@ -13537,7 +13815,7 @@
         "lootTable": [],
         "canSlayer": false,
         "isBoss": false,
-        "selectedSpell": "melvorD:WindStrike",
+        "selectedSpell": "melvorD:EarthBolt",
         "bones": {
           "itemID": "expandedAreas:Earth_Rune_Shard",
           "quantity": 1
@@ -14308,7 +14586,7 @@
         "lootTable": [],
         "canSlayer": false,
         "isBoss": true,
-        "selectedSpell": "melvorD:WaterBlast",
+        "selectedSpell": "melvorD:WaterStrike",
         "currencyDrops": [],
         "bones": {
           "itemID": "melvorD:Magic_Bones",
@@ -14775,7 +15053,7 @@
         ],
         "canSlayer": true,
         "isBoss": false,
-        "selectedSpell": "melvorD:EarthStrike",
+        "selectedSpell": "melvorD:WaterStrike",
         "description": "A stinky golbin that practices the dark arts.",
         "combatEffects": [
           {
@@ -15701,7 +15979,7 @@
         ],
         "canSlayer": true,
         "isBoss": false,
-        "selectedSpell": "melvorD:WindBlast",
+        "selectedSpell": "melvorD:WindBolt",
         "currencyDrops": [],
         "bones": {
           "itemID": "melvorD:Bones",
@@ -15927,7 +16205,7 @@
         ],
         "canSlayer": true,
         "isBoss": false,
-        "selectedSpell": "melvorD:EarthBlast",
+        "selectedSpell": "melvorD:EarthStrike",
         "bones": {
           "itemID": "melvorD:Bones",
           "quantity": 1
@@ -16068,7 +16346,7 @@
         ],
         "canSlayer": true,
         "isBoss": false,
-        "selectedSpell": "melvorD:EarthBolt",
+        "selectedSpell": "melvorD:EarthStrike",
         "description": "Nothing worse than getting sand in your eyes.",
         "bones": {
           "itemID": "expandedAreas:Sand",
@@ -16223,12 +16501,6 @@
             "minQuantity": 1
           },
           {
-            "itemID": "expandedAreas:Eye_of_Air",
-            "weight": 512,
-            "maxQuantity": 3,
-            "minQuantity": 3
-          },
-          {
             "itemID": "expandedAreas:Wispy_Page",
             "weight": 512,
             "maxQuantity": 16,
@@ -16261,11 +16533,11 @@
         ],
         "canSlayer": true,
         "isBoss": false,
-        "selectedSpell": "expandedAreas:Wind_Storm",
+        "selectedSpell": "melvorD:WindBolt",
         "currencyDrops": [],
         "bones": {
-          "itemID": "melvorD:Magic_Bones",
-          "quantity": 1
+          "itemID": "expandedAreas:Eye_of_Air",
+          "quantity": 3
         }
       },
       {
@@ -16341,12 +16613,6 @@
             "minQuantity": 1
           },
           {
-            "itemID": "expandedAreas:Eye_of_Water",
-            "weight": 512,
-            "maxQuantity": 3,
-            "minQuantity": 3
-          },
-          {
             "itemID": "expandedAreas:Waterlogged_Page",
             "weight": 512,
             "maxQuantity": 16,
@@ -16379,11 +16645,11 @@
         ],
         "canSlayer": true,
         "isBoss": false,
-        "selectedSpell": "melvorD:WaterSurge",
+        "selectedSpell": "melvorD:WaterBolt",
         "currencyDrops": [],
         "bones": {
-          "itemID": "melvorD:Magic_Bones",
-          "quantity": 1
+          "itemID": "expandedAreas:Eye_of_Water",
+          "quantity": 3
         }
       },
       {
@@ -16465,12 +16731,6 @@
             "minQuantity": 4
           },
           {
-            "itemID": "expandedAreas:Eye_of_Earth",
-            "weight": 512,
-            "maxQuantity": 3,
-            "minQuantity": 3
-          },
-          {
             "itemID": "melvorF:Earth_Expert_Wizard_Boots",
             "weight": 256,
             "maxQuantity": 1,
@@ -16497,11 +16757,11 @@
         ],
         "canSlayer": true,
         "isBoss": false,
-        "selectedSpell": "melvorD:EarthSurge",
+        "selectedSpell": "melvorD:EarthBolt",
         "currencyDrops": [],
         "bones": {
-          "itemID": "melvorD:Magic_Bones",
-          "quantity": 1
+          "itemID": "expandedAreas:Eye_of_Earth",
+          "quantity": 3
         }
       },
       {
@@ -16583,12 +16843,6 @@
             "minQuantity": 4
           },
           {
-            "itemID": "expandedAreas:Eye_of_Fire",
-            "weight": 512,
-            "maxQuantity": 3,
-            "minQuantity": 3
-          },
-          {
             "itemID": "melvorF:Fire_Expert_Wizard_Boots",
             "weight": 256,
             "maxQuantity": 1,
@@ -16615,11 +16869,11 @@
         ],
         "canSlayer": true,
         "isBoss": false,
-        "selectedSpell": "melvorD:FireSurge",
+        "selectedSpell": "melvorD:FireBolt",
         "currencyDrops": [],
         "bones": {
-          "itemID": "melvorD:Magic_Bones",
-          "quantity": 1
+          "itemID": "expandedAreas:Eye_of_Fire",
+          "quantity": 3
         }
       },
       {
@@ -16708,7 +16962,7 @@
           },
           {
             "itemID": "melvorD:Fire_Rune",
-            "weight": 512,
+            "weight": 1024,
             "minQuantity": 100,
             "maxQuantity": 500
           },
@@ -16726,31 +16980,31 @@
           },
           {
             "itemID": "expandedAreas:Air_Rune_Shard",
-            "weight": 256,
-            "maxQuantity": 100,
-            "minQuantity": 10
+            "weight": 380,
+            "maxQuantity": 200,
+            "minQuantity": 100
           },
           {
             "itemID": "expandedAreas:Water_Rune_Shard",
-            "weight": 256,
-            "maxQuantity": 100,
-            "minQuantity": 10
+            "weight": 380,
+            "maxQuantity": 200,
+            "minQuantity": 100
           },
           {
             "itemID": "expandedAreas:Earth_Rune_Shard",
-            "weight": 256,
-            "maxQuantity": 100,
-            "minQuantity": 10
+            "weight": 380,
+            "maxQuantity": 200,
+            "minQuantity": 100
           },
           {
             "itemID": "expandedAreas:Fire_Rune_Shard",
-            "weight": 256,
-            "maxQuantity": 100,
-            "minQuantity": 10
+            "weight": 380,
+            "maxQuantity": 200,
+            "minQuantity": 100
           },
           {
             "itemID": "melvorF:Elemental_Potion_III",
-            "weight": 128,
+            "weight": 256,
             "minQuantity": 1,
             "maxQuantity": 4
           },
@@ -16795,11 +17049,17 @@
             "weight": 16,
             "maxQuantity": 1,
             "minQuantity": 1
+          },
+          {
+            "itemID": "expandedareas:Earring_of_Protection",
+            "weight": 10,
+            "maxQuantity": 1,
+            "minQuantity": 1
           }
         ],
         "canSlayer": true,
         "isBoss": false,
-        "selectedSpell": "expandedAreas:Fire_Storm",
+        "selectedSpell": "melvorD:EarthBolt",
         "currencyDrops": [],
         "bones": {
           "itemID": "melvorD:Rune_Essence",
@@ -19193,48 +19453,48 @@
         "currencyCosts": []
       },
       {
-        "upgradedItemID": "expandedAreas:Red_Dhide_Boots_U",
+        "upgradedItemID": "expandedAreas:Ancient_Dhide_Boots_U",
         "itemCosts": [
           {
-            "id": "expandedAreas:Red_Dhide_Boots",
+            "id": "expandedAreas:Ancient_Dhide_Boots",
             "quantity": 1
           },
           {
-            "id": "melvorD:Red_Dragonhide",
-            "quantity": 200
+            "id": "melvorF:Elder_Dragonhide",
+            "quantity": 500
           }
         ],
         "rootItemIDs": [
-          "expandedAreas:Red_Dhide_Boots"
+          "expandedAreas:Ancient_Dhide_Boots"
         ],
         "isDowngrade": false,
         "currencyCosts": [
           {
             "id": "melvorD:GP",
-            "quantity": 100000
+            "quantity": 500000
           }
         ]
       },
       {
-        "upgradedItemID": "expandedAreas:Red_Dhide_Cowl_U",
+        "upgradedItemID": "expandedAreas:Ancient_Dhide_Cowl_U",
         "itemCosts": [
           {
-            "id": "expandedAreas:Red_Dhide_Cowl",
+            "id": "expandedAreas:Ancient_Dhide_Cowl",
             "quantity": 1
           },
           {
-            "id": "melvorD:Red_Dragonhide",
-            "quantity": 200
+            "id": "melvorF:Elder_Dragonhide",
+            "quantity": 500
           }
         ],
         "rootItemIDs": [
-          "expandedAreas:Red_Dhide_Cowl"
+          "expandedAreas:Ancient_Dhide_Cowl"
         ],
         "isDowngrade": false,
         "currencyCosts": [
           {
             "id": "melvorD:GP",
-            "quantity": 100000
+            "quantity": 500000
           }
         ]
       },
@@ -19281,6 +19541,52 @@
           {
             "id": "melvorD:GP",
             "quantity": 200000
+          }
+        ]
+      },
+      {
+        "upgradedItemID": "expandedAreas:Red_Dhide_Boots_U",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Red_Dhide_Boots",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Red_Dragonhide",
+            "quantity": 200
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Red_Dhide_Boots"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": [
+          {
+            "id": "melvorD:GP",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "upgradedItemID": "expandedAreas:Red_Dhide_Cowl_U",
+        "itemCosts": [
+          {
+            "id": "expandedAreas:Red_Dhide_Cowl",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Red_Dragonhide",
+            "quantity": 200
+          }
+        ],
+        "rootItemIDs": [
+          "expandedAreas:Red_Dhide_Cowl"
+        ],
+        "isDowngrade": false,
+        "currencyCosts": [
+          {
+            "id": "melvorD:GP",
+            "quantity": 100000
           }
         ]
       },
@@ -25736,6 +26042,137 @@
   "modifications": {
     "items": [
       {
+        "id": "melvorF:Aeris_God_Helmet",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "rangedAttackBonus",
+              "value": 8
+            },
+            {
+              "key": "meleeDefenceBonus",
+              "value": 4
+            },
+            {
+              "key": "rangedDefenceBonus",
+              "value": 14
+            },
+            {
+              "key": "magicDefenceBonus",
+              "value": 31
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Aeris_God_Platebody",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "rangedAttackBonus",
+              "value": 4
+            },
+            {
+              "key": "meleeDefenceBonus",
+              "value": -9
+            },
+            {
+              "key": "rangedDefenceBonus",
+              "value": 8
+            },
+            {
+              "key": "magicDefenceBonus",
+              "value": 17
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Aeris_God_Platelegs",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "rangedAttackBonus",
+              "value": 3
+            },
+            {
+              "key": "meleeStrengthBonus",
+              "value": -9
+            },
+            {
+              "key": "rangedStrengthBonus",
+              "value": 8
+            },
+            {
+              "key": "rangedDefenceBonus",
+              "value": 10
+            },
+            {
+              "key": "meleeDefenceBonus",
+              "value": 2
+            },
+            {
+              "key": "magicDefenceBonus",
+              "value": 13
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Aeris_God_Gloves",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "rangedAttackBonus",
+              "value": 1
+            },
+            {
+              "key": "rangedStrengthBonus",
+              "value": 2
+            },
+            {
+              "key": "rangedDefenceBonus",
+              "value": 4
+            },
+            {
+              "key": "meleeDefenceBonus",
+              "value": 2
+            },
+            {
+              "key": "magicDefenceBonus",
+              "value": 6
+            }
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Aeris_God_Boots",
+        "equipmentStats": {
+          "add": [
+            {
+              "key": "rangedAttackBonus",
+              "value": 17
+            },
+            {
+              "key": "rangedStrengthBonus",
+              "value": 2
+            },
+            {
+              "key": "rangedDefenceBonus",
+              "value": 4
+            },
+            {
+              "key": "meleeDefenceBonus",
+              "value": 2
+            },
+            {
+              "key": "magicDefenceBonus",
+              "value": 6
+            }
+          ]
+        }
+      },
+      {
         "id": "melvorD:Pirate_Booty",
         "dropTable": {
           "add": [
@@ -26880,6 +27317,12 @@
               "minQuantity": 1,
               "maxQuantity": 1,
               "weight": 5
+            },
+            {
+              "itemID": "expandedAreas:Heavy_Hand_Ballista",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 3
             }
           ]
         }
@@ -26888,8 +27331,7 @@
         "id": "melvorD:Bandit_Chest",
         "dropTable": {
           "remove": [
-            "melvorD:Steel_Arrows",
-            "melvorD:Ancient_Longbow"
+            "melvorD:Steel_Arrows"
           ],
           "add": [
             {
@@ -26915,12 +27357,6 @@
               "minQuantity": 1,
               "maxQuantity": 1,
               "weight": 3
-            },
-            {
-              "itemID": "expandedAreas:Heavy_Hand_Ballista",
-              "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 1
             }
           ]
         }
@@ -26930,10 +27366,16 @@
         "dropTable": {
           "add": [
             {
-              "itemID": "melvorD:Ancient_Longbow",
+              "itemID": "expandedAreas:Ancient_Dhide_Cowl",
               "minQuantity": 1,
               "maxQuantity": 1,
-              "weight": 3
+              "weight": 70
+            },
+            {
+              "itemID": "expandedAreas:Ancient_Dhide_Boots",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 40
             }
           ]
         }
