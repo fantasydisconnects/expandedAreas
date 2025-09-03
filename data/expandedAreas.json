@@ -17464,6 +17464,12 @@
             "minQuantity": 1
           },
           {
+            "itemID": "expandedAreas:Air_Expert_Wizard_Gloves",
+            "weight": 192,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
             "itemID": "melvorF:Air_Expert_Wizard_Hat",
             "weight": 128,
             "maxQuantity": 1,
@@ -17572,6 +17578,12 @@
           {
             "itemID": "melvorF:Water_Expert_Wizard_Boots",
             "weight": 256,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "expandedAreas:Water_Expert_Wizard_Gloves",
+            "weight": 192,
             "maxQuantity": 1,
             "minQuantity": 1
           },
@@ -17688,6 +17700,12 @@
             "minQuantity": 1
           },
           {
+            "itemID": "expandedAreas:Earth_Expert_Wizard_Gloves",
+            "weight": 192,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
             "itemID": "melvorF:Earth_Expert_Wizard_Hat",
             "weight": 128,
             "maxQuantity": 1,
@@ -17796,6 +17814,12 @@
           {
             "itemID": "melvorF:Fire_Expert_Wizard_Boots",
             "weight": 256,
+            "maxQuantity": 1,
+            "minQuantity": 1
+          },
+          {
+            "itemID": "expandedAreas:Fire_Expert_Wizard_Gloves",
+            "weight": 192,
             "maxQuantity": 1,
             "minQuantity": 1
           },
