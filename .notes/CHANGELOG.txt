@@ -1,9 +1,9 @@
 New Content:
-
+added air, earth, fire, water, and elementalist wizard gloves
+added ancient wizard gloves, loot from magic chest
 
 Balance Changes:
-adjusted bonuses for all the new d-hide as previous versions were overtuned
+
 
 Bug Fixes:
-two flower (m) was not showing up on potions
-some of the alcoholic drinks did not have the correct amount of charges
+renamed wrath rune to rage rune to avoid conflicts with into the abyss
