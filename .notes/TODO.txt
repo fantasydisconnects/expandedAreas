@@ -1,39 +1,61 @@
-1. Add Lord's Estate Combat Area 
-2. Add Junior Gardener 
-2a. Add Herb, Tree, and Shrub seeds to drop table
-3. Add Adult Gardener 
-3a. Add Herb, Tree, and Shrub seeds to drop table
-4. Add Master Gardener 
-4a. Add Herb, Tree, and Shrub seeds to drop table
-4b. Create and add unique Superfertilizer x500 Consumable to drop table
-5. Add Guard Dog 
-5a. Add Undying passive effect (no killing good girls)
-5b. Remove from completion log because dog will never die
-6. Add Rice Seed to Allotmemts
-6a. Add Rice
-7. Add Sunflower Seed to Shrubs
-7b. Add Sunflower
-8. Add Lord Vontuvius
-8a. Create and add Lord's Sword to drop table
-8b. Create and add Lord's Cloak to drop table
-8c. Add jewelry and rich items to drop table
-8d. Create and add pet drop for Guard Dog Macy
-9. Add Lord's Estate to Thieving Area
-10. Add Jeeves the Butler, Petunia the Gardener, Lady Vontuvius
-10a. Create and add Fancy Dress to drop table
-10b. Create and add Fancy Shoes to drop table
-10c. Add jewelry to drop table
-10d. Create and add bracelets
-10e. Create and add Fine Clothes to drop table
-10f. Create and add Fine Trousers to drop table
-10g. Create and add Bow Tie to drop table
-10h. Create and add Monocle to drop table
-10i. Add fancy food to drop table like wine, mead, cakes, pies, bread, etc.
-10j. Add Herb Sack to Gardener
-11. Add Orange Tree to Trees (Farming)
-11a. Add Orange Tree Seed
-11b. Add Oranges
-12. Add Tulips to Shrubs
-12a. Add Tulip Seeds
-12b. Add Tulips
-13. A
+Attack Mastery:
+1 -5% Melee Attack Interval, +1% Melee Critical Hit Chance, +6% Melee Accuracy
+2 +2% Melee Critical Hit Chance, +3% Melee Accuracy
+3 +3% Melee Accuracy, +2% Chance to ignore Enemy Resistance when Attacking
+4 -5% Melee Attack Interval, +3% Melee Accuracy, +4% Chance to ignore Enemy Resistance when Attacking
+
+_________________________________
+
+Strength Mastery:
+1 +5% Melee Maximum Hit added to Melee Minimum Hit, +10% Melee Critical Damage, +2% Melee Maximum Hit
+2 +20% Melee Critical Damage, +1% Melee Maximum Hit
+3 +1% Melee Maximum Hit, +1% Melee Minimum Hit
+4 +5% Melee Maximum Hit added to Melee Minimum Hit, +1% Melee Maximum Hit, +2% Melee Minimum Hit
+
+_________________________________
+
+Defence Mastery:
+1 +5% Reflect Damage, +1% Damage Reduction, +6% Global Evasion
+2 +2% Damage Reduction, +3% Global Evasion
+3 +3% Global Evasion, +1% Damage Taken from All Sources
+4 +5% Reflect Damage, +3% Global Evasion, -2% Damage Taken from All Sources
+
+_________________________________
+
+Hitpoints Mastery:
+1 +5% Maximum Hitpoints added as Regen, +10% Chance to Ignore Poison and Bleed, +1% Maximum Hitpoints
+2 +20% Chance to Ignore Poison and Bleed, +1% Maximum Hitpoints
+3 +1% Maximum Hitpoints, -10% Regen Interval
+4 +5% Maximum Hitpoints added as Regen, +1% Maximum Hitpoints, -20% Regen Interval
+
+_________________________________
+
+Ranged Mastery:
+1 -5% Ranged Attack Interval, +5 Ranged Strength Bonus, +10% Ranged Accuracy
+2 +20% Ranged Critical Damage, +1% Ranged Maximum Hit
+3 +10% Ranged Accuracy, +5% Chance to Convert a Miss into a Hit
+4 +5% Ranged Maximum Hit added to Ranged Minimum Hit, +1% Ranged Maximum Hit, +2% Ranged Minimum Hit
+
+_________________________________
+
+Magic Mastery:
+1 +5% Magic Lifesteal, +5% Magic Maximum Hit, +10% Magic Accuracy
+2 +20% DoT Damage, +5% Magic Maximum Hit
+3 +10% Magic Accuracy, +10% Rune Preservation Chance, +5% Dodge Chance
+4 +5% Magic Lifesteal, +10% Magic Accuracy, +10% DoT Damage
+
+_________________________________
+
+Prayer Mastery:
+1 +5% of Damage Taken added as Prayer Points, +0.5% Maximum Hit per Prayer Point Cost of Active Prayers, +10% Chance to Preserve Prayer Points
+2 +2% Resistance while at least one Prayer is Active, +10% Chance to Preserve Prayer Points
+3 +10% Chance to Preserve Prayer Points, +1% Rebirth Chance
+4 +5% of Damage Taken added as Prayer Points, +1% Maximum Hitpoints, +2% Rebirth Chance
+
+_________________________________
+
+Slayer Mastery:
+1 +5% Damage Dealt to monsters in Slayer Areas, -20% Slayer Task and Extension Costs, +5% Flat Slayer Area Effect Negation
+2 -20% Slayer Task and Extension Costs, +5% Flat Slayer Area Effect Negation
+3 +5% Flat Slayer Area Effect Negation, -10% Monster Respawn Interval
+4 +5% Damage Dealt to monsters in Slayer Areas, +5% Flat Slayer Area Effect Negation, -20% Monster Respawn Interval

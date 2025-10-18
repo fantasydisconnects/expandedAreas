@@ -1,8 +1,3874 @@
 {
-    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
-    "namespace": "expandedAreas",
-    "data": {
+"$schema": "https://melvoridle.com/assets/schema/gameData.json",
+"namespace": "expandedAreas",
+"data": {
+            "items": [
+                {
+                    "id": "Mastery_Token_Combat",
+                    "name": "Mastery Token (Combat)",
+                    "category": "Mastery",
+                    "type": "Token",
+                    "media": "assets/items/Item/Mastery_Token_Combat.png",
+                    "ignoreCompletion": false,
+                    "obtainFromItemLog": false,
+                    "golbinRaidExclusive": false,
+                    "sellsFor": 1500,
+                    "customDescription": "Obtained by completing Combat Achievment tasks. Used to purchase Combat Mastery Upgrades in the Shop.",
+                    "itemType": "Item"
+                },
+                {
+                    "itemType": "Equipment",
+                    "id": "Attack_Mastery_Cape",
+                    "name": "Attack Mastery Cape",
+                    "category": "Combat",
+                    "type": "Armour",
+                    "media": "assets/items/Equipment/Attack_Mastery_Cape.png",
+                    "ignoreCompletion": false,
+                    "obtainFromItemLog": false,
+                    "golbinRaidExclusive": false,
+                    "sellsFor": 500000,
+                    "customDescription": "+40 Melee Attack Bonus and +5% Chance when attacking with Melee to convert a Miss into a Hit",
+                    "tier": "Skillcape",
+                    "validSlots": [
+                        "Cape"
+                    ],
+                    "occupiesSlots": [],
+                    "equipRequirements": [
+                        {
+                            "type": "SkillLevel",
+                            "skillID": "melvorD:Attack",
+                            "level": 99
+                        },
+                        {
+                            "type": "ShopPurchase",
+                            "purchaseID": "expandedAreas:Attack_Grandmaster",
+                            "count": 1
+                        }
+                    ],
+                    "equipmentStats": [
+                        {
+                            "key": "stabAttackBonus",
+                            "value": 40
+                        },
+                        {
+                            "key": "slashAttackBonus",
+                            "value": 40
+                        },
+                        {
+                            "key": "blockAttackBonus",
+                            "value": 40
+                        },
+                        {
+                            "key": "meleeDefenceBonus",
+                            "value": 9
+                        },
+                        {
+                            "key": "rangedDefenceBonus",
+                            "value": 9
+                        },
+                        {
+                            "key": "magicDefenceBonus",
+                            "value": 9
+                        }
+                    ],
+                    "conditionalModifiers": [
+                        {
+                            "condition": {
+                                "character": "Player",
+                                "thisAttackType": "melee",
+                                "targetAttackType": "any",
+                                "type": "CombatType"
+                            },
+                            "modifiers": {
+                                "convertMissIntoHit": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "itemType": "Equipment",
+                    "id": "Strength_Mastery_Cape",
+                    "name": "Strength Mastery Cape",
+                    "category": "Combat",
+                    "type": "Armour",
+                    "media": "assets/items/Equipment/Strength_Mastery_Cape.png",
+                    "ignoreCompletion": false,
+                    "obtainFromItemLog": false,
+                    "golbinRaidExclusive": false,
+                    "sellsFor": 500000,
+                    "customDescription": "+20 Flat Melee Strength Bonus +1 extra for every 0.1s Attack Interval (doubled if a 2-Handed weapon is equipped).",
+                    "tier": "Skillcape",
+                    "validSlots": [
+                        "Cape"
+                    ],
+                    "occupiesSlots": [],
+                    "equipRequirements": [
+                        {
+                            "type": "SkillLevel",
+                            "skillID": "melvorD:Strength",
+                            "level": 99
+                        },
+                        {
+                            "type": "ShopPurchase",
+                            "purchaseID": "expandedAreas:Strength_Grandmaster",
+                            "count": 1
+                        }
+                    ],
+                    "equipmentStats": [
+                        {
+                            "key": "meleeStrengthBonus",
+                            "value": 20
+                        },
+                        {
+                            "key": "meleeDefenceBonus",
+                            "value": 9
+                        },
+                        {
+                            "key": "rangedDefenceBonus",
+                            "value": 9
+                        },
+                        {
+                            "key": "magicDefenceBonus",
+                            "value": 9
+                        }
+                    ],
+                    "modifiers": {
+                        "flatMeleeStrengthBonusPerAttackInterval": 1
+                    }
+                },
+                {
+                    "itemType": "Equipment",
+                    "id": "Defence_Mastery_Cape",
+                    "name": "Defence Mastery Cape",
+                    "category": "Combat",
+                    "type": "Armour",
+                    "media": "assets/items/Equipment/Defence_Mastery_Cape.png",
+                    "ignoreCompletion": false,
+                    "obtainFromItemLog": false,
+                    "golbinRaidExclusive": false,
+                    "sellsFor": 500000,
+                    "customDescription": "+80 All Defence Bonuses and +5% Resistance against Bosses",
+                    "tier": "Skillcape",
+                    "validSlots": [
+                        "Cape"
+                    ],
+                    "occupiesSlots": [],
+                    "equipRequirements": [
+                        {
+                            "type": "SkillLevel",
+                            "skillID": "melvorD:Defence",
+                            "level": 99
+                        },
+                        {
+                            "type": "ShopPurchase",
+                            "purchaseID": "expandedAreas:Defence_Grandmaster",
+                            "count": 1
+                        }
+                    ],
+                    "equipmentStats": [
+                        {
+                            "key": "meleeDefenceBonus",
+                            "value": 80
+                        },
+                        {
+                            "key": "rangedDefenceBonus",
+                            "value": 80
+                        },
+                        {
+                            "key": "magicDefenceBonus",
+                            "value": 80
+                        }
+                    ],
+                    "modifiers": {
+                        "melvorD:flatResistanceAgainstBosses": [
+                            {
+                                "damageTypeID": "melvorD:Normal",
+                                "value": 5
+                            }
+                        ]
+                    }
+                },
+                {
+                    "itemType": "Equipment",
+                    "id": "Hitpoints_Mastery_Cape",
+                    "name": "Hitpoints Mastery Cape",
+                    "category": "Combat",
+                    "type": "Armour",
+                    "media": "assets/items/Equipment/Hitpoints_Mastery_Cape.png",
+                    "ignoreCompletion": false,
+                    "obtainFromItemLog": false,
+                    "golbinRaidExclusive": false,
+                    "sellsFor": 500000,
+                    "customDescription": "+10 Flat Regen and +5% Maximum Hitpoints",
+                    "tier": "Skillcape",
+                    "validSlots": [
+                        "Cape"
+                    ],
+                    "occupiesSlots": [],
+                    "equipRequirements": [
+                        {
+                            "type": "SkillLevel",
+                            "skillID": "melvorD:Hitpoints",
+                            "level": 99
+                        },
+                        {
+                            "type": "ShopPurchase",
+                            "purchaseID": "expandedAreas:Hitpoints_Grandmaster",
+                            "count": 1
+                        }
+                    ],
+                    "equipmentStats": [
+                        {
+                            "key": "meleeDefenceBonus",
+                            "value": 9
+                        },
+                        {
+                            "key": "rangedDefenceBonus",
+                            "value": 9
+                        },
+                        {
+                            "key": "magicDefenceBonus",
+                            "value": 9
+                        }
+                    ],
+                    "modifiers": {
+                        "flatHPRegen": 1,
+                        "maxHitpoints": 5
+                    }
+                },
+                {
+                    "itemType": "Equipment",
+                    "id": "Ranged_Mastery_Cape",
+                    "name": "Ranged Mastery Cape",
+                    "category": "Combat",
+                    "type": "Armour",
+                    "media": "assets/items/Equipment/Ranged_Mastery_Cape.png",
+                    "ignoreCompletion": false,
+                    "obtainFromItemLog": false,
+                    "golbinRaidExclusive": false,
+                    "sellsFor": 500000,
+                    "customDescription": "+50% Ammo Preservation Chance and +20% Ranged Accuracy Rating",
+                    "tier": "Skillcape",
+                    "validSlots": [
+                        "Cape"
+                    ],
+                    "occupiesSlots": [],
+                    "equipRequirements": [
+                        {
+                            "type": "SkillLevel",
+                            "skillID": "melvorD:Ranged",
+                            "level": 99
+                        },
+                        {
+                            "type": "ShopPurchase",
+                            "purchaseID": "expandedAreas:Ranged_Grandmaster",
+                            "count": 1
+                        }
+                    ],
+                    "equipmentStats": [
+                        {
+                            "key": "meleeDefenceBonus",
+                            "value": 9
+                        },
+                        {
+                            "key": "rangedDefenceBonus",
+                            "value": 9
+                        },
+                        {
+                            "key": "magicDefenceBonus",
+                            "value": 9
+                        }
+                    ],
+                    "modifiers": {
+                        "ammoPreservationChance": 50,
+                        "rangedAccuracyRating": 20
+                    }
+                },
+                {
+                    "itemType": "Equipment",
+                    "id": "Magic_Mastery_Cape",
+                    "name": "Magic Mastery Cape",
+                    "category": "Combat",
+                    "type": "Armour",
+                    "media": "assets/items/Equipment/Magic_Mastery_Cape.png",
+                    "ignoreCompletion": false,
+                    "obtainFromItemLog": false,
+                    "golbinRaidExclusive": false,
+                    "sellsFor": 500000,
+                    "customDescription": "Rune-providing items provide 2x as many runes, and +5% Chance to ignore any Debuffs while your Attack Style is Magic",
+                    "tier": "Skillcape",
+                    "validSlots": [
+                        "Cape"
+                    ],
+                    "occupiesSlots": [],
+                    "equipRequirements": [
+                        {
+                            "type": "SkillLevel",
+                            "skillID": "melvorD:Magic",
+                            "level": 99
+                        },
+                        {
+                            "type": "ShopPurchase",
+                            "purchaseID": "expandedAreas:Magic_Grandmaster",
+                            "count": 1
+                        }
+                    ],
+                    "equipmentStats": [
+                        {
+                            "key": "meleeDefenceBonus",
+                            "value": 9
+                        },
+                        {
+                            "key": "rangedDefenceBonus",
+                            "value": 9
+                        },
+                        {
+                            "key": "magicDefenceBonus",
+                            "value": 9
+                        }
+                    ],
+                    "modifiers": {
+                        "doubleRuneProvision": 1
+                    },
+                    "conditionalModifiers": [
+                        {
+                            "condition": {
+                                "character": "Player",
+                                "thisAttackType": "magic",
+                                "targetAttackType": "any",
+                                "type": "CombatType"
+                            },
+                            "modifiers": {
+                                "effectIgnoreChance": [
+                                    {
+                                        "effectGroupID": "melvorD:Debuff",
+                                        "value": 5
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "itemType": "Equipment",
+                    "id": "Prayer_Mastery_Cape",
+                    "name": "Prayer Mastery Cape",
+                    "category": "Combat",
+                    "type": "Armour",
+                    "media": "assets/items/Equipment/Prayer_Mastery_Cape.png",
+                    "ignoreCompletion": false,
+                    "obtainFromItemLog": false,
+                    "golbinRaidExclusive": false,
+                    "sellsFor": 500000,
+                    "customDescription": "-50% Prayer Point Cost and Bones are automatically buried for 5x their Prayer Point value",
+                    "tier": "Skillcape",
+                    "validSlots": [
+                        "Cape"
+                    ],
+                    "occupiesSlots": [],
+                    "equipRequirements": [
+                        {
+                            "type": "SkillLevel",
+                            "skillID": "melvorD:Prayer",
+                            "level": 99
+                        },
+                        {
+                            "type": "ShopPurchase",
+                            "purchaseID": "expandedAreas:Prayer_Grandmaster",
+                            "count": 1
+                        }
+                    ],
+                    "equipmentStats": [
+                        {
+                            "key": "meleeDefenceBonus",
+                            "value": 9
+                        },
+                        {
+                            "key": "rangedDefenceBonus",
+                            "value": 9
+                        },
+                        {
+                            "key": "magicDefenceBonus",
+                            "value": 9
+                        }
+                    ],
+                    "modifiers": {
+                        "prayerPointCost": -50,
+                        "melvorD:autoBurying": 500
+                    }
+                },
+                {
+                    "itemType": "Equipment",
+                    "id": "Slayer_Mastery_Cape",
+                    "name": "Slayer Mastery Cape",
+                    "category": "Combat",
+                    "type": "Armour",
+                    "media": "assets/items/Equipment/Slayer_Mastery_Cape.png",
+                    "ignoreCompletion": false,
+                    "obtainFromItemLog": false,
+                    "golbinRaidExclusive": false,
+                    "sellsFor": 500000,
+                    "tier": "Skillcape",
+                    "validSlots": [
+                        "Cape"
+                    ],
+                    "occupiesSlots": [],
+                    "equipRequirements": [
+                        {
+                            "type": "SkillLevel",
+                            "skillID": "melvorD:Slayer",
+                            "level": 99
+                        },
+                        {
+                            "type": "ShopPurchase",
+                            "purchaseID": "expandedAreas:Slayer_Grandmaster",
+                            "count": 1
+                        }
+                    ],
+                    "equipmentStats": [
+                        {
+                            "key": "meleeDefenceBonus",
+                            "value": 9
+                        },
+                        {
+                            "key": "rangedDefenceBonus",
+                            "value": 9
+                        },
+                        {
+                            "key": "magicDefenceBonus",
+                            "value": 9
+                        }
+                    ],
+                    "modifiers": {
+                        "damageDealtToSlayerTasks": 5,
+                        "flatSlayerAreaEffectNegation": 25,
+                        "bypassSlayerItems": 1,
+                        "flatResistanceAgainstSlayerTasks": [
+                            {
+                                "damageTypeID": "melvorD:Normal",
+                                "value": 3
+                            }
+                        ]
+                    }
+                }
+            ],
+            "shopCategories": [
+                {
+                    "id": "CombatMastery",
+                    "name": "Combat Mastery",
+                    "media": "assets/icons/combat_header.svg"
+                },
+                {
+                    "id": "CombatAchievements",
+                    "name": "Combat Achievements",
+                    "media": "assets/icons/combat_achievements_header.png"
+                }
+            ],
+            "shopCategoryOrder": [
+                {
+                    "insertAt": "After",
+                    "afterID": "melvorD:General",
+                    "ids": [
+                        "expandedAreas:CombatMastery"
+                    ]
+                },
+                {
+                    "insertAt": "Before",
+                    "beforeID": "melvorF:Slayer",
+                    "ids": [
+                        "expandedAreas:CombatAchievements"
+                    ]
+                }
+            ],
+            "shopPurchases": [
+                {
+                    "id": "Farmlands100",
+                    "media": "assets/combatAreas/Farmlands.png",
+                    "category": "expandedAreas:CombatAchievements",
+                    "contains": {
+                        "items": [
+                            {
+                                "id": "expandedAreas:Mastery_Token_Combat",
+                                "quantity": 20
+                            }
+                        ]
+                    },
+                    "cost": {
+                        "items": []
+                    },
+                    "allowQuantityPurchase": false,
+                    "unlockRequirements": [],
+                    "purchaseRequirements": [
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Plant",
+                            "count": 100
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Chicken",
+                            "count": 100
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Cow",
+                            "count": 100
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:JuniorFarmer",
+                            "count": 100
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:AdultFarmer",
+                            "count": 100
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:MasterFarmer",
+                            "count": 100
+                        }
+                    ],
+                    "defaultBuyLimit": 1,
+                    "buyLimitOverrides": [],
+                    "showBuyLimit": false,
+                    "customName": "Farmlands 100",
+                    "customDescription": "Kill each monster in the Farmlands 100 times each. Gain 20 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+                },
+                {
+                    "id": "Farmlands200",
+                    "media": "assets/combatAreas/Farmlands.png",
+                    "category": "expandedAreas:CombatAchievements",
+                    "contains": {
+                        "items": [
+                            {
+                                "id": "expandedAreas:Mastery_Token_Combat",
+                                "quantity": 10
+                            }
+                        ]
+                    },
+                    "cost": {
+                        "items": []
+                    },
+                    "allowQuantityPurchase": false,
+                    "unlockRequirements": [
+                        {
+                            "purchaseID": "expandedAreas:Farmlands100",
+                            "count": 1,
+                            "type": "ShopPurchase"
+                        }
+                    ],
+                    "purchaseRequirements": [
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Plant",
+                            "count": 200
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Chicken",
+                            "count": 200
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Cow",
+                            "count": 200
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:JuniorFarmer",
+                            "count": 200
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:AdultFarmer",
+                            "count": 200
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:MasterFarmer",
+                            "count": 200
+                        }
+                    ],
+                    "defaultBuyLimit": 1,
+                    "buyLimitOverrides": [],
+                    "showBuyLimit": false,
+                    "customName": "Farmlands 200",
+                    "customDescription": "Kill each monster in the Farmlands 200 times each. Gain 10 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+                },
+                {
+                    "id": "Farmlands300",
+                    "media": "assets/combatAreas/Farmlands.png",
+                    "category": "expandedAreas:CombatAchievements",
+                    "contains": {
+                        "items": [
+                            {
+                                "id": "expandedAreas:Mastery_Token_Combat",
+                                "quantity": 10
+                            }
+                        ]
+                    },
+                    "cost": {
+                        "items": []
+                    },
+                    "allowQuantityPurchase": false,
+                    "unlockRequirements": [
+                        {
+                            "purchaseID": "expandedAreas:Farmlands200",
+                            "count": 1,
+                            "type": "ShopPurchase"
+                        }
+                    ],
+                    "purchaseRequirements": [
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Plant",
+                            "count": 300
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Chicken",
+                            "count": 300
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Cow",
+                            "count": 300
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:JuniorFarmer",
+                            "count": 300
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:AdultFarmer",
+                            "count": 300
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:MasterFarmer",
+                            "count": 300
+                        }
+                    ],
+                    "defaultBuyLimit": 1,
+                    "buyLimitOverrides": [],
+                    "showBuyLimit": false,
+                    "customName": "Farmlands 300",
+                    "customDescription": "Kill each monster in the Farmlands 300 times each. Gain 10 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+                },
+                {
+                    "id": "Farmlands400",
+                    "media": "assets/combatAreas/Farmlands.png",
+                    "category": "expandedAreas:CombatAchievements",
+                    "contains": {
+                        "items": [
+                            {
+                                "id": "expandedAreas:Mastery_Token_Combat",
+                                "quantity": 10
+                            }
+                        ]
+                    },
+                    "cost": {
+                        "items": []
+                    },
+                    "allowQuantityPurchase": false,
+                    "unlockRequirements": [
+                        {
+                            "purchaseID": "expandedAreas:Farmlands300",
+                            "count": 1,
+                            "type": "ShopPurchase"
+                        }
+                    ],
+                    "purchaseRequirements": [
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Plant",
+                            "count": 400
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Chicken",
+                            "count": 400
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Cow",
+                            "count": 400
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:JuniorFarmer",
+                            "count": 400
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:AdultFarmer",
+                            "count": 400
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:MasterFarmer",
+                            "count": 400
+                        }
+                    ],
+                    "defaultBuyLimit": 1,
+                    "buyLimitOverrides": [],
+                    "showBuyLimit": false,
+                    "customName": "Farmlands 400",
+                    "customDescription": "Kill each monster in the Farmlands 400 times each. Gain 10 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+                },
+                {
+                    "id": "Farmlands500",
+                    "media": "assets/combatAreas/Farmlands.png",
+                    "category": "expandedAreas:CombatAchievements",
+                    "contains": {
+                        "items": [
+                            {
+                                "id": "expandedAreas:Mastery_Token_Combat",
+                                "quantity": 10
+                            }
+                        ]
+                    },
+                    "cost": {
+                        "items": []
+                    },
+                    "allowQuantityPurchase": false,
+                    "unlockRequirements": [
+                        {
+                            "purchaseID": "expandedAreas:Farmlands400",
+                            "count": 1,
+                            "type": "ShopPurchase"
+                        }
+                    ],
+                    "purchaseRequirements": [
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Plant",
+                            "count": 500
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Chicken",
+                            "count": 500
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Cow",
+                            "count": 500
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:JuniorFarmer",
+                            "count": 500
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:AdultFarmer",
+                            "count": 500
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:MasterFarmer",
+                            "count": 500
+                        }
+                    ],
+                    "defaultBuyLimit": 1,
+                    "buyLimitOverrides": [],
+                    "showBuyLimit": false,
+                    "customName": "Farmlands 500",
+                    "customDescription": "Kill each monster in the Farmlands 500 times each. Gain 10 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+                },
+                {
+                    "id": "Farmlands600",
+                    "media": "assets/combatAreas/Farmlands.png",
+                    "category": "expandedAreas:CombatAchievements",
+                    "contains": {
+                        "items": [
+                            {
+                                "id": "expandedAreas:Mastery_Token_Combat",
+                                "quantity": 10
+                            }
+                        ]
+                    },
+                    "cost": {
+                        "items": []
+                    },
+                    "allowQuantityPurchase": false,
+                    "unlockRequirements": [
+                        {
+                            "purchaseID": "expandedAreas:Farmlands500",
+                            "count": 1,
+                            "type": "ShopPurchase"
+                        }
+                    ],
+                    "purchaseRequirements": [
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Plant",
+                            "count": 600
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Chicken",
+                            "count": 600
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Cow",
+                            "count": 600
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:JuniorFarmer",
+                            "count": 600
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:AdultFarmer",
+                            "count": 600
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:MasterFarmer",
+                            "count": 600
+                        }
+                    ],
+                    "defaultBuyLimit": 1,
+                    "buyLimitOverrides": [],
+                    "showBuyLimit": false,
+                    "customName": "Farmlands 600",
+                    "customDescription": "Kill each monster in the Farmlands 600 times each. Gain 10 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+                },
+                {
+                    "id": "Farmlands700",
+                    "media": "assets/combatAreas/Farmlands.png",
+                    "category": "expandedAreas:CombatAchievements",
+                    "contains": {
+                        "items": [
+                            {
+                                "id": "expandedAreas:Mastery_Token_Combat",
+                                "quantity": 10
+                            }
+                        ]
+                    },
+                    "cost": {
+                        "items": []
+                    },
+                    "allowQuantityPurchase": false,
+                    "unlockRequirements": [
+                        {
+                            "purchaseID": "expandedAreas:Farmlands600",
+                            "count": 1,
+                            "type": "ShopPurchase"
+                        }
+                    ],
+                    "purchaseRequirements": [
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Plant",
+                            "count": 700
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Chicken",
+                            "count": 700
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:Cow",
+                            "count": 700
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:JuniorFarmer",
+                            "count": 700
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:AdultFarmer",
+                            "count": 700
+                        },
+                        {
+                            "type": "MonsterKilled",
+                            "monsterID": "melvorD:MasterFarmer",
+                            "count": 700
+                        }
+                    ],
+                    "defaultBuyLimit": 1,
+                    "buyLimitOverrides": [],
+                    "showBuyLimit": false,
+                    "customName": "Farmlands 700",
+                    "customDescription": "Kill each monster in the Farmlands 700 times each. Gain 10 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+                },
+                {
+                    "id": "Farmlands800",
+                    "media": "assets/combatAreas/Farmlands.png",
+                    "category": "expandedAreas:CombatAchievements",
+                    "contains": {
+                        "items": [
+                            {
+                                "id": "expandedAreas:Mastery_Token_Combat",
+                                "quantity": 10
+                            }
+                        ]
+                    },
+                    "cost": {
         "items": []
     },
-    "modifications": {}
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Farmlands700",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Plant",
+            "count": 800
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Chicken",
+            "count": 800
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Cow",
+            "count": 800
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:JuniorFarmer",
+            "count": 800
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:AdultFarmer",
+            "count": 800
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:MasterFarmer",
+            "count": 800
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Farmlands 800",
+    "customDescription": "Kill each monster in the Farmlands 800 times each. Gain 10 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+},
+{
+    "id": "Farmlands900",
+    "media": "assets/combatAreas/Farmlands.png",
+    "category": "expandedAreas:CombatAchievements",
+    "contains": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 10
+            }
+        ]
+    },
+    "cost": {
+        "items": []
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Farmlands800",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Plant",
+            "count": 900
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Chicken",
+            "count": 900
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Cow",
+            "count": 900
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:JuniorFarmer",
+            "count": 900
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:AdultFarmer",
+            "count": 900
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:MasterFarmer",
+            "count": 900
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Farmlands 900",
+    "customDescription": "Kill each monster in the Farmlands 900 times each. Gain 10 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+},
+{
+    "id": "Farmlands1000",
+    "media": "assets/combatAreas/Farmlands.png",
+    "category": "expandedAreas:CombatAchievements",
+    "contains": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 10
+            }
+        ]
+    },
+    "cost": {
+        "items": []
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Farmlands900",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Plant",
+            "count": 1000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Chicken",
+            "count": 1000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Cow",
+            "count": 1000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:JuniorFarmer",
+            "count": 1000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:AdultFarmer",
+            "count": 1000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:MasterFarmer",
+            "count": 1000
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Farmlands 1000",
+    "customDescription": "Kill each monster in the Farmlands 1000 times each. Gain 10 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+},
+{
+    "id": "Farmlands2000",
+    "media": "assets/combatAreas/Farmlands.png",
+    "category": "expandedAreas:CombatAchievements",
+    "contains": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 100
+            }
+        ]
+    },
+    "cost": {
+        "items": []
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Farmlands1000",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Plant",
+            "count": 2000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Chicken",
+            "count": 2000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Cow",
+            "count": 2000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:JuniorFarmer",
+            "count": 2000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:AdultFarmer",
+            "count": 2000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:MasterFarmer",
+            "count": 2000
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Farmlands 2000",
+    "customDescription": "Kill each monster in the Farmlands 2000 times each. Gain 100 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+},
+{
+    "id": "Farmlands3000",
+    "media": "assets/combatAreas/Farmlands.png",
+    "category": "expandedAreas:CombatAchievements",
+    "contains": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 100
+            }
+        ]
+    },
+    "cost": {
+        "items": []
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Farmlands2000",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Plant",
+            "count": 3000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Chicken",
+            "count": 3000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Cow",
+            "count": 3000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:JuniorFarmer",
+            "count": 3000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:AdultFarmer",
+            "count": 3000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:MasterFarmer",
+            "count": 3000
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Farmlands 3000",
+    "customDescription": "Kill each monster in the Farmlands 3000 times each. Gain 100 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+},
+{
+    "id": "Farmlands4000",
+    "media": "assets/combatAreas/Farmlands.png",
+    "category": "expandedAreas:CombatAchievements",
+    "contains": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 100
+            }
+        ]
+    },
+    "cost": {
+        "items": []
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Farmlands3000",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Plant",
+            "count": 4000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Chicken",
+            "count": 4000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Cow",
+            "count": 4000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:JuniorFarmer",
+            "count": 4000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:AdultFarmer",
+            "count": 4000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:MasterFarmer",
+            "count": 4000
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Farmlands 4000",
+    "customDescription": "Kill each monster in the Farmlands 4000 times each. Gain 100 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+},
+{
+    "id": "Farmlands5000",
+    "media": "assets/combatAreas/Farmlands.png",
+    "category": "expandedAreas:CombatAchievements",
+    "contains": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 100
+            }
+        ]
+    },
+    "cost": {
+        "items": []
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Farmlands4000",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Plant",
+            "count": 5000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Chicken",
+            "count": 5000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Cow",
+            "count": 5000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:JuniorFarmer",
+            "count": 5000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:AdultFarmer",
+            "count": 5000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:MasterFarmer",
+            "count": 5000
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Farmlands 5000",
+    "customDescription": "Kill each monster in the Farmlands 5000 times each. Gain 100 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+},
+{
+    "id": "Farmlands6000",
+    "media": "assets/combatAreas/Farmlands.png",
+    "category": "expandedAreas:CombatAchievements",
+    "contains": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 100
+            }
+        ]
+    },
+    "cost": {
+        "items": []
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Farmlands5000",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Plant",
+            "count": 6000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Chicken",
+            "count": 6000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Cow",
+            "count": 6000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:JuniorFarmer",
+            "count": 6000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:AdultFarmer",
+            "count": 6000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:MasterFarmer",
+            "count": 6000
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Farmlands 6000",
+    "customDescription": "Kill each monster in the Farmlands 6000 times each. Gain 100 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+},
+{
+    "id": "Farmlands7000",
+    "media": "assets/combatAreas/Farmlands.png",
+    "category": "expandedAreas:CombatAchievements",
+    "contains": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 100
+            }
+        ]
+    },
+    "cost": {
+        "items": []
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Farmlands6000",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Plant",
+            "count": 7000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Chicken",
+            "count": 7000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Cow",
+            "count": 7000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:JuniorFarmer",
+            "count": 7000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:AdultFarmer",
+            "count": 7000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:MasterFarmer",
+            "count": 7000
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Farmlands 7000",
+    "customDescription": "Kill each monster in the Farmlands 7000 times each. Gain 100 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+},
+{
+    "id": "Farmlands8000",
+    "media": "assets/combatAreas/Farmlands.png",
+    "category": "expandedAreas:CombatAchievements",
+    "contains": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 100
+            }
+        ]
+    },
+    "cost": {
+        "items": []
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Farmlands7000",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Plant",
+            "count": 8000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Chicken",
+            "count": 8000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Cow",
+            "count": 8000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:JuniorFarmer",
+            "count": 8000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:AdultFarmer",
+            "count": 8000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:MasterFarmer",
+            "count": 8000
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Farmlands 8000",
+    "customDescription": "Kill each monster in the Farmlands 8000 times each. Gain 100 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+},
+{
+    "id": "Farmlands9000",
+    "media": "assets/combatAreas/Farmlands.png",
+    "category": "expandedAreas:CombatAchievements",
+    "contains": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 100
+            }
+        ]
+    },
+    "cost": {
+        "items": []
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Farmlands8000",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Plant",
+            "count": 9000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Chicken",
+            "count": 9000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Cow",
+            "count": 9000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:JuniorFarmer",
+            "count": 9000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:AdultFarmer",
+            "count": 9000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:MasterFarmer",
+            "count": 9000
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Farmlands 9000",
+    "customDescription": "Kill each monster in the Farmlands 9000 times each. Gain 100 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+},
+{
+    "id": "Farmlands10000",
+    "media": "assets/combatAreas/Farmlands.png",
+    "category": "expandedAreas:CombatAchievements",
+    "contains": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 100
+            }
+        ]
+    },
+    "cost": {
+        "items": []
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Farmlands9000",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Plant",
+            "count": 10000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Chicken",
+            "count": 10000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:Cow",
+            "count": 10000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:JuniorFarmer",
+            "count": 10000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:AdultFarmer",
+            "count": 10000
+        },
+        {
+            "type": "MonsterKilled",
+            "monsterID": "melvorD:MasterFarmer",
+            "count": 10000
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Farmlands 10000",
+    "customDescription": "Kill each monster in the Farmlands 10000 times each. Gain 100 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+},
+{
+    "id": "Attack_Adept",
+    "media": "assets/shop/combatMastery/attack_adept.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "meleeAttackInterval": -5,
+            "meleeCritChance": 1,
+            "meleeAccuracyRating": 6
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 50
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Attack",
+            "level": 40,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Attack Adept",
+    "customDescription": "Gain -5% Melee Attack Interval, +1% Melee Critical Hit Chance, and +6% Melee Accuracy"
+},
+{
+    "id": "Attack_Expert",
+    "media": "assets/shop/combatMastery/attack_expert.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "meleeCritChance": 2,
+            "meleeAccuracyRating": 3
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 100
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Attack_Adept",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Attack",
+            "level": 60,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Attack Expert",
+    "customDescription": "Gain +2% Melee Critical Hit Chance and +3% Melee Accuracy"
+},
+{
+    "id": "Attack_Master",
+    "media": "assets/shop/combatMastery/attack_master.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "ignoreResistanceWhenAttackingChance": [
+                {
+                    "damageTypeID": "melvorD:Normal",
+                    "value": 2
+                }
+            ],
+            "meleeAccuracyRating": 3
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 150
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Attack_Expert",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Attack",
+            "level": 80,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Attack Master",
+    "customDescription": "Gain +3% Melee Accuracy and +2% Chance to ignore Enemy Resistance when Attacking"
+},
+{
+    "id": "Attack_Grandmaster",
+    "media": "assets/shop/combatMastery/attack_grandmaster.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "meleeAttackInterval": -5,
+            "ignoreResistanceWhenAttackingChance": [
+                {
+                    "damageTypeID": "melvorD:Normal",
+                    "value": 4
+                }
+            ],
+            "meleeAccuracyRating": 3
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 200
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Attack_Master",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Attack",
+            "level": 99,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Attack Grandmaster",
+    "customDescription": "Gain -5% Melee Attack Interval, +3% Melee Accuracy, and +4% Chance to ignore Enemy Resistance when Attacking"
+},
+{
+    "id": "Attack_Training",
+    "media": "assets/shop/combatMastery/attack.svg",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "flatStabAttackBonus": 0.1,
+            "flatSlashAttackBonus": 0.1,
+            "flatBlockAttackBonus": 0.1
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 1
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Attack",
+            "level": 1,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 0,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Basic Attack Training",
+    "customDescription": "Gain +0.1 Flat Melee Accuracy"
+},
+{
+    "id": "Attack_Mastery_Cape",
+    "media": "assets/items/Equipment/Attack_Mastery_Cape.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [
+            {
+                "id": "expandedAreas:Attack_Mastery_Cape",
+                "quantity": 1
+            }
+        ]
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "melvorD:Attack_Skillcape",
+                "quantity": 1
+            }
+        ],
+        "currencies": [
+            {
+                "currency": "melvorD:GP",
+                "cost": 500000,
+                "type": "Fixed"
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Attack",
+            "level": 99,
+            "type": "SkillLevel"
+        },
+        {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Attack_Grandmaster",
+            "count": 1
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Attack Mastery Cape"
+},
+{
+    "id": "Strength_Adept",
+    "media": "assets/shop/combatMastery/strength_adept.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "conditionalModifiers": [
+            {
+                "condition": {
+                    "character": "Player",
+                    "thisAttackType": "melee",
+                    "targetAttackType": "any",
+                    "type": "CombatType"
+                },
+                "modifiers": {
+                    "critMultiplier": 10
+                }
+            }
+        ],
+        "modifiers": {
+            "meleeMinHitBasedOnMaxHit": 5,
+            "meleeMaxHit": 2
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 50
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Strength",
+            "level": 40,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Strength Adept",
+    "customDescription": "Gain +5% Melee Maximum Hit added to Melee Minimum Hit, +10% Melee Critical Damage, and +2% Melee Maximum Hit"
+},
+{
+    "id": "Strength_Expert",
+    "media": "assets/shop/combatMastery/strength_expert.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "conditionalModifiers": [
+            {
+                "condition": {
+                    "character": "Player",
+                    "thisAttackType": "melee",
+                    "targetAttackType": "any",
+                    "type": "CombatType"
+                },
+                "modifiers": {
+                    "critMultiplier": 20
+                }
+            }
+        ],
+        "modifiers": {
+            "meleeMaxHit": 1
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 100
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Strength_Adept",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Strength",
+            "level": 60,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Strength Expert",
+    "customDescription": "Gain +20% Melee Critical Damage, +1% Melee Maximum Hit"
+},
+{
+    "id": "Strength_Master",
+    "media": "assets/shop/combatMastery/strength_master.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "meleeMaxHit": 1,
+            "meleeStrengthBonusPer10EnemyDR": 5
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 150
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Strength_Expert",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Strength",
+            "level": 80,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Strength Master",
+    "customDescription": "Gain +1% Melee Maximum Hit and +5% Melee Maximum Hit per 10 Enemy Damage Reduction"
+},
+{
+    "id": "Strength_Grandmaster",
+    "media": "assets/shop/combatMastery/strength_grandmaster.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "meleeMinHitBasedOnMaxHit": 5,
+            "meleeMaxHit": 1,
+            "meleeStrengthBonusPer10EnemyDR": 10
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 200
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Strength_Master",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Strength",
+            "level": 99,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Strength Grandmaster",
+    "customDescription": "Gain +5% Melee Maximum Hit added to Melee Minimum Hit, +1% Melee Maximum Hit, and +10% Melee Maximum Hit per 10 Enemy Damage Reduction"
+},
+{
+    "id": "Strength_Training",
+    "media": "assets/shop/combatMastery/strength.svg",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "meleeStrengthBonus": 0.05
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 2
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [],
+    "purchaseRequirements": [],
+    "defaultBuyLimit": 0,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Strength Training",
+    "customDescription": "Gain +0.1 Flat Melee Strength Bonus"
+},
+{
+    "id": "Strength_Mastery_Cape",
+    "media": "assets/items/Equipment/Strength_Mastery_Cape.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [
+            {
+                "id": "expandedAreas:Strength_Mastery_Cape",
+                "quantity": 1
+            }
+        ]
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "melvorD:Strength_Skillcape",
+                "quantity": 1
+            }
+        ],
+        "currencies": [
+            {
+                "currency": "melvorD:GP",
+                "cost": 500000,
+                "type": "Fixed"
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Strength",
+            "level": 99,
+            "type": "SkillLevel"
+        },
+        {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Strength_Grandmaster",
+            "count": 1
+        }
+    ],
+    "defaultBuyLimit": 0,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Strength Mastery Cape"
+},
+{
+    "id": "Defence_Adept",
+    "media": "assets/shop/combatMastery/defence_adept.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "reflectDamage": 5,
+            "resistance": [
+                {
+                    "damageTypeID": "melvorD:Normal",
+                    "value": 1
+                }
+            ],
+            "evasion": 6
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 50
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Defence",
+            "level": 40,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Defence Adept",
+    "customDescription": "Gain +5% Reflect Damage, +1% Damage Reduction, and +6% Global Evasion"
+},
+{
+    "id": "Defence_Expert",
+    "media": "assets/shop/combatMastery/defence_expert.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "resistance": [
+                {
+                    "damageTypeID": "melvorD:Normal",
+                    "value": 2
+                }
+            ],
+            "evasion": 3
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 100
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Defence_Adept",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Defence",
+            "level": 60,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Defence Expert",
+    "customDescription": "Gain +2% Damage Reduction, +3% Global Evasion"
+},
+{
+    "id": "Defence_Master",
+    "media": "assets/shop/combatMastery/defence_master.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "evasion": 3,
+            "damageTaken": -1
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 150
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Defence_Expert",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Defence",
+            "level": 80,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Defence Master",
+    "customDescription": "Gain +3% Global Evasion and -1% Damage Taken from All Sources"
+},
+{
+    "id": "Defence_Grandmaster",
+    "media": "assets/shop/combatMastery/defence_grandmaster.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "reflectDamage": 5,
+            "evasion": 3,
+            "damageTaken": -2
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 200
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Defence_Master",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Defence",
+            "level": 99,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Defence Grandmaster",
+    "customDescription": "Gain +5% Reflect Damage, +3% Global Evasion, and -2% Damage Taken from All Sources"
+},
+{
+    "id": "Defence_Training",
+    "media": "assets/shop/combatMastery/defence.svg",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "flatMeleeDefenceBonus": 0.1,
+            "flatRangedDefenceBonus": 0.1,
+            "flatMagicDefenceBonus": 0.1
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 3
+            }
+        ]
+    },
+    "allowQuantityPurchase": true,
+    "unlockRequirements": [],
+    "purchaseRequirements": [],
+    "defaultBuyLimit": 0,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Defence Training",
+    "customDescription": "Gain +0.1 Flat Defence Bonus"
+},
+{
+    "id": "Defence_Mastery_Cape",
+    "media": "assets/items/Equipment/Defence_Mastery_Cape.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [
+            {
+                "id": "expandedAreas:Defence_Mastery_Cape",
+                "quantity": 1
+            }
+        ]
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "melvorD:Defence_Skillcape",
+                "quantity": 1
+            }
+        ],
+        "currencies": [
+            {
+                "currency": "melvorD:GP",
+                "cost": 500000,
+                "type": "Fixed"
+            }
+        ]
+    },
+    "allowQuantityPurchase": true,
+    "unlockRequirements": [],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Defence",
+            "level": 99,
+            "type": "SkillLevel"
+        },
+        {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Defence_Grandmaster",
+            "count": 1
+        }
+    ],
+    "defaultBuyLimit": 0,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Defence Mastery Cape"
+},
+{
+    "id": "Hitpoints_Adept",
+    "media": "assets/shop/combatMastery/hitpoints_adept.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "hPRegenBasedOnMaxHP": 5,
+            "effectIgnoreChance": [
+                {
+                    "effectGroupID": "melvorD:PoisonDOT",
+                    "value": 10
+                },
+                {
+                    "effectGroupID": "melvorD:BleedDOT",
+                    "value": 10
+                }
+            ],
+            "maxHitpoints": 1
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 50
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Hitpoints",
+            "level": 40,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Hitpoints Adept",
+    "customDescription": "Gain +5% Maximum Hitpoints added as Regen, +10% Chance to Ignore Poison and Bleed, and +1% Maximum Hitpoints"
+},
+{
+    "id": "Hitpoints_Expert",
+    "media": "assets/shop/combatMastery/hitpoints_expert.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "effectIgnoreChance": [
+                {
+                    "effectGroupID": "melvorD:PoisonDOT",
+                    "value": 20
+                },
+                {
+                    "effectGroupID": "melvorD:BleedDOT",
+                    "value": 20
+                }
+            ],
+            "maxHitpoints": 1
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 100
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Hitpoints_Adept",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Hitpoints",
+            "level": 60,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Hitpoints Expert",
+    "customDescription": "Gain +20% Chance to Ignore Poison and Bleed and +1% Maximum Hitpoints"
+},
+{
+    "id": "Hitpoints_Master",
+    "media": "assets/shop/combatMastery/hitpoints_master.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "maxHitpoints": 1,
+            "flatRegenerationInterval": -1
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 150
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Hitpoints_Expert",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Hitpoints",
+            "level": 80,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Hitpoints Master",
+    "customDescription": "Gain +1% Maximum Hitpoints and -1s Regen Interval"
+},
+{
+    "id": "Hitpoints_Grandmaster",
+    "media": "assets/shop/combatMastery/hitpoints_grandmaster.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "hPRegenBasedOnMaxHP": 5,
+            "maxHitpoints": 1,
+            "flatRegenerationInterval": -2
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 200
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Hitpoints_Master",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Hitpoints",
+            "level": 99,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Hitpoints Grandmaster",
+    "customDescription": "Gain +5% Maximum Hitpoints added as Regen, +1% Maximum Hitpoints, and -2s Regen Interval"
+},
+{
+    "id": "Hitpoints_Training",
+    "media": "assets/shop/combatMastery/hitpoints.svg",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "flatMaxHitpoints": 0.1
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 5
+            }
+        ]
+    },
+    "allowQuantityPurchase": true,
+    "unlockRequirements": [],
+    "purchaseRequirements": [],
+    "defaultBuyLimit": 0,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Hitpoints Training",
+    "customDescription": "Gain +1 Maximum Hitpoints"
+},
+{
+    "id": "Hitpoints_Mastery_Cape",
+    "media": "assets/items/Equipment/Hitpoints_Mastery_Cape.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [
+            {
+                "id": "expandedAreas:Hitpoints_Mastery_Cape",
+                "quantity": 1
+            }
+        ]
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "melvorD:Hitpoints_Skillcape",
+                "quantity": 1
+            }
+        ],
+        "currencies": [
+            {
+                "currency": "melvorD:GP",
+                "cost": 500000,
+                "type": "Fixed"
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Hitpoints",
+            "level": 99,
+            "type": "SkillLevel"
+        },
+        {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Hitpoints_Grandmaster",
+            "count": 1
+        }
+    ],
+    "defaultBuyLimit": 0,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Hitpoints Mastery Cape"
+},
+{
+    "id": "Ranged_Adept",
+    "media": "assets/shop/combatMastery/ranged_adept.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "rangedAttackInterval": -5,
+            "rangedMaxHit": 5,
+            "rangedAccuracyRating": 10
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 50
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Ranged",
+            "level": 40,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Ranged Adept",
+    "customDescription": "Gain -5% Ranged Attack Interval, +5% Ranged Max Hit, and +10% Ranged Accuracy"
+},
+{
+    "id": "Ranged_Expert",
+    "media": "assets/shop/combatMastery/ranged_expert.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "rangedCritChance": 10
+        },
+        "conditionalModifiers": [
+            {
+                "condition": {
+                    "character": "Player",
+                    "targetAttackType": "any",
+                    "thisAttackType": "ranged",
+                    "type": "CombatType"
+                },
+                "modifiers": {
+                    "attackRolls": 2
+                }
+            }
+        ]
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 100
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Ranged_Adept",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Ranged",
+            "level": 60,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Ranged Expert",
+    "customDescription": "Gain +10% Ranged Critical Hit Chance and Ranged Lucky1 (Ranged Attacks roll twice and take the higher result)"
+},
+{
+    "id": "Ranged_Master",
+    "media": "assets/shop/combatMastery/ranged_master.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "rangedAccuracyRating": 10
+        },
+        "conditionalModifiers": [
+            {
+                "condition": {
+                    "character": "Player",
+                    "thisAttackType": "ranged",
+                    "targetAttackType": "any",
+                    "type": "CombatType"
+                },
+                "modifiers": {
+                    "convertMissIntoHit": 5
+                }
+            }
+        ]
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 150
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Ranged_Expert",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Ranged",
+            "level": 80,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Ranged Master",
+    "customDescription": "Gain +10% Ranged Accuracy and +5% Chance to Convert a Ranged Miss into a Hit"
+},
+{
+    "id": "Ranged_Grandmaster",
+    "media": "assets/shop/combatMastery/ranged_grandmaster.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "conditionalModifiers": [
+            {
+                "condition": {
+                    "character": "Player",
+                    "thisAttackType": "ranged",
+                    "targetAttackType": "any",
+                    "type": "CombatType"
+                },
+                "modifiers": {
+                    "critMultiplier": 50
+                }
+            }
+        ],
+        "modifiers": {
+            "rangedMinHitBasedOnMaxHit": 5,
+            "rangedAccuracyRating": 10
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 200
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Ranged_Master",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Ranged",
+            "level": 99,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Ranged Grandmaster",
+    "customDescription": "Gain +5% Ranged Maximum Hit added to Ranged Mininum Hit, +10% Ranged Accuracy Rating, and +50% Ranged Critical Multiplier"
+},
+{
+    "id": "Ranged_Training",
+    "media": "assets/shop/combatMastery/ranged.svg",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "flatRangedAttackBonus": 0.1,
+            "flatRangedStrengthBonus": 0.1
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 3
+            }
+        ]
+    },
+    "allowQuantityPurchase": true,
+    "unlockRequirements": [],
+    "purchaseRequirements": [],
+    "defaultBuyLimit": 0,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Ranged Training",
+    "customDescription": "Gain +0.1 Ranged Accuracy and Ranged Strength"
+},
+{
+    "id": "Ranged_Mastery_Cape",
+    "media": "assets/items/Equipment/Ranged_Mastery_Cape.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [
+            {
+                "id": "expandedAreas:Ranged_Mastery_Cape",
+                "quantity": 1
+            }
+        ]
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "melvorF:Ranged_Skillcape",
+                "quantity": 1
+            }
+        ],
+        "currencies": [
+            {
+                "currency": "melvorD:GP",
+                "cost": 500000,
+                "type": "Fixed"
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Ranged",
+            "level": 99,
+            "type": "SkillLevel"
+        },
+        {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Ranged_Grandmaster",
+            "count": 1
+        }
+    ],
+    "defaultBuyLimit": 0,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Ranged Mastery Cape"
+},
+{
+    "id": "Magic_Adept",
+    "media": "assets/shop/combatMastery/magic_adept.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "magicLifesteal": 5,
+            "magicMaxHitAgainstMelee": 3,
+            "magicAccuracyRating": 10
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 50
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Magic",
+            "level": 40,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Magic Adept",
+    "customDescription": "Gain +5% Magic Lifesteal, +3% Magic Maximum Hit (tripled against Melee Enemies), and +10% Magic Accuracy"
+},
+{
+    "id": "Magic_Expert",
+    "media": "assets/shop/combatMastery/magic_expert.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "conditionalModifiers": [
+            {
+                "condition": {
+                    "character": "Player",
+                    "targetAttackType": "any",
+                    "thisAttackType": "magic",
+                    "type": "CombatType"
+                },
+                "modifiers": {
+                    "curseLifesteal": 10
+                },
+                "enemyModifiers": {
+                    "dotDamageTaken": 20
+                }
+            }
+        ]
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 100
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Magic_Adept",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Magic",
+            "level": 60,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Magic Expert",
+    "customDescription": "Gain +10% Magic Lifesteal while the Enemy is Cursed and +20% DoT Damage"
+},
+{
+    "id": "Magic_Master",
+    "media": "assets/shop/combatMastery/magic_master.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "magicAccuracyRating": 10,
+            "runePreservationChance": 10
+        },
+        "conditionalModifiers": [
+            {
+                "condition": {
+                    "character": "Player",
+                    "thisAttackType": "magic",
+                    "targetAttackType": "magic",
+                    "type": "CombatType"
+                },
+                "modifiers": {
+                    "dodgeChance": 10
+                }
+            }
+        ]
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 150
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Magic_Expert",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Magic",
+            "level": 80,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Magic Master",
+    "customDescription": "Gain +10% Magic Accuracy, Rune Preservation Chance, and Dodge Chance against Magic Enemies"
+},
+{
+    "id": "Magic_Grandmaster",
+    "media": "assets/shop/combatMastery/magic_grandmaster.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "flatSpellRuneCost": [
+                {
+                    "itemID": "melvorD:Mind_Rune",
+                    "value": -1
+                },
+                {
+                    "itemID": "melvorD:Chaos_Rune",
+                    "value": -1
+                },
+                {
+                    "itemID": "melvorD:Death_Rune",
+                    "value": -1
+                },
+                {
+                    "itemID": "melvorD:Blood_Rune",
+                    "value": -1
+                },
+                {
+                    "itemID": "melvorD:Ancient_Rune",
+                    "value": -1
+                }
+            ]
+        },
+        "conditionalModifiers": [
+            {
+                "condition": {
+                    "character": "Player",
+                    "thisAttackType": "magic",
+                    "targetAttackType": "any",
+                    "type": "CombatType"
+                },
+                "enemyModifiers": {
+                    "dotDamageTaken": 10
+                }
+            }
+        ],
+        "combatEffects": [
+            {
+                "appliesWhen": "HitByFirstAttack",
+                "chance": 50,
+                "condition": {
+                    "character": "Player",
+                    "thisAttackType": "magic",
+                    "targetAttackType": "ranged",
+                    "type": "CombatType"
+                },
+                "effectID": "melvorD:Freeze"
+            }
+        ]
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 200
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Magic_Master",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Magic",
+            "level": 99,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Magic Grandmaster",
+    "customDescription": "Gain +10% DoT damage, -1 Flat Attack Spell Rune Cost, and a 50% Chance when hit by the first Ranged Attack of the Fight to Freeze the Enemy for 2 turns."
+},
+{
+    "id": "Magic_Training",
+    "media": "assets/shop/combatMastery/magic.svg",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "flatMagicAttackBonus": 0.1,
+            "flatMagicDefenceBonus": 0.1
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 2
+            }
+        ]
+    },
+    "allowQuantityPurchase": true,
+    "unlockRequirements": [],
+    "purchaseRequirements": [],
+    "defaultBuyLimit": 0,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Magic Training",
+    "customDescription": "Gain +0.1 Magic Accuracy and Magic Defence"
+},
+{
+    "id": "Magic_Mastery_Cape",
+    "media": "assets/items/Equipment/Magic_Mastery_Cape.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [
+            {
+                "id": "expandedAreas:Magic_Mastery_Cape",
+                "quantity": 1
+            }
+        ]
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "melvorF:Magic_Skillcape",
+                "quantity": 1
+            }
+        ],
+        "currencies": [
+            {
+                "currency": "melvorD:GP",
+                "cost": 500000,
+                "type": "Fixed"
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Magic",
+            "level": 99,
+            "type": "SkillLevel"
+        },
+        {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Magic_Grandmaster",
+            "count": 1
+        }
+    ],
+    "defaultBuyLimit": 0,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Magic Mastery Cape"
+},
+{
+    "id": "Prayer_Adept",
+    "media": "assets/shop/combatMastery/prayer_adept.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "damageTakenAddedAsPrayerPoints": 5,
+            "maxHitBasedOnPrayerCost": 0.5,
+            "prayerPointPreservationChance": 10
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 50
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Prayer",
+            "level": 40,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Prayer Adept",
+    "customDescription": "5% of Damage Taken added as Prayer Points, +0.5% Maximum Hit per Prayer Point Cost of Active Prayers, and +10% Chance to Preserve Prayer Points"
+},
+{
+    "id": "Prayer_Expert",
+    "media": "assets/shop/combatMastery/prayer_expert.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "flatResistanceWithActivePrayer": [
+                {
+                    "damageTypeID": "melvorD:Normal",
+                    "value": 2
+                }
+            ],
+            "prayerPointPreservationChance": 10
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 100
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Prayer_Adept",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Prayer",
+            "level": 60,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Prayer Expert",
+    "customDescription": "2% Resistance while at least one Prayer is Active and +10% Chance to Preserve Prayer Points"
+},
+{
+    "id": "Prayer_Master",
+    "media": "assets/shop/combatMastery/prayer_master.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "prayerPointPreservationChance": 10,
+            "rebirthChance": 1
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 150
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Prayer_Expert",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Prayer",
+            "level": 80,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Prayer Master",
+    "customDescription": "+10% Chance to Preserve Prayer Points and +1% Rebirth Chance"
+},
+{
+    "id": "Prayer_Grandmaster",
+    "media": "assets/shop/combatMastery/prayer_grandmaster.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "damageTakenAddedAsPrayerPoints": 5,
+            "maxHitBasedOnPrayerCost": 0.5,
+            "rebirthChance": 2
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 200
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Prayer_Master",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Prayer",
+            "level": 99,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Prayer Grandmaster",
+    "customDescription": "+5% of Damage Taken added as Prayer Points, +0.5% Maximum Hit per Prayer Point cost, and +2% Rebirth Chance"
+},
+{
+    "id": "Prayer_Training",
+    "media": "assets/shop/combatMastery/prayer.svg",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "prayerPointsFromBurying": 0.1
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 1
+            }
+        ]
+    },
+    "allowQuantityPurchase": true,
+    "unlockRequirements": [],
+    "purchaseRequirements": [],
+    "defaultBuyLimit": 0,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Prayer Training",
+    "customDescription": "Gain +0.1% Prayer Points from Burying"
+},
+{
+    "id": "Prayer_Mastery_Cape",
+    "media": "assets/items/Equipment/Prayer_Mastery_Cape.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [
+            {
+                "id": "expandedAreas:Prayer_Mastery_Cape",
+                "quantity": 1
+            }
+        ]
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "melvorF:Prayer_Skillcape",
+                "quantity": 1
+            }
+        ],
+        "currencies": [
+            {
+                "currency": "melvorD:GP",
+                "cost": 500000,
+                "type": "Fixed"
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Prayer",
+            "level": 99,
+            "type": "SkillLevel"
+        },
+        {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Prayer_Grandmaster",
+            "count": 1
+        }
+    ],
+    "defaultBuyLimit": 0,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Prayer Mastery Cape"
+},
+{
+    "id": "Slayer_Adept",
+    "media": "assets/shop/combatMastery/slayer_adept.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "damageDealtToMonstersInArea": [
+                {
+                    "categoryID": "melvorF:SlayerAreas",
+                    "value": 5
+                }
+            ],
+            "slayerTaskCost": -20,
+            "slayerTaskExtensionCost": -20,
+            "flatSlayerAreaEffectNegation": 5
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 50
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Slayer",
+            "level": 40,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Slayer Adept",
+    "customDescription": "+5% Damage Dealt to monsters in Slayer Areas, -20% Slayer Task and Extension Costs, and +5% Flat Slayer Area Effect Negation"
+},
+{
+    "id": "Slayer_Expert",
+    "media": "assets/shop/combatMastery/slayer_expert.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "slayerTaskCost": -20,
+            "slayerTaskExtensionCost": -20,
+            "flatSlayerAreaEffectNegation": 5
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 100
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Slayer_Adept",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Slayer",
+            "level": 60,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Slayer Expert",
+    "customDescription": "-20% Slayer Task and Extension Costs and +5% Flat Slayer Area Effect Negation"
+},
+{
+    "id": "Slayer_Master",
+    "media": "assets/shop/combatMastery/slayer_master.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "flatSlayerAreaEffectNegation": 5,
+            "flatMonsterRespawnInterval": -0.1
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 150
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Slayer_Expert",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Slayer",
+            "level": 80,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Slayer Master",
+    "customDescription": "+5% Flat Slayer Area Effect Negation and -0.1s Monster Respawn Interval"
+},
+{
+    "id": "Slayer_Grandmaster",
+    "media": "assets/shop/combatMastery/slayer_grandmaster.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "damageDealtToMonstersInArea": [
+                {
+                    "categoryID": "melvorF:SlayerAreas",
+                    "value": 5
+                }
+            ],
+            "flatSlayerAreaEffectNegation": 5,
+            "flatMonsterRespawnInterval": -0.2
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 200
+            }
+        ]
+    },
+    "allowQuantityPurchase": false,
+    "unlockRequirements": [
+        {
+            "purchaseID": "expandedAreas:Slayer_Master",
+            "count": 1,
+            "type": "ShopPurchase"
+        }
+    ],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Slayer",
+            "level": 99,
+            "type": "SkillLevel"
+        }
+    ],
+    "defaultBuyLimit": 1,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Slayer Grandmaster",
+    "customDescription": "+5% Damage Dealt to monsters in Slayer Areas, +5% Flat Slayer Area Effect Negation, and -0.2s Monster Respawn Interval"
+},
+{
+    "id": "Slayer_Training",
+    "media": "assets/shop/combatMastery/slayer.svg",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [],
+        "modifiers": {
+            "damageDealtToSlayerTasks": 0.1,
+            "flatMonsterRespawnInterval": -0.001
+        }
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "expandedAreas:Mastery_Token_Combat",
+                "quantity": 5
+            }
+        ]
+    },
+    "allowQuantityPurchase": true,
+    "unlockRequirements": [],
+    "purchaseRequirements": [],
+    "defaultBuyLimit": 0,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Slayer Training",
+    "customDescription": "Gain +0.1% Damage Dealt to Slayer Tasks and -0.001s Monster Respawn Interval"
+},
+{
+    "id": "Slayer_Mastery_Cape",
+    "media": "assets/items/Equipment/Slayer_Mastery_Cape.png",
+    "category": "expandedAreas:CombatMastery",
+    "contains": {
+        "items": [
+            {
+                "id": "expandedAreas:Slayer_Mastery_Cape",
+                "quantity": 1
+            }
+        ]
+    },
+    "cost": {
+        "items": [
+            {
+                "id": "melvorF:Slayer_Skillcape",
+                "quantity": 1
+            }
+        ],
+        "currencies": [
+            {
+                "currency": "melvorD:GP",
+                "cost": 500000,
+                "type": "Fixed"
+            }
+        ]
+    },
+    "allowQuantityPurchase": true,
+    "unlockRequirements": [],
+    "purchaseRequirements": [
+        {
+            "skillID": "melvorD:Slayer",
+            "level": 99,
+            "type": "SkillLevel"
+        },
+        {
+            "type": "ShopPurchase",
+            "purchaseID": "expandedAreas:Slayer_Grandmaster",
+            "count": 1
+        }
+    ],
+    "defaultBuyLimit": 0,
+    "buyLimitOverrides": [],
+    "showBuyLimit": false,
+    "customName": "Slayer Mastery Cape"
+}
+],
+"shopDisplayOrder": [
+{
+    "insertAt": "Before",
+    "beforeID": "melvorD:Iron_Axe",
+    "ids": [
+        "expandedAreas:Attack_Training",
+        "expandedAreas:Attack_Adept",
+        "expandedAreas:Attack_Expert",
+        "expandedAreas:Attack_Master",
+        "expandedAreas:Attack_Grandmaster",
+        "expandedAreas:Attack_Mastery_Cape",
+        "expandedAreas:Strength_Training",
+        "expandedAreas:Strength_Adept",
+        "expandedAreas:Strength_Expert",
+        "expandedAreas:Strength_Master",
+        "expandedAreas:Strength_Grandmaster",
+        "expandedAreas:Strength_Mastery_Cape",
+        "expandedAreas:Defence_Training",
+        "expandedAreas:Defence_Adept",
+        "expandedAreas:Defence_Expert",
+        "expandedAreas:Defence_Master",
+        "expandedAreas:Defence_Grandmaster",
+        "expandedAreas:Defence_Mastery_Cape",
+        "expandedAreas:Hitpoints_Training",
+        "expandedAreas:Hitpoints_Adept",
+        "expandedAreas:Hitpoints_Expert",
+        "expandedAreas:Hitpoints_Master",
+        "expandedAreas:Hitpoints_Grandmaster",
+        "expandedAreas:Hitpoints_Mastery_Cape",
+        "expandedAreas:Ranged_Training",
+        "expandedAreas:Ranged_Adept",
+        "expandedAreas:Ranged_Expert",
+        "expandedAreas:Ranged_Master",
+        "expandedAreas:Ranged_Grandmaster",
+        "expandedAreas:Ranged_Mastery_Cape",
+        "expandedAreas:Magic_Training",
+        "expandedAreas:Magic_Adept",
+        "expandedAreas:Magic_Expert",
+        "expandedAreas:Magic_Master",
+        "expandedAreas:Magic_Grandmaster",
+        "expandedAreas:Magic_Mastery_Cape",
+        "expandedAreas:Prayer_Training",
+        "expandedAreas:Prayer_Adept",
+        "expandedAreas:Prayer_Expert",
+        "expandedAreas:Prayer_Master",
+        "expandedAreas:Prayer_Grandmaster",
+        "expandedAreas:Prayer_Mastery_Cape",
+        "expandedAreas:Slayer_Training",
+        "expandedAreas:Slayer_Adept",
+        "expandedAreas:Slayer_Expert",
+        "expandedAreas:Slayer_Master",
+        "expandedAreas:Slayer_Grandmaster",
+        "expandedAreas:Slayer_Mastery_Cape"
+    ]
+},
+{
+    "insertAt": "Before",
+    "beforeID": "melvorF:Auto_Slayer",
+    "ids": [
+        "expandedAreas:Farmlands100",
+        "expandedAreas:Farmlands200",
+        "expandedAreas:Farmlands300",
+        "expandedAreas:Farmlands400",
+        "expandedAreas:Farmlands500",
+        "expandedAreas:Farmlands600",
+        "expandedAreas:Farmlands700",
+        "expandedAreas:Farmlands800",
+        "expandedAreas:Farmlands900",
+        "expandedAreas:Farmlands1000",
+        "expandedAreas:Farmlands2000",
+        "expandedAreas:Farmlands3000",
+        "expandedAreas:Farmlands4000",
+        "expandedAreas:Farmlands5000",
+        "expandedAreas:Farmlands6000",
+        "expandedAreas:Farmlands7000",
+        "expandedAreas:Farmlands8000",
+        "expandedAreas:Farmlands9000",
+        "expandedAreas:Farmlands10000"
+    ]
+}
+],
+"shopUpgradeChains": [
+{
+    "id": "Farmlands",
+    "chainName": "Current Farmlands Completion",
+    "rootUpgradeID": "expandedAreas:Farmlands10000",
+    "defaultName": "Farmlands Completion",
+    "defaultDescription": "No Farmlands completion."
+},
+{
+    "id": "Attack_Mastery",
+    "chainName": "Current Attack Mastery Level",
+    "rootUpgradeID": "expandedAreas:Attack_Grandmaster",
+    "defaultName": "Attack Mastery",
+    "defaultDescription": "No mastery bonuses."
+},
+{
+    "id": "Strength_Mastery",
+    "chainName": "Current Strength Mastery Level",
+    "rootUpgradeID": "expandedAreas:Strength_Grandmaster",
+    "defaultName": "Strength Mastery",
+    "defaultDescription": "No mastery bonuses."
+},
+{
+    "id": "Defence_Mastery",
+    "chainName": "Current Defence Mastery Level",
+    "rootUpgradeID": "expandedAreas:Defence_Grandmaster",
+    "defaultName": "Defence Mastery",
+    "defaultDescription": "No mastery bonuses."
+},
+{
+    "id": "Hitpoints_Mastery",
+    "chainName": "Current Hitpoints Mastery Level",
+    "rootUpgradeID": "expandedAreas:Hitpoints_Grandmaster",
+    "defaultName": "Hitpoints Mastery",
+    "defaultDescription": "No mastery bonuses."
+},
+{
+    "id": "Ranged_Mastery",
+    "chainName": "Current Ranged Mastery Level",
+    "rootUpgradeID": "expandedAreas:Ranged_Grandmaster",
+    "defaultName": "Ranged Mastery",
+    "defaultDescription": "No mastery bonuses."
+},
+{
+    "id": "Magic_Mastery",
+    "chainName": "Current Magic Mastery Level",
+    "rootUpgradeID": "expandedAreas:Magic_Grandmaster",
+    "defaultName": "Magic Mastery",
+    "defaultDescription": "No mastery bonuses."
+},
+{
+    "id": "Prayer_Mastery",
+    "chainName": "Current Prayer Mastery Level",
+    "rootUpgradeID": "expandedAreas:Prayer_Grandmaster",
+    "defaultName": "Prayer Mastery",
+    "defaultDescription": "No mastery bonuses."
+},
+{
+    "id": "Slayer_Mastery",
+    "chainName": "Current Slayer Mastery Level",
+    "rootUpgradeID": "expandedAreas:Slayer_Grandmaster",
+    "defaultName": "Slayer Mastery",
+    "defaultDescription": "No mastery bonuses."
+}
+],
+"bankSortOrder": [
+{
+    "insertAt": "After",
+    "afterID": "melvorD:Attack_Skillcape",
+    "ids": [
+        "expandedAreas:Attack_Mastery_Cape"
+    ]
+},
+{
+    "insertAt": "After",
+    "afterID": "melvorD:Strength_Skillcape",
+    "ids": [
+        "expandedAreas:Strength_Mastery_Cape"
+    ]
+},
+{
+    "insertAt": "After",
+    "afterID": "melvorD:Defence_Skillcape",
+    "ids": [
+        "expandedAreas:Defence_Mastery_Cape"
+    ]
+},
+{
+    "insertAt": "After",
+    "afterID": "melvorD:Hitpoints_Skillcape",
+    "ids": [
+        "expandedAreas:Hitpoints_Mastery_Cape"
+    ]
+},
+{
+    "insertAt": "After",
+    "afterID": "melvorF:Ranged_Skillcape",
+    "ids": [
+        "expandedAreas:Ranged_Mastery_Cape"
+    ]
+},
+{
+    "insertAt": "After",
+    "afterID": "melvorF:Magic_Skillcape",
+    "ids": [
+        "expandedAreas:Magic_Mastery_Cape"
+    ]
+},
+{
+    "insertAt": "After",
+    "afterID": "melvorF:Prayer_Skillcape",
+    "ids": [
+        "expandedAreas:Prayer_Mastery_Cape"
+    ]
+},
+{
+    "insertAt": "After",
+    "afterID": "melvorF:Slayer_Skillcape",
+    "ids": [
+        "expandedAreas:Slayer_Mastery_Cape"
+    ]
+}
+]
+},
+        "modifications": {}
 }

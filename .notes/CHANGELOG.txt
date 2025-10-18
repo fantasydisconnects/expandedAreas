@@ -1,9 +1,29 @@
 New Content:
-added air, earth, fire, water, and elementalist wizard gloves
-added ancient wizard gloves, loot from magic chest
+Added monster categories for each base game monster (AoD and TotH will get this in future): Alien, Beast, Celestial, Construct, Dragon, Elemental, Fiend, Humanoid, Myth, Monstrosity, Plant, and Undead. Each have their own unique bonuses/detriments.
+Added various Resistance/Weaknesses as Combat Passives to several enemies.
+Added new Accessory items called Sigils, made using Alt Magic and Crafting
+Added several new Township tasks
+Added new DOT Combat Effect called Wither, which acts like Bleed but lasts for much longer and can remain on you in between fights.
+Added new stacking Debuff called DecreasedStrengthStacking, which reduces Maximum Hit by 10% per stack, up to 5 stacks.
+Added new tertiary ingredients as drops from certain enemies
+
 
 Balance Changes:
-
+Changed item synergy for barbarian longblade and warrior helm to give +50% accuracy from +25%
+Increased Longblade requirements from 45 Attack to 50 and added 50 Strength requirement
+Changed item synergy for barbarian berserker axe and berserker helm to give +5% melee lifesteal up from +2%
+Increased Berserker Axe requirements from 45 Attack/Strength to 50/50
+Removed 50 Defence requirement from Barbarian Brawling Gloves
+Changed item synergy for shroud of the badlands, lantern oil, and blazing lantern to give +10% damage to Slayer tasks when all 3 are worn together
+Changed item synergy for shroud of the badlands and blazing lantern to also give +20% Slayer Coins from tasks to make up for the lack of stats on the cape
+Changed the new Ancients spells to require 100 completions of Hall of Wizards, and changed their effects
+Increased chance of Pine Resin and Turpentine drops from Pine Trees and Firemaking by 50% (multiplicative)
+Decreased amount of Pine Resin needed to mix Volatile Potions from 4 -> 2
+Changed Sterkite Rock Mining requirement from 20 -> 30
+Changed Sterkite Bar ore requirement from 2 -> 1
+Switched Ruby and Emerald Dust (Ruby comes first in recipes)
 
 Bug Fixes:
-renamed wrath rune to rage rune to avoid conflicts with into the abyss
+fixed Coffee perfect % chance to ignore drowsy or sleep 37.5 -> 27.5 as intended
+fixed miolite caves slayer requirement displaying as lvl 40 slayer and lvl 50 slayer
+fixed elementalist sceptre to be 2 handed as intended, and added bonus to nature spells
