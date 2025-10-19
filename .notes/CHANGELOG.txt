@@ -8,3 +8,8 @@
 8. (ITEM) Fix item descriptions for Pocket Sand, Barbarian Longblade/Warrior Helm, and Drinks
 9. (MONSTER) Fix missing Monster Type images and descriptions
 10. (ITEM) Adjust Enchanted [GemType] Dust to look more enchanted visually
+11. (SKILLS) Fix missing images for Alt Magic Enchant I-VI
+12. (ITEM) Decrease Facekicker/Facekicker (m) Attack Interval from -20% -> -10% / -30% -> -20%.
+13. (SKILLS) Increase Crafting material costs for Sigils
+14. (ITEM) Decrease sell price for Celestial Feather from 50,000 -> 5,000
+15. 

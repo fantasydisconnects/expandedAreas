@@ -3,7 +3,6 @@ Known bugs 0.8:
 
 
 Balance issues 0.8:
-1. Facekicker is far too powerful
 2. Greater Sigil of Swiftness too easy to obtain for the effect
 3. Thrownaxes are a lil too powerful because of the crit chance plus having balanced stats (in between knives and javelins)
 4. Blackjack drops too often
