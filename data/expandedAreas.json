@@ -640,7 +640,7 @@
         "id": "MonsterTypeAlien",
         "templateID": "melvorD:StaticNonCountingModifier",
         "name": "Alien",
-        "media": "assets/status/alien.svg",
+        "media": "assets/status/alien.png",
         "target": "Self",
         "parameters": [],
         "statGroups": [
@@ -660,7 +660,7 @@
         "id": "MonsterTypeBeast",
         "templateID": "melvorD:StaticNonCountingModifier",
         "name": "Beast",
-        "media": "assets/status/Beast.svg",
+        "media": "assets/status/beast.png",
         "target": "Self",
         "parameters": [],
         "statGroups": [
@@ -676,32 +676,36 @@
         "id": "MonsterTypeCelestial",
         "templateID": "melvorD:StaticNonCountingModifier",
         "name": "Celestial",
-        "media": "assets/status/celestial.svg",
+        "media": "assets/status/celestial.png",
         "target": "Self",
         "parameters": [],
         "statGroups": [
           {
             "name": "stacks",
-            "modifiers": {
-              "effectImmunity": [
-                {
-                  "effectGroupID": "melvorD:Fear",
-                  "value": 1
-                },
-                {
-                  "effectGroupID": "melvorD:Sleep",
-                  "value": 1
-                }
-              ]
-            }
+            "combatEffects": [
+              {
+            "effectID": "melvorD:SlayerEndOfTurnCurrentHealing",
+            "initialParams": [
+              {
+                "name": "XTurns",
+                "value": 5
+              },
+              {
+                "name": "percent",
+                "value": 10
+              }
+            ],
+            "appliesWhen": "StartOfFight"
           }
+        ]
+      }
         ]
       },
       {
         "id": "MonsterTypeConstruct",
         "templateID": "melvorD:StaticNonCountingModifier",
         "name": "Construct",
-        "media": "assets/status/Construct.svg",
+        "media": "assets/status/construct.png",
         "target": "Self",
         "parameters": [],
         "statGroups": [
@@ -726,7 +730,7 @@
         "id": "MonsterTypeDragonkin",
         "templateID": "melvorD:StaticNonCountingModifier",
         "name": "Dragonkin",
-        "media": "assets/status/Dragonkin.svg",
+        "media": "assets/status/dragonkin.png",
         "target": "Self",
         "parameters": [],
         "statGroups": [
@@ -738,7 +742,14 @@
                   "effectGroupID": "melvorD:BurnDOT",
                   "value": 50
                 }
-              ]
+              ],
+              "damageTaken": [
+                {
+                  "effectGroupID": "melvorD:BurnDOT",
+                  "value": -50
+                }
+              ],
+              "dragonBreathDamage": -100
             }
           }
         ]
@@ -747,14 +758,14 @@
         "id": "MonsterTypeElemental",
         "templateID": "melvorD:StaticNonCountingModifier",
         "name": "Elemental",
-        "media": "assets/status/elemental.svg",
+        "media": "assets/status/elemental.png",
         "target": "Target",
         "parameters": [],
         "statGroups": [
           {
             "name": "stacks",
             "modifiers": {
-              "rolledReflectDamage": 3
+              "evasion": 10
             }
           }
         ]
@@ -763,7 +774,7 @@
         "id": "MonsterTypeFiend",
         "templateID": "melvorD:StaticNonCountingModifier",
         "name": "Fiend",
-        "media": "assets/status/Fiend.svg",
+        "media": "assets/status/fiend.png",
         "target": "Self",
         "parameters": [],
         "statGroups": [
@@ -784,7 +795,7 @@
         "id": "MonsterTypeGiant",
         "templateID": "melvorD:StaticNonCountingModifier",
         "name": "Giant",
-        "media": "assets/status/giant.svg",
+        "media": "assets/status/giant.png",
         "target": "Self",
         "parameters": [],
         "statGroups": [
@@ -800,14 +811,14 @@
         "id": "MonsterTypeHumanoid",
         "templateID": "melvorD:StaticNonCountingModifier",
         "name": "Humanoid",
-        "media": "assets/status/human.svg",
+        "media": "assets/status/human.png",
         "target": "Self",
         "parameters": [],
         "statGroups": [
           {
             "name": "stacks",
             "modifiers": {
-              "damageBasedOnCurrentHitpoints": 10
+              "attackRolls": 2
             }
           }
         ]
@@ -816,15 +827,25 @@
         "id": "MonsterTypeMonstrosity",
         "templateID": "melvorD:StaticNonCountingModifier",
         "name": "Monstrosity",
-        "media": "assets/status/Monstrosity.svg",
+        "media": "assets/status/monstrosity.png",
         "target": "Self",
         "parameters": [],
         "statGroups": [
           {
             "name": "stacks",
-            "modifiers": {
-              "critChance": 5
-            }
+            "combatEffects": [
+              {
+                "appliesWhen": "StartOfFight",
+                "chance": 20,
+                "effectID": "melvorD:Fear",
+                "initialParams": [
+                  {
+                    "name": "turns",
+                    "value": 2
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -832,7 +853,7 @@
         "id": "MonsterTypeMyth",
         "templateID": "melvorD:StaticNonCountingModifier",
         "name": "Myth",
-        "media": "assets/status/Myth.svg",
+        "media": "assets/status/myth.png",
         "target": "Self",
         "parameters": [],
         "statGroups": [
@@ -848,7 +869,7 @@
         "id": "MonsterTypePlant",
         "templateID": "melvorD:StaticNonCountingModifier",
         "name": "Plant",
-        "media": "assets/status/Plant.svg",
+        "media": "assets/status/plant.png",
         "target": "Self",
         "parameters": [],
         "statGroups": [
@@ -856,10 +877,16 @@
             "name": "stacks",
             "modifiers": {
               "hitpointRegeneration": 500,
+              "effectImmunity": [
+                {
+                  "effectGroupID": "melvorD:Sleep",
+                  "value": 1
+                }
+              ]
               "damageTaken": [
                 {
                   "effectGroupID": "melvorD:BurnDOT",
-                  "value": 200
+                  "value": 100
                 }
               ]
             }
@@ -870,7 +897,7 @@
         "id": "MonsterTypeUndead",
         "templateID": "melvorD:StaticNonCountingModifier",
         "name": "Undead",
-        "media": "assets/status/undead.svg",
+        "media": "assets/status/undead.png",
         "target": "Self",
         "parameters": [],
         "statGroups": [
@@ -1206,6 +1233,7 @@
       {
         "id": "MonsterTypeAlien",
         "name": "Monster Type: Alien",
+        "customDescription": "Aliens apply <strong>Confusion</strong> (+2% of remaining Hitpoints taken as damage on a successful attack (once per turn, capped at 10K damage)) for 3 turns at the Start of the Fight.",
         "combatEffects": [
           {
             "appliesWhen": "StartOfFight",
@@ -1216,6 +1244,7 @@
       {
         "id": "MonsterTypeBeast",
         "name": "Monster Type: Beast",
+        "customDescription": "Beasts have +5% Lifesteal.",
         "combatEffects": [
           {
             "appliesWhen": "StartOfFight",
@@ -1226,6 +1255,7 @@
       {
         "id": "MonsterTypeConstruct",
         "name": "Monster Type: Construct",
+        "customDescription": "Constructs are immune to Poison and Bleed.",
         "combatEffects": [
           {
             "appliesWhen": "StartOfFight",
@@ -1236,6 +1266,7 @@
       {
         "id": "MonsterTypeCelestial",
         "name": "Monster Type: Celestial",
+        "customDescription": "Celestials regenerate 10% of their health at the end of each of their turns for the first 5 turns at the Start of the Fight.",
         "combatEffects": [
           {
             "appliesWhen": "StartOfFight",
@@ -1246,6 +1277,7 @@
       {
         "id": "MonsterTypeDragonkin",
         "name": "Monster Type: Dragonkin",
+        "customDescription": "Dragonkin are 50% resistant to Burn and 100% resistant to Dragonbreath.",
         "combatEffects": [
           {
             "appliesWhen": "StartOfFight",
@@ -1256,6 +1288,7 @@
       {
         "id": "MonsterTypeElemental",
         "name": "Monster Type: Elemental",
+        "customDescription": "Elementals have +10% Global Evasion.",
         "combatEffects": [
           {
             "appliesWhen": "StartOfFight",
@@ -1266,6 +1299,7 @@
       {
         "id": "MonsterTypeFiend",
         "name": "Monster Type: Fiend",
+        "customDescription": "Fiends are immune to Curses.",
         "combatEffects": [
           {
             "appliesWhen": "StartOfFight",
@@ -1276,6 +1310,7 @@
       {
         "id": "MonsterTypeGiant",
         "name": "Monster Type: Giant",
+        "customDescription": "Giants have +20% Maximum Hitpoints.",
         "combatEffects": [
           {
             "appliesWhen": "StartOfFight",
@@ -1286,6 +1321,7 @@
       {
         "id": "MonsterTypeHumanoid",
         "name": "Monster Type: Humanoid",
+        "customDescription": "Humanoids are Lucky (their attacks roll twice and take the higher result).",
         "combatEffects": [
           {
             "appliesWhen": "StartOfFight",
@@ -1294,18 +1330,9 @@
         ]
       },
       {
-        "id": "MonsterTypeMyth",
-        "name": "Monster Type: Myth",
-        "combatEffects": [
-          {
-            "appliesWhen": "StartOfFight",
-            "effectID": "expandedAreas:MonsterTypeMyth"
-          }
-        ]
-      },
-      {
         "id": "MonsterTypeMonstrosity",
         "name": "Monster Type: Monstrosity",
+        "customDescription": "Monstrosities have a 20% chance to inflict Fear for 2 turns at the Start of the Fight.",
         "combatEffects": [
           {
             "appliesWhen": "StartOfFight",
@@ -1314,8 +1341,21 @@
         ]
       },
       {
+        "id": "MonsterTypeMyth",
+        "name": "Monster Type: Myth",
+        "customDescription": "Myths have a 20% chance to Dodge Magic Attacks.",
+        "combatEffects": [
+          {
+            "appliesWhen": "StartOfFight",
+            "effectID": "expandedAreas:MonsterTypeMyth"
+          }
+        ]
+      },
+      
+      {
         "id": "MonsterTypePlant",
         "name": "Monster Type: Plant",
+        "customDescription": "Plants are immune to Sleep and Regen 5x as fast, but take 2x as much damage from Burn.",
         "combatEffects": [
           {
             "appliesWhen": "StartOfFight",
@@ -1326,6 +1366,7 @@
       {
         "id": "MonsterTypeUndead",
         "name": "Monster Type: Undead",
+        "customDescription": "Undead are immune to Sleep and Poison, and have a 10% chance upon dying to be rebirthed with 100% of their Hitpoints.",
         "combatEffects": [
           {
             "appliesWhen": "StartOfFight",
@@ -2032,7 +2073,7 @@
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 50000
+        "sellsFor": 5000
       },
       {
         "itemType": "Item",
@@ -5834,6 +5875,7 @@
         "healsFor": 8,
         "conditionalModifiers": [
           {
+            "description": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -5861,6 +5903,7 @@
         "healsFor": 10,
         "conditionalModifiers": [
           {
+            "description": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -5888,6 +5931,7 @@
         "healsFor": 10.5,
         "conditionalModifiers": [
           {
+            "description": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -5915,6 +5959,7 @@
         "healsFor": 12,
         "conditionalModifiers": [
           {
+            "description": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -5942,6 +5987,7 @@
         "healsFor": 14,
         "conditionalModifiers": [
           {
+            "description": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -5969,6 +6015,7 @@
         "healsFor": 14.8,
         "conditionalModifiers": [
           {
+            "description": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -5996,6 +6043,7 @@
         "healsFor": 15.4,
         "conditionalModifiers": [
           {
+            "description": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6023,6 +6071,7 @@
         "healsFor": 16,
         "conditionalModifiers": [
           {
+            "description": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6050,6 +6099,7 @@
         "healsFor": 17.2,
         "conditionalModifiers": [
           {
+            "description": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6077,6 +6127,7 @@
         "healsFor": 18.5,
         "conditionalModifiers": [
           {
+            "description": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6104,6 +6155,7 @@
         "healsFor": 19.1,
         "conditionalModifiers": [
           {
+            "description": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6131,6 +6183,7 @@
         "healsFor": 17,
         "conditionalModifiers": [
           {
+            "description": "+25% Chance to ignore Drowsy and Sleep when at or above 75% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6167,6 +6220,7 @@
         "healsFor": 18.7,
         "conditionalModifiers": [
           {
+            "description": "+27.5% Chance to ignore Drowsy and Sleep when at or above 75% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6203,6 +6257,7 @@
         "healsFor": 20.5,
         "conditionalModifiers": [
           {
+            "description": "+10% Auto Eat Efficiency when at or below 25% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6482,6 +6537,7 @@
         "healsFor": 8.8,
         "conditionalModifiers": [
           {
+            "description": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6509,6 +6565,7 @@
         "healsFor": 11.0,
         "conditionalModifiers": [
           {
+            "description": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6536,6 +6593,7 @@
         "healsFor": 11.6,
         "conditionalModifiers": [
           {
+            "description": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6563,6 +6621,7 @@
         "healsFor": 13.2,
         "conditionalModifiers": [
           {
+            "description": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6590,6 +6649,7 @@
         "healsFor": 15.4,
         "conditionalModifiers": [
           {
+            "description": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6617,6 +6677,7 @@
         "healsFor": 16.3,
         "conditionalModifiers": [
           {
+            "description": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6644,6 +6705,7 @@
         "healsFor": 16.9,
         "conditionalModifiers": [
           {
+            "description": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6671,6 +6733,7 @@
         "healsFor": 17.6,
         "conditionalModifiers": [
           {
+            "description": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6698,6 +6761,7 @@
         "healsFor": 18.9,
         "conditionalModifiers": [
           {
+            "description": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6725,6 +6789,7 @@
         "healsFor": 20.4,
         "conditionalModifiers": [
           {
+            "description": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6752,6 +6817,7 @@
         "healsFor": 21,
         "conditionalModifiers": [
           {
+            "description": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6779,6 +6845,7 @@
         "healsFor": 22.6,
         "conditionalModifiers": [
           {
+            "description": "+11% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -6806,6 +6873,7 @@
         "healsFor": 30.8,
         "conditionalModifiers": [
           {
+            "description": "+16.5% Auto Eat Efficiency when at or below 27.5% Hitpoints.",
             "condition": {
               "character": "Player",
               "type": "Hitpoints",
@@ -12010,7 +12078,7 @@
         "category": "Combat",
         "type": "Armour",
         "media": "assets/items/Equipment/Barbarian_Warrior_Helm.png",
-        "customDescription": "<span class=\"text-warning\">When equipped with <strong>Barbarian Longblade</strong>, gain +25% Melee Accuracy Rating.</span>",
+        "customDescription": "<span class=\"text-warning\">When equipped with <strong>Barbarian Longblade</strong>, gain +50% Melee Accuracy Rating.</span>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -12219,7 +12287,7 @@
         "category": "Combat",
         "type": "Weapon",
         "media": "assets/items/Weapon/Barbarian_Longblade.png",
-        "customDescription": "<span class=\"text-warning\">When equipped with <strong>Barbarian Warrior Helm</strong>, gain +25% Melee Accuracy Rating.</span>",
+        "customDescription": "<span class=\"text-warning\">When equipped with <strong>Barbarian Warrior Helm</strong>, gain +50% Melee Accuracy Rating.</span>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -12418,17 +12486,17 @@
           "flatSkillInterval": [
             {
               "skillID": "melvorD:Fletching",
-              "value": -0.5,
+              "value": -500,
               "categoryID": "melvorF:Arrows"
             },
             {
               "skillID": "melvorD:Fletching",
-              "value": -0.5,
+              "value": -500,
               "categoryID": "melvorF:Shortbows"
             },
             {
               "skillID": "melvorD:Fletching",
-              "value": -0.5,
+              "value": -500,
               "categoryID": "melvorF:Longbows"
             }
           ]
@@ -13363,6 +13431,7 @@
         "type": "Misc",
         "itemType": "Equipment",
         "media": "assets/items/Equipment/Pocket_Sand.png",
+        "customDescription": "On Enemy Attack, 20% chance to give the Enemy -10% Global Accuracy for 3 turns.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -13384,7 +13453,7 @@
           {
             "appliesWhen": "BeingAttacked",
             "effectID": "melvorF:BlindingII",
-            "chance": 10
+            "chance": 20
           }
         ],
         "consumesOn": [
@@ -55924,7 +55993,7 @@
         "id": "melvorF:Eyes",
         "passives": {
           "add": [
-            "expandedAreas:MonsterTypeMonstrosity"
+            "expandedAreas:MonsterTypeAlien"
           ]
         }
       },
@@ -55940,7 +56009,7 @@
         "id": "melvorF:FearfulEye",
         "passives": {
           "add": [
-            "expandedAreas:MonsterTypeFiend"
+            "expandedAreas:MonsterTypeAlien"
           ]
         }
       },
@@ -56215,7 +56284,7 @@
         "id": "melvorF:LotsofEyes",
         "passives": {
           "add": [
-            "expandedAreas:MonsterTypeMonstrosity"
+            "expandedAreas:MonsterTypeAliebn"
           ]
         }
       },
@@ -56247,7 +56316,7 @@
         "id": "melvorF:ManyEyedMonster",
         "passives": {
           "add": [
-            "expandedAreas:MonsterTypeMonstrosity"
+            "expandedAreas:MonsterTypeAlien"
           ]
         }
       },
@@ -56568,7 +56637,7 @@
         "id": "melvorD:ResurrectedEye",
         "passives": {
           "add": [
-            "expandedAreas:MonsterTypeUndead"
+            "expandedAreas:MonsterTypeAlien"
           ]
         }
       },
@@ -56688,7 +56757,7 @@
         "id": "melvorF:StrangeEyedMonster",
         "passives": {
           "add": [
-            "expandedAreas:MonsterTypeMonstrosity"
+            "expandedAreas:MonsterTypeAlien"
           ]
         }
       },
@@ -56696,7 +56765,7 @@
         "id": "melvorF:SuperiorEyedMonster",
         "passives": {
           "add": [
-            "expandedAreas:MonsterTypeMonstrosity"
+            "expandedAreas:MonsterTypeAlien"
           ]
         }
       },
@@ -56729,7 +56798,7 @@
         "id": "melvorD:TheEye",
         "passives": {
           "add": [
-            "expandedAreas:MonsterTypeMonstrosity"
+            "expandedAreas:MonsterTypeAlien"
           ]
         }
       },
