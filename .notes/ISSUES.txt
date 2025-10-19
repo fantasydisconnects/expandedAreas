@@ -1,10 +1,4 @@
-Known bugs 0.8:
-14. enchant i-vi missing images
 
-
-Balance issues 0.8:
-2. Greater Sigil of Swiftness too easy to obtain for the effect
-3. Thrownaxes are a lil too powerful because of the crit chance plus having balanced stats (in between knives and javelins)
 4. Blackjack drops too often
 5. Mysterious tome drops too often
 6. Golbin Staff drops too often

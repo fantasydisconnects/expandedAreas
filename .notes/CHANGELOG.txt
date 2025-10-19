@@ -13,3 +13,4 @@
 13. (SKILLS) Increase Crafting material costs for Sigils
 14. (ITEM) Decrease sell price for Celestial Feather from 50,000 -> 5,000
 15. (ITEM) Decrease Ranged Strength Bonus for Thrownaxes by 20% due to innate Crit Chance
+16. (MONSTER) Decrease drop rate for Blackjack from Pickpocket from ~1/94 to ~1/306
