@@ -4985,6 +4985,7 @@
         "category": "Combat",
         "type": "Ammo",
         "media": "assets/items/Equipment/Bronze_Javelin_Ammo.png",
+        "customDescription": "For use with the <strong>Heavy Hand Ballista</strong>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -5020,6 +5021,7 @@
         "category": "Combat",
         "type": "Ammo",
         "media": "assets/items/Equipment/Iron_Javelin_Ammo.png",
+        "customDescription": "For use with the <strong>Heavy Hand Ballista</strong>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -5055,6 +5057,7 @@
         "category": "Combat",
         "type": "Ammo",
         "media": "assets/items/Equipment/Steel_Javelin_Ammo.png",
+        "customDescription": "For use with the <strong>Heavy Hand Ballista</strong>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -5090,6 +5093,7 @@
         "category": "Combat",
         "type": "Ammo",
         "media": "assets/items/Equipment/Black_Javelin_Ammo.png",
+        "customDescription": "For use with the <strong>Heavy Hand Ballista</strong>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -5125,6 +5129,7 @@
         "category": "Combat",
         "type": "Ammo",
         "media": "assets/items/Equipment/Mithril_Javelin_Ammo.png",
+        "customDescription": "For use with the <strong>Heavy Hand Ballista</strong>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -5160,6 +5165,7 @@
         "category": "Combat",
         "type": "Ammo",
         "media": "assets/items/Equipment/Adamant_Javelin_Ammo.png",
+        "customDescription": "For use with the <strong>Heavy Hand Ballista</strong>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -5195,6 +5201,7 @@
         "category": "Combat",
         "type": "Ammo",
         "media": "assets/items/Equipment/Rune_Javelin_Ammo.png",
+        "customDescription": "For use with the <strong>Heavy Hand Ballista</strong>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -5230,6 +5237,7 @@
         "category": "Combat",
         "type": "Ammo",
         "media": "assets/items/Equipment/Dragon_Javelin_Ammo.png",
+        "customDescription": "For use with the <strong>Heavy Hand Ballista</strong>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -5265,6 +5273,7 @@
         "category": "Combat",
         "type": "Ammo",
         "media": "assets/items/Equipment/Pure_Crystal_Javelin_Ammo.png",
+        "customDescription": "For use with the <strong>Heavy Hand Ballista</strong>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -5306,6 +5315,7 @@
         "category": "Combat",
         "type": "Ammo",
         "media": "assets/items/Equipment/Ancient_Javelin_Ammo.png",
+        "customDescription": "For use with the <strong>Heavy Hand Ballista</strong>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -5341,6 +5351,7 @@
         "category": "Combat",
         "type": "Ammo",
         "media": "assets/items/Equipment/Crystal_Javelin_Ammo.png",
+        "customDescription": "For use with the <strong>Heavy Hand Ballista</strong>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -5382,6 +5393,7 @@
         "category": "Combat",
         "type": "Ammo",
         "media": "assets/items/Equipment/Corundum_Javelin_Ammo.png",
+        "customDescription": "For use with the <strong>Heavy Hand Ballista</strong>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -5422,6 +5434,7 @@
         "category": "Combat",
         "type": "Ammo",
         "media": "assets/items/Equipment/Augite_Javelin_Ammo.png",
+        "customDescription": "For use with the <strong>Heavy Hand Ballista</strong>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -5462,6 +5475,7 @@
         "category": "Combat",
         "type": "Ammo",
         "media": "assets/items/Equipment/Divine_Javelin_Ammo.png",
+        "customDescription": "For use with the <strong>Heavy Hand Ballista</strong>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -5502,6 +5516,7 @@
         "category": "Combat",
         "type": "Ammo",
         "media": "assets/items/Equipment/Meteorite_Javelin_Ammo.png",
+        "customDescription": "For use with the <strong>Heavy Hand Ballista</strong>",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -24298,9 +24313,10 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 20
+              "quantity": 10
             }
-          ]
+          ],
+          "modifiers": {}
         },
         "cost": {
           "items": []
@@ -38188,7 +38204,7 @@
       },
       {
         "id": "SecludedMonastery100",
-        "media": "assets/shop/token_reward15.png",
+        "media": "assets/shop/token_reward18.png",
         "category": "expandedAreas:CombatAchievements",
         "contains": {
           "items": [
@@ -38196,10 +38212,25 @@
               "id": "expandedAreas:Mastery_Token_Combat",
               "quantity": 18
             }
-          ]
+          ],
+          "modifiers": {
+            "damageDealtToMonstersInArea": [
+              {
+                "categoryID": "melvorD:CombatAreas",
+                "value": 0.1
+              }
+            ]
+            }
         },
         "cost": {
-          "items": []
+          "items": [],
+          "currencies": [
+            {
+              "type": "Fixed",
+              "currency": "melvorD:GP",
+              "cost": 10000000
+            }
+          ]
         },
         "allowQuantityPurchase": false,
         "unlockRequirements": [],
@@ -38233,7 +38264,7 @@
         "defaultBuyLimit": 1,
         "buyLimitOverrides": [],
         "showBuyLimit": false,
-        "customName": "Secluded Monastery 100",
+        "customName": "Secluded Monastery Completion 1/30",
         "customDescription": "Kill each monster in Secluded Monastery 100 times each. Gain 18 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
@@ -38244,7 +38275,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 36
+              "quantity": 18
             }
           ]
         },
@@ -38290,7 +38321,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 200",
-        "customDescription": "Kill each monster in Secluded Monastery 200 times each. Gain 36 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 200 times each. Gain 18 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery300",
@@ -38300,7 +38331,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 54
+              "quantity": 18
             }
           ]
         },
@@ -38346,7 +38377,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 300",
-        "customDescription": "Kill each monster in Secluded Monastery 300 times each. Gain 54 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 300 times each. Gain 18 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery400",
@@ -38356,7 +38387,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 72
+              "quantity": 18
             }
           ]
         },
@@ -38402,7 +38433,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 400",
-        "customDescription": "Kill each monster in Secluded Monastery 400 times each. Gain 72 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 400 times each. Gain 18 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery500",
@@ -38412,7 +38443,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 90
+              "quantity": 18
             }
           ]
         },
@@ -38458,7 +38489,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 500",
-        "customDescription": "Kill each monster in Secluded Monastery 500 times each. Gain 90 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 500 times each. Gain 18 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery600",
@@ -38468,7 +38499,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 108
+              "quantity": 18
             }
           ]
         },
@@ -38514,7 +38545,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 600",
-        "customDescription": "Kill each monster in Secluded Monastery 600 times each. Gain 108 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 600 times each. Gain 18 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery700",
@@ -38524,7 +38555,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 126
+              "quantity": 18
             }
           ]
         },
@@ -38570,7 +38601,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 700",
-        "customDescription": "Kill each monster in Secluded Monastery 700 times each. Gain 126 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 700 times each. Gain 18 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery800",
@@ -38580,7 +38611,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 144
+              "quantity": 18
             }
           ]
         },
@@ -38626,7 +38657,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 800",
-        "customDescription": "Kill each monster in Secluded Monastery 800 times each. Gain 144 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 800 times each. Gain 18 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery900",
@@ -38636,7 +38667,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 162
+              "quantity": 18
             }
           ]
         },
@@ -38682,7 +38713,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 900",
-        "customDescription": "Kill each monster in Secluded Monastery 900 times each. Gain 162 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 900 times each. Gain 18 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery1000",
@@ -38692,7 +38723,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 180
+              "quantity": 18
             }
           ]
         },
@@ -38738,7 +38769,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 1000",
-        "customDescription": "Kill each monster in Secluded Monastery 1000 times each. Gain 180 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 1000 times each. Gain 18 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery1500",
@@ -38748,7 +38779,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 270
+              "quantity": 90
             }
           ]
         },
@@ -38794,7 +38825,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 1500",
-        "customDescription": "Kill each monster in Secluded Monastery 1500 times each. Gain 270 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 1500 times each. Gain 90 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery2000",
@@ -38804,7 +38835,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 360
+              "quantity": 90
             }
           ]
         },
@@ -38850,7 +38881,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 2000",
-        "customDescription": "Kill each monster in Secluded Monastery 2000 times each. Gain 360 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 2000 times each. Gain 90 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery2500",
@@ -38860,7 +38891,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 450
+              "quantity": 90
             }
           ]
         },
@@ -38906,7 +38937,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 2500",
-        "customDescription": "Kill each monster in Secluded Monastery 2500 times each. Gain 450 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 2500 times each. Gain 90 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery3000",
@@ -38916,7 +38947,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 540
+              "quantity": 90
             }
           ]
         },
@@ -38962,7 +38993,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 3000",
-        "customDescription": "Kill each monster in Secluded Monastery 3000 times each. Gain 540 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 3000 times each. Gain 90 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery3500",
@@ -38972,7 +39003,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 630
+              "quantity": 90
             }
           ]
         },
@@ -39018,7 +39049,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 3500",
-        "customDescription": "Kill each monster in Secluded Monastery 3500 times each. Gain 630 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 3500 times each. Gain 90 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery4000",
@@ -39028,7 +39059,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 720
+              "quantity": 90
             }
           ]
         },
@@ -39074,7 +39105,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 4000",
-        "customDescription": "Kill each monster in Secluded Monastery 4000 times each. Gain 720 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 4000 times each. Gain 90 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery4500",
@@ -39084,7 +39115,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 810
+              "quantity": 90
             }
           ]
         },
@@ -39130,7 +39161,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 4500",
-        "customDescription": "Kill each monster in Secluded Monastery 4500 times each. Gain 810 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 4500 times each. Gain 0 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery5000",
@@ -39140,7 +39171,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 900
+              "quantity": 90
             }
           ]
         },
@@ -39186,7 +39217,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 5000",
-        "customDescription": "Kill each monster in Secluded Monastery 5000 times each. Gain 900 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 5000 times each. Gain 90 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery5500",
@@ -39196,7 +39227,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 990
+              "quantity": 90
             }
           ]
         },
@@ -39242,7 +39273,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 5500",
-        "customDescription": "Kill each monster in Secluded Monastery 5500 times each. Gain 990 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 5500 times each. Gain 90 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery6000",
@@ -39252,7 +39283,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 1080
+              "quantity": 90
             }
           ]
         },
@@ -39298,7 +39329,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 6000",
-        "customDescription": "Kill each monster in Secluded Monastery 6000 times each. Gain 1080 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 6000 times each. Gain 90 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery6500",
@@ -39308,7 +39339,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 1170
+              "quantity": 90
             }
           ]
         },
@@ -39354,7 +39385,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 6500",
-        "customDescription": "Kill each monster in Secluded Monastery 6500 times each. Gain 1170 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 6500 times each. Gain 90 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery7000",
@@ -39364,7 +39395,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 1260
+              "quantity": 90
             }
           ]
         },
@@ -39410,7 +39441,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 7000",
-        "customDescription": "Kill each monster in Secluded Monastery 7000 times each. Gain 1260 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 7000 times each. Gain 90 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery7500",
@@ -39420,7 +39451,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 1350
+              "quantity": 90
             }
           ]
         },
@@ -39466,7 +39497,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 7500",
-        "customDescription": "Kill each monster in Secluded Monastery 7500 times each. Gain 1350 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 7500 times each. Gain 90 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery8000",
@@ -39476,7 +39507,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 1440
+              "quantity": 90
             }
           ]
         },
@@ -39522,7 +39553,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 8000",
-        "customDescription": "Kill each monster in Secluded Monastery 8000 times each. Gain 1440 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 8000 times each. Gain 90 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery8500",
@@ -39532,7 +39563,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 1530
+              "quantity": 90
             }
           ]
         },
@@ -39578,7 +39609,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 8500",
-        "customDescription": "Kill each monster in Secluded Monastery 8500 times each. Gain 1530 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 8500 times each. Gain 90 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery9000",
@@ -39588,7 +39619,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 1620
+              "quantity": 90
             }
           ]
         },
@@ -39634,7 +39665,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 9000",
-        "customDescription": "Kill each monster in Secluded Monastery 9000 times each. Gain 1620 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 9000 times each. Gain 90 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery9500",
@@ -39644,7 +39675,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 1710
+              "quantity": 90
             }
           ]
         },
@@ -39690,7 +39721,7 @@
         "buyLimitOverrides": [],
         "showBuyLimit": false,
         "customName": "Secluded Monastery 9500",
-        "customDescription": "Kill each monster in Secluded Monastery 9500 times each. Gain 1710 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
+        "customDescription": "Kill each monster in Secluded Monastery 9500 times each. Gain 90 Combat Mastery Tokens to spend on Combat Mastery Upgrades."
       },
       {
         "id": "SecludedMonastery10000",
@@ -39700,7 +39731,7 @@
           "items": [
             {
               "id": "expandedAreas:Mastery_Token_Combat",
-              "quantity": 1800
+              "quantity": 90
             }
           ]
         },
