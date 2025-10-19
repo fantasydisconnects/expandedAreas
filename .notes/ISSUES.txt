@@ -1,8 +1,4 @@
 Known bugs 0.8:
-10. some missing images from monster type effects
-11. sterkite rock missing image 
-12. platinum bar missing image
-13. platinum ore missing image
 14. enchant i-vi missing images
 
 

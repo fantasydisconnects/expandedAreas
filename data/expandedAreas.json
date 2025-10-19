@@ -882,7 +882,7 @@
                   "effectGroupID": "melvorD:Sleep",
                   "value": 1
                 }
-              ]
+              ],
               "damageTaken": [
                 {
                   "effectGroupID": "melvorD:BurnDOT",
@@ -49755,7 +49755,7 @@
               "media": "assets/skills/mining/rock_sterkite.svg",
               "level": 30,
               "baseExperience": 30,
-              "productId": "expandedAreas:Platinum_Ore",
+              "productId": "expandedAreas:Sterkite_Ore",
               "baseRespawnInterval": 12500,
               "baseQuantity": 1,
               "hasPassiveRegen": true,

@@ -7,3 +7,4 @@
 7. (ITEM) Fix Barbarian Fletching Knife Interval Reduction from -0.5ms to -500ms as intended
 8. (ITEM) Fix item descriptions for Pocket Sand, Barbarian Longblade/Warrior Helm, and Drinks
 9. (MONSTER) Fix missing Monster Type images and descriptions
+10. (ITEM) Adjust Enchanted [GemType] Dust to look more enchanted visually
