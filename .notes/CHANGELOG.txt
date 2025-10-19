@@ -12,4 +12,4 @@
 12. (ITEM) Decrease Facekicker/Facekicker (m) Attack Interval from -20% -> -10% / -30% -> -20%.
 13. (SKILLS) Increase Crafting material costs for Sigils
 14. (ITEM) Decrease sell price for Celestial Feather from 50,000 -> 5,000
-15. 
+15. (ITEM) Decrease Ranged Strength Bonus for Thrownaxes by 20% due to innate Crit Chance

@@ -7394,7 +7394,7 @@
         "category": "Cooking",
         "type": "Potion",
         "media": "assets/items/Potion/Facekicker.png",
-        "customDescription": "-20% Attack Interval, but -40% Global Accuracy Rating and -10% Global Skill XP.",
+        "customDescription": "-10% Attack Interval, but -40% Global Accuracy Rating and -10% Global Skill XP.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -7403,7 +7403,7 @@
         "modifiers": {
           "accuracyRating": -40,
           "skillXP": -10,
-          "attackInterval": -20
+          "attackInterval": -10
         },
         "charges": 5,
         "tier": 3,
@@ -7420,7 +7420,7 @@
         "category": "Cooking",
         "type": "Potion",
         "media": "assets/items/Potion/Facekicker_m.png",
-        "customDescription": "-30% Attack Interval, but -60% Global Accuracy Rating and -15% Global Skill XP.",
+        "customDescription": "-20% Attack Interval, but -60% Global Accuracy Rating and -15% Global Skill XP.",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -7429,7 +7429,7 @@
         "modifiers": {
           "accuracyRating": -60,
           "skillXP": -15,
-          "attackInterval": -30
+          "attackInterval": -20
         },
         "charges": 5,
         "tier": 3,
@@ -13580,7 +13580,7 @@
           },
           {
             "key": "rangedStrengthBonus",
-            "value": 35
+            "value": 29
           }
         ],
         "modifiers": {
@@ -13626,7 +13626,7 @@
           },
           {
             "key": "rangedStrengthBonus",
-            "value": 37
+            "value": 31
           }
         ],
         "modifiers": {
@@ -13676,7 +13676,7 @@
           },
           {
             "key": "rangedStrengthBonus",
-            "value": 41
+            "value": 34
           }
         ],
         "modifiers": {
@@ -13726,7 +13726,7 @@
           },
           {
             "key": "rangedStrengthBonus",
-            "value": 45
+            "value": 38
           }
         ],
         "modifiers": {
@@ -13776,7 +13776,7 @@
           },
           {
             "key": "rangedStrengthBonus",
-            "value": 51
+            "value": 42
           }
         ],
         "modifiers": {
@@ -13826,7 +13826,7 @@
           },
           {
             "key": "rangedStrengthBonus",
-            "value": 58
+            "value": 48
           }
         ],
         "modifiers": {
@@ -13876,7 +13876,7 @@
           },
           {
             "key": "rangedStrengthBonus",
-            "value": 69
+            "value": 58
           }
         ],
         "modifiers": {
@@ -13926,7 +13926,7 @@
           },
           {
             "key": "rangedStrengthBonus",
-            "value": 80
+            "value": 66
           }
         ],
         "modifiers": {
@@ -50976,11 +50976,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Ruby_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Amulet_of_Accuracy",
-                  "quantity": 10
+                  "quantity": 20
                 }
               ]
             },
@@ -50998,27 +50998,20 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Ruby_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Blood_Rune",
-                  "quantity": 50
+                  "quantity": 300
                 },
                 {
                   "id": "melvorF:Havoc_Rune",
-                  "quantity": 50
+                  "quantity": 300
                 },
-                {
-                  "id": "melvorD:Death_Rune",
-                  "quantity": 50
-                },
+                
                 {
                   "id": "melvorD:Body_Rune",
-                  "quantity": 50
-                },
-                {
-                  "id": "melvorD:Mind_Rune",
-                  "quantity": 50
+                  "quantity": 300
                 }
               ]
             },
@@ -51036,11 +51029,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Ruby_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Air_Battlestaff",
-                  "quantity": 10
+                  "quantity": 100
                 }
               ]
             },
@@ -51058,15 +51051,15 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Ruby_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Rune_Sword",
-                  "quantity": 5
+                  "quantity": 50
                 },
                 {
                   "id": "melvorD:Rune_2H_Sword",
-                  "quantity": 5
+                  "quantity": 50
                 }
               ]
             },
@@ -51084,11 +51077,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Ruby_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Raw_Poison_Fish",
-                  "quantity": 10
+                  "quantity": 100
                 }
               ]
             },
@@ -51106,11 +51099,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Ruby_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Blood_Rune",
-                  "quantity": 500
+                  "quantity": 5000
                 }
               ]
             },
@@ -51128,11 +51121,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Ruby_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Weird_Gloop",
-                  "quantity": 500
+                  "quantity": 5000
                 }
               ]
             },
@@ -51150,11 +51143,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Ruby_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "expandedAreas:Ice",
-                  "quantity": 100
+                  "quantity": 1000
                 }
               ]
             },
@@ -51172,11 +51165,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Ruby_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorF:Eyeball",
-                  "quantity": 100
+                  "quantity": 1000
                 }
               ]
             },
@@ -51194,11 +51187,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Ruby_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Earth_Battlestaff",
-                  "quantity": 10
+                  "quantity": 100
                 }
               ]
             },
@@ -51216,11 +51209,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Ruby_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "expandedAreas:Fang",
-                  "quantity": 10
+                  "quantity": 100
                 }
               ]
             },
@@ -51238,11 +51231,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Ruby_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Fire_Battlestaff",
-                  "quantity": 10
+                  "quantity": 100
                 }
               ]
             },
@@ -51260,15 +51253,15 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Ruby_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Yew_Shortbow",
-                  "quantity": 5
+                  "quantity": 50
                 },
                 {
                   "id": "melvorF:Yew_Longbow",
-                  "quantity": 5
+                  "quantity": 50
                 }
               ]
             },
@@ -51286,11 +51279,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Ruby_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "expandedAreas:Hoof",
-                  "quantity": 25
+                  "quantity": 100
                 }
               ]
             },
@@ -51308,11 +51301,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Ruby_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Water_Battlestaff",
-                  "quantity": 10
+                  "quantity": 100
                 }
               ]
             },
@@ -51330,7 +51323,7 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Emerald_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 }
               ]
             },
@@ -51348,11 +51341,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Emerald_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Elite_Amulet_of_Accuracy",
-                  "quantity": 1
+                  "quantity": 2
                 }
               ]
             },
@@ -51370,27 +51363,20 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Emerald_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Blood_Rune",
-                  "quantity": 500
+                  "quantity": 50000
                 },
                 {
                   "id": "melvorF:Havoc_Rune",
-                  "quantity": 500
+                  "quantity": 50000
                 },
-                {
-                  "id": "melvorD:Death_Rune",
-                  "quantity": 500
-                },
+                
                 {
                   "id": "melvorD:Body_Rune",
-                  "quantity": 500
-                },
-                {
-                  "id": "melvorD:Mind_Rune",
-                  "quantity": 500
+                  "quantity": 50000
                 }
               ]
             },
@@ -51408,11 +51394,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Emerald_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Mystic_Air_Staff",
-                  "quantity": 100
+                  "quantity": 1000
                 }
               ]
             },
@@ -51430,15 +51416,15 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Emerald_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Dragon_Sword",
-                  "quantity": 10
+                  "quantity": 100
                 },
                 {
                   "id": "melvorD:Dragon_2H_Sword",
-                  "quantity": 10
+                  "quantity": 100
                 }
               ]
             },
@@ -51456,11 +51442,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Emerald_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorF:Poison_Scales",
-                  "quantity": 200
+                  "quantity": 2000
                 }
               ]
             },
@@ -51478,11 +51464,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Emerald_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Blood_Rune",
-                  "quantity": 5000
+                  "quantity": 100000
                 }
               ]
             },
@@ -51500,11 +51486,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Emerald_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Weird_Gloop",
-                  "quantity": 10000
+                  "quantity": 100000
                 }
               ]
             },
@@ -51522,11 +51508,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Emerald_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "expandedAreas:Ice",
-                  "quantity": 500
+                  "quantity": 5000
                 },
                 {
                   "id": "melvorD:Ice_Helmet",
@@ -51560,11 +51546,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Emerald_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorF:Eyeball",
-                  "quantity": 5000
+                  "quantity": 50000
                 }
               ]
             },
@@ -51582,11 +51568,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Emerald_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorF:Mystic_Earth_Staff",
-                  "quantity": 100
+                  "quantity": 1000
                 }
               ]
             },
@@ -51604,11 +51590,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Emerald_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "expandedAreas:Large_Fang",
-                  "quantity": 10
+                  "quantity": 200
                 }
               ]
             },
@@ -51626,11 +51612,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Emerald_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorF:Mystic_Fire_Staff",
-                  "quantity": 100
+                  "quantity": 1000
                 }
               ]
             },
@@ -51648,15 +51634,15 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Emerald_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Magic_Shortbow",
-                  "quantity": 50
+                  "quantity": 500
                 },
                 {
                   "id": "melvorD:Magic_Longbow",
-                  "quantity": 50
+                  "quantity": 500
                 }
               ]
             },
@@ -51674,11 +51660,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Emerald_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "expandedAreas:Coffee_Beans",
-                  "quantity": 500
+                  "quantity": 1000
                 }
               ]
             },
@@ -51696,11 +51682,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Emerald_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorF:Mystic_Water_Staff",
-                  "quantity": 100
+                  "quantity": 1000
                 }
               ]
             },
@@ -51765,7 +51751,7 @@
                   "quantity": 1
                 },
                 {
-                  "id": "expandedAreas:Tormented_Bracelet",
+                  "id": "melvorD:Amulet_of_Torture",
                   "quantity": 1
                 }
               ]
@@ -51784,11 +51770,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Diamond_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
-                  "id": "melvorF:Air_Imbued_Wand",
-                  "quantity": 10
+                  "id": "melvorF:Air_Shard",
+                  "quantity": 500
                 }
               ]
             },
@@ -51806,15 +51792,19 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Diamond_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Ancient_Sword",
-                  "quantity": 1
+                  "quantity": 2
                 },
                 {
                   "id": "melvorF:Ancient_2H_Sword",
-                  "quantity": 1
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorF:Ancient_Claw",
+                  "quantity": 2
                 }
               ]
             },
@@ -51832,19 +51822,23 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Diamond_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorF:Poison_Scales",
-                  "quantity": 1000
+                  "quantity": 10000
                 },
                 {
                   "id": "melvorF:Fine_Poison_Powder",
-                  "quantity": 1000
+                  "quantity": 10000
                 },
                 {
                   "id": "expandedAreas:Poison_Ivy_Leaf",
-                  "quantity": 1000
+                  "quantity": 10000
+                },
+                {
+                  "id": "melvorf:Poison_Essence",
+                  "quantity": 100
                 }
               ]
             },
@@ -51862,7 +51856,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Diamond_Dust",
-                  "quantity": 100
+                  "quantity": 200
+                },
+                {
+                  "id": "melvorF:Elder_Crown",
+                  "quantity": 1
                 },
                 {
                   "id": "expandedAreas:Blood_Shard",
@@ -51884,11 +51882,15 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Diamond_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Weird_Gloop",
                   "quantity": 1000000
+                },
+                {
+                  "id": "melvorF:Infernal_Core",
+                  "quantity": 10
                 }
               ]
             },
@@ -51906,11 +51908,27 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Diamond_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
-                  "id": "melvorF:Water_Shard",
-                  "quantity": 100
+                  "id": "expandedAreas:Glacia_God_Helmet_P",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Glacia_God_Platelegs_P",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Glacia_God_Platebody_P",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Glacia_God_Boots_P",
+                  "quantity": 1
+                },
+                {
+                  "id": "expandedAreas:Glacia_God_Gloves_P",
+                  "quantity": 1
                 }
               ]
             },
@@ -51928,7 +51946,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Diamond_Dust",
-                  "quantity": 100
+                  "quantity": 200
+                },
+                {
+                  "id": "melvorF:Eyeball",
+                  "quantity": 20000
                 },
                 {
                   "id": "expandedAreas:Fearful_Eyeball",
@@ -51950,11 +51972,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Diamond_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
-                  "id": "melvorF:Earth_Imbued_Wand",
-                  "quantity": 10
+                  "id": "melvorF:Earth_Shard",
+                  "quantity": 500
                 }
               ]
             },
@@ -51976,7 +51998,7 @@
                 },
                 {
                   "id": "expandedAreas:Massive_Fang",
-                  "quantity": 10
+                  "quantity": 200
                 }
               ]
             },
@@ -51994,11 +52016,15 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Diamond_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
-                  "id": "melvorF:Fire_Imbued_Wand",
-                  "quantity": 10
+                  "id": "melvorF:Fire_Shard",
+                  "quantity": 500
+                },
+                {
+                  "id": "melvorF:Burning_Essence",
+                  "quantity": 100
                 }
               ]
             },
@@ -52016,15 +52042,19 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Diamond_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "melvorD:Ancient_Longbow",
-                  "quantity": 1
+                  "quantity": 5
                 },
                 {
                   "id": "melvorF:Ancient_Crossbow",
-                  "quantity": 1
+                  "quantity": 5
+                },
+                {
+                  "id": "melvorF:Ranged_Assistance_Potion_IV",
+                  "quantity": 5000
                 }
               ]
             },
@@ -52042,11 +52072,19 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Diamond_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
                   "id": "expandedAreas:Celestial_Feather",
-                  "quantity": 100
+                  "quantity": 1000
+                },
+                {
+                  "id": "expandedAreas:Hoof",
+                  "quantity": 1000
+                },
+                {
+                  "id": "melvorF:Sand_Treaders",
+                  "quantity": 5
                 }
               ]
             },
@@ -52064,11 +52102,11 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Diamond_Dust",
-                  "quantity": 100
+                  "quantity": 200
                 },
                 {
-                  "id": "melvorF:Water_Imbued_Wand",
-                  "quantity": 10
+                  "id": "melvorF:Water_Shard",
+                  "quantity": 500
                 }
               ]
             },
@@ -52086,7 +52124,7 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Jadestone_Dust",
-                  "quantity": 100
+                  "quantity": 1000
                 }
               ]
             },
@@ -52095,7 +52133,7 @@
               "level": 99,
               "productID": "expandedAreas:Legendary_Sigil_of_Generosity",
               "baseQuantity": 1,
-              "baseExperience": 400,
+              "baseExperience": 4000,
               "categoryID": "expandedAreas:Accessories",
               "itemCosts": [
                 {
@@ -52104,13 +52142,13 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Jadestone_Dust",
-                  "quantity": 100
+                  "quantity": 5000
                 }
               ],
               "currencyCosts": [
                 {
                   "id": "melvorD:GP",
-                  "quantity": 100000000
+                  "quantity": 1000000000
                 }
               ]
             },
@@ -52128,7 +52166,7 @@
                 },
                 {
                   "id": "expandedAreas:Enchanted_Jadestone_Dust",
-                  "quantity": 100
+                  "quantity": 5000
                 },
                 {
                   "id": "expandedAreas:Phoenix_Feather",
