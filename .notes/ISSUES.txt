@@ -1,10 +1,4 @@
 Known bugs 0.8:
-5. There's a bug on fletching interval with barbarian fletching knife. Interval reduction is in ms.
-The item has values of -0.5 which would be -0.5ms :). If you want a -500ms (0.5s) reduction, then you'd want a value of -500
-6. UI issue with "customDescription" on monsters on when combined with mini drop completion mod.
-7. drinks do not have a "when this food is equipped…" description
-8. Barbarian Longblade + Helm have inaccurate descriptions
-9. Pocket Sand description is inaccurate
 10. some missing images from monster type effects
 11. sterkite rock missing image 
 12. platinum bar missing image
