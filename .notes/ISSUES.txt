@@ -1,23 +1,4 @@
-
-4. Blackjack drops too often
-5. Mysterious tome drops too often
-6. Golbin Staff drops too often
-7. Big Golbin pile of logs drops too often
-8. Golbin Chief gems drop too often
-9. amulet of occults drops too often
-10. propserous necklace drops wayyyyy too often
-11. monk expert set drops wayyyy too often
-12. guardian shouldn't drop imbued wands
-13. sterkite mining and pine tree felling don't need to exist--ore and trees should be accessible unless they have some other weird use
-14. some monster type effects should be more consistent and less confusing
-15. superior sigil requiring tormented bracelet and ring is too high of a cost
 16. crafting dust 1 at a time is too slow (compare to Alt Magic barrier dust, which converts 1 gem to 6 dust)
-17. sigil mat cost should be 5-10x higher
 
-Consistency/UX issues 0.8:
-1. (Shop) Barbarian Skilling can be removed and moved to Skill Upgrades
+Consistency/UX issues 0.8.1:
 2. (Shop) Combat Mastery section should move Mastery Capes to Skillcapes section
-3. Monster Types display as "applies [Monster Type]" instead of what the Monster Type actually descriptions
-4. Barbarian Smithing doesn't need its own category
-5. Barbarian Fletching can be renamed to Standard Thrownaxes
-6. Enchanted Dust doesn't look very different from regular Dust

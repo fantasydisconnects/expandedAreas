@@ -21143,13 +21143,13 @@
             "itemID": "expandedAreas:Prosperous_Necklace",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 65432
+            "weight": 6666
           },
           {
             "itemID": "expandedAreas:Barbarian_Longblade",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 12345
+            "weight": 34321
           }
         ],
         "canSlayer": true,
@@ -21514,7 +21514,7 @@
             "itemID": "expandedAreas:Golbin_Staff",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 78945
+            "weight": 54956
           }
         ],
         "canSlayer": true,
@@ -21758,7 +21758,7 @@
             "itemID": "melvorF:Pile_Of_Logs",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 43210
+            "weight": 11250
           },
           {
             "itemID": "melvorD:Raw_Poison_Fish",
@@ -22438,7 +22438,7 @@
           },
           {
             "itemID": "expandedAreas:Mysterious_Tome",
-            "weight": 64,
+            "weight": 16,
             "maxQuantity": 1,
             "minQuantity": 1
           }
@@ -22509,7 +22509,7 @@
         "passives": [
           "melvorD:CantTouchThis"
         ],
-        "lootChance": 25,
+        "lootChance": 15,
         "lootTable": [
           {
             "itemID": "melvorD:Topaz",
@@ -22666,7 +22666,7 @@
             "itemID": "expandedAreas:Amulet_of_Occults",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 64
+            "weight": 16
           }
         ],
         "canSlayer": true,
@@ -22974,31 +22974,31 @@
           },
           {
             "itemID": "melvorF:Air_Expert_Wizard_Boots",
-            "weight": 256,
+            "weight": 200,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "expandedAreas:Air_Expert_Wizard_Gloves",
-            "weight": 192,
+            "weight": 150,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Air_Expert_Wizard_Hat",
-            "weight": 128,
+            "weight": 90,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Air_Expert_Wizard_Bottoms",
-            "weight": 64,
+            "weight": 30,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Air_Expert_Wizard_Robes",
-            "weight": 32,
+            "weight": 10,
             "maxQuantity": 1,
             "minQuantity": 1
           }
@@ -23092,31 +23092,31 @@
           },
           {
             "itemID": "melvorF:Water_Expert_Wizard_Boots",
-            "weight": 256,
+            "weight": 200,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "expandedAreas:Water_Expert_Wizard_Gloves",
-            "weight": 192,
+            "weight": 150,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Water_Expert_Wizard_Hat",
-            "weight": 128,
+            "weight": 90,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Water_Expert_Wizard_Bottoms",
-            "weight": 64,
+            "weight": 30,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Water_Expert_Wizard_Robes",
-            "weight": 32,
+            "weight": 10,
             "maxQuantity": 1,
             "minQuantity": 1
           }
@@ -23210,31 +23210,31 @@
           },
           {
             "itemID": "melvorF:Earth_Expert_Wizard_Boots",
-            "weight": 256,
+            "weight": 200,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "expandedAreas:Earth_Expert_Wizard_Gloves",
-            "weight": 192,
+            "weight": 150,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Earth_Expert_Wizard_Hat",
-            "weight": 128,
+            "weight": 90,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Earth_Expert_Wizard_Bottoms",
-            "weight": 64,
+            "weight": 30,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Earth_Expert_Wizard_Robes",
-            "weight": 32,
+            "weight": 10,
             "maxQuantity": 1,
             "minQuantity": 1
           }
@@ -23328,31 +23328,31 @@
           },
           {
             "itemID": "melvorF:Fire_Expert_Wizard_Boots",
-            "weight": 256,
+            "weight": 200,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "expandedAreas:Fire_Expert_Wizard_Gloves",
-            "weight": 192,
+            "weight": 150,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Fire_Expert_Wizard_Hat",
-            "weight": 128,
+            "weight": 90,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Fire_Expert_Wizard_Bottoms",
-            "weight": 64,
+            "weight": 30,
             "maxQuantity": 1,
             "minQuantity": 1
           },
           {
             "itemID": "melvorF:Fire_Expert_Wizard_Robes",
-            "weight": 32,
+            "weight": 10,
             "maxQuantity": 1,
             "minQuantity": 1
           }
@@ -23517,32 +23517,8 @@
             "maxQuantity": 1
           },
           {
-            "itemID": "melvorF:Air_Imbued_Wand",
-            "weight": 32,
-            "maxQuantity": 1,
-            "minQuantity": 1
-          },
-          {
-            "itemID": "melvorF:Water_Imbued_Wand",
-            "weight": 32,
-            "maxQuantity": 1,
-            "minQuantity": 1
-          },
-          {
-            "itemID": "melvorF:Earth_Imbued_Wand",
-            "weight": 32,
-            "maxQuantity": 1,
-            "minQuantity": 1
-          },
-          {
-            "itemID": "melvorF:Fire_Imbued_Wand",
-            "weight": 32,
-            "maxQuantity": 1,
-            "minQuantity": 1
-          },
-          {
             "itemID": "expandedAreas:Earring_of_Protection",
-            "weight": 24,
+            "weight": 8,
             "maxQuantity": 1,
             "minQuantity": 1
           }
@@ -50864,13 +50840,13 @@
               "id": "Topaz_Dust",
               "level": 9,
               "productID": "expandedAreas:Topaz_Dust",
-              "baseQuantity": 1,
+              "baseQuantity": 6,
               "baseExperience": 8,
               "categoryID": "expandedAreas:Unique",
               "itemCosts": [
                 {
                   "id": "melvorD:Topaz",
-                  "quantity": 2
+                  "quantity": 1
                 }
               ]
             },
@@ -50878,13 +50854,13 @@
               "id": "Sapphire_Dust",
               "level": 16,
               "productID": "expandedAreas:Sapphire_Dust",
-              "baseQuantity": 1,
+              "baseQuantity": 6,
               "baseExperience": 18,
               "categoryID": "expandedAreas:Unique",
               "itemCosts": [
                 {
                   "id": "melvorD:Sapphire",
-                  "quantity": 2
+                  "quantity": 1
                 }
               ]
             },
@@ -50892,13 +50868,13 @@
               "id": "Ruby_Dust",
               "level": 25,
               "productID": "expandedAreas:Ruby_Dust",
-              "baseQuantity": 1,
+              "baseQuantity": 6,
               "baseExperience": 27,
               "categoryID": "expandedAreas:Unique",
               "itemCosts": [
                 {
                   "id": "melvorD:Ruby",
-                  "quantity": 2
+                  "quantity": 1
                 }
               ]
             },
@@ -50906,13 +50882,13 @@
               "id": "Emerald_Dust",
               "level": 33,
               "productID": "expandedAreas:Emerald_Dust",
-              "baseQuantity": 1,
+              "baseQuantity": 6,
               "baseExperience": 38,
               "categoryID": "expandedAreas:Unique",
               "itemCosts": [
                 {
                   "id": "melvorD:Emerald",
-                  "quantity": 2
+                  "quantity": 1
                 }
               ]
             },
@@ -50920,13 +50896,13 @@
               "id": "Diamond_Dust",
               "level": 43,
               "productID": "expandedAreas:Diamond_Dust",
-              "baseQuantity": 1,
+              "baseQuantity": 6,
               "baseExperience": 53,
               "categoryID": "expandedAreas:Unique",
               "itemCosts": [
                 {
                   "id": "melvorD:Diamond",
-                  "quantity": 2
+                  "quantity": 1
                 }
               ]
             },
@@ -50934,13 +50910,13 @@
               "id": "Jadestone_Dust",
               "level": 53,
               "productID": "expandedAreas:Jadestone_Dust",
-              "baseQuantity": 1,
+              "baseQuantity": 6,
               "baseExperience": 63,
               "categoryID": "expandedAreas:Unique",
               "itemCosts": [
                 {
                   "id": "melvorF:Jadestone",
-                  "quantity": 2
+                  "quantity": 1
                 }
               ]
             },
