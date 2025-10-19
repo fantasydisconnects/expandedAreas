@@ -2,13 +2,7 @@
 "$schema": "https://melvoridle.com/assets/schema/gameData.json",
 "namespace": "expandedAreas",
 "data": {
-    "items": [
-        {
-            "modifiers": {
-                "combatxp"
-            }
-        }
-    ]
+
 },
         "modifications": {}
 }
