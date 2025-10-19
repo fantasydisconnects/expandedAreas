@@ -1,0 +1,6 @@
+1. (SHOP) Fix Combat Achievements allowing infinite purchases
+2. (SHOP) Get rid of Barbarian Skilling Tab, move purchases to Skilling Upgrades
+3. (SHOP) Get rid of Sterkite Mining and Pine Tree Felling purchases
+4. (SHOP) Adjust purchase requirements for Barbarian Skilling Upgrades from [Skill] and Strength requirements -> 1 completion of The Barbarian Trials
+5. (COMPLETION LOG) Fixed bug with "[petName] obtained from [thing]" displaying the HTML code in plaintext
+6. (UI) Fixed bug with certain Farming Plots not displaying images when fully grown

@@ -1,9 +1,4 @@
 Known bugs 0.8:
-1.  I can buy infinite combat tokens, once I have a farmland 100 done
-1a. combat achievement token rewards are incorrect (thanks chatGPT and me for not vetting said bot)
-2. would it be possible to hide purchased Barbarian Skilling upgrades? Usually such upgrades disappear when bought.
-3. Visual bug on pets with "obtained from..."
-4. Checkerboards for Papaya Tree, Dragonfruit Tree, Yellowberry Shrub, Poison Ivy Shrub, Goldengod Hops, and Wildblood Hops. (At least in the Spend Mastery XP menu, so it's probably elsewhere.)
 5. There's a bug on fletching interval with barbarian fletching knife. Interval reduction is in ms.
 The item has values of -0.5 which would be -0.5ms :). If you want a -500ms (0.5s) reduction, then you'd want a value of -500
 6. UI issue with "customDescription" on monsters on when combined with mini drop completion mod.

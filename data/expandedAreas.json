@@ -24179,7 +24179,7 @@
         "id": "Swirli",
         "name": "Swirli",
         "media": "assets/pets/Swirli.svg",
-        "hint": "Obtained from <strong>Guardian of the Elements</strong>",
+        "hint": "Obtained from Guardian of the Elements",
         "ignoreCompletion": false,
         "modifiers": {
           "runePreservationChance": 0.5
@@ -24191,7 +24191,7 @@
         "id": "Tinychief",
         "name": "Tinychief",
         "media": "assets/pets/Tinychief.svg",
-        "hint": "Obtained from <strong>Golbin Chieftain</strong>",
+        "hint": "Obtained from Golbin Chieftain",
         "ignoreCompletion": false,
         "modifiers": {
           "combatLootDoublingChance": 0.1
@@ -24203,7 +24203,7 @@
         "id": "Yeemik",
         "name": "Yeemik",
         "media": "assets/pets/Yeemik.svg",
-        "hint": "Obtained from <strong>Golbin Hideout</strong>",
+        "hint": "Obtained from Golbin Hideout",
         "ignoreCompletion": false,
         "modifiers": {
           "dodgeChance": 0.0025
@@ -24215,7 +24215,7 @@
         "id": "Lil_Erik",
         "name": "Lil Erik",
         "media": "assets/pets/Lil_Erik.svg",
-        "hint": "Obtained from <strong>Chieftain Erik</strong>",
+        "hint": "Obtained from Chieftain Erik",
         "ignoreCompletion": false,
         "modifiers": {
           "globalItemDoublingChance": 0.5
@@ -24227,7 +24227,7 @@
         "id": "Ellie",
         "name": "Ellie",
         "media": "assets/pets/Ellie.svg",
-        "hint": "Obtained from <strong>Elemental Sanctuary</strong>",
+        "hint": "Obtained from Elemental Sanctuary",
         "ignoreCompletion": false,
         "modifiers": {
           "flatMagicMinHit": [
@@ -24250,7 +24250,7 @@
         "id": "Fenri",
         "name": "Fenri",
         "media": "assets/pets/Fenri.svg",
-        "hint": "Obtained from <strong>The Barbarian Trials</strong>",
+        "hint": "Obtained from The Barbarian Trials",
         "ignoreCompletion": false,
         "modifiers": {
           "flatHiddenSkillLevel": [
@@ -24265,11 +24265,6 @@
       }
     ],
     "shopCategories": [
-      {
-        "id": "Barbarian_Skilling",
-        "name": "Barbarian Skilling",
-        "media": "assets/shop/Barbarian.png"
-      },
       {
         "id": "CombatMastery",
         "name": "Combat Mastery",
@@ -24286,7 +24281,7 @@
         "insertAt": "After",
         "afterID": "melvorD:SkillUpgrades",
         "ids": [
-          "expandedAreas:Barbarian_Skilling"
+          "melvorD:Skill_Upgrades"
         ]
       },
       {
@@ -43651,85 +43646,9 @@
         "customDescription": "+3% Perfect Cook Chance for Fermenting Tank only for a total of +10% Perfect Cook Chance from your Fermenting Tank."
       },
       {
-        "id": "Sterkite_Mining",
-        "media": "assets/skills/mining/Rock_Sterkite.svg",
-        "category": "expandedAreas:Barbarian_Skilling",
-        "contains": {
-          "items": [],
-          "modifiers": {}
-        },
-        "cost": {
-          "items": [],
-          "currencies": [
-            {
-              "currency": "melvorD:GP",
-              "type": "Fixed",
-              "cost": 20000
-            }
-          ]
-        },
-        "allowQuantityPurchase": false,
-        "unlockRequirements": [],
-        "purchaseRequirements": [
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Strength",
-            "level": 30
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Mining",
-            "level": 20
-          }
-        ],
-        "defaultBuyLimit": 0,
-        "buyLimitOverrides": [],
-        "showBuyLimit": false,
-        "customName": "Sterkite Mining",
-        "customDescription": "Grants access to Sterkite Ore."
-      },
-      {
-        "id": "Pine_Tree_Felling",
-        "media": "assets/skills/woodcutting/Evergreen.svg",
-        "category": "expandedAreas:Barbarian_Skilling",
-        "contains": {
-          "items": [],
-          "modifiers": {}
-        },
-        "cost": {
-          "items": [],
-          "currencies": [
-            {
-              "currency": "melvorD:GP",
-              "type": "Fixed",
-              "cost": 20000
-            }
-          ]
-        },
-        "allowQuantityPurchase": false,
-        "unlockRequirements": [],
-        "purchaseRequirements": [
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Strength",
-            "level": 30
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Woodcutting",
-            "level": 20
-          }
-        ],
-        "defaultBuyLimit": 0,
-        "buyLimitOverrides": [],
-        "showBuyLimit": false,
-        "customName": "Pine Tree Felling",
-        "customDescription": "Grants access to Pine Trees."
-      },
-      {
         "id": "Spear_Fishing",
         "media": "assets/shop/Spear_Fishing.svg",
-        "category": "expandedAreas:Barbarian_Skilling",
+        "category": "melvorD:Skill_Upgrades",
         "contains": {
           "items": [],
           "modifiers": {
@@ -43761,15 +43680,11 @@
         "unlockRequirements": [],
         "purchaseRequirements": [
           {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Strength",
-            "level": 60
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Fishing",
-            "level": 60
+            "type": "DungeonCompletion",
+            "dungeonID": "expandedAreas:The_Barbarian_Trials",
+            "count": 1
           }
+          
         ],
         "defaultBuyLimit": 1,
         "buyLimitOverrides": [],
@@ -43780,7 +43695,7 @@
       {
         "id": "Tree_Punching",
         "media": "assets/shop/Tree_Punching.svg",
-        "category": "expandedAreas:Barbarian_Skilling",
+        "category": "melvorD:Skill_Upgrades",
         "contains": {
           "items": [],
           "modifiers": {
@@ -43812,14 +43727,9 @@
         "unlockRequirements": [],
         "purchaseRequirements": [
           {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Strength",
-            "level": 70
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Woodcutting",
-            "level": 70
+            "type": "DungeonCompletion",
+            "dungeonID": "expandedAreas:The_Barbarian_Trials",
+            "count": 1
           }
         ],
         "defaultBuyLimit": 1,
@@ -43831,7 +43741,7 @@
       {
         "id": "Rock_Smashing",
         "media": "assets/shop/Rock_Smashing.png",
-        "category": "expandedAreas:Barbarian_Skilling",
+        "category": "melvorD:Skill_Upgrades",
         "contains": {
           "items": [],
           "modifiers": {
@@ -43853,14 +43763,9 @@
         "unlockRequirements": [],
         "purchaseRequirements": [
           {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Strength",
-            "level": 65
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Mining",
-            "level": 65
+            "type": "DungeonCompletion",
+            "dungeonID": "expandedAreas:The_Barbarian_Trials",
+            "count": 1
           }
         ],
         "defaultBuyLimit": 1,
@@ -43872,7 +43777,7 @@
       {
         "id": "Ancestral_Smithing_Technique",
         "media": "assets/shop/Ancestral_Smithing_Technique.svg",
-        "category": "expandedAreas:Barbarian_Skilling",
+        "category": "melvorD:Skill_Upgrades",
         "contains": {
           "items": [],
           "modifiers": {
@@ -43904,14 +43809,9 @@
         "unlockRequirements": [],
         "purchaseRequirements": [
           {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Strength",
-            "level": 75
-          },
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Smithing",
-            "level": 75
+            "type": "DungeonCompletion",
+            "dungeonID": "expandedAreas:The_Barbarian_Trials",
+            "count": 1
           }
         ],
         "defaultBuyLimit": 1,
@@ -47761,7 +47661,6 @@
                 "id": "expandedAreas:Orange_Tree_Seed",
                 "quantity": 1
               },
-              "grownMedia": "assets/skills/farming/Orange_Tree.svg",
               "grownName": "Orange Tree"
             },
             {
@@ -47775,7 +47674,6 @@
                 "id": "expandedAreas:Cherry_Tree_Seed",
                 "quantity": 1
               },
-              "grownMedia": "assets/skills/farming/Cherry_Tree.svg",
               "grownName": "Cherry Tree"
             },
             {
@@ -47789,7 +47687,6 @@
                 "id": "expandedAreas:Curry_Tree_Seed",
                 "quantity": 1
               },
-              "grownMedia": "assets/skills/farming/Curry_Tree.svg",
               "grownName": "Curry Tree"
             },
             {
@@ -47803,7 +47700,6 @@
                 "id": "expandedAreas:Papaya_Tree_Seed",
                 "quantity": 1
               },
-              "grownMedia": "assets/skills/farming/Papaya_Tree.svg",
               "grownName": "Papaya Tree"
             },
             {
@@ -47817,7 +47713,6 @@
                 "id": "expandedAreas:Palm_Tree_Seed",
                 "quantity": 1
               },
-              "grownMedia": "assets/skills/farming/Palm_Tree.svg",
               "grownName": "Palm Tree"
             },
             {
@@ -47831,7 +47726,6 @@
                 "id": "expandedAreas:Dragonfruit_Tree_Seed",
                 "quantity": 1
               },
-              "grownMedia": "assets/skills/farming/Dragonfruit_Tree.svg",
               "grownName": "Dragonfruit Tree"
             },
             {
@@ -47844,8 +47738,7 @@
               "seedCost": {
                 "id": "expandedAreas:Barley_Seed",
                 "quantity": 3
-              },
-              "grownMedia": "assets/skills/farming/Barley.svg"
+              }
             },
             {
               "id": "Jute",
@@ -47858,8 +47751,7 @@
                 "id": "expandedAreas:Jute_Seed",
                 "quantity": 3
               },
-              "grownName": "Jute Fibre",
-              "grownMedia": "assets/skills/farming/Jute.png"
+              "grownName": "Jute Fibre"
             },
             {
               "id": "Plumm_Hops",
@@ -47872,8 +47764,7 @@
                 "id": "expandedAreas:Plumm_Seed",
                 "quantity": 3
               },
-              "grownName": "Plumm Hops",
-              "grownMedia": "assets/items/Food/Plumm_Hops.png"
+              "grownName": "Plumm Hops"
             },
             {
               "id": "Firewine_Hops",
@@ -47886,8 +47777,7 @@
                 "id": "expandedAreas:Firewine_Seed",
                 "quantity": 3
               },
-              "grownName": "Firewine Hops",
-              "grownMedia": "assets/items/Food/Firewine_Hops.png"
+              "grownName": "Firewine Hops"
             },
             {
               "id": "Andlovan_Hops",
@@ -47900,8 +47790,7 @@
                 "id": "expandedAreas:Andlovan_Seed",
                 "quantity": 3
               },
-              "grownName": "Andlovan Hops",
-              "grownMedia": "assets/items/Food/Andlovan_Hops.png"
+              "grownName": "Andlovan Hops"
             },
             {
               "id": "Goldengod_Hops",
@@ -47914,8 +47803,7 @@
                 "id": "expandedAreas:Goldengod_Seed",
                 "quantity": 3
               },
-              "grownName": "Goldengod Hops",
-              "grownMedia": "assets/items/Goldengod_Hops.png"
+              "grownName": "Goldengod Hops"
             },
             {
               "id": "Wildblood_Hops",
@@ -47928,8 +47816,7 @@
                 "id": "expandedAreas:Wildblood_Seed",
                 "quantity": 3
               },
-              "grownName": "Wildblood Hops",
-              "grownMedia": "assets/items/Wildblood_Hops.png"
+              "grownName": "Wildblood Hops"
             },
             {
               "id": "Bell_Peppers",
@@ -47954,8 +47841,7 @@
                 "id": "expandedAreas:Booberry_Seed",
                 "quantity": 2
               },
-              "grownName": "Booberry Shrub",
-              "grownMedia": "assets/skills/farming/Booberry.svg"
+              "grownName": "Booberry Shrub"
             },
             {
               "id": "Gammonberry",
@@ -47968,8 +47854,7 @@
                 "id": "expandedAreas:Gammonberry_Seed",
                 "quantity": 2
               },
-              "grownName": "Gammonberry Shrub",
-              "grownMedia": "assets/skills/farming/Gammonberry.svg"
+              "grownName": "Gammonberry Shrub"
             },
             {
               "id": "Pineapple",
@@ -47982,8 +47867,7 @@
                 "id": "expandedAreas:Pineapple_Seed",
                 "quantity": 2
               },
-              "grownName": "Pineapple Shrub",
-              "grownMedia": "assets/items/Food/Pineapple.png"
+              "grownName": "Pineapple Shrub"
             },
             {
               "id": "Yellowberry",
@@ -47996,8 +47880,7 @@
                 "id": "expandedAreas:Yellowberry_Seed",
                 "quantity": 2
               },
-              "grownName": "Yellowberry Shrub",
-              "grownMedia": "assets/skills/farming/Yellowberry .svg"
+              "grownName": "Yellowberry Shrub"
             },
             {
               "id": "Blueberry",
@@ -48010,8 +47893,7 @@
                 "id": "expandedAreas:Blueberry_Seed",
                 "quantity": 2
               },
-              "grownName": "Blueberry Shrub",
-              "grownMedia": "assets/skills/farming/Blueberry.svg"
+              "grownName": "Blueberry Shrub"
             },
             {
               "id": "Mumuberry",
@@ -48024,8 +47906,7 @@
                 "id": "expandedAreas:Mumuberry_Seed",
                 "quantity": 2
               },
-              "grownName": "Mumuberry Shrub",
-              "grownMedia": "assets/skills/farming/Mumuberry.svg"
+              "grownName": "Mumuberry Shrub"
             },
             {
               "id": "Coffee_Beans",
@@ -48038,8 +47919,7 @@
                 "id": "expandedAreas:Coffea_Seed",
                 "quantity": 2
               },
-              "grownName": "Coffea Shrub",
-              "grownMedia": "assets/skills/farming/Coffea.svg"
+              "grownName": "Coffea Shrub"
             },
             {
               "id": "Poison_Ivy_Leaf",
@@ -48052,8 +47932,7 @@
                 "id": "expandedAreas:Poison_Ivy_Seed",
                 "quantity": 2
               },
-              "grownName": "Poison Ivy Shrub",
-              "grownMedia": "assets/skills/farming/Poison_Ivy.svg"
+              "grownName": "Poison Ivy Shrub"
             },
             {
               "id": "Teak_Logs",
@@ -48066,7 +47945,6 @@
                 "id": "expandedAreas:Teak_Tree_Seed",
                 "quantity": 1
               },
-              "grownMedia": "assets/skills/farming/Teak_Tree.svg",
               "grownName": "Teak Tree"
             },
             {
@@ -48080,7 +47958,6 @@
                 "id": "expandedAreas:Mahogany_Tree_Seed",
                 "quantity": 1
               },
-              "grownMedia": "assets/skills/farming/Mahogany_Tree.svg",
               "grownName": "Mahogany Tree"
             },
             {
@@ -48094,7 +47971,6 @@
                 "id": "expandedAreas:Redwood_Tree_Seed",
                 "quantity": 1
               },
-              "grownMedia": "assets/skills/farming/Redwood_Tree.svg",
               "grownName": "Redwood Tree"
             },
             {
@@ -48108,7 +47984,6 @@
                 "id": "expandedAreas:Evergreen_Pine_Seed",
                 "quantity": 1
               },
-              "grownMedia": "assets/skills/woodcutting/Evergreen.svg",
               "grownName": "Evergreen Tree"
             },
             {
@@ -48122,7 +47997,6 @@
                 "id": "expandedAreas:Longleaf_Pine_Seed",
                 "quantity": 1
               },
-              "grownMedia": "assets/skills/woodcutting/Longleaf.svg",
               "grownName": "Longleaf Tree"
             },
             {
@@ -48136,7 +48010,6 @@
                 "id": "expandedAreas:Frostpine_Seed",
                 "quantity": 1
               },
-              "grownMedia": "assets/skills/woodcutting/Frostpine.svg",
               "grownName": "Frostpine Tree"
             },
             {
@@ -48150,7 +48023,6 @@
                 "id": "expandedAreas:White_Pine_Seed",
                 "quantity": 1
               },
-              "grownMedia": "assets/skills/woodcutting/White_Pine.svg",
               "grownName": "White Pine Tree"
             },
             {
@@ -48164,7 +48036,6 @@
                 "id": "expandedAreas:Loblolly_Pine_Seed",
                 "quantity": 1
               },
-              "grownMedia": "assets/skills/woodcutting/Loblolly.svg",
               "grownName": "Loblolly Pine Tree"
             },
             {
