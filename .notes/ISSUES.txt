@@ -1,4 +1,2 @@
-16. crafting dust 1 at a time is too slow (compare to Alt Magic barrier dust, which converts 1 gem to 6 dust)
-
-Consistency/UX issues 0.8.1:
-2. (Shop) Combat Mastery section should move Mastery Capes to Skillcapes section
+Some bugs in Expanded Areas:
+* The <Combat Skill> Training purchases all seem like they have values 10x lower than intended?

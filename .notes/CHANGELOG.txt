@@ -1,18 +1,10 @@
-1. (SHOP) Fix Combat Achievements allowing infinite purchases
-2. (SHOP) Get rid of Barbarian Skilling Tab, move purchases to Skilling Upgrades
-3. (SHOP) Get rid of Sterkite Mining and Pine Tree Felling purchases
-4. (SHOP) Adjust purchase requirements for Barbarian Skilling Upgrades from [Skill] and Strength requirements -> 1 completion of The Barbarian Trials
-5. (COMPLETION LOG) Fix bug with "[petName] obtained from [thing]" displaying the HTML code in plaintext
-6. (UI) Fix bug with certain Farming Plots not displaying images when fully grown
-7. (ITEM) Fix Barbarian Fletching Knife Interval Reduction from -0.5ms to -500ms as intended
-8. (ITEM) Fix item descriptions for Pocket Sand, Barbarian Longblade/Warrior Helm, and Drinks
-9. (MONSTER) Fix missing Monster Type images and descriptions
-10. (ITEM) Adjust Enchanted [GemType] Dust to look more enchanted visually
-11. (SKILLS) Fix missing images for Alt Magic Enchant I-VI
-12. (ITEM) Decrease Facekicker/Facekicker (m) Attack Interval from -20% -> -10% / -30% -> -20%.
-13. (SKILLS) Increase Crafting material costs for Sigils
-14. (ITEM) Decrease sell price for Celestial Feather from 50,000 -> 5,000
-15. (ITEM) Decrease Ranged Strength Bonus for Thrownaxes by 20% due to innate Crit Chance
-16. (MONSTER) Decrease drop rate of rare items from low-level enemies
-17. (MONSTER) Remove Imbued Wands from Guardian of the Elements' drop table
-18. (SKILLS) Decrease material cost for [GemType] Dust from 2 -> 1; increase output from 1 -> 6
+1. Fix Barbarian Village 3500, 4000, 4500 shop purchases being bugged
+2. Fix Hitpoints Master & Grandmaster Regen Interval (-1ms -> -1000ms)
+3. Fix Slayer Master & Grandmaster Monster Respawn Interval (-.1ms -> -100ms)
+4. Fix Amulet of Occults Summoning Attack Interval (+5% -> -5%) and Book + Amulet Synergy Interval (+10% -> -10%)
+5. Add Amulet of Occults Item Synergy Tooltip
+6. Fix Yeemik Dodge chance (0.0025% -> 1%)
+7. Fix 1 Zombie not being removed from Undead Graveyard as intended
+8. Fix Dragonbane Mead/(m) incorrectly "increasing" received Dragonbreath Damage
+9. Change Dragonbane Mead/(m): +10%/15% Max Hit/Accuracy against Dragonkin, but +20%/40% Burn DOT Damage taken
+10. 
