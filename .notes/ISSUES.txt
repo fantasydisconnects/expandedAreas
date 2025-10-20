@@ -1,2 +1,0 @@
-Some bugs in Expanded Areas:
-* The <Combat Skill> Training purchases all seem like they have values 10x lower than intended?

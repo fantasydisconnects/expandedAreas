@@ -5307,48 +5307,7 @@
         ],
         "ammoType": "Javelins"
       },
-      {
-        "itemType": "Equipment",
-        "id": "Pure_Crystal_Javelin_Ammo",
-        "name": "Pure Crystal Javelin (Ammo)",
-        "category": "Combat",
-        "type": "Ammo",
-        "media": "assets/items/Equipment/Pure_Crystal_Javelin_Ammo.png",
-        "customDescription": "For use with the <strong>Heavy Hand Ballista</strong>",
-        "ignoreCompletion": false,
-        "obtainFromItemLog": false,
-        "golbinRaidExclusive": false,
-        "sellsFor": 650,
-        "tier": "Dragon",
-        "validSlots": [
-          "Quiver"
-        ],
-        "occupiesSlots": [],
-        "equipRequirements": [
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Ranged",
-            "level": 60
-          }
-        ],
-        "equipmentStats": [
-          {
-            "key": "rangedAttackBonus",
-            "value": 13
-          },
-          {
-            "key": "rangedStrengthBonus",
-            "value": 93
-          }
-        ],
-        "specialAttacks": [
-          "melvorAoD:CrystalShot"
-        ],
-        "overrideSpecialChances": [
-          10
-        ],
-        "ammoType": "Javelins"
-      },
+      
       {
         "itemType": "Equipment",
         "id": "Ancient_Javelin_Ammo",
@@ -5385,48 +5344,7 @@
         ],
         "ammoType": "Javelins"
       },
-      {
-        "itemType": "Equipment",
-        "id": "Crystal_Javelin_Ammo",
-        "name": "Crystal Javelin (Ammo)",
-        "category": "Combat",
-        "type": "Ammo",
-        "media": "assets/items/Equipment/Crystal_Javelin_Ammo.png",
-        "customDescription": "For use with the <strong>Heavy Hand Ballista</strong>",
-        "ignoreCompletion": false,
-        "obtainFromItemLog": false,
-        "golbinRaidExclusive": false,
-        "sellsFor": 156,
-        "tier": "Crystal",
-        "validSlots": [
-          "Quiver"
-        ],
-        "occupiesSlots": [],
-        "equipRequirements": [
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Ranged",
-            "level": 20
-          }
-        ],
-        "equipmentStats": [
-          {
-            "key": "rangedAttackBonus",
-            "value": 7
-          },
-          {
-            "key": "rangedStrengthBonus",
-            "value": 66
-          }
-        ],
-        "specialAttacks": [
-          "melvorAoD:CrystalShot"
-        ],
-        "overrideSpecialChances": [
-          5
-        ],
-        "ammoType": "Javelins"
-      },
+      
       {
         "itemType": "Equipment",
         "id": "Corundum_Javelin_Ammo",
@@ -20689,7 +20607,6 @@
           "expandedAreas:Wild_Strikes"
         ],
         "passives": [
-          "melvorTotH:Rage"
         ],
         "lootChance": 100,
         "lootTable": [
@@ -21056,7 +20973,6 @@
           "expandedAreas:Wild_Strikes"
         ],
         "passives": [
-          "melvorTotH:Rage"
         ],
         "lootChance": 100,
         "lootTable": [
@@ -21161,7 +21077,6 @@
           "melvorD:BruteForce"
         ],
         "passives": [
-          "melvorTotH:Rage"
         ],
         "lootChance": 20,
         "lootTable": [],
@@ -21209,7 +21124,6 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [
-          "melvorTotH:Rage"
         ],
         "lootChance": 100,
         "lootTable": [
@@ -21264,7 +21178,6 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [
-          "melvorTotH:Rage"
         ],
         "lootChance": 100,
         "lootTable": [
@@ -21319,7 +21232,6 @@
         "attackType": "melee",
         "specialAttacks": [],
         "passives": [
-          "melvorTotH:Rage"
         ],
         "lootChance": 100,
         "lootTable": [
@@ -21364,7 +21276,6 @@
           "expandedAreas:Wild_Strikes"
         ],
         "passives": [
-          "melvorTotH:Rage"
         ],
         "lootChance": 100,
         "lootTable": [],
@@ -45683,84 +45594,8 @@
         "upgradedItemID": "expandedAreas:Ancient_Javelin_Ammo",
         "isDowngrade": false
       },
-      {
-        "rootItemIDs": [
-          "melvorAoD:Crystal_Javelin"
-        ],
-        "itemCosts": [
-          {
-            "id": "melvorAoD:Crystal_Javelin",
-            "quantity": 1
-          }
-        ],
-        "upgradedItemID": "expandedAreas:Crystal_Javelin_Ammo",
-        "isDowngrade": false
-      },
-      {
-        "rootItemIDs": [
-          "melvorAoD:Pure_Crystal_Javelin"
-        ],
-        "itemCosts": [
-          {
-            "id": "melvorAoD:Pure_Crystal_Javelin",
-            "quantity": 1
-          }
-        ],
-        "upgradedItemID": "expandedAreas:Pure_Crystal_Javelin_Ammo",
-        "isDowngrade": false
-      },
-      {
-        "rootItemIDs": [
-          "melvorTotH:Corundum_Javelin"
-        ],
-        "itemCosts": [
-          {
-            "id": "melvorTotH:Corundum_Javelin",
-            "quantity": 1
-          }
-        ],
-        "upgradedItemID": "expandedAreas:Corundum_Javelin_Ammo",
-        "isDowngrade": false
-      },
-      {
-        "rootItemIDs": [
-          "melvorTotH:Augite_Javelin"
-        ],
-        "itemCosts": [
-          {
-            "id": "melvorTotH:Augite_Javelin",
-            "quantity": 1
-          }
-        ],
-        "upgradedItemID": "expandedAreas:Augite_Javelin_Ammo",
-        "isDowngrade": false
-      },
-      {
-        "rootItemIDs": [
-          "melvorTotH:Divine_Javelin"
-        ],
-        "itemCosts": [
-          {
-            "id": "melvorTotH:Divine_Javelin",
-            "quantity": 1
-          }
-        ],
-        "upgradedItemID": "expandedAreas:Divine_Javelin_Ammo",
-        "isDowngrade": false
-      },
-      {
-        "rootItemIDs": [
-          "melvorTotH:Meteorite_Javelin"
-        ],
-        "itemCosts": [
-          {
-            "id": "melvorTotH:Meteorite_Javelin",
-            "quantity": 1
-          }
-        ],
-        "upgradedItemID": "expandedAreas:Meteorite_Javelin_Ammo",
-        "isDowngrade": false
-      },
+      
+      
       {
         "upgradedItemID": "expandedAreas:Amulet_of_Blood_Fury",
         "itemCosts": [
@@ -47675,8 +47510,7 @@
           "expandedAreas:Papaya_Tree_Seed",
           "expandedAreas:Palm_Tree_Seed",
           "melvorF:Apple_Tree_Seeds",
-          "expandedAreas:Dragonfruit_Tree_Seed",
-          "melvorTotH:Banana_Tree_Seeds"
+          "expandedAreas:Dragonfruit_Tree_Seed"
         ]
       },
       {
@@ -54707,15 +54541,7 @@
           ]
         }
       },
-      {
-        "id": "melvorAoD:Ghostly_Parrot",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Accessory1",
-            "expandedAreas:Accessory2"
-          ]
-        }
-      },
+     
       {
         "id": "melvorD:Book_of_Eli",
         "validSlots": {
@@ -54734,15 +54560,7 @@
           ]
         }
       },
-      {
-        "id": "melvorTotH:Voodoo_Trinket",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Accessory1",
-            "expandedAreas:Accessory2"
-          ]
-        }
-      },
+      
       {
         "id": "melvorF:Fine_Coinpurse",
         "validSlots": {
@@ -54752,15 +54570,7 @@
           ]
         }
       },
-      {
-        "id": "melvorAoD:Sailors_Compass",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Accessory1",
-            "expandedAreas:Accessory2"
-          ]
-        }
-      },
+      
       {
         "id": "melvorF:Book_Of_Scholars",
         "validSlots": {
@@ -54770,74 +54580,9 @@
           ]
         }
       },
-      {
-        "id": "melvorAoD:Cursed_Arcana",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Accessory1",
-            "expandedAreas:Accessory2"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Ancient_Arcana",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Accessory1",
-            "expandedAreas:Accessory2"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Book_of_the_Ancients",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Accessory1",
-            "expandedAreas:Accessory2"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Hunters_Journal",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Accessory1",
-            "expandedAreas:Accessory2"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Mortar_and_Pestle",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Tool"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Grappling_Hook",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Tool"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Ancient_Scythe",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Tool"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Old_Wooden_Ladle",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Tool"
-          ]
-        }
-      },
+      
+      
+      
       {
         "id": "melvorF:Chefs_Spoon",
         "validSlots": {
@@ -54846,121 +54591,8 @@
           ]
         }
       },
-      {
-        "id": "melvorTotH:Potion_Stirrer",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Tool"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Mining_Lantern",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Tool"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Blacksmith_Tongs",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Tool"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Chisel",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Tool"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Fishing_Net",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Tool"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Archaeologists_Whip",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Tool"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Golden_Trowel",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Tool"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Captains_Logbook",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Accessory1",
-            "expandedAreas:Accessory2"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Old_Spyglass",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Tool"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Enhanced_Spyglass",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Tool"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Old_Fancy_Quill",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Tool"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Sturdy_Fancy_Quill",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Tool"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Burning_Embers_Book",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Accessory1",
-            "expandedAreas:Accessory2"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Bottle_of_Mystic_Water",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Accessory1",
-            "expandedAreas:Accessory2"
-          ]
-        }
-      },
+      
+      
       {
         "id": "melvorD:Bobs_Rake",
         "validSlots": {
@@ -55302,262 +54934,8 @@
           ]
         }
       },
-      {
-        "id": "melvorTotH:Iridium_Onyx_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Palladium_Onyx_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Iridium_Cerulean_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Palladium_Cerulean_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Iridium_Oricha_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Palladium_Oricha_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Iridium_Runestone_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Iridium_Zephyte_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Palladium_Zephyte_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Palladium_Runestone_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Meteorite_Warrior_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Meteorite_Marksman_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Meteorite_Spellcaster_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Meteorite_Woodcutting_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Ring_of_Summoning",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Blood_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Barrier_Eroding_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Barrier_Hunter_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Bone_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Bronze_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Cleansing_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Cursed_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Haunted_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Ring_of_Barrier_Touch",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Ring_of_Curse_Protection",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Ring_of_Deception",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Ring_of_Faith",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Ring_of_Malice",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorTotH:Ring_of_Phantom_Summon",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Silver_Magic_Band",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Summoners_Blessed_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
-      {
-        "id": "melvorAoD:Unholy_Ring",
-        "validSlots": {
-          "add": [
-            "expandedAreas:Ring"
-          ]
-        }
-      },
+      
+      
       {
         "id": "melvorD:Bird_Nest",
         "dropTable": {
@@ -56581,12 +55959,7 @@
           2
         ]
       },
-      {
-        "id": "melvorAoD:Unholy_Forest",
-        "difficulty": [
-          3
-        ]
-      },
+      
       {
         "id": "melvorF:Dragons_Den",
         "difficulty": [
@@ -58687,17 +58060,7 @@
           "Magic": 820
         }
       },
-      {
-        "id": "melvorAoD:Nagaia",
-        "levels": {
-          "Hitpoints": 1125,
-          "Attack": 1,
-          "Strength": 1,
-          "Defence": 575,
-          "Ranged": 750,
-          "Magic": 500
-        }
-      },
+      
       {
         "id": "melvorD:JuniorFarmer",
         "lootChance": 100,
@@ -59099,5 +58462,680 @@
         }
       }
     ]
-  }
+  },
+  "dependentData": [
+    {
+      "namespace": "melvorAoD",
+      "data": {
+        "items": [
+          {
+            "itemType": "Equipment",
+            "id": "Crystal_Javelin_Ammo",
+            "name": "Crystal Javelin (Ammo)",
+            "category": "Combat",
+            "type": "Ammo",
+            "media": "assets/items/Equipment/Crystal_Javelin_Ammo.png",
+            "customDescription": "For use with the <strong>Heavy Hand Ballista</strong>",
+            "ignoreCompletion": false,
+            "obtainFromItemLog": false,
+            "golbinRaidExclusive": false,
+            "sellsFor": 156,
+            "tier": "Crystal",
+            "validSlots": [
+              "Quiver"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [
+              {
+                "type": "SkillLevel",
+                "skillID": "melvorD:Ranged",
+                "level": 20
+              }
+            ],
+            "equipmentStats": [
+              {
+                "key": "rangedAttackBonus",
+                "value": 7
+              },
+              {
+                "key": "rangedStrengthBonus",
+                "value": 66
+              }
+            ],
+            "specialAttacks": [
+              "melvorAoD:CrystalShot"
+            ],
+            "overrideSpecialChances": [
+              5
+            ],
+            "ammoType": "Javelins"
+          },
+          {
+            "itemType": "Equipment",
+            "id": "Pure_Crystal_Javelin_Ammo",
+            "name": "Pure Crystal Javelin (Ammo)",
+            "category": "Combat",
+            "type": "Ammo",
+            "media": "assets/items/Equipment/Pure_Crystal_Javelin_Ammo.png",
+            "customDescription": "For use with the <strong>Heavy Hand Ballista</strong>",
+            "ignoreCompletion": false,
+            "obtainFromItemLog": false,
+            "golbinRaidExclusive": false,
+            "sellsFor": 650,
+            "tier": "Dragon",
+            "validSlots": [
+              "Quiver"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [
+              {
+                "type": "SkillLevel",
+                "skillID": "melvorD:Ranged",
+                "level": 60
+              }
+            ],
+            "equipmentStats": [
+              {
+                "key": "rangedAttackBonus",
+                "value": 13
+              },
+              {
+                "key": "rangedStrengthBonus",
+                "value": 93
+              }
+            ],
+            "specialAttacks": [
+              "melvorAoD:CrystalShot"
+            ],
+            "overrideSpecialChances": [
+              10
+            ],
+            "ammoType": "Javelins"
+          }
+        ],
+        "itemUpgrades": [
+          {
+            "rootItemIDs": [
+              "melvorAoD:Crystal_Javelin"
+            ],
+            "itemCosts": [
+              {
+                "id": "melvorAoD:Crystal_Javelin",
+                "quantity": 1
+              }
+            ],
+            "upgradedItemID": "expandedAreas:Crystal_Javelin_Ammo",
+            "isDowngrade": false
+          },
+          {
+            "rootItemIDs": [
+              "melvorAoD:Pure_Crystal_Javelin"
+            ],
+            "itemCosts": [
+              {
+                "id": "melvorAoD:Pure_Crystal_Javelin",
+                "quantity": 1
+              }
+            ],
+            "upgradedItemID": "expandedAreas:Pure_Crystal_Javelin_Ammo",
+            "isDowngrade": false
+          }
+        ]
+      },
+      "modifications": {
+        "items": [
+          {
+            "id": "melvorAoD:Ghostly_Parrot",
+            "validSlots": {
+              "add": [
+                "expandedAreas:Accessory1",
+                "expandedAreas:Accessory2"
+              ]
+              }
+            },
+            {
+              "id": "melvorAoD:Sailors_Compass",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Accessory1",
+                  "expandedAreas:Accessory2"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Cursed_Arcana",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Accessory1",
+                  "expandedAreas:Accessory2"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Ancient_Arcana",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Accessory1",
+                  "expandedAreas:Accessory2"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Ancient_Scythe",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Tool"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Old_Wooden_Ladle",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Tool"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Mining_Lantern",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Tool"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Blacksmith_Tongs",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Tool"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Chisel",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Tool"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Fishing_Net",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Tool"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Archaeologists_Whip",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Tool"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Golden_Trowel",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Tool"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Captains_Logbook",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Accessory1",
+                  "expandedAreas:Accessory2"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Old_Spyglass",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Tool"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Enhanced_Spyglass",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Tool"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Old_Fancy_Quill",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Tool"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Sturdy_Fancy_Quill",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Tool"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Bottle_of_Mystic_Water",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Accessory1",
+                  "expandedAreas:Accessory2"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Ring_of_Summoning",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Barrier_Eroding_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Barrier_Hunter_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Bone_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Bronze_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Cleansing_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Cursed_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Haunted_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Ring_of_Barrier_Touch",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Ring_of_Deception",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Ring_of_Faith",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Ring_of_Malice",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Silver_Magic_Band",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Summoners_Blessed_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorAoD:Unholy_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            }
+          ],
+          "dungeons": [
+            {
+              "id": "melvorAoD:Unholy_Forest",
+              "difficulty": [
+                3
+              ]
+            }
+          ],
+          "monsters": [
+            {
+              "id": "melvorAoD:Nagaia",
+              "levels": {
+                "Hitpoints": 1125,
+                "Attack": 1,
+                "Strength": 1,
+                "Defence": 575,
+                "Ranged": 750,
+                "Magic": 500
+              }
+            }
+          ]
+        }
+      },
+      {
+        "namespace": "melvorTotH",
+        "data": {
+          "itemUpgrades": [
+            {
+              "rootItemIDs": [
+                "melvorTotH:Corundum_Javelin"
+              ],
+              "itemCosts": [
+                {
+                  "id": "melvorTotH:Corundum_Javelin",
+                  "quantity": 1
+                }
+              ],
+              "upgradedItemID": "expandedAreas:Corundum_Javelin_Ammo",
+              "isDowngrade": false
+            },
+            {
+              "rootItemIDs": [
+                "melvorTotH:Augite_Javelin"
+              ],
+              "itemCosts": [
+                {
+                  "id": "melvorTotH:Augite_Javelin",
+                  "quantity": 1
+                }
+              ],
+              "upgradedItemID": "expandedAreas:Augite_Javelin_Ammo",
+              "isDowngrade": false
+            },
+            {
+              "rootItemIDs": [
+                "melvorTotH:Divine_Javelin"
+              ],
+              "itemCosts": [
+                {
+                  "id": "melvorTotH:Divine_Javelin",
+                  "quantity": 1
+                }
+              ],
+              "upgradedItemID": "expandedAreas:Divine_Javelin_Ammo",
+              "isDowngrade": false
+            },
+            {
+              "rootItemIDs": [
+                "melvorTotH:Meteorite_Javelin"
+              ],
+              "itemCosts": [
+                {
+                  "id": "melvorTotH:Meteorite_Javelin",
+                  "quantity": 1
+                }
+              ],
+              "upgradedItemID": "expandedAreas:Meteorite_Javelin_Ammo",
+              "isDowngrade": false
+            }
+          ]
+        },
+        "modifications": {
+          "items": [
+            {
+              "id": "melvorTotH:Voodoo_Trinket",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Accessory1",
+                  "expandedAreas:Accessory2"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Book_of_the_Ancients",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Accessory1",
+                  "expandedAreas:Accessory2"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Hunters_Journal",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Accessory1",
+                  "expandedAreas:Accessory2"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Mortar_and_Pestle",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Tool"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Grappling_Hook",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Tool"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Potion_Stirrer",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Tool"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Burning_Embers_Book",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Accessory1",
+                  "expandedAreas:Accessory2"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Iridium_Onyx_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Palladium_Onyx_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Iridium_Cerulean_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Palladium_Cerulean_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Iridium_Oricha_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Palladium_Oricha_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Iridium_Runestone_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Iridium_Zephyte_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Palladium_Zephyte_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Palladium_Runestone_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Meteorite_Warrior_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Meteorite_Marksman_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Meteorite_Spellcaster_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Meteorite_Woodcutting_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Blood_Ring",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Ring_of_Curse_Protection",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            },
+            {
+              "id": "melvorTotH:Ring_of_Phantom_Summon",
+              "validSlots": {
+                "add": [
+                  "expandedAreas:Ring"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
 }
